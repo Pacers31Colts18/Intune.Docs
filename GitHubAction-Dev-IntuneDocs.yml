@@ -1,0 +1,117 @@
+name: "GitHubAction-Dev-IntuneDocs"
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/GitHubAction-Dev-IntuneDocs.yml'
+  schedule:
+    - cron:  '0 3 * * *' #9:00 CST (Runs on UTC)
+
+env:
+  REPO_DIR: ${{ github.workspace }}
+
+permissions:
+  id-token: write
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: intune-docs
+  cancel-in-progress: true
+
+jobs:
+  Backup-DEV:
+    runs-on: ubuntu-latest
+    environment: GraphApi
+
+    outputs:
+      pr_number: ${{ steps.pr.outputs.pr_number }}
+      branch_name: ${{ steps.vars.outputs.branch_name }}
+
+    steps:
+      - name: Cron fired
+        run: echo "Cron triggered at $(date)"
+
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Remove existing backup directory
+        shell: bash
+        working-directory: ${{ env.REPO_DIR }}
+        run: |
+          rm -rfv "${{ env.REPO_DIR }}/DEV"
+
+      # LOGIN TO AZURE
+      - name: DEV Azure Login
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID_DEV }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID_DEV }}
+          allow-no-subscriptions: true
+          enable-AzPSSession: true
+
+      # GENERATE NEW EXPORT INTO DEV/
+      - name: Generate Markdown Files
+        shell: pwsh
+        run: |
+          $GraphTokenResponse = az account get-access-token --resource https://graph.microsoft.com
+          $GraphToken = ($GraphTokenResponse | ConvertFrom-Json).accessToken
+          $SecureToken = ConvertTo-SecureString $GraphToken -AsPlainText -Force
+          Install-Module Microsoft.Graph.Authentication -Force -AllowClobber
+          Install-Module Microsoft.Graph.Beta.DeviceManagement -Force -AllowClobber
+          Connect-MgGraph -AccessToken $SecureToken
+          Import-Module -Name "${{ env.REPO_DIR }}" -Force
+          Invoke-g46IntuneDocumentation -docType all -outputPath "${{ env.REPO_DIR }}/DEV"
+          Invoke-g46IntuneAssignmentDocumentation -doctype All -outputPath "${{ env.REPO_DIR }}/DEV"
+
+      # CONFIGURE GIT
+      - name: Configure Git
+        run: |
+          git config --global user.name "Joe-Loveless2_MNIT"
+          git config --global user.email "Joe.Loveless2@state.mn.us"
+
+      # SET BRANCH NAME
+      - name: Set branch name
+        id: vars
+        run: echo "branch_name=DEV-IntuneDocs-$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      # COMMIT and PUSH
+      - name: Commit changes
+        run: |
+          cd "${{ env.REPO_DIR }}"
+          git checkout -b ${{ steps.vars.outputs.branch_name }}
+          git add .
+          git commit -m "DEV Policies: $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push origin ${{ steps.vars.outputs.branch_name }}
+
+      # CREATE PR
+      - name: Create Pull Request via REST API
+        id: pr
+        run: |
+          echo "Creating PR from branch: ${{ steps.vars.outputs.branch_name }}"
+
+          RESPONSE=$(curl -w "%{http_code}" -o response.json -X POST \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/pulls \
+            -d @- <<EOF
+          {
+            "title": "Automated DEV Intune Docs Update",
+            "head": "${{ steps.vars.outputs.branch_name }}",
+            "base": "main",
+            "body": "Automated documentation update for $(date +'%Y-%m-%d')."
+          }
+          EOF
+          )
+
+          echo "HTTP status: $RESPONSE"
+          echo "Response body:"
+          cat response.json
+
+          PR_NUMBER=$(jq -r '.number' response.json)
+          echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

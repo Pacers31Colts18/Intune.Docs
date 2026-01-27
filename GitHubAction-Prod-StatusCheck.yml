@@ -1,0 +1,59 @@
+name: GitHubAction-Prod-StatusCheck
+
+on:
+  workflow_run:
+    workflows: ["GitHubAction-Prod-IntuneDocs"]
+    types:
+      - completed
+
+permissions:
+  pull-requests: write
+  contents: read
+  statuses: write
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find PR created by PROD-IntuneDocs workflow
+        id: find_pr
+        run: |
+          echo "Searching for PR with branch prefix: PROD-IntuneDocs-"
+
+          PR=$(gh pr list --state open --json number,headRefName \
+               --jq '.[] | select(.headRefName | startswith("PROD-IntuneDocs-")) | .number')
+
+          echo "PR: $PR"
+          echo "pr_number=$PR" >> $GITHUB_OUTPUT
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get PR commit SHA
+        id: get_sha
+        if: ${{ steps.find_pr.outputs.pr_number != '' }}
+        run: |
+          PR=${{ steps.find_pr.outputs.pr_number }}
+
+          SHA=$(gh pr view "$PR" --json headRefOid --jq '.headRefOid')
+          echo "PR commit SHA: $SHA"
+
+          echo "sha=$SHA" >> $GITHUB_OUTPUT
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set status check on PR commit
+        if: ${{ steps.get_sha.outputs.sha != '' }}
+        run: |
+          SHA="${{ steps.get_sha.outputs.sha }}"
+          echo "Setting status on PR commit: $SHA"
+
+          gh api \
+            repos/${{ github.repository }}/statuses/$SHA \
+            -f state=success \
+            -f context="Status-Gate" \
+            -f description="All required jobs completed successfully."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

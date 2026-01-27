@@ -24,7 +24,7 @@ GUID = '41b452a7-6921-4aaf-a278-395caac41ff0'
 Author = 'Joe Loveless'
 
 # Company or vendor of this module
-CompanyName = 'JoeLoveless.com
+CompanyName = 'JoeLoveless.com'
 
 # Copyright statement for this module
 Copyright = '(c) 2026 Joe Loveless. All rights reserved.'

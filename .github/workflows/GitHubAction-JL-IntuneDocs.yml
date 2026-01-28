@@ -42,7 +42,7 @@ jobs:
         shell: bash
         working-directory: ${{ env.REPO_DIR }}
         run: |
-          rm -rfv "${{ env.REPO_DIR }}/DEV"
+          rm -rfv "${{ env.REPO_DIR }}/JL"
 
       # LOGIN TO AZURE
       - name: DEV Azure Login
@@ -64,8 +64,8 @@ jobs:
           Install-Module Microsoft.Graph.Beta.DeviceManagement -Force -AllowClobber
           Connect-MgGraph -AccessToken $SecureToken
           Import-Module -Name "${{ env.REPO_DIR }}" -Force
-          Invoke-g46IntuneDocumentation -docType all -outputPath "${{ env.REPO_DIR }}/DEV"
-          Invoke-g46IntuneAssignmentDocumentation -doctype All -outputPath "${{ env.REPO_DIR }}/DEV"
+          Invoke-g46IntuneDocumentation -docType all -outputPath "${{ env.REPO_DIR }}/Docs"
+          Invoke-g46IntuneAssignmentDocumentation -doctype All -outputPath "${{ env.REPO_DIR }}/Docs"
 
       # CONFIGURE GIT
       - name: Configure Git
@@ -76,7 +76,7 @@ jobs:
       # SET BRANCH NAME
       - name: Set branch name
         id: vars
-        run: echo "branch_name=DEV-IntuneDocs-$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+        run: echo "branch_name=JL-IntuneDocs-$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
       # COMMIT and PUSH
       - name: Commit changes
@@ -84,7 +84,7 @@ jobs:
           cd "${{ env.REPO_DIR }}"
           git checkout -b ${{ steps.vars.outputs.branch_name }}
           git add .
-          git commit -m "DEV Policies: $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git commit -m "Policies: $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push origin ${{ steps.vars.outputs.branch_name }}
 
       # CREATE PR
@@ -99,7 +99,7 @@ jobs:
             https://api.github.com/repos/${{ github.repository }}/pulls \
             -d @- <<EOF
           {
-            "title": "Automated DEV Intune Docs Update",
+            "title": "Automated Intune Docs Update",
             "head": "${{ steps.vars.outputs.branch_name }}",
             "base": "main",
             "body": "Automated documentation update for $(date +'%Y-%m-%d')."
@@ -115,5 +115,6 @@ jobs:
           echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
 

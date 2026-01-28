@@ -1,8 +1,8 @@
-name: GitHubAction-Dev-StatusCheck
+name: GitHubAction-JL-StatusCheck
 
 on:
   workflow_run:
-    workflows: ["GitHubAction-Dev-IntuneDocs"]
+    workflows: ["GitHubAction-JL-IntuneDocs"]
     types:
       - completed
 
@@ -18,13 +18,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Find PR created by Dev-IntuneDocs workflow
+      - name: Find PR created by JL-IntuneDocs workflow
         id: find_pr
         run: |
-          echo "Searching for PR with branch prefix: DEV-IntuneDocs-"
+          echo "Searching for PR with branch prefix: JL-IntuneDocs-"
 
           PR=$(gh pr list --state open --json number,headRefName \
-               --jq '.[] | select(.headRefName | startswith("DEV-IntuneDocs-")) | .number')
+               --jq '.[] | select(.headRefName | startswith("JL-IntuneDocs-")) | .number')
 
           echo "PR: $PR"
           echo "pr_number=$PR" >> $GITHUB_OUTPUT
@@ -57,3 +57,4 @@ jobs:
             -f description="All required jobs completed successfully."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

@@ -50,7 +50,7 @@ function Export-IntuneDeviceComplianceAssignmentDocs {
             
         }
 
-        $safe = Get-SafeFileName $policy.name
+        $safe = Get-SafeFileName $policy.dispayName
         $file = Join-Path $fullPath ($safe + '.md')
         Set-Content -Path $file -Value $md -Encoding UTF8
     }

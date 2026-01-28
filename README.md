@@ -1,5 +1,5 @@
 # Intune.Docs
-Intune documentation for Endpoint Configuration and Automation.
+Intune Documentation that converts JSON files to Markdown. Can be ran manually, or with GitHub Actions for automatic documentation.
 
 ### Change Log
 
@@ -10,91 +10,91 @@ Date | Change | Author
 ### Main Functions
 Name | Description |
 ---- | ----------- |
-Invoke-g46IntuneDocumentation | Runs the process for Intune policy documentation. Will loop through all the Export functions.
-Invoke-g46IntuneAssignmentDocumentation | Runs the process for Inthe assignment documentation. Will loop through all the Export functions.
+Invoke-IntuneDocumentation | Runs the process for Intune policy documentation. Will loop through all the Export functions.
+Invoke-IntuneAssignmentDocumentation | Runs the process for Inthe assignment documentation. Will loop through all the Export functions.
 
 ### Helper Functions
 Name | Description |
 ---- | ----------- |
 Get-SafeFileName | Removes any illegal characters, and replaces spaces with _ for proper formatting.
-Get-g46IntuneDeviceManagementPolicy | Used to retrieve base information of policies based off their graph endpoint.
-Get-g46GroupClassification | Converts group ID to group name. Converts '@odata.type' names to a friendly format.
+Get-IntuneDeviceManagementPolicy | Used to retrieve base information of policies based off their graph endpoint.
+Get-GroupClassification | Converts group ID to group name. Converts '@odata.type' names to a friendly format.
 
 ### ConfigurationPolicies Functions
 
 Configuration Policies = Settings Catalog
 Name |
 ---- |
-Convert-g46IntuneConfigurationPoliciesAssignmentToMarkdown
-Convert-g46IntuneConfigurationPoliciesToMarkdown
-Export-g46IntuneConfigurationPoliciesAssignmentDocs
-Export-g46IntuneConfigurationPoliciesDocs
+Convert-IntuneConfigurationPoliciesAssignmentToMarkdown
+Convert-IntuneConfigurationPoliciesToMarkdown
+Export-IntuneConfigurationPoliciesAssignmentDocs
+Export-IntuneConfigurationPoliciesDocs
 
 ### DeviceCompliancePolicies Functions
 Name |
 ---- |
-Convert-g46IntuneDeviceCompliancePoliciesToMarkdown
-Convert-g46IntuneDeviceComplianceAssignmentToMarkdown
-Export-g46IntuneDeviceCompliancePoliciesDocs
-Export-g46IntuneDeviceComplianceAssignmentDocs
+Convert-IntuneDeviceCompliancePoliciesToMarkdown
+Convert-IntuneDeviceComplianceAssignmentToMarkdown
+Export-IntuneDeviceCompliancePoliciesDocs
+Export-IntuneDeviceComplianceAssignmentDocs
 
 ### DeviceConfigurationPolicies Functions
 DeviceConfiguration = OMA-URI, Templates, Wifi, Certificates, etc.
 Name |
 ---- |
-Convert-g46IntuneDeviceConfigurationPoliciesToMarkdown
-Convert-g46IntuneDeviceConfigurationAssignmentToMarkdown
-Export-g46IntuneDeviceConfigurationAssignmentDocs
-Export-g46IntuneDeviceConfigurationPoliciesDocs
+Convert-IntuneDeviceConfigurationPoliciesToMarkdown
+Convert-IntuneDeviceConfigurationAssignmentToMarkdown
+Export-IntuneDeviceConfigurationAssignmentDocs
+Export-IntuneDeviceConfigurationPoliciesDocs
 
 ### DeviceEnrollmentConfigurations Functions
 Name |
 ---- |
-Convert-g46IntuneDeviceEnrollmentConfigurationstoMarkdown
-Convert-g46IntuneDeviceEnrollmentConfigurationsAssignmentToMarkdown
-Export-g46IntuneDeviceEnrollmentConfigurationsDocs
-Export-g46IntuneDeviceEnrollmentConfigurationsAssignmentDocs
+Convert-IntuneDeviceEnrollmentConfigurationstoMarkdown
+Convert-IntuneDeviceEnrollmentConfigurationsAssignmentToMarkdown
+Export-IntuneDeviceEnrollmentConfigurationsDocs
+Export-IntuneDeviceEnrollmentConfigurationsAssignmentDocs
 
 ### DeviceHealthScripts Functions
 DeviceHealthScripts = Remediation Scripts
 Name |
 ---- |
-Convert-g46IntuneDeviceHealthScriptsToMarkdown
-Convert-g46IntuneDeviceHealthScriptsAssignmentToMarkdown
-Export-g46IntuneDeviceHealthScriptsDocs
-Export-g46IntuneDeviceHealthScriptsAssignmentDocs
+Convert-IntuneDeviceHealthScriptsToMarkdown
+Convert-IntuneDeviceHealthScriptsAssignmentToMarkdown
+Export-IntuneDeviceHealthScriptsDocs
+Export-IntuneDeviceHealthScriptsAssignmentDocs
 
 ### DeviceManagementScripts Functions
 DeviceManagementScripts = Platform Scripts
 Name |
 ---- |
-Convert-g46IntuneDeviceManagementScriptsToMarkdown
-Convert-g46IntuneDeviceManagementScriptsAssignmentToMarkdown
-Export-g46IntuneDeviceManagementScriptsDocs
-Export-g46IntuneDeviceManagementScriptsAssignmentDocs
+Convert-IntuneDeviceManagementScriptsToMarkdown
+Convert-IntuneDeviceManagementScriptsAssignmentToMarkdown
+Export-IntuneDeviceManagementScriptsDocs
+Export-IntuneDeviceManagementScriptsAssignmentDocs
 
 ### DeviceShellScripts Functions
 DeviceManagementScripts = macOS Scripts
 Name |
 ---- |
-Convert-g46IntuneDeviceShellScriptsToMarkdown
-Convert-g46IntuneDeviceShellScriptsAssignmentToMarkdown
-Export-g46IntuneDeviceShellScriptsDocs
-Export-g46IntuneDeviceShellScriptsAssignmentDocs
+Convert-IntuneDeviceShellScriptsToMarkdown
+Convert-IntuneDeviceShellScriptsAssignmentToMarkdown
+Export-IntuneDeviceShellScriptsDocs
+Export-IntuneDeviceShellScriptsAssignmentDocs
 
 ### GroupPolicyConfigurations Functions
 GroupPolicyConfigurations = Custom ADMX Templates
 Name |
 ---- |
-Convert-g46IntuneGroupPolicyConfigurationsToMarkdown
-Convert-g46IntuneGroupPolicyConfigurationsAssignmentToMarkdown
-Export-g46IntuneGroupPolicyConfigurationsPoliciesDocs
-Export-g46IntuneGroupPolicyConfigurationsAssignmentDocs
+Convert-IntuneGroupPolicyConfigurationsToMarkdown
+Convert-IntuneGroupPolicyConfigurationsAssignmentToMarkdown
+Export-IntuneGroupPolicyConfigurationsPoliciesDocs
+Export-IntuneGroupPolicyConfigurationsAssignmentDocs
 
 ### WindowsAutopilotDeploymentProfiles Functions
 Name |
 ---- |
-Convert-g46IntuneWindowsAutopilotDeploymentProfilesDocs
-Convert-g46IntuneWindowsAutopilotDeploymentProfilesAssignmentDocs
-Export-g46IntuneWindowsAutopilotDeploymentProfilesDocs
-Export-g46IntuneWindowsAutopilotDeploymentProfilesAssignmentDocs
+Convert-IntuneWindowsAutopilotDeploymentProfilesDocs
+Convert-IntuneWindowsAutopilotDeploymentProfilesAssignmentDocs
+Export-IntuneWindowsAutopilotDeploymentProfilesDocs
+Export-IntuneWindowsAutopilotDeploymentProfilesAssignmentDocs

@@ -30,7 +30,7 @@ function Export-IntuneDeviceCompliancePoliciesDocs {
      
         $md = Convert-g46IntuneDeviceCompliancePoliciestoMarkdown -Policy $policy -Settings $policyResponse
 
-        $safe = Get-SafeFileName $policy.name
+        $safe = Get-SafeFileName $policy.displayName
         $file = Join-Path $fullPath ($safe + '.md')
         Set-Content -Path $file -Value $md -Encoding UTF8
     }

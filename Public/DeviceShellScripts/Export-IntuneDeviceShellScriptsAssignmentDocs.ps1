@@ -46,7 +46,7 @@ function Export-IntuneDeviceShellScriptsAssignmentDocs {
         $md = Convert-IntuneDeviceShellScriptsAssignmentToMarkdown -Policy $policy -Assignments $assignments
             
 
-        $safe = Get-SafeFileName $policy.name
+        $safe = Get-SafeFileName $policy.displayName
         $file = Join-Path $fullPath ($safe + '.md')
         Set-Content -Path $file -Value $md -Encoding UTF8
 }

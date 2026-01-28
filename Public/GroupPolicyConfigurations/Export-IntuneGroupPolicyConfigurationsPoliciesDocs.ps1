@@ -63,7 +63,7 @@ function Export-IntuneGroupPolicyConfigurationsPoliciesDocs {
       
         $md = Convert-IntuneGroupPolicyConfigurationstoMarkdown -Policy $policy -Settings $presentations
 
-        $safe = Get-SafeFileName $policy.name
+        $safe = Get-SafeFileName $policy.displayName
         $file = Join-Path $fullPath ($safe + '.md')
         Set-Content -Path $file -Value $md -Encoding UTF8
     }

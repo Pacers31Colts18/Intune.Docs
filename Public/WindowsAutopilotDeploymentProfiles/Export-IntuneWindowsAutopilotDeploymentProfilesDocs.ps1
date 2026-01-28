@@ -36,7 +36,7 @@ function Export-IntuneWindowsAutopilotDeploymentProfilesDocs {
     
         $md = Convert-IntuneWindowsAutopilotDeploymentProfilesToMarkdown -Policy $policy -Settings $response
 
-        $safe = Get-SafeFileName $policy.name
+        $safe = Get-SafeFileName $policy.displayName
         $file = Join-Path $fullPath ($safe + '.md')
         Set-Content -Path $file -Value $md -Encoding UTF8
     }

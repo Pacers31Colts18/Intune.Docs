@@ -26,7 +26,7 @@ function Export-IntuneDeviceManagementScriptsDocs {
     
         $md = Convert-IntuneDeviceManagementScriptstoMarkdown -policy $policy -settings $response
 
-        $safe = Get-SafeFileName $policy.name
+        $safe = Get-SafeFileName $policy.displayName
         $file = Join-Path $fullPath ($safe + '.md')
         Set-Content -Path $file -Value $md -Encoding UTF8
     }

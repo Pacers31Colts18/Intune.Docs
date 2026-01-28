@@ -64,8 +64,8 @@ jobs:
           Install-Module Microsoft.Graph.Beta.DeviceManagement -Force -AllowClobber
           Connect-MgGraph -AccessToken $SecureToken
           Import-Module -Name "${{ env.REPO_DIR }}" -Force
-          Invoke-g46IntuneDocumentation -docType all -outputPath "${{ env.REPO_DIR }}/Docs"
-          Invoke-g46IntuneAssignmentDocumentation -doctype All -outputPath "${{ env.REPO_DIR }}/Docs"
+          Invoke-IntuneDocumentation -docType all -outputPath "${{ env.REPO_DIR }}/Docs"
+          Invoke-IntuneAssignmentDocumentation -doctype All -outputPath "${{ env.REPO_DIR }}/Docs"
 
       # CONFIGURE GIT
       - name: Configure Git
@@ -115,6 +115,7 @@ jobs:
           echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
 
 

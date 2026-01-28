@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/ALL_W11_D_CISL1_CompAdministrativeTemplates_AppNotificationsOnLockScreen_PROD.md)
 
-**Report Generated:** 01/28/2026 22:55:45
+**Report Generated:** 01/28/2026 22:59:42
 
 ---
 
@@ -29,37 +29,37 @@ If you disable or do not configure this policy setting, users can choose which a
 
 ```json
 {
-  "dependentOn": [],
+  "description": null,
   "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_1",
-  "displayName": "Enabled",
-  "optionValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null,
-    "value": 1
-  },
+  "dependentOn": [],
   "name": "Enabled",
   "helpText": null,
-  "description": null
+  "optionValue": {
+    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null
+  },
+  "displayName": "Enabled",
+  "itemId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_1"
 }
 ```
 
 ## Setting Definition
 ```json
 {
-  "description": "This policy setting allows you to prevent app notifications from appearing on the lock screen.\r\n\r\nIf you enable this policy setting, no app notifications are displayed on the lock screen.\r\n\r\nIf you disable or do not configure this policy setting, users can choose which apps display notifications on the lock screen.",
   "uxBehavior": "toggle",
-  "baseUri": "./Device/Vendor/MSFT/Policy",
-  "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
-  "accessTypes": "add,delete,get,replace",
-  "rootDefinitionId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications",
+  "infoUrls": [
+    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-disablelockscreenappnotifications"
+  ],
+  "offsetUri": "/Config/WindowsLogon/DisableLockScreenAppNotifications",
   "applicability": {
-    "maximumSupportedVersion": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "minimumSupportedVersion": "10.0.15063",
     "requiredAzureAdTrustType": "none",
-    "technologies": "mdm",
+    "minimumSupportedVersion": "10.0.15063",
     "configurationServiceProviderVersion": "5.0",
+    "description": null,
+    "technologies": "mdm",
+    "deviceMode": "none",
+    "maximumSupportedVersion": null,
     "requiresAzureAd": false,
     "windowsSkus": [
       "windowsEnterprise",
@@ -70,66 +70,66 @@ If you disable or do not configure this policy setting, users can choose which a
       "windows11SE",
       "iotEnterpriseSEval"
     ],
-    "description": null,
-    "deviceMode": "none",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
     "platform": "windows10"
   },
+  "riskLevel": "low",
+  "settingUsage": "configuration",
+  "accessTypes": "add,delete,get,replace",
+  "helpText": "",
+  "defaultOptionId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_0",
+  "baseUri": "./Device/Vendor/MSFT/Policy",
+  "occurrence": {
+    "minDeviceOccurrence": 0,
+    "maxDeviceOccurrence": 1
+  },
+  "description": "This policy setting allows you to prevent app notifications from appearing on the lock screen.\r\n\r\nIf you enable this policy setting, no app notifications are displayed on the lock screen.\r\n\r\nIf you disable or do not configure this policy setting, users can choose which apps display notifications on the lock screen.",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+  "version": "639045552477164158",
+  "rootDefinitionId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications",
+  "referredSettingInformationList": [],
+  "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
+  "displayName": "Turn off app notifications on the lock screen",
+  "name": "DisableLockScreenAppNotifications",
+  "id": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications",
   "visibility": "settingsCatalog,template",
   "options": [
     {
-      "dependentOn": [],
+      "description": null,
       "dependedOnBy": [],
-      "itemId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_0",
-      "displayName": "Disabled",
-      "optionValue": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "settingValueTemplateReference": null,
-        "value": 0
-      },
+      "dependentOn": [],
       "name": "Disabled",
       "helpText": null,
-      "description": null
+      "optionValue": {
+        "value": 0,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null
+      },
+      "displayName": "Disabled",
+      "itemId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_0"
     },
     {
-      "dependentOn": [],
+      "description": null,
       "dependedOnBy": [],
-      "itemId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_1",
-      "displayName": "Enabled",
-      "optionValue": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "settingValueTemplateReference": null,
-        "value": 1
-      },
+      "dependentOn": [],
       "name": "Enabled",
       "helpText": null,
-      "description": null
+      "optionValue": {
+        "value": 1,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null
+      },
+      "displayName": "Enabled",
+      "itemId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_1"
     }
   ],
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-  "defaultOptionId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_0",
-  "settingUsage": "configuration",
-  "version": "639045552477164158",
-  "infoUrls": [
-    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-disablelockscreenappnotifications"
-  ],
-  "offsetUri": "/Config/WindowsLogon/DisableLockScreenAppNotifications",
-  "helpText": "",
-  "id": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications",
-  "displayName": "Turn off app notifications on the lock screen",
   "keywords": [
     "DisableLockScreenAppNotifications",
     "Turn off app notifications on the lock screen",
     "\\System\\Logon",
     "Administrative Templates\\System\\Logon",
     "Logon"
-  ],
-  "referredSettingInformationList": [],
-  "name": "DisableLockScreenAppNotifications",
-  "riskLevel": "low",
-  "occurrence": {
-    "maxDeviceOccurrence": 1,
-    "minDeviceOccurrence": 0
-  }
+  ]
 }
 ```
 

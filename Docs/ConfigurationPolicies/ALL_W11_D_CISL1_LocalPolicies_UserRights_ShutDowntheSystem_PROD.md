@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/ALL_W11_D_CISL1_LocalPolicies_UserRights_ShutDowntheSystem_PROD.md)
 
-**Report Generated:** 01/28/2026 22:55:47
+**Report Generated:** 01/28/2026 22:59:44
 
 ---
 
@@ -26,49 +26,46 @@
 
 ```json
 {
+  "value": "Administrators",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "settingValueTemplateReference": null,
-  "value": "Administrators"
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
+  "value": "Users",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "settingValueTemplateReference": null,
-  "value": "Users"
+  "settingValueTemplateReference": null
 }
 ```
 
 ## Setting Definition
 ```json
 {
-  "minimumCount": 0,
-  "rootDefinitionId": "device_vendor_msft_policy_config_userrights_shutdownthesystem",
+  "description": "This security setting determines which users who are logged on locally to the computer can shut down the operating system using the Shut Down command. Misuse of this user right can result in a denial of service.\r\n ",
+  "helpText": "",
+  "referredSettingInformationList": [],
+  "baseUri": "./Device/Vendor/MSFT/Policy",
   "valueDefinition": {
-    "fileTypes": [],
     "minimumLength": 0,
+    "maximumLength": 87516,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
     "isSecret": false,
-    "format": "none",
     "inputValidationSchema": null,
-    "maximumLength": 87516
+    "fileTypes": [],
+    "format": "none"
   },
-  "id": "device_vendor_msft_policy_config_userrights_shutdownthesystem",
-  "version": "639045552477164158",
-  "baseUri": "./Device/Vendor/MSFT/Policy",
-  "visibility": "settingsCatalog,template",
-  "dependentOn": [],
-  "accessTypes": "add,delete,get,replace",
-  "offsetUri": "/Config/UserRights/ShutDownTheSystem",
-  "settingUsage": "configuration",
+  "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
+  "riskLevel": "low",
   "applicability": {
-    "maximumSupportedVersion": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "minimumSupportedVersion": "10.0.22621.5126",
     "requiredAzureAdTrustType": "none",
-    "technologies": "mdm",
+    "minimumSupportedVersion": "10.0.22621.5126",
     "configurationServiceProviderVersion": "11.0",
+    "description": null,
+    "technologies": "mdm",
+    "deviceMode": "none",
+    "maximumSupportedVersion": null,
     "requiresAzureAd": false,
     "windowsSkus": [
       "windowsEnterprise",
@@ -80,37 +77,40 @@
       "windows11SE",
       "iotEnterpriseSEval"
     ],
-    "description": null,
-    "deviceMode": "none",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
     "platform": "windows10"
   },
-  "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-  "referredSettingInformationList": [],
   "dependedOnBy": [],
+  "dependentOn": [],
   "uxBehavior": "default",
-  "infoUrls": [
-    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#shutdownthesystem"
-  ],
-  "maximumCount": 1000,
-  "description": "This security setting determines which users who are logged on locally to the computer can shut down the operating system using the Shut Down command. Misuse of this user right can result in a denial of service.\r\n ",
-  "displayName": "Shut Down The System",
-  "defaultValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-    "settingValueTemplateReference": null,
-    "value": null
-  },
-  "occurrence": {
-    "maxDeviceOccurrence": 1,
-    "minDeviceOccurrence": 0
-  },
-  "helpText": "",
-  "riskLevel": "low",
-  "name": "ShutDownTheSystem",
   "keywords": [
     "Shut Down The System",
     "User Rights"
-  ]
+  ],
+  "settingUsage": "configuration",
+  "minimumCount": 0,
+  "visibility": "settingsCatalog,template",
+  "displayName": "Shut Down The System",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+  "maximumCount": 1000,
+  "rootDefinitionId": "device_vendor_msft_policy_config_userrights_shutdownthesystem",
+  "version": "639045552477164158",
+  "name": "ShutDownTheSystem",
+  "occurrence": {
+    "minDeviceOccurrence": 0,
+    "maxDeviceOccurrence": 1
+  },
+  "offsetUri": "/Config/UserRights/ShutDownTheSystem",
+  "infoUrls": [
+    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#shutdownthesystem"
+  ],
+  "accessTypes": "add,delete,get,replace",
+  "defaultValue": {
+    "value": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+    "settingValueTemplateReference": null
+  },
+  "id": "device_vendor_msft_policy_config_userrights_shutdownthesystem"
 }
 ```
 

@@ -20,7 +20,7 @@ function Export-IntuneDeviceCompliancePoliciesDocs {
     }
 
     # Retrieve policies
-    $policies = Get-g46IntuneDeviceManagementPolicy -graphendpoint $endpoint
+    $policies = Get-IntuneDeviceManagementPolicy -graphendpoint $endpoint
 
     foreach ($policy in $policies) {
         Write-Output ('Exporting ' + $policy.displayName)

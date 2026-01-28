@@ -1,6 +1,36 @@
 # Intune.Docs
 Intune Documentation that converts JSON files to Markdown. Can be ran manually, or with GitHub Actions for automatic documentation.
 
+## Setup
+
+Module can be ran one of two ways, manually or with GitHub Actions.
+
+### Manual Configuration
+
+This has been tested with Azure App Registration with the following **Delegated** permissions:
+
+- DeviceManagementConfiguration.Read.All
+- DeviceManagementScripts.Read.All
+- DeviceManagementServiceConfig.Read.All
+- GroupMember.Read.All
+
+After importing the module, run the following:
+
+```powershell
+Invoke-IntuneDocumentation -doctype "all" -outputPath "C:\Temp\IntuneDocs"
+```
+This will then run through all the non-assignment Export policies below. You can also change the docType to be any one of the sections to just export certain configuration areas.
+
+```powershell
+Invoke-IntuneAssignmentDocumentation -doctype "all" -outputPath "C:\Temp\IntuneDocs"
+```
+
+This will export all the assignment based Export policies below. Important to put in the same output directory as the Invoke-IntuneDocumentation output, as the markdown files are expecting the structure to be based on a subfolder named Assignments with the markdown file containing the same name.
+
+### Automated Configuration
+
+The second method is with GitHub actions. and requires the App registration to have Federated credentials configured. Blog post coming soon.
+
 ### Change Log
 
 Date | Change | Author

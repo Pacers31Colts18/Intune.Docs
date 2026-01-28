@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/ALL_W11_D_CISL1_CompAdministrativeTemplates_ProhibitConnectionToNonDomainNetworks_PROD.md)
 
-**Report Generated:** 01/28/2026 22:55:46
+**Report Generated:** 01/28/2026 22:59:43
 
 ---
 
@@ -38,37 +38,37 @@ If this policy setting is not configured or is disabled, computers are allowed t
 
 ```json
 {
-  "dependentOn": [],
+  "description": null,
   "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_1",
-  "displayName": "Enabled",
-  "optionValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null,
-    "value": 1
-  },
+  "dependentOn": [],
   "name": "Enabled",
   "helpText": null,
-  "description": null
+  "optionValue": {
+    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null
+  },
+  "displayName": "Enabled",
+  "itemId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_1"
 }
 ```
 
 ## Setting Definition
 ```json
 {
-  "description": "This policy setting prevents computers from connecting to both a domain based network and a non-domain based network at the same time.\r\n\r\nIf this policy setting is enabled, the computer responds to automatic and manual network connection attempts based on the following circumstances:\r\n\r\nAutomatic connection attempts\r\n- When the computer is already connected to a domain based network, all automatic connection attempts to non-domain networks are blocked.\r\n- When the computer is already connected to a non-domain based network, automatic connection attempts to domain based networks are blocked.\r\n\r\nManual connection attempts\r\n- When the computer is already connected to either a non-domain based network or a domain based network over media other than Ethernet, and a user attempts to create a manual connection to an additional network in violation of this policy setting, the existing network connection is disconnected and the manual connection is allowed.\r\n- When the computer is already connected to either a non-domain based network or a domain based network over Ethernet, and a user attempts to create a manual connection to an additional network in violation of this policy setting, the existing Ethernet connection is maintained and the manual connection attempt is blocked.\r\n\r\nIf this policy setting is not configured or is disabled, computers are allowed to connect simultaneously to both domain and non-domain networks.\r\n      ",
   "uxBehavior": "toggle",
-  "baseUri": "./Device/Vendor/MSFT/Policy",
-  "categoryId": "618e0144-c57c-45e1-8b55-94dd3d9fec33",
-  "accessTypes": "add,delete,get,replace",
-  "rootDefinitionId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork",
+  "infoUrls": [
+    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsconnectionmanager#windowsconnectionmanager-prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork"
+  ],
+  "offsetUri": "/Config/WindowsConnectionManager/ProhitConnectionToNonDomainNetworksWhenConnectedToDomainAuthenticatedNetwork",
   "applicability": {
-    "maximumSupportedVersion": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "minimumSupportedVersion": "10.0.17134",
     "requiredAzureAdTrustType": "none",
-    "technologies": "mdm",
+    "minimumSupportedVersion": "10.0.17134",
     "configurationServiceProviderVersion": "7.0",
+    "description": null,
+    "technologies": "mdm",
+    "deviceMode": "none",
+    "maximumSupportedVersion": null,
     "requiresAzureAd": false,
     "windowsSkus": [
       "windowsEnterprise",
@@ -80,66 +80,66 @@ If this policy setting is not configured or is disabled, computers are allowed t
       "windows11SE",
       "iotEnterpriseSEval"
     ],
-    "description": null,
-    "deviceMode": "none",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
     "platform": "windows10"
   },
+  "riskLevel": "low",
+  "settingUsage": "configuration",
+  "accessTypes": "add,delete,get,replace",
+  "helpText": "",
+  "defaultOptionId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_0",
+  "baseUri": "./Device/Vendor/MSFT/Policy",
+  "occurrence": {
+    "minDeviceOccurrence": 0,
+    "maxDeviceOccurrence": 1
+  },
+  "description": "This policy setting prevents computers from connecting to both a domain based network and a non-domain based network at the same time.\r\n\r\nIf this policy setting is enabled, the computer responds to automatic and manual network connection attempts based on the following circumstances:\r\n\r\nAutomatic connection attempts\r\n- When the computer is already connected to a domain based network, all automatic connection attempts to non-domain networks are blocked.\r\n- When the computer is already connected to a non-domain based network, automatic connection attempts to domain based networks are blocked.\r\n\r\nManual connection attempts\r\n- When the computer is already connected to either a non-domain based network or a domain based network over media other than Ethernet, and a user attempts to create a manual connection to an additional network in violation of this policy setting, the existing network connection is disconnected and the manual connection is allowed.\r\n- When the computer is already connected to either a non-domain based network or a domain based network over Ethernet, and a user attempts to create a manual connection to an additional network in violation of this policy setting, the existing Ethernet connection is maintained and the manual connection attempt is blocked.\r\n\r\nIf this policy setting is not configured or is disabled, computers are allowed to connect simultaneously to both domain and non-domain networks.\r\n      ",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+  "version": "639045552477164158",
+  "rootDefinitionId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork",
+  "referredSettingInformationList": [],
+  "categoryId": "618e0144-c57c-45e1-8b55-94dd3d9fec33",
+  "displayName": "Prohibit connection to non-domain networks when connected to domain authenticated network",
+  "name": "WCM_BlockNonDomain",
+  "id": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork",
   "visibility": "settingsCatalog,template",
   "options": [
     {
-      "dependentOn": [],
+      "description": null,
       "dependedOnBy": [],
-      "itemId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_0",
-      "displayName": "Disabled",
-      "optionValue": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "settingValueTemplateReference": null,
-        "value": 0
-      },
+      "dependentOn": [],
       "name": "Disabled",
       "helpText": null,
-      "description": null
+      "optionValue": {
+        "value": 0,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null
+      },
+      "displayName": "Disabled",
+      "itemId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_0"
     },
     {
-      "dependentOn": [],
+      "description": null,
       "dependedOnBy": [],
-      "itemId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_1",
-      "displayName": "Enabled",
-      "optionValue": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "settingValueTemplateReference": null,
-        "value": 1
-      },
+      "dependentOn": [],
       "name": "Enabled",
       "helpText": null,
-      "description": null
+      "optionValue": {
+        "value": 1,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null
+      },
+      "displayName": "Enabled",
+      "itemId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_1"
     }
   ],
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-  "defaultOptionId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_0",
-  "settingUsage": "configuration",
-  "version": "639045552477164158",
-  "infoUrls": [
-    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsconnectionmanager#windowsconnectionmanager-prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork"
-  ],
-  "offsetUri": "/Config/WindowsConnectionManager/ProhitConnectionToNonDomainNetworksWhenConnectedToDomainAuthenticatedNetwork",
-  "helpText": "",
-  "id": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork",
-  "displayName": "Prohibit connection to non-domain networks when connected to domain authenticated network",
   "keywords": [
     "WCM_BlockNonDomain",
     "Prohibit connection to non-domain networks when connected to domain authenticated network",
     "\\Network\\Windows Connection Manager",
     "Administrative Templates\\Network\\Windows Connection Manager",
     "Windows Connection Manager"
-  ],
-  "referredSettingInformationList": [],
-  "name": "WCM_BlockNonDomain",
-  "riskLevel": "low",
-  "occurrence": {
-    "maxDeviceOccurrence": 1,
-    "minDeviceOccurrence": 0
-  }
+  ]
 }
 ```
 

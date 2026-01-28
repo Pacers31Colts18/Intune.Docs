@@ -1,10 +1,10 @@
-name: "GitHubAction-Dev-IntuneDocs"
+name: "GitHubAction-JL-IntuneDocs"
 
 on:
   workflow_dispatch:
   push:
     paths:
-      - '.github/workflows/GitHubAction-Dev-IntuneDocs.yml'
+      - '.github/workflows/GitHubAction-JL-IntuneDocs.yml'
   schedule:
     - cron:  '0 3 * * *' #9:00 CST (Runs on UTC)
 
@@ -48,8 +48,8 @@ jobs:
       - name: DEV Azure Login
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID_DEV }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID_DEV }}
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           allow-no-subscriptions: true
           enable-AzPSSession: true
 
@@ -70,8 +70,8 @@ jobs:
       # CONFIGURE GIT
       - name: Configure Git
         run: |
-          git config --global user.name "Joe-Loveless2_MNIT"
-          git config --global user.email "Joe.Loveless2@state.mn.us"
+          git config --global user.name "Joe Loveless"
+          git config --global user.email "joe@joeloveless.com"
 
       # SET BRANCH NAME
       - name: Set branch name
@@ -115,4 +115,5 @@ jobs:
           echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 

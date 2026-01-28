@@ -28,7 +28,7 @@ function Export-IntuneDeviceCompliancePoliciesDocs {
         $policyUri = "https://graph.microsoft.com/beta/deviceManagement/$endpoint/$($policy.id)/?`$expand=scheduledActionsForRule(`$expand=scheduledActionConfigurations)"
         $policyResponse = Invoke-MgGraphRequest -Method GET -Uri $policyUri
      
-        $md = Convert-g46IntuneDeviceCompliancePoliciestoMarkdown -Policy $policy -Settings $policyResponse
+        $md = Convert-IntuneDeviceCompliancePoliciestoMarkdown -Policy $policy -Settings $policyResponse
 
         $safe = Get-SafeFileName $policy.displayName
         $file = Join-Path $fullPath ($safe + '.md')

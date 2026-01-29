@@ -53,7 +53,7 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 [**Assignments**](./Assignments/CIS_(L1)_Section_15_-_104_-_Windows_11_Intune_4.0.0.md)
 
-**Report Generated:** 01/28/2026 22:59:48
+**Report Generated:** 01/29/2026 04:45:18
 
 ---
 
@@ -67,30 +67,30 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 #### device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled
 ```json
 {
-  "settingDefinitionId": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled",
+  "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled_true",
-    "children": [],
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "children": []
   },
-  "auditRuleInformation": null,
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  "settingDefinitionId": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled"
 }
 ```
 
 #### device_vendor_msft_dmclient_provider_{providerid}_configrefresh_cadence
 ```json
 {
-  "settingDefinitionId": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_cadence",
+  "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
   "auditRuleInformation": null,
   "simpleSettingValue": {
     "value": 90,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
-  "settingInstanceTemplateReference": null
+  "settingDefinitionId": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_cadence"
 }
 ```
 
@@ -104,18 +104,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "HTTP only, no peering",
+  "displayName": "HTTP only, no peering",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "HTTP only, no peering",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "HTTP only, no peering",
-  "itemId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_0",
+  "description": "HTTP only, no peering",
+  "name": "HTTP only, no peering"
 }
 ```
 
@@ -129,18 +129,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Unmanaged Enables Secure Launch if supported by hardware",
+  "displayName": "Unmanaged Enables Secure Launch if supported by hardware",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Unmanaged Enables Secure Launch if supported by hardware",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Unmanaged Enables Secure Launch if supported by hardware",
-  "itemId": "device_vendor_msft_policy_config_deviceguard_configuresystemguardlaunch_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_deviceguard_configuresystemguardlaunch_1",
+  "description": "Unmanaged Enables Secure Launch if supported by hardware",
+  "name": "Unmanaged Enables Secure Launch if supported by hardware"
 }
 ```
 
@@ -154,18 +154,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "(Enabled with UEFI lock) Turns on Credential Guard with UEFI lock.",
+  "displayName": "(Enabled with UEFI lock) Turns on Credential Guard with UEFI lock.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "(Enabled with UEFI lock) Turns on Credential Guard with UEFI lock.",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "(Enabled with UEFI lock) Turns on Credential Guard with UEFI lock.",
-  "itemId": "device_vendor_msft_policy_config_deviceguard_lsacfgflags_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_deviceguard_lsacfgflags_1",
+  "description": "(Enabled with UEFI lock) Turns on Credential Guard with UEFI lock.",
+  "name": "(Enabled with UEFI lock) Turns on Credential Guard with UEFI lock."
 }
 ```
 
@@ -179,18 +179,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "enable virtualization based security.",
+  "displayName": "enable virtualization based security.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "enable virtualization based security.",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "enable virtualization based security.",
-  "itemId": "device_vendor_msft_policy_config_deviceguard_enablevirtualizationbasedsecurity_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_deviceguard_enablevirtualizationbasedsecurity_1",
+  "description": "enable virtualization based security.",
+  "name": "enable virtualization based security."
 }
 ```
 
@@ -204,18 +204,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Turns on VBS with Secure Boot.",
+  "displayName": "Turns on VBS with Secure Boot.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Turns on VBS with Secure Boot.",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Turns on VBS with Secure Boot.",
-  "itemId": "device_vendor_msft_policy_config_deviceguard_requireplatformsecurityfeatures_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_deviceguard_requireplatformsecurityfeatures_1",
+  "description": "Turns on VBS with Secure Boot.",
+  "name": "Turns on VBS with Secure Boot."
 }
 ```
 
@@ -229,18 +229,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Not allowed.",
+  "displayName": "Block",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Not allowed.",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Block",
-  "itemId": "device_vendor_msft_policy_config_experience_allowcortana_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_experience_allowcortana_0",
+  "description": "Not allowed.",
+  "name": "Not allowed."
 }
 ```
 
@@ -270,18 +270,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Enabled.",
+  "displayName": "Enabled.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Enabled.",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Enabled.",
-  "itemId": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent_1",
+  "description": "Enabled.",
+  "name": "Enabled."
 }
 ```
 
@@ -295,18 +295,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Feedback notifications are disabled.",
+  "displayName": "Feedback notifications are disabled.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Feedback notifications are disabled.",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Feedback notifications are disabled.",
-  "itemId": "device_vendor_msft_policy_config_experience_donotshowfeedbacknotifications_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_experience_donotshowfeedbacknotifications_1",
+  "description": "Feedback notifications are disabled.",
+  "name": "Feedback notifications are disabled."
 }
 ```
 
@@ -320,18 +320,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Disabled",
+  "displayName": "Disabled",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Disabled",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Disabled",
-  "itemId": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons_0",
+  "description": "Disabled",
+  "name": "Disabled"
 }
 ```
 
@@ -345,18 +345,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
+  "displayName": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
-  "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_1",
+  "description": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
+  "name": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked."
 }
 ```
 
@@ -370,18 +370,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Allowed.",
+  "displayName": "Allowed.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Allowed.",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Allowed.",
-  "itemId": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_1",
+  "description": "Allowed.",
+  "name": "Allowed."
 }
 ```
 
@@ -395,18 +395,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Not allowed.",
+  "displayName": "Block",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Not allowed.",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Block",
-  "itemId": "device_vendor_msft_policy_config_applicationmanagement_allowgamedvr_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_applicationmanagement_allowgamedvr_0",
+  "description": "Not allowed.",
+  "name": "Not allowed."
 }
 ```
 
@@ -420,18 +420,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Enabled. Non-administrator users will not be able to initiate installation of Windows app packages.",
+  "displayName": "Allow",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Enabled. Non-administrator users will not be able to initiate installation of Windows app packages.",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Allow",
-  "itemId": "device_vendor_msft_policy_config_applicationmanagement_blocknonadminuserinstall_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_applicationmanagement_blocknonadminuserinstall_1",
+  "description": "Enabled. Non-administrator users will not be able to initiate installation of Windows app packages.",
+  "name": "Enabled. Non-administrator users will not be able to initiate installation of Windows app packages."
 }
 ```
 
@@ -445,18 +445,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Disabled",
+  "displayName": "Disabled",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Disabled",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Disabled",
-  "itemId": "device_vendor_msft_policy_config_applicationmanagement_msiallowusercontroloverinstall_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_applicationmanagement_msiallowusercontroloverinstall_0",
+  "description": "Disabled",
+  "name": "Disabled"
 }
 ```
 
@@ -470,18 +470,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Disabled",
+  "displayName": "Disabled",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Disabled",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Disabled",
-  "itemId": "device_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0",
+  "description": "Disabled",
+  "name": "Disabled"
 }
 ```
 
@@ -495,18 +495,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Disabled",
+  "displayName": "Disabled",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Disabled",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Disabled",
-  "itemId": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0",
+  "description": "Disabled",
+  "name": "Disabled"
 }
 ```
 
@@ -520,18 +520,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Not allowed.",
+  "displayName": "Block",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Not allowed.",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Block",
-  "itemId": "device_vendor_msft_policy_config_privacy_allowinputpersonalization_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_privacy_allowinputpersonalization_0",
+  "description": "Not allowed.",
+  "name": "Not allowed."
 }
 ```
 
@@ -545,18 +545,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Force deny. Windows apps cannot be activated by voice while the screen is locked, and users cannot change it.",
+  "displayName": "Force deny. Windows apps cannot be activated by voice while the screen is locked, and users cannot change it.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Force deny. Windows apps cannot be activated by voice while the screen is locked, and users cannot change it.",
-  "helpText": null,
   "optionValue": {
     "value": 2,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Force deny. Windows apps cannot be activated by voice while the screen is locked, and users cannot change it.",
-  "itemId": "device_vendor_msft_policy_config_privacy_letappsactivatewithvoiceabovelock_2"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_privacy_letappsactivatewithvoiceabovelock_2",
+  "description": "Force deny. Windows apps cannot be activated by voice while the screen is locked, and users cannot change it.",
+  "name": "Force deny. Windows apps cannot be activated by voice while the screen is locked, and users cannot change it."
 }
 ```
 
@@ -570,18 +570,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Not allowed.",
+  "displayName": "Block",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Not allowed.",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Block",
-  "itemId": "device_vendor_msft_policy_config_search_allowindexingencryptedstoresoritems_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_search_allowindexingencryptedstoresoritems_0",
+  "description": "Not allowed.",
+  "name": "Not allowed."
 }
 ```
 
@@ -595,18 +595,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Not allowed.",
+  "displayName": "Block",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Not allowed.",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Block",
-  "itemId": "device_vendor_msft_policy_config_search_allowsearchtouselocation_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_search_allowsearchtouselocation_0",
+  "description": "Not allowed.",
+  "name": "Not allowed."
 }
 ```
 
@@ -618,18 +618,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Enabled",
+  "displayName": "Enabled",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Enabled",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious_1",
+  "description": "Enabled",
+  "name": "Enabled"
 }
 ```
 
@@ -641,18 +641,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Enabled",
+  "displayName": "Enabled",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Enabled",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse_1",
+  "description": "Enabled",
+  "name": "Enabled"
 }
 ```
 
@@ -664,18 +664,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Enabled",
+  "displayName": "Enabled",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Enabled",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp_1",
+  "description": "Enabled",
+  "name": "Enabled"
 }
 ```
 
@@ -687,18 +687,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Enabled",
+  "displayName": "Enabled",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Enabled",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled_1",
+  "description": "Enabled",
+  "name": "Enabled"
 }
 ```
 
@@ -710,18 +710,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Sudo is disabled.",
+  "displayName": "Sudo is disabled.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Sudo is disabled.",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Sudo is disabled.",
-  "itemId": "device_vendor_msft_policy_config_sudo_enablesudo_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_sudo_enablesudo_0",
+  "description": "Sudo is disabled.",
+  "name": "Sudo is disabled."
 }
 ```
 
@@ -735,18 +735,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Basic. Basic device info, including: quality-related data, app compatibility, app usage data, and data from the Security level.",
+  "displayName": "Basic",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Basic. Basic device info, including: quality-related data, app compatibility, app usage data, and data from the Security level.",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Basic",
-  "itemId": "device_vendor_msft_policy_config_system_allowtelemetry_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_system_allowtelemetry_1",
+  "description": "Basic. Basic device info, including: quality-related data, app compatibility, app usage data, and data from the Security level.",
+  "name": "Basic. Basic device info, including: quality-related data, app compatibility, app usage data, and data from the Security level."
 }
 ```
 
@@ -760,18 +760,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Enabled.",
+  "displayName": "Enabled.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Enabled.",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Enabled.",
-  "itemId": "device_vendor_msft_policy_config_system_enableonesettingsauditing_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_system_enableonesettingsauditing_1",
+  "description": "Enabled.",
+  "name": "Enabled."
 }
 ```
 
@@ -785,18 +785,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Enabled.",
+  "displayName": "Enabled.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Enabled.",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Enabled.",
-  "itemId": "device_vendor_msft_policy_config_system_limitdiagnosticlogcollection_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_system_limitdiagnosticlogcollection_1",
+  "description": "Enabled.",
+  "name": "Enabled."
 }
 ```
 
@@ -810,18 +810,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Enabled.",
+  "displayName": "Enabled.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Enabled.",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Enabled.",
-  "itemId": "device_vendor_msft_policy_config_system_limitdumpcollection_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_system_limitdumpcollection_1",
+  "description": "Enabled.",
+  "name": "Enabled."
 }
 ```
 
@@ -835,18 +835,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Require UEFI Memory Attributes Table",
+  "displayName": "Require UEFI Memory Attributes Table",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Require UEFI Memory Attributes Table",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Require UEFI Memory Attributes Table",
-  "itemId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_requireuefimemoryattributestable_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_requireuefimemoryattributestable_1",
+  "description": "Require UEFI Memory Attributes Table",
+  "name": "Require UEFI Memory Attributes Table"
 }
 ```
 
@@ -860,18 +860,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Not allowed.",
+  "displayName": "Block",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Not allowed.",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Block",
-  "itemId": "device_vendor_msft_policy_config_wifi_allowautoconnecttowifisensehotspots_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_wifi_allowautoconnecttowifisensehotspots_0",
+  "description": "Not allowed.",
+  "name": "Not allowed."
 }
 ```
 
@@ -886,18 +886,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Not allowed.",
+  "displayName": "Not allowed.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Not allowed.",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Not allowed.",
-  "itemId": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_0",
+  "description": "Not allowed.",
+  "name": "Not allowed."
 }
 ```
 
@@ -911,18 +911,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "ink workspace is enabled (feature is turned on), but the user cannot access it above the lock screen.",
+  "displayName": "ink workspace is enabled (feature is turned on), but the user cannot access it above the lock screen.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "ink workspace is enabled (feature is turned on), but the user cannot access it above the lock screen.",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "ink workspace is enabled (feature is turned on), but the user cannot access it above the lock screen.",
-  "itemId": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace_1",
+  "description": "ink workspace is enabled (feature is turned on), but the user cannot access it above the lock screen.",
+  "name": "ink workspace is enabled (feature is turned on), but the user cannot access it above the lock screen."
 }
 ```
 
@@ -936,18 +936,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Not allowed.",
+  "displayName": "Not allowed.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Not allowed.",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Not allowed.",
-  "itemId": "device_vendor_msft_policy_config_windowssandbox_allowclipboardredirection_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_windowssandbox_allowclipboardredirection_0",
+  "description": "Not allowed.",
+  "name": "Not allowed."
 }
 ```
 
@@ -961,18 +961,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Not allowed.",
+  "displayName": "Not allowed.",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Not allowed.",
-  "helpText": null,
   "optionValue": {
     "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Not allowed.",
-  "itemId": "device_vendor_msft_policy_config_windowssandbox_allownetworking_0"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_windowssandbox_allownetworking_0",
+  "description": "Not allowed.",
+  "name": "Not allowed."
 }
 ```
 
@@ -986,18 +986,18 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 
 ```json
 {
-  "description": "Pairing ceremony for new devices will always require a PIN",
+  "displayName": "Pairing ceremony for new devices will always require a PIN",
   "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Pairing ceremony for new devices will always require a PIN",
-  "helpText": null,
   "optionValue": {
     "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "displayName": "Pairing ceremony for new devices will always require a PIN",
-  "itemId": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing_1"
+  "dependentOn": [],
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing_1",
+  "description": "Pairing ceremony for new devices will always require a PIN",
+  "name": "Pairing ceremony for new devices will always require a PIN"
 }
 ```
 
@@ -1005,48 +1005,9 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
 ```json
 [
   {
-    "uxBehavior": "default",
-    "infoUrls": [],
     "offsetUri": "/Provider/{0}",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.10240",
-      "configurationServiceProviderVersion": "1.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
-      "requiresAzureAd": false,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
-    },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get",
-    "dependentOn": [],
-    "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/DMClient",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
+    "uxBehavior": "default",
     "description": "This node contains the URI-encoded value of the bootstrapped device management account’s Provider ID. Scope is dynamic. This value is set and controlled by the MDM server. As a best practice, use text that doesn’t require XML/URI escaping.",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_dmclient_provider_{providerid}",
     "referredSettingInformationList": [],
     "childIds": [
       "device_vendor_msft_dmclient_provider_{providerid}_providerid",
@@ -1115,275 +1076,314 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
       "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_cadence",
       "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_pauseperiod"
     ],
-    "maximumCount": 1,
-    "categoryId": "80b21376-0e9a-4e5b-8a74-b672adbe94a8",
-    "displayName": " Provider ID",
-    "name": "{ProviderID}",
-    "minimumCount": 0,
-    "id": "device_vendor_msft_dmclient_provider_{providerid}",
-    "visibility": "settingsCatalog,template",
+    "rootDefinitionId": "device_vendor_msft_dmclient_provider_{providerid}",
+    "infoUrls": [],
+    "accessTypes": "add,delete,get",
+    "version": "639045552477164158",
     "dependedOnBy": [
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_providerid"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_providerid",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_entdevicename"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_entdevicename",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_exchangeid"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_exchangeid",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_entdmid"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_entdmid",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_signedentdmid"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_signedentdmid",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_certrenewtimestamp"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_certrenewtimestamp",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_publisherdeviceid"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_publisherdeviceid",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_managementserviceaddress"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_managementserviceaddress",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_upn"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_upn",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_helpphonenumber"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_helpphonenumber",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_helpwebsite"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_helpwebsite",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_helpemailaddress"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_helpemailaddress",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_requiremessagesigning"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_requiremessagesigning",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_syncapplicationversion"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_syncapplicationversion",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_aadresourceid"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_aadresourceid",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_enableomadmkeepalivemessage"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_enableomadmkeepalivemessage",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_managementserveraddresslist"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_managementserveraddresslist",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_commercialid"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_commercialid",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_managementservertoupgradeto"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_managementservertoupgradeto",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_numberofdaysafterlostcontacttounenroll"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_numberofdaysafterlostcontacttounenroll",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_aadsenddevicetoken"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_aadsenddevicetoken",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_forceaadtoken"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_forceaadtoken",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_push_pfn"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_push_pfn",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_intervalforfirstsetofretries"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_intervalforfirstsetofretries",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_numberoffirstretries"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_numberoffirstretries",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_intervalforsecondsetofretries"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_intervalforsecondsetofretries",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_numberofsecondretries"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_numberofsecondretries",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_intervalforremainingscheduledretries"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_intervalforremainingscheduledretries",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_numberofremainingscheduledretries"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_numberofremainingscheduledretries",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_pollonlogin"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_pollonlogin",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_alluserspollonfirstlogin"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_poll_alluserspollonfirstlogin",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_customenrollmentcompletepage_title"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_customenrollmentcompletepage_title",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_customenrollmentcompletepage_bodytext"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_customenrollmentcompletepage_bodytext",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_customenrollmentcompletepage_hyperlinkhref"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_customenrollmentcompletepage_hyperlinkhref",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_customenrollmentcompletepage_hyperlinktext"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_customenrollmentcompletepage_hyperlinktext",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_expectedpolicies"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_expectedpolicies",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_expectednetworkprofiles"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_expectednetworkprofiles",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_expectedmsiapppackages"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_expectedmsiapppackages",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_expectedmodernapppackages"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_expectedmodernapppackages",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_expectedpfxcerts"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_expectedpfxcerts",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_expectedscepcerts"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_expectedscepcerts",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_timeoutuntilsyncfailure"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_timeoutuntilsyncfailure",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_serverhasfinishedprovisioning"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_serverhasfinishedprovisioning",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_issyncdone"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_issyncdone",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_wasdevicesuccessfullyprovisioned"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_wasdevicesuccessfullyprovisioned",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_blockinstatuspage"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_blockinstatuspage",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_allowcollectlogsbutton"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_allowcollectlogsbutton",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_customerrortext"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_customerrortext",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_skipdevicestatuspage"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_skipdevicestatuspage",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_skipuserstatuspage"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_firstsyncstatus_skipuserstatuspage",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_enhancedapplayersecurity_securitymode"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_enhancedapplayersecurity_securitymode",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_enhancedapplayersecurity_usecertifrevocationcheckoffline"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_enhancedapplayersecurity_usecertifrevocationcheckoffline",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_enhancedapplayersecurity_cert0"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_enhancedapplayersecurity_cert0",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_enhancedapplayersecurity_cert1"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_enhancedapplayersecurity_cert1",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_configlock_lock"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_configlock_lock",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_configlock_unlockduration"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_configlock_unlockduration",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_linkedenrollment_discoveryendpoint"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_linkedenrollment_discoveryendpoint",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_multiplesession_numallowedconcurrentusersessionforbackgroundsync"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_multiplesession_numallowedconcurrentusersessionforbackgroundsync",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_multiplesession_numallowedconcurrentusersessionatuserlogonsync"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_multiplesession_numallowedconcurrentusersessionatuserlogonsync",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_multiplesession_intervalforscheduledretriesforusersession"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_multiplesession_intervalforscheduledretriesforusersession",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_multiplesession_numberofscheduledretriesforusersession"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_multiplesession_numberofscheduledretriesforusersession",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_recovery_allowrecovery"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_recovery_allowrecovery",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_cadence"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_cadence",
+        "required": false
       },
       {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_pauseperiod"
+        "dependedOnBy": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_pauseperiod",
+        "required": false
       }
     ],
+    "id": "device_vendor_msft_dmclient_provider_{providerid}",
+    "visibility": "settingsCatalog,template",
+    "minimumCount": 0,
+    "helpText": "",
+    "riskLevel": "low",
+    "maximumCount": 1,
+    "baseUri": "./Device/Vendor/MSFT/DMClient",
+    "settingUsage": "configuration",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "name": "{ProviderID}",
+    "dependentOn": [],
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.10240",
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
+    "categoryId": "80b21376-0e9a-4e5b-8a74-b672adbe94a8",
+    "displayName": " Provider ID",
     "keywords": [
       " Provider ID",
       "DM Client",
@@ -1391,20 +1391,34 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
     ]
   },
   {
+    "offsetUri": "/Provider/{0}/ConfigRefresh/Enabled",
     "uxBehavior": "toggle",
+    "description": "This node determines whether or not a periodic settings refresh for MDM policies will occur.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_dmclient_provider_{providerid}",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/DMClient-csp/"
     ],
-    "offsetUri": "/Provider/{0}/ConfigRefresh/Enabled",
+    "defaultOptionId": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled_false",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/DMClient",
+    "settingUsage": "configuration",
+    "name": "Enabled",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.22000.2836",
-      "configurationServiceProviderVersion": "1.6",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1418,69 +1432,55 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22000.2836",
+      "configurationServiceProviderVersion": "1.6"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled_false",
-    "baseUri": "./Device/Vendor/MSFT/DMClient",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "This node determines whether or not a periodic settings refresh for MDM policies will occur.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_dmclient_provider_{providerid}",
-    "referredSettingInformationList": [],
     "categoryId": "80b21376-0e9a-4e5b-8a74-b672adbe94a8",
-    "displayName": "Config refresh",
-    "name": "Enabled",
-    "id": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Disabled.",
+        "displayName": "Disabled.",
         "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "parentSettingId": "device_vendor_msft_dmclient_provider_{providerid}",
-            "dependentOn": "device_vendor_msft_dmclient_provider_{providerid}"
-          }
-        ],
-        "name": "ConfigRefresh is disabled.",
-        "helpText": null,
         "optionValue": {
           "value": "false",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Disabled.",
-        "itemId": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled_false"
-      },
-      {
-        "description": "Enabled.",
-        "dependedOnBy": [],
         "dependentOn": [
           {
             "parentSettingId": "device_vendor_msft_dmclient_provider_{providerid}",
             "dependentOn": "device_vendor_msft_dmclient_provider_{providerid}"
           }
         ],
-        "name": "ConfigRefresh is enabled.",
         "helpText": null,
+        "itemId": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled_false",
+        "description": "Disabled.",
+        "name": "ConfigRefresh is disabled."
+      },
+      {
+        "displayName": "Enabled.",
+        "dependedOnBy": [],
         "optionValue": {
           "value": "true",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Enabled.",
-        "itemId": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled_true"
+        "dependentOn": [
+          {
+            "parentSettingId": "device_vendor_msft_dmclient_provider_{providerid}",
+            "dependentOn": "device_vendor_msft_dmclient_provider_{providerid}"
+          }
+        ],
+        "helpText": null,
+        "itemId": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled_true",
+        "description": "Enabled.",
+        "name": "ConfigRefresh is enabled."
       }
     ],
+    "displayName": "Config refresh",
     "keywords": [
       "Enabled",
       "DM Client",
@@ -1488,20 +1488,45 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
     ]
   },
   {
+    "offsetUri": "/Provider/{0}/ConfigRefresh/Cadence",
     "uxBehavior": "default",
+    "description": "This node determines the number of minutes between refreshes.\r\n ",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_dmclient_provider_{providerid}",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/DMClient-csp/"
     ],
-    "offsetUri": "/Provider/{0}/ConfigRefresh/Cadence",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "dependedOnBy": [],
+    "id": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_cadence",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "dependentOn": [
+      {
+        "parentSettingId": "device_vendor_msft_dmclient_provider_{providerid}",
+        "dependentOn": "device_vendor_msft_dmclient_provider_{providerid}"
+      }
+    ],
+    "baseUri": "./Device/Vendor/MSFT/DMClient",
+    "settingUsage": "configuration",
+    "valueDefinition": {
+      "maximumValue": 1440,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 30
+    },
+    "name": "Cadence",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.22000.2836",
-      "configurationServiceProviderVersion": "1.6",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1515,45 +1540,20 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22000.2836",
+      "configurationServiceProviderVersion": "1.6"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "dependentOn": [
-      {
-        "parentSettingId": "device_vendor_msft_dmclient_provider_{providerid}",
-        "dependentOn": "device_vendor_msft_dmclient_provider_{providerid}"
-      }
-    ],
-    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "categoryId": "80b21376-0e9a-4e5b-8a74-b672adbe94a8",
+    "displayName": "Refresh cadence",
     "defaultValue": {
       "value": 90,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
       "settingValueTemplateReference": null
     },
-    "baseUri": "./Device/Vendor/MSFT/DMClient",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "This node determines the number of minutes between refreshes.\r\n ",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_dmclient_provider_{providerid}",
-    "referredSettingInformationList": [],
-    "valueDefinition": {
-      "maximumValue": 1440,
-      "minimumValue": 30,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
-    },
-    "categoryId": "80b21376-0e9a-4e5b-8a74-b672adbe94a8",
-    "displayName": "Refresh cadence",
-    "name": "Cadence",
-    "dependedOnBy": [],
-    "id": "device_vendor_msft_dmclient_provider_{providerid}_configrefresh_cadence",
-    "visibility": "settingsCatalog,template",
     "keywords": [
       "Cadence",
       "DM Client",
@@ -1561,20 +1561,34 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
     ]
   },
   {
+    "offsetUri": "/Config/DeliveryOptimization/DODownloadMode",
     "uxBehavior": "default",
+    "description": "Specifies the method that Delivery Optimization can use to download content on behalf of various Microsoft products.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-DeliveryOptimization#dodownloadmode"
     ],
-    "offsetUri": "/Config/DeliveryOptimization/DODownloadMode",
+    "defaultOptionId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "DODownloadMode",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.10240",
-      "configurationServiceProviderVersion": "1.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1587,135 +1601,135 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.10240",
+      "configurationServiceProviderVersion": "1.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Specifies the method that Delivery Optimization can use to download content on behalf of various Microsoft products.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode",
-    "referredSettingInformationList": [],
     "categoryId": "e2ec9af6-6143-4cd8-952c-1b3e849ee0dc",
-    "displayName": "DO Download Mode",
-    "name": "DODownloadMode",
-    "id": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "HTTP only, no peering",
+        "displayName": "HTTP only, no peering",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "HTTP only, no peering",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "HTTP only, no peering",
-        "itemId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_0",
+        "description": "HTTP only, no peering",
+        "name": "HTTP only, no peering"
       },
       {
-        "description": "HTTP blended with peering behind the same NAT",
+        "displayName": "HTTP blended with peering behind the same NAT",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "HTTP blended with peering behind the same NAT",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "HTTP blended with peering behind the same NAT",
-        "itemId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_1",
+        "description": "HTTP blended with peering behind the same NAT",
+        "name": "HTTP blended with peering behind the same NAT"
       },
       {
-        "description": "HTTP blended with peering across a private group",
+        "displayName": "HTTP blended with peering across a private group",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "HTTP blended with peering across a private group",
-        "helpText": null,
         "optionValue": {
           "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "HTTP blended with peering across a private group",
-        "itemId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_2"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_2",
+        "description": "HTTP blended with peering across a private group",
+        "name": "HTTP blended with peering across a private group"
       },
       {
-        "description": "HTTP blended with Internet peering",
+        "displayName": "HTTP blended with Internet peering",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "HTTP blended with Internet peering",
-        "helpText": null,
         "optionValue": {
           "value": 3,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "HTTP blended with Internet peering",
-        "itemId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_3"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_3",
+        "description": "HTTP blended with Internet peering",
+        "name": "HTTP blended with Internet peering"
       },
       {
-        "description": "HTTP only, no peering, no use of DO cloud service",
+        "displayName": "HTTP only, no peering, no use of DO cloud service",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "HTTP only, no peering, no use of DO cloud service",
-        "helpText": null,
         "optionValue": {
           "value": 99,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "HTTP only, no peering, no use of DO cloud service",
-        "itemId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_99"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_99",
+        "description": "HTTP only, no peering, no use of DO cloud service",
+        "name": "HTTP only, no peering, no use of DO cloud service"
       },
       {
-        "description": "Bypass mode, deprecated in Windows 11",
+        "displayName": "Bypass mode, deprecated in Windows 11",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Bypass mode, deprecated in Windows 11",
-        "helpText": null,
         "optionValue": {
           "value": 100,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Bypass mode, deprecated in Windows 11",
-        "itemId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_100"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deliveryoptimization_dodownloadmode_100",
+        "description": "Bypass mode, deprecated in Windows 11",
+        "name": "Bypass mode, deprecated in Windows 11"
       }
     ],
+    "displayName": "DO Download Mode",
     "keywords": [
       "DO Download Mode",
       "Delivery Optimization"
     ]
   },
   {
+    "offsetUri": "/Config/DeviceGuard/ConfigureSystemGuardLaunch",
     "uxBehavior": "default",
+    "description": "Secure Launch configuration: 0 - Unmanaged, configurable by Administrative user, 1 - Enables Secure Launch if supported by hardware, 2 - Disables Secure Launch.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_deviceguard_configuresystemguardlaunch",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-deviceguard#configuresystemguardlaunch"
     ],
-    "offsetUri": "/Config/DeviceGuard/ConfigureSystemGuardLaunch",
+    "defaultOptionId": "device_vendor_msft_policy_config_deviceguard_configuresystemguardlaunch_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_deviceguard_configuresystemguardlaunch",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "ConfigureSystemGuardLaunch",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17763",
-      "configurationServiceProviderVersion": "8.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1728,93 +1742,93 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.17763",
+      "configurationServiceProviderVersion": "8.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_deviceguard_configuresystemguardlaunch_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Secure Launch configuration: 0 - Unmanaged, configurable by Administrative user, 1 - Enables Secure Launch if supported by hardware, 2 - Disables Secure Launch.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_deviceguard_configuresystemguardlaunch",
-    "referredSettingInformationList": [],
     "categoryId": "992a8a1e-428e-41cb-948e-4e5da86105fa",
-    "displayName": "Configure System Guard Launch",
-    "name": "ConfigureSystemGuardLaunch",
-    "id": "device_vendor_msft_policy_config_deviceguard_configuresystemguardlaunch",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Unmanaged Configurable by Administrative user",
+        "displayName": "Unmanaged Configurable by Administrative user",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Unmanaged Configurable by Administrative user",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Unmanaged Configurable by Administrative user",
-        "itemId": "device_vendor_msft_policy_config_deviceguard_configuresystemguardlaunch_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deviceguard_configuresystemguardlaunch_0",
+        "description": "Unmanaged Configurable by Administrative user",
+        "name": "Unmanaged Configurable by Administrative user"
       },
       {
-        "description": "Unmanaged Enables Secure Launch if supported by hardware",
+        "displayName": "Unmanaged Enables Secure Launch if supported by hardware",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Unmanaged Enables Secure Launch if supported by hardware",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Unmanaged Enables Secure Launch if supported by hardware",
-        "itemId": "device_vendor_msft_policy_config_deviceguard_configuresystemguardlaunch_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deviceguard_configuresystemguardlaunch_1",
+        "description": "Unmanaged Enables Secure Launch if supported by hardware",
+        "name": "Unmanaged Enables Secure Launch if supported by hardware"
       },
       {
-        "description": "Unmanaged Disables Secure Launch",
+        "displayName": "Unmanaged Disables Secure Launch",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Unmanaged Disables Secure Launch",
-        "helpText": null,
         "optionValue": {
           "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Unmanaged Disables Secure Launch",
-        "itemId": "device_vendor_msft_policy_config_deviceguard_configuresystemguardlaunch_2"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deviceguard_configuresystemguardlaunch_2",
+        "description": "Unmanaged Disables Secure Launch",
+        "name": "Unmanaged Disables Secure Launch"
       }
     ],
+    "displayName": "Configure System Guard Launch",
     "keywords": [
       "Configure System Guard Launch",
       "Device Guard"
     ]
   },
   {
+    "offsetUri": "/Config/DeviceGuard/LsaCfgFlags",
     "uxBehavior": "default",
+    "description": "Credential Guard Configuration: 0 - Turns off CredentialGuard remotely if configured previously without UEFI Lock, 1 - Turns on CredentialGuard with UEFI lock. 2 - Turns on CredentialGuard without UEFI lock.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_deviceguard_lsacfgflags",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-deviceguard#lsacfgflags"
     ],
-    "offsetUri": "/Config/DeviceGuard/LsaCfgFlags",
+    "defaultOptionId": "device_vendor_msft_policy_config_deviceguard_lsacfgflags_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_deviceguard_lsacfgflags",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "LsaCfgFlags",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
-      "configurationServiceProviderVersion": "6.0",
-      "description": null,
-      "technologies": "mdm,configManager",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsEducation",
@@ -1823,93 +1837,93 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm,configManager",
+      "minimumSupportedVersion": "10.0.16299",
+      "configurationServiceProviderVersion": "6.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_deviceguard_lsacfgflags_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Credential Guard Configuration: 0 - Turns off CredentialGuard remotely if configured previously without UEFI Lock, 1 - Turns on CredentialGuard with UEFI lock. 2 - Turns on CredentialGuard without UEFI lock.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_deviceguard_lsacfgflags",
-    "referredSettingInformationList": [],
     "categoryId": "992a8a1e-428e-41cb-948e-4e5da86105fa",
-    "displayName": "Credential Guard",
-    "name": "LsaCfgFlags",
-    "id": "device_vendor_msft_policy_config_deviceguard_lsacfgflags",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "(Disabled) Turns off Credential Guard remotely if configured previously without UEFI Lock.",
+        "displayName": "(Disabled) Turns off Credential Guard remotely if configured previously without UEFI Lock.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "(Disabled) Turns off Credential Guard remotely if configured previously without UEFI Lock.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "(Disabled) Turns off Credential Guard remotely if configured previously without UEFI Lock.",
-        "itemId": "device_vendor_msft_policy_config_deviceguard_lsacfgflags_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deviceguard_lsacfgflags_0",
+        "description": "(Disabled) Turns off Credential Guard remotely if configured previously without UEFI Lock.",
+        "name": "(Disabled) Turns off Credential Guard remotely if configured previously without UEFI Lock."
       },
       {
-        "description": "(Enabled with UEFI lock) Turns on Credential Guard with UEFI lock.",
+        "displayName": "(Enabled with UEFI lock) Turns on Credential Guard with UEFI lock.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "(Enabled with UEFI lock) Turns on Credential Guard with UEFI lock.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "(Enabled with UEFI lock) Turns on Credential Guard with UEFI lock.",
-        "itemId": "device_vendor_msft_policy_config_deviceguard_lsacfgflags_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deviceguard_lsacfgflags_1",
+        "description": "(Enabled with UEFI lock) Turns on Credential Guard with UEFI lock.",
+        "name": "(Enabled with UEFI lock) Turns on Credential Guard with UEFI lock."
       },
       {
-        "description": "(Enabled without lock) Turns on Credential Guard without UEFI lock.",
+        "displayName": "(Enabled without lock) Turns on Credential Guard without UEFI lock.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "(Enabled without lock) Turns on Credential Guard without UEFI lock.",
-        "helpText": null,
         "optionValue": {
           "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "(Enabled without lock) Turns on Credential Guard without UEFI lock.",
-        "itemId": "device_vendor_msft_policy_config_deviceguard_lsacfgflags_2"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deviceguard_lsacfgflags_2",
+        "description": "(Enabled without lock) Turns on Credential Guard without UEFI lock.",
+        "name": "(Enabled without lock) Turns on Credential Guard without UEFI lock."
       }
     ],
+    "displayName": "Credential Guard",
     "keywords": [
       "Lsa Cfg Flags",
       "Device Guard"
     ]
   },
   {
+    "offsetUri": "/Config/DeviceGuard/EnableVirtualizationBasedSecurity",
     "uxBehavior": "default",
+    "description": "Turns On Virtualization Based Security(VBS)",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_deviceguard_enablevirtualizationbasedsecurity",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-deviceguard#enablevirtualizationbasedsecurity"
     ],
-    "offsetUri": "/Config/DeviceGuard/EnableVirtualizationBasedSecurity",
+    "defaultOptionId": "device_vendor_msft_policy_config_deviceguard_enablevirtualizationbasedsecurity_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_deviceguard_enablevirtualizationbasedsecurity",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "EnableVirtualizationBasedSecurity",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
-      "configurationServiceProviderVersion": "6.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1919,79 +1933,79 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.16299",
+      "configurationServiceProviderVersion": "6.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_deviceguard_enablevirtualizationbasedsecurity_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Turns On Virtualization Based Security(VBS)",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_deviceguard_enablevirtualizationbasedsecurity",
-    "referredSettingInformationList": [],
     "categoryId": "992a8a1e-428e-41cb-948e-4e5da86105fa",
-    "displayName": "Enable Virtualization Based Security",
-    "name": "EnableVirtualizationBasedSecurity",
-    "id": "device_vendor_msft_policy_config_deviceguard_enablevirtualizationbasedsecurity",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "disable virtualization based security.",
+        "displayName": "disable virtualization based security.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "disable virtualization based security.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "disable virtualization based security.",
-        "itemId": "device_vendor_msft_policy_config_deviceguard_enablevirtualizationbasedsecurity_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deviceguard_enablevirtualizationbasedsecurity_0",
+        "description": "disable virtualization based security.",
+        "name": "disable virtualization based security."
       },
       {
-        "description": "enable virtualization based security.",
+        "displayName": "enable virtualization based security.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "enable virtualization based security.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "enable virtualization based security.",
-        "itemId": "device_vendor_msft_policy_config_deviceguard_enablevirtualizationbasedsecurity_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deviceguard_enablevirtualizationbasedsecurity_1",
+        "description": "enable virtualization based security.",
+        "name": "enable virtualization based security."
       }
     ],
+    "displayName": "Enable Virtualization Based Security",
     "keywords": [
       "Enable Virtualization Based Security",
       "Device Guard"
     ]
   },
   {
+    "offsetUri": "/Config/DeviceGuard/RequirePlatformSecurityFeatures",
     "uxBehavior": "default",
+    "description": "Select Platform Security Level: 1 - Turns on VBS with Secure Boot, 3 - Turns on VBS with Secure Boot and DMA. DMA requires hardware support.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_deviceguard_requireplatformsecurityfeatures",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-deviceguard#requireplatformsecurityfeatures"
     ],
-    "offsetUri": "/Config/DeviceGuard/RequirePlatformSecurityFeatures",
+    "defaultOptionId": "device_vendor_msft_policy_config_deviceguard_requireplatformsecurityfeatures_1",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_deviceguard_requireplatformsecurityfeatures",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "RequirePlatformSecurityFeatures",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
-      "configurationServiceProviderVersion": "6.0",
-      "description": null,
-      "technologies": "mdm,configManager",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsEducation",
@@ -2000,79 +2014,79 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm,configManager",
+      "minimumSupportedVersion": "10.0.16299",
+      "configurationServiceProviderVersion": "6.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_deviceguard_requireplatformsecurityfeatures_1",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Select Platform Security Level: 1 - Turns on VBS with Secure Boot, 3 - Turns on VBS with Secure Boot and DMA. DMA requires hardware support.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_deviceguard_requireplatformsecurityfeatures",
-    "referredSettingInformationList": [],
     "categoryId": "992a8a1e-428e-41cb-948e-4e5da86105fa",
-    "displayName": "Require Platform Security Features",
-    "name": "RequirePlatformSecurityFeatures",
-    "id": "device_vendor_msft_policy_config_deviceguard_requireplatformsecurityfeatures",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Turns on VBS with Secure Boot.",
+        "displayName": "Turns on VBS with Secure Boot.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Turns on VBS with Secure Boot.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Turns on VBS with Secure Boot.",
-        "itemId": "device_vendor_msft_policy_config_deviceguard_requireplatformsecurityfeatures_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deviceguard_requireplatformsecurityfeatures_1",
+        "description": "Turns on VBS with Secure Boot.",
+        "name": "Turns on VBS with Secure Boot."
       },
       {
-        "description": "Turns on VBS with Secure Boot and direct memory access (DMA). DMA requires hardware support.",
+        "displayName": "Turns on VBS with Secure Boot and direct memory access (DMA). DMA requires hardware support.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Turns on VBS with Secure Boot and direct memory access (DMA). DMA requires hardware support.",
-        "helpText": null,
         "optionValue": {
           "value": 3,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Turns on VBS with Secure Boot and direct memory access (DMA). DMA requires hardware support.",
-        "itemId": "device_vendor_msft_policy_config_deviceguard_requireplatformsecurityfeatures_3"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_deviceguard_requireplatformsecurityfeatures_3",
+        "description": "Turns on VBS with Secure Boot and direct memory access (DMA). DMA requires hardware support.",
+        "name": "Turns on VBS with Secure Boot and direct memory access (DMA). DMA requires hardware support."
       }
     ],
+    "displayName": "Require Platform Security Features",
     "keywords": [
       "Require Platform Security Features",
       "Device Guard"
     ]
   },
   {
+    "offsetUri": "/Config/Experience/AllowCortana",
     "uxBehavior": "toggle",
+    "description": "Specifies whether Cortana is allowed on the device. If you enable or don’t configure this setting, Cortana is allowed on the device. If you disable this setting, Cortana is turned off. When Cortana is off, users will still be able to use search to find items on the device. Most restricted value is 0.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_experience_allowcortana",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#allowcortana"
     ],
-    "offsetUri": "/Config/Experience/AllowCortana",
+    "defaultOptionId": "device_vendor_msft_policy_config_experience_allowcortana_1",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_experience_allowcortana",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "AllowCortana",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.10240",
-      "configurationServiceProviderVersion": "1.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2084,218 +2098,218 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.10240",
+      "configurationServiceProviderVersion": "1.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_experience_allowcortana_1",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Specifies whether Cortana is allowed on the device. If you enable or don’t configure this setting, Cortana is allowed on the device. If you disable this setting, Cortana is turned off. When Cortana is off, users will still be able to use search to find items on the device. Most restricted value is 0.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_experience_allowcortana",
-    "referredSettingInformationList": [],
     "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
-    "displayName": "Allow Cortana",
-    "name": "AllowCortana",
-    "id": "device_vendor_msft_policy_config_experience_allowcortana",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Not allowed.",
+        "displayName": "Block",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Not allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Block",
-        "itemId": "device_vendor_msft_policy_config_experience_allowcortana_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_experience_allowcortana_0",
+        "description": "Not allowed.",
+        "name": "Not allowed."
       },
       {
-        "description": "Allowed.",
+        "displayName": "Allow",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Allow",
-        "itemId": "device_vendor_msft_policy_config_experience_allowcortana_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_experience_allowcortana_1",
+        "description": "Allowed.",
+        "name": "Allowed."
       }
     ],
+    "displayName": "Allow Cortana",
     "keywords": [
       "Allow Cortana",
       "Experience"
     ]
   },
   {
+    "offsetUri": "/Config/Experience/AllowSpotlightCollection",
     "uxBehavior": "default",
+    "description": "Specifies whether Spotlight collection is allowed as a Personalization->Background Setting. If you enable this policy setting, Spotlight collection will show as an option in the user's Personalization Settings, and the user will be able to get daily images from Microsoft displayed on their desktop. If you disable this policy setting, Spotlight collection will not show as an option in Personliazation Settings, and the user will not have the choice of getting Microsoft daily images shown on their desktop.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowspotlightcollection",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#allowspotlightcollection"
     ],
-    "offsetUri": "/Config/Experience/AllowSpotlightCollection",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "dependedOnBy": [],
+    "id": "user_vendor_msft_policy_config_experience_allowspotlightcollection",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "dependentOn": [],
+    "baseUri": "./User/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "valueDefinition": {
+      "maximumValue": 1,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0
+    },
+    "name": "AllowSpotlightCollection",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.22000",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsEducation",
         "iotEnterprise",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22000",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "dependentOn": [],
-    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
+    "displayName": "Allow Spotlight Collection (User)",
     "defaultValue": {
       "value": 1,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
       "settingValueTemplateReference": null
     },
-    "baseUri": "./User/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Specifies whether Spotlight collection is allowed as a Personalization->Background Setting. If you enable this policy setting, Spotlight collection will show as an option in the user's Personalization Settings, and the user will be able to get daily images from Microsoft displayed on their desktop. If you disable this policy setting, Spotlight collection will not show as an option in Personliazation Settings, and the user will not have the choice of getting Microsoft daily images shown on their desktop.",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowspotlightcollection",
-    "referredSettingInformationList": [],
-    "valueDefinition": {
-      "maximumValue": 1,
-      "minimumValue": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
-    },
-    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
-    "displayName": "Allow Spotlight Collection (User)",
-    "name": "AllowSpotlightCollection",
-    "dependedOnBy": [],
-    "id": "user_vendor_msft_policy_config_experience_allowspotlightcollection",
-    "visibility": "settingsCatalog,template",
     "keywords": [
       "Allow Spotlight Collection",
       "Experience"
     ]
   },
   {
+    "offsetUri": "/Config/Experience/DisableConsumerAccountStateContent",
     "uxBehavior": "toggle",
+    "description": "This policy controls Windows experiences that use the cloud consumer account state content client component. If you enable this policy, they will present only default content. If you disable or do not configure this policy, they will be able to use cloud provided content.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#disableconsumeraccountstatecontent"
     ],
-    "offsetUri": "/Config/Experience/DisableConsumerAccountStateContent",
+    "defaultOptionId": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "DisableConsumerAccountStateContent",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.22000",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsEducation",
         "iotEnterprise",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22000",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "This policy controls Windows experiences that use the cloud consumer account state content client component. If you enable this policy, they will present only default content. If you disable or do not configure this policy, they will be able to use cloud provided content.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent",
-    "referredSettingInformationList": [],
     "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
-    "displayName": "Disable Consumer Account State Content",
-    "name": "DisableConsumerAccountStateContent",
-    "id": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Disabled.",
+        "displayName": "Disabled.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disabled.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Disabled.",
-        "itemId": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent_0",
+        "description": "Disabled.",
+        "name": "Disabled."
       },
       {
-        "description": "Enabled.",
+        "displayName": "Enabled.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Enabled.",
-        "itemId": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_experience_disableconsumeraccountstatecontent_1",
+        "description": "Enabled.",
+        "name": "Enabled."
       }
     ],
+    "displayName": "Disable Consumer Account State Content",
     "keywords": [
       "Disable Consumer Account State Content",
       "Experience"
     ]
   },
   {
+    "offsetUri": "/Config/Experience/DoNotShowFeedbackNotifications",
     "uxBehavior": "default",
+    "description": "Prevents devices from showing feedback questions from Microsoft. If you enable this policy setting, users will no longer see feedback notifications through the Feedback hub app. If you disable or do not configure this policy setting, users may see notifications through the Feedback hub app asking users for feedback. If you disable or do not configure this policy setting, users can control how often they receive feedback questions.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_experience_donotshowfeedbacknotifications",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#donotshowfeedbacknotifications"
     ],
-    "offsetUri": "/Config/Experience/DoNotShowFeedbackNotifications",
+    "defaultOptionId": "device_vendor_msft_policy_config_experience_donotshowfeedbacknotifications_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_experience_donotshowfeedbacknotifications",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "DoNotShowFeedbackNotifications",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.14393",
-      "configurationServiceProviderVersion": "4.1",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2306,79 +2320,79 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.14393",
+      "configurationServiceProviderVersion": "4.1"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_experience_donotshowfeedbacknotifications_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Prevents devices from showing feedback questions from Microsoft. If you enable this policy setting, users will no longer see feedback notifications through the Feedback hub app. If you disable or do not configure this policy setting, users may see notifications through the Feedback hub app asking users for feedback. If you disable or do not configure this policy setting, users can control how often they receive feedback questions.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_experience_donotshowfeedbacknotifications",
-    "referredSettingInformationList": [],
     "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
-    "displayName": "Do Not Show Feedback Notifications",
-    "name": "DoNotShowFeedbackNotifications",
-    "id": "device_vendor_msft_policy_config_experience_donotshowfeedbacknotifications",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Feedback notifications are not disabled. The actual state of feedback notifications on the device will then depend on what GP has configured or what the user has configured locally.",
+        "displayName": "Feedback notifications are not disabled. The actual state of feedback notifications on the device will then depend on what GP has configured or what the user has configured locally.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Feedback notifications are not disabled. The actual state of feedback notifications on the device will then depend on what GP has configured or what the user has configured locally.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Feedback notifications are not disabled. The actual state of feedback notifications on the device will then depend on what GP has configured or what the user has configured locally.",
-        "itemId": "device_vendor_msft_policy_config_experience_donotshowfeedbacknotifications_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_experience_donotshowfeedbacknotifications_0",
+        "description": "Feedback notifications are not disabled. The actual state of feedback notifications on the device will then depend on what GP has configured or what the user has configured locally.",
+        "name": "Feedback notifications are not disabled. The actual state of feedback notifications on the device will then depend on what GP has configured or what the user has configured locally."
       },
       {
-        "description": "Feedback notifications are disabled.",
+        "displayName": "Feedback notifications are disabled.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Feedback notifications are disabled.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Feedback notifications are disabled.",
-        "itemId": "device_vendor_msft_policy_config_experience_donotshowfeedbacknotifications_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_experience_donotshowfeedbacknotifications_1",
+        "description": "Feedback notifications are disabled.",
+        "name": "Feedback notifications are disabled."
       }
     ],
+    "displayName": "Do Not Show Feedback Notifications",
     "keywords": [
       "Do Not Show Feedback Notifications",
       "Experience"
     ]
   },
   {
+    "offsetUri": "/Config/LanmanWorkstation/EnableInsecureGuestLogons",
     "uxBehavior": "toggle",
+    "description": "This policy setting determines if the SMB client will allow insecure guest logons to an SMB server. If you enable this policy setting or if you do not configure this policy setting, the SMB client will allow insecure guest logons. If you disable this policy setting, the SMB client will reject insecure guest logons. Insecure guest logons are used by file servers to allow unauthenticated access to shared folders. While uncommon in an enterprise environment, insecure guest logons are frequently used by consumer Network Attached Storage (NAS) appliances acting as file servers. Windows file servers require authentication and do not use insecure guest logons by default. Since insecure guest logons are unauthenticated, important security features such as SMB Signing and SMB Encryption are disabled. As a result, clients that allow insecure guest logons are vulnerable to a variety of man-in-the-middle attacks that can result in data loss, data corruption, and exposure to malware. Additionally, any data written to a file server using an insecure guest logon is potentially accessible to anyone on the network. Microsoft recommends disabling insecure guest logons and configuring file servers to require authenticated access.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LanmanWorkstation#enableinsecureguestlogons"
     ],
-    "offsetUri": "/Config/LanmanWorkstation/EnableInsecureGuestLogons",
+    "defaultOptionId": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "EnableInsecureGuestLogons",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2389,79 +2403,79 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "This policy setting determines if the SMB client will allow insecure guest logons to an SMB server. If you enable this policy setting or if you do not configure this policy setting, the SMB client will allow insecure guest logons. If you disable this policy setting, the SMB client will reject insecure guest logons. Insecure guest logons are used by file servers to allow unauthenticated access to shared folders. While uncommon in an enterprise environment, insecure guest logons are frequently used by consumer Network Attached Storage (NAS) appliances acting as file servers. Windows file servers require authentication and do not use insecure guest logons by default. Since insecure guest logons are unauthenticated, important security features such as SMB Signing and SMB Encryption are disabled. As a result, clients that allow insecure guest logons are vulnerable to a variety of man-in-the-middle attacks that can result in data loss, data corruption, and exposure to malware. Additionally, any data written to a file server using an insecure guest logon is potentially accessible to anyone on the network. Microsoft recommends disabling insecure guest logons and configuring file servers to require authenticated access.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons",
-    "referredSettingInformationList": [],
     "categoryId": "a6780c5d-05e0-4047-a6a7-aa7fc4804163",
-    "displayName": "Enable Insecure Guest Logons",
-    "name": "EnableInsecureGuestLogons",
-    "id": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Disabled",
+        "displayName": "Disabled",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons_0",
+        "description": "Disabled",
+        "name": "Disabled"
       },
       {
-        "description": "Enabled",
+        "displayName": "Enabled",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons_1",
+        "description": "Enabled",
+        "name": "Enabled"
       }
     ],
+    "displayName": "Enable Insecure Guest Logons",
     "keywords": [
       "Enable Insecure Guest Logons",
       "Lanman Workstation"
     ]
   },
   {
+    "offsetUri": "/Config/LocalSecurityAuthority/ConfigureLsaProtectedProcess",
     "uxBehavior": "default",
+    "description": "If you do not configure this policy and there is no current setting in the registry, LSA will run as protected process for all clean installed, HVCI capable, client SKUs. This configuration is not UEFI locked. This can be overridden if the policy is configured. If you configure and set this policy setting to 'Disabled', LSA will not run as a protected process. If you configure and set this policy setting to 'EnabledWithUEFILock', LSA will run as a protected process and this configuration is UEFI locked. If you configure and set this policy setting to 'EnabledWithoutUEFILock', LSA will run as a protected process and this configuration is not UEFI locked.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalSecurityAuthority#configurelsaprotectedprocess"
     ],
-    "offsetUri": "/Config/LocalSecurityAuthority/ConfigureLsaProtectedProcess",
+    "defaultOptionId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "ConfigureLsaProtectedProcess",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2472,93 +2486,93 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "If you do not configure this policy and there is no current setting in the registry, LSA will run as protected process for all clean installed, HVCI capable, client SKUs. This configuration is not UEFI locked. This can be overridden if the policy is configured. If you configure and set this policy setting to 'Disabled', LSA will not run as a protected process. If you configure and set this policy setting to 'EnabledWithUEFILock', LSA will run as a protected process and this configuration is UEFI locked. If you configure and set this policy setting to 'EnabledWithoutUEFILock', LSA will run as a protected process and this configuration is not UEFI locked.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess",
-    "referredSettingInformationList": [],
     "categoryId": "a279f35f-cd71-4489-b0c3-545ea1aa229d",
-    "displayName": "Configure Lsa Protected Process",
-    "name": "ConfigureLsaProtectedProcess",
-    "id": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Disabled. Default value. LSA will not run as protected process.",
+        "displayName": "Disabled. Default value. LSA will not run as protected process.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disabled. Default value. LSA will not run as protected process.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Disabled. Default value. LSA will not run as protected process.",
-        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_0",
+        "description": "Disabled. Default value. LSA will not run as protected process.",
+        "name": "Disabled. Default value. LSA will not run as protected process."
       },
       {
-        "description": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
+        "displayName": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
-        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_1",
+        "description": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
+        "name": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked."
       },
       {
-        "description": "Enabled without UEFI lock. LSA will run as protected process and this configuration is not UEFI locked.",
+        "displayName": "Enabled without UEFI lock. LSA will run as protected process and this configuration is not UEFI locked.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled without UEFI lock. LSA will run as protected process and this configuration is not UEFI locked.",
-        "helpText": null,
         "optionValue": {
           "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Enabled without UEFI lock. LSA will run as protected process and this configuration is not UEFI locked.",
-        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_2"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_2",
+        "description": "Enabled without UEFI lock. LSA will run as protected process and this configuration is not UEFI locked.",
+        "name": "Enabled without UEFI lock. LSA will run as protected process and this configuration is not UEFI locked."
       }
     ],
+    "displayName": "Configure Lsa Protected Process",
     "keywords": [
       "Configure Lsa Protected Process",
       "Local Security Authority"
     ]
   },
   {
+    "offsetUri": "/Config/ApplicationManagement/AllowAppStoreAutoUpdate",
     "uxBehavior": "default",
+    "description": "Specifies whether automatic update of apps from Microsoft Store are allowed. Most restricted value is 0.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-ApplicationManagement#allowappstoreautoupdate"
     ],
-    "offsetUri": "/Config/ApplicationManagement/AllowAppStoreAutoUpdate",
+    "defaultOptionId": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_2",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "AllowAppStoreAutoUpdate",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.10240",
-      "configurationServiceProviderVersion": "1.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2570,73 +2584,59 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.10240",
+      "configurationServiceProviderVersion": "1.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_2",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Specifies whether automatic update of apps from Microsoft Store are allowed. Most restricted value is 0.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate",
-    "referredSettingInformationList": [],
     "categoryId": "a0c9f0b7-aa25-4e9c-a393-516145847b8b",
-    "displayName": "Allow apps from the Microsoft app store to auto update",
-    "name": "AllowAppStoreAutoUpdate",
-    "id": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Not allowed.",
+        "displayName": "Not allowed.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Not allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Not allowed.",
-        "itemId": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_0",
+        "description": "Not allowed.",
+        "name": "Not allowed."
       },
       {
-        "description": "Allowed.",
+        "displayName": "Allowed.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Allowed.",
-        "itemId": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_1",
+        "description": "Allowed.",
+        "name": "Allowed."
       },
       {
-        "description": "Not configured.",
+        "displayName": "Not configured.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Not configured.",
-        "helpText": null,
         "optionValue": {
           "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Not configured.",
-        "itemId": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_2"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_applicationmanagement_allowappstoreautoupdate_2",
+        "description": "Not configured.",
+        "name": "Not configured."
       }
     ],
+    "displayName": "Allow apps from the Microsoft app store to auto update",
     "keywords": [
       "AllowAppStoreAutoUpdate",
       "ApplicationManagement",
@@ -2644,20 +2644,34 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
     ]
   },
   {
+    "offsetUri": "/Config/ApplicationManagement/AllowGameDVR",
     "uxBehavior": "toggle",
+    "description": "Note The policy is only enforced in Windows 10 for desktop. Specifies whether DVR and broadcasting is allowed. Most restricted value is 0.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_applicationmanagement_allowgamedvr",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-ApplicationManagement#allowgamedvr"
     ],
-    "offsetUri": "/Config/ApplicationManagement/AllowGameDVR",
+    "defaultOptionId": "device_vendor_msft_policy_config_applicationmanagement_allowgamedvr_1",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_applicationmanagement_allowgamedvr",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "AllowGameDVR",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.10240",
-      "configurationServiceProviderVersion": "1.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2668,59 +2682,45 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.10240",
+      "configurationServiceProviderVersion": "1.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_applicationmanagement_allowgamedvr_1",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Note The policy is only enforced in Windows 10 for desktop. Specifies whether DVR and broadcasting is allowed. Most restricted value is 0.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_applicationmanagement_allowgamedvr",
-    "referredSettingInformationList": [],
     "categoryId": "a0c9f0b7-aa25-4e9c-a393-516145847b8b",
-    "displayName": "Allow Game DVR",
-    "name": "AllowGameDVR",
-    "id": "device_vendor_msft_policy_config_applicationmanagement_allowgamedvr",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Not allowed.",
+        "displayName": "Block",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Not allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Block",
-        "itemId": "device_vendor_msft_policy_config_applicationmanagement_allowgamedvr_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_applicationmanagement_allowgamedvr_0",
+        "description": "Not allowed.",
+        "name": "Not allowed."
       },
       {
-        "description": "Allowed.",
+        "displayName": "Allow",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Allow",
-        "itemId": "device_vendor_msft_policy_config_applicationmanagement_allowgamedvr_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_applicationmanagement_allowgamedvr_1",
+        "description": "Allowed.",
+        "name": "Allowed."
       }
     ],
+    "displayName": "Allow Game DVR",
     "keywords": [
       "Allow Game DVR",
       "Application Management",
@@ -2728,20 +2728,34 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
     ]
   },
   {
+    "offsetUri": "/Config/ApplicationManagement/BlockNonAdminUserInstall",
     "uxBehavior": "toggle",
+    "description": "Manages non-administrator users' ability to install Windows app packages. If you enable this policy, non-administrators will be unable to initiate installation of Windows app packages. Administrators who wish to install an app will need to do so from an Administrator context (for example, an Administrator PowerShell window). All users will still be able to install Windows app packages via the Microsoft Store, if permitted by other policies. If you disable or do not configure this policy, all users will be able to initiate installation of Windows app packages.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_applicationmanagement_blocknonadminuserinstall",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-ApplicationManagement#blocknonadminuserinstall"
     ],
-    "offsetUri": "/Config/ApplicationManagement/BlockNonAdminUserInstall",
+    "defaultOptionId": "device_vendor_msft_policy_config_applicationmanagement_blocknonadminuserinstall_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_applicationmanagement_blocknonadminuserinstall",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "BlockNonAdminUserInstall",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.19041",
-      "configurationServiceProviderVersion": "10.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsEducation",
@@ -2749,59 +2763,45 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterprise",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041",
+      "configurationServiceProviderVersion": "10.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_applicationmanagement_blocknonadminuserinstall_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Manages non-administrator users' ability to install Windows app packages. If you enable this policy, non-administrators will be unable to initiate installation of Windows app packages. Administrators who wish to install an app will need to do so from an Administrator context (for example, an Administrator PowerShell window). All users will still be able to install Windows app packages via the Microsoft Store, if permitted by other policies. If you disable or do not configure this policy, all users will be able to initiate installation of Windows app packages.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_applicationmanagement_blocknonadminuserinstall",
-    "referredSettingInformationList": [],
     "categoryId": "a0c9f0b7-aa25-4e9c-a393-516145847b8b",
-    "displayName": "Block Non Admin User Install",
-    "name": "BlockNonAdminUserInstall",
-    "id": "device_vendor_msft_policy_config_applicationmanagement_blocknonadminuserinstall",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Disabled. All users will be able to initiate installation of Windows app packages.",
+        "displayName": "Block",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disabled. All users will be able to initiate installation of Windows app packages.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Block",
-        "itemId": "device_vendor_msft_policy_config_applicationmanagement_blocknonadminuserinstall_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_applicationmanagement_blocknonadminuserinstall_0",
+        "description": "Disabled. All users will be able to initiate installation of Windows app packages.",
+        "name": "Disabled. All users will be able to initiate installation of Windows app packages."
       },
       {
-        "description": "Enabled. Non-administrator users will not be able to initiate installation of Windows app packages.",
+        "displayName": "Allow",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled. Non-administrator users will not be able to initiate installation of Windows app packages.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Allow",
-        "itemId": "device_vendor_msft_policy_config_applicationmanagement_blocknonadminuserinstall_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_applicationmanagement_blocknonadminuserinstall_1",
+        "description": "Enabled. Non-administrator users will not be able to initiate installation of Windows app packages.",
+        "name": "Enabled. Non-administrator users will not be able to initiate installation of Windows app packages."
       }
     ],
+    "displayName": "Block Non Admin User Install",
     "keywords": [
       "Block Non Admin User Install",
       "Application Management",
@@ -2809,20 +2809,34 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
     ]
   },
   {
+    "offsetUri": "/Config/ApplicationManagement/MSIAllowUserControlOverInstall",
     "uxBehavior": "toggle",
+    "description": "This policy setting permits users to change installation options that typically are available only to system administrators. If you enable this policy setting, some of the security features of Windows Installer are bypassed. It permits installations to complete that otherwise would be halted due to a security violation. If you disable or do not configure this policy setting, the security features of Windows Installer prevent users from changing installation options typically reserved for system administrators, such as specifying the directory to which files are installed. If Windows Installer detects that an installation package has permitted the user to change a protected option, it stops the installation and displays a message. These security features operate only when the installation program is running in a privileged security context in which it has access to directories denied to the user. This policy setting is designed for less restrictive environments. It can be used to circumvent errors in an installation program that prevents software from being installed.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_applicationmanagement_msiallowusercontroloverinstall",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-ApplicationManagement#msiallowusercontroloverinstall"
     ],
-    "offsetUri": "/Config/ApplicationManagement/MSIAllowUserControlOverInstall",
+    "defaultOptionId": "device_vendor_msft_policy_config_applicationmanagement_msiallowusercontroloverinstall_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_applicationmanagement_msiallowusercontroloverinstall",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "MSIAllowUserControlOverInstall",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2833,59 +2847,45 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_applicationmanagement_msiallowusercontroloverinstall_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "This policy setting permits users to change installation options that typically are available only to system administrators. If you enable this policy setting, some of the security features of Windows Installer are bypassed. It permits installations to complete that otherwise would be halted due to a security violation. If you disable or do not configure this policy setting, the security features of Windows Installer prevent users from changing installation options typically reserved for system administrators, such as specifying the directory to which files are installed. If Windows Installer detects that an installation package has permitted the user to change a protected option, it stops the installation and displays a message. These security features operate only when the installation program is running in a privileged security context in which it has access to directories denied to the user. This policy setting is designed for less restrictive environments. It can be used to circumvent errors in an installation program that prevents software from being installed.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_applicationmanagement_msiallowusercontroloverinstall",
-    "referredSettingInformationList": [],
     "categoryId": "a0c9f0b7-aa25-4e9c-a393-516145847b8b",
-    "displayName": "MSI Allow User Control Over Install",
-    "name": "MSIAllowUserControlOverInstall",
-    "id": "device_vendor_msft_policy_config_applicationmanagement_msiallowusercontroloverinstall",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Disabled",
+        "displayName": "Disabled",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_applicationmanagement_msiallowusercontroloverinstall_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_applicationmanagement_msiallowusercontroloverinstall_0",
+        "description": "Disabled",
+        "name": "Disabled"
       },
       {
-        "description": "Enabled",
+        "displayName": "Enabled",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_applicationmanagement_msiallowusercontroloverinstall_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_applicationmanagement_msiallowusercontroloverinstall_1",
+        "description": "Enabled",
+        "name": "Enabled"
       }
     ],
+    "displayName": "MSI Allow User Control Over Install",
     "keywords": [
       "MSI Allow User Control Over Install",
       "Application Management",
@@ -2893,104 +2893,34 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
     ]
   },
   {
+    "offsetUri": "/Config/ApplicationManagement/MSIAlwaysInstallWithElevatedPrivileges",
     "uxBehavior": "toggle",
+    "description": "This policy setting directs Windows Installer to use elevated permissions when it installs any program on the system. If you enable this policy setting, privileges are extended to all programs. These privileges are usually reserved for programs that have been assigned to the user (offered on the desktop), assigned to the computer (installed automatically), or made available in Add or Remove Programs in Control Panel. This profile setting lets users install programs that require access to directories that the user might not have permission to view or change, including directories on highly restricted computers. If you disable or do not configure this policy setting, the system applies the current user's permissions when it installs programs that a system administrator does not distribute or offer. Note: This policy setting appears both in the Computer Configuration and User Configuration folders. To make this policy setting effective, you must enable it in both folders. Caution: Skilled users can take advantage of the permissions this policy setting grants to change their privileges and gain permanent access to restricted files and folders. Note that the User Configuration version of this policy setting is not guaranteed to be secure.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-ApplicationManagement#msialwaysinstallwithelevatedprivileges"
     ],
-    "offsetUri": "/Config/ApplicationManagement/MSIAlwaysInstallWithElevatedPrivileges",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
-      "requiresAzureAd": false,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
-    },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
     "defaultOptionId": "device_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "This policy setting directs Windows Installer to use elevated permissions when it installs any program on the system. If you enable this policy setting, privileges are extended to all programs. These privileges are usually reserved for programs that have been assigned to the user (offered on the desktop), assigned to the computer (installed automatically), or made available in Add or Remove Programs in Control Panel. This profile setting lets users install programs that require access to directories that the user might not have permission to view or change, including directories on highly restricted computers. If you disable or do not configure this policy setting, the system applies the current user's permissions when it installs programs that a system administrator does not distribute or offer. Note: This policy setting appears both in the Computer Configuration and User Configuration folders. To make this policy setting effective, you must enable it in both folders. Caution: Skilled users can take advantage of the permissions this policy setting grants to change their privileges and gain permanent access to restricted files and folders. Note that the User Configuration version of this policy setting is not guaranteed to be secure.",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "accessTypes": "add,delete,get,replace",
     "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges",
-    "referredSettingInformationList": [],
-    "categoryId": "a0c9f0b7-aa25-4e9c-a393-516145847b8b",
-    "displayName": "MSI Always Install With Elevated Privileges",
-    "name": "MSIAlwaysInstallWithElevatedPrivileges",
     "id": "device_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges",
     "visibility": "settingsCatalog,template",
-    "options": [
-      {
-        "description": "Disabled",
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0"
-      },
-      {
-        "description": "Enabled",
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled",
-        "helpText": null,
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_1"
-      }
-    ],
-    "keywords": [
-      "MSI Always Install With Elevated Privileges",
-      "Application Management",
-      "Microsoft App Store"
-    ]
-  },
-  {
-    "uxBehavior": "toggle",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-ApplicationManagement#msialwaysinstallwithelevatedprivileges"
-    ],
-    "offsetUri": "/Config/ApplicationManagement/MSIAlwaysInstallWithElevatedPrivileges",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "MSIAlwaysInstallWithElevatedPrivileges",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3001,59 +2931,45 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0",
-    "baseUri": "./User/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "This policy setting directs Windows Installer to use elevated permissions when it installs any program on the system. If you enable this policy setting, privileges are extended to all programs. These privileges are usually reserved for programs that have been assigned to the user (offered on the desktop), assigned to the computer (installed automatically), or made available in Add or Remove Programs in Control Panel. This profile setting lets users install programs that require access to directories that the user might not have permission to view or change, including directories on highly restricted computers. If you disable or do not configure this policy setting, the system applies the current user's permissions when it installs programs that a system administrator does not distribute or offer. Note: This policy setting appears both in the Computer Configuration and User Configuration folders. To make this policy setting effective, you must enable it in both folders. Caution: Skilled users can take advantage of the permissions this policy setting grants to change their privileges and gain permanent access to restricted files and folders. Note that the User Configuration version of this policy setting is not guaranteed to be secure.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges",
-    "referredSettingInformationList": [],
     "categoryId": "a0c9f0b7-aa25-4e9c-a393-516145847b8b",
-    "displayName": "MSI Always Install With Elevated Privileges (User)",
-    "name": "MSIAlwaysInstallWithElevatedPrivileges",
-    "id": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Disabled",
+        "displayName": "Disabled",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Disabled",
-        "itemId": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0",
+        "description": "Disabled",
+        "name": "Disabled"
       },
       {
-        "description": "Enabled",
+        "displayName": "Enabled",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "itemId": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_1",
+        "description": "Enabled",
+        "name": "Enabled"
       }
     ],
+    "displayName": "MSI Always Install With Elevated Privileges",
     "keywords": [
       "MSI Always Install With Elevated Privileges",
       "Application Management",
@@ -3061,20 +2977,118 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
     ]
   },
   {
+    "offsetUri": "/Config/ApplicationManagement/MSIAlwaysInstallWithElevatedPrivileges",
     "uxBehavior": "toggle",
+    "description": "This policy setting directs Windows Installer to use elevated permissions when it installs any program on the system. If you enable this policy setting, privileges are extended to all programs. These privileges are usually reserved for programs that have been assigned to the user (offered on the desktop), assigned to the computer (installed automatically), or made available in Add or Remove Programs in Control Panel. This profile setting lets users install programs that require access to directories that the user might not have permission to view or change, including directories on highly restricted computers. If you disable or do not configure this policy setting, the system applies the current user's permissions when it installs programs that a system administrator does not distribute or offer. Note: This policy setting appears both in the Computer Configuration and User Configuration folders. To make this policy setting effective, you must enable it in both folders. Caution: Skilled users can take advantage of the permissions this policy setting grants to change their privileges and gain permanent access to restricted files and folders. Note that the User Configuration version of this policy setting is not guaranteed to be secure.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-ApplicationManagement#msialwaysinstallwithelevatedprivileges"
+    ],
+    "defaultOptionId": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./User/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "MSIAlwaysInstallWithElevatedPrivileges",
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0"
+    },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "categoryId": "a0c9f0b7-aa25-4e9c-a393-516145847b8b",
+    "options": [
+      {
+        "displayName": "Disabled",
+        "dependedOnBy": [],
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_0",
+        "description": "Disabled",
+        "name": "Disabled"
+      },
+      {
+        "displayName": "Enabled",
+        "dependedOnBy": [],
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "user_vendor_msft_policy_config_applicationmanagement_msialwaysinstallwithelevatedprivileges_1",
+        "description": "Enabled",
+        "name": "Enabled"
+      }
+    ],
+    "displayName": "MSI Always Install With Elevated Privileges (User)",
+    "keywords": [
+      "MSI Always Install With Elevated Privileges",
+      "Application Management",
+      "Microsoft App Store"
+    ]
+  },
+  {
+    "offsetUri": "/Config/Privacy/AllowInputPersonalization",
+    "uxBehavior": "toggle",
+    "description": "Updated in Windows 10, version 1809. This policy specifies whether users on the device have the option to enable online speech recognition. When enabled, users can use their voice for dictation and to talk to Cortana and other apps that use Microsoft cloud-based speech recognition. Microsoft will use voice input to help improve our speech services. If the policy value is set to 0, online speech recognition will be disabled and users cannot enable online speech recognition via settings. If policy value is set to 1 or is not configured, control is deferred to users. Most restricted value is 0.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_privacy_allowinputpersonalization",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Privacy#allowinputpersonalization"
     ],
-    "offsetUri": "/Config/Privacy/AllowInputPersonalization",
+    "defaultOptionId": "device_vendor_msft_policy_config_privacy_allowinputpersonalization_1",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_privacy_allowinputpersonalization",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "AllowInputPersonalization",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.10240",
-      "configurationServiceProviderVersion": "1.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3088,79 +3102,79 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.10240",
+      "configurationServiceProviderVersion": "1.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_privacy_allowinputpersonalization_1",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Updated in Windows 10, version 1809. This policy specifies whether users on the device have the option to enable online speech recognition. When enabled, users can use their voice for dictation and to talk to Cortana and other apps that use Microsoft cloud-based speech recognition. Microsoft will use voice input to help improve our speech services. If the policy value is set to 0, online speech recognition will be disabled and users cannot enable online speech recognition via settings. If policy value is set to 1 or is not configured, control is deferred to users. Most restricted value is 0.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_privacy_allowinputpersonalization",
-    "referredSettingInformationList": [],
     "categoryId": "98e76d3e-9e52-45b3-b0c7-f029023121e9",
-    "displayName": "Allow Input Personalization",
-    "name": "AllowInputPersonalization",
-    "id": "device_vendor_msft_policy_config_privacy_allowinputpersonalization",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Not allowed.",
+        "displayName": "Block",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Not allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Block",
-        "itemId": "device_vendor_msft_policy_config_privacy_allowinputpersonalization_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_privacy_allowinputpersonalization_0",
+        "description": "Not allowed.",
+        "name": "Not allowed."
       },
       {
-        "description": "Choice deferred to user's preference.",
+        "displayName": "Allow",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Choice deferred to user's preference.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Allow",
-        "itemId": "device_vendor_msft_policy_config_privacy_allowinputpersonalization_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_privacy_allowinputpersonalization_1",
+        "description": "Choice deferred to user's preference.",
+        "name": "Choice deferred to user's preference."
       }
     ],
+    "displayName": "Allow Input Personalization",
     "keywords": [
       "Allow Input Personalization",
       "Privacy"
     ]
   },
   {
+    "offsetUri": "/Config/Privacy/LetAppsActivateWithVoiceAboveLock",
     "uxBehavior": "default",
+    "description": "This policy setting specifies whether Windows apps can be activated by voice while the system is locked.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_privacy_letappsactivatewithvoiceabovelock",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Privacy#letappsactivatewithvoiceabovelock"
     ],
-    "offsetUri": "/Config/Privacy/LetAppsActivateWithVoiceAboveLock",
+    "defaultOptionId": "device_vendor_msft_policy_config_privacy_letappsactivatewithvoiceabovelock_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_privacy_letappsactivatewithvoiceabovelock",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "LetAppsActivateWithVoiceAboveLock",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.18362",
-      "configurationServiceProviderVersion": "9.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3173,93 +3187,93 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.18362",
+      "configurationServiceProviderVersion": "9.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_privacy_letappsactivatewithvoiceabovelock_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "This policy setting specifies whether Windows apps can be activated by voice while the system is locked.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_privacy_letappsactivatewithvoiceabovelock",
-    "referredSettingInformationList": [],
     "categoryId": "98e76d3e-9e52-45b3-b0c7-f029023121e9",
-    "displayName": "Let Apps Activate With Voice Above Lock",
-    "name": "LetAppsActivateWithVoiceAboveLock",
-    "id": "device_vendor_msft_policy_config_privacy_letappsactivatewithvoiceabovelock",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "User in control. Users can decide if Windows apps can be activated by voice while the screen is locked using Settings > Privacy options on the device.",
+        "displayName": "User in control. Users can decide if Windows apps can be activated by voice while the screen is locked using Settings > Privacy options on the device.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "User in control. Users can decide if Windows apps can be activated by voice while the screen is locked using Settings > Privacy options on the device.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "User in control. Users can decide if Windows apps can be activated by voice while the screen is locked using Settings > Privacy options on the device.",
-        "itemId": "device_vendor_msft_policy_config_privacy_letappsactivatewithvoiceabovelock_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_privacy_letappsactivatewithvoiceabovelock_0",
+        "description": "User in control. Users can decide if Windows apps can be activated by voice while the screen is locked using Settings > Privacy options on the device.",
+        "name": "User in control. Users can decide if Windows apps can be activated by voice while the screen is locked using Settings > Privacy options on the device."
       },
       {
-        "description": "Force allow. Windows apps can be activated by voice while the screen is locked, and users cannot change it.",
+        "displayName": "Force allow. Windows apps can be activated by voice while the screen is locked, and users cannot change it.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Force allow. Windows apps can be activated by voice while the screen is locked, and users cannot change it.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Force allow. Windows apps can be activated by voice while the screen is locked, and users cannot change it.",
-        "itemId": "device_vendor_msft_policy_config_privacy_letappsactivatewithvoiceabovelock_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_privacy_letappsactivatewithvoiceabovelock_1",
+        "description": "Force allow. Windows apps can be activated by voice while the screen is locked, and users cannot change it.",
+        "name": "Force allow. Windows apps can be activated by voice while the screen is locked, and users cannot change it."
       },
       {
-        "description": "Force deny. Windows apps cannot be activated by voice while the screen is locked, and users cannot change it.",
+        "displayName": "Force deny. Windows apps cannot be activated by voice while the screen is locked, and users cannot change it.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Force deny. Windows apps cannot be activated by voice while the screen is locked, and users cannot change it.",
-        "helpText": null,
         "optionValue": {
           "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Force deny. Windows apps cannot be activated by voice while the screen is locked, and users cannot change it.",
-        "itemId": "device_vendor_msft_policy_config_privacy_letappsactivatewithvoiceabovelock_2"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_privacy_letappsactivatewithvoiceabovelock_2",
+        "description": "Force deny. Windows apps cannot be activated by voice while the screen is locked, and users cannot change it.",
+        "name": "Force deny. Windows apps cannot be activated by voice while the screen is locked, and users cannot change it."
       }
     ],
+    "displayName": "Let Apps Activate With Voice Above Lock",
     "keywords": [
       "Let Apps Activate With Voice Above Lock",
       "Privacy"
     ]
   },
   {
+    "offsetUri": "/Config/Search/AllowIndexingEncryptedStoresOrItems",
     "uxBehavior": "toggle",
+    "description": "Allows or disallows the indexing of items. This switch is for the Windows Search Indexer, which controls whether it will index items that are encrypted, such as the Windows Information Protection (WIP) protected files. When the policy is enabled, WIP protected items are indexed and the metadata about them are stored in an unencrypted location. The metadata includes things like file path and date modified. When the policy is disabled, the WIP protected items are not indexed and do not show up in the results in Cortana or file explorer. There may also be a performance impact on photos and Groove apps if there are a lot of WIP protected media files on the device. Most restricted value is 0.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_search_allowindexingencryptedstoresoritems",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Search#allowindexingencryptedstoresoritems"
     ],
-    "offsetUri": "/Config/Search/AllowIndexingEncryptedStoresOrItems",
+    "defaultOptionId": "device_vendor_msft_policy_config_search_allowindexingencryptedstoresoritems_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_search_allowindexingencryptedstoresoritems",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "AllowIndexingEncryptedStoresOrItems",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.14393",
-      "configurationServiceProviderVersion": "4.1",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3270,79 +3284,79 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.14393",
+      "configurationServiceProviderVersion": "4.1"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_search_allowindexingencryptedstoresoritems_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Allows or disallows the indexing of items. This switch is for the Windows Search Indexer, which controls whether it will index items that are encrypted, such as the Windows Information Protection (WIP) protected files. When the policy is enabled, WIP protected items are indexed and the metadata about them are stored in an unencrypted location. The metadata includes things like file path and date modified. When the policy is disabled, the WIP protected items are not indexed and do not show up in the results in Cortana or file explorer. There may also be a performance impact on photos and Groove apps if there are a lot of WIP protected media files on the device. Most restricted value is 0.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_search_allowindexingencryptedstoresoritems",
-    "referredSettingInformationList": [],
     "categoryId": "794337be-8833-4b9a-bb88-8a030141578d",
-    "displayName": "Allow Indexing Encrypted Stores Or Items",
-    "name": "AllowIndexingEncryptedStoresOrItems",
-    "id": "device_vendor_msft_policy_config_search_allowindexingencryptedstoresoritems",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Not allowed.",
+        "displayName": "Block",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Not allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Block",
-        "itemId": "device_vendor_msft_policy_config_search_allowindexingencryptedstoresoritems_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_search_allowindexingencryptedstoresoritems_0",
+        "description": "Not allowed.",
+        "name": "Not allowed."
       },
       {
-        "description": "Allowed.",
+        "displayName": "Allow",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Allow",
-        "itemId": "device_vendor_msft_policy_config_search_allowindexingencryptedstoresoritems_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_search_allowindexingencryptedstoresoritems_1",
+        "description": "Allowed.",
+        "name": "Allowed."
       }
     ],
+    "displayName": "Allow Indexing Encrypted Stores Or Items",
     "keywords": [
       "Allow Indexing Encrypted Stores Or Items",
       "Search"
     ]
   },
   {
+    "offsetUri": "/Config/Search/AllowSearchToUseLocation",
     "uxBehavior": "toggle",
+    "description": "Specifies whether search can leverage location information. Most restricted value is 0.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_search_allowsearchtouselocation",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Search#allowsearchtouselocation"
     ],
-    "offsetUri": "/Config/Search/AllowSearchToUseLocation",
+    "defaultOptionId": "device_vendor_msft_policy_config_search_allowsearchtouselocation_1",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_search_allowsearchtouselocation",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "AllowSearchToUseLocation",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.10240",
-      "configurationServiceProviderVersion": "1.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3354,77 +3368,77 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.10240",
+      "configurationServiceProviderVersion": "1.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_search_allowsearchtouselocation_1",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Specifies whether search can leverage location information. Most restricted value is 0.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_search_allowsearchtouselocation",
-    "referredSettingInformationList": [],
     "categoryId": "794337be-8833-4b9a-bb88-8a030141578d",
-    "displayName": "Allow Search To Use Location",
-    "name": "AllowSearchToUseLocation",
-    "id": "device_vendor_msft_policy_config_search_allowsearchtouselocation",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Not allowed.",
+        "displayName": "Block",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Not allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Block",
-        "itemId": "device_vendor_msft_policy_config_search_allowsearchtouselocation_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_search_allowsearchtouselocation_0",
+        "description": "Not allowed.",
+        "name": "Not allowed."
       },
       {
-        "description": "Allowed.",
+        "displayName": "Allow",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Allow",
-        "itemId": "device_vendor_msft_policy_config_search_allowsearchtouselocation_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_search_allowsearchtouselocation_1",
+        "description": "Allowed.",
+        "name": "Allowed."
       }
     ],
+    "displayName": "Allow Search To Use Location",
     "keywords": [
       "Allow Search To Use Location",
       "Search"
     ]
   },
   {
-    "uxBehavior": "toggle",
-    "infoUrls": [],
     "offsetUri": "/Config/WebThreatDefense/NotifyMalicious",
+    "uxBehavior": "toggle",
+    "description": "Configures Enhanced Phishing Protection notifications for malicious content.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious",
+    "infoUrls": [],
+    "defaultOptionId": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "NotifyMalicious",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3435,59 +3449,45 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Configures Enhanced Phishing Protection notifications for malicious content.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious",
-    "referredSettingInformationList": [],
     "categoryId": "20b71dc7-cf08-4534-9e52-d297dd071ca5",
-    "displayName": "Notify Malicious",
-    "name": "NotifyMalicious",
-    "id": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Disabled",
+        "displayName": "Disabled",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious_0",
+        "description": "Disabled",
+        "name": "Disabled"
       },
       {
-        "description": "Enabled",
+        "displayName": "Enabled",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifymalicious_1",
+        "description": "Enabled",
+        "name": "Enabled"
       }
     ],
+    "displayName": "Notify Malicious",
     "keywords": [
       "Notify Malicious",
       "Web Threat Defense",
@@ -3495,18 +3495,32 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
     ]
   },
   {
-    "uxBehavior": "toggle",
-    "infoUrls": [],
     "offsetUri": "/Config/WebThreatDefense/NotifyPasswordReuse",
+    "uxBehavior": "toggle",
+    "description": "Configures Enhanced Phishing Protection notifications for protecting passwords from reuse.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse",
+    "infoUrls": [],
+    "defaultOptionId": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "NotifyPasswordReuse",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3517,59 +3531,45 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Configures Enhanced Phishing Protection notifications for protecting passwords from reuse.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse",
-    "referredSettingInformationList": [],
     "categoryId": "20b71dc7-cf08-4534-9e52-d297dd071ca5",
-    "displayName": "Notify Password Reuse",
-    "name": "NotifyPasswordReuse",
-    "id": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Disabled",
+        "displayName": "Disabled",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse_0",
+        "description": "Disabled",
+        "name": "Disabled"
       },
       {
-        "description": "Enabled",
+        "displayName": "Enabled",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifypasswordreuse_1",
+        "description": "Enabled",
+        "name": "Enabled"
       }
     ],
+    "displayName": "Notify Password Reuse",
     "keywords": [
       "Notify Password Reuse",
       "Web Threat Defense",
@@ -3577,18 +3577,32 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
     ]
   },
   {
-    "uxBehavior": "toggle",
-    "infoUrls": [],
     "offsetUri": "/Config/WebThreatDefense/NotifyUnsafeApp",
+    "uxBehavior": "toggle",
+    "description": "Configures Enhanced Phishing Protection notifications for protecting passwords typed into M365 Office applications, Notepad, and Wordpad.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp",
+    "infoUrls": [],
+    "defaultOptionId": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "NotifyUnsafeApp",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3599,59 +3613,45 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Configures Enhanced Phishing Protection notifications for protecting passwords typed into M365 Office applications, Notepad, and Wordpad.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp",
-    "referredSettingInformationList": [],
     "categoryId": "20b71dc7-cf08-4534-9e52-d297dd071ca5",
-    "displayName": "Notify Unsafe App",
-    "name": "NotifyUnsafeApp",
-    "id": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Disabled",
+        "displayName": "Disabled",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp_0",
+        "description": "Disabled",
+        "name": "Disabled"
       },
       {
-        "description": "Enabled",
+        "displayName": "Enabled",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_webthreatdefense_notifyunsafeapp_1",
+        "description": "Enabled",
+        "name": "Enabled"
       }
     ],
+    "displayName": "Notify Unsafe App",
     "keywords": [
       "Notify Unsafe App",
       "Web Threat Defense",
@@ -3659,18 +3659,32 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
     ]
   },
   {
-    "uxBehavior": "toggle",
-    "infoUrls": [],
     "offsetUri": "/Config/WebThreatDefense/ServiceEnabled",
+    "uxBehavior": "toggle",
+    "description": "Enables Enhanced Phishing Protection in audit mode for Windows 11 H2.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled",
+    "infoUrls": [],
+    "defaultOptionId": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled_1",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "ServiceEnabled",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3681,59 +3695,45 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled_1",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Enables Enhanced Phishing Protection in audit mode for Windows 11 H2.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled",
-    "referredSettingInformationList": [],
     "categoryId": "20b71dc7-cf08-4534-9e52-d297dd071ca5",
-    "displayName": "Service Enabled",
-    "name": "ServiceEnabled",
-    "id": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Disabled",
+        "displayName": "Disabled",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled_0",
+        "description": "Disabled",
+        "name": "Disabled"
       },
       {
-        "description": "Enabled",
+        "displayName": "Enabled",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_webthreatdefense_serviceenabled_1",
+        "description": "Enabled",
+        "name": "Enabled"
       }
     ],
+    "displayName": "Service Enabled",
     "keywords": [
       "Service Enabled",
       "Web Threat Defense",
@@ -3741,20 +3741,34 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
     ]
   },
   {
+    "offsetUri": "/Config/Sudo/EnableSudo",
     "uxBehavior": "default",
+    "description": "",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_sudo_enablesudo",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Sudo#enablesudo"
     ],
-    "offsetUri": "/Config/Sudo/EnableSudo",
+    "defaultOptionId": "device_vendor_msft_policy_config_sudo_enablesudo_3",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_sudo_enablesudo",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "EnableSudo",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.26100",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3763,107 +3777,107 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windowsCloudN",
         "windows11SE"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.26100",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_sudo_enablesudo_3",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_sudo_enablesudo",
-    "referredSettingInformationList": [],
     "categoryId": "2f524350-1bdb-4eee-a96d-b656bc2b0d70",
-    "displayName": "Enable Sudo",
-    "name": "EnableSudo",
-    "id": "device_vendor_msft_policy_config_sudo_enablesudo",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Sudo is disabled.",
+        "displayName": "Sudo is disabled.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Sudo is disabled.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Sudo is disabled.",
-        "itemId": "device_vendor_msft_policy_config_sudo_enablesudo_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_sudo_enablesudo_0",
+        "description": "Sudo is disabled.",
+        "name": "Sudo is disabled."
       },
       {
-        "description": "Sudo is allowed in 'force new window' mode.",
+        "displayName": "Sudo is allowed in 'force new window' mode.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Sudo is allowed in 'force new window' mode.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Sudo is allowed in 'force new window' mode.",
-        "itemId": "device_vendor_msft_policy_config_sudo_enablesudo_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_sudo_enablesudo_1",
+        "description": "Sudo is allowed in 'force new window' mode.",
+        "name": "Sudo is allowed in 'force new window' mode."
       },
       {
-        "description": "Sudo is allowed in 'disable input' mode.",
+        "displayName": "Sudo is allowed in 'disable input' mode.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Sudo is allowed in 'disable input' mode.",
-        "helpText": null,
         "optionValue": {
           "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Sudo is allowed in 'disable input' mode.",
-        "itemId": "device_vendor_msft_policy_config_sudo_enablesudo_2"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_sudo_enablesudo_2",
+        "description": "Sudo is allowed in 'disable input' mode.",
+        "name": "Sudo is allowed in 'disable input' mode."
       },
       {
-        "description": "Sudo is allowed in 'inline' mode.",
+        "displayName": "Sudo is allowed in 'inline' mode.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Sudo is allowed in 'inline' mode.",
-        "helpText": null,
         "optionValue": {
           "value": 3,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Sudo is allowed in 'inline' mode.",
-        "itemId": "device_vendor_msft_policy_config_sudo_enablesudo_3"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_sudo_enablesudo_3",
+        "description": "Sudo is allowed in 'inline' mode.",
+        "name": "Sudo is allowed in 'inline' mode."
       }
     ],
+    "displayName": "Enable Sudo",
     "keywords": [
       "Enable Sudo",
       "Sudo"
     ]
   },
   {
+    "offsetUri": "/Config/System/AllowTelemetry",
     "uxBehavior": "default",
+    "description": "Allow the device to send diagnostic and usage telemetry data, such as Watson. For more information about diagnostic data for Windows, including what is and what is not collected by Windows, see Configure Windows diagnostic data in your organization. Note: This value is only applicable to Windows Enterprise, Windows Education, Windows Mobile Enterprise, Windows IoT Core (IoT Core), Windows Server 2016, and Windows CPC OS. The following tables describe the supported values:Windows 8. 1 Values:0 - Not allowed. 1 - Allowed, except for Secondary Data Requests. 2 (default) - Allowed. Windows 10 Values:0 - Security. Information that is required to help keep Windows or Windows CPC OS more secure, including data about the Connected User Experience and Telemetry component settings, the Malicious Software Removal Tool, and Windows Defender. Note: This value is only applicable to Windows 10 Enterprise, Windows 10 Education, Windows 10 Mobile Enterprise, Windows IoT Core (IoT Core), Windows Server 2016, and Windows CPC OS. Using this setting on other devices is equivalent to setting the value of 1. 1 - Basic. Basic device info, including: quality-related data, app compatibility, app usage data, and data from the Security level. 2 - Enhanced. Additional insights, including: how Windows, Windows Server, System Center, Windows CPC OS, and apps are used, how they perform, advanced reliability data, and data from both the Basic and the Security levels. 3 - Full. All data necessary to identify and help to fix problems, plus data from the Security, Basic, and Enhanced levels. Important lf you are using Windows 8. 1 MDM server and set a value of 0 using the legacy AllowTelemetry policy on a Windows 10 Mobile device, then the value is not respected and the telemetry level is silently set to level 1. Most restricted value is 0.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_system_allowtelemetry",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-System#allowtelemetry"
     ],
-    "offsetUri": "/Config/System/AllowTelemetry",
+    "defaultOptionId": "device_vendor_msft_policy_config_system_allowtelemetry_1",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_system_allowtelemetry",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "AllowTelemetry",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.10240",
-      "configurationServiceProviderVersion": "1.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3876,93 +3890,93 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.10240",
+      "configurationServiceProviderVersion": "1.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_system_allowtelemetry_1",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Allow the device to send diagnostic and usage telemetry data, such as Watson. For more information about diagnostic data for Windows, including what is and what is not collected by Windows, see Configure Windows diagnostic data in your organization. Note: This value is only applicable to Windows Enterprise, Windows Education, Windows Mobile Enterprise, Windows IoT Core (IoT Core), Windows Server 2016, and Windows CPC OS. The following tables describe the supported values:Windows 8. 1 Values:0 - Not allowed. 1 - Allowed, except for Secondary Data Requests. 2 (default) - Allowed. Windows 10 Values:0 - Security. Information that is required to help keep Windows or Windows CPC OS more secure, including data about the Connected User Experience and Telemetry component settings, the Malicious Software Removal Tool, and Windows Defender. Note: This value is only applicable to Windows 10 Enterprise, Windows 10 Education, Windows 10 Mobile Enterprise, Windows IoT Core (IoT Core), Windows Server 2016, and Windows CPC OS. Using this setting on other devices is equivalent to setting the value of 1. 1 - Basic. Basic device info, including: quality-related data, app compatibility, app usage data, and data from the Security level. 2 - Enhanced. Additional insights, including: how Windows, Windows Server, System Center, Windows CPC OS, and apps are used, how they perform, advanced reliability data, and data from both the Basic and the Security levels. 3 - Full. All data necessary to identify and help to fix problems, plus data from the Security, Basic, and Enhanced levels. Important lf you are using Windows 8. 1 MDM server and set a value of 0 using the legacy AllowTelemetry policy on a Windows 10 Mobile device, then the value is not respected and the telemetry level is silently set to level 1. Most restricted value is 0.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_system_allowtelemetry",
-    "referredSettingInformationList": [],
     "categoryId": "f62e0f2a-4363-4246-8057-1dc811fe4360",
-    "displayName": "Allow Telemetry",
-    "name": "AllowTelemetry",
-    "id": "device_vendor_msft_policy_config_system_allowtelemetry",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Security. Information that is required to help keep Windows more secure, including data about the Connected User Experience and Telemetry component settings, the Malicious Software Removal Tool, and Windows Defender.\nNote: This value is only applicable to Windows 10 Enterprise, Windows 10 Education, Windows 10 Mobile Enterprise, Windows 10 IoT Core (IoT Core), and Windows Server 2016. Using this setting on other devices is equivalent to setting the value of 1.",
+        "displayName": "Security",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Security. Information that is required to help keep Windows more secure, including data about the Connected User Experience and Telemetry component settings, the Malicious Software Removal Tool, and Windows Defender.\nNote: This value is only applicable to Windows 10 Enterprise, Windows 10 Education, Windows 10 Mobile Enterprise, Windows 10 IoT Core (IoT Core), and Windows Server 2016. Using this setting on other devices is equivalent to setting the value of 1.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Security",
-        "itemId": "device_vendor_msft_policy_config_system_allowtelemetry_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_system_allowtelemetry_0",
+        "description": "Security. Information that is required to help keep Windows more secure, including data about the Connected User Experience and Telemetry component settings, the Malicious Software Removal Tool, and Windows Defender.\nNote: This value is only applicable to Windows 10 Enterprise, Windows 10 Education, Windows 10 Mobile Enterprise, Windows 10 IoT Core (IoT Core), and Windows Server 2016. Using this setting on other devices is equivalent to setting the value of 1.",
+        "name": "Security. Information that is required to help keep Windows more secure, including data about the Connected User Experience and Telemetry component settings, the Malicious Software Removal Tool, and Windows Defender.\nNote: This value is only applicable to Windows 10 Enterprise, Windows 10 Education, Windows 10 Mobile Enterprise, Windows 10 IoT Core (IoT Core), and Windows Server 2016. Using this setting on other devices is equivalent to setting the value of 1."
       },
       {
-        "description": "Basic. Basic device info, including: quality-related data, app compatibility, app usage data, and data from the Security level.",
+        "displayName": "Basic",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Basic. Basic device info, including: quality-related data, app compatibility, app usage data, and data from the Security level.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Basic",
-        "itemId": "device_vendor_msft_policy_config_system_allowtelemetry_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_system_allowtelemetry_1",
+        "description": "Basic. Basic device info, including: quality-related data, app compatibility, app usage data, and data from the Security level.",
+        "name": "Basic. Basic device info, including: quality-related data, app compatibility, app usage data, and data from the Security level."
       },
       {
-        "description": "Full. All data necessary to identify and help to fix problems, plus data from the Security, Basic, and Enhanced levels.",
+        "displayName": "Full",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Full. All data necessary to identify and help to fix problems, plus data from the Security, Basic, and Enhanced levels.",
-        "helpText": null,
         "optionValue": {
           "value": 3,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Full",
-        "itemId": "device_vendor_msft_policy_config_system_allowtelemetry_3"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_system_allowtelemetry_3",
+        "description": "Full. All data necessary to identify and help to fix problems, plus data from the Security, Basic, and Enhanced levels.",
+        "name": "Full. All data necessary to identify and help to fix problems, plus data from the Security, Basic, and Enhanced levels."
       }
     ],
+    "displayName": "Allow Telemetry",
     "keywords": [
       "Allow Telemetry",
       "System"
     ]
   },
   {
+    "offsetUri": "/Config/System/EnableOneSettingsAuditing",
     "uxBehavior": "toggle",
+    "description": "This policy setting controls whether Windows records attempts to connect with the OneSettings service to the EventLog.                             If you enable this policy, Windows will record attempts to connect with the OneSettings service to the Microsoft\\Windows\\Privacy-Auditing\\Operational EventLog channel.                             If you disable or don't configure this policy setting, Windows will not record attempts to connect with the OneSettings service to the EventLog.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_system_enableonesettingsauditing",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-System#enableonesettingsauditing"
     ],
-    "offsetUri": "/Config/System/EnableOneSettingsAuditing",
+    "defaultOptionId": "device_vendor_msft_policy_config_system_enableonesettingsauditing_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_system_enableonesettingsauditing",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "EnableOneSettingsAuditing",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.22000",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3974,79 +3988,79 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22000",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_system_enableonesettingsauditing_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "This policy setting controls whether Windows records attempts to connect with the OneSettings service to the EventLog.                             If you enable this policy, Windows will record attempts to connect with the OneSettings service to the Microsoft\\Windows\\Privacy-Auditing\\Operational EventLog channel.                             If you disable or don't configure this policy setting, Windows will not record attempts to connect with the OneSettings service to the EventLog.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_system_enableonesettingsauditing",
-    "referredSettingInformationList": [],
     "categoryId": "f62e0f2a-4363-4246-8057-1dc811fe4360",
-    "displayName": "Enable One Settings Auditing",
-    "name": "EnableOneSettingsAuditing",
-    "id": "device_vendor_msft_policy_config_system_enableonesettingsauditing",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Disabled.",
+        "displayName": "Disabled.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disabled.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Disabled.",
-        "itemId": "device_vendor_msft_policy_config_system_enableonesettingsauditing_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_system_enableonesettingsauditing_0",
+        "description": "Disabled.",
+        "name": "Disabled."
       },
       {
-        "description": "Enabled.",
+        "displayName": "Enabled.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Enabled.",
-        "itemId": "device_vendor_msft_policy_config_system_enableonesettingsauditing_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_system_enableonesettingsauditing_1",
+        "description": "Enabled.",
+        "name": "Enabled."
       }
     ],
+    "displayName": "Enable One Settings Auditing",
     "keywords": [
       "Enable One Settings Auditing",
       "System"
     ]
   },
   {
+    "offsetUri": "/Config/System/LimitDiagnosticLogCollection",
     "uxBehavior": "toggle",
+    "description": "This policy setting specifies whether diagnostic log data can be collected when more information is needed to troubleshoot a problem. The diagnostic data logs are collected, only if we have permission to collect optional diagnostic data, and only if the device meets the criteria for additional data collection.                     If you disable or do not configure this policy setting, we may occasionally collect advanced diagnostic data if the user has opted to send optional diagnostic data.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_system_limitdiagnosticlogcollection",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-System#limitdiagnosticlogcollection"
     ],
-    "offsetUri": "/Config/System/LimitDiagnosticLogCollection",
+    "defaultOptionId": "device_vendor_msft_policy_config_system_limitdiagnosticlogcollection_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_system_limitdiagnosticlogcollection",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "LimitDiagnosticLogCollection",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.22000",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4058,79 +4072,79 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22000",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_system_limitdiagnosticlogcollection_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "This policy setting specifies whether diagnostic log data can be collected when more information is needed to troubleshoot a problem. The diagnostic data logs are collected, only if we have permission to collect optional diagnostic data, and only if the device meets the criteria for additional data collection.                     If you disable or do not configure this policy setting, we may occasionally collect advanced diagnostic data if the user has opted to send optional diagnostic data.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_system_limitdiagnosticlogcollection",
-    "referredSettingInformationList": [],
     "categoryId": "f62e0f2a-4363-4246-8057-1dc811fe4360",
-    "displayName": "Limit Diagnostic Log Collection",
-    "name": "LimitDiagnosticLogCollection",
-    "id": "device_vendor_msft_policy_config_system_limitdiagnosticlogcollection",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Disabled.",
+        "displayName": "Disabled.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disabled.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Disabled.",
-        "itemId": "device_vendor_msft_policy_config_system_limitdiagnosticlogcollection_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_system_limitdiagnosticlogcollection_0",
+        "description": "Disabled.",
+        "name": "Disabled."
       },
       {
-        "description": "Enabled.",
+        "displayName": "Enabled.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Enabled.",
-        "itemId": "device_vendor_msft_policy_config_system_limitdiagnosticlogcollection_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_system_limitdiagnosticlogcollection_1",
+        "description": "Enabled.",
+        "name": "Enabled."
       }
     ],
+    "displayName": "Limit Diagnostic Log Collection",
     "keywords": [
       "Limit Diagnostic Log Collection",
       "System"
     ]
   },
   {
+    "offsetUri": "/Config/System/LimitDumpCollection",
     "uxBehavior": "toggle",
+    "description": "This policy setting limits the type of dumps that can be collected when more information is needed to troubleshoot a problem. These dumps are not sent unless we have permission to collect optional diagnostic data.                             By enabling this policy setting, Windows Error Reporting is limited to sending kernel mini dumps and user mode triage dumps only.                             If you disable or do not configure this policy setting, we may occasionally collect full or heap dumps if the user has opted to send optional diagnostic data.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_system_limitdumpcollection",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-System#limitdumpcollection"
     ],
-    "offsetUri": "/Config/System/LimitDumpCollection",
+    "defaultOptionId": "device_vendor_msft_policy_config_system_limitdumpcollection_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_system_limitdumpcollection",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "LimitDumpCollection",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.22000",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4142,79 +4156,79 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22000",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_system_limitdumpcollection_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "This policy setting limits the type of dumps that can be collected when more information is needed to troubleshoot a problem. These dumps are not sent unless we have permission to collect optional diagnostic data.                             By enabling this policy setting, Windows Error Reporting is limited to sending kernel mini dumps and user mode triage dumps only.                             If you disable or do not configure this policy setting, we may occasionally collect full or heap dumps if the user has opted to send optional diagnostic data.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_system_limitdumpcollection",
-    "referredSettingInformationList": [],
     "categoryId": "f62e0f2a-4363-4246-8057-1dc811fe4360",
-    "displayName": "Limit Dump Collection",
-    "name": "LimitDumpCollection",
-    "id": "device_vendor_msft_policy_config_system_limitdumpcollection",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Disabled.",
+        "displayName": "Disabled.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disabled.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Disabled.",
-        "itemId": "device_vendor_msft_policy_config_system_limitdumpcollection_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_system_limitdumpcollection_0",
+        "description": "Disabled.",
+        "name": "Disabled."
       },
       {
-        "description": "Enabled.",
+        "displayName": "Enabled.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enabled.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Enabled.",
-        "itemId": "device_vendor_msft_policy_config_system_limitdumpcollection_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_system_limitdumpcollection_1",
+        "description": "Enabled.",
+        "name": "Enabled."
       }
     ],
+    "displayName": "Limit Dump Collection",
     "keywords": [
       "Limit Dump Collection",
       "System"
     ]
   },
   {
+    "offsetUri": "/Config/VirtualizationBasedTechnology/RequireUEFIMemoryAttributesTable",
     "uxBehavior": "default",
+    "description": "Require UEFI Memory Attributes Table",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_requireuefimemoryattributestable",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-VirtualizationBasedTechnology#requireuefimemoryattributestable"
     ],
-    "offsetUri": "/Config/VirtualizationBasedTechnology/RequireUEFIMemoryAttributesTable",
+    "defaultOptionId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_requireuefimemoryattributestable_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_virtualizationbasedtechnology_requireuefimemoryattributestable",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "RequireUEFIMemoryAttributesTable",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.22000",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4224,79 +4238,79 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22000",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_requireuefimemoryattributestable_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Require UEFI Memory Attributes Table",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_requireuefimemoryattributestable",
-    "referredSettingInformationList": [],
     "categoryId": "3588f84a-69de-4900-910c-09a5b69e5d99",
-    "displayName": "Require UEFI Memory Attributes Table",
-    "name": "RequireUEFIMemoryAttributesTable",
-    "id": "device_vendor_msft_policy_config_virtualizationbasedtechnology_requireuefimemoryattributestable",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Do not require UEFI Memory Attributes Table",
+        "displayName": "Do not require UEFI Memory Attributes Table",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Do not require UEFI Memory Attributes Table",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Do not require UEFI Memory Attributes Table",
-        "itemId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_requireuefimemoryattributestable_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_requireuefimemoryattributestable_0",
+        "description": "Do not require UEFI Memory Attributes Table",
+        "name": "Do not require UEFI Memory Attributes Table"
       },
       {
-        "description": "Require UEFI Memory Attributes Table",
+        "displayName": "Require UEFI Memory Attributes Table",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Require UEFI Memory Attributes Table",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Require UEFI Memory Attributes Table",
-        "itemId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_requireuefimemoryattributestable_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_requireuefimemoryattributestable_1",
+        "description": "Require UEFI Memory Attributes Table",
+        "name": "Require UEFI Memory Attributes Table"
       }
     ],
+    "displayName": "Require UEFI Memory Attributes Table",
     "keywords": [
       "Require UEFI Memory Attributes Table",
       "Virtualization Based Technology"
     ]
   },
   {
+    "offsetUri": "/Config/Wifi/AllowAutoConnectToWiFiSenseHotspots",
     "uxBehavior": "toggle",
+    "description": "Allow or disallow the device to automatically connect to Wi-Fi hotspots. Most restricted value is 0.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_wifi_allowautoconnecttowifisensehotspots",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-wifi#allowautoconnecttowifisensehotspots"
     ],
-    "offsetUri": "/Config/Wifi/AllowAutoConnectToWiFiSenseHotspots",
+    "defaultOptionId": "device_vendor_msft_policy_config_wifi_allowautoconnecttowifisensehotspots_1",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_wifi_allowautoconnecttowifisensehotspots",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "AllowAutoConnectToWiFiSenseHotspots",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.10240",
-      "configurationServiceProviderVersion": "1.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4307,59 +4321,45 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.10240",
+      "configurationServiceProviderVersion": "1.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_wifi_allowautoconnecttowifisensehotspots_1",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Allow or disallow the device to automatically connect to Wi-Fi hotspots. Most restricted value is 0.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_wifi_allowautoconnecttowifisensehotspots",
-    "referredSettingInformationList": [],
     "categoryId": "0a803a48-789a-48b0-b928-e52d56ab17f1",
-    "displayName": "Allow Auto Connect To Wi Fi Sense Hotspots",
-    "name": "AllowAutoConnectToWiFiSenseHotspots",
-    "id": "device_vendor_msft_policy_config_wifi_allowautoconnecttowifisensehotspots",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Not allowed.",
+        "displayName": "Block",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Not allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Block",
-        "itemId": "device_vendor_msft_policy_config_wifi_allowautoconnecttowifisensehotspots_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_wifi_allowautoconnecttowifisensehotspots_0",
+        "description": "Not allowed.",
+        "name": "Not allowed."
       },
       {
-        "description": "Allowed.",
+        "displayName": "Allow",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Allow",
-        "itemId": "device_vendor_msft_policy_config_wifi_allowautoconnecttowifisensehotspots_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_wifi_allowautoconnecttowifisensehotspots_1",
+        "description": "Allowed.",
+        "name": "Allowed."
       }
     ],
+    "displayName": "Allow Auto Connect To Wi Fi Sense Hotspots",
     "keywords": [
       "Allow Auto Connect To Wi Fi Sense Hotspots",
       "Wifi",
@@ -4367,20 +4367,34 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
     ]
   },
   {
+    "offsetUri": "/Config/NewsAndInterests/AllowNewsAndInterests",
     "uxBehavior": "default",
+    "description": "Allow widgets\r\n",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-provider"
     ],
-    "offsetUri": "/Config/NewsAndInterests/AllowNewsAndInterests",
+    "defaultOptionId": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_1",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "AllowNewsAndInterests",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.22000",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4389,59 +4403,45 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windowsCloudN",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22000",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_1",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Allow widgets\r\n",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests",
-    "referredSettingInformationList": [],
     "categoryId": "14fa4ad9-525c-440d-a295-a279c73f97f1",
-    "displayName": "Allow widgets",
-    "name": "AllowNewsAndInterests",
-    "id": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Not allowed.",
+        "displayName": "Not allowed.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Not allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Not allowed.",
-        "itemId": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_0",
+        "description": "Not allowed.",
+        "name": "Not allowed."
       },
       {
-        "description": "Allowed.",
+        "displayName": "Allowed.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Allowed.",
-        "itemId": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_newsandinterests_allownewsandinterests_1",
+        "description": "Allowed.",
+        "name": "Allowed."
       }
     ],
+    "displayName": "Allow widgets",
     "keywords": [
       "Allow News And Interests",
       "News And Interests",
@@ -4449,20 +4449,34 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
     ]
   },
   {
+    "offsetUri": "/Config/WindowsInkWorkspace/AllowWindowsInkWorkspace",
     "uxBehavior": "default",
+    "description": "Specifies whether to allow the user to access the ink workspace.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-WindowsInkWorkspace#allowwindowsinkworkspace"
     ],
-    "offsetUri": "/Config/WindowsInkWorkspace/AllowWindowsInkWorkspace",
+    "defaultOptionId": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace_2",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "AllowWindowsInkWorkspace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.14393",
-      "configurationServiceProviderVersion": "4.1",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4472,93 +4486,93 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.14393",
+      "configurationServiceProviderVersion": "4.1"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace_2",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Specifies whether to allow the user to access the ink workspace.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace",
-    "referredSettingInformationList": [],
     "categoryId": "01d16911-19a1-4dcb-8089-ffa4781d977c",
-    "displayName": "Allow Windows Ink Workspace",
-    "name": "AllowWindowsInkWorkspace",
-    "id": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "access to ink workspace is disabled. The feature is turned off.",
+        "displayName": "access to ink workspace is disabled. The feature is turned off.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "access to ink workspace is disabled. The feature is turned off.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "access to ink workspace is disabled. The feature is turned off.",
-        "itemId": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace_0",
+        "description": "access to ink workspace is disabled. The feature is turned off.",
+        "name": "access to ink workspace is disabled. The feature is turned off."
       },
       {
-        "description": "ink workspace is enabled (feature is turned on), but the user cannot access it above the lock screen.",
+        "displayName": "ink workspace is enabled (feature is turned on), but the user cannot access it above the lock screen.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "ink workspace is enabled (feature is turned on), but the user cannot access it above the lock screen.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "ink workspace is enabled (feature is turned on), but the user cannot access it above the lock screen.",
-        "itemId": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace_1",
+        "description": "ink workspace is enabled (feature is turned on), but the user cannot access it above the lock screen.",
+        "name": "ink workspace is enabled (feature is turned on), but the user cannot access it above the lock screen."
       },
       {
-        "description": "ink workspace is enabled (feature is turned on), and the user is allowed to use it above the lock screen.",
+        "displayName": "ink workspace is enabled (feature is turned on), and the user is allowed to use it above the lock screen.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "ink workspace is enabled (feature is turned on), and the user is allowed to use it above the lock screen.",
-        "helpText": null,
         "optionValue": {
           "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "ink workspace is enabled (feature is turned on), and the user is allowed to use it above the lock screen.",
-        "itemId": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace_2"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_windowsinkworkspace_allowwindowsinkworkspace_2",
+        "description": "ink workspace is enabled (feature is turned on), and the user is allowed to use it above the lock screen.",
+        "name": "ink workspace is enabled (feature is turned on), and the user is allowed to use it above the lock screen."
       }
     ],
+    "displayName": "Allow Windows Ink Workspace",
     "keywords": [
       "Allow Windows Ink Workspace",
       "Windows Ink Workspace"
     ]
   },
   {
+    "offsetUri": "/Config/WindowsSandbox/AllowClipboardRedirection",
     "uxBehavior": "default",
+    "description": "Allow clipboard sharing with Windows Sandbox",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_windowssandbox_allowclipboardredirection",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-WindowsSandbox#allowclipboardredirection"
     ],
-    "offsetUri": "/Config/WindowsSandbox/AllowClipboardRedirection",
+    "defaultOptionId": "device_vendor_msft_policy_config_windowssandbox_allowclipboardredirection_1",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_windowssandbox_allowclipboardredirection",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "AllowClipboardRedirection",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.19041.4950",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4569,79 +4583,79 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.4950",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_windowssandbox_allowclipboardredirection_1",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Allow clipboard sharing with Windows Sandbox",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_windowssandbox_allowclipboardredirection",
-    "referredSettingInformationList": [],
     "categoryId": "0f05f2c4-3a19-482f-82e8-92a46a4fcbfd",
-    "displayName": "Allow Clipboard Redirection",
-    "name": "AllowClipboardRedirection",
-    "id": "device_vendor_msft_policy_config_windowssandbox_allowclipboardredirection",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Not allowed.",
+        "displayName": "Not allowed.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Not allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Not allowed.",
-        "itemId": "device_vendor_msft_policy_config_windowssandbox_allowclipboardredirection_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_windowssandbox_allowclipboardredirection_0",
+        "description": "Not allowed.",
+        "name": "Not allowed."
       },
       {
-        "description": "Allowed.",
+        "displayName": "Allowed.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Allowed.",
-        "itemId": "device_vendor_msft_policy_config_windowssandbox_allowclipboardredirection_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_windowssandbox_allowclipboardredirection_1",
+        "description": "Allowed.",
+        "name": "Allowed."
       }
     ],
+    "displayName": "Allow Clipboard Redirection",
     "keywords": [
       "Allow Clipboard Redirection",
       "Windows Sandbox"
     ]
   },
   {
+    "offsetUri": "/Config/WindowsSandbox/AllowNetworking",
     "uxBehavior": "default",
+    "description": "Allow networking in Windows Sandbox",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_windowssandbox_allownetworking",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-WindowsSandbox#allownetworking"
     ],
-    "offsetUri": "/Config/WindowsSandbox/AllowNetworking",
+    "defaultOptionId": "device_vendor_msft_policy_config_windowssandbox_allownetworking_1",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_windowssandbox_allownetworking",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "AllowNetworking",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.19041.4950",
-      "configurationServiceProviderVersion": "11.0",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4652,79 +4666,79 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.4950",
+      "configurationServiceProviderVersion": "11.0"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_windowssandbox_allownetworking_1",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "Allow networking in Windows Sandbox",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_windowssandbox_allownetworking",
-    "referredSettingInformationList": [],
     "categoryId": "0f05f2c4-3a19-482f-82e8-92a46a4fcbfd",
-    "displayName": "Allow Networking",
-    "name": "AllowNetworking",
-    "id": "device_vendor_msft_policy_config_windowssandbox_allownetworking",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "Not allowed.",
+        "displayName": "Not allowed.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Not allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Not allowed.",
-        "itemId": "device_vendor_msft_policy_config_windowssandbox_allownetworking_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_windowssandbox_allownetworking_0",
+        "description": "Not allowed.",
+        "name": "Not allowed."
       },
       {
-        "description": "Allowed.",
+        "displayName": "Allowed.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Allowed.",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Allowed.",
-        "itemId": "device_vendor_msft_policy_config_windowssandbox_allownetworking_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_windowssandbox_allownetworking_1",
+        "description": "Allowed.",
+        "name": "Allowed."
       }
     ],
+    "displayName": "Allow Networking",
     "keywords": [
       "Allow Networking",
       "Windows Sandbox"
     ]
   },
   {
+    "offsetUri": "/Config/WirelessDisplay/RequirePinForPairing",
     "uxBehavior": "default",
+    "description": "This policy setting allows you to require a pin for pairing.                             If you set this to 0, a pin isn't required for pairing.                             If you set this to 1, the pairing ceremony for new devices will always require a PIN.                             If you set this to 2, all pairings will require PIN.",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-WirelessDisplay#requirepinforpairing"
     ],
-    "offsetUri": "/Config/WirelessDisplay/RequirePinForPairing",
+    "defaultOptionId": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing_0",
+    "accessTypes": "add,delete,get,replace",
+    "version": "639045552477164158",
+    "id": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing",
+    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "helpText": "",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "name": "RequirePinForPairing",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.14393",
-      "configurationServiceProviderVersion": "4.1",
-      "description": null,
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "platform": "windows10",
       "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4734,73 +4748,59 @@ Does not contain recommendations from Sections 22, 26, 38, 49, 81, 89, 96, 97, 1
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "platform": "windows10"
+      "description": null,
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.14393",
+      "configurationServiceProviderVersion": "4.1"
     },
-    "riskLevel": "low",
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "defaultOptionId": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "description": "This policy setting allows you to require a pin for pairing.                             If you set this to 0, a pin isn't required for pairing.                             If you set this to 1, the pairing ceremony for new devices will always require a PIN.                             If you set this to 2, all pairings will require PIN.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639045552477164158",
-    "rootDefinitionId": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing",
-    "referredSettingInformationList": [],
     "categoryId": "a6e15085-a3a9-41dd-9a6a-65c8a26c616d",
-    "displayName": "Require Pin For Pairing",
-    "name": "RequirePinForPairing",
-    "id": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing",
-    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "description": "PIN is not required.",
+        "displayName": "PIN is not required.",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "PIN is not required.",
-        "helpText": null,
         "optionValue": {
           "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "PIN is not required.",
-        "itemId": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing_0"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing_0",
+        "description": "PIN is not required.",
+        "name": "PIN is not required."
       },
       {
-        "description": "Pairing ceremony for new devices will always require a PIN",
+        "displayName": "Pairing ceremony for new devices will always require a PIN",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Pairing ceremony for new devices will always require a PIN",
-        "helpText": null,
         "optionValue": {
           "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "Pairing ceremony for new devices will always require a PIN",
-        "itemId": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing_1"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing_1",
+        "description": "Pairing ceremony for new devices will always require a PIN",
+        "name": "Pairing ceremony for new devices will always require a PIN"
       },
       {
-        "description": "All pairings will require PIN",
+        "displayName": "All pairings will require PIN",
         "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "All pairings will require PIN",
-        "helpText": null,
         "optionValue": {
           "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "displayName": "All pairings will require PIN",
-        "itemId": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing_2"
+        "dependentOn": [],
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_wirelessdisplay_requirepinforpairing_2",
+        "description": "All pairings will require PIN",
+        "name": "All pairings will require PIN"
       }
     ],
+    "displayName": "Require Pin For Pairing",
     "keywords": [
       "Require Pin For Pairing",
       "Wireless Display"

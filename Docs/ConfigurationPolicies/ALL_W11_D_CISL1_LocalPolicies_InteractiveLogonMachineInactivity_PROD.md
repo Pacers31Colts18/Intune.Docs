@@ -11,7 +11,7 @@
 
 [**Assignments**](./Assignments/ALL_W11_D_CISL1_LocalPolicies_InteractiveLogonMachineInactivity_PROD.md)
 
-**Report Generated:** 01/29/2026 04:45:14
+**Report Generated:** 01/30/2026 04:47:16
 
 ---
 
@@ -26,8 +26,8 @@
 
 ```json
 {
-  "value": 900,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+  "value": 900,
   "settingValueTemplateReference": null
 }
 ```
@@ -35,40 +35,26 @@
 ## Setting Definition
 ```json
 {
-  "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MachineInactivityLimit",
-  "uxBehavior": "default",
-  "description": "Interactive logon: Machine inactivity limit.  Windows notices inactivity of a logon session, and if the amount of inactive time exceeds the inactivity limit, then the screen saver will run, locking the session.  Default: not enforced.",
-  "referredSettingInformationList": [],
-  "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_machineinactivitylimit_v2",
-  "infoUrls": [
-    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_machineinactivitylimit"
-  ],
   "accessTypes": "add,delete,get,replace",
-  "version": "639045552477164158",
-  "dependedOnBy": [],
-  "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_machineinactivitylimit_v2",
-  "visibility": "settingsCatalog,template",
+  "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_machineinactivitylimit_v2",
   "occurrence": {
     "maxDeviceOccurrence": 1,
     "minDeviceOccurrence": 0
   },
-  "helpText": "",
-  "riskLevel": "low",
-  "dependentOn": [],
-  "baseUri": "./Device/Vendor/MSFT/Policy",
   "settingUsage": "configuration",
-  "valueDefinition": {
-    "maximumValue": 599940,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-    "minimumValue": 0
-  },
   "name": "InteractiveLogon_MachineInactivityLimit",
+  "defaultValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0,
+    "settingValueTemplateReference": null
+  },
+  "dependedOnBy": [],
+  "keywords": [
+    "Interactive Logon Machine Inactivity Limit",
+    "Local Policies Security Options"
+  ],
   "applicability": {
-    "requiredAzureAdTrustType": "none",
-    "platform": "windows10",
-    "requiresAzureAd": false,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "maximumSupportedVersion": null,
+    "minimumSupportedVersion": "10.0.16299",
     "windowsSkus": [
       "windowsEnterprise",
       "windowsProfessional",
@@ -82,22 +68,36 @@
     ],
     "description": null,
     "deviceMode": "none",
+    "requiresAzureAd": false,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+    "requiredAzureAdTrustType": "none",
+    "configurationServiceProviderVersion": "6.0",
+    "maximumSupportedVersion": null,
     "technologies": "mdm",
-    "minimumSupportedVersion": "10.0.16299",
-    "configurationServiceProviderVersion": "6.0"
+    "platform": "windows10"
   },
+  "visibility": "settingsCatalog,template",
+  "valueDefinition": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+    "minimumValue": 0,
+    "maximumValue": 599940
+  },
+  "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MachineInactivityLimit",
+  "description": "Interactive logon: Machine inactivity limit.  Windows notices inactivity of a logon session, and if the amount of inactive time exceeds the inactivity limit, then the screen saver will run, locking the session.  Default: not enforced.",
+  "dependentOn": [],
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+  "helpText": "",
+  "referredSettingInformationList": [],
+  "uxBehavior": "default",
   "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
   "displayName": "Interactive Logon Machine Inactivity Limit",
-  "defaultValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "keywords": [
-    "Interactive Logon Machine Inactivity Limit",
-    "Local Policies Security Options"
-  ]
+  "version": "639045552477164158",
+  "riskLevel": "low",
+  "baseUri": "./Device/Vendor/MSFT/Policy",
+  "infoUrls": [
+    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_machineinactivitylimit"
+  ],
+  "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_machineinactivitylimit_v2"
 }
 ```
 

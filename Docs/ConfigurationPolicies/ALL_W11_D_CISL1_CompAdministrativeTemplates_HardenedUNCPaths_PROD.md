@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/ALL_W11_D_CISL1_CompAdministrativeTemplates_HardenedUNCPaths_PROD.md)
 
-**Report Generated:** 01/29/2026 04:45:12
+**Report Generated:** 01/30/2026 04:47:15
 
 ---
 
@@ -22,63 +22,63 @@
 #### device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths
 ```json
 {
+  "auditRuleInformation": null,
   "settingInstanceTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
-  "auditRuleInformation": null,
   "groupSettingCollectionValue": [
     {
-      "settingValueTemplateReference": null,
       "children": [
         {
+          "auditRuleInformation": null,
           "settingInstanceTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
-          "auditRuleInformation": null,
           "simpleSettingValue": {
-            "value": "\\\\*\\NETLOGON",
             "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+            "value": "\\\\*\\NETLOGON",
             "settingValueTemplateReference": null
           },
           "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key"
         },
         {
+          "auditRuleInformation": null,
           "settingInstanceTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
-          "auditRuleInformation": null,
           "simpleSettingValue": {
-            "value": "RequireMutualAuthentication=1, RequireIntegrity=1",
             "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+            "value": "RequireMutualAuthentication=1, RequireIntegrity=1",
             "settingValueTemplateReference": null
           },
           "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_value"
         }
-      ]
+      ],
+      "settingValueTemplateReference": null
     },
     {
-      "settingValueTemplateReference": null,
       "children": [
         {
+          "auditRuleInformation": null,
           "settingInstanceTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
-          "auditRuleInformation": null,
           "simpleSettingValue": {
-            "value": "\\\\*\\SYSVOL",
             "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+            "value": "\\\\*\\SYSVOL",
             "settingValueTemplateReference": null
           },
           "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key"
         },
         {
+          "auditRuleInformation": null,
           "settingInstanceTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
-          "auditRuleInformation": null,
           "simpleSettingValue": {
-            "value": "RequireMutualAuthentication=1, RequireIntegrity=1",
             "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+            "value": "RequireMutualAuthentication=1, RequireIntegrity=1",
             "settingValueTemplateReference": null
           },
           "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_value"
         }
-      ]
+      ],
+      "settingValueTemplateReference": null
     }
   ],
   "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths"
@@ -89,47 +89,25 @@
 ```json
 [
   {
-    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
-    "uxBehavior": "default",
-    "description": "",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
-    "infoUrls": [],
     "accessTypes": "add,delete,get,replace",
-    "version": "639045552477164158",
-    "dependedOnBy": [],
-    "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_value",
-    "visibility": "settingsCatalog,template",
+    "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "helpText": "",
-    "riskLevel": "low",
-    "dependentOn": [
-      {
-        "parentSettingId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
-        "dependentOn": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths"
-      }
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
     "settingUsage": "configuration",
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "minimumLength": 0,
-      "maximumLength": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "inputValidationSchema": null,
-      "format": "none"
-    },
     "name": "Pol_HardenedPaths",
+    "defaultValue": null,
+    "dependedOnBy": [],
+    "keywords": [
+      "Pol_HardenedPaths",
+      "Hardened UNC Paths",
+      "\\Network\\Network Provider",
+      "Administrative Templates\\Network\\Network Provider",
+      "Network Provider"
+    ],
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
+      "minimumSupportedVersion": "10.0.15063",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -143,122 +121,134 @@
       ],
       "description": null,
       "deviceMode": "none",
+      "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiredAzureAdTrustType": "none",
+      "configurationServiceProviderVersion": "5.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0"
+      "platform": "windows10"
     },
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "maximumLength": 0,
+      "minimumLength": 0,
+      "inputValidationSchema": null,
+      "format": "none",
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+      "isSecret": false
+    },
+    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
+    "description": "",
+    "dependentOn": [
+      {
+        "parentSettingId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
+        "dependentOn": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths"
+      }
+    ],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "helpText": "",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "categoryId": "4ad00da1-5ed6-47d8-aef3-70f5bcbbbc77",
     "displayName": "Value",
+    "version": "639045552477164158",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [],
+    "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_value"
+  },
+  {
+    "accessTypes": "add,delete,get,replace",
+    "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "settingUsage": "configuration",
+    "name": "Pol_HardenedPaths",
     "defaultValue": null,
+    "dependedOnBy": [],
     "keywords": [
       "Pol_HardenedPaths",
       "Hardened UNC Paths",
       "\\Network\\Network Provider",
       "Administrative Templates\\Network\\Network Provider",
       "Network Provider"
-    ]
-  },
-  {
-    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
-    "uxBehavior": "default",
-    "description": "",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
-    "infoUrls": [],
-    "accessTypes": "add,delete,get,replace",
-    "version": "639045552477164158",
-    "dependedOnBy": [],
-    "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key",
-    "visibility": "settingsCatalog,template",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
+    ],
+    "applicability": {
+      "minimumSupportedVersion": "10.0.15063",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "description": null,
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiredAzureAdTrustType": "none",
+      "configurationServiceProviderVersion": "5.0",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm",
+      "platform": "windows10"
     },
-    "helpText": "",
-    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "maximumLength": 0,
+      "minimumLength": 0,
+      "inputValidationSchema": null,
+      "format": "none",
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+      "isSecret": false
+    },
+    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
+    "description": "",
     "dependentOn": [
       {
         "parentSettingId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
         "dependentOn": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths"
       }
     ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "settingUsage": "configuration",
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "minimumLength": 0,
-      "maximumLength": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "inputValidationSchema": null,
-      "format": "none"
-    },
-    "name": "Pol_HardenedPaths",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "description": null,
-      "deviceMode": "none",
-      "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0"
-    },
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "helpText": "",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "categoryId": "4ad00da1-5ed6-47d8-aef3-70f5bcbbbc77",
     "displayName": "Name",
-    "defaultValue": null,
+    "version": "639045552477164158",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [],
+    "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key"
+  },
+  {
+    "accessTypes": "add,delete,get,replace",
+    "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "settingUsage": "configuration",
+    "name": "Pol_HardenedPaths",
+    "defaultOptionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_0",
     "keywords": [
       "Pol_HardenedPaths",
       "Hardened UNC Paths",
       "\\Network\\Network Provider",
       "Administrative Templates\\Network\\Network Provider",
       "Network Provider"
-    ]
-  },
-  {
-    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
-    "uxBehavior": "toggle",
-    "description": "This policy setting configures secure access to UNC paths.\r\n\r\nIf you enable this policy, Windows only allows access to the specified UNC paths after fulfilling additional security requirements.\r\n",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-hardeneduncpaths"
     ],
-    "defaultOptionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_0",
-    "accessTypes": "add,delete,get,replace",
-    "version": "639045552477164158",
-    "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
-    "visibility": "settingsCatalog,template",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "helpText": "",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "settingUsage": "configuration",
-    "name": "Pol_HardenedPaths",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
+      "minimumSupportedVersion": "10.0.15063",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -272,69 +262,82 @@
       ],
       "description": null,
       "deviceMode": "none",
+      "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiredAzureAdTrustType": "none",
+      "configurationServiceProviderVersion": "5.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0"
+      "platform": "windows10"
     },
+    "visibility": "settingsCatalog,template",
+    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
+    "description": "This policy setting configures secure access to UNC paths.\r\n\r\nIf you enable this policy, Windows only allows access to the specified UNC paths after fulfilling additional security requirements.\r\n",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "helpText": "",
+    "referredSettingInformationList": [],
+    "uxBehavior": "toggle",
     "categoryId": "4ad00da1-5ed6-47d8-aef3-70f5bcbbbc77",
     "options": [
       {
-        "displayName": "Disabled",
-        "dependedOnBy": [],
+        "description": null,
+        "name": "Disabled",
         "optionValue": {
-          "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "dependedOnBy": [],
         "helpText": null,
         "itemId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_0",
-        "description": null,
-        "name": "Disabled"
+        "dependentOn": [],
+        "displayName": "Disabled"
       },
       {
-        "displayName": "Enabled",
+        "description": null,
+        "name": "Enabled",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
             "required": true
           }
         ],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
         "helpText": null,
         "itemId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_1",
-        "description": null,
-        "name": "Enabled"
+        "dependentOn": [],
+        "displayName": "Enabled"
       }
     ],
     "displayName": "Hardened UNC Paths",
-    "keywords": [
-      "Pol_HardenedPaths",
-      "Hardened UNC Paths",
-      "\\Network\\Network Provider",
-      "Administrative Templates\\Network\\Network Provider",
-      "Network Provider"
-    ]
+    "version": "639045552477164158",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-hardeneduncpaths"
+    ],
+    "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths"
   },
   {
-    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
-    "uxBehavior": "default",
-    "description": "",
     "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
     "childIds": [
       "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key",
       "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_value"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
-    "infoUrls": [],
-    "accessTypes": "add,delete,get,replace",
-    "version": "639045552477164158",
+    "dependentOn": [
+      {
+        "parentSettingId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
+        "dependentOn": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_1"
+      }
+    ],
+    "settingUsage": "configuration",
+    "name": "Pol_HardenedPaths",
     "dependedOnBy": [
       {
         "dependedOnBy": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key",
@@ -345,31 +348,15 @@
         "required": true
       }
     ],
-    "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 1,
-    "helpText": "",
-    "riskLevel": "low",
-    "maximumCount": 600,
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "settingUsage": "configuration",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "Pol_HardenedPaths",
-    "dependentOn": [
-      {
-        "parentSettingId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
-        "dependentOn": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_1"
-      }
+    "keywords": [
+      "Pol_HardenedPaths",
+      "Hardened UNC Paths",
+      "\\Network\\Network Provider",
+      "Administrative Templates\\Network\\Network Provider",
+      "Network Provider"
     ],
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
+      "minimumSupportedVersion": "10.0.15063",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -383,20 +370,33 @@
       ],
       "description": null,
       "deviceMode": "none",
+      "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiredAzureAdTrustType": "none",
+      "configurationServiceProviderVersion": "5.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0"
+      "platform": "windows10"
+    },
+    "visibility": "settingsCatalog,template",
+    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
+    "description": "",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
+    "helpText": "",
+    "minimumCount": 1,
+    "uxBehavior": "default",
     "categoryId": "4ad00da1-5ed6-47d8-aef3-70f5bcbbbc77",
     "displayName": "Hardened UNC Paths: (Device)",
-    "keywords": [
-      "Pol_HardenedPaths",
-      "Hardened UNC Paths",
-      "\\Network\\Network Provider",
-      "Administrative Templates\\Network\\Network Provider",
-      "Network Provider"
-    ]
+    "version": "639045552477164158",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [],
+    "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
+    "maximumCount": 600
   }
 ]
 ```

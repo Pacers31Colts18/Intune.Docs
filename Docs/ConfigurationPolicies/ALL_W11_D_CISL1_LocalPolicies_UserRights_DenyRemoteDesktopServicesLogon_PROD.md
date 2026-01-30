@@ -11,7 +11,7 @@
 
 [**Assignments**](./Assignments/ALL_W11_D_CISL1_LocalPolicies_UserRights_DenyRemoteDesktopServicesLogon_PROD.md)
 
-**Report Generated:** 01/29/2026 04:45:15
+**Report Generated:** 01/30/2026 04:47:17
 
 ---
 
@@ -26,16 +26,16 @@
 
 ```json
 {
-  "value": "Guests",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+  "value": "Guests",
   "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "value": "Local account",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+  "value": "Local account",
   "settingValueTemplateReference": null
 }
 ```
@@ -43,18 +43,37 @@
 ## Setting Definition
 ```json
 {
+  "settingUsage": "configuration",
   "description": "This user right determines which users and groups are prohibited from logging on as a Remote Desktop Services client.",
-  "minimumCount": 0,
+  "dependentOn": [],
+  "occurrence": {
+    "maxDeviceOccurrence": 1,
+    "minDeviceOccurrence": 0
+  },
   "uxBehavior": "default",
+  "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
   "maximumCount": 1000,
-  "name": "DenyRemoteDesktopServicesLogOn",
+  "id": "device_vendor_msft_policy_config_userrights_denyremotedesktopserviceslogon",
+  "displayName": "Deny Remote Desktop Services Log On",
+  "keywords": [
+    "Deny Remote Desktop Services Log On",
+    "User Rights"
+  ],
+  "baseUri": "./Device/Vendor/MSFT/Policy",
+  "version": "639045552477164158",
+  "defaultValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+    "value": null,
+    "settingValueTemplateReference": null
+  },
+  "referredSettingInformationList": [],
+  "offsetUri": "/Config/UserRights/DenyRemoteDesktopServicesLogOn",
+  "visibility": "settingsCatalog,template",
+  "minimumCount": 0,
   "helpText": "",
+  "name": "DenyRemoteDesktopServicesLogOn",
   "applicability": {
-    "requiredAzureAdTrustType": "none",
-    "platform": "windows10",
-    "requiresAzureAd": false,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "maximumSupportedVersion": null,
+    "minimumSupportedVersion": "10.0.17134",
     "windowsSkus": [
       "windowsEnterprise",
       "windowsProfessional",
@@ -66,50 +85,31 @@
     ],
     "description": null,
     "deviceMode": "none",
+    "requiresAzureAd": false,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+    "requiredAzureAdTrustType": "none",
+    "configurationServiceProviderVersion": "7.0",
+    "maximumSupportedVersion": null,
     "technologies": "mdm",
-    "minimumSupportedVersion": "10.0.17134",
-    "configurationServiceProviderVersion": "7.0"
+    "platform": "windows10"
   },
-  "id": "device_vendor_msft_policy_config_userrights_denyremotedesktopserviceslogon",
-  "referredSettingInformationList": [],
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-  "displayName": "Deny Remote Desktop Services Log On",
-  "riskLevel": "low",
   "dependedOnBy": [],
-  "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
+  "valueDefinition": {
+    "maximumLength": 87516,
+    "minimumLength": 0,
+    "inputValidationSchema": null,
+    "format": "none",
+    "fileTypes": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+    "isSecret": false
+  },
+  "accessTypes": "add,delete,get,replace",
   "infoUrls": [
     "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#denyremotedesktopserviceslogon"
   ],
-  "settingUsage": "configuration",
+  "riskLevel": "low",
   "rootDefinitionId": "device_vendor_msft_policy_config_userrights_denyremotedesktopserviceslogon",
-  "accessTypes": "add,delete,get,replace",
-  "defaultValue": {
-    "value": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "baseUri": "./Device/Vendor/MSFT/Policy",
-  "version": "639045552477164158",
-  "visibility": "settingsCatalog,template",
-  "keywords": [
-    "Deny Remote Desktop Services Log On",
-    "User Rights"
-  ],
-  "valueDefinition": {
-    "fileTypes": [],
-    "isSecret": false,
-    "minimumLength": 0,
-    "maximumLength": 87516,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-    "inputValidationSchema": null,
-    "format": "none"
-  },
-  "occurrence": {
-    "maxDeviceOccurrence": 1,
-    "minDeviceOccurrence": 0
-  },
-  "offsetUri": "/Config/UserRights/DenyRemoteDesktopServicesLogOn"
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition"
 }
 ```
 

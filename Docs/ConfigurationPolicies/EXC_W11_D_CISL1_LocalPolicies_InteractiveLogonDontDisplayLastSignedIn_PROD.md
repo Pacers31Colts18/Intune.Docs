@@ -11,7 +11,7 @@
 
 [**Assignments**](./Assignments/EXC_W11_D_CISL1_LocalPolicies_InteractiveLogonDontDisplayLastSignedIn_PROD.md)
 
-**Report Generated:** 01/29/2026 04:45:19
+**Report Generated:** 01/30/2026 04:47:21
 
 ---
 
@@ -26,52 +26,39 @@
 
 ```json
 {
-  "displayName": "Disabled (username will be shown)",
-  "dependedOnBy": [],
+  "description": "Disabled (username will be shown)",
+  "name": "Disabled (username will be shown)",
   "optionValue": {
-    "value": 0,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0,
     "settingValueTemplateReference": null
   },
-  "dependentOn": [],
+  "dependedOnBy": [],
   "helpText": null,
   "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin_0",
-  "description": "Disabled (username will be shown)",
-  "name": "Disabled (username will be shown)"
+  "dependentOn": [],
+  "displayName": "Disabled (username will be shown)"
 }
 ```
 
 ## Setting Definition
 ```json
 {
-  "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_DoNotDisplayLastSignedIn",
-  "uxBehavior": "toggle",
-  "description": "Interactive logon: Don't display last signed-in This security setting determines whether the Windows sign-in screen will show the username of the last person who signed in on this PC. If this policy is enabled, the username will not be shown.  If this policy is disabled, the username will be shown.  Default: Disabled.",
-  "referredSettingInformationList": [],
-  "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin",
-  "infoUrls": [
-    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_donotdisplaylastsignedin"
-  ],
-  "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin_0",
   "accessTypes": "add,delete,get,replace",
-  "version": "639045552477164158",
-  "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin",
-  "visibility": "settingsCatalog,template",
+  "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin",
   "occurrence": {
     "maxDeviceOccurrence": 1,
     "minDeviceOccurrence": 0
   },
-  "helpText": "",
-  "riskLevel": "low",
-  "baseUri": "./Device/Vendor/MSFT/Policy",
   "settingUsage": "configuration",
   "name": "InteractiveLogon_DoNotDisplayLastSignedIn",
+  "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin_0",
+  "keywords": [
+    "Interactive Logon Do Not Display Last Signed In",
+    "Local Policies Security Options"
+  ],
   "applicability": {
-    "requiredAzureAdTrustType": "none",
-    "platform": "windows10",
-    "requiresAzureAd": false,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "maximumSupportedVersion": null,
+    "minimumSupportedVersion": "10.0.16299",
     "windowsSkus": [
       "windowsEnterprise",
       "windowsProfessional",
@@ -85,47 +72,60 @@
     ],
     "description": null,
     "deviceMode": "none",
+    "requiresAzureAd": false,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+    "requiredAzureAdTrustType": "none",
+    "configurationServiceProviderVersion": "6.0",
+    "maximumSupportedVersion": null,
     "technologies": "mdm",
-    "minimumSupportedVersion": "10.0.16299",
-    "configurationServiceProviderVersion": "6.0"
+    "platform": "windows10"
   },
+  "visibility": "settingsCatalog,template",
+  "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_DoNotDisplayLastSignedIn",
+  "description": "Interactive logon: Don't display last signed-in This security setting determines whether the Windows sign-in screen will show the username of the last person who signed in on this PC. If this policy is enabled, the username will not be shown.  If this policy is disabled, the username will be shown.  Default: Disabled.",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+  "helpText": "",
+  "referredSettingInformationList": [],
+  "uxBehavior": "toggle",
   "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
   "options": [
     {
-      "displayName": "Disabled (username will be shown)",
-      "dependedOnBy": [],
+      "description": "Disabled (username will be shown)",
+      "name": "Disabled (username will be shown)",
       "optionValue": {
-        "value": 0,
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "value": 0,
         "settingValueTemplateReference": null
       },
-      "dependentOn": [],
+      "dependedOnBy": [],
       "helpText": null,
       "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin_0",
-      "description": "Disabled (username will be shown)",
-      "name": "Disabled (username will be shown)"
+      "dependentOn": [],
+      "displayName": "Disabled (username will be shown)"
     },
     {
-      "displayName": "Enabled (username will not be shown)",
-      "dependedOnBy": [],
+      "description": "Enabled (username will not be shown)",
+      "name": "Enabled (username will not be shown)",
       "optionValue": {
-        "value": 1,
         "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "value": 1,
         "settingValueTemplateReference": null
       },
-      "dependentOn": [],
+      "dependedOnBy": [],
       "helpText": null,
       "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin_1",
-      "description": "Enabled (username will not be shown)",
-      "name": "Enabled (username will not be shown)"
+      "dependentOn": [],
+      "displayName": "Enabled (username will not be shown)"
     }
   ],
   "displayName": "Interactive Logon Do Not Display Last Signed In",
-  "keywords": [
-    "Interactive Logon Do Not Display Last Signed In",
-    "Local Policies Security Options"
-  ]
+  "version": "639045552477164158",
+  "riskLevel": "low",
+  "baseUri": "./Device/Vendor/MSFT/Policy",
+  "infoUrls": [
+    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_donotdisplaylastsignedin"
+  ],
+  "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin"
 }
 ```
 

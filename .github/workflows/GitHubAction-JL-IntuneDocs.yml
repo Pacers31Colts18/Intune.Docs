@@ -42,7 +42,7 @@ jobs:
         shell: bash
         working-directory: ${{ env.REPO_DIR }}
         run: |
-          rm -rfv "${{ env.REPO_DIR }}/JL"
+          rm -rfv "${{ env.REPO_DIR }}/Docs"
 
       # LOGIN TO AZURE
       - name: DEV Azure Login
@@ -115,6 +115,7 @@ jobs:
           echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
 
 

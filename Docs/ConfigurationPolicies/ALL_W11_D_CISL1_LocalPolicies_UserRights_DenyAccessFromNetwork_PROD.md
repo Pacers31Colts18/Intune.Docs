@@ -11,7 +11,7 @@
 
 [**Assignments**](./Assignments/ALL_W11_D_CISL1_LocalPolicies_UserRights_DenyAccessFromNetwork_PROD.md)
 
-**Report Generated:** 01/30/2026 04:47:17
+**Report Generated:** 01/31/2026 04:40:19
 
 ---
 
@@ -26,54 +26,51 @@
 
 ```json
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
   "value": "Guests",
-  "settingValueTemplateReference": null
+  "settingValueTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
 }
 ```
 
 ```json
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
   "value": "Local account",
-  "settingValueTemplateReference": null
+  "settingValueTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
 }
 ```
 
 ## Setting Definition
 ```json
 {
+  "accessTypes": "add,delete,get,replace",
+  "valueDefinition": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+    "format": "none",
+    "minimumLength": 0,
+    "inputValidationSchema": null,
+    "fileTypes": [],
+    "maximumLength": 87516,
+    "isSecret": false
+  },
   "settingUsage": "configuration",
-  "description": "This user right determines which users are prevented from accessing a computer over the network. This policy setting supersedes the Access this computer from the network policy setting if a user account is subject to both policies.",
-  "dependentOn": [],
-  "occurrence": {
-    "maxDeviceOccurrence": 1,
-    "minDeviceOccurrence": 0
-  },
-  "uxBehavior": "default",
-  "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-  "maximumCount": 1000,
-  "id": "device_vendor_msft_policy_config_userrights_denyaccessfromnetwork",
-  "displayName": "Deny Access From Network",
-  "keywords": [
-    "Deny Access From Network",
-    "User Rights"
+  "infoUrls": [
+    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#denyaccessfromnetwork"
   ],
-  "baseUri": "./Device/Vendor/MSFT/Policy",
-  "version": "639045552477164158",
-  "defaultValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-    "value": null,
-    "settingValueTemplateReference": null
-  },
-  "referredSettingInformationList": [],
-  "offsetUri": "/Config/UserRights/DenyAccessFromNetwork",
-  "visibility": "settingsCatalog,template",
   "minimumCount": 0,
-  "helpText": "",
-  "name": "DenyAccessFromNetwork",
+  "referredSettingInformationList": [],
+  "rootDefinitionId": "device_vendor_msft_policy_config_userrights_denyaccessfromnetwork",
+  "visibility": "settingsCatalog,template",
   "applicability": {
+    "maximumSupportedVersion": null,
+    "technologies": "mdm",
     "minimumSupportedVersion": "10.0.17134",
+    "deviceMode": "none",
+    "requiresAzureAd": false,
+    "requiredAzureAdTrustType": "none",
+    "description": null,
+    "configurationServiceProviderVersion": "7.0",
+    "platform": "windows10",
     "windowsSkus": [
       "windowsEnterprise",
       "windowsProfessional",
@@ -83,33 +80,36 @@
       "windows11SE",
       "iotEnterpriseSEval"
     ],
-    "description": null,
-    "deviceMode": "none",
-    "requiresAzureAd": false,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "requiredAzureAdTrustType": "none",
-    "configurationServiceProviderVersion": "7.0",
-    "maximumSupportedVersion": null,
-    "technologies": "mdm",
-    "platform": "windows10"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+  },
+  "name": "DenyAccessFromNetwork",
+  "occurrence": {
+    "minDeviceOccurrence": 0,
+    "maxDeviceOccurrence": 1
   },
   "dependedOnBy": [],
-  "valueDefinition": {
-    "maximumLength": 87516,
-    "minimumLength": 0,
-    "inputValidationSchema": null,
-    "format": "none",
-    "fileTypes": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-    "isSecret": false
+  "helpText": "",
+  "uxBehavior": "default",
+  "offsetUri": "/Config/UserRights/DenyAccessFromNetwork",
+  "maximumCount": 1000,
+  "defaultValue": {
+    "value": null,
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
   },
-  "accessTypes": "add,delete,get,replace",
-  "infoUrls": [
-    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#denyaccessfromnetwork"
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+  "description": "This user right determines which users are prevented from accessing a computer over the network. This policy setting supersedes the Access this computer from the network policy setting if a user account is subject to both policies.",
+  "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
+  "dependentOn": [],
+  "keywords": [
+    "Deny Access From Network",
+    "User Rights"
   ],
+  "displayName": "Deny Access From Network",
+  "version": "639051548217033386",
+  "baseUri": "./Device/Vendor/MSFT/Policy",
   "riskLevel": "low",
-  "rootDefinitionId": "device_vendor_msft_policy_config_userrights_denyaccessfromnetwork",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition"
+  "id": "device_vendor_msft_policy_config_userrights_denyaccessfromnetwork"
 }
 ```
 

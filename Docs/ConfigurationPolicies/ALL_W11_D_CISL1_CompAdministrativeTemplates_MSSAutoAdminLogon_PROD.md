@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/ALL_W11_D_CISL1_CompAdministrativeTemplates_MSSAutoAdminLogon_PROD.md)
 
-**Report Generated:** 01/30/2026 04:47:15
+**Report Generated:** 01/31/2026 04:40:17
 
 ---
 
@@ -26,33 +26,29 @@
 
 ```json
 {
-  "description": null,
-  "name": "Disabled",
   "optionValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "value": 0,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
-  "dependedOnBy": [],
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon_0",
+  "name": "Disabled",
   "dependentOn": [],
-  "displayName": "Disabled"
+  "helpText": null,
+  "dependedOnBy": [],
+  "displayName": "Disabled",
+  "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon_0",
+  "description": null
 }
 ```
 
 ## Setting Definition
 ```json
 {
-  "accessTypes": "none",
-  "rootDefinitionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon",
-  "occurrence": {
-    "maxDeviceOccurrence": 1,
-    "minDeviceOccurrence": 1
-  },
-  "settingUsage": "configuration",
-  "name": "Pol_MSS_AutoAdminLogon",
-  "defaultOptionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon_0",
+  "infoUrls": [
+    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-mss-legacy#admx-mss-legacy-pol-mss-autoadminlogon"
+  ],
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+  "helpText": "",
   "keywords": [
     "Pol_MSS_AutoAdminLogon",
     "MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)",
@@ -64,8 +60,22 @@
     "Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon",
     "AutoAdminLogon"
   ],
+  "referredSettingInformationList": [],
+  "occurrence": {
+    "minDeviceOccurrence": 1,
+    "maxDeviceOccurrence": 1
+  },
+  "name": "Pol_MSS_AutoAdminLogon",
   "applicability": {
+    "maximumSupportedVersion": null,
+    "technologies": "mdm",
     "minimumSupportedVersion": "10.0.19041.1202",
+    "deviceMode": "none",
+    "requiresAzureAd": false,
+    "requiredAzureAdTrustType": "none",
+    "description": null,
+    "configurationServiceProviderVersion": "10.0",
+    "platform": "windows10",
     "windowsSkus": [
       "windowsEnterprise",
       "windowsProfessional",
@@ -77,62 +87,52 @@
       "windows11SE",
       "iotEnterpriseSEval"
     ],
-    "description": null,
-    "deviceMode": "none",
-    "requiresAzureAd": false,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "requiredAzureAdTrustType": "none",
-    "configurationServiceProviderVersion": "10.0",
-    "maximumSupportedVersion": null,
-    "technologies": "mdm",
-    "platform": "windows10"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
   },
-  "visibility": "settingsCatalog,template",
-  "offsetUri": "/Config/ADMX_MSS-legacy/Pol_MSS_AutoAdminLogon",
+  "riskLevel": "low",
   "description": "MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)\n ",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-  "helpText": "",
-  "referredSettingInformationList": [],
-  "uxBehavior": "toggle",
   "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7",
+  "accessTypes": "none",
+  "rootDefinitionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon",
+  "baseUri": "./Device/Vendor/MSFT/Policy",
+  "displayName": "MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)",
+  "version": "639051548217033386",
+  "id": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon",
+  "visibility": "settingsCatalog,template",
+  "defaultOptionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon_0",
+  "offsetUri": "/Config/ADMX_MSS-legacy/Pol_MSS_AutoAdminLogon",
   "options": [
     {
-      "description": null,
-      "name": "Disabled",
       "optionValue": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
         "value": 0,
-        "settingValueTemplateReference": null
+        "settingValueTemplateReference": null,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
       },
-      "dependedOnBy": [],
-      "helpText": null,
-      "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon_0",
+      "name": "Disabled",
       "dependentOn": [],
-      "displayName": "Disabled"
+      "helpText": null,
+      "dependedOnBy": [],
+      "displayName": "Disabled",
+      "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon_0",
+      "description": null
     },
     {
-      "description": null,
-      "name": "Enabled",
       "optionValue": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
         "value": 1,
-        "settingValueTemplateReference": null
+        "settingValueTemplateReference": null,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
       },
-      "dependedOnBy": [],
-      "helpText": null,
-      "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon_1",
+      "name": "Enabled",
       "dependentOn": [],
-      "displayName": "Enabled"
+      "helpText": null,
+      "dependedOnBy": [],
+      "displayName": "Enabled",
+      "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon_1",
+      "description": null
     }
   ],
-  "displayName": "MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)",
-  "version": "639045552477164158",
-  "riskLevel": "low",
-  "baseUri": "./Device/Vendor/MSFT/Policy",
-  "infoUrls": [
-    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-mss-legacy#admx-mss-legacy-pol-mss-autoadminlogon"
-  ],
-  "id": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon"
+  "uxBehavior": "toggle",
+  "settingUsage": "configuration"
 }
 ```
 

@@ -18,7 +18,7 @@
 
 [**Assignments**](./Assignments/CIS_(L1)_Autopilot_-_Windows_11_Intune_4.0.0.md)
 
-**Report Generated:** 01/31/2026 20:52:18
+**Report Generated:** 01/31/2026 21:01:16
 
 ---
 
@@ -34,18 +34,18 @@
 
 ```json
 {
-  "dependentOn": [],
   "helpText": null,
-  "name": "Disabled",
-  "optionValue": {
-    "value": 0,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon_0",
-  "description": null,
   "displayName": "Disabled",
-  "dependedOnBy": []
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "description": null,
+  "name": "Disabled",
+  "dependedOnBy": [],
+  "dependentOn": []
 }
 ```
 
@@ -59,17 +59,16 @@
 
 ```json
 {
-  "dependentOn": [],
   "helpText": null,
-  "name": "Enabled",
-  "optionValue": {
-    "value": 0,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "itemId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
-  "description": "Enabled",
   "displayName": "Enabled",
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "description": "Enabled",
+  "name": "Enabled",
   "dependedOnBy": [
     {
       "required": false,
@@ -107,22 +106,23 @@
       "required": false,
       "dependedOnBy": "device_vendor_msft_policy_config_devicelock_mindevicepasswordlength"
     }
-  ]
+  ],
+  "dependentOn": []
 }
 ```
 
 #### device_vendor_msft_policy_config_devicelock_devicepasswordhistory
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordhistory",
   "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
   "simpleSettingValue": {
-    "value": 24,
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 24
   },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+  "auditRuleInformation": null
 }
 ```
 
@@ -136,9 +136,9 @@
 
 ```json
 {
-  "value": "Insert text here",
   "settingValueTemplateReference": null,
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+  "value": "Insert text here"
 }
 ```
 
@@ -152,9 +152,9 @@
 
 ```json
 {
-  "value": "Enter title here",
   "settingValueTemplateReference": null,
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+  "value": "Enter title here"
 }
 ```
 
@@ -168,18 +168,18 @@
 
 ```json
 {
-  "dependentOn": [],
   "helpText": null,
-  "name": "Prompt for consent on the secure desktop",
-  "optionValue": {
-    "value": 2,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators_2",
-  "description": "Prompt for consent on the secure desktop",
   "displayName": "Prompt for consent on the secure desktop",
-  "dependedOnBy": []
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 2
+  },
+  "description": "Prompt for consent on the secure desktop",
+  "name": "Prompt for consent on the secure desktop",
+  "dependedOnBy": [],
+  "dependentOn": []
 }
 ```
 
@@ -193,18 +193,18 @@
 
 ```json
 {
-  "dependentOn": [],
   "helpText": null,
-  "name": "(Enabled with UEFI lock) Turns on Hypervisor-Protected Code Integrity with UEFI lock.",
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "itemId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_hypervisorenforcedcodeintegrity_1",
-  "description": "(Enabled with UEFI lock) Turns on Hypervisor-Protected Code Integrity with UEFI lock.",
   "displayName": "(Enabled with UEFI lock) Turns on Hypervisor-Protected Code Integrity with UEFI lock.",
-  "dependedOnBy": []
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "description": "(Enabled with UEFI lock) Turns on Hypervisor-Protected Code Integrity with UEFI lock.",
+  "name": "(Enabled with UEFI lock) Turns on Hypervisor-Protected Code Integrity with UEFI lock.",
+  "dependedOnBy": [],
+  "dependentOn": []
 }
 ```
 
@@ -212,8 +212,17 @@
 ```json
 [
   {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639051548217033386",
     "applicability": {
-      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "10.0",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -225,56 +234,50 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "10.0",
       "minimumSupportedVersion": "10.0.19041.1202",
-      "description": null,
-      "technologies": "mdm",
-      "maximumSupportedVersion": null
+      "platform": "windows10"
     },
-    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7",
+    "helpText": "",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon",
+    "name": "Pol_MSS_AutoAdminLogon",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/ADMX_MSS-legacy/Pol_MSS_AutoAdminLogon",
+    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "dependentOn": [],
         "helpText": null,
-        "name": "Disabled",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon_0",
-        "description": null,
         "displayName": "Disabled",
-        "dependedOnBy": []
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "description": null,
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "dependentOn": []
       },
       {
-        "dependentOn": [],
         "helpText": null,
-        "name": "Enabled",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon_1",
-        "description": null,
         "displayName": "Enabled",
-        "dependedOnBy": []
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "description": null,
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "dependentOn": []
       }
     ],
-    "offsetUri": "/Config/ADMX_MSS-legacy/Pol_MSS_AutoAdminLogon",
-    "accessTypes": "none",
-    "id": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon",
-    "riskLevel": "low",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "description": "MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)\n ",
-    "displayName": "MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon_0",
+    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7",
+    "id": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon",
     "keywords": [
       "Pol_MSS_AutoAdminLogon",
       "MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)",
@@ -287,24 +290,30 @@
       "AutoAdminLogon"
     ],
     "settingUsage": "configuration",
-    "name": "Pol_MSS_AutoAdminLogon",
-    "helpText": "",
-    "version": "639051548217033386",
-    "uxBehavior": "toggle",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-mss-legacy#admx-mss-legacy-pol-mss-autoadminlogon"
     ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon"
+    "uxBehavior": "toggle",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_autoadminlogon_0",
+    "displayName": "MSS: (AutoAdminLogon) Enable Automatic Logon (not recommended)",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "accessTypes": "none"
   },
   {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639051548217033386",
     "applicability": {
-      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "1.0",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -318,30 +327,28 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "1.0",
       "minimumSupportedVersion": "10.0.10240",
-      "description": null,
-      "technologies": "mdm",
-      "maximumSupportedVersion": null
+      "platform": "windows10"
     },
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "helpText": "",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "name": "DevicePasswordEnabled",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/DeviceLock/DevicePasswordEnabled",
+    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "dependentOn": [],
         "helpText": null,
-        "name": "Enabled",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
-        "description": "Enabled",
         "displayName": "Enabled",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "description": "Enabled",
+        "name": "Enabled",
         "dependedOnBy": [
           {
             "required": false,
@@ -379,56 +386,58 @@
             "required": false,
             "dependedOnBy": "device_vendor_msft_policy_config_devicelock_mindevicepasswordlength"
           }
-        ]
+        ],
+        "dependentOn": []
       },
       {
-        "dependentOn": [],
         "helpText": null,
-        "name": "Disabled",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_1",
-        "description": "Disabled",
         "displayName": "Disabled",
-        "dependedOnBy": []
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "description": "Disabled",
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "dependentOn": []
       }
     ],
-    "offsetUri": "/Config/DeviceLock/DevicePasswordEnabled",
-    "accessTypes": "add,delete,get,replace",
-    "id": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
-    "riskLevel": "low",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "description": "Specifies whether device lock is enabled.",
-    "displayName": "Device Password Enabled",
-    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_1",
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "id": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
     "keywords": [
       "DevicePasswordEnabled",
       "DeviceLock",
       "Device Lock"
     ],
     "settingUsage": "configuration,compliance",
-    "name": "DevicePasswordEnabled",
-    "helpText": "",
-    "version": "639051548217033386",
-    "uxBehavior": "toggle",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#devicepasswordenabled"
     ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template",
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+    "uxBehavior": "toggle",
+    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_1",
+    "displayName": "Device Password Enabled",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "accessTypes": "add,delete,get,replace"
   },
   {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639051548217033386",
     "applicability": {
-      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "1.0",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -442,65 +451,65 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "1.0",
       "minimumSupportedVersion": "10.0.10240",
-      "description": null,
-      "technologies": "mdm",
-      "maximumSupportedVersion": null
+      "platform": "windows10"
     },
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "helpText": "",
+    "defaultValue": {
+      "settingValueTemplateReference": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "value": 0
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "name": "DevicePasswordExpiration",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "offsetUri": "/Config/DeviceLock/DevicePasswordExpiration",
-    "accessTypes": "add,delete,get,replace",
-    "id": "device_vendor_msft_policy_config_devicelock_devicepasswordexpiration",
-    "dependedOnBy": [],
-    "riskLevel": "low",
-    "referredSettingInformationList": [],
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "minimumValue": 0,
+      "maximumValue": 730,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
+    },
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "description": "Specifies when the password expires (in days). 0 - Passwords do not expire.",
-    "displayName": "Device Password Expiration",
-    "defaultValue": {
-      "value": 0,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
+    "dependedOnBy": [],
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "id": "device_vendor_msft_policy_config_devicelock_devicepasswordexpiration",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
+        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+      }
+    ],
     "keywords": [
       "Device Password Expiration",
       "Device Lock"
     ],
     "settingUsage": "configuration,compliance",
-    "name": "DevicePasswordExpiration",
-    "helpText": "",
-    "version": "639051548217033386",
-    "uxBehavior": "default",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "maximumValue": 730,
-      "minimumValue": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
-    },
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#devicepasswordexpiration"
     ],
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
-        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
-      }
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template",
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+    "uxBehavior": "default",
+    "displayName": "Device Password Expiration",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "accessTypes": "add,delete,get,replace"
   },
   {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639051548217033386",
     "applicability": {
-      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "1.0",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -514,65 +523,65 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "1.0",
       "minimumSupportedVersion": "10.0.10240",
-      "description": null,
-      "technologies": "mdm",
-      "maximumSupportedVersion": null
+      "platform": "windows10"
     },
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "helpText": "",
+    "defaultValue": {
+      "settingValueTemplateReference": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "value": 4
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "name": "MinDevicePasswordLength",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "offsetUri": "/Config/DeviceLock/MinDevicePasswordLength",
-    "accessTypes": "add,delete,get,replace",
-    "id": "device_vendor_msft_policy_config_devicelock_mindevicepasswordlength",
-    "dependedOnBy": [],
-    "riskLevel": "low",
-    "referredSettingInformationList": [],
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "minimumValue": 4,
+      "maximumValue": 16,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
+    },
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "description": "Specifies the minimum number or characters required in the PIN or password.",
-    "displayName": "Min Device Password Length",
-    "defaultValue": {
-      "value": 4,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
+    "dependedOnBy": [],
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "id": "device_vendor_msft_policy_config_devicelock_mindevicepasswordlength",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
+        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+      }
+    ],
     "keywords": [
       "Min Device Password Length",
       "Device Lock"
     ],
     "settingUsage": "configuration,compliance",
-    "name": "MinDevicePasswordLength",
-    "helpText": "",
-    "version": "639051548217033386",
-    "uxBehavior": "default",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "maximumValue": 16,
-      "minimumValue": 4,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
-    },
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#mindevicepasswordlength"
     ],
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
-        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
-      }
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template",
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+    "uxBehavior": "default",
+    "displayName": "Min Device Password Length",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "accessTypes": "add,delete,get,replace"
   },
   {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639051548217033386",
     "applicability": {
-      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "1.0",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -586,65 +595,65 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "1.0",
       "minimumSupportedVersion": "10.0.10240",
-      "description": null,
-      "technologies": "mdm",
-      "maximumSupportedVersion": null
+      "platform": "windows10"
     },
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "helpText": "",
+    "defaultValue": {
+      "settingValueTemplateReference": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "value": 0
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "name": "MaxDevicePasswordFailedAttempts",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "offsetUri": "/Config/DeviceLock/MaxDevicePasswordFailedAttempts",
-    "accessTypes": "add,delete,get,replace",
-    "id": "device_vendor_msft_policy_config_devicelock_maxdevicepasswordfailedattempts",
-    "dependedOnBy": [],
-    "riskLevel": "low",
-    "referredSettingInformationList": [],
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "minimumValue": 0,
+      "maximumValue": 999,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
+    },
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "description": "On a desktop, when the user reaches the value set by this policy, it is not wiped. Instead, the desktop is put on BitLocker recovery mode, which makes the data inaccessible but recoverable. If BitLocker is not enabled, then the policy cannot be enforced.",
-    "displayName": "Max Device Password Failed Attempts",
-    "defaultValue": {
-      "value": 0,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
+    "dependedOnBy": [],
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "id": "device_vendor_msft_policy_config_devicelock_maxdevicepasswordfailedattempts",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
+        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+      }
+    ],
     "keywords": [
       "Max Device Password Failed Attempts",
       "Device Lock"
     ],
     "settingUsage": "configuration",
-    "name": "MaxDevicePasswordFailedAttempts",
-    "helpText": "",
-    "version": "639051548217033386",
-    "uxBehavior": "default",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "maximumValue": 999,
-      "minimumValue": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
-    },
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#maxdevicepasswordfailedattempts"
     ],
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
-        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
-      }
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template",
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+    "uxBehavior": "default",
+    "displayName": "Max Device Password Failed Attempts",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "accessTypes": "add,delete,get,replace"
   },
   {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639051548217033386",
     "applicability": {
-      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "1.0",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -658,113 +667,113 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "1.0",
       "minimumSupportedVersion": "10.0.10240",
-      "description": null,
-      "technologies": "mdm",
-      "maximumSupportedVersion": null
+      "platform": "windows10"
     },
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "helpText": "",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "name": "AlphanumericDevicePasswordRequired",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/DeviceLock/AlphanumericDevicePasswordRequired",
+    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
-            "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
-          }
-        ],
         "helpText": null,
-        "name": "Password or Alphanumeric PIN required.",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_0",
-        "description": "Password or Alphanumeric PIN required.",
         "displayName": "Password or Alphanumeric PIN required.",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "description": "Password or Alphanumeric PIN required.",
+        "name": "Password or Alphanumeric PIN required.",
         "dependedOnBy": [
           {
             "required": false,
             "dependedOnBy": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters"
           }
+        ],
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
+            "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+          }
         ]
       },
       {
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_1",
+        "displayName": "Password or Numeric PIN required.",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "description": "Password or Numeric PIN required.",
+        "name": "Password or Numeric PIN required.",
+        "dependedOnBy": [],
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
           }
-        ],
-        "helpText": null,
-        "name": "Password or Numeric PIN required.",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_1",
-        "description": "Password or Numeric PIN required.",
-        "displayName": "Password or Numeric PIN required.",
-        "dependedOnBy": []
+        ]
       },
       {
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_2",
+        "displayName": "Password, Numeric PIN, or Alphanumeric PIN required.",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2
+        },
+        "description": "Password, Numeric PIN, or Alphanumeric PIN required.",
+        "name": "Password, Numeric PIN, or Alphanumeric PIN required.",
+        "dependedOnBy": [],
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
           }
-        ],
-        "helpText": null,
-        "name": "Password, Numeric PIN, or Alphanumeric PIN required.",
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_2",
-        "description": "Password, Numeric PIN, or Alphanumeric PIN required.",
-        "displayName": "Password, Numeric PIN, or Alphanumeric PIN required.",
-        "dependedOnBy": []
+        ]
       }
     ],
-    "offsetUri": "/Config/DeviceLock/AlphanumericDevicePasswordRequired",
-    "accessTypes": "add,delete,get,replace",
-    "id": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired",
-    "riskLevel": "low",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "description": "Determines the type of PIN or password required. This policy only applies if the DeviceLock/DevicePasswordEnabled policy is set to 0",
-    "displayName": "Alphanumeric Device Password Required",
-    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_2",
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "id": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired",
     "keywords": [
       "Alphanumeric Device Password Required",
       "Device Lock"
     ],
     "settingUsage": "configuration,compliance",
-    "name": "AlphanumericDevicePasswordRequired",
-    "helpText": "",
-    "version": "639051548217033386",
-    "uxBehavior": "default",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#alphanumericdevicepasswordrequired"
     ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template",
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+    "uxBehavior": "default",
+    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_2",
+    "displayName": "Alphanumeric Device Password Required",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "accessTypes": "add,delete,get,replace"
   },
   {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639051548217033386",
     "applicability": {
-      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "1.0",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -778,42 +787,29 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "1.0",
       "minimumSupportedVersion": "10.0.10240",
-      "description": null,
-      "technologies": "mdm",
-      "maximumSupportedVersion": null
+      "platform": "windows10"
     },
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "helpText": "",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "name": "MinDevicePasswordComplexCharacters",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/DeviceLock/MinDevicePasswordComplexCharacters",
+    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
-            "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
-          },
-          {
-            "dependentOn": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_0",
-            "parentSettingId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired"
-          }
-        ],
         "helpText": null,
-        "name": "Digits only",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_1",
-        "description": "Digits only",
         "displayName": "Digits only",
-        "dependedOnBy": []
-      },
-      {
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "description": "Digits only",
+        "name": "Digits only",
+        "dependedOnBy": [],
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
@@ -823,20 +819,20 @@
             "dependentOn": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_0",
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired"
           }
-        ],
+        ]
+      },
+      {
         "helpText": null,
-        "name": "Digits and lowercase letters are required",
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_2",
-        "description": "Digits and lowercase letters are required",
         "displayName": "Digits and lowercase letters are required",
-        "dependedOnBy": []
-      },
-      {
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2
+        },
+        "description": "Digits and lowercase letters are required",
+        "name": "Digits and lowercase letters are required",
+        "dependedOnBy": [],
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
@@ -846,20 +842,20 @@
             "dependentOn": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_0",
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired"
           }
-        ],
+        ]
+      },
+      {
         "helpText": null,
-        "name": "Digits lowercase letters and uppercase letters are required. Not supported in desktop Microsoft accounts and domain accounts",
-        "optionValue": {
-          "value": 3,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_3",
-        "description": "Digits lowercase letters and uppercase letters are required. Not supported in desktop Microsoft accounts and domain accounts",
         "displayName": "Digits lowercase letters and uppercase letters are required. Not supported in desktop Microsoft accounts and domain accounts",
-        "dependedOnBy": []
-      },
-      {
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3
+        },
+        "description": "Digits lowercase letters and uppercase letters are required. Not supported in desktop Microsoft accounts and domain accounts",
+        "name": "Digits lowercase letters and uppercase letters are required. Not supported in desktop Microsoft accounts and domain accounts",
+        "dependedOnBy": [],
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
@@ -869,52 +865,65 @@
             "dependentOn": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_0",
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired"
           }
-        ],
+        ]
+      },
+      {
         "helpText": null,
-        "name": "Digits lowercase letters uppercase letters and special characters are required. Not supported in desktop",
-        "optionValue": {
-          "value": 4,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_4",
-        "description": "Digits lowercase letters uppercase letters and special characters are required. Not supported in desktop",
         "displayName": "Digits lowercase letters uppercase letters and special characters are required. Not supported in desktop",
-        "dependedOnBy": []
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 4
+        },
+        "description": "Digits lowercase letters uppercase letters and special characters are required. Not supported in desktop",
+        "name": "Digits lowercase letters uppercase letters and special characters are required. Not supported in desktop",
+        "dependedOnBy": [],
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
+            "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+          },
+          {
+            "dependentOn": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_0",
+            "parentSettingId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired"
+          }
+        ]
       }
     ],
-    "offsetUri": "/Config/DeviceLock/MinDevicePasswordComplexCharacters",
-    "accessTypes": "add,delete,get,replace",
-    "id": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters",
-    "riskLevel": "low",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "description": "The number of complex element types (uppercase and lowercase letters, numbers, and punctuation) required for a strong PIN or password.",
-    "displayName": "Min Device Password Complex Characters",
-    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_1",
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "id": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters",
     "keywords": [
       "Min Device Password Complex Characters",
       "Device Lock"
     ],
     "settingUsage": "configuration,compliance",
-    "name": "MinDevicePasswordComplexCharacters",
-    "helpText": "",
-    "version": "639051548217033386",
-    "uxBehavior": "default",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#mindevicepasswordcomplexcharacters"
     ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template",
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+    "uxBehavior": "default",
+    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_1",
+    "displayName": "Min Device Password Complex Characters",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "accessTypes": "add,delete,get,replace"
   },
   {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639051548217033386",
     "applicability": {
-      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "1.0",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -928,65 +937,65 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "1.0",
       "minimumSupportedVersion": "10.0.10240",
-      "description": null,
-      "technologies": "mdm",
-      "maximumSupportedVersion": null
+      "platform": "windows10"
     },
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "helpText": "",
+    "defaultValue": {
+      "settingValueTemplateReference": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "value": 0
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "name": "MaxInactivityTimeDeviceLock",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "offsetUri": "/Config/DeviceLock/MaxInactivityTimeDeviceLock",
-    "accessTypes": "add,delete,get,replace",
-    "id": "device_vendor_msft_policy_config_devicelock_maxinactivitytimedevicelock",
-    "dependedOnBy": [],
-    "riskLevel": "low",
-    "referredSettingInformationList": [],
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "minimumValue": 0,
+      "maximumValue": 999,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
+    },
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "description": "Specifies the maximum amount of time (in minutes) allowed after the device is idle that will cause the device to become PIN or password locked. Users can select any existing timeout value less than the specified maximum time in the Settings app. 0 - No timeout is defined",
-    "displayName": "Max Inactivity Time Device Lock",
-    "defaultValue": {
-      "value": 0,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
+    "dependedOnBy": [],
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "id": "device_vendor_msft_policy_config_devicelock_maxinactivitytimedevicelock",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
+        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+      }
+    ],
     "keywords": [
       "Max Inactivity Time Device Lock",
       "Device Lock"
     ],
     "settingUsage": "configuration,compliance",
-    "name": "MaxInactivityTimeDeviceLock",
-    "helpText": "",
-    "version": "639051548217033386",
-    "uxBehavior": "default",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "maximumValue": 999,
-      "minimumValue": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
-    },
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#maxinactivitytimedevicelock"
     ],
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
-        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
-      }
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template",
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+    "uxBehavior": "default",
+    "displayName": "Max Inactivity Time Device Lock",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "accessTypes": "add,delete,get,replace"
   },
   {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639051548217033386",
     "applicability": {
-      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "1.0",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1000,65 +1009,65 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "1.0",
       "minimumSupportedVersion": "10.0.10240",
-      "description": null,
-      "technologies": "mdm",
-      "maximumSupportedVersion": null
+      "platform": "windows10"
     },
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "helpText": "",
+    "defaultValue": {
+      "settingValueTemplateReference": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "value": 0
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "name": "DevicePasswordHistory",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "offsetUri": "/Config/DeviceLock/DevicePasswordHistory",
-    "accessTypes": "add,delete,get,replace",
-    "id": "device_vendor_msft_policy_config_devicelock_devicepasswordhistory",
-    "dependedOnBy": [],
-    "riskLevel": "low",
-    "referredSettingInformationList": [],
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "minimumValue": 0,
+      "maximumValue": 50,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
+    },
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "description": "Specifies how many passwords can be stored in the history that can’t be used.",
-    "displayName": "Device Password History",
-    "defaultValue": {
-      "value": 0,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
+    "dependedOnBy": [],
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "id": "device_vendor_msft_policy_config_devicelock_devicepasswordhistory",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
+        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+      }
+    ],
     "keywords": [
       "Device Password History",
       "Device Lock"
     ],
     "settingUsage": "configuration,compliance",
-    "name": "DevicePasswordHistory",
-    "helpText": "",
-    "version": "639051548217033386",
-    "uxBehavior": "default",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "maximumValue": 50,
-      "minimumValue": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
-    },
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#devicepasswordhistory"
     ],
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
-        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
-      }
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template",
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+    "uxBehavior": "default",
+    "displayName": "Device Password History",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "accessTypes": "add,delete,get,replace"
   },
   {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639051548217033386",
     "applicability": {
-      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "1.0",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1072,160 +1081,160 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "1.0",
       "minimumSupportedVersion": "10.0.10240",
-      "description": null,
-      "technologies": "mdm",
-      "maximumSupportedVersion": null
+      "platform": "windows10"
     },
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "helpText": "",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "name": "AllowSimpleDevicePassword",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/DeviceLock/AllowSimpleDevicePassword",
+    "visibility": "settingsCatalog,template",
     "options": [
       {
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword_0",
+        "displayName": "Not allowed.",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "description": "Not allowed.",
+        "name": "Not allowed.",
+        "dependedOnBy": [],
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
           }
-        ],
-        "helpText": null,
-        "name": "Not allowed.",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword_0",
-        "description": "Not allowed.",
-        "displayName": "Not allowed.",
-        "dependedOnBy": []
+        ]
       },
       {
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword_1",
+        "displayName": "Allowed.",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "description": "Allowed.",
+        "name": "Allowed.",
+        "dependedOnBy": [],
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
           }
-        ],
-        "helpText": null,
-        "name": "Allowed.",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword_1",
-        "description": "Allowed.",
-        "displayName": "Allowed.",
-        "dependedOnBy": []
+        ]
       }
     ],
-    "offsetUri": "/Config/DeviceLock/AllowSimpleDevicePassword",
-    "accessTypes": "add,delete,get,replace",
-    "id": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword",
-    "riskLevel": "low",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "description": "Specifies whether PINs or passwords such as 1111 or 1234 are allowed. For the desktop, it also controls the use of picture passwords.",
-    "displayName": "Allow Simple Device Password",
-    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword_1",
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "id": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword",
     "keywords": [
       "Allow Simple Device Password",
       "Device Lock"
     ],
     "settingUsage": "configuration,compliance",
-    "name": "AllowSimpleDevicePassword",
-    "helpText": "",
-    "version": "639051548217033386",
-    "uxBehavior": "default",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#allowsimpledevicepassword"
     ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template",
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+    "uxBehavior": "default",
+    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword_1",
+    "displayName": "Allow Simple Device Password",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "accessTypes": "add,delete,get,replace"
   },
   {
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "referredSettingInformationList": [],
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_messagetextforusersattemptingtologon",
+    "defaultValue": {
+      "settingValueTemplateReference": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null
+    },
     "settingUsage": "configuration",
     "maximumCount": 1000,
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "valueDefinition": {
-      "fileTypes": [],
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "maximumLength": 87516,
-      "isSecret": false,
-      "format": "none"
-    },
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "dependentOn": [],
-    "description": "Interactive logon: Message text for users attempting to log on  This security setting specifies a text message that is displayed to users when they log on.  This text is often used for legal reasons, for example, to warn users about the ramifications of misusing company information or to warn them that their actions may be audited.  Default: No message.",
-    "version": "639051548217033386",
-    "keywords": [
-      "Interactive Logon Message Text For Users Attempting To Log On",
-      "Local Policies Security Options"
-    ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_messagetextforusersattemptingtologon",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_messagetextforusersattemptingtologon",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "dependedOnBy": [],
+    "minimumCount": 0,
+    "uxBehavior": "default",
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MessageTextForUsersAttemptingToLogOn",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "description": "Interactive logon: Message text for users attempting to log on  This security setting specifies a text message that is displayed to users when they log on.  This text is often used for legal reasons, for example, to warn users about the ramifications of misusing company information or to warn them that their actions may be audited.  Default: No message.",
+    "valueDefinition": {
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+      "format": "none",
+      "inputValidationSchema": null,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "minimumLength": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "6.0",
+      "deviceMode": "none",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "platform": "windows10"
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_messagetextforusersattemptingtologon",
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
     "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_messagetextforusersattemptingtologon"
     ],
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MessageTextForUsersAttemptingToLogOn",
-    "accessTypes": "add,delete,get,replace",
-    "minimumCount": 0,
+    "version": "639051548217033386",
+    "dependedOnBy": [],
+    "keywords": [
+      "Interactive Logon Message Text For Users Attempting To Log On",
+      "Local Policies Security Options"
+    ],
+    "displayName": "Interactive Logon Message Text For Users Attempting To Log On",
     "name": "InteractiveLogon_MessageTextForUsersAttemptingToLogOn",
     "visibility": "settingsCatalog,template",
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "requiresAzureAd": false,
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "6.0",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
-      "technologies": "mdm",
-      "maximumSupportedVersion": null
-    },
-    "displayName": "Interactive Logon Message Text For Users Attempting To Log On"
+    "dependentOn": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy"
   },
   {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639051548217033386",
     "applicability": {
-      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "6.0",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1237,64 +1246,64 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "6.0",
       "minimumSupportedVersion": "10.0.16299",
-      "description": null,
-      "technologies": "mdm",
-      "maximumSupportedVersion": null
+      "platform": "windows10"
     },
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "helpText": "",
+    "defaultValue": {
+      "settingValueTemplateReference": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_messagetitleforusersattemptingtologon",
+    "name": "InteractiveLogon_MessageTitleForUsersAttemptingToLogOn",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MessageTitleForUsersAttemptingToLogOn",
-    "accessTypes": "add,delete,get,replace",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_messagetitleforusersattemptingtologon",
-    "dependedOnBy": [],
-    "riskLevel": "low",
-    "referredSettingInformationList": [],
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+      "format": "none",
+      "inputValidationSchema": null,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "minimumLength": 0
+    },
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "description": "Interactive logon: Message title for users attempting to log on  This security setting allows the specification of a title to appear in the title bar of the window that contains the Interactive logon: Message text for users attempting to log on.  Default: No message.",
-    "displayName": "Interactive Logon Message Title For Users Attempting To Log On",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
+    "dependedOnBy": [],
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_messagetitleforusersattemptingtologon",
+    "dependentOn": [],
     "keywords": [
       "Interactive Logon Message Title For Users Attempting To Log On",
       "Local Policies Security Options"
     ],
     "settingUsage": "configuration",
-    "name": "InteractiveLogon_MessageTitleForUsersAttemptingToLogOn",
-    "helpText": "",
-    "version": "639051548217033386",
-    "uxBehavior": "default",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "fileTypes": [],
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "maximumLength": 87516,
-      "isSecret": false,
-      "format": "none"
-    },
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_messagetitleforusersattemptingtologon"
     ],
-    "dependentOn": [],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template",
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_messagetitleforusersattemptingtologon"
+    "uxBehavior": "default",
+    "displayName": "Interactive Logon Message Title For Users Attempting To Log On",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "accessTypes": "add,delete,get,replace"
   },
   {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639051548217033386",
     "applicability": {
-      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "6.0",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1306,135 +1315,135 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "6.0",
       "minimumSupportedVersion": "10.0.16299",
-      "description": null,
-      "technologies": "mdm",
-      "maximumSupportedVersion": null
+      "platform": "windows10"
     },
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "helpText": "",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators",
+    "name": "UserAccountControl_BehaviorOfTheElevationPromptForAdministrators",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForAdministrators",
+    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "dependentOn": [],
         "helpText": null,
-        "name": "Elevate without prompting",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators_0",
-        "description": "Elevate without prompting",
         "displayName": "Elevate without prompting",
-        "dependedOnBy": []
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "description": "Elevate without prompting",
+        "name": "Elevate without prompting",
+        "dependedOnBy": [],
+        "dependentOn": []
       },
       {
-        "dependentOn": [],
         "helpText": null,
-        "name": "Prompt for credentials on the secure desktop",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators_1",
-        "description": "Prompt for credentials on the secure desktop",
         "displayName": "Prompt for credentials on the secure desktop",
-        "dependedOnBy": []
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "description": "Prompt for credentials on the secure desktop",
+        "name": "Prompt for credentials on the secure desktop",
+        "dependedOnBy": [],
+        "dependentOn": []
       },
       {
-        "dependentOn": [],
         "helpText": null,
-        "name": "Prompt for consent on the secure desktop",
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators_2",
-        "description": "Prompt for consent on the secure desktop",
         "displayName": "Prompt for consent on the secure desktop",
-        "dependedOnBy": []
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2
+        },
+        "description": "Prompt for consent on the secure desktop",
+        "name": "Prompt for consent on the secure desktop",
+        "dependedOnBy": [],
+        "dependentOn": []
       },
       {
-        "dependentOn": [],
         "helpText": null,
-        "name": "Prompt for credentials",
-        "optionValue": {
-          "value": 3,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators_3",
-        "description": "Prompt for credentials",
         "displayName": "Prompt for credentials",
-        "dependedOnBy": []
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3
+        },
+        "description": "Prompt for credentials",
+        "name": "Prompt for credentials",
+        "dependedOnBy": [],
+        "dependentOn": []
       },
       {
-        "dependentOn": [],
         "helpText": null,
-        "name": "Prompt for consent",
-        "optionValue": {
-          "value": 4,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators_4",
-        "description": "Prompt for consent",
         "displayName": "Prompt for consent",
-        "dependedOnBy": []
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 4
+        },
+        "description": "Prompt for consent",
+        "name": "Prompt for consent",
+        "dependedOnBy": [],
+        "dependentOn": []
       },
       {
-        "dependentOn": [],
         "helpText": null,
-        "name": "Prompt for consent for non-Windows binaries",
-        "optionValue": {
-          "value": 5,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators_5",
-        "description": "Prompt for consent for non-Windows binaries",
         "displayName": "Prompt for consent for non-Windows binaries",
-        "dependedOnBy": []
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 5
+        },
+        "description": "Prompt for consent for non-Windows binaries",
+        "name": "Prompt for consent for non-Windows binaries",
+        "dependedOnBy": [],
+        "dependentOn": []
       }
     ],
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForAdministrators",
-    "accessTypes": "add,delete,get,replace",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators",
-    "riskLevel": "low",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "description": "User Account Control: Behavior of the elevation prompt for administrators in Admin Approval Mode  This policy setting controls the behavior of the elevation prompt for administrators.  The options are:  • Elevate without prompting: Allows privileged accounts to perform an operation that requires elevation without requiring consent or credentials. Note: Use this option only in the most constrained environments.  • Prompt for credentials on the secure desktop: When an operation requires elevation of privilege, the user is prompted on the secure desktop to enter a privileged user name and password. If the user enters valid credentials, the operation continues with the user's highest available privilege.  • Prompt for consent on the secure desktop: When an operation requires elevation of privilege, the user is prompted on the secure desktop to select either Permit or Deny. If the user selects Permit, the operation continues with the user's highest available privilege.  • Prompt for credentials: When an operation requires elevation of privilege, the user is prompted to enter an administrative user name and password. If the user enters valid credentials, the operation continues with the applicable privilege.  • Prompt for consent: When an operation requires elevation of privilege, the user is prompted to select either Permit or Deny. If the user selects Permit, the operation continues with the user's highest available privilege.  • Prompt for consent for non-Windows binaries: (Default) When an operation for a non-Microsoft application requires elevation of privilege, the user is prompted on the secure desktop to select either Permit or Deny. If the user selects Permit, the operation continues with the user's highest available privilege.",
-    "displayName": "User Account Control Behavior Of The Elevation Prompt For Administrators",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators_5",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators",
     "keywords": [
       "User Account Control Behavior Of The Elevation Prompt For Administrators",
       "Local Policies Security Options"
     ],
     "settingUsage": "configuration",
-    "name": "UserAccountControl_BehaviorOfTheElevationPromptForAdministrators",
-    "helpText": "",
-    "version": "639051548217033386",
-    "uxBehavior": "default",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_behavioroftheelevationpromptforadministrators"
     ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template",
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators"
+    "uxBehavior": "default",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforadministrators_5",
+    "displayName": "User Account Control Behavior Of The Elevation Prompt For Administrators",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "accessTypes": "add,delete,get,replace"
   },
   {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639051548217033386",
     "applicability": {
-      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "11.0",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1444,89 +1453,80 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "11.0",
       "minimumSupportedVersion": "10.0.22000",
-      "description": null,
-      "technologies": "mdm",
-      "maximumSupportedVersion": null
+      "platform": "windows10"
     },
-    "categoryId": "3588f84a-69de-4900-910c-09a5b69e5d99",
+    "helpText": "",
+    "rootDefinitionId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_hypervisorenforcedcodeintegrity",
+    "name": "HypervisorEnforcedCodeIntegrity",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/VirtualizationBasedTechnology/HypervisorEnforcedCodeIntegrity",
+    "visibility": "settingsCatalog,template",
     "options": [
       {
-        "dependentOn": [],
         "helpText": null,
-        "name": "(Disabled) Turns off Hypervisor-Protected Code Integrity remotely if configured previously without UEFI Lock.",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_hypervisorenforcedcodeintegrity_0",
-        "description": "(Disabled) Turns off Hypervisor-Protected Code Integrity remotely if configured previously without UEFI Lock.",
         "displayName": "(Disabled) Turns off Hypervisor-Protected Code Integrity remotely if configured previously without UEFI Lock.",
-        "dependedOnBy": []
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "description": "(Disabled) Turns off Hypervisor-Protected Code Integrity remotely if configured previously without UEFI Lock.",
+        "name": "(Disabled) Turns off Hypervisor-Protected Code Integrity remotely if configured previously without UEFI Lock.",
+        "dependedOnBy": [],
+        "dependentOn": []
       },
       {
-        "dependentOn": [],
         "helpText": null,
-        "name": "(Enabled with UEFI lock) Turns on Hypervisor-Protected Code Integrity with UEFI lock.",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_hypervisorenforcedcodeintegrity_1",
-        "description": "(Enabled with UEFI lock) Turns on Hypervisor-Protected Code Integrity with UEFI lock.",
         "displayName": "(Enabled with UEFI lock) Turns on Hypervisor-Protected Code Integrity with UEFI lock.",
-        "dependedOnBy": []
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "description": "(Enabled with UEFI lock) Turns on Hypervisor-Protected Code Integrity with UEFI lock.",
+        "name": "(Enabled with UEFI lock) Turns on Hypervisor-Protected Code Integrity with UEFI lock.",
+        "dependedOnBy": [],
+        "dependentOn": []
       },
       {
-        "dependentOn": [],
         "helpText": null,
-        "name": "(Enabled without lock) Turns on Hypervisor-Protected Code Integrity without UEFI lock.",
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "itemId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_hypervisorenforcedcodeintegrity_2",
-        "description": "(Enabled without lock) Turns on Hypervisor-Protected Code Integrity without UEFI lock.",
         "displayName": "(Enabled without lock) Turns on Hypervisor-Protected Code Integrity without UEFI lock.",
-        "dependedOnBy": []
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2
+        },
+        "description": "(Enabled without lock) Turns on Hypervisor-Protected Code Integrity without UEFI lock.",
+        "name": "(Enabled without lock) Turns on Hypervisor-Protected Code Integrity without UEFI lock.",
+        "dependedOnBy": [],
+        "dependentOn": []
       }
     ],
-    "offsetUri": "/Config/VirtualizationBasedTechnology/HypervisorEnforcedCodeIntegrity",
-    "accessTypes": "add,delete,get,replace",
-    "id": "device_vendor_msft_policy_config_virtualizationbasedtechnology_hypervisorenforcedcodeintegrity",
-    "riskLevel": "low",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "description": "Hypervisor-Protected Code Integrity: 0 - Turns off Hypervisor-Protected Code Integrity remotely if configured previously without UEFI Lock, 1 - Turns on Hypervisor-Protected Code Integrity with UEFI lock, 2 - Turns on Hypervisor-Protected Code Integrity without UEFI lock.",
-    "displayName": "Hypervisor Enforced Code Integrity",
-    "defaultOptionId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_hypervisorenforcedcodeintegrity_0",
+    "categoryId": "3588f84a-69de-4900-910c-09a5b69e5d99",
+    "id": "device_vendor_msft_policy_config_virtualizationbasedtechnology_hypervisorenforcedcodeintegrity",
     "keywords": [
       "Hypervisor Enforced Code Integrity",
       "Virtualization Based Technology"
     ],
     "settingUsage": "configuration",
-    "name": "HypervisorEnforcedCodeIntegrity",
-    "helpText": "",
-    "version": "639051548217033386",
-    "uxBehavior": "default",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-VirtualizationBasedTechnology#hypervisorenforcedcodeintegrity"
     ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template",
-    "rootDefinitionId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_hypervisorenforcedcodeintegrity"
+    "uxBehavior": "default",
+    "defaultOptionId": "device_vendor_msft_policy_config_virtualizationbasedtechnology_hypervisorenforcedcodeintegrity_0",
+    "displayName": "Hypervisor Enforced Code Integrity",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "accessTypes": "add,delete,get,replace"
   }
 ]
 ```

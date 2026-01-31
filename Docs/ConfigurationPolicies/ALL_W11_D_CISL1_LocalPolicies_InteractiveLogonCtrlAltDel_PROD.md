@@ -14,7 +14,7 @@ Date Reviewed: 8/12/25
 
 [**Assignments**](./Assignments/ALL_W11_D_CISL1_LocalPolicies_InteractiveLogonCtrlAltDel_PROD.md)
 
-**Report Generated:** 01/30/2026 04:47:16
+**Report Generated:** 01/31/2026 04:40:18
 
 ---
 
@@ -29,39 +29,49 @@ Date Reviewed: 8/12/25
 
 ```json
 {
-  "description": "Disabled",
-  "name": "Disabled",
   "optionValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "value": 0,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
-  "dependedOnBy": [],
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_0",
+  "name": "Disabled",
   "dependentOn": [],
-  "displayName": "Disabled"
+  "helpText": null,
+  "dependedOnBy": [],
+  "displayName": "Disabled",
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_0",
+  "description": "Disabled"
 }
 ```
 
 ## Setting Definition
 ```json
 {
-  "accessTypes": "add,delete,get,replace",
-  "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel",
-  "occurrence": {
-    "maxDeviceOccurrence": 1,
-    "minDeviceOccurrence": 0
-  },
-  "settingUsage": "configuration",
-  "name": "InteractiveLogon_DoNotRequireCTRLALTDEL",
-  "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_1",
+  "infoUrls": [
+    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_donotrequirectrlaltdel"
+  ],
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+  "helpText": "",
   "keywords": [
     "Interactive Logon Do Not Require CTRLALTDEL",
     "Local Policies Security Options"
   ],
+  "referredSettingInformationList": [],
+  "occurrence": {
+    "minDeviceOccurrence": 0,
+    "maxDeviceOccurrence": 1
+  },
+  "name": "InteractiveLogon_DoNotRequireCTRLALTDEL",
   "applicability": {
+    "maximumSupportedVersion": null,
+    "technologies": "mdm",
     "minimumSupportedVersion": "10.0.16299",
+    "deviceMode": "none",
+    "requiresAzureAd": false,
+    "requiredAzureAdTrustType": "none",
+    "description": null,
+    "configurationServiceProviderVersion": "6.0",
+    "platform": "windows10",
     "windowsSkus": [
       "windowsEnterprise",
       "windowsProfessional",
@@ -73,62 +83,52 @@ Date Reviewed: 8/12/25
       "iotEnterpriseSEval",
       "windowsCPC"
     ],
-    "description": null,
-    "deviceMode": "none",
-    "requiresAzureAd": false,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "requiredAzureAdTrustType": "none",
-    "configurationServiceProviderVersion": "6.0",
-    "maximumSupportedVersion": null,
-    "technologies": "mdm",
-    "platform": "windows10"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
   },
-  "visibility": "settingsCatalog,template",
-  "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_DoNotRequireCTRLALTDEL",
+  "riskLevel": "low",
   "description": "Interactive logon: Do not require CTRL+ALT+DEL  This security setting determines whether pressing CTRL+ALT+DEL is required before a user can log on.  If this policy is enabled on a computer, a user is not required to press CTRL+ALT+DEL to log on. Not having to press CTRL+ALT+DEL leaves users susceptible to attacks that attempt to intercept the users' passwords. Requiring CTRL+ALT+DEL before users log on ensures that users are communicating by means of a trusted path when entering their passwords.  If this policy is disabled, any user is required to press CTRL+ALT+DEL before logging on to Windows.  Default on domain-computers: Enabled: At least Windows  8/Disabled: Windows 7 or earlier. Default on stand-alone computers: Enabled.",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-  "helpText": "",
-  "referredSettingInformationList": [],
-  "uxBehavior": "toggle",
   "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+  "accessTypes": "add,delete,get,replace",
+  "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel",
+  "baseUri": "./Device/Vendor/MSFT/Policy",
+  "displayName": "Interactive Logon Do Not Require CTRLALTDEL",
+  "version": "639051548217033386",
+  "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel",
+  "visibility": "settingsCatalog,template",
+  "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_1",
+  "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_DoNotRequireCTRLALTDEL",
   "options": [
     {
-      "description": "Disabled",
-      "name": "Disabled",
       "optionValue": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
         "value": 0,
-        "settingValueTemplateReference": null
+        "settingValueTemplateReference": null,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
       },
-      "dependedOnBy": [],
-      "helpText": null,
-      "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_0",
+      "name": "Disabled",
       "dependentOn": [],
-      "displayName": "Disabled"
+      "helpText": null,
+      "dependedOnBy": [],
+      "displayName": "Disabled",
+      "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_0",
+      "description": "Disabled"
     },
     {
-      "description": "Enabled (a user is not required to press CTRL+ALT+DEL to log on)",
-      "name": "Enabled (a user is not required to press CTRL+ALT+DEL to log on)",
       "optionValue": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
         "value": 1,
-        "settingValueTemplateReference": null
+        "settingValueTemplateReference": null,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
       },
-      "dependedOnBy": [],
-      "helpText": null,
-      "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_1",
+      "name": "Enabled (a user is not required to press CTRL+ALT+DEL to log on)",
       "dependentOn": [],
-      "displayName": "Enabled (a user is not required to press CTRL+ALT+DEL to log on)"
+      "helpText": null,
+      "dependedOnBy": [],
+      "displayName": "Enabled (a user is not required to press CTRL+ALT+DEL to log on)",
+      "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_1",
+      "description": "Enabled (a user is not required to press CTRL+ALT+DEL to log on)"
     }
   ],
-  "displayName": "Interactive Logon Do Not Require CTRLALTDEL",
-  "version": "639045552477164158",
-  "riskLevel": "low",
-  "baseUri": "./Device/Vendor/MSFT/Policy",
-  "infoUrls": [
-    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_donotrequirectrlaltdel"
-  ],
-  "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel"
+  "uxBehavior": "toggle",
+  "settingUsage": "configuration"
 }
 ```
 

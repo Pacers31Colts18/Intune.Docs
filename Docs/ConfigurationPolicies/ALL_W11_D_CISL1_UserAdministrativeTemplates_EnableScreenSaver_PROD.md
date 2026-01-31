@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/ALL_W11_D_CISL1_UserAdministrativeTemplates_EnableScreenSaver_PROD.md)
 
-**Report Generated:** 01/30/2026 04:47:17
+**Report Generated:** 01/31/2026 04:40:19
 
 ---
 
@@ -34,33 +34,29 @@ Also, see the "Prevent changing Screen Saver" setting.
 
 ```json
 {
-  "description": null,
-  "name": "Enabled",
   "optionValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
-  "dependedOnBy": [],
-  "helpText": null,
-  "itemId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_enablescreensaver_1",
+  "name": "Enabled",
   "dependentOn": [],
-  "displayName": "Enabled"
+  "helpText": null,
+  "dependedOnBy": [],
+  "displayName": "Enabled",
+  "itemId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_enablescreensaver_1",
+  "description": null
 }
 ```
 
 ## Setting Definition
 ```json
 {
-  "accessTypes": "none",
-  "rootDefinitionId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_enablescreensaver",
-  "occurrence": {
-    "maxDeviceOccurrence": 1,
-    "minDeviceOccurrence": 1
-  },
-  "settingUsage": "configuration",
-  "name": "CPL_Personalization_EnableScreenSaver",
-  "defaultOptionId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_enablescreensaver_0",
+  "infoUrls": [
+    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-controlpaneldisplay#admx-controlpaneldisplay-cpl-personalization-enablescreensaver"
+  ],
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+  "helpText": "",
   "keywords": [
     "CPL_Personalization_EnableScreenSaver",
     "Enable screen saver",
@@ -71,8 +67,22 @@ Also, see the "Prevent changing Screen Saver" setting.
     "Software\\Policies\\Microsoft\\Windows\\Control Panel\\Desktop",
     "ScreenSaveActive"
   ],
+  "referredSettingInformationList": [],
+  "occurrence": {
+    "minDeviceOccurrence": 1,
+    "maxDeviceOccurrence": 1
+  },
+  "name": "CPL_Personalization_EnableScreenSaver",
   "applicability": {
+    "maximumSupportedVersion": null,
+    "technologies": "mdm",
     "minimumSupportedVersion": "10.0.19041.1202",
+    "deviceMode": "none",
+    "requiresAzureAd": false,
+    "requiredAzureAdTrustType": "none",
+    "description": null,
+    "configurationServiceProviderVersion": "10.0",
+    "platform": "windows10",
     "windowsSkus": [
       "windowsEnterprise",
       "windowsProfessional",
@@ -84,62 +94,52 @@ Also, see the "Prevent changing Screen Saver" setting.
       "windows11SE",
       "iotEnterpriseSEval"
     ],
-    "description": null,
-    "deviceMode": "none",
-    "requiresAzureAd": false,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "requiredAzureAdTrustType": "none",
-    "configurationServiceProviderVersion": "10.0",
-    "maximumSupportedVersion": null,
-    "technologies": "mdm",
-    "platform": "windows10"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
   },
-  "visibility": "settingsCatalog,template",
-  "offsetUri": "/Config/ADMX_ControlPanelDisplay/CPL_Personalization_EnableScreenSaver",
+  "riskLevel": "low",
   "description": "Enables desktop screen savers.\r\n\r\nIf you disable this setting, screen savers do not run. Also, this setting disables the Screen Saver section of the Screen Saver dialog in the Personalization or Display Control Panel. As a result, users cannot change the screen saver options.\r\n\r\nIf you do not configure it, this setting has no effect on the system.\r\n\r\nIf you enable it, a screen saver runs, provided the following two conditions hold: First, a valid screen saver on the client is specified through the \"Screen Saver executable name\" setting or through Control Panel on the client computer. Second, the screen saver timeout is set to a nonzero value through the setting or Control Panel.\r\n\r\nAlso, see the \"Prevent changing Screen Saver\" setting.\n ",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-  "helpText": "",
-  "referredSettingInformationList": [],
-  "uxBehavior": "toggle",
   "categoryId": "e6231142-3d39-44a7-9522-6a3357bd439f",
+  "accessTypes": "none",
+  "rootDefinitionId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_enablescreensaver",
+  "baseUri": "./User/Vendor/MSFT/Policy",
+  "displayName": "Enable screen saver (User)",
+  "version": "639051548217033386",
+  "id": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_enablescreensaver",
+  "visibility": "settingsCatalog,template",
+  "defaultOptionId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_enablescreensaver_0",
+  "offsetUri": "/Config/ADMX_ControlPanelDisplay/CPL_Personalization_EnableScreenSaver",
   "options": [
     {
-      "description": null,
-      "name": "Disabled",
       "optionValue": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
         "value": 0,
-        "settingValueTemplateReference": null
+        "settingValueTemplateReference": null,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
       },
-      "dependedOnBy": [],
-      "helpText": null,
-      "itemId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_enablescreensaver_0",
+      "name": "Disabled",
       "dependentOn": [],
-      "displayName": "Disabled"
+      "helpText": null,
+      "dependedOnBy": [],
+      "displayName": "Disabled",
+      "itemId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_enablescreensaver_0",
+      "description": null
     },
     {
-      "description": null,
-      "name": "Enabled",
       "optionValue": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
         "value": 1,
-        "settingValueTemplateReference": null
+        "settingValueTemplateReference": null,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
       },
-      "dependedOnBy": [],
-      "helpText": null,
-      "itemId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_enablescreensaver_1",
+      "name": "Enabled",
       "dependentOn": [],
-      "displayName": "Enabled"
+      "helpText": null,
+      "dependedOnBy": [],
+      "displayName": "Enabled",
+      "itemId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_enablescreensaver_1",
+      "description": null
     }
   ],
-  "displayName": "Enable screen saver (User)",
-  "version": "639045552477164158",
-  "riskLevel": "low",
-  "baseUri": "./User/Vendor/MSFT/Policy",
-  "infoUrls": [
-    "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-controlpaneldisplay#admx-controlpaneldisplay-cpl-personalization-enablescreensaver"
-  ],
-  "id": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_enablescreensaver"
+  "uxBehavior": "toggle",
+  "settingUsage": "configuration"
 }
 ```
 

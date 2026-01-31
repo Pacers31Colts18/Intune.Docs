@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/ALL_W11_D_CISL1_UserAdministrativeTemplates_ScreenSaverTimeout_PROD.md)
 
-**Report Generated:** 01/30/2026 04:47:17
+**Report Generated:** 01/31/2026 04:40:19
 
 ---
 
@@ -22,15 +22,15 @@
 #### user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout_screensavertimeoutfreqspin
 ```json
 {
+  "simpleSettingValue": {
+    "value": 900,
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  },
+  "settingDefinitionId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout_screensavertimeoutfreqspin",
   "auditRuleInformation": null,
   "settingInstanceTemplateReference": null,
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
-  "simpleSettingValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 900,
-    "settingValueTemplateReference": null
-  },
-  "settingDefinitionId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout_screensavertimeoutfreqspin"
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
 }
 ```
 
@@ -38,20 +38,9 @@
 ```json
 [
   {
-    "accessTypes": "none",
-    "rootDefinitionId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "settingUsage": "configuration",
-    "name": "ScreenSaverTimeOutFreqSpin",
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "value": 900,
-      "settingValueTemplateReference": null
-    },
-    "dependedOnBy": [],
+    "infoUrls": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "helpText": "",
     "keywords": [
       "CPL_Personalization_ScreenSaverTimeOut",
       "Screen saver timeout",
@@ -59,8 +48,28 @@
       "Administrative Templates\\Control Panel\\Personalization",
       "Personalization"
     ],
+    "dependentOn": [
+      {
+        "parentSettingId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout",
+        "dependentOn": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout_1"
+      }
+    ],
+    "referredSettingInformationList": [],
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "ScreenSaverTimeOutFreqSpin",
     "applicability": {
+      "maximumSupportedVersion": null,
+      "technologies": "mdm",
       "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "description": null,
+      "configurationServiceProviderVersion": "10.0",
+      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -72,52 +81,39 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "description": null,
-      "deviceMode": "none",
-      "requiresAzureAd": false,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "10.0",
-      "maximumSupportedVersion": null,
-      "technologies": "mdm",
-      "platform": "windows10"
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "visibility": "settingsCatalog,template",
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 0,
-      "maximumValue": 599940
-    },
-    "offsetUri": "/Config/ADMX_ControlPanelDisplay/CPL_Personalization_ScreenSaverTimeOut",
-    "description": null,
-    "dependentOn": [
-      {
-        "parentSettingId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout",
-        "dependentOn": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout_1"
-      }
-    ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "helpText": "",
-    "referredSettingInformationList": [],
-    "uxBehavior": "default",
-    "categoryId": "e6231142-3d39-44a7-9522-6a3357bd439f",
-    "displayName": "Seconds: (User)",
-    "version": "639045552477164158",
     "riskLevel": "low",
-    "baseUri": "./User/Vendor/MSFT/Policy",
-    "infoUrls": [],
-    "id": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout_screensavertimeoutfreqspin"
-  },
-  {
+    "dependedOnBy": [],
+    "description": null,
+    "categoryId": "e6231142-3d39-44a7-9522-6a3357bd439f",
     "accessTypes": "none",
     "rootDefinitionId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
+    "baseUri": "./User/Vendor/MSFT/Policy",
+    "displayName": "Seconds: (User)",
+    "defaultValue": {
+      "value": 900,
+      "settingValueTemplateReference": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
     },
-    "settingUsage": "configuration",
-    "name": "CPL_Personalization_ScreenSaverTimeOut",
-    "defaultOptionId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout_0",
+    "version": "639051548217033386",
+    "id": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout_screensavertimeoutfreqspin",
+    "visibility": "settingsCatalog,template",
+    "offsetUri": "/Config/ADMX_ControlPanelDisplay/CPL_Personalization_ScreenSaverTimeOut",
+    "valueDefinition": {
+      "minimumValue": 0,
+      "maximumValue": 599940,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
+    },
+    "uxBehavior": "default",
+    "settingUsage": "configuration"
+  },
+  {
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-controlpaneldisplay#admx-controlpaneldisplay-cpl-personalization-screensavertimeout"
+    ],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "helpText": "",
     "keywords": [
       "CPL_Personalization_ScreenSaverTimeOut",
       "Screen saver timeout",
@@ -127,8 +123,22 @@
       "User",
       "Software\\Policies\\Microsoft\\Windows\\Control Panel\\Desktop"
     ],
+    "referredSettingInformationList": [],
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "CPL_Personalization_ScreenSaverTimeOut",
     "applicability": {
+      "maximumSupportedVersion": null,
+      "technologies": "mdm",
       "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "description": null,
+      "configurationServiceProviderVersion": "10.0",
+      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -140,67 +150,57 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "description": null,
-      "deviceMode": "none",
-      "requiresAzureAd": false,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "10.0",
-      "maximumSupportedVersion": null,
-      "technologies": "mdm",
-      "platform": "windows10"
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "visibility": "settingsCatalog,template",
-    "offsetUri": "/Config/ADMX_ControlPanelDisplay/CPL_Personalization_ScreenSaverTimeOut",
+    "riskLevel": "low",
     "description": "Specifies how much user idle time must elapse before the screen saver is launched.\r\n\r\nWhen configured, this idle time can be set from a minimum of 1 second to a maximum of 86,400 seconds, or 24 hours. If set to zero, the screen saver will not be started.\r\n\r\nThis setting has no effect under any of the following circumstances:\r\n\r\n    - The setting is disabled or not configured.\r\n\r\n    - The wait time is set to zero.\r\n\r\n    - The \"Enable Screen Saver\" setting is disabled.\r\n\r\n    - Neither the \"Screen saver executable name\" setting nor the Screen Saver dialog of the client computer's Personalization or Display Control Panel specifies a valid existing screen saver program on the client.\r\n\r\nWhen not configured, whatever wait time is set on the client through the Screen Saver dialog in the Personalization or Display Control Panel is used. The default is 15 minutes.\n ",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "helpText": "",
-    "referredSettingInformationList": [],
-    "uxBehavior": "toggle",
     "categoryId": "e6231142-3d39-44a7-9522-6a3357bd439f",
+    "accessTypes": "none",
+    "rootDefinitionId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout",
+    "baseUri": "./User/Vendor/MSFT/Policy",
+    "displayName": "Screen saver timeout (User)",
+    "version": "639051548217033386",
+    "id": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout",
+    "visibility": "settingsCatalog,template",
+    "defaultOptionId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout_0",
+    "offsetUri": "/Config/ADMX_ControlPanelDisplay/CPL_Personalization_ScreenSaverTimeOut",
     "options": [
       {
-        "description": null,
-        "name": "Disabled",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
-          "settingValueTemplateReference": null
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
         },
-        "dependedOnBy": [],
-        "helpText": null,
-        "itemId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout_0",
+        "name": "Disabled",
         "dependentOn": [],
-        "displayName": "Disabled"
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Disabled",
+        "itemId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout_0",
+        "description": null
       },
       {
-        "description": null,
-        "name": "Enabled",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
-          "settingValueTemplateReference": null
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
         },
+        "name": "Enabled",
+        "dependentOn": [],
+        "helpText": null,
         "dependedOnBy": [
           {
-            "dependedOnBy": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout_screensavertimeoutfreqspin",
-            "required": true
+            "required": true,
+            "dependedOnBy": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout_screensavertimeoutfreqspin"
           }
         ],
-        "helpText": null,
+        "displayName": "Enabled",
         "itemId": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout_1",
-        "dependentOn": [],
-        "displayName": "Enabled"
+        "description": null
       }
     ],
-    "displayName": "Screen saver timeout (User)",
-    "version": "639045552477164158",
-    "riskLevel": "low",
-    "baseUri": "./User/Vendor/MSFT/Policy",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-controlpaneldisplay#admx-controlpaneldisplay-cpl-personalization-screensavertimeout"
-    ],
-    "id": "user_vendor_msft_policy_config_admx_controlpaneldisplay_cpl_personalization_screensavertimeout"
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration"
   }
 ]
 ```

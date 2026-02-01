@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 01/31/2026 21:01:21
+**Report Generated:** 02/01/2026 05:07:22
 
 ---
 
 ```json
 {
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "description": "",
+  "enableWhiteGlove": false,
   "roleScopeTagIds": [
     "0"
   ],
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "enableWhiteGlove": false,
+  "managementServiceAppId": null,
   "enrollmentStatusScreenSettings": null,
-  "deviceType": "windowsPc",
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
   "language": "os-default",
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "preprovisioningAllowed": false,
+  "deviceType": "windowsPc",
   "extractHardwareHash": true,
   "deviceNameTemplate": "JL-%SERIAL%",
-  "hardwareHashExtractionEnabled": true,
   "outOfBoxExperienceSetting": {
     "userType": "standard",
-    "privacySettingsHidden": true,
-    "keyboardSelectionPageSkipped": true,
-    "deviceUsageType": "singleUser",
     "escapeLinkHidden": true,
-    "eulaHidden": true
+    "keyboardSelectionPageSkipped": true,
+    "eulaHidden": true,
+    "privacySettingsHidden": true,
+    "deviceUsageType": "singleUser"
   },
+  "preprovisioningAllowed": false,
+  "locale": "os-default",
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
   "outOfBoxExperienceSettings": {
-    "userType": "standard",
     "hideEULA": true,
     "hidePrivacySettings": true,
     "deviceUsageType": "singleUser",
-    "hideEscapeLink": true,
-    "skipKeyboardSelectionPage": true
+    "skipKeyboardSelectionPage": true,
+    "userType": "standard",
+    "hideEscapeLink": true
   },
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "locale": "os-default",
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
-  "managementServiceAppId": null
+  "hardwareHashExtractionEnabled": true,
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "description": "",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z"
 }
 ```
 

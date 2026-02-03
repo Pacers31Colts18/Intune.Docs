@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 02/02/2026 05:04:50
+**Report Generated:** 02/03/2026 04:53:55
 
 ---
 
 ```json
 {
-  "preprovisioningAllowed": false,
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
   "outOfBoxExperienceSetting": {
+    "eulaHidden": true,
+    "keyboardSelectionPageSkipped": true,
+    "privacySettingsHidden": true,
     "escapeLinkHidden": true,
     "userType": "standard",
-    "privacySettingsHidden": true,
-    "keyboardSelectionPageSkipped": true,
-    "deviceUsageType": "singleUser",
-    "eulaHidden": true
+    "deviceUsageType": "singleUser"
   },
+  "language": "os-default",
+  "outOfBoxExperienceSettings": {
+    "hideEscapeLink": true,
+    "hidePrivacySettings": true,
+    "skipKeyboardSelectionPage": true,
+    "hideEULA": true,
+    "userType": "standard",
+    "deviceUsageType": "singleUser"
+  },
+  "preprovisioningAllowed": false,
   "enableWhiteGlove": false,
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "deviceType": "windowsPc",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "hardwareHashExtractionEnabled": true,
+  "description": "",
   "enrollmentStatusScreenSettings": null,
+  "deviceNameTemplate": "JL-%SERIAL%",
+  "locale": "os-default",
   "roleScopeTagIds": [
     "0"
   ],
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
-  "locale": "os-default",
-  "deviceNameTemplate": "JL-%SERIAL%",
-  "language": "os-default",
   "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "deviceType": "windowsPc",
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
   "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
   "managementServiceAppId": null,
-  "extractHardwareHash": true,
-  "outOfBoxExperienceSettings": {
-    "hideEscapeLink": true,
-    "hideEULA": true,
-    "deviceUsageType": "singleUser",
-    "userType": "standard",
-    "skipKeyboardSelectionPage": true,
-    "hidePrivacySettings": true
-  },
-  "hardwareHashExtractionEnabled": true,
-  "description": ""
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "extractHardwareHash": true
 }
 ```
 

@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_DomainName.md)
 
-**Report Generated:** 02/03/2026 04:53:54
+**Report Generated:** 02/04/2026 04:47:10
 
 ---
 
@@ -33,27 +33,27 @@ N/A
 
 ```json
 {
-  "remediationScriptContent": "",
-  "runAs32Bit": true,
-  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
-  "isGlobalScript": false,
-  "runAsAccount": "system",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "detectionScriptParameters": [],
-  "deviceHealthScriptType": "deviceHealthScript",
-  "description": "Outputs the domain name to be used for Azure Automation.",
-  "publisher": " ",
   "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z",
+  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
+  "isGlobalScript": false,
   "highestAvailableVersion": null,
+  "remediationScriptParameters": [],
   "createdDateTime": "2025-04-04T00:37:33.6892117Z",
+  "detectionScriptParameters": [],
   "version": "1",
+  "remediationScriptContent": "",
+  "enforceSignatureCheck": false,
+  "description": "Outputs the domain name to be used for Azure Automation.",
+  "deviceHealthScriptType": "deviceHealthScript",
+  "runAs32Bit": true,
   "roleScopeTagIds": [
     "0"
   ],
-  "enforceSignatureCheck": false,
-  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
-  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
-  "remediationScriptParameters": []
+  "runAsAccount": "system",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
+  "publisher": " ",
+  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea"
 }
 ```
 

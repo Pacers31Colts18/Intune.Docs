@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_Google_Chrome.md)
 
-**Report Generated:** 02/04/2026 04:47:08
+**Report Generated:** 02/05/2026 04:55:31
 
 ---
 
@@ -25,18 +25,18 @@ Leaving the policy unset means users can't play the game on enrolled Google Chro
 
 ```json
 {
+  "dependentOn": [],
   "displayName": "Enabled",
+  "description": null,
   "dependedOnBy": [],
   "helpText": null,
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_1",
-  "optionValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null,
-    "value": 1
-  },
   "name": "Enabled",
-  "description": null
+  "optionValue": {
+    "value": 1,
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  },
+  "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_1"
 }
 ```
 
@@ -44,55 +44,43 @@ Leaving the policy unset means users can't play the game on enrolled Google Chro
 ```json
 {
   "settingUsage": "configuration",
-  "defaultOptionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_0",
+  "infoUrls": [],
   "id": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg",
-  "version": "639051548217033386",
-  "riskLevel": "low",
-  "applicability": {
-    "technologies": "mdm",
-    "requiresAzureAd": false,
-    "deviceMode": "none",
-    "requiredAzureAdTrustType": "none",
-    "maximumSupportedVersion": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "configurationServiceProviderVersion": "5.0",
-    "description": null,
-    "platform": "windows10",
-    "minimumSupportedVersion": null,
-    "windowsSkus": []
-  },
-  "name": "AllowDinosaurEasterEgg",
-  "referredSettingInformationList": [],
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
   "options": [
     {
+      "dependentOn": [],
       "displayName": "Disabled",
+      "description": null,
       "dependedOnBy": [],
       "helpText": null,
-      "dependentOn": [],
-      "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_0",
-      "optionValue": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "settingValueTemplateReference": null,
-        "value": 0
-      },
       "name": "Disabled",
-      "description": null
+      "optionValue": {
+        "value": 0,
+        "settingValueTemplateReference": null,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+      },
+      "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_0"
     },
     {
+      "dependentOn": [],
       "displayName": "Enabled",
+      "description": null,
       "dependedOnBy": [],
       "helpText": null,
-      "dependentOn": [],
-      "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_1",
-      "optionValue": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "settingValueTemplateReference": null,
-        "value": 1
-      },
       "name": "Enabled",
-      "description": null
+      "optionValue": {
+        "value": 1,
+        "settingValueTemplateReference": null,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+      },
+      "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_1"
     }
   ],
+  "occurrence": {
+    "minDeviceOccurrence": 1,
+    "maxDeviceOccurrence": 1
+  },
   "keywords": [
     "AllowDinosaurEasterEgg",
     "Allow Dinosaur Easter Egg Game",
@@ -102,21 +90,33 @@ Leaving the policy unset means users can't play the game on enrolled Google Chro
     "Both",
     "Software\\Policies\\Google\\Chrome"
   ],
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-  "occurrence": {
-    "minDeviceOccurrence": 1,
-    "maxDeviceOccurrence": 1
-  },
-  "displayName": "Allow Dinosaur Easter Egg Game",
-  "uxBehavior": "toggle",
-  "categoryId": "36c83fb3-c18c-472b-b39e-617c2f8a7fbd",
-  "helpText": "",
-  "infoUrls": [],
-  "rootDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg",
-  "offsetUri": "/Config/chromeIntuneV1~Policy~googlechrome/AllowDinosaurEasterEgg",
-  "accessTypes": "none",
-  "baseUri": "./Device/Vendor/MSFT/Policy",
   "visibility": "settingsCatalog,template",
+  "version": "639051548217033386",
+  "name": "AllowDinosaurEasterEgg",
+  "riskLevel": "low",
+  "categoryId": "36c83fb3-c18c-472b-b39e-617c2f8a7fbd",
+  "referredSettingInformationList": [],
+  "offsetUri": "/Config/chromeIntuneV1~Policy~googlechrome/AllowDinosaurEasterEgg",
+  "rootDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg",
+  "uxBehavior": "toggle",
+  "baseUri": "./Device/Vendor/MSFT/Policy",
+  "defaultOptionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_0",
+  "displayName": "Allow Dinosaur Easter Egg Game",
+  "accessTypes": "none",
+  "helpText": "",
+  "applicability": {
+    "configurationServiceProviderVersion": "5.0",
+    "windowsSkus": [],
+    "technologies": "mdm",
+    "platform": "windows10",
+    "deviceMode": "none",
+    "minimumSupportedVersion": null,
+    "requiresAzureAd": false,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+    "description": null,
+    "requiredAzureAdTrustType": "none",
+    "maximumSupportedVersion": null
+  },
   "description": "Setting the policy to True allows users to play the dinosaur game. Setting the policy to False means users can't play the dinosaur easter egg game when device is offline.\r\n\r\nLeaving the policy unset means users can't play the game on enrolled Google Chrome OS, but can under other circumstances."
 }
 ```

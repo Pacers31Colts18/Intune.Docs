@@ -2,26 +2,27 @@
 
 **Policy ID:** 44eb15b9-da49-4ca0-8ec6-351000ceb4dc
 
-**Report Generated:** 02/07/2026 04:44:38
+**Report Generated:** 02/08/2026 05:08:48
 
 ---
 
-## Include Assignments
+## Exclude Assignments
 
-### All Devices
+### JoeLoveless - SG - Wave2
 
-**Group ID:** adadadad-808e-44e2-905a-0b7873a8a531
+**Group ID:** 575367f3-38c4-4c7f-9914-d6606c379de1
 
 ```json
 {
-  "source": "direct",
   "target": {
     "deviceAndAppManagementAssignmentFilterId": null,
-    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
-    "deviceAndAppManagementAssignmentFilterType": "none"
+    "deviceAndAppManagementAssignmentFilterType": "none",
+    "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+    "groupId": "575367f3-38c4-4c7f-9914-d6606c379de1"
   },
-  "id": "44eb15b9-da49-4ca0-8ec6-351000ceb4dc_adadadad-808e-44e2-905a-0b7873a8a531",
-  "sourceId": "44eb15b9-da49-4ca0-8ec6-351000ceb4dc"
+  "sourceId": "44eb15b9-da49-4ca0-8ec6-351000ceb4dc",
+  "source": "direct",
+  "id": "44eb15b9-da49-4ca0-8ec6-351000ceb4dc_575367f3-38c4-4c7f-9914-d6606c379de1"
 }
 ```
 

@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 02/10/2026 05:11:44
+**Report Generated:** 02/11/2026 05:09:27
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "runAs32Bit": true,
-  "publisher": " Joe Loveless",
-  "detectionScriptParameters": [],
-  "runAsAccount": "system",
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
   "remediationScriptParameters": [],
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
   "highestAvailableVersion": null,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "publisher": " Joe Loveless",
+  "runAsAccount": "system",
+  "deviceHealthScriptType": "deviceHealthScript",
   "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
-  "isGlobalScript": false,
-  "enforceSignatureCheck": false,
   "description": "ExtensionAttribute2: Organizational Unit of device",
-  "version": "3",
   "roleScopeTagIds": [
     "0"
   ],
-  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
   "remediationScriptContent": "",
+  "version": "3",
+  "enforceSignatureCheck": false,
   "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
-  "deviceHealthScriptType": "deviceHealthScript"
+  "detectionScriptParameters": [],
+  "isGlobalScript": false,
+  "runAs32Bit": true
 }
 ```
 

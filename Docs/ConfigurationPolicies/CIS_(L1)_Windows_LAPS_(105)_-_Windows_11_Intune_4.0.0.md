@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/CIS_(L1)_Windows_LAPS_(105)_-_Windows_11_Intune_4.0.0.md)
 
-**Report Generated:** 02/10/2026 05:11:41
+**Report Generated:** 02/11/2026 05:09:24
 
 ---
 
@@ -33,15 +33,15 @@ This setting has a maximum allowed value of 12 passwords.
 #### device_vendor_msft_laps_policies_passwordagedays_aad
 ```json
 {
+  "settingDefinitionId": "device_vendor_msft_laps_policies_passwordagedays_aad",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
-  "settingInstanceTemplateReference": null,
   "auditRuleInformation": null,
   "simpleSettingValue": {
-    "value": 30,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 30
   },
-  "settingDefinitionId": "device_vendor_msft_laps_policies_passwordagedays_aad"
+  "settingInstanceTemplateReference": null
 }
 ```
 
@@ -65,18 +65,18 @@ If not specified, this setting will default to 4.
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "description": "Large letters + small letters + numbers + special characters",
-  "displayName": "Large letters + small letters + numbers + special characters",
-  "name": "Large letters + small letters + numbers + special characters",
   "optionValue": {
-    "value": 4,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 4
   },
-  "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_4",
-  "dependentOn": []
+  "description": "Large letters + small letters + numbers + special characters",
+  "dependedOnBy": [],
+  "displayName": "Large letters + small letters + numbers + special characters",
+  "helpText": null,
+  "name": "Large letters + small letters + numbers + special characters",
+  "dependentOn": [],
+  "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_4"
 }
 ```
 
@@ -97,12 +97,12 @@ This setting has a maximum allowed value of 64 characters.
 
 ```json
 {
-  "value": 15,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "settingValueTemplateReference": {
     "useTemplateDefault": false,
     "settingValueTemplateId": "d08f1266-5345-4f53-8ae1-4c20e6cb5ec9"
-  }
+  },
+  "value": 15
 }
 ```
 
@@ -120,18 +120,18 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "description": "Reset the password and logoff the managed account: upon expiry of the grace period, the managed account password will be reset and any interactive logon sessions using the managed account will terminated.",
-  "displayName": "Reset the password and logoff the managed account: upon expiry of the grace period, the managed account password will be reset and any interactive logon sessions using the managed account will terminated.",
-  "name": "Reset the password and logoff the managed account: upon expiry of the grace period, the managed account password will be reset and any interactive logon sessions using the managed account will terminated.",
   "optionValue": {
-    "value": 3,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 3
   },
-  "itemId": "device_vendor_msft_laps_policies_postauthenticationactions_3",
-  "dependentOn": []
+  "description": "Reset the password and logoff the managed account: upon expiry of the grace period, the managed account password will be reset and any interactive logon sessions using the managed account will terminated.",
+  "dependedOnBy": [],
+  "displayName": "Reset the password and logoff the managed account: upon expiry of the grace period, the managed account password will be reset and any interactive logon sessions using the managed account will terminated.",
+  "helpText": null,
+  "name": "Reset the password and logoff the managed account: upon expiry of the grace period, the managed account password will be reset and any interactive logon sessions using the managed account will terminated.",
+  "dependentOn": [],
+  "itemId": "device_vendor_msft_laps_policies_postauthenticationactions_3"
 }
 ```
 
@@ -152,12 +152,12 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
 
 ```json
 {
-  "value": 8,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "settingValueTemplateReference": {
     "useTemplateDefault": false,
     "settingValueTemplateId": "0deb6aee-8dac-40c4-a9dd-c3718e5c1d52"
-  }
+  },
+  "value": 8
 }
 ```
 
@@ -165,18 +165,17 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
 ```json
 [
   {
-    "displayName": "AD Encrypted Password History Size ",
-    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
-    "rootDefinitionId": "device_vendor_msft_laps_policies_backupdirectory",
-    "offsetUri": "/Policies/ADEncryptedPasswordHistorySize",
     "helpText": "",
     "dependedOnBy": [],
-    "referredSettingInformationList": [],
     "applicability": {
+      "description": null,
+      "platform": "windows10",
+      "minimumSupportedVersion": "10.0.17763.4244",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
+      "configurationServiceProviderVersion": "1.0",
       "requiresAzureAd": false,
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -190,65 +189,65 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
         "windowsCloudN",
         "windows11SE"
       ],
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.17763.4244",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "1.0",
-      "technologies": "mdm",
-      "description": null
+      "deviceMode": "none",
+      "maximumSupportedVersion": null
     },
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "minimumValue": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "maximumValue": 12
-    },
-    "version": "639054814295167747",
-    "name": "ADEncryptedPasswordHistorySize",
-    "riskLevel": "low",
+    "settingUsage": "configuration",
     "description": "Use this setting to configure how many previous encrypted passwords will be remembered in Active Directory.\n\nIf not specified, this setting will default to 0 passwords (disabled).\n\nThis setting has a minimum allowed value of 0 passwords.\n\nThis setting has a maximum allowed value of 12 passwords.\r\n ",
+    "uxBehavior": "default",
+    "id": "device_vendor_msft_laps_policies_adencryptedpasswordhistorysize",
+    "displayName": "AD Encrypted Password History Size ",
+    "offsetUri": "/Policies/ADEncryptedPasswordHistorySize",
+    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/LAPS-csp/"
     ],
-    "baseUri": "./Device/Vendor/MSFT/LAPS",
-    "id": "device_vendor_msft_laps_policies_adencryptedpasswordhistorysize",
-    "accessTypes": "add,delete,get,replace",
-    "dependentOn": [
-      {
-        "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory",
-        "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_2"
-      }
-    ],
-    "defaultValue": {
-      "value": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null
+    "visibility": "template",
+    "riskLevel": "low",
+    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
+    "valueDefinition": {
+      "maximumValue": 12,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0
     },
+    "name": "ADEncryptedPasswordHistorySize",
     "keywords": [
       "AD Encrypted Password History Size",
       "LAPS"
     ],
-    "settingUsage": "configuration",
-    "visibility": "template",
-    "uxBehavior": "default"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_2",
+        "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory"
+      }
+    ],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 0
+    },
+    "baseUri": "./Device/Vendor/MSFT/LAPS",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_laps_policies_backupdirectory",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639054814295167747"
   },
   {
-    "displayName": "Password Age Days ",
-    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
-    "rootDefinitionId": "device_vendor_msft_laps_policies_backupdirectory",
-    "offsetUri": "/Policies/PasswordAgeDays",
     "helpText": "",
     "dependedOnBy": [],
-    "referredSettingInformationList": [],
     "applicability": {
+      "description": null,
+      "platform": "windows10",
+      "minimumSupportedVersion": "10.0.17763.4244",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
+      "configurationServiceProviderVersion": "1.0",
       "requiresAzureAd": false,
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -262,65 +261,64 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
         "windowsCloudN",
         "windows11SE"
       ],
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.17763.4244",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "1.0",
-      "technologies": "mdm",
-      "description": null
+      "deviceMode": "none",
+      "maximumSupportedVersion": null
     },
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "minimumValue": 1,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "maximumValue": 365
-    },
-    "version": "639054814295167747",
-    "name": "PasswordAgeDays",
-    "riskLevel": "low",
+    "settingUsage": "configuration",
     "description": "Use this policy to configure the maximum password age of the managed local administrator account.\n\nIf not specified, this setting will default to 30 days\n\nThis setting has a minimum allowed value of 1 day when backing the password to onpremises Active Directory, and 7 days when backing the password to Microsoft Entra ID..\n\nThis setting has a maximum allowed value of 365 days.\r\n",
+    "uxBehavior": "default",
+    "id": "device_vendor_msft_laps_policies_passwordagedays",
+    "displayName": "Password Age Days ",
+    "offsetUri": "/Policies/PasswordAgeDays",
+    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/LAPS-csp/"
     ],
-    "baseUri": "./Device/Vendor/MSFT/LAPS",
-    "id": "device_vendor_msft_laps_policies_passwordagedays",
-    "accessTypes": "add,delete,get,replace",
-    "dependentOn": [
-      {
-        "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory",
-        "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_2"
-      }
-    ],
-    "defaultValue": {
-      "value": 30,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null
+    "visibility": "template",
+    "riskLevel": "low",
+    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
+    "valueDefinition": {
+      "maximumValue": 365,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 1
     },
+    "name": "PasswordAgeDays",
     "keywords": [
       "Password Age Days",
       "LAPS"
     ],
-    "settingUsage": "configuration",
-    "visibility": "template",
-    "uxBehavior": "default"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_2",
+        "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory"
+      }
+    ],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 30
+    },
+    "baseUri": "./Device/Vendor/MSFT/LAPS",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_laps_policies_backupdirectory",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639054814295167747"
   },
   {
-    "defaultOptionId": "device_vendor_msft_laps_policies_adpasswordencryptionenabled_true",
-    "displayName": "AD Password Encryption Enabled ",
-    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
-    "rootDefinitionId": "device_vendor_msft_laps_policies_backupdirectory",
-    "offsetUri": "/Policies/ADPasswordEncryptionEnabled",
     "helpText": "",
-    "referredSettingInformationList": [],
     "applicability": {
+      "description": null,
+      "platform": "windows10",
+      "minimumSupportedVersion": "10.0.17763.4244",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
+      "configurationServiceProviderVersion": "1.0",
       "requiresAzureAd": false,
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -334,89 +332,90 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
         "windowsCloudN",
         "windows11SE"
       ],
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.17763.4244",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "1.0",
-      "technologies": "mdm",
-      "description": null
+      "deviceMode": "none",
+      "maximumSupportedVersion": null
     },
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "version": "639054814295167747",
-    "name": "ADPasswordEncryptionEnabled",
-    "riskLevel": "low",
+    "settingUsage": "configuration",
     "description": "Use this setting to configure whether the password is encrypted before being stored in Active Directory.\n\nThis setting is ignored if the password is currently being stored in Azure.\n\nThis setting is only honored when the Active Directory domain is at Windows Server 2016 Domain Functional Level or higher.\n\nIf this setting is enabled, and the Active Directory domain meets the DFL prerequisite, the password will be encrypted before before being stored in Active Directory.\n\nIf this setting is disabled, or the Active Directory domain does not meet the DFL prerequisite, the password will be stored as clear-text in Active Directory.\n\nIf not specified, this setting defaults to True.\r\n ",
+    "uxBehavior": "default",
+    "id": "device_vendor_msft_laps_policies_adpasswordencryptionenabled",
+    "displayName": "AD Password Encryption Enabled ",
+    "offsetUri": "/Policies/ADPasswordEncryptionEnabled",
+    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/LAPS-csp/"
     ],
-    "baseUri": "./Device/Vendor/MSFT/LAPS",
-    "id": "device_vendor_msft_laps_policies_adpasswordencryptionenabled",
-    "accessTypes": "add,delete,get,replace",
-    "options": [
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": "Store the password in clear-text form in Active Directory",
-        "displayName": "Store the password in clear-text form in Active Directory",
-        "name": "Store the password in clear-text form in Active Directory",
-        "optionValue": {
-          "value": "false",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_adpasswordencryptionenabled_false",
-        "dependentOn": [
-          {
-            "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory",
-            "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_2"
-          }
-        ]
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": "Store the password in encrypted form in Active Directory",
-        "displayName": "Store the password in encrypted form in Active Directory",
-        "name": "Store the password in encrypted form in Active Directory",
-        "optionValue": {
-          "value": "true",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_adpasswordencryptionenabled_true",
-        "dependentOn": [
-          {
-            "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory",
-            "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_2"
-          }
-        ]
-      }
-    ],
+    "visibility": "template",
+    "riskLevel": "low",
+    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
+    "name": "ADPasswordEncryptionEnabled",
     "keywords": [
       "AD Password Encryption Enabled",
       "LAPS"
     ],
-    "settingUsage": "configuration",
-    "visibility": "template",
-    "uxBehavior": "default"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "options": [
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "false"
+        },
+        "description": "Store the password in clear-text form in Active Directory",
+        "dependedOnBy": [],
+        "displayName": "Store the password in clear-text form in Active Directory",
+        "helpText": null,
+        "name": "Store the password in clear-text form in Active Directory",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_2",
+            "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory"
+          }
+        ],
+        "itemId": "device_vendor_msft_laps_policies_adpasswordencryptionenabled_false"
+      },
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "true"
+        },
+        "description": "Store the password in encrypted form in Active Directory",
+        "dependedOnBy": [],
+        "displayName": "Store the password in encrypted form in Active Directory",
+        "helpText": null,
+        "name": "Store the password in encrypted form in Active Directory",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_2",
+            "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory"
+          }
+        ],
+        "itemId": "device_vendor_msft_laps_policies_adpasswordencryptionenabled_true"
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_laps_policies_adpasswordencryptionenabled_true",
+    "baseUri": "./Device/Vendor/MSFT/LAPS",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_laps_policies_backupdirectory",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639054814295167747"
   },
   {
-    "displayName": "Password Age Days",
-    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
-    "rootDefinitionId": "device_vendor_msft_laps_policies_backupdirectory",
-    "offsetUri": "/Policies/PasswordAgeDays",
     "helpText": "",
     "dependedOnBy": [],
-    "referredSettingInformationList": [],
     "applicability": {
+      "description": null,
+      "platform": "windows10",
+      "minimumSupportedVersion": "10.0.17763.4244",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
+      "configurationServiceProviderVersion": "1.0",
       "requiresAzureAd": false,
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -430,65 +429,65 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
         "windowsCloudN",
         "windows11SE"
       ],
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.17763.4244",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "1.0",
-      "technologies": "mdm",
-      "description": null
+      "deviceMode": "none",
+      "maximumSupportedVersion": null
     },
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "minimumValue": 7,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "maximumValue": 365
-    },
-    "version": "639054814295167747",
-    "name": "PasswordAgeDays",
-    "riskLevel": "low",
+    "settingUsage": "configuration",
     "description": "Use this policy to configure the maximum password age of the managed local administrator account.\n\nIf not specified, this setting will default to 30 days\n\nThis setting has a minimum allowed value of 1 day when backing the password to onpremises Active Directory, and 7 days when backing the password to Azure AD.\n\nThis setting has a maximum allowed value of 365 days.\r\n ",
+    "uxBehavior": "default",
+    "id": "device_vendor_msft_laps_policies_passwordagedays_aad",
+    "displayName": "Password Age Days",
+    "offsetUri": "/Policies/PasswordAgeDays",
+    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/LAPS-csp/"
     ],
-    "baseUri": "./Device/Vendor/MSFT/LAPS",
-    "id": "device_vendor_msft_laps_policies_passwordagedays_aad",
-    "accessTypes": "add,delete,get,replace",
-    "dependentOn": [
-      {
-        "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory",
-        "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_1"
-      }
-    ],
-    "defaultValue": {
-      "value": 30,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null
+    "visibility": "template",
+    "riskLevel": "low",
+    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
+    "valueDefinition": {
+      "maximumValue": 365,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 7
     },
+    "name": "PasswordAgeDays",
     "keywords": [
       "Password Age Days",
       "LAPS"
     ],
-    "settingUsage": "configuration",
-    "visibility": "template",
-    "uxBehavior": "default"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_1",
+        "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory"
+      }
+    ],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 30
+    },
+    "baseUri": "./Device/Vendor/MSFT/LAPS",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_laps_policies_backupdirectory",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639054814295167747"
   },
   {
-    "displayName": "AD Password Encryption Principal ",
-    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
-    "rootDefinitionId": "device_vendor_msft_laps_policies_backupdirectory",
-    "offsetUri": "/Policies/ADPasswordEncryptionPrincipal",
     "helpText": "",
     "dependedOnBy": [],
-    "referredSettingInformationList": [],
     "applicability": {
+      "description": null,
+      "platform": "windows10",
+      "minimumSupportedVersion": "10.0.17763.4244",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
+      "configurationServiceProviderVersion": "1.0",
       "requiresAzureAd": false,
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -502,69 +501,68 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
         "windowsCloudN",
         "windows11SE"
       ],
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.17763.4244",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "1.0",
-      "technologies": "mdm",
-      "description": null
+      "deviceMode": "none",
+      "maximumSupportedVersion": null
     },
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "format": "none",
-      "maximumLength": 87516,
-      "inputValidationSchema": null,
-      "fileTypes": [],
-      "isSecret": false,
-      "minimumLength": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
-    "version": "639054814295167747",
-    "name": "ADPasswordEncryptionPrincipal",
-    "riskLevel": "low",
+    "settingUsage": "configuration",
     "description": "Use this setting to configure the name or SID of a user or group that can decrypt the password stored in Active Directory.\n\nThis setting is ignored if the password is currently being stored in Azure.\n\nIf not specified, the password will be decryptable by the Domain Admins group in the device's domain.\n\nIf specified, the specified user or group will be able to decrypt the password stored in Active Directory.\n\nIf the specified user or group account is invalid the device will fallback to using the Domain Admins group in the device's domain.\r\n ",
+    "uxBehavior": "default",
+    "id": "device_vendor_msft_laps_policies_adpasswordencryptionprincipal",
+    "displayName": "AD Password Encryption Principal ",
+    "offsetUri": "/Policies/ADPasswordEncryptionPrincipal",
+    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/LAPS-csp/"
     ],
-    "baseUri": "./Device/Vendor/MSFT/LAPS",
-    "id": "device_vendor_msft_laps_policies_adpasswordencryptionprincipal",
-    "accessTypes": "add,delete,get,replace",
-    "dependentOn": [
-      {
-        "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory",
-        "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_2"
-      }
-    ],
-    "defaultValue": {
-      "value": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "settingValueTemplateReference": null
+    "visibility": "template",
+    "riskLevel": "low",
+    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
+    "valueDefinition": {
+      "isSecret": false,
+      "format": "none",
+      "minimumLength": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+      "inputValidationSchema": null,
+      "fileTypes": [],
+      "maximumLength": 87516
     },
+    "name": "ADPasswordEncryptionPrincipal",
     "keywords": [
       "AD Password Encryption Principal",
       "LAPS"
     ],
-    "settingUsage": "configuration",
-    "visibility": "template",
-    "uxBehavior": "default"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_2",
+        "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory"
+      }
+    ],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "settingValueTemplateReference": null,
+      "value": null
+    },
+    "baseUri": "./Device/Vendor/MSFT/LAPS",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_laps_policies_backupdirectory",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639054814295167747"
   },
   {
-    "defaultOptionId": "device_vendor_msft_laps_policies_backupdirectory_0",
-    "displayName": "Backup Directory ",
-    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
-    "rootDefinitionId": "device_vendor_msft_laps_policies_backupdirectory",
-    "offsetUri": "/Policies/BackupDirectory",
     "helpText": "",
-    "referredSettingInformationList": [],
     "applicability": {
+      "description": null,
+      "platform": "windows10",
+      "minimumSupportedVersion": "10.0.17763.4244",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
+      "configurationServiceProviderVersion": "1.0",
       "requiresAzureAd": false,
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -578,64 +576,69 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
         "windowsCloudN",
         "windows11SE"
       ],
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.17763.4244",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "1.0",
-      "technologies": "mdm",
-      "description": null
+      "deviceMode": "none",
+      "maximumSupportedVersion": null
     },
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "version": "639054814295167747",
-    "name": "BackupDirectory",
-    "riskLevel": "low",
+    "settingUsage": "configuration",
     "description": "Use this setting to configure which directory the local admin account password is backed up to.\n\nThe allowable settings are:\n\n0=Disabled (password will not be backed up)\n1=Backup the password to Microsoft Entra ID only\n2=Backup the password to Active Directory only\n\nIf not specified, this setting will default to 0.\r\n",
+    "uxBehavior": "default",
+    "id": "device_vendor_msft_laps_policies_backupdirectory",
+    "displayName": "Backup Directory ",
+    "offsetUri": "/Policies/BackupDirectory",
+    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/LAPS-csp/"
     ],
-    "baseUri": "./Device/Vendor/MSFT/LAPS",
-    "id": "device_vendor_msft_laps_policies_backupdirectory",
-    "accessTypes": "add,delete,get,replace",
+    "visibility": "template",
+    "riskLevel": "low",
+    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
+    "name": "BackupDirectory",
+    "keywords": [
+      "Backup Directory",
+      "LAPS"
+    ],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": "Disabled (password will not be backed up)",
-        "displayName": "Disabled (password will not be backed up)",
-        "name": "Disabled (password will not be backed up)",
         "optionValue": {
-          "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
+          "settingValueTemplateReference": null,
+          "value": 0
         },
-        "itemId": "device_vendor_msft_laps_policies_backupdirectory_0",
-        "dependentOn": []
+        "description": "Disabled (password will not be backed up)",
+        "dependedOnBy": [],
+        "displayName": "Disabled (password will not be backed up)",
+        "helpText": null,
+        "name": "Disabled (password will not be backed up)",
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_backupdirectory_0"
       },
       {
-        "helpText": null,
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "description": "Backup the password to Microsoft Entra ID only",
         "dependedOnBy": [
           {
             "required": false,
             "dependedOnBy": "device_vendor_msft_laps_policies_passwordagedays_aad"
           }
         ],
-        "description": "Backup the password to Microsoft Entra ID only",
         "displayName": "Backup the password to Microsoft Entra ID only",
+        "helpText": null,
         "name": null,
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_backupdirectory_1",
-        "dependentOn": []
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_backupdirectory_1"
       },
       {
-        "helpText": null,
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 2
+        },
+        "description": "Backup the password to Active Directory only",
         "dependedOnBy": [
           {
             "required": false,
@@ -658,39 +661,34 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
             "dependedOnBy": "device_vendor_msft_laps_policies_adencryptedpasswordhistorysize"
           }
         ],
-        "description": "Backup the password to Active Directory only",
         "displayName": "Backup the password to Active Directory only",
+        "helpText": null,
         "name": "Backup the password to Active Directory only",
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_backupdirectory_2",
-        "dependentOn": []
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_backupdirectory_2"
       }
     ],
-    "keywords": [
-      "Backup Directory",
-      "LAPS"
-    ],
-    "settingUsage": "configuration",
-    "visibility": "template",
-    "uxBehavior": "default"
+    "defaultOptionId": "device_vendor_msft_laps_policies_backupdirectory_0",
+    "baseUri": "./Device/Vendor/MSFT/LAPS",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_laps_policies_backupdirectory",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639054814295167747"
   },
   {
-    "defaultOptionId": "device_vendor_msft_laps_policies_passwordexpirationprotectionenabled_true",
-    "displayName": "Password Expiration Protection Enabled ",
-    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
-    "rootDefinitionId": "device_vendor_msft_laps_policies_backupdirectory",
-    "offsetUri": "/Policies/PasswordExpirationProtectionEnabled",
     "helpText": "",
-    "referredSettingInformationList": [],
     "applicability": {
+      "description": null,
+      "platform": "windows10",
+      "minimumSupportedVersion": "10.0.17763.4244",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
+      "configurationServiceProviderVersion": "1.0",
       "requiresAzureAd": false,
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -704,89 +702,89 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
         "windowsCloudN",
         "windows11SE"
       ],
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.17763.4244",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "1.0",
-      "technologies": "mdm",
-      "description": null
+      "deviceMode": "none",
+      "maximumSupportedVersion": null
     },
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "version": "639054814295167747",
-    "name": "PasswordExpirationProtectionEnabled",
-    "riskLevel": "low",
+    "settingUsage": "configuration",
     "description": "Use this setting to configure additional enforcement of maximum password age for the managed local administrator account.\n\nWhen this setting is enabled, planned password expiration that would result in a password age greater than that dictated by \"PasswordAgeDays\" policy is NOT allowed. When such expiration is detected, the password is changed immediately and the new password expiration date is set according to policy.\n\nIf not specified, this setting defaults to True.\r\n ",
+    "uxBehavior": "toggle",
+    "id": "device_vendor_msft_laps_policies_passwordexpirationprotectionenabled",
+    "displayName": "Password Expiration Protection Enabled ",
+    "offsetUri": "/Policies/PasswordExpirationProtectionEnabled",
+    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/LAPS-csp/"
     ],
-    "baseUri": "./Device/Vendor/MSFT/LAPS",
-    "id": "device_vendor_msft_laps_policies_passwordexpirationprotectionenabled",
-    "accessTypes": "add,delete,get,replace",
-    "options": [
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": "Allow configured password expiriration timestamp to exceed maximum password age",
-        "displayName": "Allow configured password expiriration timestamp to exceed maximum password age",
-        "name": "Allow configured password expiriration timestamp to exceed maximum password age",
-        "optionValue": {
-          "value": "false",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_passwordexpirationprotectionenabled_false",
-        "dependentOn": [
-          {
-            "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory",
-            "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_2"
-          }
-        ]
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": "Do not allow configured password expiriration timestamp to exceed maximum password age",
-        "displayName": "Do not allow configured password expiriration timestamp to exceed maximum password age",
-        "name": "Do not allow configured password expiriration timestamp to exceed maximum password age",
-        "optionValue": {
-          "value": "true",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_passwordexpirationprotectionenabled_true",
-        "dependentOn": [
-          {
-            "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory",
-            "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_2"
-          }
-        ]
-      }
-    ],
+    "visibility": "template",
+    "riskLevel": "low",
+    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
+    "name": "PasswordExpirationProtectionEnabled",
     "keywords": [
       "Password Expiration Protection Enabled",
       "LAPS"
     ],
-    "settingUsage": "configuration",
-    "visibility": "template",
-    "uxBehavior": "toggle"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "options": [
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "false"
+        },
+        "description": "Allow configured password expiriration timestamp to exceed maximum password age",
+        "dependedOnBy": [],
+        "displayName": "Allow configured password expiriration timestamp to exceed maximum password age",
+        "helpText": null,
+        "name": "Allow configured password expiriration timestamp to exceed maximum password age",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_2",
+            "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory"
+          }
+        ],
+        "itemId": "device_vendor_msft_laps_policies_passwordexpirationprotectionenabled_false"
+      },
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "true"
+        },
+        "description": "Do not allow configured password expiriration timestamp to exceed maximum password age",
+        "dependedOnBy": [],
+        "displayName": "Do not allow configured password expiriration timestamp to exceed maximum password age",
+        "helpText": null,
+        "name": "Do not allow configured password expiriration timestamp to exceed maximum password age",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_laps_policies_backupdirectory_2",
+            "parentSettingId": "device_vendor_msft_laps_policies_backupdirectory"
+          }
+        ],
+        "itemId": "device_vendor_msft_laps_policies_passwordexpirationprotectionenabled_true"
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_laps_policies_passwordexpirationprotectionenabled_true",
+    "baseUri": "./Device/Vendor/MSFT/LAPS",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_laps_policies_backupdirectory",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639054814295167747"
   },
   {
-    "defaultOptionId": "device_vendor_msft_laps_policies_passwordcomplexity_4",
-    "displayName": "Password Complexity ",
-    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
-    "rootDefinitionId": "device_vendor_msft_laps_policies_passwordcomplexity",
-    "offsetUri": "/Policies/PasswordComplexity",
     "helpText": "",
-    "referredSettingInformationList": [],
     "applicability": {
+      "description": null,
+      "platform": "windows10",
+      "minimumSupportedVersion": "10.0.17763.4244",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
+      "configurationServiceProviderVersion": "1.0",
       "requiresAzureAd": false,
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -800,178 +798,179 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
         "windowsCloudN",
         "windows11SE"
       ],
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.17763.4244",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "1.0",
-      "technologies": "mdm",
-      "description": null
+      "deviceMode": "none",
+      "maximumSupportedVersion": null
     },
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "version": "639054814295167747",
-    "name": "PasswordComplexity",
-    "riskLevel": "low",
+    "settingUsage": "configuration",
     "description": "Use this setting to configure password complexity of the managed local administrator account.\n\nThe allowable settings are:\n\n1=Large letters\n2=Large letters + small letters\n3=Large letters + small letters + numbers\n4=Large letters + small letters + numbers + special characters\n\nIf not specified, this setting will default to 4.\r\n ",
+    "uxBehavior": "default",
+    "id": "device_vendor_msft_laps_policies_passwordcomplexity",
+    "displayName": "Password Complexity ",
+    "offsetUri": "/Policies/PasswordComplexity",
+    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/LAPS-csp/"
     ],
-    "baseUri": "./Device/Vendor/MSFT/LAPS",
-    "id": "device_vendor_msft_laps_policies_passwordcomplexity",
-    "accessTypes": "add,delete,get,replace",
-    "options": [
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": "Large letters",
-        "displayName": "Large letters",
-        "name": "Large letters",
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_1",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": "Large letters + small letters",
-        "displayName": "Large letters + small letters",
-        "name": "Large letters + small letters",
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_2",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": "Large letters + small letters + numbers",
-        "displayName": "Large letters + small letters + numbers",
-        "name": "Large letters + small letters + numbers",
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_3",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": "Large letters + small letters + numbers + special characters",
-        "displayName": "Large letters + small letters + numbers + special characters",
-        "name": "Large letters + small letters + numbers + special characters",
-        "optionValue": {
-          "value": 4,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_4",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": "Large letters + small letters + numbers + special characters (improved readability)",
-        "displayName": "Large letters + small letters + numbers + special characters (improved readability)",
-        "name": "Large letters + small letters + numbers + special characters (improved readability)",
-        "optionValue": {
-          "value": 5,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_5",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [
-          {
-            "required": false,
-            "dependedOnBy": "device_vendor_msft_laps_policies_passphraselength"
-          }
-        ],
-        "description": "Passphrase (long words)",
-        "displayName": "Passphrase (long words)",
-        "name": "Passphrase (long words)",
-        "optionValue": {
-          "value": 6,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_6",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [
-          {
-            "required": false,
-            "dependedOnBy": "device_vendor_msft_laps_policies_passphraselength"
-          }
-        ],
-        "description": "Passphrase (short words)",
-        "displayName": "Passphrase (short words)",
-        "name": "Passphrase (short words)",
-        "optionValue": {
-          "value": 7,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_7",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [
-          {
-            "required": false,
-            "dependedOnBy": "device_vendor_msft_laps_policies_passphraselength"
-          }
-        ],
-        "description": "Passphrase (short words with unique prefixes)",
-        "displayName": "Passphrase (short words with unique prefixes)",
-        "name": "Passphrase (short words with unique prefixes)",
-        "optionValue": {
-          "value": 8,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_8",
-        "dependentOn": []
-      }
-    ],
+    "visibility": "template",
+    "riskLevel": "low",
+    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
+    "name": "PasswordComplexity",
     "keywords": [
       "Password Complexity",
       "LAPS"
     ],
-    "settingUsage": "configuration",
-    "visibility": "template",
-    "uxBehavior": "default"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "options": [
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "description": "Large letters",
+        "dependedOnBy": [],
+        "displayName": "Large letters",
+        "helpText": null,
+        "name": "Large letters",
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_1"
+      },
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 2
+        },
+        "description": "Large letters + small letters",
+        "dependedOnBy": [],
+        "displayName": "Large letters + small letters",
+        "helpText": null,
+        "name": "Large letters + small letters",
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_2"
+      },
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 3
+        },
+        "description": "Large letters + small letters + numbers",
+        "dependedOnBy": [],
+        "displayName": "Large letters + small letters + numbers",
+        "helpText": null,
+        "name": "Large letters + small letters + numbers",
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_3"
+      },
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 4
+        },
+        "description": "Large letters + small letters + numbers + special characters",
+        "dependedOnBy": [],
+        "displayName": "Large letters + small letters + numbers + special characters",
+        "helpText": null,
+        "name": "Large letters + small letters + numbers + special characters",
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_4"
+      },
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 5
+        },
+        "description": "Large letters + small letters + numbers + special characters (improved readability)",
+        "dependedOnBy": [],
+        "displayName": "Large letters + small letters + numbers + special characters (improved readability)",
+        "helpText": null,
+        "name": "Large letters + small letters + numbers + special characters (improved readability)",
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_5"
+      },
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 6
+        },
+        "description": "Passphrase (long words)",
+        "dependedOnBy": [
+          {
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_laps_policies_passphraselength"
+          }
+        ],
+        "displayName": "Passphrase (long words)",
+        "helpText": null,
+        "name": "Passphrase (long words)",
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_6"
+      },
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 7
+        },
+        "description": "Passphrase (short words)",
+        "dependedOnBy": [
+          {
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_laps_policies_passphraselength"
+          }
+        ],
+        "displayName": "Passphrase (short words)",
+        "helpText": null,
+        "name": "Passphrase (short words)",
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_7"
+      },
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 8
+        },
+        "description": "Passphrase (short words with unique prefixes)",
+        "dependedOnBy": [
+          {
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_laps_policies_passphraselength"
+          }
+        ],
+        "displayName": "Passphrase (short words with unique prefixes)",
+        "helpText": null,
+        "name": "Passphrase (short words with unique prefixes)",
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_passwordcomplexity_8"
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_laps_policies_passwordcomplexity_4",
+    "baseUri": "./Device/Vendor/MSFT/LAPS",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_laps_policies_passwordcomplexity",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639054814295167747"
   },
   {
-    "displayName": "Passphrase Length",
-    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
-    "rootDefinitionId": "device_vendor_msft_laps_policies_passwordcomplexity",
-    "offsetUri": "/Policies/PassphraseLength",
     "helpText": "",
     "dependedOnBy": [],
-    "referredSettingInformationList": [],
     "applicability": {
+      "description": null,
+      "platform": "windows10",
+      "minimumSupportedVersion": "10.0.26100",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
+      "configurationServiceProviderVersion": "1.1",
       "requiresAzureAd": false,
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -985,73 +984,73 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
         "windowsCloudN",
         "windows11SE"
       ],
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.26100",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "1.1",
-      "technologies": "mdm",
-      "description": null
+      "deviceMode": "none",
+      "maximumSupportedVersion": null
     },
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "minimumValue": 3,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "maximumValue": 10
-    },
-    "version": "639054814295167747",
-    "name": "PassphraseLength",
-    "riskLevel": "low",
+    "settingUsage": "configuration",
     "description": "Use this setting to configure the number of passphrase words.\n\nIf not specified, this setting will default to 6 words\n\nThis setting has a minimum allowed value of 3 words.\n\nThis setting has a maximum allowed value of 10 words.",
+    "uxBehavior": "default",
+    "id": "device_vendor_msft_laps_policies_passphraselength",
+    "displayName": "Passphrase Length",
+    "offsetUri": "/Policies/PassphraseLength",
+    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/LAPS-csp/"
     ],
-    "baseUri": "./Device/Vendor/MSFT/LAPS",
-    "id": "device_vendor_msft_laps_policies_passphraselength",
-    "accessTypes": "add,delete,get,replace",
-    "dependentOn": [
-      {
-        "parentSettingId": "device_vendor_msft_laps_policies_passwordcomplexity",
-        "dependentOn": "device_vendor_msft_laps_policies_passwordcomplexity_6"
-      },
-      {
-        "parentSettingId": "device_vendor_msft_laps_policies_passwordcomplexity",
-        "dependentOn": "device_vendor_msft_laps_policies_passwordcomplexity_7"
-      },
-      {
-        "parentSettingId": "device_vendor_msft_laps_policies_passwordcomplexity",
-        "dependentOn": "device_vendor_msft_laps_policies_passwordcomplexity_8"
-      }
-    ],
-    "defaultValue": {
-      "value": 6,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null
+    "visibility": "template",
+    "riskLevel": "low",
+    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
+    "valueDefinition": {
+      "maximumValue": 10,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 3
     },
+    "name": "PassphraseLength",
     "keywords": [
       "Passphrase Length",
       "LAPS"
     ],
-    "settingUsage": "configuration",
-    "visibility": "template",
-    "uxBehavior": "default"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_laps_policies_passwordcomplexity_6",
+        "parentSettingId": "device_vendor_msft_laps_policies_passwordcomplexity"
+      },
+      {
+        "dependentOn": "device_vendor_msft_laps_policies_passwordcomplexity_7",
+        "parentSettingId": "device_vendor_msft_laps_policies_passwordcomplexity"
+      },
+      {
+        "dependentOn": "device_vendor_msft_laps_policies_passwordcomplexity_8",
+        "parentSettingId": "device_vendor_msft_laps_policies_passwordcomplexity"
+      }
+    ],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 6
+    },
+    "baseUri": "./Device/Vendor/MSFT/LAPS",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_laps_policies_passwordcomplexity",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639054814295167747"
   },
   {
-    "displayName": "Password Length ",
-    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
-    "rootDefinitionId": "device_vendor_msft_laps_policies_passwordlength",
-    "offsetUri": "/Policies/PasswordLength",
     "helpText": "",
     "dependedOnBy": [],
-    "referredSettingInformationList": [],
     "applicability": {
+      "description": null,
+      "platform": "windows10",
+      "minimumSupportedVersion": "10.0.17763.4244",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
+      "configurationServiceProviderVersion": "1.0",
       "requiresAzureAd": false,
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1065,60 +1064,59 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
         "windowsCloudN",
         "windows11SE"
       ],
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.17763.4244",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "1.0",
-      "technologies": "mdm",
-      "description": null
+      "deviceMode": "none",
+      "maximumSupportedVersion": null
     },
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "minimumValue": 8,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "maximumValue": 64
-    },
-    "version": "639054814295167747",
-    "name": "PasswordLength",
-    "riskLevel": "low",
+    "settingUsage": "configuration",
     "description": "Use this setting to configure the length of the password of the managed local administrator account.\n\nIf not specified, this setting will default to 14 characters.\n\nThis setting has a minimum allowed value of 8 characters.\n\nThis setting has a maximum allowed value of 64 characters.\r\n ",
+    "uxBehavior": "default",
+    "id": "device_vendor_msft_laps_policies_passwordlength",
+    "displayName": "Password Length ",
+    "offsetUri": "/Policies/PasswordLength",
+    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/LAPS-csp/"
     ],
-    "baseUri": "./Device/Vendor/MSFT/LAPS",
-    "id": "device_vendor_msft_laps_policies_passwordlength",
-    "accessTypes": "add,delete,get,replace",
-    "dependentOn": [],
-    "defaultValue": {
-      "value": 14,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null
+    "visibility": "template",
+    "riskLevel": "low",
+    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
+    "valueDefinition": {
+      "maximumValue": 64,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 8
     },
+    "name": "PasswordLength",
     "keywords": [
       "Password Length",
       "LAPS"
     ],
-    "settingUsage": "configuration",
-    "visibility": "template",
-    "uxBehavior": "default"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "dependentOn": [],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 14
+    },
+    "baseUri": "./Device/Vendor/MSFT/LAPS",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_laps_policies_passwordlength",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639054814295167747"
   },
   {
-    "defaultOptionId": "device_vendor_msft_laps_policies_postauthenticationactions_3",
-    "displayName": "Post Authentication Actions ",
-    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
-    "rootDefinitionId": "device_vendor_msft_laps_policies_postauthenticationactions",
-    "offsetUri": "/Policies/PostAuthenticationActions",
     "helpText": "",
-    "referredSettingInformationList": [],
     "applicability": {
+      "description": null,
+      "platform": "windows10",
+      "minimumSupportedVersion": "10.0.17763.4244",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
+      "configurationServiceProviderVersion": "1.0",
       "requiresAzureAd": false,
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1132,107 +1130,108 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
         "windowsCloudN",
         "windows11SE"
       ],
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.17763.4244",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "1.0",
-      "technologies": "mdm",
-      "description": null
+      "deviceMode": "none",
+      "maximumSupportedVersion": null
     },
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "version": "639054814295167747",
-    "name": "PostAuthenticationActions",
-    "riskLevel": "low",
+    "settingUsage": "configuration",
     "description": "Use this setting to specify the actions to take upon expiration of the configured grace period.\n\nIf not specified, this setting will default to 3 (Reset the password and logoff the managed account).\n              \r\n ",
+    "uxBehavior": "default",
+    "id": "device_vendor_msft_laps_policies_postauthenticationactions",
+    "displayName": "Post Authentication Actions ",
+    "offsetUri": "/Policies/PostAuthenticationActions",
+    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/LAPS-csp/"
     ],
-    "baseUri": "./Device/Vendor/MSFT/LAPS",
-    "id": "device_vendor_msft_laps_policies_postauthenticationactions",
-    "accessTypes": "add,delete,get,replace",
-    "options": [
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": "Reset password: upon expiry of the grace period, the managed account password will be reset.",
-        "displayName": "Reset password: upon expiry of the grace period, the managed account password will be reset.",
-        "name": "Reset password: upon expiry of the grace period, the managed account password will be reset.",
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_postauthenticationactions_1",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": "Reset the password and logoff the managed account: upon expiry of the grace period, the managed account password will be reset and any interactive logon sessions using the managed account will terminated.",
-        "displayName": "Reset the password and logoff the managed account: upon expiry of the grace period, the managed account password will be reset and any interactive logon sessions using the managed account will terminated.",
-        "name": "Reset the password and logoff the managed account: upon expiry of the grace period, the managed account password will be reset and any interactive logon sessions using the managed account will terminated.",
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_postauthenticationactions_3",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": "Reset the password and reboot: upon expiry of the grace period, the managed account password will be reset and the managed device will be immediately rebooted.",
-        "displayName": "Reset the password and reboot: upon expiry of the grace period, the managed account password will be reset and the managed device will be immediately rebooted.",
-        "name": "Reset the password and reboot: upon expiry of the grace period, the managed account password will be reset and the managed device will be immediately rebooted.",
-        "optionValue": {
-          "value": 5,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_postauthenticationactions_5",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": "Reset the password, logoff the managed account, and terminate any remaining processes: upon expiration of the grace period, the managed account password is reset, any interactive logon sessions using the managed account are logged off, and any remaining processes are terminated.",
-        "displayName": "Reset the password, logoff the managed account, and terminate any remaining processes: upon expiration of the grace period, the managed account password is reset, any interactive logon sessions using the managed account are logged off, and any remaining processes are terminated.",
-        "name": "Reset the password, logoff the managed account, and terminate any remaining processes: upon expiration of the grace period, the managed account password is reset, any interactive logon sessions using the managed account are logged off, and any remaining processes are terminated.",
-        "optionValue": {
-          "value": 11,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "itemId": "device_vendor_msft_laps_policies_postauthenticationactions_11",
-        "dependentOn": []
-      }
-    ],
+    "visibility": "template",
+    "riskLevel": "low",
+    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
+    "name": "PostAuthenticationActions",
     "keywords": [
       "Post Authentication Actions",
       "LAPS"
     ],
-    "settingUsage": "configuration",
-    "visibility": "template",
-    "uxBehavior": "default"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "options": [
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "description": "Reset password: upon expiry of the grace period, the managed account password will be reset.",
+        "dependedOnBy": [],
+        "displayName": "Reset password: upon expiry of the grace period, the managed account password will be reset.",
+        "helpText": null,
+        "name": "Reset password: upon expiry of the grace period, the managed account password will be reset.",
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_postauthenticationactions_1"
+      },
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 3
+        },
+        "description": "Reset the password and logoff the managed account: upon expiry of the grace period, the managed account password will be reset and any interactive logon sessions using the managed account will terminated.",
+        "dependedOnBy": [],
+        "displayName": "Reset the password and logoff the managed account: upon expiry of the grace period, the managed account password will be reset and any interactive logon sessions using the managed account will terminated.",
+        "helpText": null,
+        "name": "Reset the password and logoff the managed account: upon expiry of the grace period, the managed account password will be reset and any interactive logon sessions using the managed account will terminated.",
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_postauthenticationactions_3"
+      },
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 5
+        },
+        "description": "Reset the password and reboot: upon expiry of the grace period, the managed account password will be reset and the managed device will be immediately rebooted.",
+        "dependedOnBy": [],
+        "displayName": "Reset the password and reboot: upon expiry of the grace period, the managed account password will be reset and the managed device will be immediately rebooted.",
+        "helpText": null,
+        "name": "Reset the password and reboot: upon expiry of the grace period, the managed account password will be reset and the managed device will be immediately rebooted.",
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_postauthenticationactions_5"
+      },
+      {
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 11
+        },
+        "description": "Reset the password, logoff the managed account, and terminate any remaining processes: upon expiration of the grace period, the managed account password is reset, any interactive logon sessions using the managed account are logged off, and any remaining processes are terminated.",
+        "dependedOnBy": [],
+        "displayName": "Reset the password, logoff the managed account, and terminate any remaining processes: upon expiration of the grace period, the managed account password is reset, any interactive logon sessions using the managed account are logged off, and any remaining processes are terminated.",
+        "helpText": null,
+        "name": "Reset the password, logoff the managed account, and terminate any remaining processes: upon expiration of the grace period, the managed account password is reset, any interactive logon sessions using the managed account are logged off, and any remaining processes are terminated.",
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_laps_policies_postauthenticationactions_11"
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_laps_policies_postauthenticationactions_3",
+    "baseUri": "./Device/Vendor/MSFT/LAPS",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_laps_policies_postauthenticationactions",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639054814295167747"
   },
   {
-    "displayName": "Post Authentication Reset Delay ",
-    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
-    "rootDefinitionId": "device_vendor_msft_laps_policies_postauthenticationresetdelay",
-    "offsetUri": "/Policies/PostAuthenticationResetDelay",
     "helpText": "",
     "dependedOnBy": [],
-    "referredSettingInformationList": [],
     "applicability": {
+      "description": null,
+      "platform": "windows10",
+      "minimumSupportedVersion": "10.0.17763.4244",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
+      "configurationServiceProviderVersion": "1.0",
       "requiresAzureAd": false,
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1246,46 +1245,47 @@ If not specified, this setting will default to 3 (Reset the password and logoff 
         "windowsCloudN",
         "windows11SE"
       ],
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.17763.4244",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "1.0",
-      "technologies": "mdm",
-      "description": null
+      "deviceMode": "none",
+      "maximumSupportedVersion": null
     },
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "minimumValue": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "maximumValue": 24
-    },
-    "version": "639054814295167747",
-    "name": "PostAuthenticationResetDelay",
-    "riskLevel": "low",
+    "settingUsage": "configuration",
     "description": "Use this setting to specify the amount of time (in hours) to wait after an authentication before executing the specified post-authentication actions.\n\n  If not specified, this setting will default to 24 hours.\n\n  This setting has a minimum allowed value of 0 hours (this disables all post-authentication actions).\n\n  This setting has a maximum allowed value of 24 hours.\r\n ",
+    "uxBehavior": "default",
+    "id": "device_vendor_msft_laps_policies_postauthenticationresetdelay",
+    "displayName": "Post Authentication Reset Delay ",
+    "offsetUri": "/Policies/PostAuthenticationResetDelay",
+    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/LAPS-csp/"
     ],
-    "baseUri": "./Device/Vendor/MSFT/LAPS",
-    "id": "device_vendor_msft_laps_policies_postauthenticationresetdelay",
-    "accessTypes": "add,delete,get,replace",
-    "dependentOn": [],
-    "defaultValue": {
-      "value": 24,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null
+    "visibility": "template",
+    "riskLevel": "low",
+    "categoryId": "f1dcf7b6-2d89-41bf-b5eb-02a879c6db5d",
+    "valueDefinition": {
+      "maximumValue": 24,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0
     },
+    "name": "PostAuthenticationResetDelay",
     "keywords": [
       "Post Authentication Reset Delay",
       "LAPS"
     ],
-    "settingUsage": "configuration",
-    "visibility": "template",
-    "uxBehavior": "default"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "dependentOn": [],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 24
+    },
+    "baseUri": "./Device/Vendor/MSFT/LAPS",
+    "referredSettingInformationList": [],
+    "rootDefinitionId": "device_vendor_msft_laps_policies_postauthenticationresetdelay",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639054814295167747"
   }
 ]
 ```

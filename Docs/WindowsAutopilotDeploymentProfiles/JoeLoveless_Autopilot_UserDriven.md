@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 02/11/2026 05:09:28
+**Report Generated:** 02/12/2026 05:05:12
 
 ---
 
 ```json
 {
+  "enableWhiteGlove": false,
   "outOfBoxExperienceSettings": {
     "hidePrivacySettings": true,
+    "deviceUsageType": "singleUser",
+    "userType": "standard",
     "skipKeyboardSelectionPage": true,
     "hideEULA": true,
-    "userType": "standard",
-    "hideEscapeLink": true,
-    "deviceUsageType": "singleUser"
+    "hideEscapeLink": true
   },
-  "enrollmentStatusScreenSettings": null,
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
   "language": "os-default",
-  "extractHardwareHash": true,
+  "outOfBoxExperienceSetting": {
+    "deviceUsageType": "singleUser",
+    "privacySettingsHidden": true,
+    "eulaHidden": true,
+    "userType": "standard",
+    "keyboardSelectionPageSkipped": true,
+    "escapeLinkHidden": true
+  },
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "enrollmentStatusScreenSettings": null,
+  "locale": "os-default",
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "deviceNameTemplate": "JL-%SERIAL%",
   "roleScopeTagIds": [
     "0"
   ],
-  "hardwareHashExtractionEnabled": true,
   "id": "54c48954-766f-4238-86da-ed2d872e793e",
   "description": "",
-  "locale": "os-default",
+  "hardwareHashExtractionEnabled": true,
   "deviceType": "windowsPc",
+  "extractHardwareHash": true,
+  "deviceNameTemplate": "JL-%SERIAL%",
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "preprovisioningAllowed": false,
   "managementServiceAppId": null,
   "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "enableWhiteGlove": false,
-  "outOfBoxExperienceSetting": {
-    "userType": "standard",
-    "privacySettingsHidden": true,
-    "eulaHidden": true,
-    "keyboardSelectionPageSkipped": true,
-    "deviceUsageType": "singleUser",
-    "escapeLinkHidden": true
-  },
-  "preprovisioningAllowed": false
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z"
 }
 ```
 

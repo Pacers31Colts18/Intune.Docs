@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_Google_Chrome.md)
 
-**Report Generated:** 02/15/2026 05:01:22
+**Report Generated:** 02/16/2026 05:06:55
 
 ---
 
@@ -26,88 +26,89 @@ Leaving the policy unset means users can't play the game on enrolled Google Chro
 ```json
 {
   "description": null,
-  "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_1",
+  "helpText": null,
+  "name": "Enabled",
   "displayName": "Enabled",
   "dependedOnBy": [],
-  "name": "Enabled",
-  "dependentOn": [],
   "optionValue": {
     "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
-  "helpText": null
+  "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_1",
+  "dependentOn": []
 }
 ```
 
 ## Setting Definition
 ```json
 {
-  "rootDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg",
-  "id": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg",
+  "riskLevel": "low",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+  "infoUrls": [],
+  "visibility": "settingsCatalog,template",
+  "categoryId": "36c83fb3-c18c-472b-b39e-617c2f8a7fbd",
   "options": [
     {
       "description": null,
-      "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_0",
+      "helpText": null,
+      "name": "Disabled",
       "displayName": "Disabled",
       "dependedOnBy": [],
-      "name": "Disabled",
-      "dependentOn": [],
       "optionValue": {
         "value": 0,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "settingValueTemplateReference": null
+        "settingValueTemplateReference": null,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
       },
-      "helpText": null
+      "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_0",
+      "dependentOn": []
     },
     {
       "description": null,
-      "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_1",
+      "helpText": null,
+      "name": "Enabled",
       "displayName": "Enabled",
       "dependedOnBy": [],
-      "name": "Enabled",
-      "dependentOn": [],
       "optionValue": {
         "value": 1,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "settingValueTemplateReference": null
+        "settingValueTemplateReference": null,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
       },
-      "helpText": null
+      "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_1",
+      "dependentOn": []
     }
   ],
-  "riskLevel": "low",
-  "visibility": "settingsCatalog,template",
+  "rootDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg",
+  "displayName": "Allow Dinosaur Easter Egg Game",
+  "description": "Setting the policy to True allows users to play the dinosaur game. Setting the policy to False means users can't play the dinosaur easter egg game when device is offline.\r\n\r\nLeaving the policy unset means users can't play the game on enrolled Google Chrome OS, but can under other circumstances.",
+  "accessTypes": "none",
+  "version": "639054814295167747",
+  "name": "AllowDinosaurEasterEgg",
   "applicability": {
-    "platform": "windows10",
-    "requiredAzureAdTrustType": "none",
     "configurationServiceProviderVersion": "5.0",
-    "minimumSupportedVersion": null,
-    "requiresAzureAd": false,
-    "description": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "deviceMode": "none",
     "windowsSkus": [],
+    "minimumSupportedVersion": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+    "maximumSupportedVersion": null,
+    "requiresAzureAd": false,
+    "deviceMode": "none",
+    "requiredAzureAdTrustType": "none",
+    "platform": "windows10",
     "technologies": "mdm",
-    "maximumSupportedVersion": null
+    "description": null
   },
   "defaultOptionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_0",
-  "name": "AllowDinosaurEasterEgg",
+  "offsetUri": "/Config/chromeIntuneV1~Policy~googlechrome/AllowDinosaurEasterEgg",
+  "settingUsage": "configuration",
+  "helpText": "",
   "occurrence": {
     "maxDeviceOccurrence": 1,
     "minDeviceOccurrence": 1
   },
-  "uxBehavior": "toggle",
-  "displayName": "Allow Dinosaur Easter Egg Game",
-  "offsetUri": "/Config/chromeIntuneV1~Policy~googlechrome/AllowDinosaurEasterEgg",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-  "helpText": "",
-  "description": "Setting the policy to True allows users to play the dinosaur game. Setting the policy to False means users can't play the dinosaur easter egg game when device is offline.\r\n\r\nLeaving the policy unset means users can't play the game on enrolled Google Chrome OS, but can under other circumstances.",
   "baseUri": "./Device/Vendor/MSFT/Policy",
-  "infoUrls": [],
-  "accessTypes": "none",
-  "categoryId": "36c83fb3-c18c-472b-b39e-617c2f8a7fbd",
   "referredSettingInformationList": [],
-  "version": "639054814295167747",
+  "id": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg",
+  "uxBehavior": "toggle",
   "keywords": [
     "AllowDinosaurEasterEgg",
     "Allow Dinosaur Easter Egg Game",
@@ -116,8 +117,7 @@ Leaving the policy unset means users can't play the game on enrolled Google Chro
     "Google Chrome",
     "Both",
     "Software\\Policies\\Google\\Chrome"
-  ],
-  "settingUsage": "configuration"
+  ]
 }
 ```
 

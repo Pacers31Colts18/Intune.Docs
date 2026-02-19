@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 02/18/2026 05:00:47
+**Report Generated:** 02/19/2026 05:00:18
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "publisher": " Joe Loveless",
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "isGlobalScript": false,
+  "description": "ExtensionAttribute2: Organizational Unit of device",
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
+  "remediationScriptContent": "",
+  "deviceHealthScriptType": "deviceHealthScript",
   "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
-  "runAs32Bit": true,
+  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
+  "version": "3",
   "roleScopeTagIds": [
     "0"
   ],
-  "description": "ExtensionAttribute2: Organizational Unit of device",
-  "isGlobalScript": false,
-  "remediationScriptParameters": [],
-  "deviceHealthScriptType": "deviceHealthScript",
   "runAsAccount": "system",
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "remediationScriptContent": "",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "detectionScriptParameters": [],
-  "highestAvailableVersion": null,
   "enforceSignatureCheck": false,
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "version": "3"
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "publisher": " Joe Loveless",
+  "highestAvailableVersion": null,
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "detectionScriptParameters": [],
+  "remediationScriptParameters": [],
+  "runAs32Bit": true,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity"
 }
 ```
 

@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/All_users_and_all_devices.md)
 
-**Report Generated:** 02/19/2026 05:00:23
+**Report Generated:** 02/20/2026 04:54:03
 
 ---
 
@@ -21,18 +21,18 @@
 
 ```json
 {
-  "lastModifiedDateTime": "2025-03-26T00:08:25Z",
-  "@odata.type": "#microsoft.graph.deviceEnrollmentLimitConfiguration",
-  "priority": 0,
+  "displayName": "All users and all devices",
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceEnrollmentConfigurations/$entity",
-  "createdDateTime": "0001-01-01T00:00:00Z",
-  "description": "This is the default Device Limit Restriction applied with the lowest priority to all users regardless of group membership.",
-  "version": 0,
   "roleScopeTagIds": [],
-  "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultLimit",
   "deviceEnrollmentConfigurationType": "limit",
+  "version": 0,
+  "createdDateTime": "0001-01-01T00:00:00Z",
   "limit": 5,
-  "displayName": "All users and all devices"
+  "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultLimit",
+  "priority": 0,
+  "description": "This is the default Device Limit Restriction applied with the lowest priority to all users regardless of group membership.",
+  "@odata.type": "#microsoft.graph.deviceEnrollmentLimitConfiguration",
+  "lastModifiedDateTime": "2025-03-26T00:08:25Z"
 }
 ```
 
@@ -41,83 +41,83 @@
 
 ```json
 {
-  "windowsMobileRestriction": {
-    "platformBlocked": true,
-    "osMaximumVersion": "",
-    "personalDeviceEnrollmentBlocked": false,
-    "blockedManufacturers": [],
-    "blockedSkus": [],
-    "osMinimumVersion": ""
-  },
-  "windowsRestriction": {
-    "platformBlocked": false,
-    "osMaximumVersion": "",
-    "personalDeviceEnrollmentBlocked": false,
-    "blockedManufacturers": [],
-    "blockedSkus": [],
-    "osMinimumVersion": ""
-  },
-  "priority": 0,
+  "roleScopeTagIds": [],
   "macOSRestriction": {
     "platformBlocked": false,
+    "personalDeviceEnrollmentBlocked": false,
+    "osMinimumVersion": null,
+    "blockedSkus": [],
     "osMaximumVersion": null,
-    "personalDeviceEnrollmentBlocked": false,
-    "blockedManufacturers": [],
-    "blockedSkus": [],
-    "osMinimumVersion": null
+    "blockedManufacturers": []
   },
-  "deviceEnrollmentConfigurationType": "platformRestrictions",
-  "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultPlatformRestrictions",
-  "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration",
-  "description": "This is the default Device Type Restriction applied with the lowest priority to all users regardless of group membership.",
-  "visionOSRestriction": null,
-  "displayName": "All users and all devices",
-  "version": 0,
-  "createdDateTime": "0001-01-01T00:00:00Z",
-  "macRestriction": {
-    "platformBlocked": false,
-    "osMaximumVersion": null,
-    "personalDeviceEnrollmentBlocked": false,
-    "blockedManufacturers": [],
-    "blockedSkus": [],
-    "osMinimumVersion": null
-  },
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceEnrollmentConfigurations/$entity",
-  "androidRestriction": {
-    "platformBlocked": false,
-    "osMaximumVersion": "",
-    "personalDeviceEnrollmentBlocked": false,
-    "blockedManufacturers": [],
-    "blockedSkus": [],
-    "osMinimumVersion": ""
-  },
-  "lastModifiedDateTime": "2025-03-26T00:08:25Z",
   "androidForWorkRestriction": {
     "platformBlocked": false,
+    "personalDeviceEnrollmentBlocked": false,
+    "osMinimumVersion": "",
+    "blockedSkus": [],
     "osMaximumVersion": "",
-    "personalDeviceEnrollmentBlocked": false,
-    "blockedManufacturers": [],
-    "blockedSkus": [],
-    "osMinimumVersion": ""
+    "blockedManufacturers": []
   },
-  "tvosRestriction": null,
-  "windowsHomeSkuRestriction": {
+  "macRestriction": {
     "platformBlocked": false,
-    "osMaximumVersion": null,
     "personalDeviceEnrollmentBlocked": false,
-    "blockedManufacturers": [],
+    "osMinimumVersion": null,
     "blockedSkus": [],
-    "osMinimumVersion": null
+    "osMaximumVersion": null,
+    "blockedManufacturers": []
   },
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceEnrollmentConfigurations/$entity",
+  "windowsRestriction": {
+    "platformBlocked": false,
+    "personalDeviceEnrollmentBlocked": false,
+    "osMinimumVersion": "",
+    "blockedSkus": [],
+    "osMaximumVersion": "",
+    "blockedManufacturers": []
+  },
+  "lastModifiedDateTime": "2025-03-26T00:08:25Z",
+  "displayName": "All users and all devices",
+  "androidRestriction": {
+    "platformBlocked": false,
+    "personalDeviceEnrollmentBlocked": false,
+    "osMinimumVersion": "",
+    "blockedSkus": [],
+    "osMaximumVersion": "",
+    "blockedManufacturers": []
+  },
+  "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration",
   "iosRestriction": {
     "platformBlocked": false,
-    "osMaximumVersion": "",
     "personalDeviceEnrollmentBlocked": false,
-    "blockedManufacturers": [],
+    "osMinimumVersion": "",
     "blockedSkus": [],
-    "osMinimumVersion": ""
+    "osMaximumVersion": "",
+    "blockedManufacturers": []
   },
-  "roleScopeTagIds": []
+  "createdDateTime": "0001-01-01T00:00:00Z",
+  "priority": 0,
+  "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultPlatformRestrictions",
+  "windowsMobileRestriction": {
+    "platformBlocked": true,
+    "personalDeviceEnrollmentBlocked": false,
+    "osMinimumVersion": "",
+    "blockedSkus": [],
+    "osMaximumVersion": "",
+    "blockedManufacturers": []
+  },
+  "tvosRestriction": null,
+  "version": 0,
+  "deviceEnrollmentConfigurationType": "platformRestrictions",
+  "visionOSRestriction": null,
+  "windowsHomeSkuRestriction": {
+    "platformBlocked": false,
+    "personalDeviceEnrollmentBlocked": false,
+    "osMinimumVersion": null,
+    "blockedSkus": [],
+    "osMaximumVersion": null,
+    "blockedManufacturers": []
+  },
+  "description": "This is the default Device Type Restriction applied with the lowest priority to all users regardless of group membership."
 }
 ```
 
@@ -126,31 +126,31 @@
 
 ```json
 {
-  "enhancedSignInSecurity": 0,
-  "pinPreviousBlockCount": 0,
-  "description": "This is the default Windows Hello for Business configuration applied with the lowest priority to all users regardless of group membership.",
-  "pinMaximumLength": 127,
   "securityDeviceRequired": false,
-  "pinLowercaseCharactersUsage": "disallowed",
   "displayName": "All users and all devices",
-  "version": 0,
-  "pinMinimumLength": 6,
-  "deviceEnrollmentConfigurationType": "windowsHelloForBusiness",
-  "enhancedBiometricsState": "notConfigured",
-  "pinUppercaseCharactersUsage": "disallowed",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceEnrollmentConfigurations/$entity",
-  "unlockWithBiometricsEnabled": true,
-  "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultWindowsHelloForBusiness",
-  "remotePassportEnabled": true,
-  "pinSpecialCharactersUsage": "disallowed",
-  "@odata.type": "#microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration",
-  "roleScopeTagIds": [],
-  "state": "notConfigured",
-  "createdDateTime": "0001-01-01T00:00:00Z",
-  "pinExpirationInDays": 0,
-  "lastModifiedDateTime": "2025-03-26T00:08:25Z",
   "securityKeyForSignIn": "notConfigured",
-  "priority": 0
+  "deviceEnrollmentConfigurationType": "windowsHelloForBusiness",
+  "description": "This is the default Windows Hello for Business configuration applied with the lowest priority to all users regardless of group membership.",
+  "version": 0,
+  "pinMaximumLength": 127,
+  "enhancedSignInSecurity": 0,
+  "pinUppercaseCharactersUsage": "disallowed",
+  "lastModifiedDateTime": "2025-03-26T00:08:25Z",
+  "pinMinimumLength": 6,
+  "state": "notConfigured",
+  "priority": 0,
+  "enhancedBiometricsState": "notConfigured",
+  "pinLowercaseCharactersUsage": "disallowed",
+  "pinExpirationInDays": 0,
+  "unlockWithBiometricsEnabled": true,
+  "remotePassportEnabled": true,
+  "@odata.type": "#microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceEnrollmentConfigurations/$entity",
+  "roleScopeTagIds": [],
+  "createdDateTime": "0001-01-01T00:00:00Z",
+  "pinSpecialCharactersUsage": "disallowed",
+  "pinPreviousBlockCount": 0,
+  "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultWindowsHelloForBusiness"
 }
 ```
 
@@ -159,29 +159,29 @@
 
 ```json
 {
-  "allowNonBlockingAppInstallation": false,
-  "showInstallationProgress": false,
-  "description": "This is the default enrollment status screen configuration applied with the lowest priority to all users and all devices regardless of group membership.",
-  "selectedMobileAppIds": [],
-  "trackInstallProgressForAutopilotOnly": false,
   "displayName": "All users and all devices",
-  "version": 0,
-  "deviceEnrollmentConfigurationType": "windows10EnrollmentCompletionPageConfiguration",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceEnrollmentConfigurations/$entity",
-  "allowLogCollectionOnInstallFailure": false,
-  "installQualityUpdates": false,
-  "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultWindows10EnrollmentCompletionPageConfiguration",
   "installProgressTimeoutInMinutes": 0,
-  "@odata.type": "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
-  "roleScopeTagIds": [],
-  "allowDeviceResetOnInstallFailure": false,
-  "createdDateTime": "0001-01-01T00:00:00Z",
-  "blockDeviceSetupRetryByUser": true,
-  "disableUserStatusTrackingAfterFirstUser": false,
+  "deviceEnrollmentConfigurationType": "windows10EnrollmentCompletionPageConfiguration",
+  "description": "This is the default enrollment status screen configuration applied with the lowest priority to all users and all devices regardless of group membership.",
+  "version": 0,
+  "installQualityUpdates": false,
   "lastModifiedDateTime": "2025-03-26T00:08:25Z",
-  "customErrorMessage": "",
+  "trackInstallProgressForAutopilotOnly": false,
+  "blockDeviceSetupRetryByUser": true,
   "priority": 0,
-  "allowDeviceUseOnInstallFailure": false
+  "allowDeviceUseOnInstallFailure": false,
+  "allowLogCollectionOnInstallFailure": false,
+  "allowDeviceResetOnInstallFailure": false,
+  "showInstallationProgress": false,
+  "disableUserStatusTrackingAfterFirstUser": false,
+  "customErrorMessage": "",
+  "@odata.type": "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
+  "allowNonBlockingAppInstallation": false,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceEnrollmentConfigurations/$entity",
+  "roleScopeTagIds": [],
+  "createdDateTime": "0001-01-01T00:00:00Z",
+  "selectedMobileAppIds": [],
+  "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultWindows10EnrollmentCompletionPageConfiguration"
 }
 ```
 
@@ -190,18 +190,18 @@
 
 ```json
 {
-  "lastModifiedDateTime": "2025-03-26T00:08:25Z",
-  "@odata.type": "#microsoft.graph.windowsRestoreDeviceEnrollmentConfiguration",
-  "priority": 0,
+  "displayName": "All users and all devices",
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceEnrollmentConfigurations/$entity",
-  "createdDateTime": "0001-01-01T00:00:00Z",
-  "description": "This is the default Windows Restore configuration applied with the lowest priority to all users and all devices regardless of group membership.",
-  "version": 0,
   "roleScopeTagIds": [],
-  "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_WindowsRestore",
   "deviceEnrollmentConfigurationType": "windowsRestore",
+  "version": 0,
+  "createdDateTime": "0001-01-01T00:00:00Z",
+  "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_WindowsRestore",
+  "priority": 0,
+  "description": "This is the default Windows Restore configuration applied with the lowest priority to all users and all devices regardless of group membership.",
   "state": "notConfigured",
-  "displayName": "All users and all devices"
+  "@odata.type": "#microsoft.graph.windowsRestoreDeviceEnrollmentConfiguration",
+  "lastModifiedDateTime": "2025-03-26T00:08:25Z"
 }
 ```
 

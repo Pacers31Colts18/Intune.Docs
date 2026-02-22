@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 02/21/2026 04:43:42
+**Report Generated:** 02/22/2026 04:56:41
 
 ---
 
 ```json
 {
+  "enableWhiteGlove": false,
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
   "outOfBoxExperienceSetting": {
-    "escapeLinkHidden": true,
     "keyboardSelectionPageSkipped": true,
     "privacySettingsHidden": true,
+    "deviceUsageType": "singleUser",
+    "escapeLinkHidden": true,
     "eulaHidden": true,
-    "deviceUsageType": "singleUser",
     "userType": "standard"
   },
-  "locale": "os-default",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
   "enrollmentStatusScreenSettings": null,
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "extractHardwareHash": true,
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "managementServiceAppId": null,
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
   "outOfBoxExperienceSettings": {
+    "userType": "standard",
     "hidePrivacySettings": true,
-    "hideEULA": true,
-    "skipKeyboardSelectionPage": true,
-    "hideEscapeLink": true,
     "deviceUsageType": "singleUser",
-    "userType": "standard"
+    "hideEscapeLink": true,
+    "skipKeyboardSelectionPage": true,
+    "hideEULA": true
   },
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "locale": "os-default",
+  "deviceType": "windowsPc",
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
   "roleScopeTagIds": [
     "0"
   ],
-  "managementServiceAppId": null,
-  "hardwareHashExtractionEnabled": true,
-  "deviceType": "windowsPc",
-  "deviceNameTemplate": "JL-%SERIAL%",
-  "language": "os-default",
   "preprovisioningAllowed": false,
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "enableWhiteGlove": false,
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
-  "description": ""
+  "hardwareHashExtractionEnabled": true,
+  "description": "",
+  "extractHardwareHash": true,
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "deviceNameTemplate": "JL-%SERIAL%",
+  "language": "os-default"
 }
 ```
 

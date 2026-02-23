@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 02/22/2026 04:56:40
+**Report Generated:** 02/23/2026 05:05:40
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "enforceSignatureCheck": false,
-  "highestAvailableVersion": null,
   "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "version": "3",
-  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "remediationScriptContent": "",
-  "publisher": " Joe Loveless",
-  "remediationScriptParameters": [],
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
-  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
   "runAs32Bit": true,
+  "remediationScriptParameters": [],
   "deviceHealthScriptType": "deviceHealthScript",
-  "description": "ExtensionAttribute2: Organizational Unit of device",
-  "runAsAccount": "system",
   "roleScopeTagIds": [
     "0"
   ],
+  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
+  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
+  "runAsAccount": "system",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "description": "ExtensionAttribute2: Organizational Unit of device",
+  "highestAvailableVersion": null,
+  "publisher": " Joe Loveless",
   "detectionScriptParameters": [],
-  "isGlobalScript": false
+  "isGlobalScript": false,
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "remediationScriptContent": "",
+  "enforceSignatureCheck": false,
+  "version": "3",
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z"
 }
 ```
 

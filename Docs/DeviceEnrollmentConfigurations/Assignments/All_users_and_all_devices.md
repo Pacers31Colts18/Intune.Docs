@@ -2,7 +2,7 @@
 
 **Policy ID:** 636b62ee-ef57-4f54-a1f3-0046fafc9c11_WindowsRestore
 
-**Report Generated:** 02/22/2026 04:56:50
+**Report Generated:** 02/23/2026 05:05:54
 
 ---
 
@@ -14,13 +14,13 @@
 
 ```json
 {
-  "sourceId": null,
-  "source": "direct",
   "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultLimit",
+  "sourceId": null,
+  "source": "direct",
   "target": {
+    "deviceAndAppManagementAssignmentFilterType": "none",
     "deviceAndAppManagementAssignmentFilterId": null,
-    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
-    "deviceAndAppManagementAssignmentFilterType": "none"
+    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
   }
 }
 ```
@@ -31,13 +31,13 @@
 
 ```json
 {
-  "sourceId": null,
-  "source": "direct",
   "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultPlatformRestrictions",
+  "sourceId": null,
+  "source": "direct",
   "target": {
+    "deviceAndAppManagementAssignmentFilterType": "none",
     "deviceAndAppManagementAssignmentFilterId": null,
-    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
-    "deviceAndAppManagementAssignmentFilterType": "none"
+    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
   }
 }
 ```
@@ -48,13 +48,13 @@
 
 ```json
 {
-  "sourceId": null,
-  "source": "direct",
   "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultWindowsHelloForBusiness",
+  "sourceId": null,
+  "source": "direct",
   "target": {
+    "deviceAndAppManagementAssignmentFilterType": "none",
     "deviceAndAppManagementAssignmentFilterId": null,
-    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
-    "deviceAndAppManagementAssignmentFilterType": "none"
+    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
   }
 }
 ```
@@ -65,13 +65,13 @@
 
 ```json
 {
-  "sourceId": null,
-  "source": "direct",
   "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultWindows10EnrollmentCompletionPageConfiguration",
+  "sourceId": null,
+  "source": "direct",
   "target": {
+    "deviceAndAppManagementAssignmentFilterType": "none",
     "deviceAndAppManagementAssignmentFilterId": null,
-    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
-    "deviceAndAppManagementAssignmentFilterType": "none"
+    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
   }
 }
 ```
@@ -82,13 +82,13 @@
 
 ```json
 {
+  "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_WindowsRestore",
   "sourceId": null,
   "source": "direct",
-  "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_WindowsRestore",
   "target": {
+    "deviceAndAppManagementAssignmentFilterType": "none",
     "deviceAndAppManagementAssignmentFilterId": null,
-    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
-    "deviceAndAppManagementAssignmentFilterType": "none"
+    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
   }
 }
 ```

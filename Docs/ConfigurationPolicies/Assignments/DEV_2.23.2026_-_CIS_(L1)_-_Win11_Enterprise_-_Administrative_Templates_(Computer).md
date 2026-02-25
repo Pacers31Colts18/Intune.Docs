@@ -1,28 +1,47 @@
 # DEV_2.23.2026_-_CIS_(L1)_-_Win11_Enterprise_-_Administrative_Templates_(Computer)
 
-**Policy ID:** e37df62b-b09c-474f-ac2a-7c02b2b4a4ce
+**Policy ID:** f26e7d41-6d42-4a5c-8262-18c6281c9b7c
 
-**Report Generated:** 02/24/2026 04:59:20
+**Report Generated:** 02/25/2026 05:00:46
 
 ---
 
 ## Include Assignments
 
-### JoeLoveless-WIN-DD-Wave1
+### All Devices
 
-**Group ID:** 29b45ab4-dcd6-438b-b750-2b5c21554f56
+**Group ID:** adadadad-808e-44e2-905a-0b7873a8a531
 
 ```json
 {
+  "source": "direct",
+  "id": "f26e7d41-6d42-4a5c-8262-18c6281c9b7c_adadadad-808e-44e2-905a-0b7873a8a531",
+  "sourceId": "f26e7d41-6d42-4a5c-8262-18c6281c9b7c",
   "target": {
+    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none",
+    "deviceAndAppManagementAssignmentFilterId": null
+  }
+}
+```
+
+## Exclude Assignments
+
+### Dept-IndianaPacers
+
+**Group ID:** caaaa83f-34d5-4445-befd-69ff875679fb
+
+```json
+{
+  "source": "direct",
+  "id": "f26e7d41-6d42-4a5c-8262-18c6281c9b7c_caaaa83f-34d5-4445-befd-69ff875679fb",
+  "sourceId": "f26e7d41-6d42-4a5c-8262-18c6281c9b7c",
+  "target": {
+    "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none",
     "deviceAndAppManagementAssignmentFilterId": null,
-    "@odata.type": "#microsoft.graph.groupAssignmentTarget",
-    "groupId": "29b45ab4-dcd6-438b-b750-2b5c21554f56"
-  },
-  "id": "e37df62b-b09c-474f-ac2a-7c02b2b4a4ce_29b45ab4-dcd6-438b-b750-2b5c21554f56",
-  "source": "direct",
-  "sourceId": "e37df62b-b09c-474f-ac2a-7c02b2b4a4ce"
+    "groupId": "caaaa83f-34d5-4445-befd-69ff875679fb"
+  }
 }
 ```
 

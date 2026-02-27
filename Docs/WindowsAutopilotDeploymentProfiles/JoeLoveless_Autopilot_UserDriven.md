@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 02/26/2026 04:57:55
+**Report Generated:** 02/27/2026 04:52:31
 
 ---
 
 ```json
 {
-  "roleScopeTagIds": [
-    "0"
-  ],
-  "locale": "os-default",
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "deviceNameTemplate": "JL-%SERIAL%",
   "deviceType": "windowsPc",
-  "managementServiceAppId": null,
-  "hardwareHashExtractionEnabled": true,
-  "enrollmentStatusScreenSettings": null,
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "extractHardwareHash": true,
-  "description": "",
-  "outOfBoxExperienceSettings": {
-    "hidePrivacySettings": true,
-    "hideEULA": true,
-    "hideEscapeLink": true,
-    "skipKeyboardSelectionPage": true,
-    "userType": "standard",
-    "deviceUsageType": "singleUser"
-  },
-  "preprovisioningAllowed": false,
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
   "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
   "language": "os-default",
-  "deviceNameTemplate": "JL-%SERIAL%",
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "extractHardwareHash": true,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "preprovisioningAllowed": false,
+  "locale": "os-default",
+  "enrollmentStatusScreenSettings": null,
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "managementServiceAppId": null,
+  "enableWhiteGlove": false,
   "outOfBoxExperienceSetting": {
-    "privacySettingsHidden": true,
-    "eulaHidden": true,
+    "keyboardSelectionPageSkipped": true,
     "escapeLinkHidden": true,
     "userType": "standard",
     "deviceUsageType": "singleUser",
-    "keyboardSelectionPageSkipped": true
+    "privacySettingsHidden": true,
+    "eulaHidden": true
   },
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "enableWhiteGlove": false
+  "description": "",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "outOfBoxExperienceSettings": {
+    "skipKeyboardSelectionPage": true,
+    "hidePrivacySettings": true,
+    "hideEULA": true,
+    "userType": "standard",
+    "deviceUsageType": "singleUser",
+    "hideEscapeLink": true
+  },
+  "hardwareHashExtractionEnabled": true
 }
 ```
 

@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/CIS_(L1)_-_Win11_Enterprise_-_Local_Policies.md)
 
-**Report Generated:** 02/27/2026 04:52:14
+**Report Generated:** 02/28/2026 04:20:53
 
 ---
 
@@ -25,54 +25,97 @@
 
 ```json
 {
+  "name": "Deny all domain accounts",
   "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_outgoingntlmtraffictoremoteservers_1",
-  "description": "Deny all domain accounts",
+  "displayName": "Deny all domain accounts",
+  "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
   "helpText": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
-  "displayName": "Deny all domain accounts",
-  "name": "Deny all domain accounts"
+  "description": "Deny all domain accounts",
+  "dependedOnBy": []
 }
 ```
 
 ## Setting Definition
 ```json
 {
-  "displayName": "Network Security Restrict NTLM Outgoing NTLM Traffic To Remote Servers",
-  "occurrence": {
-    "minDeviceOccurrence": 0,
-    "maxDeviceOccurrence": 1
-  },
-  "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_RestrictNTLM_OutgoingNTLMTrafficToRemoteServers",
-  "riskLevel": "low",
-  "referredSettingInformationList": [],
-  "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_outgoingntlmtraffictoremoteservers",
+  "name": "NetworkSecurity_RestrictNTLM_OutgoingNTLMTrafficToRemoteServers",
   "version": "639071089168460158",
-  "uxBehavior": "default",
+  "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_RestrictNTLM_OutgoingNTLMTrafficToRemoteServers",
+  "description": "Network security: Restrict NTLM: Outgoing NTLM traffic to remote servers  This policy setting allows you to deny or audit outgoing NTLM traffic from this Windows 7 or this Windows Server 2008 R2 computer to any Windows remote server.  If you select \"Allow all\" or do not configure this policy setting, the client computer can authenticate identities to a remote server by using NTLM authentication.  If you select \"Audit all,\" the client computer logs an event for each NTLM authentication request to a remote server. This allows you to identify those servers receiving NTLM authentication requests from the client computer.  If you select \"Deny all,\" the client computer cannot authenticate identities to a remote server by using NTLM authentication. You can use the \"Network security: Restrict NTLM: Add remote server exceptions for NTLM authentication\" policy setting to define a list of remote servers to which clients are allowed to use NTLM authentication.  This policy is supported on at least Windows 7 or Windows Server 2008 R2.  Note: Audit and block events are recorded on this computer in the \"Operational\" Log located under the Applications and Services Log/Microsoft/Windows/NTLM.",
+  "helpText": "",
+  "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_outgoingntlmtraffictoremoteservers",
+  "settingUsage": "configuration",
+  "occurrence": {
+    "maxDeviceOccurrence": 1,
+    "minDeviceOccurrence": 0
+  },
+  "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+  "accessTypes": "add,delete,get,replace",
   "infoUrls": [
     "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_restrictntlm_outgoingntlmtraffictoremoteservers"
   ],
+  "riskLevel": "low",
+  "visibility": "settingsCatalog,template",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-  "accessTypes": "add,delete,get,replace",
-  "baseUri": "./Device/Vendor/MSFT/Policy",
-  "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_outgoingntlmtraffictoremoteservers",
-  "description": "Network security: Restrict NTLM: Outgoing NTLM traffic to remote servers  This policy setting allows you to deny or audit outgoing NTLM traffic from this Windows 7 or this Windows Server 2008 R2 computer to any Windows remote server.  If you select \"Allow all\" or do not configure this policy setting, the client computer can authenticate identities to a remote server by using NTLM authentication.  If you select \"Audit all,\" the client computer logs an event for each NTLM authentication request to a remote server. This allows you to identify those servers receiving NTLM authentication requests from the client computer.  If you select \"Deny all,\" the client computer cannot authenticate identities to a remote server by using NTLM authentication. You can use the \"Network security: Restrict NTLM: Add remote server exceptions for NTLM authentication\" policy setting to define a list of remote servers to which clients are allowed to use NTLM authentication.  This policy is supported on at least Windows 7 or Windows Server 2008 R2.  Note: Audit and block events are recorded on this computer in the \"Operational\" Log located under the Applications and Services Log/Microsoft/Windows/NTLM.",
-  "name": "NetworkSecurity_RestrictNTLM_OutgoingNTLMTrafficToRemoteServers",
+  "uxBehavior": "default",
+  "keywords": [
+    "Network Security Restrict NTLM Outgoing NTLM Traffic To Remote Servers",
+    "Local Policies Security Options"
+  ],
+  "displayName": "Network Security Restrict NTLM Outgoing NTLM Traffic To Remote Servers",
+  "referredSettingInformationList": [],
+  "options": [
+    {
+      "name": "Allow all",
+      "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_outgoingntlmtraffictoremoteservers_0",
+      "displayName": "Allow all",
+      "dependentOn": [],
+      "optionValue": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null,
+        "value": 0
+      },
+      "helpText": null,
+      "description": "Allow all",
+      "dependedOnBy": []
+    },
+    {
+      "name": "Deny all domain accounts",
+      "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_outgoingntlmtraffictoremoteservers_1",
+      "displayName": "Deny all domain accounts",
+      "dependentOn": [],
+      "optionValue": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null,
+        "value": 1
+      },
+      "helpText": null,
+      "description": "Deny all domain accounts",
+      "dependedOnBy": []
+    },
+    {
+      "name": "Deny all accounts",
+      "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_outgoingntlmtraffictoremoteservers_2",
+      "displayName": "Deny all accounts",
+      "dependentOn": [],
+      "optionValue": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null,
+        "value": 2
+      },
+      "helpText": null,
+      "description": "Deny all accounts",
+      "dependedOnBy": []
+    }
+  ],
   "applicability": {
-    "configurationServiceProviderVersion": "7.0",
     "requiredAzureAdTrustType": "none",
-    "minimumSupportedVersion": "10.0.17134",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "maximumSupportedVersion": null,
-    "deviceMode": "none",
-    "description": null,
-    "technologies": "mdm",
-    "platform": "windows10",
     "windowsSkus": [
       "windowsEnterprise",
       "windowsProfessional",
@@ -84,61 +127,18 @@
       "iotEnterpriseSEval",
       "windowsCPC"
     ],
-    "requiresAzureAd": false
+    "maximumSupportedVersion": null,
+    "platform": "windows10",
+    "requiresAzureAd": false,
+    "configurationServiceProviderVersion": "7.0",
+    "minimumSupportedVersion": "10.0.17134",
+    "deviceMode": "none",
+    "technologies": "mdm",
+    "description": null
   },
+  "baseUri": "./Device/Vendor/MSFT/Policy",
   "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_outgoingntlmtraffictoremoteservers_0",
-  "keywords": [
-    "Network Security Restrict NTLM Outgoing NTLM Traffic To Remote Servers",
-    "Local Policies Security Options"
-  ],
-  "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-  "helpText": "",
-  "visibility": "settingsCatalog,template",
-  "options": [
-    {
-      "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_outgoingntlmtraffictoremoteservers_0",
-      "description": "Allow all",
-      "optionValue": {
-        "value": 0,
-        "settingValueTemplateReference": null,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-      },
-      "helpText": null,
-      "dependentOn": [],
-      "dependedOnBy": [],
-      "displayName": "Allow all",
-      "name": "Allow all"
-    },
-    {
-      "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_outgoingntlmtraffictoremoteservers_1",
-      "description": "Deny all domain accounts",
-      "optionValue": {
-        "value": 1,
-        "settingValueTemplateReference": null,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-      },
-      "helpText": null,
-      "dependentOn": [],
-      "dependedOnBy": [],
-      "displayName": "Deny all domain accounts",
-      "name": "Deny all domain accounts"
-    },
-    {
-      "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_outgoingntlmtraffictoremoteservers_2",
-      "description": "Deny all accounts",
-      "optionValue": {
-        "value": 2,
-        "settingValueTemplateReference": null,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-      },
-      "helpText": null,
-      "dependentOn": [],
-      "dependedOnBy": [],
-      "displayName": "Deny all accounts",
-      "name": "Deny all accounts"
-    }
-  ],
-  "settingUsage": "configuration"
+  "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_outgoingntlmtraffictoremoteservers"
 }
 ```
 

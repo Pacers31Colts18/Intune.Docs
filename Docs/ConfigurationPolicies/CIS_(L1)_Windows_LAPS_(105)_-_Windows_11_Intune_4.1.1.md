@@ -1,6 +1,6 @@
-# CIS_(L1)_Windows_LAPS_(105)_-_Windows_11_Intune_4.0.0
+# CIS_(L1)_Windows_LAPS_(105)_-_Windows_11_Intune_4.1.1
 
-**Policy ID:** 44eb15b9-da49-4ca0-8ec6-351000ceb4dc
+**Policy ID:** 710589a7-4423-4353-9656-90ffc0d5e7bf
 
 **Description:** 
 
@@ -8,7 +8,7 @@
 
 **Technologies:** mdm
 
-[**Assignments**](./Assignments/CIS_(L1)_Windows_LAPS_(105)_-_Windows_11_Intune_4.0.0.md)
+[**Assignments**](./Assignments/CIS_(L1)_Windows_LAPS_(105)_-_Windows_11_Intune_4.1.1.md)
 
 **Report Generated:** 03/04/2026 04:47:31
 

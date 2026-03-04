@@ -10,19 +10,9 @@
 
 [**Assignments**](./Assignments/Default_compliance_policy_for_Android.md)
 
-**Report Generated:** 03/03/2026 04:53:53
+**Report Generated:** 03/04/2026 04:47:49
 
 ---
-
-## requiredPasswordComplexity
-
-**Value:** none
-
-```json
-{
-  "requiredPasswordComplexity": "none"
-}
-```
 
 ## passwordRequiredType
 
@@ -31,6 +21,16 @@
 ```json
 {
   "passwordRequiredType": "deviceDefault"
+}
+```
+
+## requiredPasswordComplexity
+
+**Value:** none
+
+```json
+{
+  "requiredPasswordComplexity": "none"
 }
 ```
 

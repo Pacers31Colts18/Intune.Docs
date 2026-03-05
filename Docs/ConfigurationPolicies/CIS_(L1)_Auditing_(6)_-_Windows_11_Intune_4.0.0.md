@@ -39,7 +39,7 @@
 
 [**Assignments**](./Assignments/CIS_(L1)_Auditing_(6)_-_Windows_11_Intune_4.0.0.md)
 
-**Report Generated:** 03/04/2026 04:47:29
+**Report Generated:** 03/05/2026 04:52:33
 
 ---
 
@@ -54,17 +54,17 @@
 
 ```json
 {
+  "name": "Success+Failure",
   "optionValue": {
-    "value": 3,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 3,
     "settingValueTemplateReference": null
   },
-  "name": "Success+Failure",
-  "helpText": null,
-  "displayName": "Success+ Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_3",
-  "dependentOn": [],
+  "displayName": "Success+ Failure",
+  "helpText": null,
   "description": "Success+Failure"
 }
 ```
@@ -79,17 +79,17 @@
 
 ```json
 {
+  "name": "Failure",
   "optionValue": {
-    "value": 2,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 2,
     "settingValueTemplateReference": null
   },
-  "name": "Failure",
-  "helpText": null,
-  "displayName": "Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout_2",
-  "dependentOn": [],
+  "displayName": "Failure",
+  "helpText": null,
   "description": "Failure"
 }
 ```
@@ -104,17 +104,17 @@
 
 ```json
 {
+  "name": "Success",
   "optionValue": {
-    "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
     "settingValueTemplateReference": null
   },
-  "name": "Success",
-  "helpText": null,
-  "displayName": "Success",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership_1",
-  "dependentOn": [],
+  "displayName": "Success",
+  "helpText": null,
   "description": "Success"
 }
 ```
@@ -129,17 +129,17 @@
 
 ```json
 {
+  "name": "Success",
   "optionValue": {
-    "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
     "settingValueTemplateReference": null
   },
-  "name": "Success",
-  "helpText": null,
-  "displayName": "Success",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff_1",
-  "dependentOn": [],
+  "displayName": "Success",
+  "helpText": null,
   "description": "Success"
 }
 ```
@@ -154,17 +154,17 @@
 
 ```json
 {
+  "name": "Success+Failure",
   "optionValue": {
-    "value": 3,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 3,
     "settingValueTemplateReference": null
   },
-  "name": "Success+Failure",
-  "helpText": null,
-  "displayName": "Success+ Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon_3",
-  "dependentOn": [],
+  "displayName": "Success+ Failure",
+  "helpText": null,
   "description": "Success+Failure"
 }
 ```
@@ -179,17 +179,17 @@
 
 ```json
 {
+  "name": "Success+Failure",
   "optionValue": {
-    "value": 3,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 3,
     "settingValueTemplateReference": null
   },
-  "name": "Success+Failure",
-  "helpText": null,
-  "displayName": "Success+ Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditapplicationgroupmanagement_3",
-  "dependentOn": [],
+  "displayName": "Success+ Failure",
+  "helpText": null,
   "description": "Success+Failure"
 }
 ```
@@ -204,17 +204,17 @@
 
 ```json
 {
+  "name": "Success",
   "optionValue": {
-    "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
     "settingValueTemplateReference": null
   },
-  "name": "Success",
-  "helpText": null,
-  "displayName": "Success",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthenticationpolicychange_1",
-  "dependentOn": [],
+  "displayName": "Success",
+  "helpText": null,
   "description": "Success"
 }
 ```
@@ -229,17 +229,17 @@
 
 ```json
 {
+  "name": "Success",
   "optionValue": {
-    "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
     "settingValueTemplateReference": null
   },
-  "name": "Success",
-  "helpText": null,
-  "displayName": "Success",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthorizationpolicychange_1",
-  "dependentOn": [],
+  "displayName": "Success",
+  "helpText": null,
   "description": "Success"
 }
 ```
@@ -254,17 +254,17 @@
 
 ```json
 {
+  "name": "Success",
   "optionValue": {
-    "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
     "settingValueTemplateReference": null
   },
-  "name": "Success",
-  "helpText": null,
-  "displayName": "Success",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_policychange_auditpolicychange_1",
-  "dependentOn": [],
+  "displayName": "Success",
+  "helpText": null,
   "description": "Success"
 }
 ```
@@ -279,17 +279,17 @@
 
 ```json
 {
+  "name": "Success+Failure",
   "optionValue": {
-    "value": 3,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 3,
     "settingValueTemplateReference": null
   },
-  "name": "Success+Failure",
-  "helpText": null,
-  "displayName": "Success+Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditfileshare_3",
-  "dependentOn": [],
+  "displayName": "Success+Failure",
+  "helpText": null,
   "description": "Success+Failure"
 }
 ```
@@ -304,17 +304,17 @@
 
 ```json
 {
+  "name": "Success+Failure",
   "optionValue": {
-    "value": 3,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 3,
     "settingValueTemplateReference": null
   },
-  "name": "Success+Failure",
-  "helpText": null,
-  "displayName": "Success+Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditotherlogonlogoffevents_3",
-  "dependentOn": [],
+  "displayName": "Success+Failure",
+  "helpText": null,
   "description": "Success+Failure"
 }
 ```
@@ -329,17 +329,17 @@
 
 ```json
 {
+  "name": "Success",
   "optionValue": {
-    "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
     "settingValueTemplateReference": null
   },
-  "name": "Success",
-  "helpText": null,
-  "displayName": "Success",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditsecuritygroupmanagement_1",
-  "dependentOn": [],
+  "displayName": "Success",
+  "helpText": null,
   "description": "Success"
 }
 ```
@@ -354,17 +354,17 @@
 
 ```json
 {
+  "name": "Success",
   "optionValue": {
-    "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
     "settingValueTemplateReference": null
   },
-  "name": "Success",
-  "helpText": null,
-  "displayName": "Success",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritysystemextension_1",
-  "dependentOn": [],
+  "displayName": "Success",
+  "helpText": null,
   "description": "Success"
 }
 ```
@@ -379,17 +379,17 @@
 
 ```json
 {
+  "name": "Success",
   "optionValue": {
-    "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
     "settingValueTemplateReference": null
   },
-  "name": "Success",
-  "helpText": null,
-  "displayName": "Success",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditspeciallogon_1",
-  "dependentOn": [],
+  "displayName": "Success",
+  "helpText": null,
   "description": "Success"
 }
 ```
@@ -404,17 +404,17 @@
 
 ```json
 {
+  "name": "Success+Failure",
   "optionValue": {
-    "value": 3,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 3,
     "settingValueTemplateReference": null
   },
-  "name": "Success+Failure",
-  "helpText": null,
-  "displayName": "Success+Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_audituseraccountmanagement_3",
-  "dependentOn": [],
+  "displayName": "Success+Failure",
+  "helpText": null,
   "description": "Success+Failure"
 }
 ```
@@ -429,17 +429,17 @@
 
 ```json
 {
+  "name": "Success",
   "optionValue": {
-    "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
     "settingValueTemplateReference": null
   },
-  "name": "Success",
-  "helpText": null,
-  "displayName": "Success",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditpnpactivity_1",
-  "dependentOn": [],
+  "displayName": "Success",
+  "helpText": null,
   "description": "Success"
 }
 ```
@@ -454,17 +454,17 @@
 
 ```json
 {
+  "name": "Success",
   "optionValue": {
-    "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
     "settingValueTemplateReference": null
   },
-  "name": "Success",
-  "helpText": null,
-  "displayName": "Success",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditprocesscreation_1",
-  "dependentOn": [],
+  "displayName": "Success",
+  "helpText": null,
   "description": "Success"
 }
 ```
@@ -479,17 +479,17 @@
 
 ```json
 {
+  "name": "Failure",
   "optionValue": {
-    "value": 2,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 2,
     "settingValueTemplateReference": null
   },
-  "name": "Failure",
-  "helpText": null,
-  "displayName": "Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditdetailedfileshare_2",
-  "dependentOn": [],
+  "displayName": "Failure",
+  "helpText": null,
   "description": "Failure"
 }
 ```
@@ -504,17 +504,17 @@
 
 ```json
 {
+  "name": "Success+Failure",
   "optionValue": {
-    "value": 3,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 3,
     "settingValueTemplateReference": null
   },
-  "name": "Success+Failure",
-  "helpText": null,
-  "displayName": "Success+ Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditotherobjectaccessevents_3",
-  "dependentOn": [],
+  "displayName": "Success+ Failure",
+  "helpText": null,
   "description": "Success+Failure"
 }
 ```
@@ -529,17 +529,17 @@
 
 ```json
 {
+  "name": "Success+Failure",
   "optionValue": {
-    "value": 3,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 3,
     "settingValueTemplateReference": null
   },
-  "name": "Success+Failure",
-  "helpText": null,
-  "displayName": "Success+ Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditremovablestorage_3",
-  "dependentOn": [],
+  "displayName": "Success+ Failure",
+  "helpText": null,
   "description": "Success+Failure"
 }
 ```
@@ -554,17 +554,17 @@
 
 ```json
 {
+  "name": "Success+Failure",
   "optionValue": {
-    "value": 3,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 3,
     "settingValueTemplateReference": null
   },
-  "name": "Success+Failure",
-  "helpText": null,
-  "displayName": "Success+ Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_policychange_auditmpssvcrulelevelpolicychange_3",
-  "dependentOn": [],
+  "displayName": "Success+ Failure",
+  "helpText": null,
   "description": "Success+Failure"
 }
 ```
@@ -579,17 +579,17 @@
 
 ```json
 {
+  "name": "Failure",
   "optionValue": {
-    "value": 2,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 2,
     "settingValueTemplateReference": null
   },
-  "name": "Failure",
-  "helpText": null,
-  "displayName": "Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_policychange_auditotherpolicychangeevents_2",
-  "dependentOn": [],
+  "displayName": "Failure",
+  "helpText": null,
   "description": "Failure"
 }
 ```
@@ -604,17 +604,17 @@
 
 ```json
 {
+  "name": "Success+Failure",
   "optionValue": {
-    "value": 3,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 3,
     "settingValueTemplateReference": null
   },
-  "name": "Success+Failure",
-  "helpText": null,
-  "displayName": "Success+ Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_privilegeuse_auditsensitiveprivilegeuse_3",
-  "dependentOn": [],
+  "displayName": "Success+ Failure",
+  "helpText": null,
   "description": "Success+Failure"
 }
 ```
@@ -629,17 +629,17 @@
 
 ```json
 {
+  "name": "Success+Failure",
   "optionValue": {
-    "value": 3,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 3,
     "settingValueTemplateReference": null
   },
-  "name": "Success+Failure",
-  "helpText": null,
-  "displayName": "Success+ Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_system_auditipsecdriver_3",
-  "dependentOn": [],
+  "displayName": "Success+ Failure",
+  "helpText": null,
   "description": "Success+Failure"
 }
 ```
@@ -654,17 +654,17 @@
 
 ```json
 {
+  "name": "Success+Failure",
   "optionValue": {
-    "value": 3,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 3,
     "settingValueTemplateReference": null
   },
-  "name": "Success+Failure",
-  "helpText": null,
-  "displayName": "Success+ Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_system_auditothersystemevents_3",
-  "dependentOn": [],
+  "displayName": "Success+ Failure",
+  "helpText": null,
   "description": "Success+Failure"
 }
 ```
@@ -679,17 +679,17 @@
 
 ```json
 {
+  "name": "Success",
   "optionValue": {
-    "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
     "settingValueTemplateReference": null
   },
-  "name": "Success",
-  "helpText": null,
-  "displayName": "Success",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritystatechange_1",
-  "dependentOn": [],
+  "displayName": "Success",
+  "helpText": null,
   "description": "Success"
 }
 ```
@@ -704,17 +704,17 @@
 
 ```json
 {
+  "name": "Success+Failure",
   "optionValue": {
-    "value": 3,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 3,
     "settingValueTemplateReference": null
   },
-  "name": "Success+Failure",
-  "helpText": null,
-  "displayName": "Success+ Failure",
+  "dependentOn": [],
   "dependedOnBy": [],
   "itemId": "device_vendor_msft_policy_config_audit_system_auditsystemintegrity_3",
-  "dependentOn": [],
+  "displayName": "Success+ Failure",
+  "helpText": null,
   "description": "Success+Failure"
 }
 ```
@@ -723,97 +723,134 @@
 ```json
 [
   {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Account Logon Audit Credential Validation",
-    "offsetUri": "/Config/Audit/AccountLogon_AuditCredentialValidation",
-    "name": "AccountLogon_AuditCredentialValidation",
-    "defaultOptionId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated by validation tests on user account logon credentials.  Events in this subcategory occur only on the computer that is authoritative for those credentials. For domain accounts, the domain controller is authoritative. For local accounts, the local computer is authoritative.",
-    "rootDefinitionId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation",
-    "id": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountlogon_auditcredentialvalidation"
     ],
+    "offsetUri": "/Config/Audit/AccountLogon_AuditCredentialValidation",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated by validation tests on user account logon credentials.  Events in this subcategory occur only on the computer that is authoritative for those credentials. For domain accounts, the domain controller is authoritative. For local accounts, the local computer is authoritative.",
+    "applicability": {
+      "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "requiresAzureAd": false,
+      "technologies": "mdm",
+      "description": null
+    },
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "name": "AccountLogon_AuditCredentialValidation",
+    "defaultOptionId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_0",
+    "displayName": "Account Logon Audit Credential Validation",
+    "rootDefinitionId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation",
+    "id": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
+    ],
+    "version": "639076796884740746",
     "keywords": [
       "Account Logon Audit Credential Validation",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogon_auditcredentialvalidation_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountlogonlogoff_auditaccountlockout"
+    ],
+    "offsetUri": "/Config/Audit/AccountLogonLogoff_AuditAccountLockout",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated by a failed attempt to log on to an account that is locked out.  If you configure this policy setting, an audit event is generated when an account cannot log on to a computer because the account is locked out. Success audits record successful attempts and Failure audits record unsuccessful attempts.  Logon events are essential for understanding user activity and to detect potential attacks.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -825,108 +862,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Account Logon Logoff Audit Account Lockout",
-    "offsetUri": "/Config/Audit/AccountLogonLogoff_AuditAccountLockout",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "AccountLogonLogoff_AuditAccountLockout",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout_1",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated by a failed attempt to log on to an account that is locked out.  If you configure this policy setting, an audit event is generated when an account cannot log on to a computer because the account is locked out. Success audits record successful attempts and Failure audits record unsuccessful attempts.  Logon events are essential for understanding user activity and to detect potential attacks.",
+    "displayName": "Account Logon Logoff Audit Account Lockout",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout",
     "id": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountlogonlogoff_auditaccountlockout"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "Account Logon Logoff Audit Account Lockout",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditaccountlockout_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountlogonlogoff_auditgroupmembership"
+    ],
+    "offsetUri": "/Config/Audit/AccountLogonLogoff_AuditGroupMembership",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy allows you to audit the group memberhsip information in the user's logon token. Events in this subcategory are generated on the computer on which a logon session is created. For an interactive logon, the security audit event is generated on the computer that the user logged on to. For a network logon, such as accessing a shared folder on the network, the security audit event is generated on the computer hosting the resource.  When this setting is configured, one or more security audit events are generated for each successful logon. You must also enable the Audit Logon setting under Advanced Audit Policy Configuration\\System Audit Policies\\Logon/Logoff. Multiple events are generated if the group memberhsip information cannot fit in a single security audit event.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -938,108 +975,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Account Logon Logoff Audit Group Membership",
-    "offsetUri": "/Config/Audit/AccountLogonLogoff_AuditGroupMembership",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "AccountLogonLogoff_AuditGroupMembership",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership_0",
-    "settingUsage": "configuration",
-    "description": "This policy allows you to audit the group memberhsip information in the user's logon token. Events in this subcategory are generated on the computer on which a logon session is created. For an interactive logon, the security audit event is generated on the computer that the user logged on to. For a network logon, such as accessing a shared folder on the network, the security audit event is generated on the computer hosting the resource.  When this setting is configured, one or more security audit events are generated for each successful logon. You must also enable the Audit Logon setting under Advanced Audit Policy Configuration\\System Audit Policies\\Logon/Logoff. Multiple events are generated if the group memberhsip information cannot fit in a single security audit event.",
+    "displayName": "Account Logon Logoff Audit Group Membership",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership",
     "id": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountlogonlogoff_auditgroupmembership"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "Account Logon Logoff Audit Group Membership",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditgroupmembership_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountlogonlogoff_auditlogoff"
+    ],
+    "offsetUri": "/Config/Audit/AccountLogonLogoff_AuditLogoff",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated by the closing of a logon session. These events occur on the computer that was accessed. For an interactive logoff the security audit event is generated on the computer that the user account logged on to.  If you configure this policy setting, an audit event is generated when a logon session is closed. Success audits record successful attempts to close sessions and Failure audits record unsuccessful attempts to close sessions. If you do not configure this policy setting, no audit event is generated when a logon session is closed.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1051,108 +1088,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Account Logon Logoff Audit Logoff",
-    "offsetUri": "/Config/Audit/AccountLogonLogoff_AuditLogoff",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "AccountLogonLogoff_AuditLogoff",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff_1",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated by the closing of a logon session. These events occur on the computer that was accessed. For an interactive logoff the security audit event is generated on the computer that the user account logged on to.  If you configure this policy setting, an audit event is generated when a logon session is closed. Success audits record successful attempts to close sessions and Failure audits record unsuccessful attempts to close sessions. If you do not configure this policy setting, no audit event is generated when a logon session is closed.",
+    "displayName": "Account Logon Logoff Audit Logoff",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff",
     "id": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountlogonlogoff_auditlogoff"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "Account Logon Logoff Audit Logoff",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogoff_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountlogonlogoff_auditlogon"
+    ],
+    "offsetUri": "/Config/Audit/AccountLogonLogoff_AuditLogon",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated by user account logon attempts on the computer. Events in this subcategory are related to the creation of logon sessions and occur on the computer which was accessed. For an interactive logon, the security audit event is generated on the computer that the user account logged on to. For a network logon, such as accessing a shared folder on the network, the security audit event is generated on the computer hosting the resource. The following events are included:     Successful logon attempts.     Failed logon attempts.     Logon attempts using explicit credentials. This event is generated when a process attempts to log on an account by explicitly specifying that account’s credentials. This most commonly occurs in batch logon configurations, such as scheduled tasks or when using the RUNAS command.     Security identifiers (SIDs) were filtered and not allowed to log on.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1164,108 +1201,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Account Logon Logoff Audit Logon",
-    "offsetUri": "/Config/Audit/AccountLogonLogoff_AuditLogon",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "AccountLogonLogoff_AuditLogon",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon_1",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated by user account logon attempts on the computer. Events in this subcategory are related to the creation of logon sessions and occur on the computer which was accessed. For an interactive logon, the security audit event is generated on the computer that the user account logged on to. For a network logon, such as accessing a shared folder on the network, the security audit event is generated on the computer hosting the resource. The following events are included:     Successful logon attempts.     Failed logon attempts.     Logon attempts using explicit credentials. This event is generated when a process attempts to log on an account by explicitly specifying that account’s credentials. This most commonly occurs in batch logon configurations, such as scheduled tasks or when using the RUNAS command.     Security identifiers (SIDs) were filtered and not allowed to log on.",
+    "displayName": "Account Logon Logoff Audit Logon",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon",
     "id": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountlogonlogoff_auditlogon"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "Account Logon Logoff Audit Logon",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditlogon_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountmanagement_auditapplicationgroupmanagement"
+    ],
+    "offsetUri": "/Config/Audit/AccountManagement_AuditApplicationGroupManagement",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated by changes to application groups such as the following:     Application group is created, changed, or deleted.     Member is added or removed from an application group.  If you configure this policy setting, an audit event is generated when an attempt to change an application group is made. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when an application group changes.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1277,108 +1314,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Account Management Audit Application Group Management",
-    "offsetUri": "/Config/Audit/AccountManagement_AuditApplicationGroupManagement",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "AccountManagement_AuditApplicationGroupManagement",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_accountmanagement_auditapplicationgroupmanagement_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated by changes to application groups such as the following:     Application group is created, changed, or deleted.     Member is added or removed from an application group.  If you configure this policy setting, an audit event is generated when an attempt to change an application group is made. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when an application group changes.",
+    "displayName": "Account Management Audit Application Group Management",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_accountmanagement_auditapplicationgroupmanagement",
     "id": "device_vendor_msft_policy_config_audit_accountmanagement_auditapplicationgroupmanagement",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountmanagement_auditapplicationgroupmanagement"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditapplicationgroupmanagement_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditapplicationgroupmanagement_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditapplicationgroupmanagement_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditapplicationgroupmanagement_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "Account Management Audit Application Group Management",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditapplicationgroupmanagement_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditapplicationgroupmanagement_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditapplicationgroupmanagement_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditapplicationgroupmanagement_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#policychange_auditauthenticationpolicychange"
+    ],
+    "offsetUri": "/Config/Audit/PolicyChange_AuditAuthenticationPolicyChange",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated by changes to the authentication policy such as the following:     Creation of forest and domain trusts.     Modification of forest and domain trusts.     Removal of forest and domain trusts.     Changes to Kerberos policy under Computer Configuration\\Windows Settings\\Security Settings\\Account Policies\\Kerberos Policy.     Granting of any of the following user rights to a user or group:         Access This Computer From the Network.         Allow Logon Locally.         Allow Logon Through Terminal Services.         Logon as a Batch Job.         Logon a Service.     Namespace collision. For example, when a new trust has the same name as an existing namespace name.  If you configure this policy setting, an audit event is generated when an attempt to change the authentication policy is made. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when the authentication policy is changed.  Note: The security audit event is logged when the group policy is applied. It does not occur at the time when the settings are modified.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1390,108 +1427,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Audit Authentication Policy Change",
-    "offsetUri": "/Config/Audit/PolicyChange_AuditAuthenticationPolicyChange",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "PolicyChange_AuditAuthenticationPolicyChange",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_policychange_auditauthenticationpolicychange_1",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated by changes to the authentication policy such as the following:     Creation of forest and domain trusts.     Modification of forest and domain trusts.     Removal of forest and domain trusts.     Changes to Kerberos policy under Computer Configuration\\Windows Settings\\Security Settings\\Account Policies\\Kerberos Policy.     Granting of any of the following user rights to a user or group:         Access This Computer From the Network.         Allow Logon Locally.         Allow Logon Through Terminal Services.         Logon as a Batch Job.         Logon a Service.     Namespace collision. For example, when a new trust has the same name as an existing namespace name.  If you configure this policy setting, an audit event is generated when an attempt to change the authentication policy is made. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when the authentication policy is changed.  Note: The security audit event is logged when the group policy is applied. It does not occur at the time when the settings are modified.",
+    "displayName": "Audit Authentication Policy Change",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_policychange_auditauthenticationpolicychange",
     "id": "device_vendor_msft_policy_config_audit_policychange_auditauthenticationpolicychange",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#policychange_auditauthenticationpolicychange"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthenticationpolicychange_0",
+        "displayName": "Off/None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthenticationpolicychange_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthenticationpolicychange_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthenticationpolicychange_3",
+        "displayName": "Success+Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "PolicyChange_AuditAuthenticationPolicyChange",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthenticationpolicychange_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthenticationpolicychange_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthenticationpolicychange_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthenticationpolicychange_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#policychange_auditauthorizationpolicychange"
+    ],
+    "offsetUri": "/Config/Audit/PolicyChange_AuditAuthorizationPolicyChange",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated by changes to the authorization policy such as the following:     Assignment of user rights (privileges), such as SeCreateTokenPrivilege, that are not audited through the “Authentication Policy Change” subcategory.     Removal of user rights (privileges), such as SeCreateTokenPrivilege, that are not audited through the “Authentication Policy Change” subcategory.     Changes in the Encrypted File System (EFS) policy.     Changes to the Resource attributes of an object.     Changes to the Central Access Policy (CAP) applied to an object.  If you configure this policy setting, an audit event is generated when an attempt to change the authorization policy is made. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when the authorization policy changes.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1503,108 +1540,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Audit Authorization Policy Change",
-    "offsetUri": "/Config/Audit/PolicyChange_AuditAuthorizationPolicyChange",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "PolicyChange_AuditAuthorizationPolicyChange",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_policychange_auditauthorizationpolicychange_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated by changes to the authorization policy such as the following:     Assignment of user rights (privileges), such as SeCreateTokenPrivilege, that are not audited through the “Authentication Policy Change” subcategory.     Removal of user rights (privileges), such as SeCreateTokenPrivilege, that are not audited through the “Authentication Policy Change” subcategory.     Changes in the Encrypted File System (EFS) policy.     Changes to the Resource attributes of an object.     Changes to the Central Access Policy (CAP) applied to an object.  If you configure this policy setting, an audit event is generated when an attempt to change the authorization policy is made. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when the authorization policy changes.",
+    "displayName": "Audit Authorization Policy Change",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_policychange_auditauthorizationpolicychange",
     "id": "device_vendor_msft_policy_config_audit_policychange_auditauthorizationpolicychange",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#policychange_auditauthorizationpolicychange"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthorizationpolicychange_0",
+        "displayName": "Off/None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthorizationpolicychange_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthorizationpolicychange_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthorizationpolicychange_3",
+        "displayName": "Success+Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "PolicyChange_AuditAuthorizationPolicyChange",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthorizationpolicychange_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthorizationpolicychange_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthorizationpolicychange_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditauthorizationpolicychange_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#policychange_auditpolicychange"
+    ],
+    "offsetUri": "/Config/Audit/PolicyChange_AuditPolicyChange",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit changes in the security audit policy settings such as the following:     Settings permissions and audit settings on the Audit Policy object.     Changes to the system audit policy.     Registration of security event sources.     De-registration of security event sources.     Changes to the per-user audit settings.     Changes to the value of CrashOnAuditFail.     Changes to the system access control list on a file system or registry object.     Changes to the Special Groups list.  Note: System access control list (SACL) change auditing is done when a SACL for an object changes and the policy change category is enabled. Discretionary access control list (DACL) and ownership changes are audited when object access auditing is enabled and the object's SACL is configured for auditing of DACL/Owner change.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1616,108 +1653,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Audit Changes to Audit Policy",
-    "offsetUri": "/Config/Audit/PolicyChange_AuditPolicyChange",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "PolicyChange_AuditPolicyChange",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_policychange_auditpolicychange_1",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit changes in the security audit policy settings such as the following:     Settings permissions and audit settings on the Audit Policy object.     Changes to the system audit policy.     Registration of security event sources.     De-registration of security event sources.     Changes to the per-user audit settings.     Changes to the value of CrashOnAuditFail.     Changes to the system access control list on a file system or registry object.     Changes to the Special Groups list.  Note: System access control list (SACL) change auditing is done when a SACL for an object changes and the policy change category is enabled. Discretionary access control list (DACL) and ownership changes are audited when object access auditing is enabled and the object's SACL is configured for auditing of DACL/Owner change.",
+    "displayName": "Audit Changes to Audit Policy",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_policychange_auditpolicychange",
     "id": "device_vendor_msft_policy_config_audit_policychange_auditpolicychange",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#policychange_auditpolicychange"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditpolicychange_0",
+        "displayName": "Off/None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditpolicychange_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditpolicychange_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditpolicychange_3",
+        "displayName": "Success+Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "PolicyChange_AuditPolicyChange",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditpolicychange_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditpolicychange_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditpolicychange_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditpolicychange_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#objectaccess_auditfileshare"
+    ],
+    "offsetUri": "/Config/Audit/ObjectAccess_AuditFileShare",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit attempts to access a shared folder.  If you configure this policy setting, an audit event is generated when an attempt is made to access a shared folder. If this policy setting is defined, the administrator can specify whether to audit only successes, only failures, or both successes and failures.  Note: There are no system access control lists (SACLs) for shared folders. If this policy setting is enabled, access to all shared folders on the system is audited.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1729,108 +1766,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Audit File Share Access",
-    "offsetUri": "/Config/Audit/ObjectAccess_AuditFileShare",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "ObjectAccess_AuditFileShare",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_objectaccess_auditfileshare_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit attempts to access a shared folder.  If you configure this policy setting, an audit event is generated when an attempt is made to access a shared folder. If this policy setting is defined, the administrator can specify whether to audit only successes, only failures, or both successes and failures.  Note: There are no system access control lists (SACLs) for shared folders. If this policy setting is enabled, access to all shared folders on the system is audited.",
+    "displayName": "Audit File Share Access",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_objectaccess_auditfileshare",
     "id": "device_vendor_msft_policy_config_audit_objectaccess_auditfileshare",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#objectaccess_auditfileshare"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditfileshare_0",
+        "displayName": "Off/None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditfileshare_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditfileshare_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditfileshare_3",
+        "displayName": "Success+Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "ObjectAccess_AuditFileShare",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditfileshare_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditfileshare_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditfileshare_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditfileshare_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountlogonlogoff_auditotherlogonlogoffevents"
+    ],
+    "offsetUri": "/Config/Audit/AccountLogonLogoff_AuditOtherLogonLogoffEvents",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit other logon/logoff-related events that are not covered in the “Logon/Logoff” policy setting such as the following:     Terminal Services session disconnections.     New Terminal Services sessions.     Locking and unlocking a workstation.     Invoking a screen saver.     Dismissal of a screen saver.     Detection of a Kerberos replay attack, in which a Kerberos request was received twice with identical information. This condition could be caused by network misconfiguration.     Access to a wireless network granted to a user or computer account.     Access to a wired 802.1x network granted to a user or computer account.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1842,108 +1879,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Audit Other Logon Logoff Events",
-    "offsetUri": "/Config/Audit/AccountLogonLogoff_AuditOtherLogonLogoffEvents",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "AccountLogonLogoff_AuditOtherLogonLogoffEvents",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditotherlogonlogoffevents_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit other logon/logoff-related events that are not covered in the “Logon/Logoff” policy setting such as the following:     Terminal Services session disconnections.     New Terminal Services sessions.     Locking and unlocking a workstation.     Invoking a screen saver.     Dismissal of a screen saver.     Detection of a Kerberos replay attack, in which a Kerberos request was received twice with identical information. This condition could be caused by network misconfiguration.     Access to a wireless network granted to a user or computer account.     Access to a wired 802.1x network granted to a user or computer account.",
+    "displayName": "Audit Other Logon Logoff Events",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditotherlogonlogoffevents",
     "id": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditotherlogonlogoffevents",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountlogonlogoff_auditotherlogonlogoffevents"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditotherlogonlogoffevents_0",
+        "displayName": "Off/None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditotherlogonlogoffevents_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditotherlogonlogoffevents_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditotherlogonlogoffevents_3",
+        "displayName": "Success+Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "AccountLogonLogoff_AuditOtherLogonLogoffEvents",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditotherlogonlogoffevents_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditotherlogonlogoffevents_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditotherlogonlogoffevents_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditotherlogonlogoffevents_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountmanagement_auditsecuritygroupmanagement"
+    ],
+    "offsetUri": "/Config/Audit/AccountManagement_AuditSecurityGroupManagement",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated by changes to security groups such as the following:     Security group is created, changed, or deleted.     Member is added or removed from a security group.     Group type is changed.  If you configure this policy setting, an audit event is generated when an attempt to change a security group is made. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when a security group changes.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1955,108 +1992,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Audit Security Group Management",
-    "offsetUri": "/Config/Audit/AccountManagement_AuditSecurityGroupManagement",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "AccountManagement_AuditSecurityGroupManagement",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_accountmanagement_auditsecuritygroupmanagement_1",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated by changes to security groups such as the following:     Security group is created, changed, or deleted.     Member is added or removed from a security group.     Group type is changed.  If you configure this policy setting, an audit event is generated when an attempt to change a security group is made. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when a security group changes.",
+    "displayName": "Audit Security Group Management",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_accountmanagement_auditsecuritygroupmanagement",
     "id": "device_vendor_msft_policy_config_audit_accountmanagement_auditsecuritygroupmanagement",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountmanagement_auditsecuritygroupmanagement"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditsecuritygroupmanagement_0",
+        "displayName": "Off/None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditsecuritygroupmanagement_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditsecuritygroupmanagement_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditsecuritygroupmanagement_3",
+        "displayName": "Success+Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "AccountManagement_AuditSecurityGroupManagement",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditsecuritygroupmanagement_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditsecuritygroupmanagement_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditsecuritygroupmanagement_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_auditsecuritygroupmanagement_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#system_auditsecuritysystemextension"
+    ],
+    "offsetUri": "/Config/Audit/System_AuditSecuritySystemExtension",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events related to security system extensions or services such as the following:     A security system extension, such as an authentication, notification, or security package is loaded and is registered with the Local Security Authority (LSA). It is used to authenticate logon attempts, submit logon requests, and any account or password changes. Examples of security system extensions are Kerberos and NTLM.     A service is installed and registered with the Service Control Manager. The audit log contains information about the service name, binary, type, start type, and service account. If you configure this policy setting, an audit event is generated when an attempt is made to load a security system extension. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when an attempt is made to load a security system extension.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2068,108 +2105,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Audit Security System Extension",
-    "offsetUri": "/Config/Audit/System_AuditSecuritySystemExtension",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "System_AuditSecuritySystemExtension",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_system_auditsecuritysystemextension_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events related to security system extensions or services such as the following:     A security system extension, such as an authentication, notification, or security package is loaded and is registered with the Local Security Authority (LSA). It is used to authenticate logon attempts, submit logon requests, and any account or password changes. Examples of security system extensions are Kerberos and NTLM.     A service is installed and registered with the Service Control Manager. The audit log contains information about the service name, binary, type, start type, and service account. If you configure this policy setting, an audit event is generated when an attempt is made to load a security system extension. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when an attempt is made to load a security system extension.",
+    "displayName": "Audit Security System Extension",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_system_auditsecuritysystemextension",
     "id": "device_vendor_msft_policy_config_audit_system_auditsecuritysystemextension",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#system_auditsecuritysystemextension"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritysystemextension_0",
+        "displayName": "Off/None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritysystemextension_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritysystemextension_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritysystemextension_3",
+        "displayName": "Success+Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "System_AuditSecuritySystemExtension",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritysystemextension_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritysystemextension_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritysystemextension_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritysystemextension_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountlogonlogoff_auditspeciallogon"
+    ],
+    "offsetUri": "/Config/Audit/AccountLogonLogoff_AuditSpecialLogon",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated by special logons such as the following :     The use of a special logon, which is a logon that has administrator-equivalent privileges and can be used to elevate a process to a higher level.     A logon by a member of a Special Group. Special Groups enable you to audit events generated when a member of a certain group has logged on to your network. You can configure a list of group security identifiers (SIDs) in the registry. If any of those SIDs are added to a token during logon and the subcategory is enabled, an event is logged. For more information about this feature, see article 947223 in the Microsoft Knowledge Base (https://go.microsoft.com/fwlink/?LinkId=121697).",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2181,108 +2218,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Audit Special Logon",
-    "offsetUri": "/Config/Audit/AccountLogonLogoff_AuditSpecialLogon",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "AccountLogonLogoff_AuditSpecialLogon",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditspeciallogon_1",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated by special logons such as the following :     The use of a special logon, which is a logon that has administrator-equivalent privileges and can be used to elevate a process to a higher level.     A logon by a member of a Special Group. Special Groups enable you to audit events generated when a member of a certain group has logged on to your network. You can configure a list of group security identifiers (SIDs) in the registry. If any of those SIDs are added to a token during logon and the subcategory is enabled, an event is logged. For more information about this feature, see article 947223 in the Microsoft Knowledge Base (https://go.microsoft.com/fwlink/?LinkId=121697).",
+    "displayName": "Audit Special Logon",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditspeciallogon",
     "id": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditspeciallogon",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountlogonlogoff_auditspeciallogon"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditspeciallogon_0",
+        "displayName": "Off/None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditspeciallogon_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditspeciallogon_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditspeciallogon_3",
+        "displayName": "Success+Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "AccountLogonLogoff_AuditSpecialLogon",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditspeciallogon_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditspeciallogon_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditspeciallogon_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountlogonlogoff_auditspeciallogon_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountmanagement_audituseraccountmanagement"
+    ],
+    "offsetUri": "/Config/Audit/AccountManagement_AuditUserAccountManagement",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit changes to user accounts. Events include the following:     A user account is created, changed, deleted; renamed, disabled, enabled, locked out, or unlocked.     A user account’s password is set or changed.     A security identifier (SID) is added to the SID History of a user account.     The Directory Services Restore Mode password is configured.     Permissions on administrative user accounts are changed.     Credential Manager credentials are backed up or restored.  If you configure this policy setting, an audit event is generated when an attempt to change a user account is made. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when a user account changes.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2294,108 +2331,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Audit User Account Management",
-    "offsetUri": "/Config/Audit/AccountManagement_AuditUserAccountManagement",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "AccountManagement_AuditUserAccountManagement",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_accountmanagement_audituseraccountmanagement_1",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit changes to user accounts. Events include the following:     A user account is created, changed, deleted; renamed, disabled, enabled, locked out, or unlocked.     A user account’s password is set or changed.     A security identifier (SID) is added to the SID History of a user account.     The Directory Services Restore Mode password is configured.     Permissions on administrative user accounts are changed.     Credential Manager credentials are backed up or restored.  If you configure this policy setting, an audit event is generated when an attempt to change a user account is made. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when a user account changes.",
+    "displayName": "Audit User Account Management",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_accountmanagement_audituseraccountmanagement",
     "id": "device_vendor_msft_policy_config_audit_accountmanagement_audituseraccountmanagement",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#accountmanagement_audituseraccountmanagement"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_audituseraccountmanagement_0",
+        "displayName": "Off/None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_audituseraccountmanagement_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_audituseraccountmanagement_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_audituseraccountmanagement_3",
+        "displayName": "Success+Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "AccountManagement_AuditUserAccountManagement",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_audituseraccountmanagement_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_audituseraccountmanagement_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_audituseraccountmanagement_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_accountmanagement_audituseraccountmanagement_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#detailedtracking_auditpnpactivity"
+    ],
+    "offsetUri": "/Config/Audit/DetailedTracking_AuditPNPActivity",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit when plug and play detects an external device.  If you configure this policy setting, an audit event is generated whenever plug and play detects an external device. Only Success audits are recorded for this category. If you do not configure this policy setting, no audit event is generated when an external device is detected by plug and play.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2407,108 +2444,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Detailed Tracking Audit PNP Activity",
-    "offsetUri": "/Config/Audit/DetailedTracking_AuditPNPActivity",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "DetailedTracking_AuditPNPActivity",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_detailedtracking_auditpnpactivity_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit when plug and play detects an external device.  If you configure this policy setting, an audit event is generated whenever plug and play detects an external device. Only Success audits are recorded for this category. If you do not configure this policy setting, no audit event is generated when an external device is detected by plug and play.",
+    "displayName": "Detailed Tracking Audit PNP Activity",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_detailedtracking_auditpnpactivity",
     "id": "device_vendor_msft_policy_config_audit_detailedtracking_auditpnpactivity",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#detailedtracking_auditpnpactivity"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditpnpactivity_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditpnpactivity_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditpnpactivity_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditpnpactivity_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "Detailed Tracking Audit PNP Activity",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditpnpactivity_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditpnpactivity_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditpnpactivity_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditpnpactivity_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#detailedtracking_auditprocesscreation"
+    ],
+    "offsetUri": "/Config/Audit/DetailedTracking_AuditProcessCreation",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated when a process is created or starts. The name of the application or user that created the process is also audited.  If you configure this policy setting, an audit event is generated when a process is created. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when a process is created.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2520,108 +2557,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Detailed Tracking Audit Process Creation",
-    "offsetUri": "/Config/Audit/DetailedTracking_AuditProcessCreation",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "DetailedTracking_AuditProcessCreation",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_detailedtracking_auditprocesscreation_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated when a process is created or starts. The name of the application or user that created the process is also audited.  If you configure this policy setting, an audit event is generated when a process is created. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when a process is created.",
+    "displayName": "Detailed Tracking Audit Process Creation",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_detailedtracking_auditprocesscreation",
     "id": "device_vendor_msft_policy_config_audit_detailedtracking_auditprocesscreation",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#detailedtracking_auditprocesscreation"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditprocesscreation_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditprocesscreation_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditprocesscreation_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditprocesscreation_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "Detailed Tracking Audit Process Creation",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditprocesscreation_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditprocesscreation_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditprocesscreation_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_detailedtracking_auditprocesscreation_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#objectaccess_auditdetailedfileshare"
+    ],
+    "offsetUri": "/Config/Audit/ObjectAccess_AuditDetailedFileShare",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit attempts to access files and folders on a shared folder. The Detailed File Share setting logs an event every time a file or folder is accessed, whereas the File Share setting only records one event for any connection established between a client and file share.  Detailed File Share audit events include detailed information about the permissions or other criteria used to grant or deny access.  If you configure this policy setting, an audit event is generated when an attempt is made to access a file or folder on a share. The administrator can specify whether to audit only successes, only failures, or both successes and failures.  Note: There are no system access control lists (SACLs) for shared folders. If this policy setting is enabled, access to all shared files and folders on the system is audited.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2633,108 +2670,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Object Access Audit Detailed File Share",
-    "offsetUri": "/Config/Audit/ObjectAccess_AuditDetailedFileShare",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "ObjectAccess_AuditDetailedFileShare",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_objectaccess_auditdetailedfileshare_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit attempts to access files and folders on a shared folder. The Detailed File Share setting logs an event every time a file or folder is accessed, whereas the File Share setting only records one event for any connection established between a client and file share.  Detailed File Share audit events include detailed information about the permissions or other criteria used to grant or deny access.  If you configure this policy setting, an audit event is generated when an attempt is made to access a file or folder on a share. The administrator can specify whether to audit only successes, only failures, or both successes and failures.  Note: There are no system access control lists (SACLs) for shared folders. If this policy setting is enabled, access to all shared files and folders on the system is audited.",
+    "displayName": "Object Access Audit Detailed File Share",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_objectaccess_auditdetailedfileshare",
     "id": "device_vendor_msft_policy_config_audit_objectaccess_auditdetailedfileshare",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#objectaccess_auditdetailedfileshare"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditdetailedfileshare_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditdetailedfileshare_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditdetailedfileshare_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditdetailedfileshare_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "Object Access Audit Detailed File Share",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditdetailedfileshare_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditdetailedfileshare_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditdetailedfileshare_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditdetailedfileshare_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#objectaccess_auditotherobjectaccessevents"
+    ],
+    "offsetUri": "/Config/Audit/ObjectAccess_AuditOtherObjectAccessEvents",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated by the management of task scheduler jobs or COM+ objects.  For scheduler jobs, the following are audited:     Job created.     Job deleted.     Job enabled.     Job disabled.     Job updated. For COM+ objects, the following are audited:     Catalog object added.     Catalog object updated.     Catalog object deleted.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2746,108 +2783,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Object Access Audit Other Object Access Events",
-    "offsetUri": "/Config/Audit/ObjectAccess_AuditOtherObjectAccessEvents",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "ObjectAccess_AuditOtherObjectAccessEvents",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_objectaccess_auditotherobjectaccessevents_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated by the management of task scheduler jobs or COM+ objects.  For scheduler jobs, the following are audited:     Job created.     Job deleted.     Job enabled.     Job disabled.     Job updated. For COM+ objects, the following are audited:     Catalog object added.     Catalog object updated.     Catalog object deleted.",
+    "displayName": "Object Access Audit Other Object Access Events",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_objectaccess_auditotherobjectaccessevents",
     "id": "device_vendor_msft_policy_config_audit_objectaccess_auditotherobjectaccessevents",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#objectaccess_auditotherobjectaccessevents"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditotherobjectaccessevents_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditotherobjectaccessevents_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditotherobjectaccessevents_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditotherobjectaccessevents_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "Object Access Audit Other Object Access Events",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditotherobjectaccessevents_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditotherobjectaccessevents_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditotherobjectaccessevents_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditotherobjectaccessevents_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#objectaccess_auditremovablestorage"
+    ],
+    "offsetUri": "/Config/Audit/ObjectAccess_AuditRemovableStorage",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit user attempts to access file system objects on a removable storage device. A security audit event is generated only for all objects for all types of access requested.  If you configure this policy setting, an audit event is generated each time an account accesses a file system object on a removable storage. Success audits record successful attempts and Failure audits record unsuccessful attempts.  If you do not configure this policy setting, no audit event is generated when an account accesses a file system object on a removable storage.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2859,108 +2896,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Object Access Audit Removable Storage",
-    "offsetUri": "/Config/Audit/ObjectAccess_AuditRemovableStorage",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "ObjectAccess_AuditRemovableStorage",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_objectaccess_auditremovablestorage_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit user attempts to access file system objects on a removable storage device. A security audit event is generated only for all objects for all types of access requested.  If you configure this policy setting, an audit event is generated each time an account accesses a file system object on a removable storage. Success audits record successful attempts and Failure audits record unsuccessful attempts.  If you do not configure this policy setting, no audit event is generated when an account accesses a file system object on a removable storage.",
+    "displayName": "Object Access Audit Removable Storage",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_objectaccess_auditremovablestorage",
     "id": "device_vendor_msft_policy_config_audit_objectaccess_auditremovablestorage",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#objectaccess_auditremovablestorage"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditremovablestorage_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditremovablestorage_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditremovablestorage_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditremovablestorage_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "Object Access Audit Removable Storage",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditremovablestorage_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditremovablestorage_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditremovablestorage_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_objectaccess_auditremovablestorage_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#policychange_auditmpssvcrulelevelpolicychange"
+    ],
+    "offsetUri": "/Config/Audit/PolicyChange_AuditMPSSVCRuleLevelPolicyChange",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated by changes in policy rules used by the Microsoft Protection Service (MPSSVC). This service is used by Windows Firewall. Events include the following:     Reporting of active policies when Windows Firewall service starts.     Changes to Windows Firewall rules.     Changes to Windows Firewall exception list.     Changes to Windows Firewall settings.     Rules ignored or not applied by Windows Firewall Service.     Changes to Windows Firewall Group Policy settings.  If you configure this policy setting, an audit event is generated by attempts to change policy rules used by the MPSSVC. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated by changes in policy rules used by the MPSSVC.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2972,108 +3009,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Policy Change Audit MPSSVC Rule Level Policy Change",
-    "offsetUri": "/Config/Audit/PolicyChange_AuditMPSSVCRuleLevelPolicyChange",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "PolicyChange_AuditMPSSVCRuleLevelPolicyChange",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_policychange_auditmpssvcrulelevelpolicychange_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated by changes in policy rules used by the Microsoft Protection Service (MPSSVC). This service is used by Windows Firewall. Events include the following:     Reporting of active policies when Windows Firewall service starts.     Changes to Windows Firewall rules.     Changes to Windows Firewall exception list.     Changes to Windows Firewall settings.     Rules ignored or not applied by Windows Firewall Service.     Changes to Windows Firewall Group Policy settings.  If you configure this policy setting, an audit event is generated by attempts to change policy rules used by the MPSSVC. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated by changes in policy rules used by the MPSSVC.",
+    "displayName": "Policy Change Audit MPSSVC Rule Level Policy Change",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_policychange_auditmpssvcrulelevelpolicychange",
     "id": "device_vendor_msft_policy_config_audit_policychange_auditmpssvcrulelevelpolicychange",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#policychange_auditmpssvcrulelevelpolicychange"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditmpssvcrulelevelpolicychange_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditmpssvcrulelevelpolicychange_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditmpssvcrulelevelpolicychange_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditmpssvcrulelevelpolicychange_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "Policy Change Audit MPSSVC Rule Level Policy Change",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditmpssvcrulelevelpolicychange_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditmpssvcrulelevelpolicychange_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditmpssvcrulelevelpolicychange_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditmpssvcrulelevelpolicychange_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#policychange_auditotherpolicychangeevents"
+    ],
+    "offsetUri": "/Config/Audit/PolicyChange_AuditOtherPolicyChangeEvents",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated by other security policy changes that are not audited in the policy change category, such as the following:     Trusted Platform Module (TPM) configuration changes.     Kernel-mode cryptographic self tests.     Cryptographic provider operations.     Cryptographic context operations or modifications.     Applied Central Access Policies (CAPs) changes.     Boot Configuration Data (BCD) modifications.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3085,108 +3122,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Policy Change Audit Other Policy Change Events",
-    "offsetUri": "/Config/Audit/PolicyChange_AuditOtherPolicyChangeEvents",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "PolicyChange_AuditOtherPolicyChangeEvents",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_policychange_auditotherpolicychangeevents_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated by other security policy changes that are not audited in the policy change category, such as the following:     Trusted Platform Module (TPM) configuration changes.     Kernel-mode cryptographic self tests.     Cryptographic provider operations.     Cryptographic context operations or modifications.     Applied Central Access Policies (CAPs) changes.     Boot Configuration Data (BCD) modifications.",
+    "displayName": "Policy Change Audit Other Policy Change Events",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_policychange_auditotherpolicychangeevents",
     "id": "device_vendor_msft_policy_config_audit_policychange_auditotherpolicychangeevents",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#policychange_auditotherpolicychangeevents"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditotherpolicychangeevents_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditotherpolicychangeevents_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditotherpolicychangeevents_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditotherpolicychangeevents_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "Policy Change Audit Other Policy Change Events",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditotherpolicychangeevents_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditotherpolicychangeevents_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditotherpolicychangeevents_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_policychange_auditotherpolicychangeevents_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#privilegeuse_auditsensitiveprivilegeuse"
+    ],
+    "offsetUri": "/Config/Audit/PrivilegeUse_AuditSensitivePrivilegeUse",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated when sensitive privileges (user rights) are used such as the following:     A privileged service is called.     One of the following privileges are called:         Act as part of the operating system.         Back up files and directories.         Create a token object.         Debug programs.         Enable computer and user accounts to be trusted for delegation.         Generate security audits.         Impersonate a client after authentication.         Load and unload device drivers.         Manage auditing and security log.         Modify firmware environment values.         Replace a process-level token.         Restore files and directories.         Take ownership of files or other objects.  If you configure this policy setting, an audit event is generated when sensitive privilege requests are made. Success audits record successful requests and Failure audits record unsuccessful requests. If you do not configure this policy setting, no audit event is generated when sensitive privilege requests are made. ",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3198,108 +3235,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "Privilege Use Audit Sensitive Privilege Use",
-    "offsetUri": "/Config/Audit/PrivilegeUse_AuditSensitivePrivilegeUse",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "PrivilegeUse_AuditSensitivePrivilegeUse",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_privilegeuse_auditsensitiveprivilegeuse_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated when sensitive privileges (user rights) are used such as the following:     A privileged service is called.     One of the following privileges are called:         Act as part of the operating system.         Back up files and directories.         Create a token object.         Debug programs.         Enable computer and user accounts to be trusted for delegation.         Generate security audits.         Impersonate a client after authentication.         Load and unload device drivers.         Manage auditing and security log.         Modify firmware environment values.         Replace a process-level token.         Restore files and directories.         Take ownership of files or other objects.  If you configure this policy setting, an audit event is generated when sensitive privilege requests are made. Success audits record successful requests and Failure audits record unsuccessful requests. If you do not configure this policy setting, no audit event is generated when sensitive privilege requests are made. ",
+    "displayName": "Privilege Use Audit Sensitive Privilege Use",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_privilegeuse_auditsensitiveprivilegeuse",
     "id": "device_vendor_msft_policy_config_audit_privilegeuse_auditsensitiveprivilegeuse",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#privilegeuse_auditsensitiveprivilegeuse"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_privilegeuse_auditsensitiveprivilegeuse_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_privilegeuse_auditsensitiveprivilegeuse_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_privilegeuse_auditsensitiveprivilegeuse_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_privilegeuse_auditsensitiveprivilegeuse_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "Privilege Use Audit Sensitive Privilege Use",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_privilegeuse_auditsensitiveprivilegeuse_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_privilegeuse_auditsensitiveprivilegeuse_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_privilegeuse_auditsensitiveprivilegeuse_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_privilegeuse_auditsensitiveprivilegeuse_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#system_auditipsecdriver"
+    ],
+    "offsetUri": "/Config/Audit/System_AuditIPsecDriver",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated by the IPsec filter driver such as the following:     Startup and shutdown of the IPsec services.     Network packets dropped due to integrity check failure.     Network packets dropped due to replay check failure.     Network packets dropped due to being in plaintext.     Network packets received with incorrect Security Parameter Index (SPI). This may indicate that either the network card is not working correctly or the driver needs to be updated.     Inability to process IPsec filters.  If you configure this policy setting, an audit event is generated on an IPsec filter driver operation. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated on an IPSec filter driver operation.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3311,108 +3348,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "System Audit I Psec Driver",
-    "offsetUri": "/Config/Audit/System_AuditIPsecDriver",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "System_AuditIPsecDriver",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_system_auditipsecdriver_0",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated by the IPsec filter driver such as the following:     Startup and shutdown of the IPsec services.     Network packets dropped due to integrity check failure.     Network packets dropped due to replay check failure.     Network packets dropped due to being in plaintext.     Network packets received with incorrect Security Parameter Index (SPI). This may indicate that either the network card is not working correctly or the driver needs to be updated.     Inability to process IPsec filters.  If you configure this policy setting, an audit event is generated on an IPsec filter driver operation. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated on an IPSec filter driver operation.",
+    "displayName": "System Audit I Psec Driver",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_system_auditipsecdriver",
     "id": "device_vendor_msft_policy_config_audit_system_auditipsecdriver",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#system_auditipsecdriver"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditipsecdriver_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditipsecdriver_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditipsecdriver_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditipsecdriver_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "System Audit I Psec Driver",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditipsecdriver_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditipsecdriver_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditipsecdriver_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditipsecdriver_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#system_auditothersystemevents"
+    ],
+    "offsetUri": "/Config/Audit/System_AuditOtherSystemEvents",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit any of the following events:     Startup and shutdown of the Windows Firewall service and driver.     Security policy processing by the Windows Firewall Service.     Cryptography key file and migration operations.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3424,108 +3461,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "System Audit Other System Events",
-    "offsetUri": "/Config/Audit/System_AuditOtherSystemEvents",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "System_AuditOtherSystemEvents",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_system_auditothersystemevents_3",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit any of the following events:     Startup and shutdown of the Windows Firewall service and driver.     Security policy processing by the Windows Firewall Service.     Cryptography key file and migration operations.",
+    "displayName": "System Audit Other System Events",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_system_auditothersystemevents",
     "id": "device_vendor_msft_policy_config_audit_system_auditothersystemevents",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#system_auditothersystemevents"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditothersystemevents_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditothersystemevents_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditothersystemevents_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditothersystemevents_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "System Audit Other System Events",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditothersystemevents_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditothersystemevents_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditothersystemevents_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditothersystemevents_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#system_auditsecuritystatechange"
+    ],
+    "offsetUri": "/Config/Audit/System_AuditSecurityStateChange",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events generated by changes in the security state of the computer such as the following events:     Startup and shutdown of the computer.     Change of system time.     Recovering the system from CrashOnAuditFail, which is logged after a system restarts when the security event log is full and the CrashOnAuditFail registry entry is configured.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3537,108 +3574,108 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "System Audit Security State Change",
-    "offsetUri": "/Config/Audit/System_AuditSecurityStateChange",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "System_AuditSecurityStateChange",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_system_auditsecuritystatechange_1",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events generated by changes in the security state of the computer such as the following events:     Startup and shutdown of the computer.     Change of system time.     Recovering the system from CrashOnAuditFail, which is logged after a system restarts when the security event log is full and the CrashOnAuditFail registry entry is configured.",
+    "displayName": "System Audit Security State Change",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_system_auditsecuritystatechange",
     "id": "device_vendor_msft_policy_config_audit_system_auditsecuritystatechange",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#system_auditsecuritystatechange"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritystatechange_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritystatechange_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritystatechange_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritystatechange_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "System Audit Security State Change",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritystatechange_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritystatechange_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritystatechange_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditsecuritystatechange_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
+    "uxBehavior": "default"
+  },
+  {
     "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#system_auditsystemintegrity"
+    ],
+    "offsetUri": "/Config/Audit/System_AuditSystemIntegrity",
+    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "description": "This policy setting allows you to audit events that violate the integrity of the security subsystem, such as the following:     Events that could not be written to the event log because of a problem with the auditing system.     A process that uses a local procedure call (LPC) port that is not valid in an attempt to impersonate a client by replying, reading, or writing to or from a client address space.     The detection of a Remote Procedure Call (RPC) that compromises system integrity.     The detection of a hash value of an executable file that is not valid as determined by Code Integrity.     Cryptographic operations that compromise system integrity.",
     "applicability": {
-      "platform": "windows10",
-      "description": null,
       "maximumSupportedVersion": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "minimumSupportedVersion": "10.0.17134.1039",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "configurationServiceProviderVersion": "7.0",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3650,128 +3687,91 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
+      "technologies": "mdm",
+      "description": null
     },
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "version": "639076796884740746",
-    "uxBehavior": "default",
-    "displayName": "System Audit System Integrity",
-    "offsetUri": "/Config/Audit/System_AuditSystemIntegrity",
+    "referredSettingInformationList": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "name": "System_AuditSystemIntegrity",
     "defaultOptionId": "device_vendor_msft_policy_config_audit_system_auditsystemintegrity_3",
-    "settingUsage": "configuration",
-    "description": "This policy setting allows you to audit events that violate the integrity of the security subsystem, such as the following:     Events that could not be written to the event log because of a problem with the auditing system.     A process that uses a local procedure call (LPC) port that is not valid in an attempt to impersonate a client by replying, reading, or writing to or from a client address space.     The detection of a Remote Procedure Call (RPC) that compromises system integrity.     The detection of a hash value of an executable file that is not valid as determined by Code Integrity.     Cryptographic operations that compromise system integrity.",
+    "displayName": "System Audit System Integrity",
     "rootDefinitionId": "device_vendor_msft_policy_config_audit_system_auditsystemintegrity",
     "id": "device_vendor_msft_policy_config_audit_system_auditsystemintegrity",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "settingUsage": "configuration",
+    "helpText": "",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Audit#system_auditsystemintegrity"
+    "options": [
+      {
+        "name": "Off/None",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditsystemintegrity_0",
+        "displayName": "Off/ None",
+        "helpText": null,
+        "description": "Off/None"
+      },
+      {
+        "name": "Success",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditsystemintegrity_1",
+        "displayName": "Success",
+        "helpText": null,
+        "description": "Success"
+      },
+      {
+        "name": "Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditsystemintegrity_2",
+        "displayName": "Failure",
+        "helpText": null,
+        "description": "Failure"
+      },
+      {
+        "name": "Success+Failure",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 3,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_audit_system_auditsystemintegrity_3",
+        "displayName": "Success+ Failure",
+        "helpText": null,
+        "description": "Success+Failure"
+      }
     ],
+    "version": "639076796884740746",
     "keywords": [
       "System Audit System Integrity",
       "Audit",
       "Auditing"
     ],
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "categoryId": "5cb7f4f0-ef00-4eb3-80f4-2c2b97b053ea",
+    "visibility": "settingsCatalog,template",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Off/None",
-        "helpText": null,
-        "displayName": "Off/ None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditsystemintegrity_0",
-        "dependentOn": [],
-        "description": "Off/None"
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success",
-        "helpText": null,
-        "displayName": "Success",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditsystemintegrity_1",
-        "dependentOn": [],
-        "description": "Success"
-      },
-      {
-        "optionValue": {
-          "value": 2,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Failure",
-        "helpText": null,
-        "displayName": "Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditsystemintegrity_2",
-        "dependentOn": [],
-        "description": "Failure"
-      },
-      {
-        "optionValue": {
-          "value": 3,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "name": "Success+Failure",
-        "helpText": null,
-        "displayName": "Success+ Failure",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_audit_system_auditsystemintegrity_3",
-        "dependentOn": [],
-        "description": "Success+Failure"
-      }
-    ],
-    "riskLevel": "low",
-    "applicability": {
-      "platform": "windows10",
-      "description": null,
-      "maximumSupportedVersion": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "minimumSupportedVersion": "10.0.17134.1039",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0",
-      "requiredAzureAdTrustType": "none"
-    },
-    "visibility": "settingsCatalog,template"
+    "uxBehavior": "default"
   }
 ]
 ```

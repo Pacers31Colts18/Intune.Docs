@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 03/06/2026 04:48:54
+**Report Generated:** 03/07/2026 04:27:32
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
+  "remediationScriptParameters": [],
+  "deviceHealthScriptType": "deviceHealthScript",
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "description": "ExtensionAttribute2: Organizational Unit of device",
+  "publisher": " Joe Loveless",
+  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
+  "highestAvailableVersion": null,
+  "detectionScriptParameters": [],
   "runAsAccount": "system",
   "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
-  "isGlobalScript": false,
-  "detectionScriptParameters": [],
-  "version": "3",
-  "runAs32Bit": true,
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "deviceHealthScriptType": "deviceHealthScript",
   "enforceSignatureCheck": false,
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "highestAvailableVersion": null,
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
-  "description": "ExtensionAttribute2: Organizational Unit of device",
-  "remediationScriptContent": "",
-  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "publisher": " Joe Loveless",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "remediationScriptParameters": [],
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
   "roleScopeTagIds": [
     "0"
-  ]
+  ],
+  "isGlobalScript": false,
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
+  "remediationScriptContent": "",
+  "version": "3",
+  "runAs32Bit": true
 }
 ```
 

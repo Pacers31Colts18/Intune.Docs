@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless-WindowsHealthMonitoring1.md)
 
-**Report Generated:** 03/12/2026 04:54:38
+**Report Generated:** 03/13/2026 04:51:44
 
 ---
 
@@ -18,24 +18,24 @@
 
 ```json
 {
-  "description": null,
-  "deviceManagementApplicabilityRuleOsEdition": null,
+  "configDeviceHealthMonitoringCustomScope": null,
+  "@odata.type": "#microsoft.graph.windowsHealthMonitoringConfiguration",
+  "deviceManagementApplicabilityRuleDeviceMode": null,
   "roleScopeTagIds": [
     "0"
   ],
-  "id": "80d7e784-d07c-4d7c-b487-27436ac8633e",
-  "allowDeviceHealthMonitoring": "enabled",
-  "createdDateTime": "2026-03-07T19:29:52.1290026Z",
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations/$entity",
-  "deviceManagementApplicabilityRuleDeviceMode": null,
-  "configDeviceHealthMonitoringCustomScope": null,
-  "configDeviceHealthMonitoringScope": "bootPerformance",
+  "allowDeviceHealthMonitoring": "enabled",
   "deviceManagementApplicabilityRuleOsVersion": null,
-  "version": 1,
-  "displayName": "JoeLoveless-WindowsHealthMonitoring1",
-  "@odata.type": "#microsoft.graph.windowsHealthMonitoringConfiguration",
   "lastModifiedDateTime": "2026-03-07T19:29:52.1290026Z",
-  "supportsScopeTags": true
+  "supportsScopeTags": true,
+  "displayName": "JoeLoveless-WindowsHealthMonitoring1",
+  "version": 1,
+  "configDeviceHealthMonitoringScope": "bootPerformance",
+  "description": null,
+  "deviceManagementApplicabilityRuleOsEdition": null,
+  "createdDateTime": "2026-03-07T19:29:52.1290026Z",
+  "id": "80d7e784-d07c-4d7c-b487-27436ac8633e"
 }
 ```
 

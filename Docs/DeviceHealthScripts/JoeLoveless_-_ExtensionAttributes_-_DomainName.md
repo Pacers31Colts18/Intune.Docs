@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_DomainName.md)
 
-**Report Generated:** 03/12/2026 04:54:40
+**Report Generated:** 03/13/2026 04:51:45
 
 ---
 
@@ -33,27 +33,27 @@ N/A
 
 ```json
 {
-  "publisher": " ",
+  "remediationScriptParameters": [],
+  "runAsAccount": "system",
+  "version": "1",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
   "roleScopeTagIds": [
     "0"
   ],
-  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "description": "Outputs the domain name to be used for Azure Automation.",
-  "runAsAccount": "system",
+  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
   "highestAvailableVersion": null,
-  "detectionScriptParameters": [],
   "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
-  "runAs32Bit": true,
-  "remediationScriptContent": "",
+  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
+  "deviceHealthScriptType": "deviceHealthScript",
+  "description": "Outputs the domain name to be used for Azure Automation.",
   "enforceSignatureCheck": false,
-  "version": "1",
   "isGlobalScript": false,
   "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z",
-  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
-  "remediationScriptParameters": [],
-  "deviceHealthScriptType": "deviceHealthScript",
-  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea"
+  "detectionScriptParameters": [],
+  "publisher": " ",
+  "remediationScriptContent": "",
+  "runAs32Bit": true
 }
 ```
 

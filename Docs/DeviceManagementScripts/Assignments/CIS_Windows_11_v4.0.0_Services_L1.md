@@ -2,7 +2,7 @@
 
 **Policy ID:** 80b56048-b75f-4c62-9817-486b425adf73
 
-**Report Generated:** 03/13/2026 04:52:17
+**Report Generated:** 03/14/2026 04:50:07
 
 ---
 
@@ -15,8 +15,8 @@
 ```json
 {
   "target": {
-    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterId": null,
+    "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none"
   },
   "id": "80b56048-b75f-4c62-9817-486b425adf73:adadadad-808e-44e2-905a-0b7873a8a531"

@@ -46,7 +46,7 @@
 
 [**Assignments**](./Assignments/CIS_(L1)_User_Rights_(89)_-_Windows_11_Intune_4.0.0.md)
 
-**Report Generated:** 03/13/2026 04:51:28
+**Report Generated:** 03/14/2026 04:49:20
 
 ---
 
@@ -61,9 +61,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "(<![CDATA[]]>)"
+  "value": "(<![CDATA[]]>)",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -77,17 +77,17 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-555"
+  "value": "*S-1-5-32-555",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -101,9 +101,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "(<![CDATA[]]>)"
+  "value": "(<![CDATA[]]>)",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -117,17 +117,17 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-545"
+  "value": "*S-1-5-32-545",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -141,9 +141,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -157,17 +157,17 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-19"
+  "value": "*S-1-5-19",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -181,33 +181,33 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-19"
+  "value": "*S-1-5-19",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-20"
+  "value": "*S-1-5-20",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-6"
+  "value": "*S-1-5-6",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -221,9 +221,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -237,9 +237,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "(<![CDATA[]]>)"
+  "value": "(<![CDATA[]]>)",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -253,9 +253,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -269,9 +269,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "(<![CDATA[]]>)"
+  "value": "(<![CDATA[]]>)",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -285,9 +285,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -301,17 +301,17 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-546"
+  "value": "*S-1-5-32-546",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-113"
+  "value": "*S-1-5-113",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -325,9 +325,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-546"
+  "value": "*S-1-5-32-546",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -342,9 +342,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-546"
+  "value": "*S-1-5-32-546",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -359,9 +359,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-546"
+  "value": "*S-1-5-32-546",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -375,17 +375,17 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-546"
+  "value": "*S-1-5-32-546",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-113"
+  "value": "*S-1-5-113",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -399,9 +399,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "(<![CDATA[]]>)"
+  "value": "(<![CDATA[]]>)",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -415,17 +415,17 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-19"
+  "value": "*S-1-5-19",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-20"
+  "value": "*S-1-5-20",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -439,33 +439,33 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-19"
+  "value": "*S-1-5-19",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-20"
+  "value": "*S-1-5-20",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-6"
+  "value": "*S-1-5-6",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -479,17 +479,17 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-90-0"
+  "value": "*S-1-5-90-0",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -503,9 +503,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -519,9 +519,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "(<![CDATA[]]>)"
+  "value": "(<![CDATA[]]>)",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -535,9 +535,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -551,9 +551,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -567,9 +567,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -583,9 +583,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "(<![CDATA[]]>)"
+  "value": "(<![CDATA[]]>)",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -599,9 +599,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -616,17 +616,17 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-80"
+  "value": "*S-1-5-80",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -640,9 +640,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -657,17 +657,17 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-19"
+  "value": "*S-1-5-19",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-20"
+  "value": "*S-1-5-20",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -681,9 +681,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -698,17 +698,17 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-545"
+  "value": "*S-1-5-32-545",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -722,9 +722,9 @@
 
 ```json
 {
-  "settingValueTemplateReference": null,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "*S-1-5-32-544"
+  "value": "*S-1-5-32-544",
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -732,57 +732,60 @@
 ```json
 [
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "AccessCredentialManagerAsTrustedCaller",
-    "dependentOn": [],
-    "description": "This user right is used by Credential Manager during Backup/Restore. No accounts should have this privilege, as it is only assigned to Winlogon. Users' saved credentials might be compromised if this privilege is given to other entities.",
+    "offsetUri": "/Config/UserRights/AccessCredentialManagerAsTrustedCaller",
+    "displayName": "Access Credential Manager As Trusted Caller",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#accesscredentialmanagerastrustedcaller"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_accesscredentialmanagerastrustedcaller",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/AccessCredentialManagerAsTrustedCaller",
+    "description": "This user right is used by Credential Manager during Backup/Restore. No accounts should have this privilege, as it is only assigned to Winlogon. Users' saved credentials might be compromised if this privilege is given to other entities.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "AccessCredentialManagerAsTrustedCaller",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_accesscredentialmanagerastrustedcaller",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Access Credential Manager As Trusted Caller",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_accesscredentialmanagerastrustedcaller",
-    "displayName": "Access Credential Manager As Trusted Caller",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -792,66 +795,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "AccessFromNetwork",
-    "dependentOn": [],
-    "description": "This user right determines which users and groups are allowed to connect to the computer over the network. Remote Desktop Services are not affected by this user right.Note: Remote Desktop Services was called Terminal Services in previous versions of Windows Server.",
+    "offsetUri": "/Config/UserRights/AccessFromNetwork",
+    "displayName": "Access From Network",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#accessfromnetwork"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_accessfromnetwork",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/AccessFromNetwork",
+    "description": "This user right determines which users and groups are allowed to connect to the computer over the network. Remote Desktop Services are not affected by this user right.Note: Remote Desktop Services was called Terminal Services in previous versions of Windows Server.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "AccessFromNetwork",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_accessfromnetwork",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Access From Network",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_accessfromnetwork",
-    "displayName": "Access From Network",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -861,66 +864,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "ActAsPartOfTheOperatingSystem",
-    "dependentOn": [],
-    "description": "This user right allows a process to impersonate any user without authentication. The process can therefore gain access to the same local resources as that user. Processes that require this privilege should use the LocalSystem account, which already includes this privilege, rather than using a separate user account with this privilege specially assigned. Caution:Assigning this user right can be a security risk. Only assign this user right to trusted users.",
+    "offsetUri": "/Config/UserRights/ActAsPartOfTheOperatingSystem",
+    "displayName": "Act As Part Of The Operating System",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#actaspartoftheoperatingsystem"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_actaspartoftheoperatingsystem",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/ActAsPartOfTheOperatingSystem",
+    "description": "This user right allows a process to impersonate any user without authentication. The process can therefore gain access to the same local resources as that user. Processes that require this privilege should use the LocalSystem account, which already includes this privilege, rather than using a separate user account with this privilege specially assigned. Caution:Assigning this user right can be a security risk. Only assign this user right to trusted users.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "ActAsPartOfTheOperatingSystem",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_actaspartoftheoperatingsystem",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Act As Part Of The Operating System",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_actaspartoftheoperatingsystem",
-    "displayName": "Act As Part Of The Operating System",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -930,66 +933,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "AllowLocalLogOn",
-    "dependentOn": [],
-    "description": "This user right determines which users can log on to the computer. Note: Modifying this setting may affect compatibility with clients, services, and applications. For compatibility information about this setting, see Allow log on locally (https://go.microsoft.com/fwlink/?LinkId=24268 ) at the Microsoft website. ",
+    "offsetUri": "/Config/UserRights/AllowLocalLogOn",
+    "displayName": "Allow Local Log On",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#allowlocallogon"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_allowlocallogon",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/AllowLocalLogOn",
+    "description": "This user right determines which users can log on to the computer. Note: Modifying this setting may affect compatibility with clients, services, and applications. For compatibility information about this setting, see Allow log on locally (https://go.microsoft.com/fwlink/?LinkId=24268 ) at the Microsoft website. ",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "AllowLocalLogOn",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_allowlocallogon",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Allow Local Log On",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_allowlocallogon",
-    "displayName": "Allow Local Log On",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -999,66 +1002,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "BackupFilesAndDirectories",
-    "dependentOn": [],
-    "description": "This user right determines which users can bypass file, directory, registry, and other persistent objects permissions when backing up files and directories.Specifically, this user right is similar to granting the following permissions to the user or group in question on all files and folders on the system:Traverse Folder/Execute File, Read. Caution: Assigning this user right can be a security risk. Since users with this user right can read any registry settings and files, only assign this user right to trusted users",
+    "offsetUri": "/Config/UserRights/BackupFilesAndDirectories",
+    "displayName": "Backup Files And Directories",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#backupfilesanddirectories"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_backupfilesanddirectories",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/BackupFilesAndDirectories",
+    "description": "This user right determines which users can bypass file, directory, registry, and other persistent objects permissions when backing up files and directories.Specifically, this user right is similar to granting the following permissions to the user or group in question on all files and folders on the system:Traverse Folder/Execute File, Read. Caution: Assigning this user right can be a security risk. Since users with this user right can read any registry settings and files, only assign this user right to trusted users",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "BackupFilesAndDirectories",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_backupfilesanddirectories",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Backup Files And Directories",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_backupfilesanddirectories",
-    "displayName": "Backup Files And Directories",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1068,66 +1071,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "ChangeSystemTime",
-    "dependentOn": [],
-    "description": "This user right determines which users and groups can change the time and date on the internal clock of the computer. Users that are assigned this user right can affect the appearance of event logs. If the system time is changed, events that are logged will reflect this new time, not the actual time that the events occurred.",
+    "offsetUri": "/Config/UserRights/ChangeSystemTime",
+    "displayName": "Change System Time",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#changesystemtime"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_changesystemtime",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/ChangeSystemTime",
+    "description": "This user right determines which users and groups can change the time and date on the internal clock of the computer. Users that are assigned this user right can affect the appearance of event logs. If the system time is changed, events that are logged will reflect this new time, not the actual time that the events occurred.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "ChangeSystemTime",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_changesystemtime",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Change System Time",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_changesystemtime",
-    "displayName": "Change System Time",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1137,66 +1140,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "CreateGlobalObjects",
-    "dependentOn": [],
-    "description": "This security setting determines whether users can create global objects that are available to all sessions. Users can still create objects that are specific to their own session if they do not have this user right. Users who can create global objects could affect processes that run under other users' sessions, which could lead to application failure or data corruption. Caution: Assigning this user right can be a security risk. Assign this user right only to trusted users.",
+    "offsetUri": "/Config/UserRights/CreateGlobalObjects",
+    "displayName": "Create Global Objects",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#createglobalobjects"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_createglobalobjects",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/CreateGlobalObjects",
+    "description": "This security setting determines whether users can create global objects that are available to all sessions. Users can still create objects that are specific to their own session if they do not have this user right. Users who can create global objects could affect processes that run under other users' sessions, which could lead to application failure or data corruption. Caution: Assigning this user right can be a security risk. Assign this user right only to trusted users.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "CreateGlobalObjects",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_createglobalobjects",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Create Global Objects",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_createglobalobjects",
-    "displayName": "Create Global Objects",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1206,66 +1209,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "CreatePageFile",
-    "dependentOn": [],
-    "description": "This user right determines which users and groups can call an internal application programming interface (API) to create and change the size of a page file. This user right is used internally by the operating system and usually does not need to be assigned to any users",
+    "offsetUri": "/Config/UserRights/CreatePageFile",
+    "displayName": "Create Page File",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#createpagefile"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_createpagefile",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/CreatePageFile",
+    "description": "This user right determines which users and groups can call an internal application programming interface (API) to create and change the size of a page file. This user right is used internally by the operating system and usually does not need to be assigned to any users",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "CreatePageFile",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_createpagefile",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Create Page File",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_createpagefile",
-    "displayName": "Create Page File",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1275,66 +1278,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "CreatePermanentSharedObjects",
-    "dependentOn": [],
-    "description": "This user right determines which accounts can be used by processes to create a directory object using the object manager. This user right is used internally by the operating system and is useful to kernel-mode components that extend the object namespace. Because components that are running in kernel mode already have this user right assigned to them, it is not necessary to specifically assign it.",
+    "offsetUri": "/Config/UserRights/CreatePermanentSharedObjects",
+    "displayName": "Create Permanent Shared Objects",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#createpermanentsharedobjects"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_createpermanentsharedobjects",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/CreatePermanentSharedObjects",
+    "description": "This user right determines which accounts can be used by processes to create a directory object using the object manager. This user right is used internally by the operating system and is useful to kernel-mode components that extend the object namespace. Because components that are running in kernel mode already have this user right assigned to them, it is not necessary to specifically assign it.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "CreatePermanentSharedObjects",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_createpermanentsharedobjects",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Create Permanent Shared Objects",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_createpermanentsharedobjects",
-    "displayName": "Create Permanent Shared Objects",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1344,66 +1347,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "CreateSymbolicLinks",
-    "dependentOn": [],
-    "description": "This user right determines if the user can create a symbolic link from the computer he is logged on to. Caution: This privilege should only be given to trusted users. Symbolic links can expose security vulnerabilities in applications that aren't designed to handle them. Note: This setting can be used in conjunction a symlink filesystem setting that can be manipulated with the command line utility to control the kinds of symlinks that are allowed on the machine. Type 'fsutil behavior set symlinkevaluation /?' at the command line to get more information about fsutil and symbolic links.",
+    "offsetUri": "/Config/UserRights/CreateSymbolicLinks",
+    "displayName": "Create Symbolic Links",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#createsymboliclinks"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_createsymboliclinks",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/CreateSymbolicLinks",
+    "description": "This user right determines if the user can create a symbolic link from the computer he is logged on to. Caution: This privilege should only be given to trusted users. Symbolic links can expose security vulnerabilities in applications that aren't designed to handle them. Note: This setting can be used in conjunction a symlink filesystem setting that can be manipulated with the command line utility to control the kinds of symlinks that are allowed on the machine. Type 'fsutil behavior set symlinkevaluation /?' at the command line to get more information about fsutil and symbolic links.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "CreateSymbolicLinks",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_createsymboliclinks",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Create Symbolic Links",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_createsymboliclinks",
-    "displayName": "Create Symbolic Links",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1413,66 +1416,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "CreateToken",
-    "dependentOn": [],
-    "description": "This user right determines which accounts can be used by processes to create a token that can then be used to get access to any local resources when the process uses an internal application programming interface (API) to create an access token. This user right is used internally by the operating system. Unless it is necessary, do not assign this user right to a user, group, or process other than Local System. Caution: Assigning this user right can be a security risk. Do not assign this user right to any user, group, or process that you do not want to take over the system.",
+    "offsetUri": "/Config/UserRights/CreateToken",
+    "displayName": "Create Token",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#createtoken"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_createtoken",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/CreateToken",
+    "description": "This user right determines which accounts can be used by processes to create a token that can then be used to get access to any local resources when the process uses an internal application programming interface (API) to create an access token. This user right is used internally by the operating system. Unless it is necessary, do not assign this user right to a user, group, or process other than Local System. Caution: Assigning this user right can be a security risk. Do not assign this user right to any user, group, or process that you do not want to take over the system.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "CreateToken",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_createtoken",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Create Token",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_createtoken",
-    "displayName": "Create Token",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1482,66 +1485,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "DebugPrograms",
-    "dependentOn": [],
-    "description": "This user right determines which users can attach a debugger to any process or to the kernel. Developers who are debugging their own applications do not need to be assigned this user right. Developers who are debugging new system components will need this user right to be able to do so. This user right provides complete access to sensitive and critical operating system components. Caution:Assigning this user right can be a security risk. Only assign this user right to trusted users.",
+    "offsetUri": "/Config/UserRights/DebugPrograms",
+    "displayName": "Debug Programs",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#debugprograms"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_debugprograms",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/DebugPrograms",
+    "description": "This user right determines which users can attach a debugger to any process or to the kernel. Developers who are debugging their own applications do not need to be assigned this user right. Developers who are debugging new system components will need this user right to be able to do so. This user right provides complete access to sensitive and critical operating system components. Caution:Assigning this user right can be a security risk. Only assign this user right to trusted users.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "DebugPrograms",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_debugprograms",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Debug Programs",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_debugprograms",
-    "displayName": "Debug Programs",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1551,66 +1554,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "DenyAccessFromNetwork",
-    "dependentOn": [],
-    "description": "This user right determines which users are prevented from accessing a computer over the network. This policy setting supersedes the Access this computer from the network policy setting if a user account is subject to both policies.",
+    "offsetUri": "/Config/UserRights/DenyAccessFromNetwork",
+    "displayName": "Deny Access From Network",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#denyaccessfromnetwork"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_denyaccessfromnetwork",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/DenyAccessFromNetwork",
+    "description": "This user right determines which users are prevented from accessing a computer over the network. This policy setting supersedes the Access this computer from the network policy setting if a user account is subject to both policies.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "DenyAccessFromNetwork",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_denyaccessfromnetwork",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Deny Access From Network",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_denyaccessfromnetwork",
-    "displayName": "Deny Access From Network",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1620,66 +1623,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "DenyLocalLogOn",
-    "dependentOn": [],
-    "description": "This security setting determines which service accounts are prevented from registering a process as a service. Note: This security setting does not apply to the System, Local Service, or Network Service accounts.",
+    "offsetUri": "/Config/UserRights/DenyLocalLogOn",
+    "displayName": "Deny Local Log On",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#denylocallogon"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_denylocallogon",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/DenyLocalLogOn",
+    "description": "This security setting determines which service accounts are prevented from registering a process as a service. Note: This security setting does not apply to the System, Local Service, or Network Service accounts.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "DenyLocalLogOn",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_denylocallogon",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Deny Local Log On",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_denylocallogon",
-    "displayName": "Deny Local Log On",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1689,66 +1692,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "DenyLogOnAsBatchJob",
-    "dependentOn": [],
-    "description": "This security setting determines which accounts are prevented from being able to log on as a batch job. This policy setting supersedes the Log on as a batch job policy setting if a user account is subject to both policies.\r\n ",
+    "offsetUri": "/Config/UserRights/DenyLogOnAsBatchJob",
+    "displayName": "Deny Log On As Batch Job",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#denylogonasbatchjob"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_denylogonasbatchjob",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/DenyLogOnAsBatchJob",
+    "description": "This security setting determines which accounts are prevented from being able to log on as a batch job. This policy setting supersedes the Log on as a batch job policy setting if a user account is subject to both policies.\r\n ",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "DenyLogOnAsBatchJob",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_denylogonasbatchjob",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Deny Log On As Batch Job",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_denylogonasbatchjob",
-    "displayName": "Deny Log On As Batch Job",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1759,66 +1762,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "11.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621.5126",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.22621.5126"
+      "configurationServiceProviderVersion": "11.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "DenyLogOnAsService",
-    "dependentOn": [],
-    "description": "Deny log on as a service -This security setting determines which service accounts are prevented from registering a process as a service. This policy setting supersedes the Log on as a service policy setting if an account is subject to both policies. Note: This security setting does not apply to the System, Local Service, or Network Service accounts. Default: None.\r\n ",
+    "offsetUri": "/Config/UserRights/DenyLogOnAsService",
+    "displayName": "Deny Log On As Service",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#denylogonasservice"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_denylogonasservice",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/DenyLogOnAsService",
+    "description": "Deny log on as a service -This security setting determines which service accounts are prevented from registering a process as a service. This policy setting supersedes the Log on as a service policy setting if an account is subject to both policies. Note: This security setting does not apply to the System, Local Service, or Network Service accounts. Default: None.\r\n ",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "DenyLogOnAsService",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_denylogonasservice",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Deny Log On As Service",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_denylogonasservice",
-    "displayName": "Deny Log On As Service",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1829,66 +1832,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "11.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.26100",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.26100"
+      "configurationServiceProviderVersion": "11.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "DenyRemoteDesktopServicesLogOn",
-    "dependentOn": [],
-    "description": "This user right determines which users and groups are prohibited from logging on as a Remote Desktop Services client.",
+    "offsetUri": "/Config/UserRights/DenyRemoteDesktopServicesLogOn",
+    "displayName": "Deny Remote Desktop Services Log On",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#denyremotedesktopserviceslogon"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_denyremotedesktopserviceslogon",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/DenyRemoteDesktopServicesLogOn",
+    "description": "This user right determines which users and groups are prohibited from logging on as a Remote Desktop Services client.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "DenyRemoteDesktopServicesLogOn",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_denyremotedesktopserviceslogon",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Deny Remote Desktop Services Log On",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_denyremotedesktopserviceslogon",
-    "displayName": "Deny Remote Desktop Services Log On",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1898,66 +1901,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "EnableDelegation",
-    "dependentOn": [],
-    "description": "This user right determines which users can set the Trusted for Delegation setting on a user or computer object. The user or object that is granted this privilege must have write access to the account control flags on the user or computer object. A server process running on a computer (or under a user context) that is trusted for delegation can access resources on another computer using delegated credentials of a client, as long as the client account does not have the Account cannot be delegated account control flag set. Caution: Misuse of this user right, or of the Trusted for Delegation setting, could make the network vulnerable to sophisticated attacks using Trojan horse programs that impersonate incoming clients and use their credentials to gain access to network resources.",
+    "offsetUri": "/Config/UserRights/EnableDelegation",
+    "displayName": "Enable Delegation",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#enabledelegation"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_enabledelegation",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/EnableDelegation",
+    "description": "This user right determines which users can set the Trusted for Delegation setting on a user or computer object. The user or object that is granted this privilege must have write access to the account control flags on the user or computer object. A server process running on a computer (or under a user context) that is trusted for delegation can access resources on another computer using delegated credentials of a client, as long as the client account does not have the Account cannot be delegated account control flag set. Caution: Misuse of this user right, or of the Trusted for Delegation setting, could make the network vulnerable to sophisticated attacks using Trojan horse programs that impersonate incoming clients and use their credentials to gain access to network resources.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "EnableDelegation",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_enabledelegation",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Enable Delegation",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_enabledelegation",
-    "displayName": "Enable Delegation",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1967,66 +1970,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "GenerateSecurityAudits",
-    "dependentOn": [],
-    "description": "This user right determines which accounts can be used by a process to add entries to the security log. The security log is used to trace unauthorized system access. Misuse of this user right can result in the generation of many auditing events, potentially hiding evidence of an attack or causing a denial of service. Shut down system immediately if unable to log security audits security policy setting is enabled.",
+    "offsetUri": "/Config/UserRights/GenerateSecurityAudits",
+    "displayName": "Generate Security Audits",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#generatesecurityaudits"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_generatesecurityaudits",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/GenerateSecurityAudits",
+    "description": "This user right determines which accounts can be used by a process to add entries to the security log. The security log is used to trace unauthorized system access. Misuse of this user right can result in the generation of many auditing events, potentially hiding evidence of an attack or causing a denial of service. Shut down system immediately if unable to log security audits security policy setting is enabled.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "GenerateSecurityAudits",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_generatesecurityaudits",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Generate Security Audits",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_generatesecurityaudits",
-    "displayName": "Generate Security Audits",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2036,66 +2039,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "ImpersonateClient",
-    "dependentOn": [],
-    "description": "Assigning this user right to a user allows programs running on behalf of that user to impersonate a client. Requiring this user right for this kind of impersonation prevents an unauthorized user from convincing a client to connect (for example, by remote procedure call (RPC) or named pipes) to a service that they have created and then impersonating that client, which can elevate the unauthorized user's permissions to administrative or system levels. Caution: Assigning this user right can be a security risk. Only assign this user right to trusted users. Note: By default, services that are started by the Service Control Manager have the built-in Service group added to their access tokens. Component Object Model (COM) servers that are started by the COM infrastructure and that are configured to run under a specific account also have the Service group added to their access tokens. As a result, these services get this user right when they are started. In addition, a user can also impersonate an access token if any of the following conditions exist.  1) The access token that is being impersonated is for this user. 2) The user, in this logon session, created the access token by logging on to the network with explicit credentials. 3) The requested level is less than Impersonate, such as Anonymous or Identify. Because of these factors, users do not usually need this user right. Warning: If you enable this setting, programs that previously had the Impersonate privilege may lose it, and they may not run.",
+    "offsetUri": "/Config/UserRights/ImpersonateClient",
+    "displayName": "Impersonate Client",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#impersonateclient"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_impersonateclient",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/ImpersonateClient",
+    "description": "Assigning this user right to a user allows programs running on behalf of that user to impersonate a client. Requiring this user right for this kind of impersonation prevents an unauthorized user from convincing a client to connect (for example, by remote procedure call (RPC) or named pipes) to a service that they have created and then impersonating that client, which can elevate the unauthorized user's permissions to administrative or system levels. Caution: Assigning this user right can be a security risk. Only assign this user right to trusted users. Note: By default, services that are started by the Service Control Manager have the built-in Service group added to their access tokens. Component Object Model (COM) servers that are started by the COM infrastructure and that are configured to run under a specific account also have the Service group added to their access tokens. As a result, these services get this user right when they are started. In addition, a user can also impersonate an access token if any of the following conditions exist.  1) The access token that is being impersonated is for this user. 2) The user, in this logon session, created the access token by logging on to the network with explicit credentials. 3) The requested level is less than Impersonate, such as Anonymous or Identify. Because of these factors, users do not usually need this user right. Warning: If you enable this setting, programs that previously had the Impersonate privilege may lose it, and they may not run.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "ImpersonateClient",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_impersonateclient",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Impersonate Client",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_impersonateclient",
-    "displayName": "Impersonate Client",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2105,66 +2108,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "IncreaseSchedulingPriority",
-    "dependentOn": [],
-    "description": "This user right determines which accounts can use a process with Write Property access to another process to increase the execution priority assigned to the other process. A user with this privilege can change the scheduling priority of a process through the Task Manager user interface.",
+    "offsetUri": "/Config/UserRights/IncreaseSchedulingPriority",
+    "displayName": "Increase Scheduling Priority",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#increaseschedulingpriority"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_increaseschedulingpriority",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/IncreaseSchedulingPriority",
+    "description": "This user right determines which accounts can use a process with Write Property access to another process to increase the execution priority assigned to the other process. A user with this privilege can change the scheduling priority of a process through the Task Manager user interface.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "IncreaseSchedulingPriority",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_increaseschedulingpriority",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Increase Scheduling Priority",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_increaseschedulingpriority",
-    "displayName": "Increase Scheduling Priority",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2174,66 +2177,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "LoadUnloadDeviceDrivers",
-    "dependentOn": [],
-    "description": "This user right determines which users can dynamically load and unload device drivers or other code in to kernel mode. This user right does not apply to Plug and Play device drivers. It is recommended that you do not assign this privilege to other users. Caution: Assigning this user right can be a security risk. Do not assign this user right to any user, group, or process that you do not want to take over the system.",
+    "offsetUri": "/Config/UserRights/LoadUnloadDeviceDrivers",
+    "displayName": "Load Unload Device Drivers",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#loadunloaddevicedrivers"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_loadunloaddevicedrivers",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/LoadUnloadDeviceDrivers",
+    "description": "This user right determines which users can dynamically load and unload device drivers or other code in to kernel mode. This user right does not apply to Plug and Play device drivers. It is recommended that you do not assign this privilege to other users. Caution: Assigning this user right can be a security risk. Do not assign this user right to any user, group, or process that you do not want to take over the system.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "LoadUnloadDeviceDrivers",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_loadunloaddevicedrivers",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Load Unload Device Drivers",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_loadunloaddevicedrivers",
-    "displayName": "Load Unload Device Drivers",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2243,66 +2246,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "LockMemory",
-    "dependentOn": [],
-    "description": "This user right determines which accounts can use a process to keep data in physical memory, which prevents the system from paging the data to virtual memory on disk. Exercising this privilege could significantly affect system performance by decreasing the amount of available random access memory (RAM).",
+    "offsetUri": "/Config/UserRights/LockMemory",
+    "displayName": "Lock Memory",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#lockmemory"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_lockmemory",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/LockMemory",
+    "description": "This user right determines which accounts can use a process to keep data in physical memory, which prevents the system from paging the data to virtual memory on disk. Exercising this privilege could significantly affect system performance by decreasing the amount of available random access memory (RAM).",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "LockMemory",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_lockmemory",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Lock Memory",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_lockmemory",
-    "displayName": "Lock Memory",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2312,66 +2315,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "ManageAuditingAndSecurityLog",
-    "dependentOn": [],
-    "description": "This user right determines which users can specify object access auditing options for individual resources, such as files, Active Directory objects, and registry keys. This security setting does not allow a user to enable file and object access auditing in general. You can view audited events in the security log of the Event Viewer. A user with this privilege can also view and clear the security log.",
+    "offsetUri": "/Config/UserRights/ManageAuditingAndSecurityLog",
+    "displayName": "Manage Auditing And Security Log",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#manageauditingandsecuritylog"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_manageauditingandsecuritylog",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/ManageAuditingAndSecurityLog",
+    "description": "This user right determines which users can specify object access auditing options for individual resources, such as files, Active Directory objects, and registry keys. This security setting does not allow a user to enable file and object access auditing in general. You can view audited events in the security log of the Event Viewer. A user with this privilege can also view and clear the security log.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "ManageAuditingAndSecurityLog",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_manageauditingandsecuritylog",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Manage Auditing And Security Log",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_manageauditingandsecuritylog",
-    "displayName": "Manage Auditing And Security Log",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2381,66 +2384,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "ManageVolume",
-    "dependentOn": [],
-    "description": "This user right determines which users and groups can run maintenance tasks on a volume, such as remote defragmentation. Use caution when assigning this user right. Users with this user right can explore disks and extend files in to memory that contains other data. When the extended files are opened, the user might be able to read and modify the acquired data.",
+    "offsetUri": "/Config/UserRights/ManageVolume",
+    "displayName": "Manage Volume",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#managevolume"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_managevolume",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/ManageVolume",
+    "description": "This user right determines which users and groups can run maintenance tasks on a volume, such as remote defragmentation. Use caution when assigning this user right. Users with this user right can explore disks and extend files in to memory that contains other data. When the extended files are opened, the user might be able to read and modify the acquired data.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "ManageVolume",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_managevolume",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Manage Volume",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_managevolume",
-    "displayName": "Manage Volume",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2450,66 +2453,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "ModifyFirmwareEnvironment",
-    "dependentOn": [],
-    "description": "This user right determines who can modify firmware environment values. Firmware environment variables are settings stored in the nonvolatile RAM of non-x86-based computers. The effect of the setting depends on the processor.On x86-based computers, the only firmware environment value that can be modified by assigning this user right is the Last Known Good Configuration setting, which should only be modified by the system. On Itanium-based computers, boot information is stored in nonvolatile RAM. Users must be assigned this user right to run bootcfg.exe and to change the Default Operating System setting on Startup and Recovery in System Properties. On all computers, this user right is required to install or upgrade Windows.Note: This security setting does not affect who can modify the system environment variables and user environment variables that are displayed on the Advanced tab of System Properties.",
+    "offsetUri": "/Config/UserRights/ModifyFirmwareEnvironment",
+    "displayName": "Modify Firmware Environment",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#modifyfirmwareenvironment"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_modifyfirmwareenvironment",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/ModifyFirmwareEnvironment",
+    "description": "This user right determines who can modify firmware environment values. Firmware environment variables are settings stored in the nonvolatile RAM of non-x86-based computers. The effect of the setting depends on the processor.On x86-based computers, the only firmware environment value that can be modified by assigning this user right is the Last Known Good Configuration setting, which should only be modified by the system. On Itanium-based computers, boot information is stored in nonvolatile RAM. Users must be assigned this user right to run bootcfg.exe and to change the Default Operating System setting on Startup and Recovery in System Properties. On all computers, this user right is required to install or upgrade Windows.Note: This security setting does not affect who can modify the system environment variables and user environment variables that are displayed on the Advanced tab of System Properties.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "ModifyFirmwareEnvironment",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_modifyfirmwareenvironment",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Modify Firmware Environment",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_modifyfirmwareenvironment",
-    "displayName": "Modify Firmware Environment",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2519,66 +2522,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "ModifyObjectLabel",
-    "dependentOn": [],
-    "description": "This user right determines which user accounts can modify the integrity label of objects, such as files, registry keys, or processes owned by other users. Processes running under a user account can modify the label of an object owned by that user to a lower level without this privilege.",
+    "offsetUri": "/Config/UserRights/ModifyObjectLabel",
+    "displayName": "Modify Object Label",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#modifyobjectlabel"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_modifyobjectlabel",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/ModifyObjectLabel",
+    "description": "This user right determines which user accounts can modify the integrity label of objects, such as files, registry keys, or processes owned by other users. Processes running under a user account can modify the label of an object owned by that user to a lower level without this privilege.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "ModifyObjectLabel",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_modifyobjectlabel",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Modify Object Label",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_modifyobjectlabel",
-    "displayName": "Modify Object Label",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2588,66 +2591,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "ProfileSingleProcess",
-    "dependentOn": [],
-    "description": "This user right determines which users can use performance monitoring tools to monitor the performance of system processes.",
+    "offsetUri": "/Config/UserRights/ProfileSingleProcess",
+    "displayName": "Profile Single Process",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#profilesingleprocess"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_profilesingleprocess",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/ProfileSingleProcess",
+    "description": "This user right determines which users can use performance monitoring tools to monitor the performance of system processes.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "ProfileSingleProcess",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_profilesingleprocess",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Profile Single Process",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_profilesingleprocess",
-    "displayName": "Profile Single Process",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2657,66 +2660,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "ProfileSystemPerformance",
-    "dependentOn": [],
-    "description": "This security setting determines which users can use performance monitoring tools to monitor the performance of system processes.\r\n ",
+    "offsetUri": "/Config/UserRights/ProfileSystemPerformance",
+    "displayName": "Profile System Performance",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#profilesystemperformance"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_profilesystemperformance",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/ProfileSystemPerformance",
+    "description": "This security setting determines which users can use performance monitoring tools to monitor the performance of system processes.\r\n ",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "ProfileSystemPerformance",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_profilesystemperformance",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Profile System Performance",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_profilesystemperformance",
-    "displayName": "Profile System Performance",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2727,66 +2730,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "11.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621.5126",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.22621.5126"
+      "configurationServiceProviderVersion": "11.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "RemoteShutdown",
-    "dependentOn": [],
-    "description": "This user right determines which users are allowed to shut down a computer from a remote location on the network. Misuse of this user right can result in a denial of service.",
+    "offsetUri": "/Config/UserRights/RemoteShutdown",
+    "displayName": "Remote Shutdown",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#remoteshutdown"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_remoteshutdown",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/RemoteShutdown",
+    "description": "This user right determines which users are allowed to shut down a computer from a remote location on the network. Misuse of this user right can result in a denial of service.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "RemoteShutdown",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_remoteshutdown",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Remote Shutdown",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_remoteshutdown",
-    "displayName": "Remote Shutdown",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2796,66 +2799,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "ReplaceProcessLevelToken",
-    "dependentOn": [],
-    "description": "This security setting determines which user accounts can call the CreateProcessAsUser() application programming interface (API) so that one service can start another. An example of a process that uses this user right is Task Scheduler. For information about Task Scheduler, see Task Scheduler overview.\r\n ",
+    "offsetUri": "/Config/UserRights/ReplaceProcessLevelToken",
+    "displayName": "Replace Process Level Token",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#replaceprocessleveltoken"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_replaceprocessleveltoken",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/ReplaceProcessLevelToken",
+    "description": "This security setting determines which user accounts can call the CreateProcessAsUser() application programming interface (API) so that one service can start another. An example of a process that uses this user right is Task Scheduler. For information about Task Scheduler, see Task Scheduler overview.\r\n ",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "ReplaceProcessLevelToken",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_replaceprocessleveltoken",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Replace Process Level Token",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_replaceprocessleveltoken",
-    "displayName": "Replace Process Level Token",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2866,66 +2869,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "11.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621.5126",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.22621.5126"
+      "configurationServiceProviderVersion": "11.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "RestoreFilesAndDirectories",
-    "dependentOn": [],
-    "description": "This user right determines which users can bypass file, directory, registry, and other persistent objects permissions when restoring backed up files and directories, and determines which users can set any valid security principal as the owner of an object. Specifically, this user right is similar to granting the following permissions to the user or group in question on all files and folders on the system:Traverse Folder/Execute File, Write. Caution: Assigning this user right can be a security risk. Since users with this user right can overwrite registry settings, hide data, and gain ownership of system objects, only assign this user right to trusted users.",
+    "offsetUri": "/Config/UserRights/RestoreFilesAndDirectories",
+    "displayName": "Restore Files And Directories",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#restorefilesanddirectories"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_restorefilesanddirectories",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/RestoreFilesAndDirectories",
+    "description": "This user right determines which users can bypass file, directory, registry, and other persistent objects permissions when restoring backed up files and directories, and determines which users can set any valid security principal as the owner of an object. Specifically, this user right is similar to granting the following permissions to the user or group in question on all files and folders on the system:Traverse Folder/Execute File, Write. Caution: Assigning this user right can be a security risk. Since users with this user right can overwrite registry settings, hide data, and gain ownership of system objects, only assign this user right to trusted users.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "RestoreFilesAndDirectories",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_restorefilesanddirectories",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Restore Files And Directories",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_restorefilesanddirectories",
-    "displayName": "Restore Files And Directories",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2935,66 +2938,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "ShutDownTheSystem",
-    "dependentOn": [],
-    "description": "This security setting determines which users who are logged on locally to the computer can shut down the operating system using the Shut Down command. Misuse of this user right can result in a denial of service.\r\n ",
+    "offsetUri": "/Config/UserRights/ShutDownTheSystem",
+    "displayName": "Shut Down The System",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#shutdownthesystem"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_shutdownthesystem",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/ShutDownTheSystem",
+    "description": "This security setting determines which users who are logged on locally to the computer can shut down the operating system using the Shut Down command. Misuse of this user right can result in a denial of service.\r\n ",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "ShutDownTheSystem",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_shutdownthesystem",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Shut Down The System",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_shutdownthesystem",
-    "displayName": "Shut Down The System",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3005,66 +3008,66 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "11.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621.5126",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.22621.5126"
+      "configurationServiceProviderVersion": "11.0"
     }
   },
   {
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template",
-    "minimumCount": 0,
-    "valueDefinition": {
-      "fileTypes": [],
-      "isSecret": false,
-      "format": "none",
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "maximumLength": 87516,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
-    },
     "maximumCount": 1000,
-    "name": "TakeOwnership",
-    "dependentOn": [],
-    "description": "This user right determines which users can take ownership of any securable object in the system, including Active Directory objects, files and folders, printers, registry keys, processes, and threads. Caution: Assigning this user right can be a security risk. Since owners of objects have full control of them, only assign this user right to trusted users.",
+    "offsetUri": "/Config/UserRights/TakeOwnership",
+    "displayName": "Take Ownership",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-UserRights#takeownership"
     ],
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "format": "none",
+      "isSecret": false,
+      "minimumLength": 0,
+      "maximumLength": 87516,
+      "fileTypes": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "helpText": "",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "id": "device_vendor_msft_policy_config_userrights_takeownership",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
-    "referredSettingInformationList": [],
-    "version": "639076796884740746",
-    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
-    "offsetUri": "/Config/UserRights/TakeOwnership",
+    "description": "This user right determines which users can take ownership of any securable object in the system, including Active Directory objects, files and folders, printers, registry keys, processes, and threads. Caution: Assigning this user right can be a security risk. Since owners of objects have full control of them, only assign this user right to trusted users.",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
+    "riskLevel": "low",
+    "minimumCount": 0,
+    "version": "639076796884740746",
+    "name": "TakeOwnership",
     "rootDefinitionId": "device_vendor_msft_policy_config_userrights_takeownership",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
     "keywords": [
       "Take Ownership",
       "User Rights"
     ],
-    "id": "device_vendor_msft_policy_config_userrights_takeownership",
-    "displayName": "Take Ownership",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "accessTypes": "add,delete,get,replace",
+    "dependentOn": [],
+    "visibility": "settingsCatalog,template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "9fa124da-acc8-4f4a-a75d-732cd5f91bfd",
     "applicability": {
-      "deviceMode": "none",
-      "maximumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "platform": "windows10",
+      "deviceMode": "none",
+      "description": null,
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3074,12 +3077,9 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "7.0",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
       "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134"
+      "configurationServiceProviderVersion": "7.0"
     }
   }
 ]

@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_DomainName.md)
 
-**Report Generated:** 03/19/2026 05:01:13
+**Report Generated:** 03/20/2026 04:54:13
 
 ---
 
@@ -33,27 +33,27 @@ N/A
 
 ```json
 {
+  "enforceSignatureCheck": false,
+  "deviceHealthScriptType": "deviceHealthScript",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
   "isGlobalScript": false,
+  "version": "1",
+  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
+  "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z",
+  "highestAvailableVersion": null,
   "detectionScriptParameters": [],
+  "remediationScriptParameters": [],
+  "runAs32Bit": true,
+  "remediationScriptContent": "",
+  "runAsAccount": "system",
+  "publisher": " ",
+  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
+  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
   "description": "Outputs the domain name to be used for Azure Automation.",
   "roleScopeTagIds": [
     "0"
-  ],
-  "deviceHealthScriptType": "deviceHealthScript",
-  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
-  "remediationScriptContent": "",
-  "remediationScriptParameters": [],
-  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z",
-  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
-  "highestAvailableVersion": null,
-  "runAs32Bit": true,
-  "publisher": " ",
-  "enforceSignatureCheck": false,
-  "runAsAccount": "system",
-  "version": "1",
-  "createdDateTime": "2025-04-04T00:37:33.6892117Z"
+  ]
 }
 ```
 

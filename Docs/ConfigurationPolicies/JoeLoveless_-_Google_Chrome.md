@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_Google_Chrome.md)
 
-**Report Generated:** 03/19/2026 05:01:02
+**Report Generated:** 03/20/2026 04:54:04
 
 ---
 
@@ -25,28 +25,24 @@ Leaving the policy unset means users can't play the game on enrolled Google Chro
 
 ```json
 {
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
-  "displayName": "Enabled",
-  "name": "Enabled",
-  "dependedOnBy": [],
   "description": null,
   "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_1",
+  "helpText": null,
   "dependentOn": [],
-  "helpText": null
+  "displayName": "Enabled",
+  "dependedOnBy": [],
+  "optionValue": {
+    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null
+  },
+  "name": "Enabled"
 }
 ```
 
 ## Setting Definition
 ```json
 {
-  "baseUri": "./Device/Vendor/MSFT/Policy",
-  "rootDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg",
-  "riskLevel": "low",
-  "categoryId": "36c83fb3-c18c-472b-b39e-617c2f8a7fbd",
   "keywords": [
     "AllowDinosaurEasterEgg",
     "Allow Dinosaur Easter Egg Game",
@@ -56,68 +52,72 @@ Leaving the policy unset means users can't play the game on enrolled Google Chro
     "Both",
     "Software\\Policies\\Google\\Chrome"
   ],
-  "accessTypes": "none",
-  "helpText": "",
-  "displayName": "Allow Dinosaur Easter Egg Game",
+  "description": "Setting the policy to True allows users to play the dinosaur game. Setting the policy to False means users can't play the dinosaur easter egg game when device is offline.\r\n\r\nLeaving the policy unset means users can't play the game on enrolled Google Chrome OS, but can under other circumstances.",
+  "rootDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg",
   "version": "639076796884740746",
-  "settingUsage": "configuration",
-  "defaultOptionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_0",
+  "baseUri": "./Device/Vendor/MSFT/Policy",
+  "categoryId": "36c83fb3-c18c-472b-b39e-617c2f8a7fbd",
+  "riskLevel": "low",
+  "accessTypes": "none",
   "options": [
     {
-      "optionValue": {
-        "settingValueTemplateReference": null,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "value": 0
-      },
-      "displayName": "Disabled",
-      "name": "Disabled",
-      "dependedOnBy": [],
       "description": null,
       "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_0",
+      "helpText": null,
       "dependentOn": [],
-      "helpText": null
+      "displayName": "Disabled",
+      "dependedOnBy": [],
+      "optionValue": {
+        "value": 0,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null
+      },
+      "name": "Disabled"
     },
     {
-      "optionValue": {
-        "settingValueTemplateReference": null,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "value": 1
-      },
-      "displayName": "Enabled",
-      "name": "Enabled",
-      "dependedOnBy": [],
       "description": null,
       "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_1",
+      "helpText": null,
       "dependentOn": [],
-      "helpText": null
+      "displayName": "Enabled",
+      "dependedOnBy": [],
+      "optionValue": {
+        "value": 1,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null
+      },
+      "name": "Enabled"
     }
   ],
-  "infoUrls": [],
-  "description": "Setting the policy to True allows users to play the dinosaur game. Setting the policy to False means users can't play the dinosaur easter egg game when device is offline.\r\n\r\nLeaving the policy unset means users can't play the game on enrolled Google Chrome OS, but can under other circumstances.",
+  "defaultOptionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_0",
+  "displayName": "Allow Dinosaur Easter Egg Game",
+  "visibility": "settingsCatalog,template",
   "id": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg",
-  "referredSettingInformationList": [],
   "offsetUri": "/Config/chromeIntuneV1~Policy~googlechrome/AllowDinosaurEasterEgg",
+  "referredSettingInformationList": [],
+  "uxBehavior": "toggle",
   "occurrence": {
-    "minDeviceOccurrence": 1,
-    "maxDeviceOccurrence": 1
+    "maxDeviceOccurrence": 1,
+    "minDeviceOccurrence": 1
   },
+  "infoUrls": [],
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+  "name": "AllowDinosaurEasterEgg",
+  "helpText": "",
+  "settingUsage": "configuration",
   "applicability": {
+    "configurationServiceProviderVersion": "5.0",
     "technologies": "mdm",
+    "requiresAzureAd": false,
+    "deviceMode": "none",
+    "minimumSupportedVersion": null,
+    "description": null,
+    "requiredAzureAdTrustType": "none",
+    "maximumSupportedVersion": null,
     "windowsSkus": [],
     "platform": "windows10",
-    "configurationServiceProviderVersion": "5.0",
-    "requiredAzureAdTrustType": "none",
-    "deviceMode": "none",
-    "description": null,
-    "requiresAzureAd": false,
-    "minimumSupportedVersion": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "maximumSupportedVersion": null
-  },
-  "uxBehavior": "toggle",
-  "name": "AllowDinosaurEasterEgg",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-  "visibility": "settingsCatalog,template"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+  }
 }
 ```
 

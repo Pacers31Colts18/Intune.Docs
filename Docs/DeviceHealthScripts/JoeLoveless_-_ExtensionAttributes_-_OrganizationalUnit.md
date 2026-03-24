@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 03/23/2026 05:10:51
+**Report Generated:** 03/24/2026 05:00:38
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "remediationScriptParameters": [],
-  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
-  "remediationScriptContent": "",
-  "runAsAccount": "system",
-  "runAs32Bit": true,
-  "publisher": " Joe Loveless",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "highestAvailableVersion": null,
-  "version": "3",
   "roleScopeTagIds": [
     "0"
   ],
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
   "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
-  "description": "ExtensionAttribute2: Organizational Unit of device",
-  "enforceSignatureCheck": false,
-  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "deviceHealthScriptType": "deviceHealthScript",
+  "highestAvailableVersion": null,
   "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "description": "ExtensionAttribute2: Organizational Unit of device",
   "detectionScriptParameters": [],
-  "isGlobalScript": false
+  "isGlobalScript": false,
+  "deviceHealthScriptType": "deviceHealthScript",
+  "remediationScriptContent": "",
+  "runAs32Bit": true,
+  "publisher": " Joe Loveless",
+  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
+  "runAsAccount": "system",
+  "enforceSignatureCheck": false,
+  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "version": "3",
+  "remediationScriptParameters": []
 }
 ```
 

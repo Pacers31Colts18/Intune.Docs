@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 03/24/2026 05:00:39
+**Report Generated:** 03/25/2026 05:01:41
 
 ---
 
 ```json
 {
+  "deviceType": "windowsPc",
   "roleScopeTagIds": [
     "0"
   ],
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "deviceNameTemplate": "JL-%SERIAL%",
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "hardwareHashExtractionEnabled": true,
-  "description": "",
-  "extractHardwareHash": true,
-  "preprovisioningAllowed": false,
-  "outOfBoxExperienceSettings": {
-    "deviceUsageType": "singleUser",
-    "hideEscapeLink": true,
-    "skipKeyboardSelectionPage": true,
-    "hideEULA": true,
-    "hidePrivacySettings": true,
-    "userType": "standard"
-  },
-  "language": "os-default",
-  "deviceType": "windowsPc",
   "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "enableWhiteGlove": false,
-  "enrollmentStatusScreenSettings": null,
-  "outOfBoxExperienceSetting": {
-    "deviceUsageType": "singleUser",
-    "escapeLinkHidden": true,
-    "keyboardSelectionPageSkipped": true,
-    "eulaHidden": true,
-    "privacySettingsHidden": true,
-    "userType": "standard"
-  },
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
   "id": "54c48954-766f-4238-86da-ed2d872e793e",
   "managementServiceAppId": null,
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
   "locale": "os-default",
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile"
+  "description": "",
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "outOfBoxExperienceSetting": {
+    "userType": "standard",
+    "keyboardSelectionPageSkipped": true,
+    "escapeLinkHidden": true,
+    "eulaHidden": true,
+    "privacySettingsHidden": true,
+    "deviceUsageType": "singleUser"
+  },
+  "preprovisioningAllowed": false,
+  "hardwareHashExtractionEnabled": true,
+  "enrollmentStatusScreenSettings": null,
+  "language": "os-default",
+  "deviceNameTemplate": "JL-%SERIAL%",
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "enableWhiteGlove": false,
+  "outOfBoxExperienceSettings": {
+    "skipKeyboardSelectionPage": true,
+    "hideEscapeLink": true,
+    "hidePrivacySettings": true,
+    "userType": "standard",
+    "deviceUsageType": "singleUser",
+    "hideEULA": true
+  },
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "extractHardwareHash": true
 }
 ```
 

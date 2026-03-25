@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_WHFB_-_Security_Key.md)
 
-**Report Generated:** 03/24/2026 05:00:30
+**Report Generated:** 03/25/2026 05:01:32
 
 ---
 
@@ -25,82 +25,67 @@
 
 ```json
 {
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependedOnBy": [],
   "dependentOn": [],
-  "description": "enabled",
-  "helpText": null,
+  "displayName": "Enabled",
+  "dependedOnBy": [],
   "name": "enabled",
+  "helpText": null,
   "itemId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_1",
-  "displayName": "Enabled"
+  "description": "enabled",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null,
+    "value": 1
+  }
 }
 ```
 
 ## Setting Definition
 ```json
 {
-  "occurrence": {
-    "minDeviceOccurrence": 0,
-    "maxDeviceOccurrence": 1
-  },
-  "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
-  "helpText": "",
-  "keywords": [
-    "Use Security Key For Signin (Device)",
-    "PassportForWork",
-    "Windows Hello For Business"
-  ],
-  "version": "639076796884740746",
-  "defaultOptionId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_0",
-  "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-  "infoUrls": [
-    "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
-  ],
-  "id": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin",
-  "visibility": "settingsCatalog,template",
-  "displayName": "Use Security Key For Signin",
-  "settingUsage": "configuration",
   "options": [
     {
-      "optionValue": {
-        "value": 0,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "settingValueTemplateReference": null
-      },
-      "dependedOnBy": [],
       "dependentOn": [],
-      "description": "disabled",
-      "helpText": null,
+      "displayName": "Disabled",
+      "dependedOnBy": [],
       "name": "disabled",
+      "helpText": null,
       "itemId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_0",
-      "displayName": "Disabled"
+      "description": "disabled",
+      "optionValue": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null,
+        "value": 0
+      }
     },
     {
-      "optionValue": {
-        "value": 1,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "settingValueTemplateReference": null
-      },
-      "dependedOnBy": [],
       "dependentOn": [],
-      "description": "enabled",
-      "helpText": null,
+      "displayName": "Enabled",
+      "dependedOnBy": [],
       "name": "enabled",
+      "helpText": null,
       "itemId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_1",
-      "displayName": "Enabled"
+      "description": "enabled",
+      "optionValue": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null,
+        "value": 1
+      }
     }
   ],
-  "offsetUri": "/SecurityKey/UseSecurityKeyForSignin",
+  "rootDefinitionId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin",
+  "defaultOptionId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_0",
+  "version": "639094788176414916",
+  "id": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin",
+  "visibility": "settingsCatalog,template",
   "applicability": {
-    "platform": "windows10",
-    "description": null,
+    "deviceMode": "none",
     "maximumSupportedVersion": null,
-    "minimumSupportedVersion": "10.0.18362",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+    "technologies": "mdm,configManager",
+    "requiredAzureAdTrustType": "none",
+    "platform": "windows10",
+    "requiresAzureAd": false,
+    "configurationServiceProviderVersion": "1.6",
     "windowsSkus": [
       "windowsEnterprise",
       "windowsProfessional",
@@ -114,20 +99,35 @@
       "iotEnterpriseSEval",
       "windowsCPC"
     ],
-    "technologies": "mdm,configManager",
-    "deviceMode": "none",
-    "configurationServiceProviderVersion": "1.6",
-    "requiresAzureAd": false,
-    "requiredAzureAdTrustType": "none"
+    "description": null,
+    "minimumSupportedVersion": "10.0.18362",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
   },
-  "name": "UseSecurityKeyForSignin",
-  "rootDefinitionId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin",
+  "infoUrls": [
+    "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
+  ],
+  "offsetUri": "/SecurityKey/UseSecurityKeyForSignin",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-  "description": "Use security key for signin. 0 is disabled. 1 is enable. If you do not configure this policy setting, the default is disabled.",
   "accessTypes": "add,delete,get,replace",
   "riskLevel": "low",
+  "displayName": "Use Security Key For Signin",
   "referredSettingInformationList": [],
-  "uxBehavior": "toggle"
+  "baseUri": "./Device/Vendor/MSFT/PassportForWork",
+  "keywords": [
+    "Use Security Key For Signin (Device)",
+    "PassportForWork",
+    "Windows Hello For Business"
+  ],
+  "occurrence": {
+    "minDeviceOccurrence": 0,
+    "maxDeviceOccurrence": 1
+  },
+  "name": "UseSecurityKeyForSignin",
+  "helpText": "",
+  "uxBehavior": "toggle",
+  "settingUsage": "configuration",
+  "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+  "description": "Use security key for signin. 0 is disabled. 1 is enable. If you do not configure this policy setting, the default is disabled."
 }
 ```
 

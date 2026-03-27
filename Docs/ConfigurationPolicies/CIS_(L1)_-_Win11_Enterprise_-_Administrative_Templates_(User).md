@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/CIS_(L1)_-_Win11_Enterprise_-_Administrative_Templates_(User).md)
 
-**Report Generated:** 03/26/2026 05:13:30
+**Report Generated:** 03/27/2026 05:14:45
 
 ---
 
@@ -33,18 +33,18 @@
 
 ```json
 {
+  "itemId": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot_1",
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "value": 1,
     "settingValueTemplateReference": null
   },
+  "dependentOn": [],
+  "description": "Disable Copilot",
+  "dependedOnBy": [],
   "helpText": null,
   "displayName": "Disable Copilot",
-  "dependedOnBy": [],
-  "dependentOn": [],
-  "name": "Disable Copilot",
-  "description": "Disable Copilot",
-  "itemId": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot_1"
+  "name": "Disable Copilot"
 }
 ```
 
@@ -52,15 +52,62 @@
 ```json
 [
   {
-    "keywords": [
-      "Allow Windows Tips",
-      "Experience"
+    "visibility": "settingsCatalog,template",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#allowwindowstips"
+    ],
+    "offsetUri": "/Config/Experience/AllowWindowsTips",
+    "uxBehavior": "toggle",
+    "options": [
+      {
+        "itemId": "device_vendor_msft_policy_config_experience_allowwindowstips_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
+          }
+        ],
+        "description": "Disabled.",
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Block",
+        "name": "Disabled."
+      },
+      {
+        "itemId": "device_vendor_msft_policy_config_experience_allowwindowstips_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
+          }
+        ],
+        "description": "Enabled.",
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Allow",
+        "name": "Enabled."
+      }
     ],
     "applicability": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "description": null,
+      "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "configurationServiceProviderVersion": "4.1",
+      "deviceMode": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "minimumSupportedVersion": "10.0.14393",
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsEducation",
@@ -68,89 +115,89 @@
         "iotEnterprise",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
       "maximumSupportedVersion": null
     },
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_experience_allowwindowstips",
+    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
+    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
+    "keywords": [
+      "Allow Windows Tips",
+      "Experience"
+    ],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "helpText": "",
+    "version": "639094788176414916",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "Allow Windows Tips",
+    "defaultOptionId": "device_vendor_msft_policy_config_experience_allowwindowstips_1",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "AllowWindowsTips",
+    "description": "Enables or disables Windows Tips / soft landing.",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "riskLevel": "low"
+  },
+  {
+    "visibility": "settingsCatalog,template",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#allowtailoredexperienceswithdiagnosticdata"
+    ],
+    "offsetUri": "/Config/Experience/AllowTailoredExperiencesWithDiagnosticData",
+    "uxBehavior": "toggle",
     "options": [
       {
+        "itemId": "user_vendor_msft_policy_config_experience_allowtailoredexperienceswithdiagnosticdata_0",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
           "settingValueTemplateReference": null
         },
-        "helpText": null,
-        "displayName": "Block",
-        "dependedOnBy": [],
         "dependentOn": [
           {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
           }
         ],
-        "name": "Disabled.",
-        "description": "Disabled.",
-        "itemId": "device_vendor_msft_policy_config_experience_allowwindowstips_0"
+        "description": "Not allowed.",
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Block",
+        "name": "Not allowed."
       },
       {
+        "itemId": "user_vendor_msft_policy_config_experience_allowtailoredexperienceswithdiagnosticdata_1",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
           "settingValueTemplateReference": null
         },
-        "helpText": null,
-        "displayName": "Allow",
-        "dependedOnBy": [],
         "dependentOn": [
           {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
           }
         ],
-        "name": "Enabled.",
-        "description": "Enabled.",
-        "itemId": "device_vendor_msft_policy_config_experience_allowwindowstips_1"
+        "description": "Allowed.",
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Allow",
+        "name": "Allowed."
       }
     ],
-    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#allowwindowstips"
-    ],
-    "description": "Enables or disables Windows Tips / soft landing.",
-    "riskLevel": "low",
-    "version": "639094788176414916",
-    "name": "AllowWindowsTips",
-    "defaultOptionId": "device_vendor_msft_policy_config_experience_allowwindowstips_1",
-    "visibility": "settingsCatalog,template",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_experience_allowwindowstips",
-    "offsetUri": "/Config/Experience/AllowWindowsTips",
-    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-    "referredSettingInformationList": [],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Allow Windows Tips"
-  },
-  {
-    "keywords": [
-      "Allow Tailored Experiences With Diagnostic Data",
-      "Experience"
-    ],
     "applicability": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "description": null,
+      "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "configurationServiceProviderVersion": "5.0",
+      "deviceMode": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "minimumSupportedVersion": "10.0.15063",
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -161,394 +208,394 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "5.0",
       "maximumSupportedVersion": null
     },
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "id": "user_vendor_msft_policy_config_experience_allowtailoredexperienceswithdiagnosticdata",
+    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
+    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
+    "keywords": [
+      "Allow Tailored Experiences With Diagnostic Data",
+      "Experience"
+    ],
+    "baseUri": "./User/Vendor/MSFT/Policy",
+    "helpText": "",
+    "version": "639094788176414916",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "Allow Tailored Experiences With Diagnostic Data (User)",
+    "defaultOptionId": "user_vendor_msft_policy_config_experience_allowtailoredexperienceswithdiagnosticdata_1",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "AllowTailoredExperiencesWithDiagnosticData",
+    "description": "This policy allows you to prevent Windows from using diagnostic data to provide customized experiences to the user. If you enable this policy setting, Windows will not use diagnostic data from this device to customize content shown on the lock screen, Windows tips, Microsoft consumer features, or other related features. If these features are enabled, users will still see recommendations, tips and offers, but they may be less relevant. If you disable or do not configure this policy setting, Microsoft will use diagnostic data to provide personalized recommendations, tips, and offers to tailor Windows for the user's needs and make it work better for them. Diagnostic data can include browser, app and feature usage, depending on the Diagnostic and usage data setting value. Note This setting does not control Cortana cutomized experiences because there are separate policies to configure it. Most restricted value is 0.",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "riskLevel": "low"
+  },
+  {
+    "visibility": "settingsCatalog,template",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#allowwindowsspotlightonactioncenter"
+    ],
+    "offsetUri": "/Config/Experience/AllowWindowsSpotlightOnActionCenter",
+    "uxBehavior": "toggle",
     "options": [
       {
+        "itemId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonactioncenter_0",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
           "settingValueTemplateReference": null
         },
-        "helpText": null,
-        "displayName": "Block",
-        "dependedOnBy": [],
         "dependentOn": [
           {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
           }
         ],
-        "name": "Not allowed.",
         "description": "Not allowed.",
-        "itemId": "user_vendor_msft_policy_config_experience_allowtailoredexperienceswithdiagnosticdata_0"
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Block",
+        "name": "Not allowed."
       },
       {
+        "itemId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonactioncenter_1",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
           "settingValueTemplateReference": null
         },
-        "helpText": null,
-        "displayName": "Allow",
-        "dependedOnBy": [],
         "dependentOn": [
           {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
           }
         ],
-        "name": "Allowed.",
         "description": "Allowed.",
-        "itemId": "user_vendor_msft_policy_config_experience_allowtailoredexperienceswithdiagnosticdata_1"
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Allow",
+        "name": "Allowed."
       }
     ],
-    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#allowtailoredexperienceswithdiagnosticdata"
-    ],
-    "description": "This policy allows you to prevent Windows from using diagnostic data to provide customized experiences to the user. If you enable this policy setting, Windows will not use diagnostic data from this device to customize content shown on the lock screen, Windows tips, Microsoft consumer features, or other related features. If these features are enabled, users will still see recommendations, tips and offers, but they may be less relevant. If you disable or do not configure this policy setting, Microsoft will use diagnostic data to provide personalized recommendations, tips, and offers to tailor Windows for the user's needs and make it work better for them. Diagnostic data can include browser, app and feature usage, depending on the Diagnostic and usage data setting value. Note This setting does not control Cortana cutomized experiences because there are separate policies to configure it. Most restricted value is 0.",
-    "riskLevel": "low",
-    "version": "639094788176414916",
-    "name": "AllowTailoredExperiencesWithDiagnosticData",
-    "defaultOptionId": "user_vendor_msft_policy_config_experience_allowtailoredexperienceswithdiagnosticdata_1",
-    "visibility": "settingsCatalog,template",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+    "applicability": {
+      "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "configurationServiceProviderVersion": "5.0",
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.15063",
+      "description": null,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsEducation",
+        "iotEnterprise",
+        "iotEnterpriseSEval"
+      ],
+      "maximumSupportedVersion": null
     },
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "uxBehavior": "toggle",
-    "id": "user_vendor_msft_policy_config_experience_allowtailoredexperienceswithdiagnosticdata",
-    "offsetUri": "/Config/Experience/AllowTailoredExperiencesWithDiagnosticData",
-    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
     "referredSettingInformationList": [],
-    "baseUri": "./User/Vendor/MSFT/Policy",
-    "displayName": "Allow Tailored Experiences With Diagnostic Data (User)"
-  },
-  {
+    "settingUsage": "configuration",
+    "id": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonactioncenter",
+    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
+    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
     "keywords": [
       "Allow Windows Spotlight On Action Center",
       "Experience"
     ],
+    "baseUri": "./User/Vendor/MSFT/Policy",
+    "helpText": "",
+    "version": "639094788176414916",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "Allow Windows Spotlight On Action Center (User)",
+    "defaultOptionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonactioncenter_1",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "AllowWindowsSpotlightOnActionCenter",
+    "description": "This policy allows administrators to prevent Windows spotlight notifications from being displayed in the Action Center. If you enable this policy, Windows spotlight notifications will no longer be displayed in the Action Center. If you disable or do not configure this policy, Microsoft may display notifications in the Action Center that will suggest apps or features to help users be more productive on Windows. Most restricted value is 0.",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "riskLevel": "low"
+  },
+  {
+    "visibility": "settingsCatalog,template",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-experience#allowwindowsconsumerfeatures"
+    ],
+    "offsetUri": "/Config/Experience/AllowWindowsConsumerFeatures",
+    "uxBehavior": "toggle",
+    "options": [
+      {
+        "itemId": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
+          }
+        ],
+        "description": "Not allowed.",
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Block",
+        "name": "Not allowed."
+      },
+      {
+        "itemId": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
+          }
+        ],
+        "description": "Allowed.",
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Allow",
+        "name": "Allowed."
+      }
+    ],
     "applicability": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "description": null,
+      "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "configurationServiceProviderVersion": "4.1",
+      "deviceMode": "none",
       "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.15063",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.14393",
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsEducation",
         "iotEnterprise",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "5.0",
       "maximumSupportedVersion": null
     },
-    "options": [
-      {
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "helpText": null,
-        "displayName": "Block",
-        "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
-          }
-        ],
-        "name": "Not allowed.",
-        "description": "Not allowed.",
-        "itemId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonactioncenter_0"
-      },
-      {
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "helpText": null,
-        "displayName": "Allow",
-        "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
-          }
-        ],
-        "name": "Allowed.",
-        "description": "Allowed.",
-        "itemId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonactioncenter_1"
-      }
-    ],
-    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#allowwindowsspotlightonactioncenter"
-    ],
-    "description": "This policy allows administrators to prevent Windows spotlight notifications from being displayed in the Action Center. If you enable this policy, Windows spotlight notifications will no longer be displayed in the Action Center. If you disable or do not configure this policy, Microsoft may display notifications in the Action Center that will suggest apps or features to help users be more productive on Windows. Most restricted value is 0.",
-    "riskLevel": "low",
-    "version": "639094788176414916",
-    "name": "AllowWindowsSpotlightOnActionCenter",
-    "defaultOptionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonactioncenter_1",
-    "visibility": "settingsCatalog,template",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "uxBehavior": "toggle",
-    "id": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonactioncenter",
-    "offsetUri": "/Config/Experience/AllowWindowsSpotlightOnActionCenter",
-    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
     "referredSettingInformationList": [],
-    "baseUri": "./User/Vendor/MSFT/Policy",
-    "displayName": "Allow Windows Spotlight On Action Center (User)"
-  },
-  {
+    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures",
+    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
+    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
     "keywords": [
       "Allow Windows Consumer Features",
       "Experience"
     ],
-    "applicability": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "description": null,
-      "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.14393",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsEducation",
-        "iotEnterprise",
-        "iotEnterpriseSEval"
-      ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "maximumSupportedVersion": null
-    },
-    "options": [
-      {
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "helpText": null,
-        "displayName": "Block",
-        "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
-          }
-        ],
-        "name": "Not allowed.",
-        "description": "Not allowed.",
-        "itemId": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures_0"
-      },
-      {
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "helpText": null,
-        "displayName": "Allow",
-        "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
-          }
-        ],
-        "name": "Allowed.",
-        "description": "Allowed.",
-        "itemId": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures_1"
-      }
-    ],
-    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-experience#allowwindowsconsumerfeatures"
-    ],
-    "description": "This policy allows IT admins to turn on experiences that are typically for consumers only, such as Start suggestions, Membership notifications, Post-OOBE app install and redirect tiles.",
-    "riskLevel": "low",
-    "version": "639094788176414916",
-    "name": "AllowWindowsConsumerFeatures",
-    "defaultOptionId": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures_1",
-    "visibility": "settingsCatalog,template",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures",
-    "offsetUri": "/Config/Experience/AllowWindowsConsumerFeatures",
-    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-    "referredSettingInformationList": [],
     "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Allow Windows Consumer Features"
+    "helpText": "",
+    "version": "639094788176414916",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "Allow Windows Consumer Features",
+    "defaultOptionId": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures_1",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "AllowWindowsConsumerFeatures",
+    "description": "This policy allows IT admins to turn on experiences that are typically for consumers only, such as Start suggestions, Membership notifications, Post-OOBE app install and redirect tiles.",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "riskLevel": "low"
   },
   {
-    "keywords": [
-      "Configure Windows Spotlight On Lock Screen",
-      "Experience"
+    "visibility": "settingsCatalog,template",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#configurewindowsspotlightonlockscreen"
     ],
-    "applicability": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "description": null,
-      "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.14393",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsEducation",
-        "iotEnterprise",
-        "iotEnterpriseSEval"
-      ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "maximumSupportedVersion": null
-    },
+    "offsetUri": "/Config/Experience/ConfigureWindowsSpotlightOnLockScreen",
+    "uxBehavior": "default",
     "options": [
       {
+        "itemId": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen_0",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
           "settingValueTemplateReference": null
         },
-        "helpText": null,
-        "displayName": "Windows spotlight disabled.",
-        "dependedOnBy": [],
         "dependentOn": [
           {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
           }
         ],
-        "name": "Windows spotlight disabled.",
         "description": "Windows spotlight disabled.",
-        "itemId": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen_0"
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Windows spotlight disabled.",
+        "name": "Windows spotlight disabled."
       },
       {
+        "itemId": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen_1",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
           "settingValueTemplateReference": null
         },
-        "helpText": null,
-        "displayName": "Windows spotlight enabled.",
-        "dependedOnBy": [],
         "dependentOn": [
           {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
           }
         ],
-        "name": "Windows spotlight enabled.",
         "description": "Windows spotlight enabled.",
-        "itemId": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen_1"
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Windows spotlight enabled.",
+        "name": "Windows spotlight enabled."
       },
       {
+        "itemId": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen_2",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 2,
           "settingValueTemplateReference": null
         },
-        "helpText": null,
-        "displayName": "Windows spotlight is always enabled, the user cannot disable it",
-        "dependedOnBy": [],
         "dependentOn": [
           {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
           }
         ],
-        "name": "Windows spotlight is always enabled, the user cannot disable it",
         "description": "Windows spotlight is always enabled, the user cannot disable it",
-        "itemId": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen_2"
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Windows spotlight is always enabled, the user cannot disable it",
+        "name": "Windows spotlight is always enabled, the user cannot disable it"
       },
       {
+        "itemId": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen_3",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 3,
           "settingValueTemplateReference": null
         },
-        "helpText": null,
-        "displayName": "Windows spotlight is always enabled, the user cannot disable it. For special configurations only",
-        "dependedOnBy": [],
         "dependentOn": [
           {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
           }
         ],
-        "name": "Windows spotlight is always enabled, the user cannot disable it. For special configurations only",
         "description": "Windows spotlight is always enabled, the user cannot disable it. For special configurations only",
-        "itemId": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen_3"
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Windows spotlight is always enabled, the user cannot disable it. For special configurations only",
+        "name": "Windows spotlight is always enabled, the user cannot disable it. For special configurations only"
       }
     ],
-    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#configurewindowsspotlightonlockscreen"
-    ],
-    "description": "Allows IT admins to specify whether spotlight should be used on the user's lock screen. If your organization does not have an Enterprise spotlight content service, then this policy will behave the same as a setting of 1.",
-    "riskLevel": "low",
-    "version": "639094788176414916",
-    "name": "ConfigureWindowsSpotlightOnLockScreen",
-    "defaultOptionId": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen_1",
-    "visibility": "settingsCatalog,template",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+    "applicability": {
+      "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "configurationServiceProviderVersion": "4.1",
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.14393",
+      "description": null,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsEducation",
+        "iotEnterprise",
+        "iotEnterpriseSEval"
+      ],
+      "maximumSupportedVersion": null
     },
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "uxBehavior": "default",
-    "id": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen",
-    "offsetUri": "/Config/Experience/ConfigureWindowsSpotlightOnLockScreen",
-    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
     "referredSettingInformationList": [],
-    "baseUri": "./User/Vendor/MSFT/Policy",
-    "displayName": "Configure Windows Spotlight On Lock Screen (User)"
-  },
-  {
+    "settingUsage": "configuration",
+    "id": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen",
+    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
+    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
     "keywords": [
-      "Allow Third Party Suggestions In Windows Spotlight",
+      "Configure Windows Spotlight On Lock Screen",
       "Experience"
     ],
+    "baseUri": "./User/Vendor/MSFT/Policy",
+    "helpText": "",
+    "version": "639094788176414916",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "Configure Windows Spotlight On Lock Screen (User)",
+    "defaultOptionId": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen_1",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "ConfigureWindowsSpotlightOnLockScreen",
+    "description": "Allows IT admins to specify whether spotlight should be used on the user's lock screen. If your organization does not have an Enterprise spotlight content service, then this policy will behave the same as a setting of 1.",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "riskLevel": "low"
+  },
+  {
+    "visibility": "settingsCatalog,template",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#allowthirdpartysuggestionsinwindowsspotlight"
+    ],
+    "offsetUri": "/Config/Experience/AllowThirdPartySuggestionsInWindowsSpotlight",
+    "uxBehavior": "toggle",
+    "options": [
+      {
+        "itemId": "user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
+          }
+        ],
+        "description": "Third-party suggestions not allowed.",
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Block",
+        "name": "Third-party suggestions not allowed."
+      },
+      {
+        "itemId": "user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
+          }
+        ],
+        "description": "Third-party suggestions allowed.",
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Allow",
+        "name": "Third-party suggestions allowed."
+      }
+    ],
     "applicability": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "description": null,
+      "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "configurationServiceProviderVersion": "4.1",
+      "deviceMode": "none",
       "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "minimumSupportedVersion": "10.0.14393",
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -558,358 +605,311 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
       "maximumSupportedVersion": null
     },
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "id": "user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight",
+    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
+    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
+    "keywords": [
+      "Allow Third Party Suggestions In Windows Spotlight",
+      "Experience"
+    ],
+    "baseUri": "./User/Vendor/MSFT/Policy",
+    "helpText": "",
+    "version": "639094788176414916",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "Allow Third Party Suggestions In Windows Spotlight (User)",
+    "defaultOptionId": "user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight_1",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "AllowThirdPartySuggestionsInWindowsSpotlight",
+    "description": "Specifies whether to allow app and content suggestions from third-party software publishers in Windows spotlight features like lock screen spotlight, suggested apps in the Start menu, and Windows tips. Users may still see suggestions for Microsoft features, apps, and services.",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "riskLevel": "low"
+  },
+  {
+    "visibility": "settingsCatalog,template",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#allowwindowsspotlightwindowswelcomeexperience"
+    ],
+    "offsetUri": "/Config/Experience/AllowWindowsSpotlightWindowsWelcomeExperience",
+    "uxBehavior": "toggle",
     "options": [
       {
+        "itemId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightwindowswelcomeexperience_0",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
           "settingValueTemplateReference": null
         },
-        "helpText": null,
-        "displayName": "Block",
-        "dependedOnBy": [],
         "dependentOn": [
           {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
           }
         ],
-        "name": "Third-party suggestions not allowed.",
-        "description": "Third-party suggestions not allowed.",
-        "itemId": "user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight_0"
+        "description": "Not allowed.",
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Block",
+        "name": "Not allowed."
       },
       {
+        "itemId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightwindowswelcomeexperience_1",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
           "settingValueTemplateReference": null
         },
-        "helpText": null,
-        "displayName": "Allow",
-        "dependedOnBy": [],
         "dependentOn": [
           {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
+            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight"
           }
         ],
-        "name": "Third-party suggestions allowed.",
-        "description": "Third-party suggestions allowed.",
-        "itemId": "user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight_1"
+        "description": "Allowed.",
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Allow",
+        "name": "Allowed."
       }
     ],
-    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#allowthirdpartysuggestionsinwindowsspotlight"
-    ],
-    "description": "Specifies whether to allow app and content suggestions from third-party software publishers in Windows spotlight features like lock screen spotlight, suggested apps in the Start menu, and Windows tips. Users may still see suggestions for Microsoft features, apps, and services.",
-    "riskLevel": "low",
-    "version": "639094788176414916",
-    "name": "AllowThirdPartySuggestionsInWindowsSpotlight",
-    "defaultOptionId": "user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight_1",
-    "visibility": "settingsCatalog,template",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+    "applicability": {
+      "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "configurationServiceProviderVersion": "5.0",
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.15063",
+      "description": null,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsEducation",
+        "iotEnterprise",
+        "iotEnterpriseSEval"
+      ],
+      "maximumSupportedVersion": null
     },
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "uxBehavior": "toggle",
-    "id": "user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight",
-    "offsetUri": "/Config/Experience/AllowThirdPartySuggestionsInWindowsSpotlight",
-    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
     "referredSettingInformationList": [],
-    "baseUri": "./User/Vendor/MSFT/Policy",
-    "displayName": "Allow Third Party Suggestions In Windows Spotlight (User)"
-  },
-  {
+    "settingUsage": "configuration",
+    "id": "user_vendor_msft_policy_config_experience_allowwindowsspotlightwindowswelcomeexperience",
+    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
+    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
     "keywords": [
       "Allow Windows Spotlight Windows Welcome Experience",
       "Experience"
     ],
+    "baseUri": "./User/Vendor/MSFT/Policy",
+    "helpText": "",
+    "version": "639094788176414916",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "Allow Windows Spotlight Windows Welcome Experience (User)",
+    "defaultOptionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightwindowswelcomeexperience_1",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "AllowWindowsSpotlightWindowsWelcomeExperience",
+    "description": "This policy setting lets you turn off the Windows spotlight Windows welcome experience feature. The Windows welcome experience feature introduces onboard users to Windows; for example, launching Microsoft Edge with a webpage that highlights new features. If you enable this policy, the Windows welcome experience will no longer be displayed when there are updates and changes to Windows and its apps. If you disable or do not configure this policy, the Windows welcome experience will be launched to inform onboard users about what's new, changed, and suggested. Most restricted value is 0.",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "riskLevel": "low"
+  },
+  {
+    "visibility": "settingsCatalog,template",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#allowwindowsspotlight"
+    ],
+    "offsetUri": "/Config/Experience/AllowWindowsSpotlight",
+    "uxBehavior": "toggle",
+    "options": [
+      {
+        "itemId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "description": "Not allowed.",
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Block",
+        "name": "Not allowed."
+      },
+      {
+        "itemId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [],
+        "description": "Allowed.",
+        "dependedOnBy": [
+          {
+            "required": false,
+            "dependedOnBy": "user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight"
+          },
+          {
+            "required": false,
+            "dependedOnBy": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonactioncenter"
+          },
+          {
+            "required": false,
+            "dependedOnBy": "user_vendor_msft_policy_config_experience_allowwindowsspotlightwindowswelcomeexperience"
+          },
+          {
+            "required": false,
+            "dependedOnBy": "user_vendor_msft_policy_config_experience_allowtailoredexperienceswithdiagnosticdata"
+          },
+          {
+            "required": false,
+            "dependedOnBy": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen"
+          },
+          {
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures"
+          },
+          {
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_policy_config_experience_allowwindowstips"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Allow",
+        "name": "Allowed."
+      }
+    ],
     "applicability": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "description": null,
+      "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "configurationServiceProviderVersion": "4.1",
+      "deviceMode": "none",
       "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.15063",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.14393",
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsEducation",
         "iotEnterprise",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "5.0",
       "maximumSupportedVersion": null
     },
-    "options": [
-      {
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "helpText": null,
-        "displayName": "Block",
-        "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
-          }
-        ],
-        "name": "Not allowed.",
-        "description": "Not allowed.",
-        "itemId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightwindowswelcomeexperience_0"
-      },
-      {
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "helpText": null,
-        "displayName": "Allow",
-        "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "parentSettingId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-            "dependentOn": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
-          }
-        ],
-        "name": "Allowed.",
-        "description": "Allowed.",
-        "itemId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightwindowswelcomeexperience_1"
-      }
-    ],
-    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#allowwindowsspotlightwindowswelcomeexperience"
-    ],
-    "description": "This policy setting lets you turn off the Windows spotlight Windows welcome experience feature. The Windows welcome experience feature introduces onboard users to Windows; for example, launching Microsoft Edge with a webpage that highlights new features. If you enable this policy, the Windows welcome experience will no longer be displayed when there are updates and changes to Windows and its apps. If you disable or do not configure this policy, the Windows welcome experience will be launched to inform onboard users about what's new, changed, and suggested. Most restricted value is 0.",
-    "riskLevel": "low",
-    "version": "639094788176414916",
-    "name": "AllowWindowsSpotlightWindowsWelcomeExperience",
-    "defaultOptionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlightwindowswelcomeexperience_1",
-    "visibility": "settingsCatalog,template",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "uxBehavior": "toggle",
-    "id": "user_vendor_msft_policy_config_experience_allowwindowsspotlightwindowswelcomeexperience",
-    "offsetUri": "/Config/Experience/AllowWindowsSpotlightWindowsWelcomeExperience",
-    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
     "referredSettingInformationList": [],
-    "baseUri": "./User/Vendor/MSFT/Policy",
-    "displayName": "Allow Windows Spotlight Windows Welcome Experience (User)"
-  },
-  {
+    "settingUsage": "configuration",
+    "id": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
+    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
+    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
     "keywords": [
       "Allow Windows Spotlight",
       "Experience"
     ],
-    "applicability": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "description": null,
-      "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.14393",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsEducation",
-        "iotEnterprise",
-        "iotEnterpriseSEval"
-      ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "maximumSupportedVersion": null
+    "baseUri": "./User/Vendor/MSFT/Policy",
+    "helpText": "",
+    "version": "639094788176414916",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "Allow Windows Spotlight (User)",
+    "defaultOptionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "AllowWindowsSpotlight",
+    "description": "Specifies whether to turn off all Windows spotlight features at once. If you enable this policy setting, Windows spotlight on lock screen, Windows Tips, Microsoft consumer features and other related features will be turned off. You should enable this policy setting if your goal is to minimize network traffic from target devices. If you disable or do not configure this policy setting, Windows spotlight features are allowed and may be controlled individually using their corresponding policy settings. Most restricted value is 0.",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
+    "riskLevel": "low"
+  },
+  {
+    "visibility": "settingsCatalog,template",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-WindowsAI#turnoffwindowscopilot"
+    ],
+    "offsetUri": "/Config/WindowsAI/TurnOffWindowsCopilot",
+    "uxBehavior": "toggle",
     "options": [
       {
+        "itemId": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot_0",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
           "settingValueTemplateReference": null
         },
-        "helpText": null,
-        "displayName": "Block",
-        "dependedOnBy": [],
         "dependentOn": [],
-        "name": "Not allowed.",
-        "description": "Not allowed.",
-        "itemId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_0"
+        "description": "Enable Copilot",
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Enable Copilot",
+        "name": "Enable Copilot"
       },
       {
+        "itemId": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot_1",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
           "settingValueTemplateReference": null
         },
-        "helpText": null,
-        "displayName": "Allow",
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight",
-            "required": false
-          },
-          {
-            "dependedOnBy": "user_vendor_msft_policy_config_experience_allowwindowsspotlightonactioncenter",
-            "required": false
-          },
-          {
-            "dependedOnBy": "user_vendor_msft_policy_config_experience_allowwindowsspotlightwindowswelcomeexperience",
-            "required": false
-          },
-          {
-            "dependedOnBy": "user_vendor_msft_policy_config_experience_allowtailoredexperienceswithdiagnosticdata",
-            "required": false
-          },
-          {
-            "dependedOnBy": "user_vendor_msft_policy_config_experience_configurewindowsspotlightonlockscreen",
-            "required": false
-          },
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures",
-            "required": false
-          },
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_experience_allowwindowstips",
-            "required": false
-          }
-        ],
         "dependentOn": [],
-        "name": "Allowed.",
-        "description": "Allowed.",
-        "itemId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1"
+        "description": "Disable Copilot",
+        "dependedOnBy": [],
+        "helpText": null,
+        "displayName": "Disable Copilot",
+        "name": "Disable Copilot"
       }
     ],
-    "categoryId": "139974ad-f615-442b-b3dc-84a44e3ec663",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Experience#allowwindowsspotlight"
-    ],
-    "description": "Specifies whether to turn off all Windows spotlight features at once. If you enable this policy setting, Windows spotlight on lock screen, Windows Tips, Microsoft consumer features and other related features will be turned off. You should enable this policy setting if your goal is to minimize network traffic from target devices. If you disable or do not configure this policy setting, Windows spotlight features are allowed and may be controlled individually using their corresponding policy settings. Most restricted value is 0.",
-    "riskLevel": "low",
-    "version": "639094788176414916",
-    "name": "AllowWindowsSpotlight",
-    "defaultOptionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
-    "visibility": "settingsCatalog,template",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+    "applicability": {
+      "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "configurationServiceProviderVersion": "10.0",
+      "deviceMode": "none",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.19044.3758",
+      "description": null,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "maximumSupportedVersion": null
     },
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "uxBehavior": "toggle",
-    "id": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
-    "offsetUri": "/Config/Experience/AllowWindowsSpotlight",
-    "rootDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
     "referredSettingInformationList": [],
-    "baseUri": "./User/Vendor/MSFT/Policy",
-    "displayName": "Allow Windows Spotlight (User)"
-  },
-  {
+    "settingUsage": "configuration",
+    "id": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot",
+    "categoryId": "33a43c22-104b-4683-995b-5652cfd5b490",
+    "rootDefinitionId": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot",
     "keywords": [
       "Turn Off Windows Copilot",
       "Windows AI",
       "Turn Off Copilot in Windows"
     ],
-    "applicability": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "description": null,
-      "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.19044.3758",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "10.0",
-      "maximumSupportedVersion": null
-    },
-    "options": [
-      {
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "helpText": null,
-        "displayName": "Enable Copilot",
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Enable Copilot",
-        "description": "Enable Copilot",
-        "itemId": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot_0"
-      },
-      {
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "helpText": null,
-        "displayName": "Disable Copilot",
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "name": "Disable Copilot",
-        "description": "Disable Copilot",
-        "itemId": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot_1"
-      }
-    ],
-    "categoryId": "33a43c22-104b-4683-995b-5652cfd5b490",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-WindowsAI#turnoffwindowscopilot"
-    ],
-    "description": "This policy setting allows you to turn off Windows Copilot. If you enable this policy setting, users will not be able to use Copilot. The Copilot icon will not appear on the taskbar either. If you disable or do not configure this policy setting, users will be able to use Copilot when it's available to them.",
-    "riskLevel": "low",
-    "version": "639094788176414916",
-    "name": "TurnOffWindowsCopilot",
-    "defaultOptionId": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot_0",
-    "visibility": "settingsCatalog,template",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "settingUsage": "configuration",
-    "accessTypes": "add,delete,get,replace",
-    "uxBehavior": "toggle",
-    "id": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot",
-    "offsetUri": "/Config/WindowsAI/TurnOffWindowsCopilot",
-    "rootDefinitionId": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot",
-    "referredSettingInformationList": [],
     "baseUri": "./User/Vendor/MSFT/Policy",
-    "displayName": "Turn Off Copilot in Windows (User)"
+    "helpText": "",
+    "version": "639094788176414916",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "Turn Off Copilot in Windows (User)",
+    "defaultOptionId": "user_vendor_msft_policy_config_windowsai_turnoffwindowscopilot_0",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "TurnOffWindowsCopilot",
+    "description": "This policy setting allows you to turn off Windows Copilot. If you enable this policy setting, users will not be able to use Copilot. The Copilot icon will not appear on the taskbar either. If you disable or do not configure this policy setting, users will be able to use Copilot when it's available to them.",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "riskLevel": "low"
   }
 ]
 ```

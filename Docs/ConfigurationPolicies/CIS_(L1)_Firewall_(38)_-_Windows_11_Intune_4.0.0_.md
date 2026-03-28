@@ -35,7 +35,7 @@
 
 [**Assignments**](./Assignments/CIS_(L1)_Firewall_(38)_-_Windows_11_Intune_4.0.0_.md)
 
-**Report Generated:** 03/27/2026 05:14:47
+**Report Generated:** 03/28/2026 05:00:10
 
 ---
 
@@ -68,15 +68,14 @@
 ```json
 [
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    "keywords": [
+      "Default Inbound Action",
+      "Firewall"
     ],
-    "offsetUri": "/MdmStore/DomainProfile/DefaultInboundAction",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_defaultinboundaction_0",
+        "name": "Allow Inbound By Default",
+        "description": "Allow Inbound By Default",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
@@ -88,14 +87,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "Allow Inbound By Default",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Allow",
-        "name": "Allow Inbound By Default"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_defaultinboundaction_0",
+        "displayName": "Allow"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_defaultinboundaction_1",
+        "name": "Block Inbound By Default",
+        "description": "Block Inbound By Default",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
@@ -107,23 +106,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "Block Inbound By Default",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Block",
-        "name": "Block Inbound By Default"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_defaultinboundaction_1",
+        "displayName": "Block"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -136,137 +135,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_defaultinboundaction",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
-    "keywords": [
-      "Default Inbound Action",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Default Inbound Action for Domain Profile",
     "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_defaultinboundaction_1",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DefaultInboundAction",
-    "description": "This value is the action that the firewall does by default (and evaluates at the very end) on inbound connections. The allow action is represented by 0x00000000; 0x00000001 represents a block action. Default value is 1 [Block]. The merge law for this option is to let the value of the GroupPolicyRSoPStore.win if it is configured; otherwise, the local store value is used.",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Default Inbound Action for Domain Profile",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_defaultinboundaction",
+    "name": "DefaultInboundAction",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is the action that the firewall does by default (and evaluates at the very end) on inbound connections. The allow action is represented by 0x00000000; 0x00000001 represents a block action. Default value is 1 [Block]. The merge law for this option is to let the value of the GroupPolicyRSoPStore.win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/DomainProfile/DefaultInboundAction",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/DomainProfile/GlobalPortsAllowUserPrefMerge",
-    "uxBehavior": "toggle",
-    "options": [
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_globalportsallowuserprefmerge_false",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "false",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
-          }
-        ],
-        "description": "GlobalPortsAllowUserPrefMerge Off",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "False",
-        "name": "GlobalPortsAllowUserPrefMerge Off"
-      },
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_globalportsallowuserprefmerge_true",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "true",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
-          }
-        ],
-        "description": "GlobalPortsAllowUserPrefMerge On",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "True",
-        "name": "GlobalPortsAllowUserPrefMerge On"
-      }
-    ],
-    "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "maximumSupportedVersion": null
-    },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_globalportsallowuserprefmerge",
-    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
     "keywords": [
       "Global Ports Allow User Pref Merge",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Global Ports Allow User Pref Merge",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_globalportsallowuserprefmerge_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "GlobalPortsAllowUserPrefMerge",
-    "description": "This value is used as an on/off switch. If this value is false, global port firewall rules in the local store are ignored and not enforced. The setting only has meaning if it is set or enumerated in the Group Policy store or if it is enumerated from the GroupPolicyRSoPStore.  The merge law for this option is to let the value GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/DomainProfile/DisableUnicastResponsesToMulticastBroadcast",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disableunicastresponsestomulticastbroadcast_false",
+        "name": "GlobalPortsAllowUserPrefMerge Off",
+        "description": "GlobalPortsAllowUserPrefMerge Off",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -278,14 +182,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "Unicast Responses Not Blocked",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "Unicast Responses Not Blocked"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_globalportsallowuserprefmerge_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disableunicastresponsestomulticastbroadcast_true",
+        "name": "GlobalPortsAllowUserPrefMerge On",
+        "description": "GlobalPortsAllowUserPrefMerge On",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -297,23 +201,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "Unicast Responses Blocked",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "Unicast Responses Blocked"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_globalportsallowuserprefmerge_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -326,42 +230,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_disableunicastresponsestomulticastbroadcast",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_globalportsallowuserprefmerge_true",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Global Ports Allow User Pref Merge",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_globalportsallowuserprefmerge",
+    "name": "GlobalPortsAllowUserPrefMerge",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is false, global port firewall rules in the local store are ignored and not enforced. The setting only has meaning if it is set or enumerated in the Group Policy store or if it is enumerated from the GroupPolicyRSoPStore.  The merge law for this option is to let the value GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/DomainProfile/GlobalPortsAllowUserPrefMerge",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "keywords": [
       "Disable Unicast Responses To Multicast Broadcast",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Disable Unicast Responses To Multicast Broadcast",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_disableunicastresponsestomulticastbroadcast_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DisableUnicastResponsesToMulticastBroadcast",
-    "description": "This value is used as an on/off switch. If it is true, unicast responses to multicast broadcast traffic is blocked.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
-    ],
-    "offsetUri": "/MdmStore/DomainProfile/EnableLogIgnoredRules",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogignoredrules_false",
+        "name": "Unicast Responses Not Blocked",
+        "description": "Unicast Responses Not Blocked",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -373,14 +277,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "Disable Logging Of Ignored Rules",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Disable Logging Of Ignored Rules",
-        "name": "Disable Logging Of Ignored Rules"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disableunicastresponsestomulticastbroadcast_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogignoredrules_true",
+        "name": "Unicast Responses Blocked",
+        "description": "Unicast Responses Blocked",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -392,23 +296,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "Enable Logging Of Ignored Rules",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Enable Logging Of Ignored Rules",
-        "name": "Enable Logging Of Ignored Rules"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disableunicastresponsestomulticastbroadcast_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -421,42 +325,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_enablelogignoredrules",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_disableunicastresponsestomulticastbroadcast_false",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Disable Unicast Responses To Multicast Broadcast",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_disableunicastresponsestomulticastbroadcast",
+    "name": "DisableUnicastResponsesToMulticastBroadcast",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If it is true, unicast responses to multicast broadcast traffic is blocked.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/DomainProfile/DisableUnicastResponsesToMulticastBroadcast",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "keywords": [
       "Enable Log Ignored Rules",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Enable Log Ignored Rules",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogignoredrules_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EnableLogIgnoredRules",
-    "description": "This value is used as an on/off switch. The server MAY use this value in an implementation-specific way to control logging of events if a rule is not enforced for any reason. The merge law for this option is to let \"on\" values win.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/DomainProfile/DisableStealthModeIpsecSecuredPacketExemption",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmodeipsecsecuredpacketexemption_false",
+        "name": "Disable Logging Of Ignored Rules",
+        "description": "Disable Logging Of Ignored Rules",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -468,14 +372,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "FALSE",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "FALSE"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogignoredrules_false",
+        "displayName": "Disable Logging Of Ignored Rules"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmodeipsecsecuredpacketexemption_true",
+        "name": "Enable Logging Of Ignored Rules",
+        "description": "Enable Logging Of Ignored Rules",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -487,23 +391,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "TRUE",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "TRUE"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogignoredrules_true",
+        "displayName": "Enable Logging Of Ignored Rules"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -516,42 +420,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmodeipsecsecuredpacketexemption",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogignoredrules_false",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Enable Log Ignored Rules",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_enablelogignoredrules",
+    "name": "EnableLogIgnoredRules",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. The server MAY use this value in an implementation-specific way to control logging of events if a rule is not enforced for any reason. The merge law for this option is to let \"on\" values win.",
+    "offsetUri": "/MdmStore/DomainProfile/EnableLogIgnoredRules",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "keywords": [
       "Disable Stealth Mode Ipsec Secured Packet Exemption",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Disable Stealth Mode Ipsec Secured Packet Exemption",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmodeipsecsecuredpacketexemption_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DisableStealthModeIpsecSecuredPacketExemption",
-    "description": "This value is an on/off switch. This option is ignored if DisableStealthMode is on. Otherwise, when this option is true, the firewall's stealth mode rules MUST NOT prevent the host computer from responding to unsolicited network traffic if that traffic is secured by IPsec.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used. For schema versions 0x0200, 0x0201, and 0x020A, this value is invalid and MUST NOT be used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/DomainProfile/AllowLocalPolicyMerge",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalpolicymerge_false",
+        "name": "FALSE",
+        "description": "FALSE",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -563,14 +467,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "AllowLocalPolicyMerge Off",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "AllowLocalPolicyMerge Off"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmodeipsecsecuredpacketexemption_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalpolicymerge_true",
+        "name": "TRUE",
+        "description": "TRUE",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -582,23 +486,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "AllowLocalPolicyMerge On",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "AllowLocalPolicyMerge On"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmodeipsecsecuredpacketexemption_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -611,63 +515,159 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalpolicymerge",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmodeipsecsecuredpacketexemption_true",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
-    "keywords": [
-      "Allow Local Policy Merge",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Allow Local Policy Merge",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalpolicymerge_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "AllowLocalPolicyMerge",
-    "description": "This value is used as an on/off switch. If this value is false, firewall rules from the local store are ignored and not enforced.  The merge law for this option is to always use the value of the GroupPolicyRSoPStore. This value is valid for all schema versions.",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Disable Stealth Mode Ipsec Secured Packet Exemption",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmodeipsecsecuredpacketexemption",
+    "name": "DisableStealthModeIpsecSecuredPacketExemption",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch. This option is ignored if DisableStealthMode is on. Otherwise, when this option is true, the firewall's stealth mode rules MUST NOT prevent the host computer from responding to unsolicited network traffic if that traffic is secured by IPsec.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used. For schema versions 0x0200, 0x0201, and 0x020A, this value is invalid and MUST NOT be used.",
+    "offsetUri": "/MdmStore/DomainProfile/DisableStealthModeIpsecSecuredPacketExemption",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "Allow Local Policy Merge",
+      "Firewall"
+    ],
+    "options": [
+      {
+        "name": "AllowLocalPolicyMerge Off",
+        "description": "AllowLocalPolicyMerge Off",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "false",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalpolicymerge_false",
+        "displayName": "False"
+      },
+      {
+        "name": "AllowLocalPolicyMerge On",
+        "description": "AllowLocalPolicyMerge On",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "true",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalpolicymerge_true",
+        "displayName": "True"
+      }
+    ],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
     ],
-    "offsetUri": "/MdmStore/DomainProfile/EnableFirewall",
     "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "applicability": {
+      "configurationServiceProviderVersion": "1.0",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
+    },
+    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalpolicymerge_true",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Allow Local Policy Merge",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalpolicymerge",
+    "name": "AllowLocalPolicyMerge",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is false, firewall rules from the local store are ignored and not enforced.  The merge law for this option is to always use the value of the GroupPolicyRSoPStore. This value is valid for all schema versions.",
+    "offsetUri": "/MdmStore/DomainProfile/AllowLocalPolicyMerge",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
+    "keywords": [
+      "EnableFirewall",
+      "Firewall",
+      "Domain"
+    ],
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_false",
+        "name": "Disable Firewall",
+        "description": "Disable Firewall",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
           "settingValueTemplateReference": null
         },
         "dependentOn": [],
-        "description": "Disable Firewall",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "Disable Firewall"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
+        "name": "Enable Firewall",
+        "description": "Enable Firewall",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
           "settingValueTemplateReference": null
         },
         "dependentOn": [],
-        "description": "Enable Firewall",
+        "helpText": null,
         "dependedOnBy": [
           {
             "required": false,
@@ -734,21 +734,21 @@
             "dependedOnBy": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmodeipsecsecuredpacketexemption"
           }
         ],
-        "helpText": null,
-        "displayName": "True",
-        "name": "Enable Firewall"
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -761,138 +761,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
-    "keywords": [
-      "EnableFirewall",
-      "Firewall",
-      "Domain"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": " ",
-    "version": "639094788176414916",
-    "accessTypes": "replace",
-    "displayName": "Enable Domain Network Firewall",
     "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EnableFirewall",
-    "description": "This value is an on/off switch for the firewall and advanced security enforcement. If this value is false, the server MUST NOT block any network traffic, regardless of other policy settings.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Enable Domain Network Firewall",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
+    "name": "EnableFirewall",
+    "helpText": " ",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch for the firewall and advanced security enforcement. If this value is false, the server MUST NOT block any network traffic, regardless of other policy settings.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/DomainProfile/EnableFirewall",
+    "riskLevel": "low",
+    "accessTypes": "replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
-    ],
-    "offsetUri": "/MdmStore/DomainProfile/EnableLogSuccessConnections",
-    "uxBehavior": "toggle",
-    "options": [
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogsuccessconnections_false",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "false",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
-          }
-        ],
-        "description": "Disable Logging Of Successful Connections",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "Disable Logging Of Successful Connections",
-        "name": "Disable Logging Of Successful Connections"
-      },
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogsuccessconnections_true",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "true",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
-          }
-        ],
-        "description": "Enable Logging Of Successful Connections",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "Enable Logging Of Successful Connections",
-        "name": "Enable Logging Of Successful Connections"
-      }
-    ],
-    "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "maximumSupportedVersion": null
-    },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_enablelogsuccessconnections",
-    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
     "keywords": [
       "Enable Log Success Connections",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Enable Log Success Connections",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogsuccessconnections_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EnableLogSuccessConnections",
-    "description": "This value is used as an on/off switch. If this value is on, the firewall logs all successful inbound connections. The merge law for this option is to let \"on\" values win.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/DomainProfile/DisableStealthMode",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmode_false",
+        "name": "Disable Logging Of Successful Connections",
+        "description": "Disable Logging Of Successful Connections",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -904,14 +808,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "Use Stealth Mode",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "Use Stealth Mode"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogsuccessconnections_false",
+        "displayName": "Disable Logging Of Successful Connections"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmode_true",
+        "name": "Enable Logging Of Successful Connections",
+        "description": "Enable Logging Of Successful Connections",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -923,23 +827,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "Disable Stealth Mode",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "Disable Stealth Mode"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogsuccessconnections_true",
+        "displayName": "Enable Logging Of Successful Connections"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -952,42 +856,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmode",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogsuccessconnections_false",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Enable Log Success Connections",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_enablelogsuccessconnections",
+    "name": "EnableLogSuccessConnections",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is on, the firewall logs all successful inbound connections. The merge law for this option is to let \"on\" values win.",
+    "offsetUri": "/MdmStore/DomainProfile/EnableLogSuccessConnections",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "keywords": [
       "Disable Stealth Mode",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Disable Stealth Mode",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmode_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DisableStealthMode",
-    "description": "This value is an on/off switch. When this option is false, the server operates in stealth mode. The firewall rules used to enforce stealth mode are implementation-specific. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/DomainProfile/AllowLocalIpsecPolicyMerge",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalipsecpolicymerge_false",
+        "name": "Use Stealth Mode",
+        "description": "Use Stealth Mode",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -999,14 +903,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "AllowLocalIpsecPolicyMerge Off",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "AllowLocalIpsecPolicyMerge Off"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmode_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalipsecpolicymerge_true",
+        "name": "Disable Stealth Mode",
+        "description": "Disable Stealth Mode",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -1018,23 +922,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "AllowLocalIpsecPolicyMerge On",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "AllowLocalIpsecPolicyMerge On"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmode_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1047,54 +951,150 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalipsecpolicymerge",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmode_false",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
-    "keywords": [
-      "Allow Local Ipsec Policy Merge",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Allow Local Ipsec Policy Merge",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalipsecpolicymerge_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "AllowLocalIpsecPolicyMerge",
-    "description": "This value is an on/off switch. If this value is false, connection security rules from the local store are ignored and not enforced, regardless of the schema version and connection security rule version.   The merge law for this option is to always use the value of the GroupPolicyRSoPStore.",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Disable Stealth Mode",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmode",
+    "name": "DisableStealthMode",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch. When this option is false, the server operates in stealth mode. The firewall rules used to enforce stealth mode are implementation-specific. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/DomainProfile/DisableStealthMode",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    "keywords": [
+      "Allow Local Ipsec Policy Merge",
+      "Firewall"
     ],
-    "offsetUri": "/MdmStore/DomainProfile/LogFilePath",
-    "uxBehavior": "default",
+    "options": [
+      {
+        "name": "AllowLocalIpsecPolicyMerge Off",
+        "description": "AllowLocalIpsecPolicyMerge Off",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "false",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalipsecpolicymerge_false",
+        "displayName": "False"
+      },
+      {
+        "name": "AllowLocalIpsecPolicyMerge On",
+        "description": "AllowLocalIpsecPolicyMerge On",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "true",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalipsecpolicymerge_true",
+        "displayName": "True"
+      }
+    ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "applicability": {
+      "configurationServiceProviderVersion": "1.0",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
+    },
+    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalipsecpolicymerge_true",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Allow Local Ipsec Policy Merge",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalipsecpolicymerge",
+    "name": "AllowLocalIpsecPolicyMerge",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch. If this value is false, connection security rules from the local store are ignored and not enforced, regardless of the schema version and connection security rule version.   The merge law for this option is to always use the value of the GroupPolicyRSoPStore.",
+    "offsetUri": "/MdmStore/DomainProfile/AllowLocalIpsecPolicyMerge",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "defaultValue": {
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
       "value": "%systemroot%\\system32\\LogFiles\\Firewall\\pfirewall.log",
       "settingValueTemplateReference": null
     },
+    "keywords": [
+      "Log File Path",
+      "Firewall"
+    ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    ],
+    "uxBehavior": "default",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "dependedOnBy": [],
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1107,57 +1107,56 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_logfilepath",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
-    "keywords": [
-      "Log File Path",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "dependedOnBy": [],
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
     "displayName": "Log File Path",
     "valueDefinition": {
-      "minimumLength": 0,
-      "format": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
       "isSecret": false,
-      "maximumLength": 87516,
       "fileTypes": [],
-      "inputValidationSchema": null
+      "maximumLength": 87516,
+      "inputValidationSchema": null,
+      "format": "none",
+      "minimumLength": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
     },
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_logfilepath",
+    "name": "LogFilePath",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is a string that represents a file path to the log where the firewall logs dropped packets and successful connections. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured, otherwise the MdmStore value wins if it is configured, otherwise the local store value is used.",
+    "offsetUri": "/MdmStore/DomainProfile/LogFilePath",
+    "riskLevel": "low",
     "dependentOn": [
       {
         "dependentOn": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
         "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
       }
     ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "name": "LogFilePath",
-    "description": "This value is a string that represents a file path to the log where the firewall logs dropped packets and successful connections. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured, otherwise the MdmStore value wins if it is configured, otherwise the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    "keywords": [
+      "Default Outbound Action",
+      "Firewall"
     ],
-    "offsetUri": "/MdmStore/DomainProfile/DefaultOutboundAction",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_defaultoutboundaction_0",
+        "name": "Allow Outbound By Default",
+        "description": "Allow Outbound By Default",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
@@ -1169,14 +1168,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "Allow Outbound By Default",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Allow",
-        "name": "Allow Outbound By Default"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_defaultoutboundaction_0",
+        "displayName": "Allow"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_defaultoutboundaction_1",
+        "name": "Block Outbound By Default",
+        "description": "Block Outbound By Default",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
@@ -1188,23 +1187,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "Block Outbound By Default",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Block",
-        "name": "Block Outbound By Default"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_defaultoutboundaction_1",
+        "displayName": "Block"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1217,137 +1216,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_defaultoutboundaction",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
-    "keywords": [
-      "Default Outbound Action",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Default Outbound Action",
     "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_defaultoutboundaction_0",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DefaultOutboundAction",
-    "description": "This value is the action that the firewall does by default (and evaluates at the very end) on outbound connections. The allow action is represented by 0x00000000; 0x00000001 represents a block action. Default value is 0 [Allow]. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Default Outbound Action",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_defaultoutboundaction",
+    "name": "DefaultOutboundAction",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is the action that the firewall does by default (and evaluates at the very end) on outbound connections. The allow action is represented by 0x00000000; 0x00000001 represents a block action. Default value is 0 [Allow]. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/DomainProfile/DefaultOutboundAction",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/DomainProfile/Shielded",
-    "uxBehavior": "toggle",
-    "options": [
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_shielded_false",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "false",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
-          }
-        ],
-        "description": "Shielding Off",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "False",
-        "name": "Shielding Off"
-      },
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_shielded_true",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "true",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
-          }
-        ],
-        "description": "Shielding On",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "True",
-        "name": "Shielding On"
-      }
-    ],
-    "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "maximumSupportedVersion": null
-    },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_shielded",
-    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
     "keywords": [
       "Shielded",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "replace",
-    "displayName": "Shielded",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_shielded_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "Shielded",
-    "description": "This value is used as an on/off switch. If this value is on and EnableFirewall is on, the server MUST block all incoming traffic regardless of other policy settings.  The merge law for this option is to let \"on\" values win.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/DomainProfile/DisableInboundNotifications",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disableinboundnotifications_false",
+        "name": "Shielding Off",
+        "description": "Shielding Off",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -1359,14 +1263,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "Firewall May Display Notification",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "Firewall May Display Notification"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_shielded_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disableinboundnotifications_true",
+        "name": "Shielding On",
+        "description": "Shielding On",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -1378,23 +1282,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "Firewall Must Not Display Notification",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "Firewall Must Not Display Notification"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_shielded_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1407,42 +1311,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_disableinboundnotifications",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_shielded_false",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Shielded",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_shielded",
+    "name": "Shielded",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is on and EnableFirewall is on, the server MUST block all incoming traffic regardless of other policy settings.  The merge law for this option is to let \"on\" values win.",
+    "offsetUri": "/MdmStore/DomainProfile/Shielded",
+    "riskLevel": "low",
+    "accessTypes": "replace"
+  },
+  {
     "keywords": [
       "Disable Inbound Notifications",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Disable Inbound Notifications",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_disableinboundnotifications_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DisableInboundNotifications",
-    "description": "This value is an on/off switch. If this value is false, the firewall MAY display a notification to the user when an application is blocked from listening on a port. If this value is on, the firewall MUST NOT display such a notification.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/DomainProfile/AuthAppsAllowUserPrefMerge",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_authappsallowuserprefmerge_false",
+        "name": "Firewall May Display Notification",
+        "description": "Firewall May Display Notification",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -1454,14 +1358,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "AuthAppsAllowUserPrefMerge Off",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "AuthAppsAllowUserPrefMerge Off"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disableinboundnotifications_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_authappsallowuserprefmerge_true",
+        "name": "Firewall Must Not Display Notification",
+        "description": "Firewall Must Not Display Notification",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -1473,23 +1377,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "AuthAppsAllowUserPrefMerge On",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "AuthAppsAllowUserPrefMerge On"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_disableinboundnotifications_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1502,42 +1406,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_authappsallowuserprefmerge",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_disableinboundnotifications_false",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Disable Inbound Notifications",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_disableinboundnotifications",
+    "name": "DisableInboundNotifications",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch. If this value is false, the firewall MAY display a notification to the user when an application is blocked from listening on a port. If this value is on, the firewall MUST NOT display such a notification.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/DomainProfile/DisableInboundNotifications",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "keywords": [
       "Auth Apps Allow User Pref Merge",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Auth Apps Allow User Pref Merge",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_authappsallowuserprefmerge_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "AuthAppsAllowUserPrefMerge",
-    "description": "This value is used as an on/off switch. If this value is false, authorized application firewall rules in the local store are ignored and not enforced.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
-    ],
-    "offsetUri": "/MdmStore/DomainProfile/EnableLogDroppedPackets",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogdroppedpackets_false",
+        "name": "AuthAppsAllowUserPrefMerge Off",
+        "description": "AuthAppsAllowUserPrefMerge Off",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -1549,14 +1453,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "Disable Logging Of Dropped Packets",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Disable Logging Of Dropped Packets",
-        "name": "Disable Logging Of Dropped Packets"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_authappsallowuserprefmerge_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogdroppedpackets_true",
+        "name": "AuthAppsAllowUserPrefMerge On",
+        "description": "AuthAppsAllowUserPrefMerge On",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -1568,23 +1472,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
           }
         ],
-        "description": "Enable Logging Of Dropped Packets",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Enable Logging Of Dropped Packets",
-        "name": "Enable Logging Of Dropped Packets"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_authappsallowuserprefmerge_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1597,54 +1501,150 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_enablelogdroppedpackets",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_authappsallowuserprefmerge_true",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
-    "keywords": [
-      "Enable Log Dropped Packets",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Enable Log Dropped Packets",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogdroppedpackets_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EnableLogDroppedPackets",
-    "description": "This value is used as an on/off switch. If this value is on, the firewall logs all the dropped packets. The merge law for this option is to let \"on\" values win.",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Auth Apps Allow User Pref Merge",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_authappsallowuserprefmerge",
+    "name": "AuthAppsAllowUserPrefMerge",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is false, authorized application firewall rules in the local store are ignored and not enforced.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/DomainProfile/AuthAppsAllowUserPrefMerge",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "Enable Log Dropped Packets",
+      "Firewall"
+    ],
+    "options": [
+      {
+        "name": "Disable Logging Of Dropped Packets",
+        "description": "Disable Logging Of Dropped Packets",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "false",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogdroppedpackets_false",
+        "displayName": "Disable Logging Of Dropped Packets"
+      },
+      {
+        "name": "Enable Logging Of Dropped Packets",
+        "description": "Enable Logging Of Dropped Packets",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "true",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogdroppedpackets_true",
+        "displayName": "Enable Logging Of Dropped Packets"
+      }
+    ],
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
     ],
-    "offsetUri": "/MdmStore/DomainProfile/LogMaxFileSize",
-    "uxBehavior": "default",
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "applicability": {
+      "configurationServiceProviderVersion": "1.0",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
+    },
+    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogdroppedpackets_false",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Enable Log Dropped Packets",
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_enablelogdroppedpackets",
+    "name": "EnableLogDroppedPackets",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is on, the firewall logs all the dropped packets. The merge law for this option is to let \"on\" values win.",
+    "offsetUri": "/MdmStore/DomainProfile/EnableLogDroppedPackets",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "defaultValue": {
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
       "value": 1024,
       "settingValueTemplateReference": null
     },
+    "keywords": [
+      "Log Max File Size",
+      "Firewall"
+    ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    ],
+    "uxBehavior": "default",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "dependedOnBy": [],
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1657,148 +1657,52 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_domainprofile_logmaxfilesize",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
-    "keywords": [
-      "Log Max File Size",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "dependedOnBy": [],
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
     "displayName": "Log Max File Size",
     "valueDefinition": {
-      "minimumValue": 0,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0,
       "maximumValue": 4294967295
     },
+    "id": "vendor_msft_firewall_mdmstore_domainprofile_logmaxfilesize",
+    "name": "LogMaxFileSize",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value specifies the size, in kilobytes, of the log file where dropped packets and successful connections are logged. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured, otherwise the MdmStore value wins if it is configured, otherwise the local store value is used.",
+    "offsetUri": "/MdmStore/DomainProfile/LogMaxFileSize",
+    "riskLevel": "low",
     "dependentOn": [
       {
         "dependentOn": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
         "parentSettingId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall"
       }
     ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "name": "LogMaxFileSize",
-    "description": "This value specifies the size, in kilobytes, of the log file where dropped packets and successful connections are logged. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured, otherwise the MdmStore value wins if it is configured, otherwise the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PrivateProfile/DisableStealthModeIpsecSecuredPacketExemption",
-    "uxBehavior": "toggle",
-    "options": [
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmodeipsecsecuredpacketexemption_false",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "false",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
-          }
-        ],
-        "description": "FALSE",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "False",
-        "name": "FALSE"
-      },
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmodeipsecsecuredpacketexemption_true",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "true",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
-          }
-        ],
-        "description": "TRUE",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "True",
-        "name": "TRUE"
-      }
-    ],
-    "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "maximumSupportedVersion": null
-    },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmodeipsecsecuredpacketexemption",
-    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
     "keywords": [
       "Disable Stealth Mode Ipsec Secured Packet Exemption",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Disable Stealth Mode Ipsec Secured Packet Exemption",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmodeipsecsecuredpacketexemption_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DisableStealthModeIpsecSecuredPacketExemption",
-    "description": "This value is an on/off switch. This option is ignored if DisableStealthMode is on. Otherwise, when this option is true, the firewall's stealth mode rules MUST NOT prevent the host computer from responding to unsolicited network traffic if that traffic is secured by IPsec.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used. For schema versions 0x0200, 0x0201, and 0x020A, this value is invalid and MUST NOT be used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PrivateProfile/Shielded",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_shielded_false",
+        "name": "FALSE",
+        "description": "FALSE",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -1810,14 +1714,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "Shielding Off",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "Shielding Off"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmodeipsecsecuredpacketexemption_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_shielded_true",
+        "name": "TRUE",
+        "description": "TRUE",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -1829,23 +1733,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "Shielding On",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "Shielding On"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmodeipsecsecuredpacketexemption_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1858,42 +1762,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_shielded",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmodeipsecsecuredpacketexemption_true",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Disable Stealth Mode Ipsec Secured Packet Exemption",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmodeipsecsecuredpacketexemption",
+    "name": "DisableStealthModeIpsecSecuredPacketExemption",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch. This option is ignored if DisableStealthMode is on. Otherwise, when this option is true, the firewall's stealth mode rules MUST NOT prevent the host computer from responding to unsolicited network traffic if that traffic is secured by IPsec.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used. For schema versions 0x0200, 0x0201, and 0x020A, this value is invalid and MUST NOT be used.",
+    "offsetUri": "/MdmStore/PrivateProfile/DisableStealthModeIpsecSecuredPacketExemption",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "keywords": [
       "Shielded",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Shielded",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_shielded_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "Shielded",
-    "description": "This value is used as an on/off switch. If this value is on and EnableFirewall is on, the server MUST block all incoming traffic regardless of other policy settings.  The merge law for this option is to let \"on\" values win.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PrivateProfile/AllowLocalIpsecPolicyMerge",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalipsecpolicymerge_false",
+        "name": "Shielding Off",
+        "description": "Shielding Off",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -1905,14 +1809,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "AllowLocalIpsecPolicyMerge Off",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "AllowLocalIpsecPolicyMerge Off"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_shielded_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalipsecpolicymerge_true",
+        "name": "Shielding On",
+        "description": "Shielding On",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -1924,23 +1828,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "AllowLocalIpsecPolicyMerge On",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "AllowLocalIpsecPolicyMerge On"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_shielded_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1953,42 +1857,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalipsecpolicymerge",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_shielded_false",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Shielded",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_shielded",
+    "name": "Shielded",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is on and EnableFirewall is on, the server MUST block all incoming traffic regardless of other policy settings.  The merge law for this option is to let \"on\" values win.",
+    "offsetUri": "/MdmStore/PrivateProfile/Shielded",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "keywords": [
       "Allow Local Ipsec Policy Merge",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Allow Local Ipsec Policy Merge",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalipsecpolicymerge_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "AllowLocalIpsecPolicyMerge",
-    "description": "This value is an on/off switch. If this value is false, connection security rules from the local store are ignored and not enforced, regardless of the schema version and connection security rule version.   The merge law for this option is to always use the value of the GroupPolicyRSoPStore.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PrivateProfile/AllowLocalPolicyMerge",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalpolicymerge_false",
+        "name": "AllowLocalIpsecPolicyMerge Off",
+        "description": "AllowLocalIpsecPolicyMerge Off",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -2000,14 +1904,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "AllowLocalPolicyMerge Off",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "AllowLocalPolicyMerge Off"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalipsecpolicymerge_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalpolicymerge_true",
+        "name": "AllowLocalIpsecPolicyMerge On",
+        "description": "AllowLocalIpsecPolicyMerge On",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -2019,23 +1923,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "AllowLocalPolicyMerge On",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "AllowLocalPolicyMerge On"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalipsecpolicymerge_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2048,42 +1952,137 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalpolicymerge",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalipsecpolicymerge_true",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
-    "keywords": [
-      "Allow Local Policy Merge",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Allow Local Policy Merge",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalpolicymerge_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "AllowLocalPolicyMerge",
-    "description": "This value is used as an on/off switch. If this value is false, firewall rules from the local store are ignored and not enforced.  The merge law for this option is to always use the value of the GroupPolicyRSoPStore. This value is valid for all schema versions.",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Allow Local Ipsec Policy Merge",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalipsecpolicymerge",
+    "name": "AllowLocalIpsecPolicyMerge",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch. If this value is false, connection security rules from the local store are ignored and not enforced, regardless of the schema version and connection security rule version.   The merge law for this option is to always use the value of the GroupPolicyRSoPStore.",
+    "offsetUri": "/MdmStore/PrivateProfile/AllowLocalIpsecPolicyMerge",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "Allow Local Policy Merge",
+      "Firewall"
+    ],
+    "options": [
+      {
+        "name": "AllowLocalPolicyMerge Off",
+        "description": "AllowLocalPolicyMerge Off",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "false",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalpolicymerge_false",
+        "displayName": "False"
+      },
+      {
+        "name": "AllowLocalPolicyMerge On",
+        "description": "AllowLocalPolicyMerge On",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "true",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalpolicymerge_true",
+        "displayName": "True"
+      }
+    ],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
     ],
-    "offsetUri": "/MdmStore/PrivateProfile/DefaultOutboundAction",
     "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "applicability": {
+      "configurationServiceProviderVersion": "1.0",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
+    },
+    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalpolicymerge_true",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Allow Local Policy Merge",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalpolicymerge",
+    "name": "AllowLocalPolicyMerge",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is false, firewall rules from the local store are ignored and not enforced.  The merge law for this option is to always use the value of the GroupPolicyRSoPStore. This value is valid for all schema versions.",
+    "offsetUri": "/MdmStore/PrivateProfile/AllowLocalPolicyMerge",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
+    "keywords": [
+      "Default Outbound Action",
+      "Firewall"
+    ],
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_defaultoutboundaction_0",
+        "name": "Allow Outbound By Default",
+        "description": "Allow Outbound By Default",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
@@ -2095,14 +2094,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "Allow Outbound By Default",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Allow",
-        "name": "Allow Outbound By Default"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_defaultoutboundaction_0",
+        "displayName": "Allow"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_defaultoutboundaction_1",
+        "name": "Block Outbound By Default",
+        "description": "Block Outbound By Default",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
@@ -2114,23 +2113,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "Block Outbound By Default",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Block",
-        "name": "Block Outbound By Default"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_defaultoutboundaction_1",
+        "displayName": "Block"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2143,137 +2142,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_defaultoutboundaction",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
-    "keywords": [
-      "Default Outbound Action",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Default Outbound Action",
     "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_defaultoutboundaction_0",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DefaultOutboundAction",
-    "description": "This value is the action that the firewall does by default (and evaluates at the very end) on outbound connections. The allow action is represented by 0x00000000; 0x00000001 represents a block action. Default value is 0 [Allow]. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Default Outbound Action",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_defaultoutboundaction",
+    "name": "DefaultOutboundAction",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is the action that the firewall does by default (and evaluates at the very end) on outbound connections. The allow action is represented by 0x00000000; 0x00000001 represents a block action. Default value is 0 [Allow]. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/PrivateProfile/DefaultOutboundAction",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PrivateProfile/DisableInboundNotifications",
-    "uxBehavior": "toggle",
-    "options": [
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disableinboundnotifications_false",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "false",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
-          }
-        ],
-        "description": "Firewall May Display Notification",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "False",
-        "name": "Firewall May Display Notification"
-      },
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disableinboundnotifications_true",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "true",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
-          }
-        ],
-        "description": "Firewall Must Not Display Notification",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "True",
-        "name": "Firewall Must Not Display Notification"
-      }
-    ],
-    "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "maximumSupportedVersion": null
-    },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_disableinboundnotifications",
-    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
     "keywords": [
       "Disable Inbound Notifications",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Disable Inbound Notifications",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_disableinboundnotifications_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DisableInboundNotifications",
-    "description": "This value is an on/off switch. If this value is false, the firewall MAY display a notification to the user when an application is blocked from listening on a port. If this value is on, the firewall MUST NOT display such a notification.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PrivateProfile/AuthAppsAllowUserPrefMerge",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_authappsallowuserprefmerge_false",
+        "name": "Firewall May Display Notification",
+        "description": "Firewall May Display Notification",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -2285,14 +2189,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "AuthAppsAllowUserPrefMerge Off",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "AuthAppsAllowUserPrefMerge Off"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disableinboundnotifications_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_authappsallowuserprefmerge_true",
+        "name": "Firewall Must Not Display Notification",
+        "description": "Firewall Must Not Display Notification",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -2304,23 +2208,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "AuthAppsAllowUserPrefMerge On",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "AuthAppsAllowUserPrefMerge On"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disableinboundnotifications_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2333,63 +2237,158 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_authappsallowuserprefmerge",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_disableinboundnotifications_false",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
-    "keywords": [
-      "Auth Apps Allow User Pref Merge",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Auth Apps Allow User Pref Merge",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_authappsallowuserprefmerge_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "AuthAppsAllowUserPrefMerge",
-    "description": "This value is used as an on/off switch. If this value is false, authorized application firewall rules in the local store are ignored and not enforced.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Disable Inbound Notifications",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_disableinboundnotifications",
+    "name": "DisableInboundNotifications",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch. If this value is false, the firewall MAY display a notification to the user when an application is blocked from listening on a port. If this value is on, the firewall MUST NOT display such a notification.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/PrivateProfile/DisableInboundNotifications",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "Auth Apps Allow User Pref Merge",
+      "Firewall"
+    ],
+    "options": [
+      {
+        "name": "AuthAppsAllowUserPrefMerge Off",
+        "description": "AuthAppsAllowUserPrefMerge Off",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "false",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_authappsallowuserprefmerge_false",
+        "displayName": "False"
+      },
+      {
+        "name": "AuthAppsAllowUserPrefMerge On",
+        "description": "AuthAppsAllowUserPrefMerge On",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "true",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_authappsallowuserprefmerge_true",
+        "displayName": "True"
+      }
+    ],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
     ],
-    "offsetUri": "/MdmStore/PrivateProfile/EnableFirewall",
     "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "applicability": {
+      "configurationServiceProviderVersion": "1.0",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
+    },
+    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_authappsallowuserprefmerge_true",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Auth Apps Allow User Pref Merge",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_authappsallowuserprefmerge",
+    "name": "AuthAppsAllowUserPrefMerge",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is false, authorized application firewall rules in the local store are ignored and not enforced.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/PrivateProfile/AuthAppsAllowUserPrefMerge",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
+    "keywords": [
+      "EnableFirewall",
+      "Firewall"
+    ],
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_false",
+        "name": "Disable Firewall",
+        "description": "Disable Firewall",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
           "settingValueTemplateReference": null
         },
         "dependentOn": [],
-        "description": "Disable Firewall",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "Disable Firewall"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
+        "name": "Enable Firewall",
+        "description": "Enable Firewall",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
           "settingValueTemplateReference": null
         },
         "dependentOn": [],
-        "description": "Enable Firewall",
+        "helpText": null,
         "dependedOnBy": [
           {
             "required": false,
@@ -2456,21 +2455,21 @@
             "dependedOnBy": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmodeipsecsecuredpacketexemption"
           }
         ],
-        "helpText": null,
-        "displayName": "True",
-        "name": "Enable Firewall"
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2483,42 +2482,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
-    "keywords": [
-      "EnableFirewall",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": " ",
-    "version": "639094788176414916",
-    "accessTypes": "add,get,replace",
-    "displayName": "Enable Private Network Firewall",
     "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EnableFirewall",
-    "description": "This value is an on/off switch for the firewall and advanced security enforcement. If this value is false, the server MUST NOT block any network traffic, regardless of other policy settings.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Enable Private Network Firewall",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
+    "name": "EnableFirewall",
+    "helpText": " ",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch for the firewall and advanced security enforcement. If this value is false, the server MUST NOT block any network traffic, regardless of other policy settings.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/PrivateProfile/EnableFirewall",
+    "riskLevel": "low",
+    "accessTypes": "add,get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    "keywords": [
+      "Enable Log Ignored Rules",
+      "Firewall"
     ],
-    "offsetUri": "/MdmStore/PrivateProfile/EnableLogIgnoredRules",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogignoredrules_false",
+        "name": "Disable Logging Of Ignored Rules",
+        "description": "Disable Logging Of Ignored Rules",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -2530,14 +2529,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "Disable Logging Of Ignored Rules",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Disable Logging Of Ignored Rules",
-        "name": "Disable Logging Of Ignored Rules"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogignoredrules_false",
+        "displayName": "Disable Logging Of Ignored Rules"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogignoredrules_true",
+        "name": "Enable Logging Of Ignored Rules",
+        "description": "Enable Logging Of Ignored Rules",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -2549,23 +2548,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "Enable Logging Of Ignored Rules",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Enable Logging Of Ignored Rules",
-        "name": "Enable Logging Of Ignored Rules"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogignoredrules_true",
+        "displayName": "Enable Logging Of Ignored Rules"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2578,42 +2577,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_enablelogignoredrules",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
-    "keywords": [
-      "Enable Log Ignored Rules",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Enable Log Ignored Rules",
     "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogignoredrules_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EnableLogIgnoredRules",
-    "description": "This value is used as an on/off switch. The server MAY use this value in an implementation-specific way to control logging of events if a rule is not enforced for any reason. The merge law for this option is to let \"on\" values win.",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Enable Log Ignored Rules",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_enablelogignoredrules",
+    "name": "EnableLogIgnoredRules",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. The server MAY use this value in an implementation-specific way to control logging of events if a rule is not enforced for any reason. The merge law for this option is to let \"on\" values win.",
+    "offsetUri": "/MdmStore/PrivateProfile/EnableLogIgnoredRules",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    "keywords": [
+      "Default Inbound Action",
+      "Firewall"
     ],
-    "offsetUri": "/MdmStore/PrivateProfile/DefaultInboundAction",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_defaultinboundaction_0",
+        "name": "Allow Inbound By Default",
+        "description": "Allow Inbound By Default",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
@@ -2625,14 +2624,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "Allow Inbound By Default",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Allow",
-        "name": "Allow Inbound By Default"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_defaultinboundaction_0",
+        "displayName": "Allow"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_defaultinboundaction_1",
+        "name": "Block Inbound By Default",
+        "description": "Block Inbound By Default",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
@@ -2644,23 +2643,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "Block Inbound By Default",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Block",
-        "name": "Block Inbound By Default"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_defaultinboundaction_1",
+        "displayName": "Block"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2673,42 +2672,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_defaultinboundaction",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
-    "keywords": [
-      "Default Inbound Action",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": " ",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Default Inbound Action for Private Profile",
     "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_defaultinboundaction_1",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DefaultInboundAction",
-    "description": "Specifies how to filter inbound traffic. The acceptable values for this parameter are: NotConfigured, Allow, or Block.",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Default Inbound Action for Private Profile",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_defaultinboundaction",
+    "name": "DefaultInboundAction",
+    "helpText": " ",
+    "version": "639094788176414916",
+    "description": "Specifies how to filter inbound traffic. The acceptable values for this parameter are: NotConfigured, Allow, or Block.",
+    "offsetUri": "/MdmStore/PrivateProfile/DefaultInboundAction",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    "keywords": [
+      "Disable Unicast Responses To Multicast Broadcast",
+      "Firewall"
     ],
-    "offsetUri": "/MdmStore/PrivateProfile/DisableUnicastResponsesToMulticastBroadcast",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disableunicastresponsestomulticastbroadcast_false",
+        "name": "Unicast Responses Not Blocked",
+        "description": "Unicast Responses Not Blocked",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -2720,14 +2719,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "Unicast Responses Not Blocked",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "Unicast Responses Not Blocked"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disableunicastresponsestomulticastbroadcast_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disableunicastresponsestomulticastbroadcast_true",
+        "name": "Unicast Responses Blocked",
+        "description": "Unicast Responses Blocked",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -2739,23 +2738,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "Unicast Responses Blocked",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "Unicast Responses Blocked"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disableunicastresponsestomulticastbroadcast_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2768,54 +2767,55 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_disableunicastresponsestomulticastbroadcast",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
-    "keywords": [
-      "Disable Unicast Responses To Multicast Broadcast",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Disable Unicast Responses To Multicast Broadcast",
     "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_disableunicastresponsestomulticastbroadcast_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DisableUnicastResponsesToMulticastBroadcast",
-    "description": "This value is used as an on/off switch. If it is true, unicast responses to multicast broadcast traffic is blocked.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Disable Unicast Responses To Multicast Broadcast",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_disableunicastresponsestomulticastbroadcast",
+    "name": "DisableUnicastResponsesToMulticastBroadcast",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If it is true, unicast responses to multicast broadcast traffic is blocked.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/PrivateProfile/DisableUnicastResponsesToMulticastBroadcast",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
-    ],
-    "offsetUri": "/MdmStore/PrivateProfile/LogMaxFileSize",
-    "uxBehavior": "default",
     "defaultValue": {
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
       "value": 1024,
       "settingValueTemplateReference": null
     },
+    "keywords": [
+      "Log Max File Size",
+      "Firewall"
+    ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    ],
+    "uxBehavior": "default",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "dependedOnBy": [],
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2828,53 +2828,52 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_logmaxfilesize",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
-    "keywords": [
-      "Log Max File Size",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "dependedOnBy": [],
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
     "displayName": "Log Max File Size",
     "valueDefinition": {
-      "minimumValue": 0,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0,
       "maximumValue": 4294967295
     },
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_logmaxfilesize",
+    "name": "LogMaxFileSize",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value specifies the size, in kilobytes, of the log file where dropped packets and successful connections are logged. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured, otherwise the MdmStore value wins if it is configured, otherwise the local store value is used.",
+    "offsetUri": "/MdmStore/PrivateProfile/LogMaxFileSize",
+    "riskLevel": "low",
     "dependentOn": [
       {
         "dependentOn": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
         "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
       }
     ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "name": "LogMaxFileSize",
-    "description": "This value specifies the size, in kilobytes, of the log file where dropped packets and successful connections are logged. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured, otherwise the MdmStore value wins if it is configured, otherwise the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    "keywords": [
+      "Disable Stealth Mode",
+      "Firewall"
     ],
-    "offsetUri": "/MdmStore/PrivateProfile/DisableStealthMode",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmode_false",
+        "name": "Use Stealth Mode",
+        "description": "Use Stealth Mode",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -2886,14 +2885,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "Use Stealth Mode",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "Use Stealth Mode"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmode_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmode_true",
+        "name": "Disable Stealth Mode",
+        "description": "Disable Stealth Mode",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -2905,23 +2904,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "Disable Stealth Mode",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "Disable Stealth Mode"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmode_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2934,54 +2933,55 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmode",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
-    "keywords": [
-      "Disable Stealth Mode",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Disable Stealth Mode",
     "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmode_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DisableStealthMode",
-    "description": "This value is an on/off switch. When this option is false, the server operates in stealth mode. The firewall rules used to enforce stealth mode are implementation-specific. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Disable Stealth Mode",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmode",
+    "name": "DisableStealthMode",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch. When this option is false, the server operates in stealth mode. The firewall rules used to enforce stealth mode are implementation-specific. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/PrivateProfile/DisableStealthMode",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
-    ],
-    "offsetUri": "/MdmStore/PrivateProfile/LogFilePath",
-    "uxBehavior": "default",
     "defaultValue": {
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
       "value": "%systemroot%\\system32\\LogFiles\\Firewall\\pfirewall.log",
       "settingValueTemplateReference": null
     },
+    "keywords": [
+      "Log File Path",
+      "Firewall"
+    ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    ],
+    "uxBehavior": "default",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "dependedOnBy": [],
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2994,152 +2994,56 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_logfilepath",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
-    "keywords": [
-      "Log File Path",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "dependedOnBy": [],
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
     "displayName": "Log File Path",
     "valueDefinition": {
-      "minimumLength": 0,
-      "format": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
       "isSecret": false,
-      "maximumLength": 87516,
       "fileTypes": [],
-      "inputValidationSchema": null
+      "maximumLength": 87516,
+      "inputValidationSchema": null,
+      "format": "none",
+      "minimumLength": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
     },
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_logfilepath",
+    "name": "LogFilePath",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is a string that represents a file path to the log where the firewall logs dropped packets and successful connections. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured, otherwise the MdmStore value wins if it is configured, otherwise the local store value is used.",
+    "offsetUri": "/MdmStore/PrivateProfile/LogFilePath",
+    "riskLevel": "low",
     "dependentOn": [
       {
         "dependentOn": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
         "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
       }
     ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "name": "LogFilePath",
-    "description": "This value is a string that represents a file path to the log where the firewall logs dropped packets and successful connections. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured, otherwise the MdmStore value wins if it is configured, otherwise the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
-    ],
-    "offsetUri": "/MdmStore/PrivateProfile/EnableLogSuccessConnections",
-    "uxBehavior": "toggle",
-    "options": [
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogsuccessconnections_false",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "false",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
-          }
-        ],
-        "description": "Disable Logging Of Successful Connections",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "Disable Logging Of Successful Connections",
-        "name": "Disable Logging Of Successful Connections"
-      },
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogsuccessconnections_true",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "true",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
-          }
-        ],
-        "description": "Enable Logging Of Successful Connections",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "Enable Logging Of Successful Connections",
-        "name": "Enable Logging Of Successful Connections"
-      }
-    ],
-    "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "maximumSupportedVersion": null
-    },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_enablelogsuccessconnections",
-    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
     "keywords": [
       "Enable Log Success Connections",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Enable Log Success Connections",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogsuccessconnections_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EnableLogSuccessConnections",
-    "description": "This value is used as an on/off switch. If this value is on, the firewall logs all successful inbound connections. The merge law for this option is to let \"on\" values win.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PrivateProfile/GlobalPortsAllowUserPrefMerge",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_globalportsallowuserprefmerge_false",
+        "name": "Disable Logging Of Successful Connections",
+        "description": "Disable Logging Of Successful Connections",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -3151,14 +3055,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "GlobalPortsAllowUserPrefMerge Off",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "GlobalPortsAllowUserPrefMerge Off"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogsuccessconnections_false",
+        "displayName": "Disable Logging Of Successful Connections"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_globalportsallowuserprefmerge_true",
+        "name": "Enable Logging Of Successful Connections",
+        "description": "Enable Logging Of Successful Connections",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -3170,23 +3074,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "GlobalPortsAllowUserPrefMerge On",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "GlobalPortsAllowUserPrefMerge On"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogsuccessconnections_true",
+        "displayName": "Enable Logging Of Successful Connections"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3199,42 +3103,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_globalportsallowuserprefmerge",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogsuccessconnections_false",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Enable Log Success Connections",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_enablelogsuccessconnections",
+    "name": "EnableLogSuccessConnections",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is on, the firewall logs all successful inbound connections. The merge law for this option is to let \"on\" values win.",
+    "offsetUri": "/MdmStore/PrivateProfile/EnableLogSuccessConnections",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "keywords": [
       "Global Ports Allow User Pref Merge",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Global Ports Allow User Pref Merge",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_globalportsallowuserprefmerge_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "GlobalPortsAllowUserPrefMerge",
-    "description": "This value is used as an on/off switch. If this value is false, global port firewall rules in the local store are ignored and not enforced. The setting only has meaning if it is set or enumerated in the Group Policy store or if it is enumerated from the GroupPolicyRSoPStore.  The merge law for this option is to let the value GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
-    ],
-    "offsetUri": "/MdmStore/PrivateProfile/EnableLogDroppedPackets",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogdroppedpackets_false",
+        "name": "GlobalPortsAllowUserPrefMerge Off",
+        "description": "GlobalPortsAllowUserPrefMerge Off",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -3246,14 +3150,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "Disable Logging Of Dropped Packets",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Disable Logging Of Dropped Packets",
-        "name": "Disable Logging Of Dropped Packets"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_globalportsallowuserprefmerge_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogdroppedpackets_true",
+        "name": "GlobalPortsAllowUserPrefMerge On",
+        "description": "GlobalPortsAllowUserPrefMerge On",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -3265,23 +3169,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
           }
         ],
-        "description": "Enable Logging Of Dropped Packets",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Enable Logging Of Dropped Packets",
-        "name": "Enable Logging Of Dropped Packets"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_globalportsallowuserprefmerge_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3294,42 +3198,137 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_privateprofile_enablelogdroppedpackets",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_globalportsallowuserprefmerge_true",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
-    "keywords": [
-      "Enable Log Dropped Packets",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Enable Log Dropped Packets",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogdroppedpackets_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EnableLogDroppedPackets",
-    "description": "This value is used as an on/off switch. If this value is on, the firewall logs all the dropped packets. The merge law for this option is to let \"on\" values win.",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Global Ports Allow User Pref Merge",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_globalportsallowuserprefmerge",
+    "name": "GlobalPortsAllowUserPrefMerge",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is false, global port firewall rules in the local store are ignored and not enforced. The setting only has meaning if it is set or enumerated in the Group Policy store or if it is enumerated from the GroupPolicyRSoPStore.  The merge law for this option is to let the value GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/PrivateProfile/GlobalPortsAllowUserPrefMerge",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    "keywords": [
+      "Enable Log Dropped Packets",
+      "Firewall"
     ],
-    "offsetUri": "/MdmStore/PublicProfile/DefaultOutboundAction",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_defaultoutboundaction_0",
+        "name": "Disable Logging Of Dropped Packets",
+        "description": "Disable Logging Of Dropped Packets",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "false",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogdroppedpackets_false",
+        "displayName": "Disable Logging Of Dropped Packets"
+      },
+      {
+        "name": "Enable Logging Of Dropped Packets",
+        "description": "Enable Logging Of Dropped Packets",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "true",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogdroppedpackets_true",
+        "displayName": "Enable Logging Of Dropped Packets"
+      }
+    ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "applicability": {
+      "configurationServiceProviderVersion": "1.0",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
+    },
+    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogdroppedpackets_false",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Enable Log Dropped Packets",
+    "id": "vendor_msft_firewall_mdmstore_privateprofile_enablelogdroppedpackets",
+    "name": "EnableLogDroppedPackets",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is on, the firewall logs all the dropped packets. The merge law for this option is to let \"on\" values win.",
+    "offsetUri": "/MdmStore/PrivateProfile/EnableLogDroppedPackets",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
+    "keywords": [
+      "Default Outbound Action",
+      "Firewall"
+    ],
+    "options": [
+      {
+        "name": "Allow Outbound By Default",
+        "description": "Allow Outbound By Default",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
@@ -3341,14 +3340,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "Allow Outbound By Default",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Allow",
-        "name": "Allow Outbound By Default"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_defaultoutboundaction_0",
+        "displayName": "Allow"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_defaultoutboundaction_1",
+        "name": "Block Outbound By Default",
+        "description": "Block Outbound By Default",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
@@ -3360,23 +3359,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "Block Outbound By Default",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Block",
-        "name": "Block Outbound By Default"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_defaultoutboundaction_1",
+        "displayName": "Block"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3389,137 +3388,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_defaultoutboundaction",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
-    "keywords": [
-      "Default Outbound Action",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Default Outbound Action",
     "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_defaultoutboundaction_0",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DefaultOutboundAction",
-    "description": "This value is the action that the firewall does by default (and evaluates at the very end) on outbound connections. The allow action is represented by 0x00000000; 0x00000001 represents a block action. Default value is 0 [Allow]. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Default Outbound Action",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_defaultoutboundaction",
+    "name": "DefaultOutboundAction",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is the action that the firewall does by default (and evaluates at the very end) on outbound connections. The allow action is represented by 0x00000000; 0x00000001 represents a block action. Default value is 0 [Allow]. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/PublicProfile/DefaultOutboundAction",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PublicProfile/DisableInboundNotifications",
-    "uxBehavior": "toggle",
-    "options": [
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disableinboundnotifications_false",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "false",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
-          }
-        ],
-        "description": "Firewall May Display Notification",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "False",
-        "name": "Firewall May Display Notification"
-      },
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disableinboundnotifications_true",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "true",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
-          }
-        ],
-        "description": "Firewall Must Not Display Notification",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "True",
-        "name": "Firewall Must Not Display Notification"
-      }
-    ],
-    "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "maximumSupportedVersion": null
-    },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_disableinboundnotifications",
-    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
     "keywords": [
       "Disable Inbound Notifications",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Disable Inbound Notifications",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_disableinboundnotifications_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DisableInboundNotifications",
-    "description": "This value is an on/off switch. If this value is false, the firewall MAY display a notification to the user when an application is blocked from listening on a port. If this value is on, the firewall MUST NOT display such a notification.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PublicProfile/Shielded",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_shielded_false",
+        "name": "Firewall May Display Notification",
+        "description": "Firewall May Display Notification",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -3531,14 +3435,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "Shielding Off",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "Shielding Off"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disableinboundnotifications_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_shielded_true",
+        "name": "Firewall Must Not Display Notification",
+        "description": "Firewall Must Not Display Notification",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -3550,23 +3454,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "Shielding On",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "Shielding On"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disableinboundnotifications_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3579,54 +3483,150 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_shielded",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_disableinboundnotifications_false",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
-    "keywords": [
-      "Shielded",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Shielded",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_shielded_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "Shielded",
-    "description": "This value is used as an on/off switch. If this value is on and EnableFirewall is on, the server MUST block all incoming traffic regardless of other policy settings.  The merge law for this option is to let \"on\" values win.",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Disable Inbound Notifications",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_disableinboundnotifications",
+    "name": "DisableInboundNotifications",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch. If this value is false, the firewall MAY display a notification to the user when an application is blocked from listening on a port. If this value is on, the firewall MUST NOT display such a notification.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/PublicProfile/DisableInboundNotifications",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    "keywords": [
+      "Shielded",
+      "Firewall"
     ],
-    "offsetUri": "/MdmStore/PublicProfile/LogFilePath",
-    "uxBehavior": "default",
+    "options": [
+      {
+        "name": "Shielding Off",
+        "description": "Shielding Off",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "false",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_shielded_false",
+        "displayName": "False"
+      },
+      {
+        "name": "Shielding On",
+        "description": "Shielding On",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "true",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_shielded_true",
+        "displayName": "True"
+      }
+    ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "applicability": {
+      "configurationServiceProviderVersion": "1.0",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
+    },
+    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_shielded_false",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Shielded",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_shielded",
+    "name": "Shielded",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is on and EnableFirewall is on, the server MUST block all incoming traffic regardless of other policy settings.  The merge law for this option is to let \"on\" values win.",
+    "offsetUri": "/MdmStore/PublicProfile/Shielded",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "defaultValue": {
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
       "value": "%systemroot%\\system32\\LogFiles\\Firewall\\pfirewall.log",
       "settingValueTemplateReference": null
     },
+    "keywords": [
+      "Log File Path",
+      "Firewall"
+    ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    ],
+    "uxBehavior": "default",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "dependedOnBy": [],
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3639,57 +3639,56 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_logfilepath",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
-    "keywords": [
-      "Log File Path",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "dependedOnBy": [],
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
     "displayName": "Log File Path",
     "valueDefinition": {
-      "minimumLength": 0,
-      "format": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
       "isSecret": false,
-      "maximumLength": 87516,
       "fileTypes": [],
-      "inputValidationSchema": null
+      "maximumLength": 87516,
+      "inputValidationSchema": null,
+      "format": "none",
+      "minimumLength": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
     },
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_logfilepath",
+    "name": "LogFilePath",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is a string that represents a file path to the log where the firewall logs dropped packets and successful connections. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured, otherwise the MdmStore value wins if it is configured, otherwise the local store value is used.",
+    "offsetUri": "/MdmStore/PublicProfile/LogFilePath",
+    "riskLevel": "low",
     "dependentOn": [
       {
         "dependentOn": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
         "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
       }
     ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "name": "LogFilePath",
-    "description": "This value is a string that represents a file path to the log where the firewall logs dropped packets and successful connections. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured, otherwise the MdmStore value wins if it is configured, otherwise the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    "keywords": [
+      "Default Inbound Action",
+      "Firewall"
     ],
-    "offsetUri": "/MdmStore/PublicProfile/DefaultInboundAction",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_defaultinboundaction_0",
+        "name": "Allow Inbound By Default",
+        "description": "Allow Inbound By Default",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
@@ -3701,14 +3700,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "Allow Inbound By Default",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Allow",
-        "name": "Allow Inbound By Default"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_defaultinboundaction_0",
+        "displayName": "Allow"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_defaultinboundaction_1",
+        "name": "Block Inbound By Default",
+        "description": "Block Inbound By Default",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
@@ -3720,23 +3719,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "Block Inbound By Default",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Block",
-        "name": "Block Inbound By Default"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_defaultinboundaction_1",
+        "displayName": "Block"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3749,137 +3748,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_defaultinboundaction",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
-    "keywords": [
-      "Default Inbound Action",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Default Inbound Action for Public Profile",
     "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_defaultinboundaction_1",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DefaultInboundAction",
-    "description": "Specifies how to filter inbound traffic. The acceptable values for this parameter are: NotConfigured, Allow, or Block.",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Default Inbound Action for Public Profile",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_defaultinboundaction",
+    "name": "DefaultInboundAction",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "Specifies how to filter inbound traffic. The acceptable values for this parameter are: NotConfigured, Allow, or Block.",
+    "offsetUri": "/MdmStore/PublicProfile/DefaultInboundAction",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PublicProfile/DisableStealthModeIpsecSecuredPacketExemption",
-    "uxBehavior": "toggle",
-    "options": [
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmodeipsecsecuredpacketexemption_false",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "false",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
-          }
-        ],
-        "description": "FALSE",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "False",
-        "name": "FALSE"
-      },
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmodeipsecsecuredpacketexemption_true",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "true",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
-          }
-        ],
-        "description": "TRUE",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "True",
-        "name": "TRUE"
-      }
-    ],
-    "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "maximumSupportedVersion": null
-    },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmodeipsecsecuredpacketexemption",
-    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
     "keywords": [
       "Disable Stealth Mode Ipsec Secured Packet Exemption",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Disable Stealth Mode Ipsec Secured Packet Exemption",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmodeipsecsecuredpacketexemption_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DisableStealthModeIpsecSecuredPacketExemption",
-    "description": "This value is an on/off switch. This option is ignored if DisableStealthMode is on. Otherwise, when this option is true, the firewall's stealth mode rules MUST NOT prevent the host computer from responding to unsolicited network traffic if that traffic is secured by IPsec.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used. For schema versions 0x0200, 0x0201, and 0x020A, this value is invalid and MUST NOT be used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PublicProfile/AllowLocalPolicyMerge",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalpolicymerge_false",
+        "name": "FALSE",
+        "description": "FALSE",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -3891,14 +3795,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "AllowLocalPolicyMerge Off",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "AllowLocalPolicyMerge Off"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmodeipsecsecuredpacketexemption_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalpolicymerge_true",
+        "name": "TRUE",
+        "description": "TRUE",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -3910,23 +3814,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "AllowLocalPolicyMerge On",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "AllowLocalPolicyMerge On"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmodeipsecsecuredpacketexemption_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3939,42 +3843,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalpolicymerge",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmodeipsecsecuredpacketexemption_true",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Disable Stealth Mode Ipsec Secured Packet Exemption",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmodeipsecsecuredpacketexemption",
+    "name": "DisableStealthModeIpsecSecuredPacketExemption",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch. This option is ignored if DisableStealthMode is on. Otherwise, when this option is true, the firewall's stealth mode rules MUST NOT prevent the host computer from responding to unsolicited network traffic if that traffic is secured by IPsec.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used. For schema versions 0x0200, 0x0201, and 0x020A, this value is invalid and MUST NOT be used.",
+    "offsetUri": "/MdmStore/PublicProfile/DisableStealthModeIpsecSecuredPacketExemption",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "keywords": [
       "Allow Local Policy Merge",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Allow Local Policy Merge",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalpolicymerge_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "AllowLocalPolicyMerge",
-    "description": "This value is used as an on/off switch. If this value is false, firewall rules from the local store are ignored and not enforced.  The merge law for this option is to always use the value of the GroupPolicyRSoPStore. This value is valid for all schema versions.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PublicProfile/AuthAppsAllowUserPrefMerge",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_authappsallowuserprefmerge_false",
+        "name": "AllowLocalPolicyMerge Off",
+        "description": "AllowLocalPolicyMerge Off",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -3986,14 +3890,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "AuthAppsAllowUserPrefMerge Off",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "AuthAppsAllowUserPrefMerge Off"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalpolicymerge_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_authappsallowuserprefmerge_true",
+        "name": "AllowLocalPolicyMerge On",
+        "description": "AllowLocalPolicyMerge On",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -4005,23 +3909,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "AuthAppsAllowUserPrefMerge On",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "AuthAppsAllowUserPrefMerge On"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalpolicymerge_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4034,42 +3938,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_authappsallowuserprefmerge",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalpolicymerge_true",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Allow Local Policy Merge",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalpolicymerge",
+    "name": "AllowLocalPolicyMerge",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is false, firewall rules from the local store are ignored and not enforced.  The merge law for this option is to always use the value of the GroupPolicyRSoPStore. This value is valid for all schema versions.",
+    "offsetUri": "/MdmStore/PublicProfile/AllowLocalPolicyMerge",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "keywords": [
       "Auth Apps Allow User Pref Merge",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Auth Apps Allow User Pref Merge",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_authappsallowuserprefmerge_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "AuthAppsAllowUserPrefMerge",
-    "description": "This value is used as an on/off switch. If this value is false, authorized application firewall rules in the local store are ignored and not enforced.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PublicProfile/GlobalPortsAllowUserPrefMerge",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_globalportsallowuserprefmerge_false",
+        "name": "AuthAppsAllowUserPrefMerge Off",
+        "description": "AuthAppsAllowUserPrefMerge Off",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -4081,14 +3985,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "GlobalPortsAllowUserPrefMerge Off",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "GlobalPortsAllowUserPrefMerge Off"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_authappsallowuserprefmerge_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_globalportsallowuserprefmerge_true",
+        "name": "AuthAppsAllowUserPrefMerge On",
+        "description": "AuthAppsAllowUserPrefMerge On",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -4100,23 +4004,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "GlobalPortsAllowUserPrefMerge On",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "GlobalPortsAllowUserPrefMerge On"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_authappsallowuserprefmerge_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4129,42 +4033,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_globalportsallowuserprefmerge",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_authappsallowuserprefmerge_true",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Auth Apps Allow User Pref Merge",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_authappsallowuserprefmerge",
+    "name": "AuthAppsAllowUserPrefMerge",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is false, authorized application firewall rules in the local store are ignored and not enforced.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/PublicProfile/AuthAppsAllowUserPrefMerge",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "keywords": [
       "Global Ports Allow User Pref Merge",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Global Ports Allow User Pref Merge",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_globalportsallowuserprefmerge_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "GlobalPortsAllowUserPrefMerge",
-    "description": "This value is used as an on/off switch. If this value is false, global port firewall rules in the local store are ignored and not enforced. The setting only has meaning if it is set or enumerated in the Group Policy store or if it is enumerated from the GroupPolicyRSoPStore.  The merge law for this option is to let the value GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PublicProfile/AllowLocalIpsecPolicyMerge",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalipsecpolicymerge_false",
+        "name": "GlobalPortsAllowUserPrefMerge Off",
+        "description": "GlobalPortsAllowUserPrefMerge Off",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -4176,14 +4080,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "AllowLocalIpsecPolicyMerge Off",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "AllowLocalIpsecPolicyMerge Off"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_globalportsallowuserprefmerge_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalipsecpolicymerge_true",
+        "name": "GlobalPortsAllowUserPrefMerge On",
+        "description": "GlobalPortsAllowUserPrefMerge On",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -4195,23 +4099,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "AllowLocalIpsecPolicyMerge On",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "AllowLocalIpsecPolicyMerge On"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_globalportsallowuserprefmerge_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4224,42 +4128,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalipsecpolicymerge",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_globalportsallowuserprefmerge_true",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Global Ports Allow User Pref Merge",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_globalportsallowuserprefmerge",
+    "name": "GlobalPortsAllowUserPrefMerge",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is false, global port firewall rules in the local store are ignored and not enforced. The setting only has meaning if it is set or enumerated in the Group Policy store or if it is enumerated from the GroupPolicyRSoPStore.  The merge law for this option is to let the value GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/PublicProfile/GlobalPortsAllowUserPrefMerge",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "keywords": [
       "Allow Local Ipsec Policy Merge",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Allow Local Ipsec Policy Merge",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalipsecpolicymerge_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "AllowLocalIpsecPolicyMerge",
-    "description": "This value is an on/off switch. If this value is false, connection security rules from the local store are ignored and not enforced, regardless of the schema version and connection security rule version.   The merge law for this option is to always use the value of the GroupPolicyRSoPStore.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
-    ],
-    "offsetUri": "/MdmStore/PublicProfile/EnableLogSuccessConnections",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogsuccessconnections_false",
+        "name": "AllowLocalIpsecPolicyMerge Off",
+        "description": "AllowLocalIpsecPolicyMerge Off",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -4271,14 +4175,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "Disable Logging Of Successful Connections",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Disable Logging Of Successful Connections",
-        "name": "Disable Logging Of Successful Connections"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalipsecpolicymerge_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogsuccessconnections_true",
+        "name": "AllowLocalIpsecPolicyMerge On",
+        "description": "AllowLocalIpsecPolicyMerge On",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -4290,23 +4194,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "Enable Logging Of Successful Connections",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Enable Logging Of Successful Connections",
-        "name": "Enable Logging Of Successful Connections"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalipsecpolicymerge_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4319,42 +4223,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_enablelogsuccessconnections",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalipsecpolicymerge_true",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Allow Local Ipsec Policy Merge",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalipsecpolicymerge",
+    "name": "AllowLocalIpsecPolicyMerge",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch. If this value is false, connection security rules from the local store are ignored and not enforced, regardless of the schema version and connection security rule version.   The merge law for this option is to always use the value of the GroupPolicyRSoPStore.",
+    "offsetUri": "/MdmStore/PublicProfile/AllowLocalIpsecPolicyMerge",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "keywords": [
       "Enable Log Success Connections",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Enable Log Success Connections",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogsuccessconnections_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EnableLogSuccessConnections",
-    "description": "This value is used as an on/off switch. If this value is on, the firewall logs all successful inbound connections. The merge law for this option is to let \"on\" values win.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
-    ],
-    "offsetUri": "/MdmStore/PublicProfile/EnableLogDroppedPackets",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogdroppedpackets_false",
+        "name": "Disable Logging Of Successful Connections",
+        "description": "Disable Logging Of Successful Connections",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -4366,14 +4270,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "Disable Logging Of Dropped Packets",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Disable Logging Of Dropped Packets",
-        "name": "Disable Logging Of Dropped Packets"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogsuccessconnections_false",
+        "displayName": "Disable Logging Of Successful Connections"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogdroppedpackets_true",
+        "name": "Enable Logging Of Successful Connections",
+        "description": "Enable Logging Of Successful Connections",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -4385,23 +4289,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "Enable Logging Of Dropped Packets",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Enable Logging Of Dropped Packets",
-        "name": "Enable Logging Of Dropped Packets"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogsuccessconnections_true",
+        "displayName": "Enable Logging Of Successful Connections"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4414,42 +4318,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_enablelogdroppedpackets",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogsuccessconnections_false",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Enable Log Success Connections",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_enablelogsuccessconnections",
+    "name": "EnableLogSuccessConnections",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is on, the firewall logs all successful inbound connections. The merge law for this option is to let \"on\" values win.",
+    "offsetUri": "/MdmStore/PublicProfile/EnableLogSuccessConnections",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "keywords": [
       "Enable Log Dropped Packets",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Enable Log Dropped Packets",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogdroppedpackets_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EnableLogDroppedPackets",
-    "description": "This value is used as an on/off switch. If this value is on, the firewall logs all the dropped packets. The merge law for this option is to let \"on\" values win.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PublicProfile/DisableUnicastResponsesToMulticastBroadcast",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disableunicastresponsestomulticastbroadcast_false",
+        "name": "Disable Logging Of Dropped Packets",
+        "description": "Disable Logging Of Dropped Packets",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -4461,14 +4365,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "Unicast Responses Not Blocked",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "Unicast Responses Not Blocked"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogdroppedpackets_false",
+        "displayName": "Disable Logging Of Dropped Packets"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disableunicastresponsestomulticastbroadcast_true",
+        "name": "Enable Logging Of Dropped Packets",
+        "description": "Enable Logging Of Dropped Packets",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -4480,23 +4384,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "Unicast Responses Blocked",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "True",
-        "name": "Unicast Responses Blocked"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogdroppedpackets_true",
+        "displayName": "Enable Logging Of Dropped Packets"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4509,63 +4413,159 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_disableunicastresponsestomulticastbroadcast",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogdroppedpackets_false",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
-    "keywords": [
-      "Disable Unicast Responses To Multicast Broadcast",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Disable Unicast Responses To Multicast Broadcast",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_disableunicastresponsestomulticastbroadcast_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DisableUnicastResponsesToMulticastBroadcast",
-    "description": "This value is used as an on/off switch. If it is true, unicast responses to multicast broadcast traffic is blocked.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Enable Log Dropped Packets",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_enablelogdroppedpackets",
+    "name": "EnableLogDroppedPackets",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If this value is on, the firewall logs all the dropped packets. The merge law for this option is to let \"on\" values win.",
+    "offsetUri": "/MdmStore/PublicProfile/EnableLogDroppedPackets",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "Disable Unicast Responses To Multicast Broadcast",
+      "Firewall"
+    ],
+    "options": [
+      {
+        "name": "Unicast Responses Not Blocked",
+        "description": "Unicast Responses Not Blocked",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "false",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disableunicastresponsestomulticastbroadcast_false",
+        "displayName": "False"
+      },
+      {
+        "name": "Unicast Responses Blocked",
+        "description": "Unicast Responses Blocked",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "true",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disableunicastresponsestomulticastbroadcast_true",
+        "displayName": "True"
+      }
+    ],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
     ],
-    "offsetUri": "/MdmStore/PublicProfile/EnableFirewall",
     "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "applicability": {
+      "configurationServiceProviderVersion": "1.0",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
+    },
+    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_disableunicastresponsestomulticastbroadcast_false",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Disable Unicast Responses To Multicast Broadcast",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_disableunicastresponsestomulticastbroadcast",
+    "name": "DisableUnicastResponsesToMulticastBroadcast",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. If it is true, unicast responses to multicast broadcast traffic is blocked.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/PublicProfile/DisableUnicastResponsesToMulticastBroadcast",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
+    "keywords": [
+      "EnableFirewall",
+      "Public",
+      "Firewall"
+    ],
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_false",
+        "name": "Disable Firewall",
+        "description": "Disable Firewall",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
           "settingValueTemplateReference": null
         },
         "dependentOn": [],
-        "description": "Disable Firewall",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "False",
-        "name": "Disable Firewall"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
+        "name": "Enable Firewall",
+        "description": "Enable Firewall",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
           "settingValueTemplateReference": null
         },
         "dependentOn": [],
-        "description": "Enable Firewall",
+        "helpText": null,
         "dependedOnBy": [
           {
             "required": false,
@@ -4632,21 +4632,21 @@
             "dependedOnBy": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmodeipsecsecuredpacketexemption"
           }
         ],
-        "helpText": null,
-        "displayName": "True",
-        "name": "Enable Firewall"
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4659,138 +4659,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
-    "keywords": [
-      "EnableFirewall",
-      "Public",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": " ",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Enable Public Network Firewall",
     "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EnableFirewall",
-    "description": "This value is an on/off switch for the firewall and advanced security enforcement. If this value is false, the server MUST NOT block any network traffic, regardless of other policy settings.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Enable Public Network Firewall",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
+    "name": "EnableFirewall",
+    "helpText": " ",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch for the firewall and advanced security enforcement. If this value is false, the server MUST NOT block any network traffic, regardless of other policy settings.  The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/PublicProfile/EnableFirewall",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
-    ],
-    "offsetUri": "/MdmStore/PublicProfile/DisableStealthMode",
-    "uxBehavior": "toggle",
-    "options": [
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmode_false",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "false",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
-          }
-        ],
-        "description": "Use Stealth Mode",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "False",
-        "name": "Use Stealth Mode"
-      },
-      {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmode_true",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "true",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
-            "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
-          }
-        ],
-        "description": "Disable Stealth Mode",
-        "dependedOnBy": [],
-        "helpText": null,
-        "displayName": "True",
-        "name": "Disable Stealth Mode"
-      }
-    ],
-    "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.16299",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "maximumSupportedVersion": null
-    },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmode",
-    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
-    "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
     "keywords": [
       "Disable Stealth Mode",
       "Firewall"
     ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Disable Stealth Mode",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmode_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "DisableStealthMode",
-    "description": "This value is an on/off switch. When this option is false, the server operates in stealth mode. The firewall rules used to enforce stealth mode are implementation-specific. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
-  },
-  {
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
-    ],
-    "offsetUri": "/MdmStore/PublicProfile/EnableLogIgnoredRules",
-    "uxBehavior": "toggle",
     "options": [
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogignoredrules_false",
+        "name": "Use Stealth Mode",
+        "description": "Use Stealth Mode",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "false",
@@ -4802,14 +4706,14 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "Disable Logging Of Ignored Rules",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Disable Logging Of Ignored Rules",
-        "name": "Disable Logging Of Ignored Rules"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmode_false",
+        "displayName": "False"
       },
       {
-        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogignoredrules_true",
+        "name": "Disable Stealth Mode",
+        "description": "Disable Stealth Mode",
         "optionValue": {
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "true",
@@ -4821,23 +4725,23 @@
             "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
           }
         ],
-        "description": "Enable Logging Of Ignored Rules",
-        "dependedOnBy": [],
         "helpText": null,
-        "displayName": "Enable Logging Of Ignored Rules",
-        "name": "Enable Logging Of Ignored Rules"
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmode_true",
+        "displayName": "True"
       }
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/firewall-csp"
+    ],
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4850,54 +4754,150 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_enablelogignoredrules",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmode_false",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
-    "keywords": [
-      "Enable Log Ignored Rules",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
-    "displayName": "Enable Log Ignored Rules",
-    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogignoredrules_false",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EnableLogIgnoredRules",
-    "description": "This value is used as an on/off switch. The server MAY use this value in an implementation-specific way to control logging of events if a rule is not enforced for any reason. The merge law for this option is to let \"on\" values win.",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 1
     },
-    "riskLevel": "low"
+    "displayName": "Disable Stealth Mode",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmode",
+    "name": "DisableStealthMode",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is an on/off switch. When this option is false, the server operates in stealth mode. The firewall rules used to enforce stealth mode are implementation-specific. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.",
+    "offsetUri": "/MdmStore/PublicProfile/DisableStealthMode",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
   },
   {
-    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "Enable Log Ignored Rules",
+      "Firewall"
+    ],
+    "options": [
+      {
+        "name": "Disable Logging Of Ignored Rules",
+        "description": "Disable Logging Of Ignored Rules",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "false",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogignoredrules_false",
+        "displayName": "Disable Logging Of Ignored Rules"
+      },
+      {
+        "name": "Enable Logging Of Ignored Rules",
+        "description": "Enable Logging Of Ignored Rules",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "true",
+          "settingValueTemplateReference": null
+        },
+        "dependentOn": [
+          {
+            "dependentOn": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
+            "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
+          }
+        ],
+        "helpText": null,
+        "dependedOnBy": [],
+        "itemId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogignoredrules_true",
+        "displayName": "Enable Logging Of Ignored Rules"
+      }
+    ],
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
     ],
-    "offsetUri": "/MdmStore/PublicProfile/LogMaxFileSize",
-    "uxBehavior": "default",
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "applicability": {
+      "configurationServiceProviderVersion": "1.0",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
+    },
+    "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
+    "defaultOptionId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogignoredrules_false",
+    "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "displayName": "Enable Log Ignored Rules",
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_enablelogignoredrules",
+    "name": "EnableLogIgnoredRules",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value is used as an on/off switch. The server MAY use this value in an implementation-specific way to control logging of events if a rule is not enforced for any reason. The merge law for this option is to let \"on\" values win.",
+    "offsetUri": "/MdmStore/PublicProfile/EnableLogIgnoredRules",
+    "riskLevel": "low",
+    "accessTypes": "get,replace"
+  },
+  {
     "defaultValue": {
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
       "value": 1024,
       "settingValueTemplateReference": null
     },
+    "keywords": [
+      "Log Max File Size",
+      "Firewall"
+    ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Firewall-csp/"
+    ],
+    "uxBehavior": "default",
+    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "settingUsage": "configuration",
+    "dependedOnBy": [],
+    "baseUri": "./Vendor/MSFT/Firewall",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "applicability": {
-      "requiresAzureAd": false,
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "technologies": "mdm,configManager,microsoftSense",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "minimumSupportedVersion": "10.0.22621",
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4910,42 +4910,42 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null
     },
-    "referredSettingInformationList": [],
-    "settingUsage": "configuration",
-    "id": "vendor_msft_firewall_mdmstore_publicprofile_logmaxfilesize",
     "categoryId": "4a5e4714-00ac-4793-b0cc-5049041b0ed7",
     "rootDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
-    "keywords": [
-      "Log Max File Size",
-      "Firewall"
-    ],
-    "baseUri": "./Vendor/MSFT/Firewall",
-    "helpText": "",
-    "dependedOnBy": [],
-    "version": "639094788176414916",
-    "accessTypes": "get,replace",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
     "displayName": "Log Max File Size",
     "valueDefinition": {
-      "minimumValue": 0,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0,
       "maximumValue": 4294967295
     },
+    "id": "vendor_msft_firewall_mdmstore_publicprofile_logmaxfilesize",
+    "name": "LogMaxFileSize",
+    "helpText": "",
+    "version": "639094788176414916",
+    "description": "This value specifies the size, in kilobytes, of the log file where dropped packets and successful connections are logged. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured, otherwise the MdmStore value wins if it is configured, otherwise the local store value is used.",
+    "offsetUri": "/MdmStore/PublicProfile/LogMaxFileSize",
+    "riskLevel": "low",
     "dependentOn": [
       {
         "dependentOn": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
         "parentSettingId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall"
       }
     ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "name": "LogMaxFileSize",
-    "description": "This value specifies the size, in kilobytes, of the log file where dropped packets and successful connections are logged. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured, otherwise the MdmStore value wins if it is configured, otherwise the local store value is used.",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "riskLevel": "low"
+    "accessTypes": "get,replace"
   }
 ]
 ```

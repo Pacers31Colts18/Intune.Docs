@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 03/27/2026 05:15:05
+**Report Generated:** 03/28/2026 05:00:28
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "detectionScriptParameters": [],
-  "isGlobalScript": false,
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
-  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
   "deviceHealthScriptType": "deviceHealthScript",
-  "description": "ExtensionAttribute2: Organizational Unit of device",
-  "enforceSignatureCheck": false,
-  "remediationScriptContent": "",
-  "runAs32Bit": true,
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
+  "remediationScriptParameters": [],
+  "detectionScriptParameters": [],
   "roleScopeTagIds": [
     "0"
   ],
-  "remediationScriptParameters": [],
-  "runAsAccount": "system",
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "version": "3",
   "highestAvailableVersion": null,
-  "publisher": " Joe Loveless"
+  "runAs32Bit": true,
+  "runAsAccount": "system",
+  "publisher": " Joe Loveless",
+  "description": "ExtensionAttribute2: Organizational Unit of device",
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "version": "3",
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "remediationScriptContent": "",
+  "isGlobalScript": false,
+  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
+  "enforceSignatureCheck": false,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit"
 }
 ```
 

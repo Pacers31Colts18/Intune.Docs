@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_DomainName.md)
 
-**Report Generated:** 03/31/2026 05:17:54
+**Report Generated:** 04/01/2026 05:30:14
 
 ---
 
@@ -33,27 +33,27 @@ N/A
 
 ```json
 {
-  "highestAvailableVersion": null,
-  "runAs32Bit": true,
-  "detectionScriptParameters": [],
-  "isGlobalScript": false,
-  "remediationScriptContent": "",
-  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
-  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
-  "description": "Outputs the domain name to be used for Azure Automation.",
-  "publisher": " ",
   "deviceHealthScriptType": "deviceHealthScript",
-  "remediationScriptParameters": [],
-  "enforceSignatureCheck": false,
-  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
   "createdDateTime": "2025-04-04T00:37:33.6892117Z",
-  "runAsAccount": "system",
+  "remediationScriptContent": "",
+  "version": "1",
   "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z",
   "roleScopeTagIds": [
     "0"
   ],
-  "version": "1",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity"
+  "description": "Outputs the domain name to be used for Azure Automation.",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "runAsAccount": "system",
+  "runAs32Bit": true,
+  "detectionScriptParameters": [],
+  "enforceSignatureCheck": false,
+  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
+  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
+  "highestAvailableVersion": null,
+  "isGlobalScript": false,
+  "publisher": " ",
+  "remediationScriptParameters": [],
+  "displayName": "JoeLoveless - ExtensionAttributes - DomainName"
 }
 ```
 

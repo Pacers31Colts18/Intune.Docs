@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 04/01/2026 05:30:16
+**Report Generated:** 04/02/2026 05:09:56
 
 ---
 
 ```json
 {
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "enrollmentStatusScreenSettings": null,
+  "extractHardwareHash": true,
   "deviceNameTemplate": "JL-%SERIAL%",
-  "deviceType": "windowsPc",
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "description": "",
   "roleScopeTagIds": [
     "0"
   ],
-  "description": "",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "enrollmentStatusScreenSettings": null,
-  "managementServiceAppId": null,
-  "language": "os-default",
-  "outOfBoxExperienceSettings": {
-    "hidePrivacySettings": true,
-    "skipKeyboardSelectionPage": true,
-    "hideEscapeLink": true,
-    "userType": "standard",
-    "hideEULA": true,
-    "deviceUsageType": "singleUser"
+  "outOfBoxExperienceSetting": {
+    "eulaHidden": true,
+    "deviceUsageType": "singleUser",
+    "privacySettingsHidden": true,
+    "keyboardSelectionPageSkipped": true,
+    "escapeLinkHidden": true,
+    "userType": "standard"
   },
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
   "preprovisioningAllowed": false,
   "enableWhiteGlove": false,
-  "hardwareHashExtractionEnabled": true,
-  "outOfBoxExperienceSetting": {
-    "keyboardSelectionPageSkipped": true,
-    "privacySettingsHidden": true,
-    "eulaHidden": true,
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "language": "os-default",
+  "outOfBoxExperienceSettings": {
+    "hideEULA": true,
+    "hideEscapeLink": true,
+    "deviceUsageType": "singleUser",
+    "skipKeyboardSelectionPage": true,
     "userType": "standard",
-    "escapeLinkHidden": true,
-    "deviceUsageType": "singleUser"
+    "hidePrivacySettings": true
   },
-  "extractHardwareHash": true,
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "managementServiceAppId": null,
+  "deviceType": "windowsPc",
   "locale": "os-default",
-  "displayName": "JoeLoveless_Autopilot_UserDriven"
+  "hardwareHashExtractionEnabled": true
 }
 ```
 

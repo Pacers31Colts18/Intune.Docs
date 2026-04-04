@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 04/02/2026 05:09:55
+**Report Generated:** 04/04/2026 04:58:03
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "publisher": " Joe Loveless",
-  "detectionScriptParameters": [],
-  "enforceSignatureCheck": false,
-  "runAsAccount": "system",
-  "description": "ExtensionAttribute2: Organizational Unit of device",
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "deviceHealthScriptType": "deviceHealthScript",
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
-  "isGlobalScript": false,
-  "remediationScriptContent": "",
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
   "version": "3",
-  "runAs32Bit": true,
-  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
-  "remediationScriptParameters": [],
-  "highestAvailableVersion": null,
   "roleScopeTagIds": [
     "0"
-  ]
+  ],
+  "enforceSignatureCheck": false,
+  "runAsAccount": "system",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "description": "ExtensionAttribute2: Organizational Unit of device",
+  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
+  "isGlobalScript": false,
+  "runAs32Bit": true,
+  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
+  "remediationScriptParameters": [],
+  "publisher": " Joe Loveless",
+  "detectionScriptParameters": [],
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
+  "deviceHealthScriptType": "deviceHealthScript",
+  "highestAvailableVersion": null,
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "remediationScriptContent": ""
 }
 ```
 

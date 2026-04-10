@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_Google_Chrome.md)
 
-**Report Generated:** 04/09/2026 05:19:50
+**Report Generated:** 04/10/2026 05:31:17
 
 ---
 
@@ -25,16 +25,16 @@ Leaving the policy unset means users can't play the game on enrolled Google Chro
 
 ```json
 {
+  "dependedOnBy": [],
   "dependentOn": [],
   "description": null,
-  "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_1",
-  "helpText": null,
-  "dependedOnBy": [],
   "displayName": "Enabled",
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_1",
   "optionValue": {
-    "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
   "name": "Enabled"
 }
@@ -44,26 +44,60 @@ Leaving the policy unset means users can't play the game on enrolled Google Chro
 ```json
 {
   "applicability": {
-    "windowsSkus": [],
-    "technologies": "mdm",
-    "maximumSupportedVersion": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "description": null,
-    "deviceMode": "none",
     "configurationServiceProviderVersion": "5.0",
-    "platform": "windows10",
     "requiresAzureAd": false,
+    "description": null,
     "minimumSupportedVersion": null,
-    "requiredAzureAdTrustType": "none"
+    "platform": "windows10",
+    "maximumSupportedVersion": null,
+    "requiredAzureAdTrustType": "none",
+    "windowsSkus": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+    "technologies": "mdm",
+    "deviceMode": "none"
   },
-  "name": "AllowDinosaurEasterEgg",
-  "version": "639094788176414916",
-  "helpText": "",
+  "settingUsage": "configuration",
+  "categoryId": "36c83fb3-c18c-472b-b39e-617c2f8a7fbd",
+  "displayName": "Allow Dinosaur Easter Egg Game",
+  "referredSettingInformationList": [],
+  "id": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg",
+  "occurrence": {
+    "maxDeviceOccurrence": 1,
+    "minDeviceOccurrence": 1
+  },
+  "visibility": "settingsCatalog,template",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
   "baseUri": "./Device/Vendor/MSFT/Policy",
-  "accessTypes": "none",
-  "infoUrls": [],
-  "uxBehavior": "toggle",
-  "rootDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg",
+  "options": [
+    {
+      "dependedOnBy": [],
+      "dependentOn": [],
+      "description": null,
+      "displayName": "Disabled",
+      "helpText": null,
+      "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_0",
+      "optionValue": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null,
+        "value": 0
+      },
+      "name": "Disabled"
+    },
+    {
+      "dependedOnBy": [],
+      "dependentOn": [],
+      "description": null,
+      "displayName": "Enabled",
+      "helpText": null,
+      "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_1",
+      "optionValue": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null,
+        "value": 1
+      },
+      "name": "Enabled"
+    }
+  ],
   "keywords": [
     "AllowDinosaurEasterEgg",
     "Allow Dinosaur Easter Egg Game",
@@ -73,51 +107,17 @@ Leaving the policy unset means users can't play the game on enrolled Google Chro
     "Both",
     "Software\\Policies\\Google\\Chrome"
   ],
+  "riskLevel": "low",
+  "rootDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg",
+  "accessTypes": "none",
   "description": "Setting the policy to True allows users to play the dinosaur game. Setting the policy to False means users can't play the dinosaur easter egg game when device is offline.\r\n\r\nLeaving the policy unset means users can't play the game on enrolled Google Chrome OS, but can under other circumstances.",
-  "id": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg",
+  "infoUrls": [],
+  "name": "AllowDinosaurEasterEgg",
   "defaultOptionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_0",
-  "displayName": "Allow Dinosaur Easter Egg Game",
-  "visibility": "settingsCatalog,template",
-  "referredSettingInformationList": [],
+  "helpText": "",
+  "uxBehavior": "toggle",
   "offsetUri": "/Config/chromeIntuneV1~Policy~googlechrome/AllowDinosaurEasterEgg",
-  "categoryId": "36c83fb3-c18c-472b-b39e-617c2f8a7fbd",
-  "options": [
-    {
-      "dependentOn": [],
-      "description": null,
-      "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_0",
-      "helpText": null,
-      "dependedOnBy": [],
-      "displayName": "Disabled",
-      "optionValue": {
-        "value": 0,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "settingValueTemplateReference": null
-      },
-      "name": "Disabled"
-    },
-    {
-      "dependentOn": [],
-      "description": null,
-      "itemId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdinosaureasteregg_1",
-      "helpText": null,
-      "dependedOnBy": [],
-      "displayName": "Enabled",
-      "optionValue": {
-        "value": 1,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "settingValueTemplateReference": null
-      },
-      "name": "Enabled"
-    }
-  ],
-  "occurrence": {
-    "maxDeviceOccurrence": 1,
-    "minDeviceOccurrence": 1
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-  "settingUsage": "configuration",
-  "riskLevel": "low"
+  "version": "639094788176414916"
 }
 ```
 

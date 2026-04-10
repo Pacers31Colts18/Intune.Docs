@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 04/09/2026 05:20:01
+**Report Generated:** 04/10/2026 05:31:26
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "remediationScriptContent": "",
+  "detectionScriptParameters": [],
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
   "roleScopeTagIds": [
     "0"
   ],
-  "remediationScriptParameters": [],
-  "publisher": " Joe Loveless",
+  "version": "3",
   "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "highestAvailableVersion": null,
-  "runAsAccount": "system",
-  "detectionScriptParameters": [],
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
   "isGlobalScript": false,
   "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "runAsAccount": "system",
+  "publisher": " Joe Loveless",
+  "remediationScriptContent": "",
   "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "runAs32Bit": true,
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "version": "3",
   "enforceSignatureCheck": false,
+  "runAs32Bit": true,
+  "description": "ExtensionAttribute2: Organizational Unit of device",
+  "highestAvailableVersion": null,
   "deviceHealthScriptType": "deviceHealthScript",
-  "description": "ExtensionAttribute2: Organizational Unit of device"
+  "remediationScriptParameters": []
 }
 ```
 

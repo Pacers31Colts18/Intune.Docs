@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 04/12/2026 05:29:45
+**Report Generated:** 04/13/2026 05:47:54
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "enforceSignatureCheck": false,
-  "highestAvailableVersion": null,
-  "version": "3",
-  "runAs32Bit": true,
-  "deviceHealthScriptType": "deviceHealthScript",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "remediationScriptContent": "",
-  "detectionScriptParameters": [],
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "remediationScriptParameters": [],
-  "runAsAccount": "system",
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
-  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
   "roleScopeTagIds": [
     "0"
   ],
-  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "description": "ExtensionAttribute2: Organizational Unit of device",
   "publisher": " Joe Loveless",
-  "isGlobalScript": false
+  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "version": "3",
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
+  "detectionScriptParameters": [],
+  "runAs32Bit": true,
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "runAsAccount": "system",
+  "remediationScriptContent": "",
+  "isGlobalScript": false,
+  "remediationScriptParameters": [],
+  "highestAvailableVersion": null,
+  "description": "ExtensionAttribute2: Organizational Unit of device",
+  "deviceHealthScriptType": "deviceHealthScript",
+  "enforceSignatureCheck": false
 }
 ```
 

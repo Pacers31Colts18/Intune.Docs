@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 04/13/2026 05:47:55
+**Report Generated:** 04/14/2026 05:30:36
 
 ---
 
 ```json
 {
-  "roleScopeTagIds": [
-    "0"
-  ],
-  "hardwareHashExtractionEnabled": true,
-  "managementServiceAppId": null,
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
-  "language": "os-default",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
   "description": "",
-  "deviceNameTemplate": "JL-%SERIAL%",
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "deviceType": "windowsPc",
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "preprovisioningAllowed": false,
-  "outOfBoxExperienceSettings": {
-    "hideEULA": true,
-    "deviceUsageType": "singleUser",
-    "userType": "standard",
-    "skipKeyboardSelectionPage": true,
-    "hideEscapeLink": true,
-    "hidePrivacySettings": true
-  },
-  "enableWhiteGlove": false,
-  "extractHardwareHash": true,
-  "enrollmentStatusScreenSettings": null,
   "outOfBoxExperienceSetting": {
-    "keyboardSelectionPageSkipped": true,
-    "privacySettingsHidden": true,
     "eulaHidden": true,
     "escapeLinkHidden": true,
     "userType": "standard",
+    "privacySettingsHidden": true,
+    "deviceUsageType": "singleUser",
+    "keyboardSelectionPageSkipped": true
+  },
+  "managementServiceAppId": null,
+  "language": "os-default",
+  "locale": "os-default",
+  "deviceType": "windowsPc",
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "preprovisioningAllowed": false,
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "hardwareHashExtractionEnabled": true,
+  "enableWhiteGlove": false,
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "enrollmentStatusScreenSettings": null,
+  "outOfBoxExperienceSettings": {
+    "userType": "standard",
+    "skipKeyboardSelectionPage": true,
+    "hideEULA": true,
+    "hidePrivacySettings": true,
+    "hideEscapeLink": true,
     "deviceUsageType": "singleUser"
   },
-  "locale": "os-default"
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "deviceNameTemplate": "JL-%SERIAL%",
+  "extractHardwareHash": true
 }
 ```
 

@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/ALL_WIN_D_Compliance_DeviceHealth_DEV.md)
 
-**Report Generated:** 04/14/2026 05:30:36
+**Report Generated:** 04/15/2026 05:30:57
 
 ---
 
@@ -31,11 +31,11 @@
 ```json
 {
   "SyncRoot": {
-    "gracePeriodHours": 0,
-    "id": "8e49bbf0-e976-4aa9-a53b-0510c131678f",
-    "actionType": "block",
     "notificationMessageCCList": [],
-    "notificationTemplateId": "00000000-0000-0000-0000-000000000000"
+    "notificationTemplateId": "00000000-0000-0000-0000-000000000000",
+    "actionType": "block",
+    "id": "8e49bbf0-e976-4aa9-a53b-0510c131678f",
+    "gracePeriodHours": 0
   }
 }
 ```

@@ -2,7 +2,7 @@
 
 **Policy ID:** 3c216969-2cef-443d-ab7f-3433e3f7268e
 
-**Report Generated:** 04/15/2026 05:31:14
+**Report Generated:** 04/16/2026 05:36:50
 
 ---
 
@@ -16,8 +16,8 @@
 {
   "target": {
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
-    "deviceAndAppManagementAssignmentFilterType": "none",
-    "deviceAndAppManagementAssignmentFilterId": "00000000-0000-0000-0000-000000000000"
+    "deviceAndAppManagementAssignmentFilterId": "00000000-0000-0000-0000-000000000000",
+    "deviceAndAppManagementAssignmentFilterType": "none"
   },
   "runRemediationScript": false,
   "id": "3c216969-2cef-443d-ab7f-3433e3f7268e:adadadad-808e-44e2-905a-0b7873a8a531",

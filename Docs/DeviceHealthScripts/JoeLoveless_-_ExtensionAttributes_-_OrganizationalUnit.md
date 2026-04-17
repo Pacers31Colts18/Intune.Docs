@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 04/16/2026 05:36:27
+**Report Generated:** 04/17/2026 05:34:42
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "remediationScriptContent": "",
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "publisher": " Joe Loveless",
+  "runAsAccount": "system",
   "remediationScriptParameters": [],
-  "enforceSignatureCheck": false,
-  "description": "ExtensionAttribute2: Organizational Unit of device",
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "runAs32Bit": true,
   "roleScopeTagIds": [
     "0"
   ],
-  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
+  "remediationScriptContent": "",
   "detectionScriptParameters": [],
-  "highestAvailableVersion": null,
-  "runAsAccount": "system",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "enforceSignatureCheck": false,
+  "isGlobalScript": false,
   "deviceHealthScriptType": "deviceHealthScript",
-  "version": "3",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
+  "description": "ExtensionAttribute2: Organizational Unit of device",
   "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
-  "publisher": " Joe Loveless",
-  "isGlobalScript": false
+  "runAs32Bit": true,
+  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
+  "highestAvailableVersion": null,
+  "version": "3"
 }
 ```
 

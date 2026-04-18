@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 04/17/2026 05:34:44
+**Report Generated:** 04/18/2026 05:14:10
 
 ---
 
 ```json
 {
-  "enrollmentStatusScreenSettings": null,
-  "outOfBoxExperienceSetting": {
-    "deviceUsageType": "singleUser",
-    "keyboardSelectionPageSkipped": true,
-    "escapeLinkHidden": true,
-    "userType": "standard",
-    "eulaHidden": true,
-    "privacySettingsHidden": true
-  },
-  "extractHardwareHash": true,
-  "enableWhiteGlove": false,
   "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "outOfBoxExperienceSettings": {
+    "userType": "standard",
+    "hidePrivacySettings": true,
+    "hideEscapeLink": true,
+    "deviceUsageType": "singleUser",
+    "hideEULA": true,
+    "skipKeyboardSelectionPage": true
+  },
+  "description": "",
   "deviceNameTemplate": "JL-%SERIAL%",
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "locale": "os-default",
+  "hardwareHashExtractionEnabled": true,
+  "deviceType": "windowsPc",
   "roleScopeTagIds": [
     "0"
   ],
-  "hardwareHashExtractionEnabled": true,
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "preprovisioningAllowed": false,
   "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "managementServiceAppId": null,
-  "locale": "os-default",
-  "description": "",
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "enrollmentStatusScreenSettings": null,
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
   "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "deviceType": "windowsPc",
+  "managementServiceAppId": null,
+  "preprovisioningAllowed": false,
   "language": "os-default",
-  "outOfBoxExperienceSettings": {
+  "extractHardwareHash": true,
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "outOfBoxExperienceSetting": {
+    "eulaHidden": true,
+    "userType": "standard",
     "deviceUsageType": "singleUser",
-    "skipKeyboardSelectionPage": true,
-    "hideEULA": true,
-    "hideEscapeLink": true,
-    "hidePrivacySettings": true,
-    "userType": "standard"
-  }
+    "keyboardSelectionPageSkipped": true,
+    "privacySettingsHidden": true,
+    "escapeLinkHidden": true
+  },
+  "enableWhiteGlove": false
 }
 ```
 

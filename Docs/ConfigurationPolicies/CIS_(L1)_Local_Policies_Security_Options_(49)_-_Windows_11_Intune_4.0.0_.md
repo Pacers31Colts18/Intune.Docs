@@ -43,7 +43,7 @@
 
 [**Assignments**](./Assignments/CIS_(L1)_Local_Policies_Security_Options_(49)_-_Windows_11_Intune_4.0.0_.md)
 
-**Report Generated:** 04/27/2026 06:07:34
+**Report Generated:** 04/28/2026 06:11:46
 
 ---
 
@@ -58,18 +58,18 @@
 
 ```json
 {
-  "displayName": "Disable",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableguestaccountstatus_0",
-  "dependentOn": [],
   "name": "Disable",
-  "helpText": null,
+  "description": "Disable",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 0,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 0
   },
-  "description": "Disable"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableguestaccountstatus_0",
+  "displayName": "Disable",
+  "dependedOnBy": []
 }
 ```
 
@@ -83,18 +83,18 @@
 
 ```json
 {
-  "displayName": "Enabled",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly_1",
-  "dependentOn": [],
   "name": "Enabled",
-  "helpText": null,
+  "description": "Enabled",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enabled"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly_1",
+  "displayName": "Enabled",
+  "dependedOnBy": []
 }
 ```
 
@@ -109,8 +109,8 @@
 ```json
 {
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "Admin",
-  "settingValueTemplateReference": null
+  "settingValueTemplateReference": null,
+  "value": "Admin"
 }
 ```
 
@@ -125,8 +125,8 @@
 ```json
 {
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "Gtest",
-  "settingValueTemplateReference": null
+  "settingValueTemplateReference": null,
+  "value": "Gtest"
 }
 ```
 
@@ -140,18 +140,18 @@
 
 ```json
 {
-  "displayName": "Enabled (username will not be shown)",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin_1",
-  "dependentOn": [],
   "name": "Enabled (username will not be shown)",
-  "helpText": null,
+  "description": "Enabled (username will not be shown)",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enabled (username will not be shown)"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin_1",
+  "displayName": "Enabled (username will not be shown)",
+  "dependedOnBy": []
 }
 ```
 
@@ -165,18 +165,18 @@
 
 ```json
 {
-  "displayName": "Disabled",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_0",
-  "dependentOn": [],
   "name": "Disabled",
-  "helpText": null,
+  "description": "Disabled",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 0,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 0
   },
-  "description": "Disabled"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_0",
+  "displayName": "Disabled",
+  "dependedOnBy": []
 }
 ```
 
@@ -191,8 +191,8 @@
 ```json
 {
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-  "value": 900,
-  "settingValueTemplateReference": null
+  "settingValueTemplateReference": null,
+  "value": 900
 }
 ```
 
@@ -206,18 +206,18 @@
 
 ```json
 {
-  "displayName": "Lock Workstation",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior_1",
-  "dependentOn": [],
   "name": "Lock Workstation",
-  "helpText": null,
+  "description": "Lock Workstation",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-    "value": "1",
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": "1"
   },
-  "description": "Lock Workstation"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior_1",
+  "displayName": "Lock Workstation",
+  "dependedOnBy": []
 }
 ```
 
@@ -231,18 +231,18 @@
 
 ```json
 {
-  "displayName": "Enable",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsalways_1",
-  "dependentOn": [],
   "name": "Enable",
-  "helpText": null,
+  "description": "Enable",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enable"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsalways_1",
+  "displayName": "Enable",
+  "dependedOnBy": []
 }
 ```
 
@@ -256,18 +256,18 @@
 
 ```json
 {
-  "displayName": "Enable",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsifserveragrees_1",
-  "dependentOn": [],
   "name": "Enable",
-  "helpText": null,
+  "description": "Enable",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enable"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsifserveragrees_1",
+  "displayName": "Enable",
+  "dependedOnBy": []
 }
 ```
 
@@ -281,18 +281,18 @@
 
 ```json
 {
-  "displayName": "Disable",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers_0",
-  "dependentOn": [],
   "name": "Disable",
-  "helpText": null,
+  "description": "Disable",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 0,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 0
   },
-  "description": "Disable"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers_0",
+  "displayName": "Disable",
+  "dependedOnBy": []
 }
 ```
 
@@ -306,18 +306,18 @@
 
 ```json
 {
-  "displayName": "Enable",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsalways_1",
-  "dependentOn": [],
   "name": "Enable",
-  "helpText": null,
+  "description": "Enable",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enable"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsalways_1",
+  "displayName": "Enable",
+  "dependedOnBy": []
 }
 ```
 
@@ -331,18 +331,18 @@
 
 ```json
 {
-  "displayName": "Enable",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsifclientagrees_1",
-  "dependentOn": [],
   "name": "Enable",
-  "helpText": null,
+  "description": "Enable",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enable"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsifclientagrees_1",
+  "displayName": "Enable",
+  "dependedOnBy": []
 }
 ```
 
@@ -356,18 +356,18 @@
 
 ```json
 {
-  "displayName": "Enabled",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccounts_1",
-  "dependentOn": [],
   "name": "Enabled",
-  "helpText": null,
+  "description": "Enabled",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enabled"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccounts_1",
+  "displayName": "Enabled",
+  "dependedOnBy": []
 }
 ```
 
@@ -381,18 +381,18 @@
 
 ```json
 {
-  "displayName": "Enabled",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccountsandshares_1",
-  "dependentOn": [],
   "name": "Enabled",
-  "helpText": null,
+  "description": "Enabled",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enabled"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccountsandshares_1",
+  "displayName": "Enabled",
+  "dependedOnBy": []
 }
 ```
 
@@ -406,18 +406,18 @@
 
 ```json
 {
-  "displayName": "Enable",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictanonymousaccesstonamedpipesandshares_1",
-  "dependentOn": [],
   "name": "Enable",
-  "helpText": null,
+  "description": "Enable",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enable"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictanonymousaccesstonamedpipesandshares_1",
+  "displayName": "Enable",
+  "dependedOnBy": []
 }
 ```
 
@@ -432,8 +432,8 @@
 ```json
 {
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-  "value": "O:BAG:BAD:(A;;RC;;;BA)",
-  "settingValueTemplateReference": null
+  "settingValueTemplateReference": null,
+  "value": "O:BAG:BAD:(A;;RC;;;BA)"
 }
 ```
 
@@ -447,18 +447,18 @@
 
 ```json
 {
-  "displayName": "Allow",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowlocalsystemtousecomputeridentityforntlm_1",
-  "dependentOn": [],
   "name": "Allow",
-  "helpText": null,
+  "description": "Allow",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Allow"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowlocalsystemtousecomputeridentityforntlm_1",
+  "displayName": "Allow",
+  "dependedOnBy": []
 }
 ```
 
@@ -472,18 +472,18 @@
 
 ```json
 {
-  "displayName": "Block",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowpku2uauthenticationrequests_0",
-  "dependentOn": [],
   "name": "Block",
-  "helpText": null,
+  "description": "Block",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 0,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 0
   },
-  "description": "Block"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowpku2uauthenticationrequests_0",
+  "displayName": "Block",
+  "dependedOnBy": []
 }
 ```
 
@@ -497,18 +497,18 @@
 
 ```json
 {
-  "displayName": "Enable",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange_1",
-  "dependentOn": [],
   "name": "Enable",
-  "helpText": null,
+  "description": "Enable",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enable"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange_1",
+  "displayName": "Enable",
+  "dependedOnBy": []
 }
 ```
 
@@ -522,18 +522,18 @@
 
 ```json
 {
-  "displayName": "Send NTLMv2 responses only. Refuse LM and NTLM",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_5",
-  "dependentOn": [],
   "name": "Send NTLMv2 responses only. Refuse LM and NTLM",
-  "helpText": null,
+  "description": "Send NTLMv2 responses only. Refuse LM and NTLM",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 5,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 5
   },
-  "description": "Send NTLMv2 responses only. Refuse LM and NTLM"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_5",
+  "displayName": "Send NTLMv2 responses only. Refuse LM and NTLM",
+  "dependedOnBy": []
 }
 ```
 
@@ -547,18 +547,18 @@
 
 ```json
 {
-  "displayName": "Require NTLM and 128-bit encryption",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients_537395200",
-  "dependentOn": [],
   "name": "Require NTLM and 128-bit encryption",
-  "helpText": null,
+  "description": "Require NTLM and 128-bit encryption",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 537395200,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 537395200
   },
-  "description": "Require NTLM and 128-bit encryption"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients_537395200",
+  "displayName": "Require NTLM and 128-bit encryption",
+  "dependedOnBy": []
 }
 ```
 
@@ -572,18 +572,18 @@
 
 ```json
 {
-  "displayName": "Require NTLM and 128-bit encryption",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers_537395200",
-  "dependentOn": [],
   "name": "Require NTLM and 128-bit encryption",
-  "helpText": null,
+  "description": "Require NTLM and 128-bit encryption",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 537395200,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 537395200
   },
-  "description": "Require NTLM and 128-bit encryption"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers_537395200",
+  "displayName": "Require NTLM and 128-bit encryption",
+  "dependedOnBy": []
 }
 ```
 
@@ -597,18 +597,18 @@
 
 ```json
 {
-  "displayName": "Enable auditing for all accounts",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_auditincomingntlmtraffic_2",
-  "dependentOn": [],
   "name": "Enable auditing for all accounts",
-  "helpText": null,
+  "description": "Enable auditing for all accounts",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 2,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 2
   },
-  "description": "Enable auditing for all accounts"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_auditincomingntlmtraffic_2",
+  "displayName": "Enable auditing for all accounts",
+  "dependedOnBy": []
 }
 ```
 
@@ -622,18 +622,18 @@
 
 ```json
 {
-  "displayName": "Automatically deny elevation requests",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers_0",
-  "dependentOn": [],
   "name": "Automatically deny elevation requests",
-  "helpText": null,
+  "description": "Automatically deny elevation requests",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 0,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 0
   },
-  "description": "Automatically deny elevation requests"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers_0",
+  "displayName": "Automatically deny elevation requests",
+  "dependedOnBy": []
 }
 ```
 
@@ -647,18 +647,18 @@
 
 ```json
 {
-  "displayName": "Enable",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_detectapplicationinstallationsandpromptforelevation_1",
-  "dependentOn": [],
   "name": "Enable",
-  "helpText": null,
+  "description": "Enable",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enable"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_detectapplicationinstallationsandpromptforelevation_1",
+  "displayName": "Enable",
+  "dependedOnBy": []
 }
 ```
 
@@ -672,18 +672,18 @@
 
 ```json
 {
-  "displayName": "Enabled: Application runs with UIAccess integrity only if it resides in secure location.",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations_1",
-  "dependentOn": [],
   "name": "Enabled: Application runs with UIAccess integrity only if it resides in secure location.",
-  "helpText": null,
+  "description": "Enabled: Application runs with UIAccess integrity only if it resides in secure location.",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enabled: Application runs with UIAccess integrity only if it resides in secure location."
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations_1",
+  "displayName": "Enabled: Application runs with UIAccess integrity only if it resides in secure location.",
+  "dependedOnBy": []
 }
 ```
 
@@ -697,18 +697,18 @@
 
 ```json
 {
-  "displayName": "Enabled",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_runalladministratorsinadminapprovalmode_1",
-  "dependentOn": [],
   "name": "Enabled",
-  "helpText": null,
+  "description": "Enabled",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enabled"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_runalladministratorsinadminapprovalmode_1",
+  "displayName": "Enabled",
+  "dependedOnBy": []
 }
 ```
 
@@ -722,18 +722,18 @@
 
 ```json
 {
-  "displayName": "Enabled",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation_1",
-  "dependentOn": [],
   "name": "Enabled",
-  "helpText": null,
+  "description": "Enabled",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enabled"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation_1",
+  "displayName": "Enabled",
+  "dependedOnBy": []
 }
 ```
 
@@ -747,18 +747,18 @@
 
 ```json
 {
-  "displayName": "Enable",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_useadminapprovalmode_1",
-  "dependentOn": [],
   "name": "Enable",
-  "helpText": null,
+  "description": "Enable",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enable"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_useadminapprovalmode_1",
+  "displayName": "Enable",
+  "dependedOnBy": []
 }
 ```
 
@@ -772,18 +772,18 @@
 
 ```json
 {
-  "displayName": "Enabled",
-  "dependedOnBy": [],
-  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations_1",
-  "dependentOn": [],
   "name": "Enabled",
-  "helpText": null,
+  "description": "Enabled",
+  "dependentOn": [],
   "optionValue": {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1,
-    "settingValueTemplateReference": null
+    "settingValueTemplateReference": null,
+    "value": 1
   },
-  "description": "Enabled"
+  "helpText": null,
+  "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations_1",
+  "displayName": "Enabled",
+  "dependedOnBy": []
 }
 ```
 
@@ -791,91 +791,64 @@
 ```json
 [
   {
-    "applicability": {
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "description": null,
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
-      "deviceMode": "none",
-      "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
-      "platform": "windows10",
-      "maximumSupportedVersion": null,
-      "requiresAzureAd": false
-    },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/Accounts_EnableGuestAccountStatus",
-    "name": "Accounts_EnableGuestAccountStatus",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Enable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableguestaccountstatus_1",
-        "dependentOn": [],
-        "name": "Enable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enable"
-      },
-      {
-        "displayName": "Disable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableguestaccountstatus_0",
-        "dependentOn": [],
-        "name": "Disable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disable"
-      }
-    ],
-    "displayName": "Accounts Enable Guest Account Status",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableguestaccountstatus",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableguestaccountstatus_0",
-    "riskLevel": "low",
     "description": "This security setting determines if the Guest account is enabled or disabled.  Default: Disabled.  Note: If the Guest account is disabled and the security option Network Access: Sharing and Security Model for local accounts is set to Guest Only, network logons, such as those performed by the Microsoft Network Server (SMB Service), will fail.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#accounts_enableguestaccountstatus"
+    ],
     "keywords": [
       "Accounts Enable Guest Account Status",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableguestaccountstatus",
+    "displayName": "Accounts Enable Guest Account Status",
+    "options": [
+      {
+        "name": "Enable",
+        "description": "Enable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableguestaccountstatus_1",
+        "displayName": "Enable",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Disable",
+        "description": "Disable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableguestaccountstatus_0",
+        "displayName": "Disable",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/Accounts_EnableGuestAccountStatus",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableguestaccountstatus",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableguestaccountstatus",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_enableguestaccountstatus_0",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#accounts_enableguestaccountstatus"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -887,79 +860,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/Accounts_LimitLocalAccountUseOfBlankPasswordsToConsoleLogonOnly",
-    "name": "Accounts_LimitLocalAccountUseOfBlankPasswordsToConsoleLogonOnly",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Disabled",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly_0",
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disabled"
-      },
-      {
-        "displayName": "Enabled",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly_1",
-        "dependentOn": [],
-        "name": "Enabled",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enabled"
-      }
-    ],
-    "displayName": "Accounts Limit Local Account Use Of Blank Passwords To Console Logon Only",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly_1",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "Accounts_EnableGuestAccountStatus"
+  },
+  {
     "description": "Accounts: Limit local account use of blank passwords to console logon only  This security setting determines whether local accounts that are not password protected can be used to log on from locations other than the physical computer console. If enabled, local accounts that are not password protected will only be able to log on at the computer's keyboard.  Default: Enabled.   Warning:  Computers that are not in physically secure locations should always enforce strong password policies for all local user accounts. Otherwise, anyone with physical access to the computer can log on by using a user account that does not have a password. This is especially important for portable computers. If you apply this security policy to the Everyone group, no one will be able to log on through Remote Desktop Services.  Notes  This setting does not affect logons that use domain accounts. It is possible for applications that use remote interactive logons to bypass this setting.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly"
+    ],
     "keywords": [
       "Accounts Limit Local Account Use Of Blank Passwords To Console Logon Only",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly",
+    "displayName": "Accounts Limit Local Account Use Of Blank Passwords To Console Logon Only",
+    "options": [
+      {
+        "name": "Disabled",
+        "description": "Disabled",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly_0",
+        "displayName": "Disabled",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Enabled",
+        "description": "Enabled",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly_1",
+        "displayName": "Enabled",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/Accounts_LimitLocalAccountUseOfBlankPasswordsToConsoleLogonOnly",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly_1",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#accounts_limitlocalaccountuseofblankpasswordstoconsolelogononly"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -971,64 +944,64 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/Accounts_RenameAdministratorAccount",
-    "name": "Accounts_RenameAdministratorAccount",
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "format": "none",
-      "maximumLength": 87516,
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "isSecret": false,
-      "fileTypes": []
-    },
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": "Administrator",
-      "settingValueTemplateReference": null
-    },
-    "displayName": "Accounts Rename Administrator Account",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_renameadministratoraccount",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "Accounts_LimitLocalAccountUseOfBlankPasswordsToConsoleLogonOnly"
+  },
+  {
+    "dependedOnBy": [],
     "description": "Accounts: Rename administrator account  This security setting determines whether a different account name is associated with the security identifier (SID) for the account Administrator. Renaming the well-known Administrator account makes it slightly more difficult for unauthorized persons to guess this privileged user name and password combination.  Default: Administrator.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#accounts_renameadministratoraccount"
+    ],
     "keywords": [
       "Accounts Rename Administrator Account",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_renameadministratoraccount",
+    "displayName": "Accounts Rename Administrator Account",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "settingValueTemplateReference": null,
+      "value": "Administrator"
+    },
+    "dependentOn": [],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/Accounts_RenameAdministratorAccount",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "default",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_renameadministratoraccount",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "minimumLength": 0,
+      "fileTypes": [],
+      "maximumLength": 87516,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+      "format": "none",
+      "isSecret": false
+    },
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_renameadministratoraccount",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#accounts_renameadministratoraccount"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependentOn": [],
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1040,64 +1013,64 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/Accounts_RenameGuestAccount",
-    "name": "Accounts_RenameGuestAccount",
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "format": "none",
-      "maximumLength": 87516,
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "isSecret": false,
-      "fileTypes": []
-    },
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": "Guest",
-      "settingValueTemplateReference": null
-    },
-    "displayName": "Accounts Rename Guest Account",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_renameguestaccount",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "Accounts_RenameAdministratorAccount"
+  },
+  {
+    "dependedOnBy": [],
     "description": "Accounts: Rename guest account  This security setting determines whether a different account name is associated with the security identifier (SID) for the account \"Guest.\" Renaming the well-known Guest account makes it slightly more difficult for unauthorized persons to guess this user name and password combination.  Default: Guest.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#accounts_renameguestaccount"
+    ],
     "keywords": [
       "Accounts Rename Guest Account",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_renameguestaccount",
+    "displayName": "Accounts Rename Guest Account",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "settingValueTemplateReference": null,
+      "value": "Guest"
+    },
+    "dependentOn": [],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/Accounts_RenameGuestAccount",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "default",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_renameguestaccount",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "minimumLength": 0,
+      "fileTypes": [],
+      "maximumLength": 87516,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+      "format": "none",
+      "isSecret": false
+    },
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_accounts_renameguestaccount",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#accounts_renameguestaccount"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependentOn": [],
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1109,79 +1082,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_DoNotDisplayLastSignedIn",
-    "name": "InteractiveLogon_DoNotDisplayLastSignedIn",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Disabled (username will be shown)",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin_0",
-        "dependentOn": [],
-        "name": "Disabled (username will be shown)",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disabled (username will be shown)"
-      },
-      {
-        "displayName": "Enabled (username will not be shown)",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin_1",
-        "dependentOn": [],
-        "name": "Enabled (username will not be shown)",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enabled (username will not be shown)"
-      }
-    ],
-    "displayName": "Interactive Logon Do Not Display Last Signed In",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin_0",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "Accounts_RenameGuestAccount"
+  },
+  {
     "description": "Interactive logon: Don't display last signed-in This security setting determines whether the Windows sign-in screen will show the username of the last person who signed in on this PC. If this policy is enabled, the username will not be shown.  If this policy is disabled, the username will be shown.  Default: Disabled.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_donotdisplaylastsignedin"
+    ],
     "keywords": [
       "Interactive Logon Do Not Display Last Signed In",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin",
+    "displayName": "Interactive Logon Do Not Display Last Signed In",
+    "options": [
+      {
+        "name": "Disabled (username will be shown)",
+        "description": "Disabled (username will be shown)",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin_0",
+        "displayName": "Disabled (username will be shown)",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Enabled (username will not be shown)",
+        "description": "Enabled (username will not be shown)",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin_1",
+        "displayName": "Enabled (username will not be shown)",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_DoNotDisplayLastSignedIn",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotdisplaylastsignedin_0",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_donotdisplaylastsignedin"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1193,79 +1166,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_DoNotRequireCTRLALTDEL",
-    "name": "InteractiveLogon_DoNotRequireCTRLALTDEL",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Disabled",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_0",
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disabled"
-      },
-      {
-        "displayName": "Enabled (a user is not required to press CTRL+ALT+DEL to log on)",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_1",
-        "dependentOn": [],
-        "name": "Enabled (a user is not required to press CTRL+ALT+DEL to log on)",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enabled (a user is not required to press CTRL+ALT+DEL to log on)"
-      }
-    ],
-    "displayName": "Interactive Logon Do Not Require CTRLALTDEL",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_1",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "InteractiveLogon_DoNotDisplayLastSignedIn"
+  },
+  {
     "description": "Interactive logon: Do not require CTRL+ALT+DEL  This security setting determines whether pressing CTRL+ALT+DEL is required before a user can log on.  If this policy is enabled on a computer, a user is not required to press CTRL+ALT+DEL to log on. Not having to press CTRL+ALT+DEL leaves users susceptible to attacks that attempt to intercept the users' passwords. Requiring CTRL+ALT+DEL before users log on ensures that users are communicating by means of a trusted path when entering their passwords.  If this policy is disabled, any user is required to press CTRL+ALT+DEL before logging on to Windows.  Default on domain-computers: Enabled: At least Windows  8/Disabled: Windows 7 or earlier. Default on stand-alone computers: Enabled.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_donotrequirectrlaltdel"
+    ],
     "keywords": [
       "Interactive Logon Do Not Require CTRLALTDEL",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel",
+    "displayName": "Interactive Logon Do Not Require CTRLALTDEL",
+    "options": [
+      {
+        "name": "Disabled",
+        "description": "Disabled",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_0",
+        "displayName": "Disabled",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Enabled (a user is not required to press CTRL+ALT+DEL to log on)",
+        "description": "Enabled (a user is not required to press CTRL+ALT+DEL to log on)",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_1",
+        "displayName": "Enabled (a user is not required to press CTRL+ALT+DEL to log on)",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_DoNotRequireCTRLALTDEL",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_donotrequirectrlaltdel_1",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_donotrequirectrlaltdel"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1277,60 +1250,60 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MachineInactivityLimit",
-    "name": "InteractiveLogon_MachineInactivityLimit",
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "maximumValue": 599940,
-      "minimumValue": 0
-    },
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "value": 0,
-      "settingValueTemplateReference": null
-    },
-    "displayName": "Interactive Logon Machine Inactivity Limit",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_machineinactivitylimit_v2",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "InteractiveLogon_DoNotRequireCTRLALTDEL"
+  },
+  {
+    "dependedOnBy": [],
     "description": "Interactive logon: Machine inactivity limit.  Windows notices inactivity of a logon session, and if the amount of inactive time exceeds the inactivity limit, then the screen saver will run, locking the session.  Default: not enforced.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_machineinactivitylimit"
+    ],
     "keywords": [
       "Interactive Logon Machine Inactivity Limit",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_machineinactivitylimit_v2",
+    "displayName": "Interactive Logon Machine Inactivity Limit",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 0
+    },
+    "dependentOn": [],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MachineInactivityLimit",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "default",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_machineinactivitylimit_v2",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "minimumValue": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 599940
+    },
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_machineinactivitylimit_v2",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_machineinactivitylimit"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependentOn": [],
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1342,107 +1315,107 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "7.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_SmartCardRemovalBehavior",
-    "name": "InteractiveLogon_SmartCardRemovalBehavior",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "No Action",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior_0",
-        "dependentOn": [],
-        "name": "No Action",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "0",
-          "settingValueTemplateReference": null
-        },
-        "description": "No Action"
-      },
-      {
-        "displayName": "Lock Workstation",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior_1",
-        "dependentOn": [],
-        "name": "Lock Workstation",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "1",
-          "settingValueTemplateReference": null
-        },
-        "description": "Lock Workstation"
-      },
-      {
-        "displayName": "Force Logoff",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior_2",
-        "dependentOn": [],
-        "name": "Force Logoff",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "2",
-          "settingValueTemplateReference": null
-        },
-        "description": "Force Logoff"
-      },
-      {
-        "displayName": "Disconnect Remote Desktop Session",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior_3",
-        "dependentOn": [],
-        "name": "Disconnect if a Remote Desktop Services session",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "3",
-          "settingValueTemplateReference": null
-        },
-        "description": "Disconnect Remote Desktop Session"
-      }
-    ],
-    "displayName": "Interactive Logon Smart Card Removal Behavior",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior_0",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "InteractiveLogon_MachineInactivityLimit"
+  },
+  {
     "description": "Interactive logon: Smart card removal behavior  This security setting determines what happens when the smart card for a logged-on user is removed from the smart card reader.  The options are:   No Action  Lock Workstation  Force Logoff  Disconnect if a Remote Desktop Services session   If you click Lock Workstation in the Properties dialog box for this policy, the workstation is locked when the smart card is removed, allowing users to leave the area, take their smart card with them, and still maintain a protected session.  If you click Force Logoff in the Properties dialog box for this policy, the user is automatically logged off when the smart card is removed.  If you click Disconnect if a Remote Desktop Services session, removal of the smart card disconnects the session without logging the user off. This allows the user to insert the smart card and resume the session later, or at another smart card reader-equipped computer, without having to log on again. If the session is local, this policy functions identically to Lock Workstation.  Note: Remote Desktop Services was called Terminal Services in previous versions of Windows Server.  Default: This policy is not defined, which means that the system treats it as No action.  On Windows Vista and above: For this setting to work, the Smart Card Removal Policy service must be started.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_smartcardremovalbehavior"
+    ],
     "keywords": [
       "Interactive Logon Smart Card Removal Behavior",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior",
+    "displayName": "Interactive Logon Smart Card Removal Behavior",
+    "options": [
+      {
+        "name": "No Action",
+        "description": "No Action",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "0"
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior_0",
+        "displayName": "No Action",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Lock Workstation",
+        "description": "Lock Workstation",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "1"
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior_1",
+        "displayName": "Lock Workstation",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Force Logoff",
+        "description": "Force Logoff",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "2"
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior_2",
+        "displayName": "Force Logoff",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Disconnect if a Remote Desktop Services session",
+        "description": "Disconnect Remote Desktop Session",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "3"
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior_3",
+        "displayName": "Disconnect Remote Desktop Session",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/InteractiveLogon_SmartCardRemovalBehavior",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "default",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_smartcardremovalbehavior_0",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#interactivelogon_smartcardremovalbehavior"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1454,79 +1427,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "8.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17763",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "7.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17134"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient_DigitallySignCommunicationsAlways",
-    "name": "MicrosoftNetworkClient_DigitallySignCommunicationsAlways",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Enable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsalways_1",
-        "dependentOn": [],
-        "name": "Enable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enable"
-      },
-      {
-        "displayName": "Disable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsalways_0",
-        "dependentOn": [],
-        "name": "Disable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disable"
-      }
-    ],
-    "displayName": "Microsoft Network Client Digitally Sign Communications Always",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsalways",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsalways_0",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "InteractiveLogon_SmartCardRemovalBehavior"
+  },
+  {
     "description": "Microsoft network client: Digitally sign communications (always)  This security setting determines whether packet signing is required by the SMB client component.  The server message block (SMB) protocol provides the basis for Microsoft file and print sharing and many other networking operations, such as remote Windows administration. To prevent man-in-the-middle attacks that modify SMB packets in transit, the SMB protocol supports the digital signing of SMB packets. This policy setting determines whether SMB packet signing must be negotiated before further communication with an SMB server is permitted.  If this setting is enabled, the Microsoft network client will not communicate with a Microsoft network server unless that server agrees to perform SMB packet signing. If this policy is disabled, SMB packet signing is negotiated between the client and server.  Default: Disabled.  Important  For this policy to take effect on computers running Windows 2000, client-side packet signing must also be enabled. To enable client-side SMB packet signing, set Microsoft network client: Digitally sign communications (if server agrees).  Notes  All Windows operating systems support both a client-side SMB component and a server-side SMB component. On Windows 2000 and later operating systems, enabling or requiring packet signing for client and server-side SMB components is controlled by the following four policy settings: Microsoft network client: Digitally sign communications (always) - Controls whether or not the client-side SMB component requires packet signing. Microsoft network client: Digitally sign communications (if server agrees) - Controls whether or not the client-side SMB component has packet signing enabled. Microsoft network server: Digitally sign communications (always) - Controls whether or not the server-side SMB component requires packet signing. Microsoft network server: Digitally sign communications (if client agrees) - Controls whether or not the server-side SMB component has packet signing enabled. SMB packet signing can significantly degrade SMB performance, depending on dialect version, OS version, file sizes, processor offloading capabilities, and application IO behaviors. For more information, reference: https://go.microsoft.com/fwlink/?LinkID=787136.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#microsoftnetworkclient_digitallysigncommunicationsalways"
+    ],
     "keywords": [
       "Microsoft Network Client Digitally Sign Communications Always",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsalways",
+    "displayName": "Microsoft Network Client Digitally Sign Communications Always",
+    "options": [
+      {
+        "name": "Enable",
+        "description": "Enable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsalways_1",
+        "displayName": "Enable",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Disable",
+        "description": "Disable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsalways_0",
+        "displayName": "Disable",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient_DigitallySignCommunicationsAlways",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsalways",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsalways",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsalways_0",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#microsoftnetworkclient_digitallysigncommunicationsalways"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1538,79 +1511,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "7.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "8.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17763"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient_DigitallySignCommunicationsIfServerAgrees",
-    "name": "MicrosoftNetworkClient_DigitallySignCommunicationsIfServerAgrees",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Enable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsifserveragrees_1",
-        "dependentOn": [],
-        "name": "Enable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enable"
-      },
-      {
-        "displayName": "Disable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsifserveragrees_0",
-        "dependentOn": [],
-        "name": "Disable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disable"
-      }
-    ],
-    "displayName": "Microsoft Network Client Digitally Sign Communications If Server Agrees",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsifserveragrees",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsifserveragrees_1",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "MicrosoftNetworkClient_DigitallySignCommunicationsAlways"
+  },
+  {
     "description": "Microsoft network client: Digitally sign communications (if server agrees)  This security setting determines whether the SMB client attempts to negotiate SMB packet signing.  The server message block (SMB) protocol provides the basis for Microsoft file and print sharing and many other networking operations, such as remote Windows administration. To prevent man-in-the-middle attacks that modify SMB packets in transit, the SMB protocol supports the digital signing of SMB packets. This policy setting determines whether the SMB client component attempts to negotiate SMB packet signing when it connects to an SMB server.  If this setting is enabled, the Microsoft network client will ask the server to perform SMB packet signing upon session setup. If packet signing has been enabled on the server, packet signing will be negotiated. If this policy is disabled, the SMB client will never negotiate SMB packet signing.  Default: Enabled.  Notes  All Windows operating systems support both a client-side SMB component and a server-side SMB component. On Windows 2000 and later, enabling or requiring packet signing for client and server-side SMB components is controlled by the following four policy settings: Microsoft network client: Digitally sign communications (always) - Controls whether or not the client-side SMB component requires packet signing. Microsoft network client: Digitally sign communications (if server agrees) - Controls whether or not the client-side SMB component has packet signing enabled. Microsoft network server: Digitally sign communications (always) - Controls whether or not the server-side SMB component requires packet signing. Microsoft network server: Digitally sign communications (if client agrees) - Controls whether or not the server-side SMB component has packet signing enabled. If both client-side and server-side SMB signing is enabled and the client establishes an SMB 1.0 connection to the server, SMB signing will be attempted. SMB packet signing can significantly degrade SMB performance, depending on dialect version, OS version, file sizes, processor offloading capabilities, and application IO behaviors. This setting only applies to SMB 1.0 connections. For more information, reference: https://go.microsoft.com/fwlink/?LinkID=787136.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#microsoftnetworkclient_digitallysigncommunicationsifserveragrees"
+    ],
     "keywords": [
       "Microsoft Network Client Digitally Sign Communications If Server Agrees",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsifserveragrees",
+    "displayName": "Microsoft Network Client Digitally Sign Communications If Server Agrees",
+    "options": [
+      {
+        "name": "Enable",
+        "description": "Enable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsifserveragrees_1",
+        "displayName": "Enable",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Disable",
+        "description": "Disable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsifserveragrees_0",
+        "displayName": "Disable",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient_DigitallySignCommunicationsIfServerAgrees",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsifserveragrees",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsifserveragrees",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_digitallysigncommunicationsifserveragrees_1",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#microsoftnetworkclient_digitallysigncommunicationsifserveragrees"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1622,79 +1595,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "7.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "7.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17134"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient_SendUnencryptedPasswordToThirdPartySMBServers",
-    "name": "MicrosoftNetworkClient_SendUnencryptedPasswordToThirdPartySMBServers",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Enable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers_1",
-        "dependentOn": [],
-        "name": "Enable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enable"
-      },
-      {
-        "displayName": "Disable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers_0",
-        "dependentOn": [],
-        "name": "Disable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disable"
-      }
-    ],
-    "displayName": "Microsoft Network Client Send Unencrypted Password To Third Party SMB Servers",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers_0",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "MicrosoftNetworkClient_DigitallySignCommunicationsIfServerAgrees"
+  },
+  {
     "description": "Microsoft network client: Send unencrypted password to connect to third-party SMB servers  If this security setting is enabled, the Server Message Block (SMB) redirector is allowed to send plaintext passwords to non-Microsoft SMB servers that do not support password encryption during authentication.  Sending unencrypted passwords is a security risk.  Default: Disabled.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers"
+    ],
     "keywords": [
       "Microsoft Network Client Send Unencrypted Password To Third Party SMB Servers",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers",
+    "displayName": "Microsoft Network Client Send Unencrypted Password To Third Party SMB Servers",
+    "options": [
+      {
+        "name": "Enable",
+        "description": "Enable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers_1",
+        "displayName": "Enable",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Disable",
+        "description": "Disable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers_0",
+        "displayName": "Disable",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient_SendUnencryptedPasswordToThirdPartySMBServers",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers_0",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#microsoftnetworkclient_sendunencryptedpasswordtothirdpartysmbservers"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1706,79 +1679,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "7.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "7.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17134"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkServer_DigitallySignCommunicationsAlways",
-    "name": "MicrosoftNetworkServer_DigitallySignCommunicationsAlways",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Enable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsalways_1",
-        "dependentOn": [],
-        "name": "Enable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enable"
-      },
-      {
-        "displayName": "Disable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsalways_0",
-        "dependentOn": [],
-        "name": "Disable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disable"
-      }
-    ],
-    "displayName": "Microsoft Network Server Digitally Sign Communications Always",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsalways",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsalways_0",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "MicrosoftNetworkClient_SendUnencryptedPasswordToThirdPartySMBServers"
+  },
+  {
     "description": "Microsoft network server: Digitally sign communications (always)  This security setting determines whether packet signing is required by the SMB server component.  The server message block (SMB) protocol provides the basis for Microsoft file and print sharing and many other networking operations, such as remote Windows administration. To prevent man-in-the-middle attacks that modify SMB packets in transit, the SMB protocol supports the digital signing of SMB packets. This policy setting determines whether SMB packet signing must be negotiated before further communication with an SMB client is permitted.  If this setting is enabled, the Microsoft network server will not communicate with a Microsoft network client unless that client agrees to perform SMB packet signing. If this setting is disabled, SMB packet signing is negotiated between the client and server.  Default:  Disabled for member servers. Enabled for domain controllers.  Notes  All Windows operating systems support both a client-side SMB component and a server-side SMB component. On Windows 2000 and later, enabling or requiring packet signing for client and server-side SMB components is controlled by the following four policy settings: Microsoft network client: Digitally sign communications (always) - Controls whether or not the client-side SMB component requires packet signing. Microsoft network client: Digitally sign communications (if server agrees) - Controls whether or not the client-side SMB component has packet signing enabled. Microsoft network server: Digitally sign communications (always) - Controls whether or not the server-side SMB component requires packet signing. Microsoft network server: Digitally sign communications (if client agrees) - Controls whether or not the server-side SMB component has packet signing enabled. Similarly, if client-side SMB signing is required, that client will not be able to establish a session with servers that do not have packet signing enabled. By default, server-side SMB signing is enabled only on domain controllers. If server-side SMB signing is enabled, SMB packet signing will be negotiated with clients that have client-side SMB signing enabled. SMB packet signing can significantly degrade SMB performance, depending on dialect version, OS version, file sizes, processor offloading capabilities, and application IO behaviors.  Important  For this policy to take effect on computers running Windows 2000, server-side packet signing must also be enabled. To enable server-side SMB packet signing, set the following policy: Microsoft network server: Digitally sign communications (if server agrees)  For Windows 2000 servers to negotiate signing with Windows NT 4.0 clients, the following registry value must be set to 1 on the Windows 2000 server: HKLM\\System\\CurrentControlSet\\Services\\lanmanserver\\parameters\\enableW9xsecuritysignature For more information, reference: https://go.microsoft.com/fwlink/?LinkID=787136.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#microsoftnetworkserver_digitallysigncommunicationsalways"
+    ],
     "keywords": [
       "Microsoft Network Server Digitally Sign Communications Always",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsalways",
+    "displayName": "Microsoft Network Server Digitally Sign Communications Always",
+    "options": [
+      {
+        "name": "Enable",
+        "description": "Enable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsalways_1",
+        "displayName": "Enable",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Disable",
+        "description": "Disable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsalways_0",
+        "displayName": "Disable",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkServer_DigitallySignCommunicationsAlways",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsalways",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsalways",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsalways_0",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#microsoftnetworkserver_digitallysigncommunicationsalways"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1790,79 +1763,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "7.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "7.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17134"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkServer_DigitallySignCommunicationsIfClientAgrees",
-    "name": "MicrosoftNetworkServer_DigitallySignCommunicationsIfClientAgrees",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Enable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsifclientagrees_1",
-        "dependentOn": [],
-        "name": "Enable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enable"
-      },
-      {
-        "displayName": "Disable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsifclientagrees_0",
-        "dependentOn": [],
-        "name": "Disable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disable"
-      }
-    ],
-    "displayName": "Microsoft Network Server Digitally Sign Communications If Client Agrees",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsifclientagrees",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsifclientagrees_0",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "MicrosoftNetworkServer_DigitallySignCommunicationsAlways"
+  },
+  {
     "description": "Microsoft network server: Digitally sign communications (if client agrees)  This security setting determines whether the SMB server will negotiate SMB packet signing with clients that request it.  The server message block (SMB) protocol provides the basis for Microsoft file and print sharing and many other networking operations, such as remote Windows administration. To prevent man-in-the-middle attacks that modify SMB packets in transit, the SMB protocol supports the digital signing of SMB packets. This policy setting determines whether the SMB server will negotiate SMB packet signing when an SMB client requests it.  If this setting is enabled, the Microsoft network server will negotiate SMB packet signing as requested by the client. That is, if packet signing has been enabled on the client, packet signing will be negotiated. If this policy is disabled, the SMB client will never negotiate SMB packet signing.  Default: Enabled on domain controllers only.  Important  For Windows 2000 servers to negotiate signing with Windows NT 4.0 clients, the following registry value must be set to 1 on the server running Windows 2000: HKLM\\System\\CurrentControlSet\\Services\\lanmanserver\\parameters\\enableW9xsecuritysignature  Notes  All Windows operating systems support both a client-side SMB component and a server-side SMB component. For Windows 2000 and above, enabling or requiring packet signing for client and server-side SMB components is controlled by the following four policy settings: Microsoft network client: Digitally sign communications (always) - Controls whether or not the client-side SMB component requires packet signing. Microsoft network client: Digitally sign communications (if server agrees) - Controls whether or not the client-side SMB component has packet signing enabled. Microsoft network server: Digitally sign communications (always) - Controls whether or not the server-side SMB component requires packet signing. Microsoft network server: Digitally sign communications (if client agrees) - Controls whether or not the server-side SMB component has packet signing enabled. If both client-side and server-side SMB signing is enabled and the client establishes an SMB 1.0 connection to the server, SMB signing will be attempted. SMB packet signing can significantly degrade SMB performance, depending on dialect version, OS version, file sizes, processor offloading capabilities, and application IO behaviors. This setting only applies to SMB 1.0 connections. For more information, reference: https://go.microsoft.com/fwlink/?LinkID=787136.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#microsoftnetworkserver_digitallysigncommunicationsifclientagrees"
+    ],
     "keywords": [
       "Microsoft Network Server Digitally Sign Communications If Client Agrees",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsifclientagrees",
+    "displayName": "Microsoft Network Server Digitally Sign Communications If Client Agrees",
+    "options": [
+      {
+        "name": "Enable",
+        "description": "Enable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsifclientagrees_1",
+        "displayName": "Enable",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Disable",
+        "description": "Disable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsifclientagrees_0",
+        "displayName": "Disable",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkServer_DigitallySignCommunicationsIfClientAgrees",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsifclientagrees",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsifclientagrees",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_microsoftnetworkserver_digitallysigncommunicationsifclientagrees_0",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#microsoftnetworkserver_digitallysigncommunicationsifclientagrees"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1874,79 +1847,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "7.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "7.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17134"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSAMAccounts",
-    "name": "NetworkAccess_DoNotAllowAnonymousEnumerationOfSAMAccounts",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Enabled",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccounts_1",
-        "dependentOn": [],
-        "name": "Enabled",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enabled"
-      },
-      {
-        "displayName": "Disabled",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccounts_0",
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disabled"
-      }
-    ],
-    "displayName": "Network Access Do Not Allow Anonymous Enumeration Of SAM Accounts",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccounts",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccounts_1",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "MicrosoftNetworkServer_DigitallySignCommunicationsIfClientAgrees"
+  },
+  {
     "description": "Network access: Do not allow anonymous enumeration of SAM accounts  This security setting determines what additional permissions will be granted for anonymous connections to the computer.  Windows allows anonymous users to perform certain activities, such as enumerating the names of domain accounts and network shares. This is convenient, for example, when an administrator wants to grant access to users in a trusted domain that does not maintain a reciprocal trust.  This security option allows additional restrictions to be placed on anonymous connections as follows:  Enabled: Do not allow enumeration of SAM accounts. This option replaces Everyone with Authenticated Users in the security permissions for resources. Disabled: No additional restrictions. Rely on default permissions.  Default on workstations: Enabled. Default on server:Enabled.  Important  This policy has no impact on domain controllers.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networkaccess_donotallowanonymousenumerationofsamaccounts"
+    ],
     "keywords": [
       "Network Access Do Not Allow Anonymous Enumeration Of SAM Accounts",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccounts",
+    "displayName": "Network Access Do Not Allow Anonymous Enumeration Of SAM Accounts",
+    "options": [
+      {
+        "name": "Enabled",
+        "description": "Enabled",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccounts_1",
+        "displayName": "Enabled",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Disabled",
+        "description": "Disabled",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccounts_0",
+        "displayName": "Disabled",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSAMAccounts",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccounts",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccounts",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccounts_1",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networkaccess_donotallowanonymousenumerationofsamaccounts"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1958,79 +1931,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "7.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "7.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17134"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSamAccountsAndShares",
-    "name": "NetworkAccess_DoNotAllowAnonymousEnumerationOfSamAccountsAndShares",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Enabled",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccountsandshares_1",
-        "dependentOn": [],
-        "name": "Enabled",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enabled"
-      },
-      {
-        "displayName": "Disabled",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccountsandshares_0",
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disabled"
-      }
-    ],
-    "displayName": "Network Access Do Not Allow Anonymous Enumeration Of Sam Accounts And Shares",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccountsandshares",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccountsandshares_0",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "NetworkAccess_DoNotAllowAnonymousEnumerationOfSAMAccounts"
+  },
+  {
     "description": "Network access: Do not allow anonymous enumeration of SAM accounts and shares  This security setting determines whether anonymous enumeration of SAM accounts and shares is allowed.  Windows allows anonymous users to perform certain activities, such as enumerating the names of domain accounts and network shares. This is convenient, for example, when an administrator wants to grant access to users in a trusted domain that does not maintain a reciprocal trust. If you do not want to allow anonymous enumeration of SAM accounts and shares, then enable this policy.  Default: Disabled.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networkaccess_donotallowanonymousenumerationofsamaccountsandshares"
+    ],
     "keywords": [
       "Network Access Do Not Allow Anonymous Enumeration Of Sam Accounts And Shares",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccountsandshares",
+    "displayName": "Network Access Do Not Allow Anonymous Enumeration Of Sam Accounts And Shares",
+    "options": [
+      {
+        "name": "Enabled",
+        "description": "Enabled",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccountsandshares_1",
+        "displayName": "Enabled",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Disabled",
+        "description": "Disabled",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccountsandshares_0",
+        "displayName": "Disabled",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSamAccountsAndShares",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccountsandshares",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccountsandshares",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_donotallowanonymousenumerationofsamaccountsandshares_0",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networkaccess_donotallowanonymousenumerationofsamaccountsandshares"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2042,79 +2015,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "7.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "7.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17134"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkAccess_RestrictAnonymousAccessToNamedPipesAndShares",
-    "name": "NetworkAccess_RestrictAnonymousAccessToNamedPipesAndShares",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Enable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictanonymousaccesstonamedpipesandshares_1",
-        "dependentOn": [],
-        "name": "Enable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enable"
-      },
-      {
-        "displayName": "Disable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictanonymousaccesstonamedpipesandshares_0",
-        "dependentOn": [],
-        "name": "Disable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disable"
-      }
-    ],
-    "displayName": "Network Access Restrict Anonymous Access To Named Pipes And Shares",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictanonymousaccesstonamedpipesandshares",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictanonymousaccesstonamedpipesandshares_1",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "NetworkAccess_DoNotAllowAnonymousEnumerationOfSamAccountsAndShares"
+  },
+  {
     "description": "Network access: Restrict anonymous access to Named Pipes and Shares  When enabled, this security setting restricts anonymous access to shares and pipes to the settings for:  Network access: Named pipes that can be accessed anonymously Network access: Shares that can be accessed anonymously Default: Enabled.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networkaccess_restrictanonymousaccesstonamedpipesandshares"
+    ],
     "keywords": [
       "Network Access Restrict Anonymous Access To Named Pipes And Shares",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictanonymousaccesstonamedpipesandshares",
+    "displayName": "Network Access Restrict Anonymous Access To Named Pipes And Shares",
+    "options": [
+      {
+        "name": "Enable",
+        "description": "Enable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictanonymousaccesstonamedpipesandshares_1",
+        "displayName": "Enable",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Disable",
+        "description": "Disable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictanonymousaccesstonamedpipesandshares_0",
+        "displayName": "Disable",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkAccess_RestrictAnonymousAccessToNamedPipesAndShares",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictanonymousaccesstonamedpipesandshares",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictanonymousaccesstonamedpipesandshares",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictanonymousaccesstonamedpipesandshares_1",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networkaccess_restrictanonymousaccesstonamedpipesandshares"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2126,64 +2099,64 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "7.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17134"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkAccess_RestrictClientsAllowedToMakeRemoteCallsToSAM",
-    "name": "NetworkAccess_RestrictClientsAllowedToMakeRemoteCallsToSAM",
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "format": "none",
-      "maximumLength": 87516,
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "isSecret": false,
-      "fileTypes": []
-    },
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null,
-      "settingValueTemplateReference": null
-    },
-    "displayName": "Network Access Restrict Clients Allowed To Make Remote Calls To SAM",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictclientsallowedtomakeremotecallstosam",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "NetworkAccess_RestrictAnonymousAccessToNamedPipesAndShares"
+  },
+  {
+    "dependedOnBy": [],
     "description": "Network access: Restrict clients allowed to make remote calls to SAM  This policy setting allows you to restrict remote rpc connections to SAM.  If not selected, the default security descriptor will be used.  This policy is supported on at least Windows Server 2016.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networkaccess_restrictclientsallowedtomakeremotecallstosam"
+    ],
     "keywords": [
       "Network Access Restrict Clients Allowed To Make Remote Calls To SAM",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictclientsallowedtomakeremotecallstosam",
+    "displayName": "Network Access Restrict Clients Allowed To Make Remote Calls To SAM",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "settingValueTemplateReference": null,
+      "value": null
+    },
+    "dependentOn": [],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkAccess_RestrictClientsAllowedToMakeRemoteCallsToSAM",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "default",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictclientsallowedtomakeremotecallstosam",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "inputValidationSchema": null,
+      "minimumLength": 0,
+      "fileTypes": [],
+      "maximumLength": 87516,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+      "format": "none",
+      "isSecret": false
+    },
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networkaccess_restrictclientsallowedtomakeremotecallstosam",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networkaccess_restrictclientsallowedtomakeremotecallstosam"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependentOn": [],
-    "dependedOnBy": [],
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2195,79 +2168,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "8.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17763",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_AllowLocalSystemToUseComputerIdentityForNTLM",
-    "name": "NetworkSecurity_AllowLocalSystemToUseComputerIdentityForNTLM",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Allow",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowlocalsystemtousecomputeridentityforntlm_1",
-        "dependentOn": [],
-        "name": "Allow",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Allow"
-      },
-      {
-        "displayName": "Block",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowlocalsystemtousecomputeridentityforntlm_0",
-        "dependentOn": [],
-        "name": "Block",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Block"
-      }
-    ],
-    "displayName": "Network Security Allow Local System To Use Computer Identity For NTLM",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowlocalsystemtousecomputeridentityforntlm",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowlocalsystemtousecomputeridentityforntlm_1",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "NetworkAccess_RestrictClientsAllowedToMakeRemoteCallsToSAM"
+  },
+  {
     "description": "Network security: Allow Local System to use computer identity for NTLM  This policy setting allows Local System services that use Negotiate to use the computer identity when reverting to NTLM authentication.  If you enable this policy setting, services running as Local System that use Negotiate will use the computer identity. This might cause some authentication requests between Windows operating systems to fail and log an error.  If you disable this policy setting, services running as Local System that use Negotiate when reverting to NTLM authentication will authenticate anonymously.  By default, this policy is enabled on Windows 7 and above.  By default, this policy is disabled on Windows Vista.  This policy is supported on at least Windows Vista or Windows Server 2008.  Note: Windows Vista or Windows Server 2008 do not expose this setting in Group Policy.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_allowlocalsystemtousecomputeridentityforntlm"
+    ],
     "keywords": [
       "Network Security Allow Local System To Use Computer Identity For NTLM",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowlocalsystemtousecomputeridentityforntlm",
+    "displayName": "Network Security Allow Local System To Use Computer Identity For NTLM",
+    "options": [
+      {
+        "name": "Allow",
+        "description": "Allow",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowlocalsystemtousecomputeridentityforntlm_1",
+        "displayName": "Allow",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Block",
+        "description": "Block",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowlocalsystemtousecomputeridentityforntlm_0",
+        "displayName": "Block",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_AllowLocalSystemToUseComputerIdentityForNTLM",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowlocalsystemtousecomputeridentityforntlm",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowlocalsystemtousecomputeridentityforntlm",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowlocalsystemtousecomputeridentityforntlm_1",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_allowlocalsystemtousecomputeridentityforntlm"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2279,79 +2252,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "8.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17763"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_AllowPKU2UAuthenticationRequests",
-    "name": "NetworkSecurity_AllowPKU2UAuthenticationRequests",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Block",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowpku2uauthenticationrequests_0",
-        "dependentOn": [],
-        "name": "Block",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Block"
-      },
-      {
-        "displayName": "Allow",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowpku2uauthenticationrequests_1",
-        "dependentOn": [],
-        "name": "Allow",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Allow"
-      }
-    ],
-    "displayName": "Network Security Allow PKU2U Authentication Requests",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowpku2uauthenticationrequests",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowpku2uauthenticationrequests_1",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "NetworkSecurity_AllowLocalSystemToUseComputerIdentityForNTLM"
+  },
+  {
     "description": "Network security: Allow PKU2U authentication requests to this computer to use online identities.  This policy will be turned off by default on domain joined machines. This would prevent online identities from authenticating to the domain joined machine.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_allowpku2uauthenticationrequests"
+    ],
     "keywords": [
       "Network Security Allow PKU2U Authentication Requests",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowpku2uauthenticationrequests",
+    "displayName": "Network Security Allow PKU2U Authentication Requests",
+    "options": [
+      {
+        "name": "Block",
+        "description": "Block",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowpku2uauthenticationrequests_0",
+        "displayName": "Block",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Allow",
+        "description": "Allow",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowpku2uauthenticationrequests_1",
+        "displayName": "Allow",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_AllowPKU2UAuthenticationRequests",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowpku2uauthenticationrequests",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowpku2uauthenticationrequests",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_allowpku2uauthenticationrequests_1",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_allowpku2uauthenticationrequests"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2363,79 +2336,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "7.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_DoNotStoreLANManagerHashValueOnNextPasswordChange",
-    "name": "NetworkSecurity_DoNotStoreLANManagerHashValueOnNextPasswordChange",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Enable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange_1",
-        "dependentOn": [],
-        "name": "Enable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enable"
-      },
-      {
-        "displayName": "Disable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange_0",
-        "dependentOn": [],
-        "name": "Disable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disable"
-      }
-    ],
-    "displayName": "Network Security Do Not Store LAN Manager Hash Value On Next Password Change",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange_1",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "NetworkSecurity_AllowPKU2UAuthenticationRequests"
+  },
+  {
     "description": "Network security: Do not store LAN Manager hash value on next password change  This security setting determines if, at the next password change, the LAN Manager (LM) hash value for the new password is stored. The LM hash is relatively weak and prone to attack, as compared with the cryptographically stronger Windows NT hash. Since the LM hash is stored on the local computer in the security database the passwords can be compromised if the security database is attacked.   Default on Windows Vista and above: Enabled Default on Windows XP: Disabled.  Important  Windows 2000 Service Pack 2 (SP2) and above offer compatibility with authentication to previous versions of Windows, such as Microsoft Windows NT 4.0. This setting can affect the ability of computers running Windows 2000 Server, Windows 2000 Professional, Windows XP, and the Windows Server 2003 family to communicate with computers running Windows 95 and Windows 98.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange"
+    ],
     "keywords": [
       "Network Security Do Not Store LAN Manager Hash Value On Next Password Change",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange",
+    "displayName": "Network Security Do Not Store LAN Manager Hash Value On Next Password Change",
+    "options": [
+      {
+        "name": "Enable",
+        "description": "Enable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange_1",
+        "displayName": "Enable",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Disable",
+        "description": "Disable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange_0",
+        "displayName": "Disable",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_DoNotStoreLANManagerHashValueOnNextPasswordChange",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange_1",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_donotstorelanmanagerhashvalueonnextpasswordchange"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2447,135 +2420,135 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "7.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "7.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17134"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_LANManagerAuthenticationLevel",
-    "name": "NetworkSecurity_LANManagerAuthenticationLevel",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Send LM and NTLM responses",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_0",
-        "dependentOn": [],
-        "name": "Send LM and NTLM responses",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Send LM and NTLM responses"
-      },
-      {
-        "displayName": "Send LM and NTLM-use NTLMv2 session security if negotiated",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_1",
-        "dependentOn": [],
-        "name": "Send LM and NTLM-use NTLMv2 session security if negotiated",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Send LM and NTLM-use NTLMv2 session security if negotiated"
-      },
-      {
-        "displayName": "Send LM and NTLM responses only",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_2",
-        "dependentOn": [],
-        "name": "Send LM and NTLM responses only",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 2,
-          "settingValueTemplateReference": null
-        },
-        "description": "Send LM and NTLM responses only"
-      },
-      {
-        "displayName": "Send NTLMv2 responses only",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_3",
-        "dependentOn": [],
-        "name": "Send NTLMv2 responses only",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 3,
-          "settingValueTemplateReference": null
-        },
-        "description": "Send NTLMv2 responses only"
-      },
-      {
-        "displayName": "Send NTLMv2 responses only. Refuse LM",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_4",
-        "dependentOn": [],
-        "name": "Send NTLMv2 responses only. Refuse LM",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 4,
-          "settingValueTemplateReference": null
-        },
-        "description": "Send NTLMv2 responses only. Refuse LM"
-      },
-      {
-        "displayName": "Send NTLMv2 responses only. Refuse LM and NTLM",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_5",
-        "dependentOn": [],
-        "name": "Send NTLMv2 responses only. Refuse LM and NTLM",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 5,
-          "settingValueTemplateReference": null
-        },
-        "description": "Send NTLMv2 responses only. Refuse LM and NTLM"
-      }
-    ],
-    "displayName": "Network Security LAN Manager Authentication Level",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_3",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "NetworkSecurity_DoNotStoreLANManagerHashValueOnNextPasswordChange"
+  },
+  {
     "description": "Network security LAN Manager authentication level  This security setting determines which challenge/response authentication protocol is used for network logons. This choice affects the level of authentication protocol used by clients, the level of session security negotiated, and the level of authentication accepted by servers as follows:  Send LM and NTLM responses: Clients use LM and NTLM authentication and never use NTLMv2 session security; domain controllers accept LM, NTLM, and NTLMv2 authentication.  Send LM and NTLM - use NTLMv2 session security if negotiated: Clients use LM and NTLM authentication and use NTLMv2 session security if the server supports it; domain controllers accept LM, NTLM, and NTLMv2 authentication.  Send NTLM response only: Clients use NTLM authentication only and use NTLMv2 session security if the server supports it; domain controllers accept LM, NTLM, and NTLMv2 authentication.  Send NTLMv2 response only: Clients use NTLMv2 authentication only and use NTLMv2 session security if the server supports it; domain controllers accept LM, NTLM, and NTLMv2 authentication.  Send NTLMv2 response only\\refuse LM: Clients use NTLMv2 authentication only and use NTLMv2 session security if the server supports it; domain controllers refuse LM (accept only NTLM and NTLMv2 authentication).  Send NTLMv2 response only\\refuse LM and NTLM: Clients use NTLMv2 authentication only and use NTLMv2 session security if the server supports it; domain controllers refuse LM and NTLM (accept only NTLMv2 authentication).  Important  This setting can affect the ability of computers running Windows 2000 Server, Windows 2000 Professional, Windows XP Professional, and the Windows Server 2003 family to communicate with computers running Windows NT 4.0 and earlier over the network. For example, at the time of this writing, computers running Windows NT 4.0 SP4 and earlier did not support NTLMv2. Computers running Windows 95 and Windows 98 did not support NTLM.  Default:  Windows 2000 and windows XP: send LM and NTLM responses  Windows Server 2003: Send NTLM response only  Windows Vista, Windows Server 2008, Windows 7, and Windows Server 2008 R2: Send NTLMv2 response only",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_lanmanagerauthenticationlevel"
+    ],
     "keywords": [
       "Network Security LAN Manager Authentication Level",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel",
+    "displayName": "Network Security LAN Manager Authentication Level",
+    "options": [
+      {
+        "name": "Send LM and NTLM responses",
+        "description": "Send LM and NTLM responses",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_0",
+        "displayName": "Send LM and NTLM responses",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Send LM and NTLM-use NTLMv2 session security if negotiated",
+        "description": "Send LM and NTLM-use NTLMv2 session security if negotiated",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_1",
+        "displayName": "Send LM and NTLM-use NTLMv2 session security if negotiated",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Send LM and NTLM responses only",
+        "description": "Send LM and NTLM responses only",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 2
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_2",
+        "displayName": "Send LM and NTLM responses only",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Send NTLMv2 responses only",
+        "description": "Send NTLMv2 responses only",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 3
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_3",
+        "displayName": "Send NTLMv2 responses only",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Send NTLMv2 responses only. Refuse LM",
+        "description": "Send NTLMv2 responses only. Refuse LM",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 4
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_4",
+        "displayName": "Send NTLMv2 responses only. Refuse LM",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Send NTLMv2 responses only. Refuse LM and NTLM",
+        "description": "Send NTLMv2 responses only. Refuse LM and NTLM",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 5
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_5",
+        "displayName": "Send NTLMv2 responses only. Refuse LM and NTLM",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_LANManagerAuthenticationLevel",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "default",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_lanmanagerauthenticationlevel_3",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_lanmanagerauthenticationlevel"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2587,107 +2560,107 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "8.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17763",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "7.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17134"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedClients",
-    "name": "NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedClients",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients_0",
-        "dependentOn": [],
-        "name": "None",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "None"
-      },
-      {
-        "displayName": "Require NTLMv2 session security",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients_524288",
-        "dependentOn": [],
-        "name": "Require NTLMv2 session security",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 524288,
-          "settingValueTemplateReference": null
-        },
-        "description": "Require NTLMv2 session security"
-      },
-      {
-        "displayName": "Require 128-bit encryption",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients_536870912",
-        "dependentOn": [],
-        "name": "Require 128-bit encryption",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 536870912,
-          "settingValueTemplateReference": null
-        },
-        "description": "Require 128-bit encryption"
-      },
-      {
-        "displayName": "Require NTLM and 128-bit encryption",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients_537395200",
-        "dependentOn": [],
-        "name": "Require NTLM and 128-bit encryption",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 537395200,
-          "settingValueTemplateReference": null
-        },
-        "description": "Require NTLM and 128-bit encryption"
-      }
-    ],
-    "displayName": "Network Security Minimum Session Security For NTLMSSP Based Clients",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients_536870912",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "NetworkSecurity_LANManagerAuthenticationLevel"
+  },
+  {
     "description": "Network security: Minimum session security for NTLM SSP based (including secure RPC) clients  This security setting allows a client to require the negotiation of 128-bit encryption and/or NTLMv2 session security. These values are dependent on the LAN Manager Authentication Level security setting value. The options are:  Require NTLMv2 session security: The connection will fail if NTLMv2 protocol is not negotiated. Require 128-bit encryption: The connection will fail if strong encryption (128-bit) is not negotiated.  Default:  Windows XP, Windows Vista, Windows 2000 Server, Windows Server 2003, and Windows Server 2008: No requirements.  Windows 7 and Windows Server 2008 R2: Require 128-bit encryption",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_minimumsessionsecurityforntlmsspbasedclients"
+    ],
     "keywords": [
       "Network Security Minimum Session Security For NTLMSSP Based Clients",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients",
+    "displayName": "Network Security Minimum Session Security For NTLMSSP Based Clients",
+    "options": [
+      {
+        "name": "None",
+        "description": "None",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients_0",
+        "displayName": "None",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Require NTLMv2 session security",
+        "description": "Require NTLMv2 session security",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 524288
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients_524288",
+        "displayName": "Require NTLMv2 session security",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Require 128-bit encryption",
+        "description": "Require 128-bit encryption",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 536870912
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients_536870912",
+        "displayName": "Require 128-bit encryption",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Require NTLM and 128-bit encryption",
+        "description": "Require NTLM and 128-bit encryption",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 537395200
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients_537395200",
+        "displayName": "Require NTLM and 128-bit encryption",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedClients",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "default",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedclients_536870912",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_minimumsessionsecurityforntlmsspbasedclients"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2699,107 +2672,107 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "7.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "8.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17763"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedServers",
-    "name": "NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedServers",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "None",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers_0",
-        "dependentOn": [],
-        "name": "None",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "None"
-      },
-      {
-        "displayName": "Require NTLMv2 session security",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers_524288",
-        "dependentOn": [],
-        "name": "Require NTLMv2 session security",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 524288,
-          "settingValueTemplateReference": null
-        },
-        "description": "Require NTLMv2 session security"
-      },
-      {
-        "displayName": "Require 128-bit encryption",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers_536870912",
-        "dependentOn": [],
-        "name": "Require 128-bit encryption",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 536870912,
-          "settingValueTemplateReference": null
-        },
-        "description": "Require 128-bit encryption"
-      },
-      {
-        "displayName": "Require NTLM and 128-bit encryption",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers_537395200",
-        "dependentOn": [],
-        "name": "Require NTLM and 128-bit encryption",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 537395200,
-          "settingValueTemplateReference": null
-        },
-        "description": "Require NTLM and 128-bit encryption"
-      }
-    ],
-    "displayName": "Network Security Minimum Session Security For NTLMSSP Based Servers",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers_536870912",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedClients"
+  },
+  {
     "description": "Network security: Minimum session security for NTLM SSP based (including secure RPC) servers  This security setting allows a server to require the negotiation of 128-bit encryption and/or NTLMv2 session security. These values are dependent on the LAN Manager Authentication Level security setting value. The options are:  Require NTLMv2 session security: The connection will fail if message integrity is not negotiated. Require 128-bit encryption. The connection will fail if strong encryption (128-bit) is not negotiated.  Default:  Windows XP, Windows Vista, Windows 2000 Server, Windows Server 2003, and Windows Server 2008: No requirements.  Windows 7 and Windows Server 2008 R2: Require 128-bit encryption",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_minimumsessionsecurityforntlmsspbasedservers"
+    ],
     "keywords": [
       "Network Security Minimum Session Security For NTLMSSP Based Servers",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers",
+    "displayName": "Network Security Minimum Session Security For NTLMSSP Based Servers",
+    "options": [
+      {
+        "name": "None",
+        "description": "None",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers_0",
+        "displayName": "None",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Require NTLMv2 session security",
+        "description": "Require NTLMv2 session security",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 524288
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers_524288",
+        "displayName": "Require NTLMv2 session security",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Require 128-bit encryption",
+        "description": "Require 128-bit encryption",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 536870912
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers_536870912",
+        "displayName": "Require 128-bit encryption",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Require NTLM and 128-bit encryption",
+        "description": "Require NTLM and 128-bit encryption",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 537395200
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers_537395200",
+        "displayName": "Require NTLM and 128-bit encryption",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedServers",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "default",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_minimumsessionsecurityforntlmsspbasedservers_536870912",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_minimumsessionsecurityforntlmsspbasedservers"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2811,93 +2784,93 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "7.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.17134",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "7.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17134"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_RestrictNTLM_AuditIncomingNTLMTraffic",
-    "name": "NetworkSecurity_RestrictNTLM_AuditIncomingNTLMTraffic",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Disable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_auditincomingntlmtraffic_0",
-        "dependentOn": [],
-        "name": "Disable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disable"
-      },
-      {
-        "displayName": "Enable auditing for domain accounts",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_auditincomingntlmtraffic_1",
-        "dependentOn": [],
-        "name": "Enable auditing for domain accounts",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enable auditing for domain accounts"
-      },
-      {
-        "displayName": "Enable auditing for all accounts",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_auditincomingntlmtraffic_2",
-        "dependentOn": [],
-        "name": "Enable auditing for all accounts",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 2,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enable auditing for all accounts"
-      }
-    ],
-    "displayName": "Network Security Restrict NTLM Audit Incoming NTLM Traffic",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_auditincomingntlmtraffic",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_auditincomingntlmtraffic_0",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedServers"
+  },
+  {
     "description": "Network security: Restrict NTLM: Audit Incoming NTLM Traffic  This policy setting allows you to audit incoming NTLM traffic.  If you select \"Disable\", or do not configure this policy setting, the server will not log events for incoming NTLM traffic.  If you select \"Enable auditing for domain accounts\", the server will log events for NTLM pass-through authentication requests that would be blocked when the \"Network Security: Restrict NTLM: Incoming NTLM traffic\" policy setting is set to the \"Deny all domain accounts\" option.  If you select \"Enable auditing for all accounts\", the server will log events for all NTLM authentication requests that would be blocked when the \"Network Security: Restrict NTLM: Incoming NTLM traffic\" policy setting is set to the \"Deny all accounts\" option.  This policy is supported on at least Windows 7 or Windows Server 2008 R2.  Note: Audit events are recorded on this computer in the \"Operational\" Log located under the Applications and Services Log/Microsoft/Windows/NTLM.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_restrictntlm_auditincomingntlmtraffic"
+    ],
     "keywords": [
       "Network Security Restrict NTLM Audit Incoming NTLM Traffic",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_auditincomingntlmtraffic",
+    "displayName": "Network Security Restrict NTLM Audit Incoming NTLM Traffic",
+    "options": [
+      {
+        "name": "Disable",
+        "description": "Disable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_auditincomingntlmtraffic_0",
+        "displayName": "Disable",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Enable auditing for domain accounts",
+        "description": "Enable auditing for domain accounts",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_auditincomingntlmtraffic_1",
+        "displayName": "Enable auditing for domain accounts",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Enable auditing for all accounts",
+        "description": "Enable auditing for all accounts",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 2
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_auditincomingntlmtraffic_2",
+        "displayName": "Enable auditing for all accounts",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/NetworkSecurity_RestrictNTLM_AuditIncomingNTLMTraffic",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "default",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_auditincomingntlmtraffic",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_auditincomingntlmtraffic",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_networksecurity_restrictntlm_auditincomingntlmtraffic_0",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#networksecurity_restrictntlm_auditincomingntlmtraffic"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2909,93 +2882,93 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "7.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.17134"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForStandardUsers",
-    "name": "UserAccountControl_BehaviorOfTheElevationPromptForStandardUsers",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Automatically deny elevation requests",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers_0",
-        "dependentOn": [],
-        "name": "Automatically deny elevation requests",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Automatically deny elevation requests"
-      },
-      {
-        "displayName": "Prompt for credentials on the secure desktop",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers_1",
-        "dependentOn": [],
-        "name": "Prompt for credentials on the secure desktop",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Prompt for credentials on the secure desktop"
-      },
-      {
-        "displayName": "Prompt for credentials",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers_3",
-        "dependentOn": [],
-        "name": "Prompt for credentials",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 3,
-          "settingValueTemplateReference": null
-        },
-        "description": "Prompt for credentials"
-      }
-    ],
-    "displayName": "User Account Control Behavior Of The Elevation Prompt For Standard Users",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers_3",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "NetworkSecurity_RestrictNTLM_AuditIncomingNTLMTraffic"
+  },
+  {
     "description": "User Account Control: Behavior of the elevation prompt for standard users This policy setting controls the behavior of the elevation prompt for standard users.  The options are:  • Prompt for credentials: (Default) When an operation requires elevation of privilege, the user is prompted to enter an administrative user name and password. If the user enters valid credentials, the operation continues with the applicable privilege.  • Automatically deny elevation requests: When an operation requires elevation of privilege, a configurable access denied error message is displayed. An enterprise that is running desktops as standard user may choose this setting to reduce help desk calls.  • Prompt for credentials on the secure desktop: When an operation requires elevation of privilege, the user is prompted on the secure desktop to enter a different user name and password. If the user enters valid credentials, the operation continues with the applicable privilege.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_behavioroftheelevationpromptforstandardusers"
+    ],
     "keywords": [
       "User Account Control Behavior Of The Elevation Prompt For Standard Users",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers",
+    "displayName": "User Account Control Behavior Of The Elevation Prompt For Standard Users",
+    "options": [
+      {
+        "name": "Automatically deny elevation requests",
+        "description": "Automatically deny elevation requests",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers_0",
+        "displayName": "Automatically deny elevation requests",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Prompt for credentials on the secure desktop",
+        "description": "Prompt for credentials on the secure desktop",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers_1",
+        "displayName": "Prompt for credentials on the secure desktop",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Prompt for credentials",
+        "description": "Prompt for credentials",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 3
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers_3",
+        "displayName": "Prompt for credentials",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForStandardUsers",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "default",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_behavioroftheelevationpromptforstandardusers_3",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_behavioroftheelevationpromptforstandardusers"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3007,79 +2980,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_DetectApplicationInstallationsAndPromptForElevation",
-    "name": "UserAccountControl_DetectApplicationInstallationsAndPromptForElevation",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Enable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_detectapplicationinstallationsandpromptforelevation_1",
-        "dependentOn": [],
-        "name": "Enable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enable"
-      },
-      {
-        "displayName": "Disable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_detectapplicationinstallationsandpromptforelevation_0",
-        "dependentOn": [],
-        "name": "Disable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disable"
-      }
-    ],
-    "displayName": "User Account Control Detect Application Installations And Prompt For Elevation",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_detectapplicationinstallationsandpromptforelevation",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_detectapplicationinstallationsandpromptforelevation_1",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "UserAccountControl_BehaviorOfTheElevationPromptForStandardUsers"
+  },
+  {
     "description": "User Account Control: Detect application installations and prompt for elevation  This policy setting controls the behavior of application installation detection for the computer.  The options are:  Enabled: (Default) When an application installation package is detected that requires elevation of privilege, the user is prompted to enter an administrative user name and password. If the user enters valid credentials, the operation continues with the applicable privilege.  Disabled: Application installation packages are not detected and prompted for elevation. Enterprises that are running standard user desktops and use delegated installation technologies such as Group Policy Software Installation or Systems Management Server (SMS) should disable this policy setting. In this case, installer detection is unnecessary.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_detectapplicationinstallationsandpromptforelevation"
+    ],
     "keywords": [
       "User Account Control Detect Application Installations And Prompt For Elevation",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_detectapplicationinstallationsandpromptforelevation",
+    "displayName": "User Account Control Detect Application Installations And Prompt For Elevation",
+    "options": [
+      {
+        "name": "Enable",
+        "description": "Enable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_detectapplicationinstallationsandpromptforelevation_1",
+        "displayName": "Enable",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Disable",
+        "description": "Disable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_detectapplicationinstallationsandpromptforelevation_0",
+        "displayName": "Disable",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_DetectApplicationInstallationsAndPromptForElevation",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_detectapplicationinstallationsandpromptforelevation",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_detectapplicationinstallationsandpromptforelevation",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_detectapplicationinstallationsandpromptforelevation_1",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_detectapplicationinstallationsandpromptforelevation"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3091,79 +3064,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_OnlyElevateUIAccessApplicationsThatAreInstalledInSecureLocations",
-    "name": "UserAccountControl_OnlyElevateUIAccessApplicationsThatAreInstalledInSecureLocations",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Disabled: Application runs with UIAccess integrity even if it does not reside in a secure location.",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations_0",
-        "dependentOn": [],
-        "name": "Disabled: Application runs with UIAccess integrity even if it does not reside in a secure location.",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disabled: Application runs with UIAccess integrity even if it does not reside in a secure location."
-      },
-      {
-        "displayName": "Enabled: Application runs with UIAccess integrity only if it resides in secure location.",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations_1",
-        "dependentOn": [],
-        "name": "Enabled: Application runs with UIAccess integrity only if it resides in secure location.",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enabled: Application runs with UIAccess integrity only if it resides in secure location."
-      }
-    ],
-    "displayName": "User Account Control Only Elevate UI Access Applications That Are Installed In Secure Locations",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations_1",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "UserAccountControl_DetectApplicationInstallationsAndPromptForElevation"
+  },
+  {
     "description": "User Account Control: Only elevate UIAccess applications that are installed in secure locations  This policy setting controls whether applications that request to run with a User Interface Accessibility (UIAccess) integrity level must reside in a secure location in the file system. Secure locations are limited to the following:  - …\\Program Files\\, including subfolders - …\\Windows\\system32\\ - …\\Program Files (x86)\\, including subfolders for 64-bit versions of Windows  Note: Windows enforces a public key infrastructure (PKI) signature check on any interactive application that requests to run with a UIAccess integrity level regardless of the state of this security setting.  The options are:  • Enabled: (Default) If an application resides in a secure location in the file system, it runs only with UIAccess integrity.  • Disabled: An application runs with UIAccess integrity even if it does not reside in a secure location in the file system.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations"
+    ],
     "keywords": [
       "User Account Control Only Elevate UI Access Applications That Are Installed In Secure Locations",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations",
+    "displayName": "User Account Control Only Elevate UI Access Applications That Are Installed In Secure Locations",
+    "options": [
+      {
+        "name": "Disabled: Application runs with UIAccess integrity even if it does not reside in a secure location.",
+        "description": "Disabled: Application runs with UIAccess integrity even if it does not reside in a secure location.",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations_0",
+        "displayName": "Disabled: Application runs with UIAccess integrity even if it does not reside in a secure location.",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Enabled: Application runs with UIAccess integrity only if it resides in secure location.",
+        "description": "Enabled: Application runs with UIAccess integrity only if it resides in secure location.",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations_1",
+        "displayName": "Enabled: Application runs with UIAccess integrity only if it resides in secure location.",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_OnlyElevateUIAccessApplicationsThatAreInstalledInSecureLocations",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations_1",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_onlyelevateuiaccessapplicationsthatareinstalledinsecurelocations"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3175,79 +3148,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_RunAllAdministratorsInAdminApprovalMode",
-    "name": "UserAccountControl_RunAllAdministratorsInAdminApprovalMode",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Disabled",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_runalladministratorsinadminapprovalmode_0",
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disabled"
-      },
-      {
-        "displayName": "Enabled",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_runalladministratorsinadminapprovalmode_1",
-        "dependentOn": [],
-        "name": "Enabled",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enabled"
-      }
-    ],
-    "displayName": "User Account Control Run All Administrators In Admin Approval Mode",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_runalladministratorsinadminapprovalmode",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_runalladministratorsinadminapprovalmode_1",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "UserAccountControl_OnlyElevateUIAccessApplicationsThatAreInstalledInSecureLocations"
+  },
+  {
     "description": "User Account Control: Turn on Admin Approval Mode  This policy setting controls the behavior of all User Account Control (UAC) policy settings for the computer. If you change this policy setting, you must restart your computer.  The options are:  • Enabled: (Default) Admin Approval Mode is enabled. This policy must be enabled and related UAC policy settings must also be set appropriately to allow the built-in Administrator account and all other users who are members of the Administrators group to run in Admin Approval Mode.   • Disabled: Admin Approval Mode and all related UAC policy settings are disabled. Note: If this policy setting is disabled, the Security Center notifies you that the overall security of the operating system has been reduced.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_runalladministratorsinadminapprovalmode"
+    ],
     "keywords": [
       "User Account Control Run All Administrators In Admin Approval Mode",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_runalladministratorsinadminapprovalmode",
+    "displayName": "User Account Control Run All Administrators In Admin Approval Mode",
+    "options": [
+      {
+        "name": "Disabled",
+        "description": "Disabled",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_runalladministratorsinadminapprovalmode_0",
+        "displayName": "Disabled",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Enabled",
+        "description": "Enabled",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_runalladministratorsinadminapprovalmode_1",
+        "displayName": "Enabled",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_RunAllAdministratorsInAdminApprovalMode",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_runalladministratorsinadminapprovalmode",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_runalladministratorsinadminapprovalmode",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_runalladministratorsinadminapprovalmode_1",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_runalladministratorsinadminapprovalmode"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3259,79 +3232,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_SwitchToTheSecureDesktopWhenPromptingForElevation",
-    "name": "UserAccountControl_SwitchToTheSecureDesktopWhenPromptingForElevation",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Disabled",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation_0",
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disabled"
-      },
-      {
-        "displayName": "Enabled",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation_1",
-        "dependentOn": [],
-        "name": "Enabled",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enabled"
-      }
-    ],
-    "displayName": "User Account Control Switch To The Secure Desktop When Prompting For Elevation",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation_1",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "UserAccountControl_RunAllAdministratorsInAdminApprovalMode"
+  },
+  {
     "description": "User Account Control: Switch to the secure desktop when prompting for elevation  This policy setting controls whether the elevation request prompt is displayed on the interactive user's desktop or the secure desktop.  The options are:  • Enabled: (Default) All elevation requests go to the secure desktop regardless of prompt behavior policy settings for administrators and standard users.  • Disabled: All elevation requests go to the interactive user's desktop. Prompt behavior policy settings for administrators and standard users are used.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation"
+    ],
     "keywords": [
       "User Account Control Switch To The Secure Desktop When Prompting For Elevation",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation",
+    "displayName": "User Account Control Switch To The Secure Desktop When Prompting For Elevation",
+    "options": [
+      {
+        "name": "Disabled",
+        "description": "Disabled",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation_0",
+        "displayName": "Disabled",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Enabled",
+        "description": "Enabled",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation_1",
+        "displayName": "Enabled",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_SwitchToTheSecureDesktopWhenPromptingForElevation",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation_1",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_switchtothesecuredesktopwhenpromptingforelevation"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3343,79 +3316,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_UseAdminApprovalMode",
-    "name": "UserAccountControl_UseAdminApprovalMode",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Enable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_useadminapprovalmode_1",
-        "dependentOn": [],
-        "name": "Enable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enable"
-      },
-      {
-        "displayName": "Disable",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_useadminapprovalmode_0",
-        "dependentOn": [],
-        "name": "Disable",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disable"
-      }
-    ],
-    "displayName": "User Account Control Use Admin Approval Mode",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_useadminapprovalmode",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_useadminapprovalmode_0",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "UserAccountControl_SwitchToTheSecureDesktopWhenPromptingForElevation"
+  },
+  {
     "description": "User Account Control: Use Admin Approval Mode for the built-in Administrator account  This policy setting controls the behavior of Admin Approval Mode for the built-in Administrator account.  The options are:  • Enabled: The built-in Administrator account uses Admin Approval Mode. By default, any operation that requires elevation of privilege will prompt the user to approve the operation.  • Disabled: (Default) The built-in Administrator account runs all applications with full administrative privilege.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_useadminapprovalmode"
+    ],
     "keywords": [
       "User Account Control Use Admin Approval Mode",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_useadminapprovalmode",
+    "displayName": "User Account Control Use Admin Approval Mode",
+    "options": [
+      {
+        "name": "Enable",
+        "description": "Enable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_useadminapprovalmode_1",
+        "displayName": "Enable",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Disable",
+        "description": "Disable",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_useadminapprovalmode_0",
+        "displayName": "Disable",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_UseAdminApprovalMode",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_useadminapprovalmode",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_useadminapprovalmode",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_useadminapprovalmode_0",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_useadminapprovalmode"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
-  },
-  {
     "applicability": {
+      "technologies": "mdm",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3427,76 +3400,103 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "description": null,
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "configurationServiceProviderVersion": "6.0",
       "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
-      "minimumSupportedVersion": "10.0.16299",
       "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
       "maximumSupportedVersion": null,
-      "requiresAzureAd": false
+      "minimumSupportedVersion": "10.0.16299"
     },
-    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_VirtualizeFileAndRegistryWriteFailuresToPerUserLocations",
-    "name": "UserAccountControl_VirtualizeFileAndRegistryWriteFailuresToPerUserLocations",
-    "version": "639094788176414916",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "options": [
-      {
-        "displayName": "Disabled",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations_0",
-        "dependentOn": [],
-        "name": "Disabled",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0,
-          "settingValueTemplateReference": null
-        },
-        "description": "Disabled"
-      },
-      {
-        "displayName": "Enabled",
-        "dependedOnBy": [],
-        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations_1",
-        "dependentOn": [],
-        "name": "Enabled",
-        "helpText": null,
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1,
-          "settingValueTemplateReference": null
-        },
-        "description": "Enabled"
-      }
-    ],
-    "displayName": "User Account Control Virtualize File And Registry Write Failures To Per User Locations",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "uxBehavior": "toggle",
-    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations",
-    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
-    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations_1",
-    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "version": "639118729572626080",
+    "name": "UserAccountControl_UseAdminApprovalMode"
+  },
+  {
     "description": "User Account Control: Virtualize file and registry write failures to per-user locations  This policy setting controls whether application write failures are redirected to defined registry and file system locations. This policy setting mitigates applications that run as administrator and write run-time application data to %ProgramFiles%, %Windir%, %Windir%\\system32, or HKLM\\Software.  The options are:  • Enabled: (Default) Application write failures are redirected at run time to defined user locations for both the file system and registry.  • Disabled: Applications that write data to protected locations fail.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations"
+    ],
     "keywords": [
       "User Account Control Virtualize File And Registry Write Failures To Per User Locations",
       "Local Policies Security Options"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations",
+    "displayName": "User Account Control Virtualize File And Registry Write Failures To Per User Locations",
+    "options": [
+      {
+        "name": "Disabled",
+        "description": "Disabled",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations_0",
+        "displayName": "Disabled",
+        "dependedOnBy": []
+      },
+      {
+        "name": "Enabled",
+        "description": "Enabled",
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "helpText": null,
+        "itemId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations_1",
+        "displayName": "Enabled",
+        "dependedOnBy": []
+      }
+    ],
+    "offsetUri": "/Config/LocalPoliciesSecurityOptions/UserAccountControl_VirtualizeFileAndRegistryWriteFailuresToPerUserLocations",
     "occurrence": {
       "maxDeviceOccurrence": 1,
       "minDeviceOccurrence": 0
     },
+    "uxBehavior": "toggle",
+    "helpText": "",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations",
+    "categoryId": "914a31d0-ae3b-4ae5-bd31-504b9f0b91df",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations",
+    "defaultOptionId": "device_vendor_msft_policy_config_localpoliciessecurityoptions_useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations_1",
+    "accessTypes": "add,delete,get,replace",
     "referredSettingInformationList": [],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#useraccountcontrol_virtualizefileandregistrywritefailurestoperuserlocations"
-    ],
+    "applicability": {
+      "technologies": "mdm",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "deviceMode": "none",
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "requiresAzureAd": false,
+      "maximumSupportedVersion": null,
+      "minimumSupportedVersion": "10.0.16299"
+    },
     "baseUri": "./Device/Vendor/MSFT/Policy",
-    "visibility": "settingsCatalog,template"
+    "version": "639118729572626080",
+    "name": "UserAccountControl_VirtualizeFileAndRegistryWriteFailuresToPerUserLocations"
   }
 ]
 ```

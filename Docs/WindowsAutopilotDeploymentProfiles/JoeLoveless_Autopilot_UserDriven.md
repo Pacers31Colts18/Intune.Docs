@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 05/04/2026 06:19:17
+**Report Generated:** 05/05/2026 05:48:39
 
 ---
 
 ```json
 {
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
-  "managementServiceAppId": null,
-  "enableWhiteGlove": false,
-  "deviceNameTemplate": "JL-%SERIAL%",
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "description": "",
   "preprovisioningAllowed": false,
-  "deviceType": "windowsPc",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "outOfBoxExperienceSettings": {
-    "userType": "standard",
-    "hideEscapeLink": true,
+  "deviceNameTemplate": "JL-%SERIAL%",
+  "managementServiceAppId": null,
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "outOfBoxExperienceSetting": {
+    "keyboardSelectionPageSkipped": true,
+    "escapeLinkHidden": true,
+    "privacySettingsHidden": true,
     "deviceUsageType": "singleUser",
-    "hideEULA": true,
-    "skipKeyboardSelectionPage": true,
-    "hidePrivacySettings": true
+    "eulaHidden": true,
+    "userType": "standard"
   },
-  "language": "os-default",
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "enableWhiteGlove": false,
+  "enrollmentStatusScreenSettings": null,
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "hardwareHashExtractionEnabled": true,
   "roleScopeTagIds": [
     "0"
   ],
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
   "extractHardwareHash": true,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
   "locale": "os-default",
-  "enrollmentStatusScreenSettings": null,
-  "description": "",
-  "outOfBoxExperienceSetting": {
+  "deviceType": "windowsPc",
+  "language": "os-default",
+  "outOfBoxExperienceSettings": {
+    "hideEULA": true,
     "deviceUsageType": "singleUser",
-    "eulaHidden": true,
-    "escapeLinkHidden": true,
-    "privacySettingsHidden": true,
+    "skipKeyboardSelectionPage": true,
     "userType": "standard",
-    "keyboardSelectionPageSkipped": true
-  },
-  "hardwareHashExtractionEnabled": true
+    "hideEscapeLink": true,
+    "hidePrivacySettings": true
+  }
 }
 ```
 

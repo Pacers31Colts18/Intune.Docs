@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_Defender_for_Endpoint_-_Onboarding.md)
 
-**Report Generated:** 05/07/2026 06:15:58
+**Report Generated:** 05/08/2026 05:34:01
 
 ---
 
@@ -24,16 +24,16 @@
 #### device_vendor_msft_windowsadvancedthreatprotection_onboarding
 ```json
 {
-  "settingDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_onboarding",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
-  "auditRuleInformation": null,
   "simpleSettingValue": {
+    "settingValueTemplateReference": null,
     "valueState": "encryptedValueToken",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSecretSettingValue",
-    "settingValueTemplateReference": null,
     "value": "9fab7c95-0bb6-4fda-a4a1-6ca582bb3124"
   },
-  "settingInstanceTemplateReference": null
+  "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+  "settingDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_onboarding",
+  "auditRuleInformation": null
 }
 ```
 
@@ -45,18 +45,18 @@
 
 ```json
 {
+  "itemId": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing_1",
   "helpText": null,
-  "dependedOnBy": [],
+  "displayName": "All",
+  "name": "Enabled",
   "description": null,
-  "dependentOn": [],
   "optionValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "value": 1
   },
-  "name": "Enabled",
-  "displayName": "All",
-  "itemId": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing_1"
+  "dependedOnBy": [],
+  "dependentOn": []
 }
 ```
 
@@ -65,372 +65,372 @@
 [
   {
     "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "minimumLength": 1,
       "format": "none",
-      "inputValidationSchema": null,
+      "isSecret": true,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
       "fileTypes": [],
       "maximumLength": 175032,
-      "isSecret": true
+      "minimumLength": 1,
+      "inputValidationSchema": null
     },
-    "name": "Onboarding",
-    "referredSettingInformationList": [],
-    "displayName": "Onboarding (Device)",
-    "settingUsage": "configuration",
-    "rootDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype",
-    "infoUrls": [],
     "applicability": {
       "platform": "windows10",
       "description": null,
-      "deviceMode": "none",
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "1.1",
-      "windowsSkus": [],
       "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "technologies": "mdm,configManager,microsoftSense"
+      "windowsSkus": [],
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "1.1",
+      "technologies": "mdm,configManager,microsoftSense",
+      "minimumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none"
     },
-    "visibility": "template",
-    "description": "Set Windows Defender Advanced Threat Protection Onboarding blob and initiate onboarding to Windows Defender Advanced Threat Protection",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_windowsadvancedthreatprotection_onboarding",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "version": "639118729572626080",
-    "defaultValue": {
-      "valueState": "invalid",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSecretSettingValue",
-      "settingValueTemplateReference": null,
-      "value": null
-    },
+    "id": "device_vendor_msft_windowsadvancedthreatprotection_onboarding",
+    "accessTypes": "get,replace",
+    "baseUri": "./Device/Vendor/MSFT/WindowsAdvancedThreatProtection",
+    "rootDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype",
+    "displayName": "Onboarding (Device)",
     "helpText": null,
-    "offsetUri": "/Onboarding",
+    "settingUsage": "configuration",
+    "infoUrls": [],
+    "referredSettingInformationList": [],
     "dependentOn": [
       {
-        "parentSettingId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype",
-        "dependentOn": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype_onboard"
+        "dependentOn": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype_onboard",
+        "parentSettingId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype"
       }
     ],
+    "dependedOnBy": [],
     "categoryId": "577d5951-fc56-4906-90bc-2c508c6611ad",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "offsetUri": "/Onboarding",
+    "riskLevel": "low",
+    "name": "Onboarding",
+    "description": "Set Windows Defender Advanced Threat Protection Onboarding blob and initiate onboarding to Windows Defender Advanced Threat Protection",
     "keywords": [
       "Onboarding",
       "WindowsAdvancedThreatProtection",
       "Windows Advanced Threat Protection",
       "Microsoft Defender for Endpoint"
     ],
-    "riskLevel": "low",
-    "accessTypes": "get,replace",
-    "dependedOnBy": [],
-    "baseUri": "./Device/Vendor/MSFT/WindowsAdvancedThreatProtection",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
+    "uxBehavior": "default",
+    "visibility": "template",
+    "version": "639118729572626080",
+    "defaultValue": {
+      "settingValueTemplateReference": null,
+      "valueState": "invalid",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSecretSettingValue",
+      "value": null
     }
   },
   {
     "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "minimumLength": 1,
       "format": "none",
-      "inputValidationSchema": null,
+      "isSecret": true,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
       "fileTypes": [],
       "maximumLength": 175032,
-      "isSecret": true
+      "minimumLength": 1,
+      "inputValidationSchema": null
     },
-    "name": "Offboarding",
-    "referredSettingInformationList": [],
-    "displayName": "Offboarding (Device)",
-    "settingUsage": "configuration",
-    "rootDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype",
-    "infoUrls": [],
     "applicability": {
       "platform": "windows10",
       "description": null,
-      "deviceMode": "none",
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "1.1",
-      "windowsSkus": [],
       "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "technologies": "mdm,configManager,microsoftSense"
+      "windowsSkus": [],
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "1.1",
+      "technologies": "mdm,configManager,microsoftSense",
+      "minimumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none"
     },
-    "visibility": "template",
-    "description": "Set Windows Defender Advanced Threat Protection Offboarding blob and initiate offboarding",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_windowsadvancedthreatprotection_offboarding",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "version": "639118729572626080",
-    "defaultValue": {
-      "valueState": "invalid",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSecretSettingValue",
-      "settingValueTemplateReference": null,
-      "value": null
-    },
+    "id": "device_vendor_msft_windowsadvancedthreatprotection_offboarding",
+    "accessTypes": "get,replace",
+    "baseUri": "./Device/Vendor/MSFT/WindowsAdvancedThreatProtection",
+    "rootDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype",
+    "displayName": "Offboarding (Device)",
     "helpText": null,
-    "offsetUri": "/Offboarding",
+    "settingUsage": "configuration",
+    "infoUrls": [],
+    "referredSettingInformationList": [],
     "dependentOn": [
       {
-        "parentSettingId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype",
-        "dependentOn": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype_offboard"
+        "dependentOn": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype_offboard",
+        "parentSettingId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype"
       }
     ],
+    "dependedOnBy": [],
     "categoryId": "577d5951-fc56-4906-90bc-2c508c6611ad",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "offsetUri": "/Offboarding",
+    "riskLevel": "low",
+    "name": "Offboarding",
+    "description": "Set Windows Defender Advanced Threat Protection Offboarding blob and initiate offboarding",
     "keywords": [
       "Offboarding",
       "WindowsAdvancedThreatProtection",
       "Windows Advanced Threat Protection",
       "Microsoft Defender for Endpoint"
     ],
-    "riskLevel": "low",
-    "accessTypes": "get,replace",
-    "dependedOnBy": [],
-    "baseUri": "./Device/Vendor/MSFT/WindowsAdvancedThreatProtection",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
+    "uxBehavior": "default",
+    "visibility": "template",
+    "version": "639118729572626080",
+    "defaultValue": {
+      "settingValueTemplateReference": null,
+      "valueState": "invalid",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSecretSettingValue",
+      "value": null
     }
   },
   {
     "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "minimumLength": 1,
       "format": "none",
-      "inputValidationSchema": null,
+      "isSecret": true,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
       "fileTypes": [],
       "maximumLength": 175032,
-      "isSecret": true
+      "minimumLength": 1,
+      "inputValidationSchema": null
     },
-    "name": "Onboarding",
-    "referredSettingInformationList": [],
-    "displayName": "Onboarding blob from Connector",
-    "settingUsage": "configuration",
-    "rootDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype",
-    "infoUrls": [],
     "applicability": {
       "platform": "windows10",
       "description": null,
-      "deviceMode": "none",
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "1.1",
-      "windowsSkus": [],
       "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "technologies": "mdm,configManager,microsoftSense"
+      "windowsSkus": [],
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "1.1",
+      "technologies": "mdm,configManager,microsoftSense",
+      "minimumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none"
     },
-    "visibility": "template",
-    "description": "Set Windows Defender Advanced Threat Protection Onboarding blob and initiate onboarding to Windows Defender Advanced Threat Protection",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_windowsadvancedthreatprotection_onboarding_fromconnector",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "version": "639118729572626080",
-    "defaultValue": {
-      "valueState": "invalid",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSecretSettingValue",
-      "settingValueTemplateReference": null,
-      "value": "DefaultString"
-    },
+    "id": "device_vendor_msft_windowsadvancedthreatprotection_onboarding_fromconnector",
+    "accessTypes": "get,replace",
+    "baseUri": "./Device/Vendor/MSFT/WindowsAdvancedThreatProtection",
+    "rootDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype",
+    "displayName": "Onboarding blob from Connector",
     "helpText": null,
-    "offsetUri": "/Onboarding",
+    "settingUsage": "configuration",
+    "infoUrls": [],
+    "referredSettingInformationList": [],
     "dependentOn": [
       {
-        "parentSettingId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype",
-        "dependentOn": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype_autofromconnector"
+        "dependentOn": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype_autofromconnector",
+        "parentSettingId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype"
       }
     ],
+    "dependedOnBy": [],
     "categoryId": "577d5951-fc56-4906-90bc-2c508c6611ad",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "offsetUri": "/Onboarding",
+    "riskLevel": "low",
+    "name": "Onboarding",
+    "description": "Set Windows Defender Advanced Threat Protection Onboarding blob and initiate onboarding to Windows Defender Advanced Threat Protection",
     "keywords": [
       "Onboarding",
       "WindowsAdvancedThreatProtection",
       "Windows Advanced Threat Protection",
       "Microsoft Defender for Endpoint"
     ],
-    "riskLevel": "low",
-    "accessTypes": "get,replace",
-    "dependedOnBy": [],
-    "baseUri": "./Device/Vendor/MSFT/WindowsAdvancedThreatProtection",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
+    "uxBehavior": "default",
+    "visibility": "template",
+    "version": "639118729572626080",
+    "defaultValue": {
+      "settingValueTemplateReference": null,
+      "valueState": "invalid",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSecretSettingValue",
+      "value": "DefaultString"
     }
   },
   {
+    "applicability": {
+      "platform": "windows10",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "windowsSkus": [],
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "1.1",
+      "technologies": "mdm,configManager,microsoftSense",
+      "minimumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none"
+    },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "id": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype",
+    "accessTypes": "get,replace",
+    "baseUri": "./Device/Vendor/MSFT/WindowsAdvancedThreatProtection",
+    "rootDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype",
+    "displayName": "Microsoft Defender for Endpoint client configuration package type",
+    "helpText": null,
+    "settingUsage": "configuration",
+    "infoUrls": [],
+    "referredSettingInformationList": [],
     "options": [
       {
+        "itemId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype_autofromconnector",
         "helpText": null,
+        "displayName": "Auto from connector",
+        "name": "AutoFromConnector",
+        "description": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "AutoFromConnector"
+        },
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_windowsadvancedthreatprotection_onboarding_fromconnector",
             "required": true
           }
         ],
-        "description": null,
-        "dependentOn": [],
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "AutoFromConnector"
-        },
-        "name": "AutoFromConnector",
-        "displayName": "Auto from connector",
-        "itemId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype_autofromconnector"
+        "dependentOn": []
       },
       {
+        "itemId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype_onboard",
         "helpText": null,
+        "displayName": "Onboard",
+        "name": "Onboard",
+        "description": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "Onboard"
+        },
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_windowsadvancedthreatprotection_onboarding",
             "required": true
           }
         ],
-        "description": null,
-        "dependentOn": [],
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "Onboard"
-        },
-        "name": "Onboard",
-        "displayName": "Onboard",
-        "itemId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype_onboard"
+        "dependentOn": []
       },
       {
+        "itemId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype_offboard",
         "helpText": null,
+        "displayName": "Offboard",
+        "name": "Offboard",
+        "description": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "Offboard"
+        },
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_windowsadvancedthreatprotection_offboarding",
             "required": true
           }
         ],
-        "description": null,
-        "dependentOn": [],
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "Offboard"
-        },
-        "name": "Offboard",
-        "displayName": "Offboard",
-        "itemId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype_offboard"
+        "dependentOn": []
       }
     ],
-    "name": "ClientConfigurationPackageType",
-    "referredSettingInformationList": [],
-    "displayName": "Microsoft Defender for Endpoint client configuration package type",
-    "settingUsage": "configuration",
-    "rootDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype",
-    "infoUrls": [],
-    "applicability": {
-      "platform": "windows10",
-      "description": null,
-      "deviceMode": "none",
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "1.1",
-      "windowsSkus": [],
-      "maximumSupportedVersion": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "technologies": "mdm,configManager,microsoftSense"
-    },
-    "visibility": "template",
-    "description": "Microsoft Defender for Endpoint endpoint detection and response capabilities provide advanced attack detections that are near real-time and actionable. Security analysts can prioritize alerts effectively, gain visibility into the full scope of a breach, and take response actions to remediate threats.",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639118729572626080",
-    "helpText": null,
-    "offsetUri": "/",
     "categoryId": "577d5951-fc56-4906-90bc-2c508c6611ad",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "offsetUri": "/",
+    "riskLevel": "low",
+    "name": "ClientConfigurationPackageType",
+    "description": "Microsoft Defender for Endpoint endpoint detection and response capabilities provide advanced attack detections that are near real-time and actionable. Security analysts can prioritize alerts effectively, gain visibility into the full scope of a breach, and take response actions to remediate threats.",
     "keywords": [
       "Sample Sharing",
       "WindowsAdvancedThreatProtection",
       "Microsoft Defender for Endpoint"
     ],
-    "riskLevel": "low",
-    "accessTypes": "get,replace",
-    "baseUri": "./Device/Vendor/MSFT/WindowsAdvancedThreatProtection",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
+    "uxBehavior": "default",
+    "visibility": "template",
+    "version": "639118729572626080",
     "defaultOptionId": ""
   },
   {
-    "options": [
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": null,
-        "dependentOn": [],
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 0
-        },
-        "name": "Disabled",
-        "displayName": "None",
-        "itemId": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing_0"
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "description": null,
-        "dependentOn": [],
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 1
-        },
-        "name": "Enabled",
-        "displayName": "All",
-        "itemId": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing_1"
-      }
-    ],
-    "name": "SampleSharing",
-    "referredSettingInformationList": [],
-    "displayName": "Sample Sharing",
-    "settingUsage": "configuration",
-    "rootDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing",
-    "infoUrls": [],
     "applicability": {
       "platform": "windows10",
       "description": null,
-      "deviceMode": "none",
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "configurationServiceProviderVersion": "1.1",
-      "windowsSkus": [],
       "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "technologies": "mdm,configManager,microsoftSense"
+      "windowsSkus": [],
+      "requiresAzureAd": false,
+      "configurationServiceProviderVersion": "1.1",
+      "technologies": "mdm,configManager,microsoftSense",
+      "minimumSupportedVersion": null,
+      "requiredAzureAdTrustType": "none"
     },
-    "visibility": "settingsCatalog,template",
-    "description": "Return or set Windows Defender Advanced Threat Protection Sample Sharing configuration parameter: 0 - none, 1 - All",
-    "uxBehavior": "default",
-    "id": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "version": "639118729572626080",
+    "id": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing",
+    "accessTypes": "get,replace",
+    "baseUri": "./Device/Vendor/MSFT/WindowsAdvancedThreatProtection",
+    "rootDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing",
+    "displayName": "Sample Sharing",
     "helpText": null,
-    "offsetUri": "/Configuration/SampleSharing",
+    "settingUsage": "configuration",
+    "infoUrls": [],
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "itemId": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing_0",
+        "helpText": null,
+        "displayName": "None",
+        "name": "Disabled",
+        "description": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "dependedOnBy": [],
+        "dependentOn": []
+      },
+      {
+        "itemId": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing_1",
+        "helpText": null,
+        "displayName": "All",
+        "name": "Enabled",
+        "description": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "dependedOnBy": [],
+        "dependentOn": []
+      }
+    ],
     "categoryId": "577d5951-fc56-4906-90bc-2c508c6611ad",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "offsetUri": "/Configuration/SampleSharing",
+    "riskLevel": "low",
+    "name": "SampleSharing",
+    "description": "Return or set Windows Defender Advanced Threat Protection Sample Sharing configuration parameter: 0 - none, 1 - All",
     "keywords": [
       "Sample Sharing",
       "WindowsAdvancedThreatProtection",
       "Microsoft Defender for Endpoint"
     ],
-    "riskLevel": "low",
-    "accessTypes": "get,replace",
-    "baseUri": "./Device/Vendor/MSFT/WindowsAdvancedThreatProtection",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
+    "uxBehavior": "default",
+    "visibility": "settingsCatalog,template",
+    "version": "639118729572626080",
     "defaultOptionId": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing_1"
   }
 ]

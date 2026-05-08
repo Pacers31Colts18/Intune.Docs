@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_DomainName.md)
 
-**Report Generated:** 05/07/2026 06:16:13
+**Report Generated:** 05/08/2026 05:34:12
 
 ---
 
@@ -33,27 +33,27 @@ N/A
 
 ```json
 {
+  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "enforceSignatureCheck": false,
   "detectionScriptParameters": [],
   "roleScopeTagIds": [
     "0"
   ],
+  "remediationScriptParameters": [],
   "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z",
   "remediationScriptContent": "",
-  "highestAvailableVersion": null,
-  "publisher": " ",
-  "enforceSignatureCheck": false,
-  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "remediationScriptParameters": [],
-  "runAsAccount": "system",
-  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
-  "deviceHealthScriptType": "deviceHealthScript",
   "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
+  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
+  "description": "Outputs the domain name to be used for Azure Automation.",
+  "deviceHealthScriptType": "deviceHealthScript",
+  "runAsAccount": "system",
+  "highestAvailableVersion": null,
   "version": "1",
-  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
   "runAs32Bit": true,
-  "isGlobalScript": false,
-  "description": "Outputs the domain name to be used for Azure Automation."
+  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
+  "publisher": " ",
+  "isGlobalScript": false
 }
 ```
 

@@ -1,9 +1,6 @@
 {
   "navigationFallback": {
-    "rewrite": "/index.html",
-    "exclude": ["/manifest.json", "/Docs/**"]
-  },
-  "mimeTypes": {
-    ".md": "text/plain"
+    "rewrite": "/404.html",
+    "exclude": ["/assets/**", "/*.js", "/*.css", "/*.png", "/*.svg"]
   }
 }

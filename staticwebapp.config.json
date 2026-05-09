@@ -1,0 +1,9 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/manifest.json", "/Docs/**"]
+  },
+  "mimeTypes": {
+    ".md": "text/plain"
+  }
+}

@@ -2,7 +2,7 @@
 
 **Policy ID:** 636b62ee-ef57-4f54-a1f3-0046fafc9c11_WindowsRestore
 
-**Report Generated:** 05/08/2026 05:34:34
+**Report Generated:** 05/09/2026 05:53:49
 
 ---
 
@@ -14,8 +14,8 @@
 
 ```json
 {
-  "sourceId": null,
   "source": "direct",
+  "sourceId": null,
   "target": {
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterId": null,
@@ -31,8 +31,8 @@
 
 ```json
 {
-  "sourceId": null,
   "source": "direct",
+  "sourceId": null,
   "target": {
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterId": null,
@@ -48,8 +48,8 @@
 
 ```json
 {
-  "sourceId": null,
   "source": "direct",
+  "sourceId": null,
   "target": {
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterId": null,
@@ -65,8 +65,8 @@
 
 ```json
 {
-  "sourceId": null,
   "source": "direct",
+  "sourceId": null,
   "target": {
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterId": null,
@@ -82,8 +82,8 @@
 
 ```json
 {
-  "sourceId": null,
   "source": "direct",
+  "sourceId": null,
   "target": {
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterId": null,

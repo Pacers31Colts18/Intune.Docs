@@ -2,7 +2,7 @@
 
 **Policy ID:** d52a613e-d110-4708-8655-8322171ab236
 
-**Report Generated:** 05/08/2026 05:34:20
+**Report Generated:** 05/09/2026 05:53:28
 
 ---
 
@@ -14,8 +14,8 @@
 
 ```json
 {
-  "sourceId": "d52a613e-d110-4708-8655-8322171ab236",
   "source": "direct",
+  "sourceId": "d52a613e-d110-4708-8655-8322171ab236",
   "target": {
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterId": null,

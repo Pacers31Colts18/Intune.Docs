@@ -2,7 +2,7 @@
 
 **Policy ID:** 7d6eac50-af46-4409-82f8-f8613b811e96
 
-**Report Generated:** 05/08/2026 05:34:19
+**Report Generated:** 05/09/2026 05:53:27
 
 ---
 
@@ -14,8 +14,8 @@
 
 ```json
 {
-  "sourceId": "7d6eac50-af46-4409-82f8-f8613b811e96",
   "source": "direct",
+  "sourceId": "7d6eac50-af46-4409-82f8-f8613b811e96",
   "target": {
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterId": null,

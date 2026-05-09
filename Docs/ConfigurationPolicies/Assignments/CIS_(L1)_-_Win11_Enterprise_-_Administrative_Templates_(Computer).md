@@ -2,7 +2,7 @@
 
 **Policy ID:** b484ba35-3ecb-4a3b-8d65-59a226fb1058
 
-**Report Generated:** 05/08/2026 05:34:19
+**Report Generated:** 05/09/2026 05:53:27
 
 ---
 
@@ -14,8 +14,8 @@
 
 ```json
 {
-  "sourceId": "b484ba35-3ecb-4a3b-8d65-59a226fb1058",
   "source": "direct",
+  "sourceId": "b484ba35-3ecb-4a3b-8d65-59a226fb1058",
   "target": {
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterId": null,

@@ -1,6 +1,0 @@
-{
-  "navigationFallback": {
-    "rewrite": "/404.html",
-    "exclude": ["/assets/**", "/*.js", "/*.css", "/*.png", "/*.svg"]
-  }
-}

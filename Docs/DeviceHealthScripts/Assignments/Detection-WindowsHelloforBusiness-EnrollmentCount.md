@@ -2,7 +2,7 @@
 
 **Policy ID:** 3c216969-2cef-443d-ab7f-3433e3f7268e
 
-**Report Generated:** 05/08/2026 05:34:31
+**Report Generated:** 05/09/2026 05:53:45
 
 ---
 
@@ -15,18 +15,18 @@
 ```json
 {
   "runRemediationScript": false,
-  "runSchedule": {
-    "useUtc": false,
-    "time": "18:00:00.0000000",
-    "interval": 1,
-    "@odata.type": "#microsoft.graph.deviceHealthScriptDailySchedule"
-  },
   "target": {
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterId": "00000000-0000-0000-0000-000000000000",
     "deviceAndAppManagementAssignmentFilterType": "none"
   },
-  "id": "3c216969-2cef-443d-ab7f-3433e3f7268e:adadadad-808e-44e2-905a-0b7873a8a531"
+  "id": "3c216969-2cef-443d-ab7f-3433e3f7268e:adadadad-808e-44e2-905a-0b7873a8a531",
+  "runSchedule": {
+    "interval": 1,
+    "@odata.type": "#microsoft.graph.deviceHealthScriptDailySchedule",
+    "useUtc": false,
+    "time": "18:00:00.0000000"
+  }
 }
 ```
 

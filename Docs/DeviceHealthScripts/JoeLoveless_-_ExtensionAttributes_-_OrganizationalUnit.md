@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 05/08/2026 05:34:13
+**Report Generated:** 05/09/2026 05:53:19
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "runAsAccount": "system",
+  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
+  "version": "3",
+  "runAs32Bit": true,
+  "description": "ExtensionAttribute2: Organizational Unit of device",
+  "remediationScriptParameters": [],
+  "remediationScriptContent": "",
+  "highestAvailableVersion": null,
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "publisher": " Joe Loveless",
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
   "enforceSignatureCheck": false,
-  "detectionScriptParameters": [],
+  "isGlobalScript": false,
+  "deviceHealthScriptType": "deviceHealthScript",
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
   "roleScopeTagIds": [
     "0"
   ],
-  "remediationScriptParameters": [],
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
-  "remediationScriptContent": "",
-  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
-  "description": "ExtensionAttribute2: Organizational Unit of device",
-  "deviceHealthScriptType": "deviceHealthScript",
-  "runAsAccount": "system",
-  "highestAvailableVersion": null,
-  "version": "3",
-  "runAs32Bit": true,
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "publisher": " Joe Loveless",
-  "isGlobalScript": false
+  "detectionScriptParameters": [],
+  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998"
 }
 ```
 

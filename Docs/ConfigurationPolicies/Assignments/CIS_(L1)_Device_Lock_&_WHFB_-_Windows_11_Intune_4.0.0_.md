@@ -2,7 +2,7 @@
 
 **Policy ID:** de818a0e-0449-4a2f-be74-063a9694918d
 
-**Report Generated:** 05/08/2026 05:34:19
+**Report Generated:** 05/09/2026 05:53:28
 
 ---
 
@@ -14,8 +14,8 @@
 
 ```json
 {
-  "sourceId": "de818a0e-0449-4a2f-be74-063a9694918d",
   "source": "direct",
+  "sourceId": "de818a0e-0449-4a2f-be74-063a9694918d",
   "target": {
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterId": null,

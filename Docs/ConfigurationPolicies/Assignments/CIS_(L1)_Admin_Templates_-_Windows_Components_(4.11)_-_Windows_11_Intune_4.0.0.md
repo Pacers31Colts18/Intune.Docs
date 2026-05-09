@@ -2,7 +2,7 @@
 
 **Policy ID:** 870e159a-4fee-4b84-a5da-2d34072f80db
 
-**Report Generated:** 05/08/2026 05:34:19
+**Report Generated:** 05/09/2026 05:53:27
 
 ---
 
@@ -14,8 +14,8 @@
 
 ```json
 {
-  "sourceId": "870e159a-4fee-4b84-a5da-2d34072f80db",
   "source": "direct",
+  "sourceId": "870e159a-4fee-4b84-a5da-2d34072f80db",
   "target": {
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterId": null,

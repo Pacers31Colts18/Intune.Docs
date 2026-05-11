@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 05/10/2026 06:17:20
+**Report Generated:** 05/11/2026 06:46:04
 
 ---
 
 ```json
 {
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
   "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "deviceNameTemplate": "JL-%SERIAL%",
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "managementServiceAppId": null,
-  "extractHardwareHash": true,
-  "preprovisioningAllowed": false,
-  "locale": "os-default",
-  "language": "os-default",
-  "description": "",
-  "enableWhiteGlove": false,
-  "deviceType": "windowsPc",
-  "enrollmentStatusScreenSettings": null,
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "outOfBoxExperienceSetting": {
-    "privacySettingsHidden": true,
-    "escapeLinkHidden": true,
-    "keyboardSelectionPageSkipped": true,
+  "locale": "os-default",
+  "enrollmentStatusScreenSettings": null,
+  "outOfBoxExperienceSettings": {
     "deviceUsageType": "singleUser",
-    "eulaHidden": true,
-    "userType": "standard"
+    "skipKeyboardSelectionPage": true,
+    "userType": "standard",
+    "hidePrivacySettings": true,
+    "hideEscapeLink": true,
+    "hideEULA": true
   },
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "hardwareHashExtractionEnabled": true,
+  "language": "os-default",
+  "preprovisioningAllowed": false,
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "deviceNameTemplate": "JL-%SERIAL%",
   "roleScopeTagIds": [
     "0"
   ],
-  "outOfBoxExperienceSettings": {
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "deviceType": "windowsPc",
+  "description": "",
+  "managementServiceAppId": null,
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "enableWhiteGlove": false,
+  "hardwareHashExtractionEnabled": true,
+  "outOfBoxExperienceSetting": {
+    "deviceUsageType": "singleUser",
     "userType": "standard",
-    "hideEscapeLink": true,
-    "hidePrivacySettings": true,
-    "skipKeyboardSelectionPage": true,
-    "hideEULA": true,
-    "deviceUsageType": "singleUser"
+    "keyboardSelectionPageSkipped": true,
+    "escapeLinkHidden": true,
+    "privacySettingsHidden": true,
+    "eulaHidden": true
   },
-  "id": "54c48954-766f-4238-86da-ed2d872e793e"
+  "extractHardwareHash": true
 }
 ```
 

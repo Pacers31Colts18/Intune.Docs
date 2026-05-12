@@ -2,7 +2,7 @@
 
 **Policy ID:** 636b62ee-ef57-4f54-a1f3-0046fafc9c11_WindowsRestore
 
-**Report Generated:** 05/11/2026 06:46:17
+**Report Generated:** 05/12/2026 06:19:25
 
 ---
 

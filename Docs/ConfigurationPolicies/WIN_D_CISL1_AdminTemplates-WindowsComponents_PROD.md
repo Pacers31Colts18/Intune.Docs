@@ -56,7 +56,7 @@
 
 [**Assignments**](./Assignments/WIN_D_CISL1_AdminTemplates-WindowsComponents_PROD.md)
 
-**Report Generated:** 05/11/2026 06:45:55
+**Report Generated:** 05/12/2026 06:19:03
 
 ---
 
@@ -75,18 +75,18 @@ If you disable or do not configure this policy setting, users will need to sign 
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_appruntime_allowmicrosoftaccountstobeoptional_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "device_vendor_msft_policy_config_appruntime_allowmicrosoftaccountstobeoptional_1",
+  "name": "Enabled"
 }
 ```
 
@@ -106,18 +106,18 @@ If you do not configure this policy setting, Windows marks file attachments with
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "user_vendor_msft_policy_config_attachmentmanager_donotpreservezoneinformation_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "user_vendor_msft_policy_config_attachmentmanager_donotpreservezoneinformation_0",
+  "name": "Disabled"
 }
 ```
 
@@ -137,18 +137,18 @@ If you do not configure this policy setting, Windows does not call the registere
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "user_vendor_msft_policy_config_attachmentmanager_notifyantivirusprograms_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "user_vendor_msft_policy_config_attachmentmanager_notifyantivirusprograms_1",
+  "name": "Enabled"
 }
 ```
 
@@ -166,18 +166,18 @@ If you do not configure this policy setting, Windows does not call the registere
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_autoplay_disallowautoplayfornonvolumedevices_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "device_vendor_msft_policy_config_autoplay_disallowautoplayfornonvolumedevices_1",
+  "name": "Enabled"
 }
 ```
 
@@ -204,23 +204,23 @@ If you do not configure this policy setting, Windows does not call the registere
 
 ```json
 {
-  "helpText": null,
+  "displayName": "Enabled",
   "dependedOnBy": [
     {
-      "required": true,
-      "dependedOnBy": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown"
+      "dependedOnBy": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown",
+      "required": true
     }
   ],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
+  "description": null,
   "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
   "itemId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_1",
-  "name": "Enabled",
-  "displayName": "Enabled",
-  "description": null
+  "name": "Enabled"
 }
 ```
 
@@ -228,13 +228,13 @@ If you do not configure this policy setting, Windows does not call the registere
 ```json
 {
   "auditRuleInformation": null,
+  "choiceSettingValue": {
+    "settingValueTemplateReference": null,
+    "children": [],
+    "value": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown_1"
+  },
   "settingDefinitionId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "choiceSettingValue": {
-    "value": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown_1",
-    "children": [],
-    "settingValueTemplateReference": null
-  },
   "settingInstanceTemplateReference": null
 }
 ```
@@ -261,18 +261,18 @@ The policy applies to all Windows components and applications that use the Windo
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_credentialsui_disablepasswordreveal_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "device_vendor_msft_policy_config_credentialsui_disablepasswordreveal_1",
+  "name": "Enabled"
 }
 ```
 
@@ -290,18 +290,18 @@ If you disable this policy setting, users will always be required to type a user
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_credentialsui_enumerateadministrators_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_credentialsui_enumerateadministrators_0",
+  "name": "Disabled"
 }
 ```
 
@@ -316,18 +316,18 @@ If you disable this policy setting, users will always be required to type a user
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_admx_credui_nolocalpasswordresetquestions_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "device_vendor_msft_policy_config_admx_credui_nolocalpasswordresetquestions_1",
+  "name": "Enabled"
 }
 ```
 
@@ -345,18 +345,18 @@ If you disable this setting, users will not be able to enable experimental featu
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enableexperimentalfeatures_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enableexperimentalfeatures_0",
+  "name": "Disabled"
 }
 ```
 
@@ -374,18 +374,18 @@ If you disable this policy, users will not be able to enable the ability overrid
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enablehashoverride_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enablehashoverride_0",
+  "name": "Disabled"
 }
 ```
 
@@ -403,18 +403,18 @@ If you disable or do not configure this setting, users will not be able to insta
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enablemsappinstallerprotocol_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enablemsappinstallerprotocol_0",
+  "name": "Disabled"
 }
 ```
 
@@ -434,18 +434,18 @@ Note: Old events may or may not be retained according to the "Backup log automat
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_eventlogservice_controleventlogbehavior_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_eventlogservice_controleventlogbehavior_0",
+  "name": "Disabled"
 }
 ```
 
@@ -458,12 +458,12 @@ Note: Old events may or may not be retained according to the "Backup log automat
 {
   "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_channel_logmaxsize",
-  "simpleSettingValue": {
-    "value": 32768,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+  "simpleSettingValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 32768
+  },
   "settingInstanceTemplateReference": null
 }
 ```
@@ -485,18 +485,18 @@ Note: Old events may or may not be retained according to the "Backup log automat
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_2_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_2_0",
+  "name": "Disabled"
 }
 ```
 
@@ -509,12 +509,12 @@ Note: Old events may or may not be retained according to the "Backup log automat
 {
   "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_channel_logmaxsize",
-  "simpleSettingValue": {
-    "value": 196608,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+  "simpleSettingValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 196608
+  },
   "settingInstanceTemplateReference": null
 }
 ```
@@ -536,18 +536,18 @@ Note: Old events may or may not be retained according to the "Backup log automat
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_3_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_3_0",
+  "name": "Disabled"
 }
 ```
 
@@ -560,12 +560,12 @@ Note: Old events may or may not be retained according to the "Backup log automat
 {
   "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_channel_logmaxsize",
-  "simpleSettingValue": {
-    "value": 32768,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+  "simpleSettingValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 32768
+  },
   "settingInstanceTemplateReference": null
 }
 ```
@@ -587,18 +587,18 @@ Note: Old events may or may not be retained according to the "Backup log automat
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_4_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_4_0",
+  "name": "Disabled"
 }
 ```
 
@@ -616,23 +616,23 @@ If you disable or do not configure this policy setting, the maximum size of the 
 
 ```json
 {
-  "helpText": null,
+  "displayName": "Enabled",
   "dependedOnBy": [
     {
-      "required": true,
-      "dependedOnBy": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_channel_logmaxsize"
+      "dependedOnBy": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_channel_logmaxsize",
+      "required": true
     }
   ],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
+  "description": null,
   "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
   "itemId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_1",
-  "name": "Enabled",
-  "displayName": "Enabled",
-  "description": null
+  "name": "Enabled"
 }
 ```
 
@@ -641,12 +641,12 @@ If you disable or do not configure this policy setting, the maximum size of the 
 {
   "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_channel_logmaxsize",
-  "simpleSettingValue": {
-    "value": 32768,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+  "simpleSettingValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 32768
+  },
   "settingInstanceTemplateReference": null
 }
 ```
@@ -665,18 +665,18 @@ If you disable or do not configure this policy setting, the maximum size of the 
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_fileexplorer_turnoffdataexecutionpreventionforexplorer_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_fileexplorer_turnoffdataexecutionpreventionforexplorer_0",
+  "name": "Disabled"
 }
 ```
 
@@ -690,18 +690,18 @@ If you disable or do not configure this policy setting, the maximum size of the 
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_fileexplorer_turnoffheapterminationoncorruption_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_fileexplorer_turnoffheapterminationoncorruption_0",
+  "name": "Disabled"
 }
 ```
 
@@ -722,18 +722,18 @@ If you do not configure this policy setting the protocol is in the protected mod
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_admx_windowsexplorer_shellprotocolprotectedmodetitle_2_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_admx_windowsexplorer_shellprotocolprotectedmodetitle_2_0",
+  "name": "Disabled"
 }
 ```
 
@@ -752,18 +752,18 @@ By default, this setting is Disabled. This setting does not affect whether users
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth_1",
+  "name": "Enabled"
 }
 ```
 
@@ -782,18 +782,18 @@ If you disable or don't configure this policy setting, users can share files out
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "user_vendor_msft_policy_config_admx_sharing_noinplacesharing_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "user_vendor_msft_policy_config_admx_sharing_noinplacesharing_1",
+  "name": "Enabled"
 }
 ```
 
@@ -811,18 +811,18 @@ If you disable this setting or leave it not configured, the user will be able to
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowpasswordsaving_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowpasswordsaving_1",
+  "name": "Enabled"
 }
 ```
 
@@ -845,18 +845,18 @@ If you do not configure this policy setting, client drive redirection and Clipbo
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection_1",
+  "name": "Enabled"
 }
 ```
 
@@ -881,18 +881,18 @@ If you do not configure this policy setting, automatic logon is not specified at
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_remotedesktopservices_promptforpassworduponconnection_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "device_vendor_msft_policy_config_remotedesktopservices_promptforpassworduponconnection_1",
+  "name": "Enabled"
 }
 ```
 
@@ -916,18 +916,18 @@ Note: The RPC interface is used for administering and configuring Remote Desktop
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_remotedesktopservices_requiresecurerpccommunication_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "device_vendor_msft_policy_config_remotedesktopservices_requiresecurerpccommunication_1",
+  "name": "Enabled"
 }
 ```
 
@@ -957,18 +957,18 @@ Important: Disabling this policy setting provides less security because user aut
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_user_authentication_policy_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_user_authentication_policy_1",
+  "name": "Enabled"
 }
 ```
 
@@ -997,23 +997,23 @@ FIPS compliance can be configured through the System cryptography. Use FIPS comp
 
 ```json
 {
-  "helpText": null,
+  "displayName": "Enabled",
   "dependedOnBy": [
     {
-      "required": true,
-      "dependedOnBy": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level"
+      "dependedOnBy": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level",
+      "required": true
     }
   ],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
+  "description": null,
   "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
   "itemId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_1",
-  "name": "Enabled",
-  "displayName": "Enabled",
-  "description": null
+  "name": "Enabled"
 }
 ```
 
@@ -1021,13 +1021,13 @@ FIPS compliance can be configured through the System cryptography. Use FIPS comp
 ```json
 {
   "auditRuleInformation": null,
+  "choiceSettingValue": {
+    "settingValueTemplateReference": null,
+    "children": [],
+    "value": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level_3"
+  },
   "settingDefinitionId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "choiceSettingValue": {
-    "value": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level_3",
-    "children": [],
-    "settingValueTemplateReference": null
-  },
   "settingInstanceTemplateReference": null
 }
 ```
@@ -1054,18 +1054,18 @@ Note: This setting only takes effect if per-session temporary folders are in use
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_temp_delete_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_temp_delete_0",
+  "name": "Disabled"
 }
 ```
 
@@ -1083,18 +1083,18 @@ If you disable or do not configure this policy setting, the user can set the Fee
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_internetexplorer_disableenclosuredownloading_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "device_vendor_msft_policy_config_internetexplorer_disableenclosuredownloading_1",
+  "name": "Enabled"
 }
 ```
 
@@ -1113,18 +1113,18 @@ If you disable or do not configure this setting the Store application will offer
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_admx_windowsstore_disableosupgrade_2_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "device_vendor_msft_policy_config_admx_windowsstore_disableosupgrade_2_1",
+  "name": "Enabled"
 }
 ```
 
@@ -1142,18 +1142,18 @@ If you enable this setting, winlogon sends MPR notifications containing the user
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_windowslogon_enablemprnotifications_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_windowslogon_enablemprnotifications_0",
+  "name": "Disabled"
 }
 ```
 
@@ -1177,18 +1177,18 @@ If you disable this policy setting, the device does not configure automatic sign
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_windowslogon_allowautomaticrestartsignon_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_windowslogon_allowautomaticrestartsignon_0",
+  "name": "Disabled"
 }
 ```
 
@@ -1206,18 +1206,18 @@ If you disable or do not configure this policy setting, the WinRM client does no
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_client_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_client_0",
+  "name": "Disabled"
 }
 ```
 
@@ -1235,18 +1235,18 @@ If you disable or do not configure this policy setting, the WinRM client sends o
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_client_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_client_0",
+  "name": "Disabled"
 }
 ```
 
@@ -1264,18 +1264,18 @@ If you disable or do not configure this policy setting, the WinRM client uses Di
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_remotemanagement_disallowdigestauthentication_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "device_vendor_msft_policy_config_remotemanagement_disallowdigestauthentication_1",
+  "name": "Enabled"
 }
 ```
 
@@ -1293,18 +1293,18 @@ If you disable or do not configure this policy setting, the WinRM client uses Di
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_service_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_service_0",
+  "name": "Disabled"
 }
 ```
 
@@ -1322,18 +1322,18 @@ If you disable or do not configure this policy setting, the WinRM client sends o
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_service_0",
-  "name": "Disabled",
   "displayName": "Disabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0
+  },
+  "itemId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_service_0",
+  "name": "Disabled"
 }
 ```
 
@@ -1353,18 +1353,18 @@ If you enable and then disable this policy setting,any values that were previous
 
 ```json
 {
-  "helpText": null,
-  "dependedOnBy": [],
-  "optionValue": {
-    "value": 1,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null
-  },
-  "dependentOn": [],
-  "itemId": "device_vendor_msft_policy_config_remotemanagement_disallowstoringofrunascredentials_1",
-  "name": "Enabled",
   "displayName": "Enabled",
-  "description": null
+  "dependedOnBy": [],
+  "description": null,
+  "dependentOn": [],
+  "helpText": null,
+  "optionValue": {
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1
+  },
+  "itemId": "device_vendor_msft_policy_config_remotemanagement_disallowstoringofrunascredentials_1",
+  "name": "Enabled"
 }
 ```
 
@@ -1372,7 +1372,19 @@ If you enable and then disable this policy setting,any values that were previous
 ```json
 [
   {
+    "offsetUri": "/Config/AppRuntime/AllowMicrosoftAccountsToBeOptional",
+    "rootDefinitionId": "device_vendor_msft_policy_config_appruntime_allowmicrosoftaccountstobeoptional",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_appruntime_allowmicrosoftaccountstobeoptional",
+    "categoryId": "1ed81d90-7326-4d0b-8934-b0a8bdddc5ce",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "AppxRuntimeMicrosoftAccountsOptional",
+    "uxBehavior": "toggle",
     "keywords": [
       "AppxRuntimeMicrosoftAccountsOptional",
       "Allow Microsoft accounts to be optional",
@@ -1380,65 +1392,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\App runtime",
       "App runtime"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "AppxRuntimeMicrosoftAccountsOptional",
-    "defaultOptionId": "device_vendor_msft_policy_config_appruntime_allowmicrosoftaccountstobeoptional_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting lets you control whether Microsoft accounts are optional for packaged Microsoft Store apps that require an account to sign in. This policy only affects packaged Microsoft Store apps that support it.\r\n\r\nIf you enable this policy setting, packaged Microsoft Store apps that typically require a Microsoft account to sign in will allow users to sign in with an enterprise account instead.\r\n\r\nIf you disable or do not configure this policy setting, users will need to sign in with a Microsoft account.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "1ed81d90-7326-4d0b-8934-b0a8bdddc5ce",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Allow Microsoft accounts to be optional",
-    "rootDefinitionId": "device_vendor_msft_policy_config_appruntime_allowmicrosoftaccountstobeoptional",
-    "id": "device_vendor_msft_policy_config_appruntime_allowmicrosoftaccountstobeoptional",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_appruntime_allowmicrosoftaccountstobeoptional_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_appruntime_allowmicrosoftaccountstobeoptional_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_appruntime_allowmicrosoftaccountstobeoptional_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_appruntime_allowmicrosoftaccountstobeoptional_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_appruntime_allowmicrosoftaccountstobeoptional_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/AppRuntime/AllowMicrosoftAccountsToBeOptional",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "7.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.17134",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1449,16 +1445,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "7.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting lets you control whether Microsoft accounts are optional for packaged Microsoft Store apps that require an account to sign in. This policy only affects packaged Microsoft Store apps that support it.\r\n\r\nIf you enable this policy setting, packaged Microsoft Store apps that typically require a Microsoft account to sign in will allow users to sign in with an enterprise account instead.\r\n\r\nIf you disable or do not configure this policy setting, users will need to sign in with a Microsoft account.",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-appruntime#appruntime-allowmicrosoftaccountstobeoptional"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/AttachmentManager/DoNotPreserveZoneInformation",
+    "rootDefinitionId": "user_vendor_msft_policy_config_attachmentmanager_donotpreservezoneinformation",
+    "baseUri": "./User/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "user_vendor_msft_policy_config_attachmentmanager_donotpreservezoneinformation",
+    "categoryId": "3f8299b3-6803-4576-be08-7c311d04b8b9",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "AM_MarkZoneOnSavedAtttachments",
+    "uxBehavior": "toggle",
     "keywords": [
       "AM_MarkZoneOnSavedAtttachments",
       "Do not preserve zone information in file attachments",
@@ -1466,65 +1478,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Attachment Manager",
       "Attachment Manager"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "AM_MarkZoneOnSavedAtttachments",
-    "defaultOptionId": "user_vendor_msft_policy_config_attachmentmanager_donotpreservezoneinformation_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting allows you to manage whether Windows marks file attachments with information about their zone of origin (such as restricted, Internet, intranet, local). This requires NTFS in order to function correctly, and will fail without notice on FAT32. By not preserving the zone information, Windows cannot make proper risk assessments.\r\n\r\nIf you enable this policy setting, Windows does not mark file attachments with their zone information.\r\n\r\nIf you disable this policy setting, Windows marks file attachments with their zone information.\r\n\r\nIf you do not configure this policy setting, Windows marks file attachments with their zone information.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "3f8299b3-6803-4576-be08-7c311d04b8b9",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Do not preserve zone information in file attachments (User)",
-    "rootDefinitionId": "user_vendor_msft_policy_config_attachmentmanager_donotpreservezoneinformation",
-    "id": "user_vendor_msft_policy_config_attachmentmanager_donotpreservezoneinformation",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "user_vendor_msft_policy_config_attachmentmanager_donotpreservezoneinformation_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "user_vendor_msft_policy_config_attachmentmanager_donotpreservezoneinformation_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "user_vendor_msft_policy_config_attachmentmanager_donotpreservezoneinformation_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "user_vendor_msft_policy_config_attachmentmanager_donotpreservezoneinformation_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "user_vendor_msft_policy_config_attachmentmanager_donotpreservezoneinformation_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/AttachmentManager/DoNotPreserveZoneInformation",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1534,16 +1530,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./User/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting allows you to manage whether Windows marks file attachments with information about their zone of origin (such as restricted, Internet, intranet, local). This requires NTFS in order to function correctly, and will fail without notice on FAT32. By not preserving the zone information, Windows cannot make proper risk assessments.\r\n\r\nIf you enable this policy setting, Windows does not mark file attachments with their zone information.\r\n\r\nIf you disable this policy setting, Windows marks file attachments with their zone information.\r\n\r\nIf you do not configure this policy setting, Windows marks file attachments with their zone information.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-attachmentmanager#attachmentmanager-donotpreservezoneinformation"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/AttachmentManager/NotifyAntivirusPrograms",
+    "rootDefinitionId": "user_vendor_msft_policy_config_attachmentmanager_notifyantivirusprograms",
+    "baseUri": "./User/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "user_vendor_msft_policy_config_attachmentmanager_notifyantivirusprograms",
+    "categoryId": "3f8299b3-6803-4576-be08-7c311d04b8b9",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "AM_CallIOfficeAntiVirus",
+    "uxBehavior": "toggle",
     "keywords": [
       "AM_CallIOfficeAntiVirus",
       "Notify antivirus programs when opening attachments",
@@ -1551,65 +1563,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Attachment Manager",
       "Attachment Manager"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "AM_CallIOfficeAntiVirus",
-    "defaultOptionId": "user_vendor_msft_policy_config_attachmentmanager_notifyantivirusprograms_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting allows you to manage the behavior for notifying registered antivirus programs. If multiple programs are registered, they will all be notified. If the registered antivirus program already performs on-access checks or scans files as they arrive on the computer's email server, additional calls would be redundant. \r\n\r\nIf you enable this policy setting, Windows tells the registered antivirus program to scan the file when a user opens a file attachment. If the antivirus program fails, the attachment is blocked from being opened.\r\n\r\nIf you disable this policy setting, Windows does not call the registered antivirus programs when file attachments are opened.\r\n\r\nIf you do not configure this policy setting, Windows does not call the registered antivirus programs when file attachments are opened.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "3f8299b3-6803-4576-be08-7c311d04b8b9",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Notify antivirus programs when opening attachments (User)",
-    "rootDefinitionId": "user_vendor_msft_policy_config_attachmentmanager_notifyantivirusprograms",
-    "id": "user_vendor_msft_policy_config_attachmentmanager_notifyantivirusprograms",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "user_vendor_msft_policy_config_attachmentmanager_notifyantivirusprograms_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "user_vendor_msft_policy_config_attachmentmanager_notifyantivirusprograms_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "user_vendor_msft_policy_config_attachmentmanager_notifyantivirusprograms_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "user_vendor_msft_policy_config_attachmentmanager_notifyantivirusprograms_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "user_vendor_msft_policy_config_attachmentmanager_notifyantivirusprograms_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/AttachmentManager/NotifyAntivirusPrograms",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1619,81 +1615,81 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./User/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting allows you to manage the behavior for notifying registered antivirus programs. If multiple programs are registered, they will all be notified. If the registered antivirus program already performs on-access checks or scans files as they arrive on the computer's email server, additional calls would be redundant. \r\n\r\nIf you enable this policy setting, Windows tells the registered antivirus program to scan the file when a user opens a file attachment. If the antivirus program fails, the attachment is blocked from being opened.\r\n\r\nIf you disable this policy setting, Windows does not call the registered antivirus programs when file attachments are opened.\r\n\r\nIf you do not configure this policy setting, Windows does not call the registered antivirus programs when file attachments are opened.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-attachmentmanager#attachmentmanager-notifyantivirusprograms"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/Autoplay/DisallowAutoplayForNonVolumeDevices",
+    "rootDefinitionId": "device_vendor_msft_policy_config_autoplay_disallowautoplayfornonvolumedevices",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_autoplay_disallowautoplayfornonvolumedevices",
+    "categoryId": "2dc7de59-a2b5-4f4a-96a4-597927af0617",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "NoAutoplayfornonVolume",
+    "uxBehavior": "toggle",
     "keywords": [
       "NoAutoplayfornonVolume",
       "Disallow Autoplay for non-volume devices",
       "\\Windows Components\\AutoPlay Policies",
       "AutoPlay Policies"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "NoAutoplayfornonVolume",
-    "defaultOptionId": "device_vendor_msft_policy_config_autoplay_disallowautoplayfornonvolumedevices_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting disallows AutoPlay for MTP devices like cameras or phones.\r\n\r\n          If you enable this policy setting, AutoPlay is not allowed for MTP devices like cameras or phones.\r\n\r\n          If you disable or do not configure this policy setting, AutoPlay is enabled for non-volume devices.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "2dc7de59-a2b5-4f4a-96a4-597927af0617",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Disallow Autoplay for non-volume devices",
-    "rootDefinitionId": "device_vendor_msft_policy_config_autoplay_disallowautoplayfornonvolumedevices",
-    "id": "device_vendor_msft_policy_config_autoplay_disallowautoplayfornonvolumedevices",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_autoplay_disallowautoplayfornonvolumedevices_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_autoplay_disallowautoplayfornonvolumedevices_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_autoplay_disallowautoplayfornonvolumedevices_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_autoplay_disallowautoplayfornonvolumedevices_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_autoplay_disallowautoplayfornonvolumedevices_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/Autoplay/DisallowAutoplayForNonVolumeDevices",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1703,359 +1699,86 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting disallows AutoPlay for MTP devices like cameras or phones.\r\n\r\n          If you enable this policy setting, AutoPlay is not allowed for MTP devices like cameras or phones.\r\n\r\n          If you disable or do not configure this policy setting, AutoPlay is enabled for non-volume devices.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-autoplay#autoplay-disallowautoplayfornonvolumedevices"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/Autoplay/SetDefaultAutoRunBehavior",
+    "rootDefinitionId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
-    "keywords": [
-      "NoAutorun",
-      "Set the default behavior for AutoRun",
-      "\\Windows Components\\AutoPlay Policies",
-      "AutoPlay Policies"
-    ],
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior",
+    "categoryId": "2dc7de59-a2b5-4f4a-96a4-597927af0617",
     "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
     },
     "name": "NoAutorun",
-    "defaultOptionId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_0",
     "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting sets the default behavior for Autorun commands.\r\n\r\n          Autorun commands are generally stored in autorun.inf files. They often launch the installation program or other routines.\r\n\r\n          Prior to Windows Vista, when media containing an autorun command is inserted, the system will automatically execute the program without user intervention.\r\n\r\n          This creates a major security concern as code may be executed without user's knowledge. The default behavior starting with Windows Vista is to prompt the user whether autorun command is to be run. The autorun command is represented as a handler in the Autoplay dialog.\r\n\r\n          If you enable this policy setting, an Administrator can change the default Windows Vista or later behavior for autorun to:\r\n\r\n          a) Completely disable autorun commands, or\r\n          b) Revert back to pre-Windows Vista behavior of automatically executing the autorun command.\r\n\r\n          If you disable or not configure this policy setting, Windows Vista or later will prompt the user whether autorun command is to be run.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "2dc7de59-a2b5-4f4a-96a4-597927af0617",
-    "accessTypes": "add,delete,get,replace",
-    "displayName": "Set the default behavior for AutoRun",
-    "rootDefinitionId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior",
-    "id": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_0",
-        "name": "Disabled",
-        "displayName": "Disabled",
-        "description": null
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown"
-          }
-        ],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_1",
-        "name": "Enabled",
-        "displayName": "Enabled",
-        "description": null
-      }
-    ],
-    "offsetUri": "/Config/Autoplay/SetDefaultAutoRunBehavior",
-    "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
-      "maximumSupportedVersion": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
-    },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-autoplay#autoplay-setdefaultautorunbehavior"
-    ]
-  },
-  {
-    "riskLevel": "low",
     "keywords": [
       "NoAutorun",
       "Set the default behavior for AutoRun",
       "\\Windows Components\\AutoPlay Policies",
       "AutoPlay Policies"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "NoAutorun_Dropdown",
-    "defaultOptionId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown_1",
-    "uxBehavior": "default",
-    "helpText": "",
-    "description": "",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "2dc7de59-a2b5-4f4a-96a4-597927af0617",
-    "accessTypes": "add,delete,get,replace",
-    "displayName": "Default AutoRun Behavior",
-    "rootDefinitionId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior",
-    "id": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "displayName": "Set the default behavior for AutoRun",
+    "defaultOptionId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": "1",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_1",
-            "parentSettingId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior"
-          }
-        ],
-        "itemId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown_1",
-        "name": "Do not execute any autorun commands",
-        "displayName": "Do not execute any autorun commands",
-        "description": null
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": "2",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_1",
-            "parentSettingId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior"
-          }
-        ],
-        "itemId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown_2",
-        "name": "Automatically execute autorun commands",
-        "displayName": "Automatically execute autorun commands",
-        "description": null
-      }
-    ],
-    "offsetUri": "/Config/Autoplay/SetDefaultAutoRunBehavior",
-    "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
-      "maximumSupportedVersion": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
-    },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "infoUrls": []
-  },
-  {
-    "riskLevel": "low",
-    "keywords": [
-      "Autorun",
-      "Turn off Autoplay",
-      "\\Windows Components\\AutoPlay Policies",
-      "AutoPlay Policies"
-    ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "Autorun_Box",
-    "defaultOptionId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box_181",
-    "uxBehavior": "default",
-    "helpText": "",
-    "description": "",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "2dc7de59-a2b5-4f4a-96a4-597927af0617",
-    "accessTypes": "add,delete,get,replace",
-    "displayName": "Turn off Autoplay on:",
-    "rootDefinitionId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay",
-    "id": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": "181",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_1",
-            "parentSettingId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay"
-          }
-        ],
-        "itemId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box_181",
-        "name": "CD-ROM and removable media drives",
-        "displayName": "CD-ROM and removable media drives",
-        "description": null
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": "255",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_1",
-            "parentSettingId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay"
-          }
-        ],
-        "itemId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box_255",
-        "name": "All drives",
-        "displayName": "All drives",
-        "description": null
-      }
-    ],
-    "offsetUri": "/Config/Autoplay/TurnOffAutoPlay",
-    "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
-      "maximumSupportedVersion": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
-    },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "infoUrls": []
-  },
-  {
-    "riskLevel": "low",
-    "keywords": [
-      "Autorun",
-      "Turn off Autoplay",
-      "\\Windows Components\\AutoPlay Policies",
-      "AutoPlay Policies"
-    ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "Autorun",
-    "defaultOptionId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting allows you to turn off the Autoplay feature.\r\n\r\n          Autoplay begins reading from a drive as soon as you insert media in the drive. As a result, the setup file of programs and the music on audio media start immediately.\r\n\r\n          Prior to Windows XP SP2, Autoplay is disabled by default on removable drives, such as the floppy disk drive (but not the CD-ROM drive), and on network drives.\r\n\r\n          Starting with Windows XP SP2, Autoplay is enabled for removable drives as well, including Zip drives and some USB mass storage devices.\r\n\r\n          If you enable this policy setting, Autoplay is disabled on CD-ROM and removable media drives, or disabled on all drives.\r\n\r\n          This policy setting disables Autoplay on additional types of drives. You cannot use this setting to enable Autoplay on drives on which it is disabled by default.\r\n\r\n          If you disable or do not configure this policy setting, AutoPlay is enabled.\r\n\r\n          Note: This policy setting appears in both the Computer Configuration and User Configuration folders. If the policy settings conflict, the policy setting in Computer Configuration takes precedence over the policy setting in User Configuration.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "2dc7de59-a2b5-4f4a-96a4-597927af0617",
-    "accessTypes": "add,delete,get,replace",
-    "displayName": "Turn off Autoplay",
-    "rootDefinitionId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay",
-    "id": "device_vendor_msft_policy_config_autoplay_turnoffautoplay",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
+        "displayName": "Enabled",
         "dependedOnBy": [
           {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box"
+            "dependedOnBy": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown",
+            "required": true
           }
         ],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
+        "description": null,
         "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_1",
-        "name": "Enabled",
-        "displayName": "Enabled",
-        "description": null
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/Autoplay/TurnOffAutoPlay",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2065,16 +1788,305 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting sets the default behavior for Autorun commands.\r\n\r\n          Autorun commands are generally stored in autorun.inf files. They often launch the installation program or other routines.\r\n\r\n          Prior to Windows Vista, when media containing an autorun command is inserted, the system will automatically execute the program without user intervention.\r\n\r\n          This creates a major security concern as code may be executed without user's knowledge. The default behavior starting with Windows Vista is to prompt the user whether autorun command is to be run. The autorun command is represented as a handler in the Autoplay dialog.\r\n\r\n          If you enable this policy setting, an Administrator can change the default Windows Vista or later behavior for autorun to:\r\n\r\n          a) Completely disable autorun commands, or\r\n          b) Revert back to pre-Windows Vista behavior of automatically executing the autorun command.\r\n\r\n          If you disable or not configure this policy setting, Windows Vista or later will prompt the user whether autorun command is to be run.",
     "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-autoplay#autoplay-turnoffautoplay"
-    ]
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-autoplay#autoplay-setdefaultautorunbehavior"
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/Autoplay/SetDefaultAutoRunBehavior",
+    "rootDefinitionId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown",
+    "categoryId": "2dc7de59-a2b5-4f4a-96a4-597927af0617",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "NoAutorun_Dropdown",
+    "uxBehavior": "default",
+    "keywords": [
+      "NoAutorun",
+      "Set the default behavior for AutoRun",
+      "\\Windows Components\\AutoPlay Policies",
+      "AutoPlay Policies"
+    ],
+    "displayName": "Default AutoRun Behavior",
+    "defaultOptionId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown_1",
+    "options": [
+      {
+        "displayName": "Do not execute any autorun commands",
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_1",
+            "parentSettingId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior"
+          }
+        ],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "1"
+        },
+        "itemId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown_1",
+        "name": "Do not execute any autorun commands"
+      },
+      {
+        "displayName": "Automatically execute autorun commands",
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_1",
+            "parentSettingId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior"
+          }
+        ],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "2"
+        },
+        "itemId": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown_2",
+        "name": "Automatically execute autorun commands"
+      }
+    ],
+    "helpText": "",
+    "applicability": {
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "requiredAzureAdTrustType": "none"
+    },
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "",
+    "infoUrls": [],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
+  },
+  {
+    "offsetUri": "/Config/Autoplay/TurnOffAutoPlay",
+    "rootDefinitionId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box",
+    "categoryId": "2dc7de59-a2b5-4f4a-96a4-597927af0617",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Autorun_Box",
+    "uxBehavior": "default",
+    "keywords": [
+      "Autorun",
+      "Turn off Autoplay",
+      "\\Windows Components\\AutoPlay Policies",
+      "AutoPlay Policies"
+    ],
+    "displayName": "Turn off Autoplay on:",
+    "defaultOptionId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box_181",
+    "options": [
+      {
+        "displayName": "CD-ROM and removable media drives",
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_1",
+            "parentSettingId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay"
+          }
+        ],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "181"
+        },
+        "itemId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box_181",
+        "name": "CD-ROM and removable media drives"
+      },
+      {
+        "displayName": "All drives",
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_1",
+            "parentSettingId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay"
+          }
+        ],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "255"
+        },
+        "itemId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box_255",
+        "name": "All drives"
+      }
+    ],
+    "helpText": "",
+    "applicability": {
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "requiredAzureAdTrustType": "none"
+    },
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "",
+    "infoUrls": [],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
+  },
+  {
+    "offsetUri": "/Config/Autoplay/TurnOffAutoPlay",
+    "rootDefinitionId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_autoplay_turnoffautoplay",
+    "categoryId": "2dc7de59-a2b5-4f4a-96a4-597927af0617",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Autorun",
+    "uxBehavior": "toggle",
+    "keywords": [
+      "Autorun",
+      "Turn off Autoplay",
+      "\\Windows Components\\AutoPlay Policies",
+      "AutoPlay Policies"
+    ],
+    "displayName": "Turn off Autoplay",
+    "defaultOptionId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_0",
+    "options": [
+      {
+        "displayName": "Disabled",
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_0",
+        "name": "Disabled"
+      },
+      {
+        "displayName": "Enabled",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box",
+            "required": true
+          }
+        ],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_1",
+        "name": "Enabled"
+      }
+    ],
+    "helpText": "",
+    "applicability": {
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "requiredAzureAdTrustType": "none"
+    },
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting allows you to turn off the Autoplay feature.\r\n\r\n          Autoplay begins reading from a drive as soon as you insert media in the drive. As a result, the setup file of programs and the music on audio media start immediately.\r\n\r\n          Prior to Windows XP SP2, Autoplay is disabled by default on removable drives, such as the floppy disk drive (but not the CD-ROM drive), and on network drives.\r\n\r\n          Starting with Windows XP SP2, Autoplay is enabled for removable drives as well, including Zip drives and some USB mass storage devices.\r\n\r\n          If you enable this policy setting, Autoplay is disabled on CD-ROM and removable media drives, or disabled on all drives.\r\n\r\n          This policy setting disables Autoplay on additional types of drives. You cannot use this setting to enable Autoplay on drives on which it is disabled by default.\r\n\r\n          If you disable or do not configure this policy setting, AutoPlay is enabled.\r\n\r\n          Note: This policy setting appears in both the Computer Configuration and User Configuration folders. If the policy settings conflict, the policy setting in Computer Configuration takes precedence over the policy setting in User Configuration.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-autoplay#autoplay-turnoffautoplay"
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
+  },
+  {
+    "offsetUri": "/Config/CredentialsUI/DisablePasswordReveal",
+    "rootDefinitionId": "device_vendor_msft_policy_config_credentialsui_disablepasswordreveal",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_credentialsui_disablepasswordreveal",
+    "categoryId": "5d19c257-8b7e-4071-9303-19317c94d7f7",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "DisablePasswordReveal",
+    "uxBehavior": "toggle",
     "keywords": [
       "DisablePasswordReveal",
       "Do not display the password reveal button",
@@ -2082,65 +2094,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Credential User Interface",
       "Credential User Interface"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "DisablePasswordReveal",
-    "defaultOptionId": "device_vendor_msft_policy_config_credentialsui_disablepasswordreveal_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting allows you to configure the display of the password reveal button in password entry user experiences.\r\n\r\nIf you enable this policy setting, the password reveal button will not be displayed after a user types a password in the password entry text box.\r\n\r\nIf you disable or do not configure this policy setting, the password reveal button will be displayed after a user types a password in the password entry text box.\r\n\r\nBy default, the password reveal button is displayed after a user types a password in the password entry text box. To display the password, click the password reveal button.\r\n\r\nThe policy applies to all Windows components and applications that use the Windows system controls, including Internet Explorer.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "5d19c257-8b7e-4071-9303-19317c94d7f7",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Do not display the password reveal button",
-    "rootDefinitionId": "device_vendor_msft_policy_config_credentialsui_disablepasswordreveal",
-    "id": "device_vendor_msft_policy_config_credentialsui_disablepasswordreveal",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_credentialsui_disablepasswordreveal_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_credentialsui_disablepasswordreveal_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_credentialsui_disablepasswordreveal_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_credentialsui_disablepasswordreveal_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_credentialsui_disablepasswordreveal_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/CredentialsUI/DisablePasswordReveal",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2151,16 +2147,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting allows you to configure the display of the password reveal button in password entry user experiences.\r\n\r\nIf you enable this policy setting, the password reveal button will not be displayed after a user types a password in the password entry text box.\r\n\r\nIf you disable or do not configure this policy setting, the password reveal button will be displayed after a user types a password in the password entry text box.\r\n\r\nBy default, the password reveal button is displayed after a user types a password in the password entry text box. To display the password, click the password reveal button.\r\n\r\nThe policy applies to all Windows components and applications that use the Windows system controls, including Internet Explorer.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-credentialsui#credentialsui-disablepasswordreveal"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/CredentialsUI/EnumerateAdministrators",
+    "rootDefinitionId": "device_vendor_msft_policy_config_credentialsui_enumerateadministrators",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_credentialsui_enumerateadministrators",
+    "categoryId": "5d19c257-8b7e-4071-9303-19317c94d7f7",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "EnumerateAdministrators",
+    "uxBehavior": "toggle",
     "keywords": [
       "EnumerateAdministrators",
       "Enumerate administrator accounts on elevation",
@@ -2168,65 +2180,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Credential User Interface",
       "Credential User Interface"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "EnumerateAdministrators",
-    "defaultOptionId": "device_vendor_msft_policy_config_credentialsui_enumerateadministrators_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting controls whether administrator accounts are displayed when a user attempts to elevate a running application. By default, administrator accounts are not displayed when the user attempts to elevate a running application.\r\n\r\nIf you enable this policy setting, all local administrator accounts on the PC will be displayed so the user can choose one and enter the correct password.\r\n\r\nIf you disable this policy setting, users will always be required to type a user name and password to elevate.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "5d19c257-8b7e-4071-9303-19317c94d7f7",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Enumerate administrator accounts on elevation",
-    "rootDefinitionId": "device_vendor_msft_policy_config_credentialsui_enumerateadministrators",
-    "id": "device_vendor_msft_policy_config_credentialsui_enumerateadministrators",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_credentialsui_enumerateadministrators_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_credentialsui_enumerateadministrators_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_credentialsui_enumerateadministrators_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_credentialsui_enumerateadministrators_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_credentialsui_enumerateadministrators_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/CredentialsUI/EnumerateAdministrators",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2237,16 +2233,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting controls whether administrator accounts are displayed when a user attempts to elevate a running application. By default, administrator accounts are not displayed when the user attempts to elevate a running application.\r\n\r\nIf you enable this policy setting, all local administrator accounts on the PC will be displayed so the user can choose one and enter the correct password.\r\n\r\nIf you disable this policy setting, users will always be required to type a user name and password to elevate.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-credentialsui#credentialsui-enumerateadministrators"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_CredUI/NoLocalPasswordResetQuestions",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_credui_nolocalpasswordresetquestions",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_credui_nolocalpasswordresetquestions",
+    "categoryId": "5d19c257-8b7e-4071-9303-19317c94d7f7",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "NoLocalPasswordResetQuestions",
+    "uxBehavior": "toggle",
     "keywords": [
       "NoLocalPasswordResetQuestions",
       "Prevent the use of security questions for local accounts",
@@ -2256,65 +2268,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Machine",
       "Software\\Policies\\Microsoft\\Windows\\System"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "NoLocalPasswordResetQuestions",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_credui_nolocalpasswordresetquestions_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "If you turn this policy setting on, local users won’t be able to set up and use security questions to reset their passwords.\r\n ",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "5d19c257-8b7e-4071-9303-19317c94d7f7",
-    "accessTypes": "none",
     "displayName": "Prevent the use of security questions for local accounts",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_credui_nolocalpasswordresetquestions",
-    "id": "device_vendor_msft_policy_config_admx_credui_nolocalpasswordresetquestions",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_credui_nolocalpasswordresetquestions_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_credui_nolocalpasswordresetquestions_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_credui_nolocalpasswordresetquestions_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_credui_nolocalpasswordresetquestions_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_credui_nolocalpasswordresetquestions_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_CredUI/NoLocalPasswordResetQuestions",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2326,16 +2322,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "If you turn this policy setting on, local users won’t be able to set up and use security questions to reset their passwords.\r\n ",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-credui#admx-credui-nolocalpasswordresetquestions"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/DesktopAppInstaller/EnableExperimentalFeatures",
+    "rootDefinitionId": "device_vendor_msft_policy_config_desktopappinstaller_enableexperimentalfeatures",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_desktopappinstaller_enableexperimentalfeatures",
+    "categoryId": "70063d93-03f0-462e-9943-b0241b88d54d",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "EnableExperimentalFeatures",
+    "uxBehavior": "toggle",
     "keywords": [
       "EnableExperimentalFeatures",
       "Enable App Installer Experimental Features",
@@ -2345,65 +2357,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Machine",
       "Software\\Policies\\Microsoft\\Windows\\AppInstaller"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "EnableExperimentalFeatures",
-    "defaultOptionId": "device_vendor_msft_policy_config_desktopappinstaller_enableexperimentalfeatures_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy controls whether users can enable experimental features in the Windows Package Manager.\r\n\r\nIf you enable or do not configure this setting, users will be able to enable experimental features for the Windows Package Manager.\r\n\r\nIf you disable this setting, users will not be able to enable experimental features for the Windows Package Manager.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "70063d93-03f0-462e-9943-b0241b88d54d",
-    "accessTypes": "none",
     "displayName": "Enable App Installer Experimental Features",
-    "rootDefinitionId": "device_vendor_msft_policy_config_desktopappinstaller_enableexperimentalfeatures",
-    "id": "device_vendor_msft_policy_config_desktopappinstaller_enableexperimentalfeatures",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_desktopappinstaller_enableexperimentalfeatures_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enableexperimentalfeatures_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enableexperimentalfeatures_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enableexperimentalfeatures_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enableexperimentalfeatures_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/DesktopAppInstaller/EnableExperimentalFeatures",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.22621",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "11.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22621",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2413,16 +2409,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "11.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This policy controls whether users can enable experimental features in the Windows Package Manager.\r\n\r\nIf you enable or do not configure this setting, users will be able to enable experimental features for the Windows Package Manager.\r\n\r\nIf you disable this setting, users will not be able to enable experimental features for the Windows Package Manager.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-desktopappinstaller#desktopappinstaller-enableexperimentalfeatures"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/DesktopAppInstaller/EnableHashOverride",
+    "rootDefinitionId": "device_vendor_msft_policy_config_desktopappinstaller_enablehashoverride",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_desktopappinstaller_enablehashoverride",
+    "categoryId": "70063d93-03f0-462e-9943-b0241b88d54d",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "EnableHashOverride",
+    "uxBehavior": "toggle",
     "keywords": [
       "EnableHashOverride",
       "Enable App Installer Hash Override",
@@ -2432,65 +2444,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Machine",
       "Software\\Policies\\Microsoft\\Windows\\AppInstaller"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "EnableHashOverride",
-    "defaultOptionId": "device_vendor_msft_policy_config_desktopappinstaller_enablehashoverride_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy controls whether or not the Windows Package Manager can be configured to enable the ability override the SHA256 security validation in settings.\r\n\r\nIf you enable or do not configure this policy, users will be able to enable the ability override the SHA256 security validation in the Windows Package Manager settings.\r\n\r\nIf you disable this policy, users will not be able to enable the ability override the SHA256 security validation in the Windows Package Manager settings.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "70063d93-03f0-462e-9943-b0241b88d54d",
-    "accessTypes": "none",
     "displayName": "Enable App Installer Hash Override",
-    "rootDefinitionId": "device_vendor_msft_policy_config_desktopappinstaller_enablehashoverride",
-    "id": "device_vendor_msft_policy_config_desktopappinstaller_enablehashoverride",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_desktopappinstaller_enablehashoverride_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enablehashoverride_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enablehashoverride_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enablehashoverride_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enablehashoverride_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/DesktopAppInstaller/EnableHashOverride",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.22621",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "11.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22621",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2500,16 +2496,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "11.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This policy controls whether or not the Windows Package Manager can be configured to enable the ability override the SHA256 security validation in settings.\r\n\r\nIf you enable or do not configure this policy, users will be able to enable the ability override the SHA256 security validation in the Windows Package Manager settings.\r\n\r\nIf you disable this policy, users will not be able to enable the ability override the SHA256 security validation in the Windows Package Manager settings.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-desktopappinstaller#desktopappinstaller-enablehashoverride"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/DesktopAppInstaller/EnableMSAppInstallerProtocol",
+    "rootDefinitionId": "device_vendor_msft_policy_config_desktopappinstaller_enablemsappinstallerprotocol",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_desktopappinstaller_enablemsappinstallerprotocol",
+    "categoryId": "70063d93-03f0-462e-9943-b0241b88d54d",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "EnableMSAppInstallerProtocol",
+    "uxBehavior": "toggle",
     "keywords": [
       "EnableMSAppInstallerProtocol",
       "Enable App Installer ms-appinstaller protocol",
@@ -2519,65 +2531,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Machine",
       "Software\\Policies\\Microsoft\\Windows\\AppInstaller"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "EnableMSAppInstallerProtocol",
-    "defaultOptionId": "device_vendor_msft_policy_config_desktopappinstaller_enablemsappinstallerprotocol_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy controls whether users can install packages from a website that is using the ms-appinstaller protocol.\r\n\r\nIf you enable this setting, users will be able to install packages from websites that use this protocol.\r\n\r\nIf you disable or do not configure this setting, users will not be able to install packages from websites that use this protocol.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "70063d93-03f0-462e-9943-b0241b88d54d",
-    "accessTypes": "none",
     "displayName": "Enable App Installer ms-appinstaller protocol",
-    "rootDefinitionId": "device_vendor_msft_policy_config_desktopappinstaller_enablemsappinstallerprotocol",
-    "id": "device_vendor_msft_policy_config_desktopappinstaller_enablemsappinstallerprotocol",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_desktopappinstaller_enablemsappinstallerprotocol_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enablemsappinstallerprotocol_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enablemsappinstallerprotocol_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enablemsappinstallerprotocol_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_desktopappinstaller_enablemsappinstallerprotocol_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/DesktopAppInstaller/EnableMSAppInstallerProtocol",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.22621",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "11.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22621",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2587,16 +2583,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "11.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This policy controls whether users can install packages from a website that is using the ms-appinstaller protocol.\r\n\r\nIf you enable this setting, users will be able to install packages from websites that use this protocol.\r\n\r\nIf you disable or do not configure this setting, users will not be able to install packages from websites that use this protocol.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-desktopappinstaller#desktopappinstaller-enablemsappinstallerprotocol"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/EventLogService/ControlEventLogBehavior",
+    "rootDefinitionId": "device_vendor_msft_policy_config_eventlogservice_controleventlogbehavior",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_eventlogservice_controleventlogbehavior",
+    "categoryId": "de8dd733-3bb6-4ce5-9f93-475caac1862c",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Channel_Log_Retention_1",
+    "uxBehavior": "toggle",
     "keywords": [
       "Channel_Log_Retention_1",
       "Control Event Log behavior when the log file reaches its maximum size",
@@ -2604,65 +2616,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Event Log Service\\Application",
       "Application"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "Channel_Log_Retention_1",
-    "defaultOptionId": "device_vendor_msft_policy_config_eventlogservice_controleventlogbehavior_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting controls Event Log behavior when the log file reaches its maximum size.\r\n\r\nIf you enable this policy setting and a log file reaches its maximum size, new events are not written to the log and are lost.\r\n\r\nIf you disable or do not configure this policy setting and a log file reaches its maximum size, new events overwrite old events.\r\n\r\nNote: Old events may or may not be retained according to the \"Backup log automatically when full\" policy setting.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "de8dd733-3bb6-4ce5-9f93-475caac1862c",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Control Event Log behavior when the log file reaches its maximum size",
-    "rootDefinitionId": "device_vendor_msft_policy_config_eventlogservice_controleventlogbehavior",
-    "id": "device_vendor_msft_policy_config_eventlogservice_controleventlogbehavior",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_eventlogservice_controleventlogbehavior_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_eventlogservice_controleventlogbehavior_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_eventlogservice_controleventlogbehavior_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_eventlogservice_controleventlogbehavior_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_eventlogservice_controleventlogbehavior_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/EventLogService/ControlEventLogBehavior",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2673,17 +2669,38 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting controls Event Log behavior when the log file reaches its maximum size.\r\n\r\nIf you enable this policy setting and a log file reaches its maximum size, new events are not written to the log and are lost.\r\n\r\nIf you disable or do not configure this policy setting and a log file reaches its maximum size, new events overwrite old events.\r\n\r\nNote: Old events may or may not be retained according to the \"Backup log automatically when full\" policy setting.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-eventlogservice#eventlogservice-controleventlogbehavior"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/EventLogService/SpecifyMaximumFileSizeApplicationLog",
+    "rootDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "defaultValue": {
+      "settingValueTemplateReference": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "value": 1024
+    },
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_channel_logmaxsize",
     "dependedOnBy": [],
+    "categoryId": "de8dd733-3bb6-4ce5-9f93-475caac1862c",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Channel_LogMaxSize",
+    "uxBehavior": "default",
     "keywords": [
       "Channel_LogMaxSize_1",
       "Specify the maximum log file size (KB)",
@@ -2691,50 +2708,29 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Event Log Service\\Application",
       "Application"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "Channel_LogMaxSize",
-    "uxBehavior": "default",
-    "helpText": "",
-    "description": "",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "valueDefinition": {
       "minimumValue": 1024,
       "maximumValue": 2147483647,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
     },
-    "categoryId": "de8dd733-3bb6-4ce5-9f93-475caac1862c",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Maximum Log Size (KB)",
-    "rootDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog",
-    "id": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_channel_logmaxsize",
-    "defaultValue": {
-      "value": 1024,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null
-    },
-    "version": "639118729572626080",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_1",
         "parentSettingId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog"
       }
     ],
-    "settingUsage": "configuration",
-    "offsetUri": "/Config/EventLogService/SpecifyMaximumFileSizeApplicationLog",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2745,14 +2741,30 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "infoUrls": []
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "",
+    "infoUrls": [],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition"
   },
   {
+    "offsetUri": "/Config/EventLogService/SpecifyMaximumFileSizeApplicationLog",
+    "rootDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog",
+    "categoryId": "de8dd733-3bb6-4ce5-9f93-475caac1862c",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Channel_LogMaxSize_1",
+    "uxBehavior": "toggle",
     "keywords": [
       "Channel_LogMaxSize_1",
       "Specify the maximum log file size (KB)",
@@ -2760,70 +2772,54 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Event Log Service\\Application",
       "Application"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "Channel_LogMaxSize_1",
-    "defaultOptionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting specifies the maximum size of the log file in kilobytes.\r\n\r\nIf you enable this policy setting, you can configure the maximum log file size to be between 1 megabyte (1024 kilobytes) and 2 terabytes (2147483647 kilobytes), in kilobyte increments.\r\n\r\nIf you disable or do not configure this policy setting, the maximum size of the log file will be set to the locally configured value. This value can be changed by the local administrator using the Log Properties dialog, and it defaults to 1 megabyte.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "de8dd733-3bb6-4ce5-9f93-475caac1862c",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Specify the maximum log file size (KB)",
-    "rootDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog",
-    "id": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
+        "displayName": "Enabled",
         "dependedOnBy": [
           {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_channel_logmaxsize"
+            "dependedOnBy": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_channel_logmaxsize",
+            "required": true
           }
         ],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
+        "description": null,
         "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
         "itemId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_1",
-        "name": "Enabled",
-        "displayName": "Enabled",
-        "description": null
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/EventLogService/SpecifyMaximumFileSizeApplicationLog",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2834,16 +2830,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting specifies the maximum size of the log file in kilobytes.\r\n\r\nIf you enable this policy setting, you can configure the maximum log file size to be between 1 megabyte (1024 kilobytes) and 2 terabytes (2147483647 kilobytes), in kilobyte increments.\r\n\r\nIf you disable or do not configure this policy setting, the maximum size of the log file will be set to the locally configured value. This value can be changed by the local administrator using the Log Properties dialog, and it defaults to 1 megabyte.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-eventlogservice#eventlogservice-specifymaximumfilesizeapplicationlog"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_EventLog/Channel_Log_Retention_2",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_2",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_2",
+    "categoryId": "8dca6b5f-ff9c-44c8-9822-008acef616aa",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Channel_Log_Retention_2",
+    "uxBehavior": "toggle",
     "keywords": [
       "Channel_Log_Retention_2",
       "Control Event Log behavior when the log file reaches its maximum size",
@@ -2854,65 +2866,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Software\\Policies\\Microsoft\\Windows\\EventLog\\Security",
       "Retention"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "Channel_Log_Retention_2",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_2_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting controls Event Log behavior when the log file reaches its maximum size.\r\n\r\nIf you enable this policy setting and a log file reaches its maximum size, new events are not written to the log and are lost.\r\n\r\nIf you disable or do not configure this policy setting and a log file reaches its maximum size, new events overwrite old events.\r\n\r\nNote: Old events may or may not be retained according to the \"Backup log automatically when full\" policy setting.\r\n ",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "8dca6b5f-ff9c-44c8-9822-008acef616aa",
-    "accessTypes": "none",
     "displayName": "Control Event Log behavior when the log file reaches its maximum size",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_2",
-    "id": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_2",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_2_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_2_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_2_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_2_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_2_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_EventLog/Channel_Log_Retention_2",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2924,17 +2920,38 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This policy setting controls Event Log behavior when the log file reaches its maximum size.\r\n\r\nIf you enable this policy setting and a log file reaches its maximum size, new events are not written to the log and are lost.\r\n\r\nIf you disable or do not configure this policy setting and a log file reaches its maximum size, new events overwrite old events.\r\n\r\nNote: Old events may or may not be retained according to the \"Backup log automatically when full\" policy setting.\r\n ",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-eventlog#admx-eventlog-channel-log-retention-2"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/EventLogService/SpecifyMaximumFileSizeSecurityLog",
+    "rootDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "defaultValue": {
+      "settingValueTemplateReference": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "value": 20480
+    },
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_channel_logmaxsize",
     "dependedOnBy": [],
+    "categoryId": "8dca6b5f-ff9c-44c8-9822-008acef616aa",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Channel_LogMaxSize",
+    "uxBehavior": "default",
     "keywords": [
       "Channel_LogMaxSize_2",
       "Specify the maximum log file size (KB)",
@@ -2942,50 +2959,29 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Event Log Service\\Security",
       "Security"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "Channel_LogMaxSize",
-    "uxBehavior": "default",
-    "helpText": "",
-    "description": "",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "valueDefinition": {
       "minimumValue": 20480,
       "maximumValue": 2147483647,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
     },
-    "categoryId": "8dca6b5f-ff9c-44c8-9822-008acef616aa",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Maximum Log Size (KB)",
-    "rootDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog",
-    "id": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_channel_logmaxsize",
-    "defaultValue": {
-      "value": 20480,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null
-    },
-    "version": "639118729572626080",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_1",
         "parentSettingId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog"
       }
     ],
-    "settingUsage": "configuration",
-    "offsetUri": "/Config/EventLogService/SpecifyMaximumFileSizeSecurityLog",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2996,14 +2992,30 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "infoUrls": []
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "",
+    "infoUrls": [],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition"
   },
   {
+    "offsetUri": "/Config/EventLogService/SpecifyMaximumFileSizeSecurityLog",
+    "rootDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog",
+    "categoryId": "8dca6b5f-ff9c-44c8-9822-008acef616aa",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Channel_LogMaxSize_2",
+    "uxBehavior": "toggle",
     "keywords": [
       "Channel_LogMaxSize_2",
       "Specify the maximum log file size (KB)",
@@ -3011,70 +3023,54 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Event Log Service\\Security",
       "Security"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "Channel_LogMaxSize_2",
-    "defaultOptionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting specifies the maximum size of the log file in kilobytes.\r\n\r\nIf you enable this policy setting, you can configure the maximum log file size to be between 20 megabytes (20480 kilobytes) and 2 terabytes (2147483647 kilobytes), in kilobyte increments.\r\n\r\nIf you disable or do not configure this policy setting, the maximum size of the log file will be set to the locally configured value. This value can be changed by the local administrator using the Log Properties dialog, and it defaults to 20 megabytes.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "8dca6b5f-ff9c-44c8-9822-008acef616aa",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Specify the maximum log file size (KB)",
-    "rootDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog",
-    "id": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
+        "displayName": "Enabled",
         "dependedOnBy": [
           {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_channel_logmaxsize"
+            "dependedOnBy": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_channel_logmaxsize",
+            "required": true
           }
         ],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
+        "description": null,
         "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
         "itemId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_1",
-        "name": "Enabled",
-        "displayName": "Enabled",
-        "description": null
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/EventLogService/SpecifyMaximumFileSizeSecurityLog",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3085,16 +3081,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting specifies the maximum size of the log file in kilobytes.\r\n\r\nIf you enable this policy setting, you can configure the maximum log file size to be between 20 megabytes (20480 kilobytes) and 2 terabytes (2147483647 kilobytes), in kilobyte increments.\r\n\r\nIf you disable or do not configure this policy setting, the maximum size of the log file will be set to the locally configured value. This value can be changed by the local administrator using the Log Properties dialog, and it defaults to 20 megabytes.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-eventlogservice#eventlogservice-specifymaximumfilesizesecuritylog"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_EventLog/Channel_Log_Retention_3",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_3",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_3",
+    "categoryId": "66448b13-cc0a-4ffe-9ad5-62c4821dc77f",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Channel_Log_Retention_3",
+    "uxBehavior": "toggle",
     "keywords": [
       "Channel_Log_Retention_3",
       "Control Event Log behavior when the log file reaches its maximum size",
@@ -3105,65 +3117,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Software\\Policies\\Microsoft\\Windows\\EventLog\\Setup",
       "Retention"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "Channel_Log_Retention_3",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_3_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting controls Event Log behavior when the log file reaches its maximum size.\r\n\r\nIf you enable this policy setting and a log file reaches its maximum size, new events are not written to the log and are lost.\r\n\r\nIf you disable or do not configure this policy setting and a log file reaches its maximum size, new events overwrite old events.\r\n\r\nNote: Old events may or may not be retained according to the \"Backup log automatically when full\" policy setting.\r\n ",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "66448b13-cc0a-4ffe-9ad5-62c4821dc77f",
-    "accessTypes": "none",
     "displayName": "Control Event Log behavior when the log file reaches its maximum size",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_3",
-    "id": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_3",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_3_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_3_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_3_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_3_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_3_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_EventLog/Channel_Log_Retention_3",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3175,17 +3171,38 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This policy setting controls Event Log behavior when the log file reaches its maximum size.\r\n\r\nIf you enable this policy setting and a log file reaches its maximum size, new events are not written to the log and are lost.\r\n\r\nIf you disable or do not configure this policy setting and a log file reaches its maximum size, new events overwrite old events.\r\n\r\nNote: Old events may or may not be retained according to the \"Backup log automatically when full\" policy setting.\r\n ",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-eventlog#admx-eventlog-channel-log-retention-3"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_EventLog/Channel_LogMaxSize_3",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "defaultValue": {
+      "settingValueTemplateReference": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "value": 1024
+    },
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_channel_logmaxsize",
     "dependedOnBy": [],
+    "categoryId": "66448b13-cc0a-4ffe-9ad5-62c4821dc77f",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Channel_LogMaxSize",
+    "uxBehavior": "default",
     "keywords": [
       "Channel_LogMaxSize_3",
       "Specify the maximum log file size (KB)",
@@ -3193,50 +3210,29 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Event Log Service\\Setup",
       "Setup"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "Channel_LogMaxSize",
-    "uxBehavior": "default",
-    "helpText": "",
-    "description": null,
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "valueDefinition": {
       "minimumValue": 1024,
       "maximumValue": 2147483647,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
     },
-    "categoryId": "66448b13-cc0a-4ffe-9ad5-62c4821dc77f",
-    "accessTypes": "none",
     "displayName": "Maximum Log Size (KB) (Device)",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3",
-    "id": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_channel_logmaxsize",
-    "defaultValue": {
-      "value": 1024,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null
-    },
-    "version": "639118729572626080",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_1",
         "parentSettingId": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3"
       }
     ],
-    "settingUsage": "configuration",
-    "offsetUri": "/Config/ADMX_EventLog/Channel_LogMaxSize_3",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3248,14 +3244,30 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "infoUrls": []
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": null,
+    "infoUrls": [],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_EventLog/Channel_LogMaxSize_3",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3",
+    "categoryId": "66448b13-cc0a-4ffe-9ad5-62c4821dc77f",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Channel_LogMaxSize_3",
+    "uxBehavior": "toggle",
     "keywords": [
       "Channel_LogMaxSize_3",
       "Specify the maximum log file size (KB)",
@@ -3265,70 +3277,54 @@ If you enable and then disable this policy setting,any values that were previous
       "Machine",
       "Software\\Policies\\Microsoft\\Windows\\EventLog\\Setup"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "Channel_LogMaxSize_3",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting specifies the maximum size of the log file in kilobytes.\r\n\r\nIf you enable this policy setting, you can configure the maximum log file size to be between 1 megabyte (1024 kilobytes) and 2 terabytes (2147483647 kilobytes), in kilobyte increments.\r\n\r\nIf you disable or do not configure this policy setting, the maximum size of the log file will be set to the locally configured value. This value can be changed by the local administrator using the Log Properties dialog, and it defaults to 1 megabyte.\r\n ",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "66448b13-cc0a-4ffe-9ad5-62c4821dc77f",
-    "accessTypes": "none",
     "displayName": "Specify the maximum log file size (KB)",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3",
-    "id": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
+        "displayName": "Enabled",
         "dependedOnBy": [
           {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_channel_logmaxsize"
+            "dependedOnBy": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_channel_logmaxsize",
+            "required": true
           }
         ],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
+        "description": null,
         "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
         "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_logmaxsize_3_1",
-        "name": "Enabled",
-        "displayName": "Enabled",
-        "description": null
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_EventLog/Channel_LogMaxSize_3",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3340,16 +3336,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This policy setting specifies the maximum size of the log file in kilobytes.\r\n\r\nIf you enable this policy setting, you can configure the maximum log file size to be between 1 megabyte (1024 kilobytes) and 2 terabytes (2147483647 kilobytes), in kilobyte increments.\r\n\r\nIf you disable or do not configure this policy setting, the maximum size of the log file will be set to the locally configured value. This value can be changed by the local administrator using the Log Properties dialog, and it defaults to 1 megabyte.\r\n ",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-eventlog#admx-eventlog-channel-logmaxsize-3"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_EventLog/Channel_Log_Retention_4",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_4",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_4",
+    "categoryId": "9d26f3a1-6a54-4043-bda2-bfeb84e80524",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Channel_Log_Retention_4",
+    "uxBehavior": "toggle",
     "keywords": [
       "Channel_Log_Retention_4",
       "Control Event Log behavior when the log file reaches its maximum size",
@@ -3360,65 +3372,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Software\\Policies\\Microsoft\\Windows\\EventLog\\System",
       "Retention"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "Channel_Log_Retention_4",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_4_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting controls Event Log behavior when the log file reaches its maximum size.\r\n\r\nIf you enable this policy setting and a log file reaches its maximum size, new events are not written to the log and are lost.\r\n\r\nIf you disable or do not configure this policy setting and a log file reaches its maximum size, new events overwrite old events.\r\n\r\nNote: Old events may or may not be retained according to the \"Backup log automatically when full\" policy setting.\r\n ",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "9d26f3a1-6a54-4043-bda2-bfeb84e80524",
-    "accessTypes": "none",
     "displayName": "Control Event Log behavior when the log file reaches its maximum size",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_4",
-    "id": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_4",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_4_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_4_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_4_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_4_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_eventlog_channel_log_retention_4_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_EventLog/Channel_Log_Retention_4",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3430,16 +3426,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This policy setting controls Event Log behavior when the log file reaches its maximum size.\r\n\r\nIf you enable this policy setting and a log file reaches its maximum size, new events are not written to the log and are lost.\r\n\r\nIf you disable or do not configure this policy setting and a log file reaches its maximum size, new events overwrite old events.\r\n\r\nNote: Old events may or may not be retained according to the \"Backup log automatically when full\" policy setting.\r\n ",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-eventlog#admx-eventlog-channel-log-retention-4"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/EventLogService/SpecifyMaximumFileSizeSystemLog",
+    "rootDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog",
+    "categoryId": "9d26f3a1-6a54-4043-bda2-bfeb84e80524",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Channel_LogMaxSize_4",
+    "uxBehavior": "toggle",
     "keywords": [
       "Channel_LogMaxSize_4",
       "Specify the maximum log file size (KB)",
@@ -3447,70 +3459,54 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Event Log Service\\System",
       "System"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "Channel_LogMaxSize_4",
-    "defaultOptionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting specifies the maximum size of the log file in kilobytes.\r\n\r\nIf you enable this policy setting, you can configure the maximum log file size to be between 1 megabyte (1024 kilobytes) and 2 terabytes (2147483647 kilobytes), in kilobyte increments.\r\n\r\nIf you disable or do not configure this policy setting, the maximum size of the log file will be set to the locally configured value. This value can be changed by the local administrator using the Log Properties dialog, and it defaults to 1 megabyte.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "9d26f3a1-6a54-4043-bda2-bfeb84e80524",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Specify the maximum log file size (KB)",
-    "rootDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog",
-    "id": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
+        "displayName": "Enabled",
         "dependedOnBy": [
           {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_channel_logmaxsize"
+            "dependedOnBy": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_channel_logmaxsize",
+            "required": true
           }
         ],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
+        "description": null,
         "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
         "itemId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_1",
-        "name": "Enabled",
-        "displayName": "Enabled",
-        "description": null
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/EventLogService/SpecifyMaximumFileSizeSystemLog",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3521,17 +3517,38 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting specifies the maximum size of the log file in kilobytes.\r\n\r\nIf you enable this policy setting, you can configure the maximum log file size to be between 1 megabyte (1024 kilobytes) and 2 terabytes (2147483647 kilobytes), in kilobyte increments.\r\n\r\nIf you disable or do not configure this policy setting, the maximum size of the log file will be set to the locally configured value. This value can be changed by the local administrator using the Log Properties dialog, and it defaults to 1 megabyte.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-eventlogservice#eventlogservice-specifymaximumfilesizesystemlog"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/EventLogService/SpecifyMaximumFileSizeSystemLog",
+    "rootDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "defaultValue": {
+      "settingValueTemplateReference": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "value": 1024
+    },
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_channel_logmaxsize",
     "dependedOnBy": [],
+    "categoryId": "9d26f3a1-6a54-4043-bda2-bfeb84e80524",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Channel_LogMaxSize",
+    "uxBehavior": "default",
     "keywords": [
       "Channel_LogMaxSize_4",
       "Specify the maximum log file size (KB)",
@@ -3539,50 +3556,29 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Event Log Service\\System",
       "System"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "Channel_LogMaxSize",
-    "uxBehavior": "default",
-    "helpText": "",
-    "description": "",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "valueDefinition": {
       "minimumValue": 1024,
       "maximumValue": 2147483647,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
     },
-    "categoryId": "9d26f3a1-6a54-4043-bda2-bfeb84e80524",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Maximum Log Size (KB)",
-    "rootDefinitionId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog",
-    "id": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_channel_logmaxsize",
-    "defaultValue": {
-      "value": 1024,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null
-    },
-    "version": "639118729572626080",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_1",
         "parentSettingId": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog"
       }
     ],
-    "settingUsage": "configuration",
-    "offsetUri": "/Config/EventLogService/SpecifyMaximumFileSizeSystemLog",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3593,14 +3589,30 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "infoUrls": []
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "",
+    "infoUrls": [],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_WindowsExplorer/EnableSmartScreen",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_enablesmartscreendropdown",
+    "categoryId": "35525ba9-da99-460e-afd3-ba86506b0ba3",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "EnableSmartScreenDropdown",
+    "uxBehavior": "default",
     "keywords": [
       "EnableSmartScreen",
       "Configure Windows Defender SmartScreen",
@@ -3608,75 +3620,59 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\File Explorer",
       "File Explorer"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "EnableSmartScreenDropdown",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_enablesmartscreendropdown_block",
-    "uxBehavior": "default",
-    "helpText": "",
-    "description": null,
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "35525ba9-da99-460e-afd3-ba86506b0ba3",
-    "accessTypes": "none",
     "displayName": "Pick one of the following settings: (Device)",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen",
-    "id": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_enablesmartscreendropdown",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_enablesmartscreendropdown_block",
     "options": [
       {
-        "helpText": null,
+        "displayName": "Warn and prevent bypass",
         "dependedOnBy": [],
-        "optionValue": {
-          "value": "Block",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
-        },
+        "description": null,
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_1",
             "parentSettingId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen"
           }
         ],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "Block"
+        },
         "itemId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_enablesmartscreendropdown_block",
-        "name": "Warn and prevent bypass",
-        "displayName": "Warn and prevent bypass",
-        "description": null
+        "name": "Warn and prevent bypass"
       },
       {
-        "helpText": null,
+        "displayName": "Warn",
         "dependedOnBy": [],
-        "optionValue": {
-          "value": "Warn",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
-        },
+        "description": null,
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_1",
             "parentSettingId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen"
           }
         ],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "Warn"
+        },
         "itemId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_enablesmartscreendropdown_warn",
-        "name": "Warn",
-        "displayName": "Warn",
-        "description": null
+        "name": "Warn"
       }
     ],
-    "offsetUri": "/Config/ADMX_WindowsExplorer/EnableSmartScreen",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3688,14 +3684,30 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "infoUrls": []
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": null,
+    "infoUrls": [],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_WindowsExplorer/EnableSmartScreen",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen",
+    "categoryId": "35525ba9-da99-460e-afd3-ba86506b0ba3",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "EnableSmartScreen",
+    "uxBehavior": "toggle",
     "keywords": [
       "EnableSmartScreen",
       "Configure Windows Defender SmartScreen",
@@ -3705,70 +3717,54 @@ If you enable and then disable this policy setting,any values that were previous
       "Machine",
       "Software\\Policies\\Microsoft\\Windows\\System"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "EnableSmartScreen",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy allows you to turn Windows Defender SmartScreen on or off.  SmartScreen helps protect PCs by warning users before running potentially malicious programs downloaded from the Internet.  This warning is presented as an interstitial dialog shown before running an app that has been downloaded from the Internet and is unrecognized or known to be malicious.  No dialog is shown for apps that do not appear to be suspicious.\r\n\r\nSome information is sent to Microsoft about files and programs run on PCs with this feature enabled.\r\n\r\nIf you enable this policy, SmartScreen will be turned on for all users.  Its behavior can be controlled by the following options:\r\n\r\n• Warn and prevent bypass\r\n• Warn\r\n\r\nIf you enable this policy with the \"Warn and prevent bypass\" option, SmartScreen's dialogs will not present the user with the option to disregard the warning and run the app.  SmartScreen will continue to show the warning on subsequent attempts to run the app.\r\n\r\nIf you enable this policy with the \"Warn\" option, SmartScreen's dialogs will warn the user that the app appears suspicious, but will permit the user to disregard the warning and run the app anyway.  SmartScreen will not warn the user again for that app if the user tells SmartScreen to run the app.\r\n\r\nIf you disable this policy, SmartScreen will be turned off for all users.  Users will not be warned if they try to run suspicious apps from the Internet.\r\n\r\nIf you do not configure this policy, SmartScreen will be enabled by default, but users may change their settings.\r\n      \r\n ",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "35525ba9-da99-460e-afd3-ba86506b0ba3",
-    "accessTypes": "none",
     "displayName": "Configure Windows Defender SmartScreen",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen",
-    "id": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
+        "displayName": "Enabled",
         "dependedOnBy": [
           {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_enablesmartscreendropdown"
+            "dependedOnBy": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_enablesmartscreendropdown",
+            "required": true
           }
         ],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
+        "description": null,
         "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
         "itemId": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_1",
-        "name": "Enabled",
-        "displayName": "Enabled",
-        "description": null
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_WindowsExplorer/EnableSmartScreen",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3780,16 +3776,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This policy allows you to turn Windows Defender SmartScreen on or off.  SmartScreen helps protect PCs by warning users before running potentially malicious programs downloaded from the Internet.  This warning is presented as an interstitial dialog shown before running an app that has been downloaded from the Internet and is unrecognized or known to be malicious.  No dialog is shown for apps that do not appear to be suspicious.\r\n\r\nSome information is sent to Microsoft about files and programs run on PCs with this feature enabled.\r\n\r\nIf you enable this policy, SmartScreen will be turned on for all users.  Its behavior can be controlled by the following options:\r\n\r\n• Warn and prevent bypass\r\n• Warn\r\n\r\nIf you enable this policy with the \"Warn and prevent bypass\" option, SmartScreen's dialogs will not present the user with the option to disregard the warning and run the app.  SmartScreen will continue to show the warning on subsequent attempts to run the app.\r\n\r\nIf you enable this policy with the \"Warn\" option, SmartScreen's dialogs will warn the user that the app appears suspicious, but will permit the user to disregard the warning and run the app anyway.  SmartScreen will not warn the user again for that app if the user tells SmartScreen to run the app.\r\n\r\nIf you disable this policy, SmartScreen will be turned off for all users.  Users will not be warned if they try to run suspicious apps from the Internet.\r\n\r\nIf you do not configure this policy, SmartScreen will be enabled by default, but users may change their settings.\r\n      \r\n ",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-windowsexplorer#admx-windowsexplorer-enablesmartscreen"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/FileExplorer/TurnOffDataExecutionPreventionForExplorer",
+    "rootDefinitionId": "device_vendor_msft_policy_config_fileexplorer_turnoffdataexecutionpreventionforexplorer",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_fileexplorer_turnoffdataexecutionpreventionforexplorer",
+    "categoryId": "35525ba9-da99-460e-afd3-ba86506b0ba3",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "NoDataExecutionPrevention",
+    "uxBehavior": "toggle",
     "keywords": [
       "NoDataExecutionPrevention",
       "Turn off Data Execution Prevention for Explorer",
@@ -3797,65 +3809,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\File Explorer",
       "File Explorer"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "NoDataExecutionPrevention",
-    "defaultOptionId": "device_vendor_msft_policy_config_fileexplorer_turnoffdataexecutionpreventionforexplorer_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "Disabling data execution prevention can allow certain legacy plug-in applications to function without terminating Explorer.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "35525ba9-da99-460e-afd3-ba86506b0ba3",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Turn off Data Execution Prevention for Explorer",
-    "rootDefinitionId": "device_vendor_msft_policy_config_fileexplorer_turnoffdataexecutionpreventionforexplorer",
-    "id": "device_vendor_msft_policy_config_fileexplorer_turnoffdataexecutionpreventionforexplorer",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_fileexplorer_turnoffdataexecutionpreventionforexplorer_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_fileexplorer_turnoffdataexecutionpreventionforexplorer_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_fileexplorer_turnoffdataexecutionpreventionforexplorer_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_fileexplorer_turnoffdataexecutionpreventionforexplorer_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_fileexplorer_turnoffdataexecutionpreventionforexplorer_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/FileExplorer/TurnOffDataExecutionPreventionForExplorer",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "7.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.17134",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3866,16 +3862,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "7.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "Disabling data execution prevention can allow certain legacy plug-in applications to function without terminating Explorer.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-fileexplorer#fileexplorer-turnoffdataexecutionpreventionforexplorer"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/FileExplorer/TurnOffHeapTerminationOnCorruption",
+    "rootDefinitionId": "device_vendor_msft_policy_config_fileexplorer_turnoffheapterminationoncorruption",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_fileexplorer_turnoffheapterminationoncorruption",
+    "categoryId": "35525ba9-da99-460e-afd3-ba86506b0ba3",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "NoHeapTerminationOnCorruption",
+    "uxBehavior": "toggle",
     "keywords": [
       "NoHeapTerminationOnCorruption",
       "Turn off heap termination on corruption",
@@ -3883,65 +3895,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\File Explorer",
       "File Explorer"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "NoHeapTerminationOnCorruption",
-    "defaultOptionId": "device_vendor_msft_policy_config_fileexplorer_turnoffheapterminationoncorruption_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "Disabling heap termination on corruption can allow certain legacy plug-in applications to function without terminating Explorer immediately, although Explorer may still terminate unexpectedly later.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "35525ba9-da99-460e-afd3-ba86506b0ba3",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Turn off heap termination on corruption",
-    "rootDefinitionId": "device_vendor_msft_policy_config_fileexplorer_turnoffheapterminationoncorruption",
-    "id": "device_vendor_msft_policy_config_fileexplorer_turnoffheapterminationoncorruption",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_fileexplorer_turnoffheapterminationoncorruption_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_fileexplorer_turnoffheapterminationoncorruption_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_fileexplorer_turnoffheapterminationoncorruption_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_fileexplorer_turnoffheapterminationoncorruption_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_fileexplorer_turnoffheapterminationoncorruption_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/FileExplorer/TurnOffHeapTerminationOnCorruption",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.17134",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "7.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.17134",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3952,16 +3948,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "7.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "Disabling heap termination on corruption can allow certain legacy plug-in applications to function without terminating Explorer immediately, although Explorer may still terminate unexpectedly later.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-fileexplorer#fileexplorer-turnoffheapterminationoncorruption"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_WindowsExplorer/ShellProtocolProtectedModeTitle_2",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_windowsexplorer_shellprotocolprotectedmodetitle_2",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_windowsexplorer_shellprotocolprotectedmodetitle_2",
+    "categoryId": "35525ba9-da99-460e-afd3-ba86506b0ba3",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "ShellProtocolProtectedModeTitle_2",
+    "uxBehavior": "toggle",
     "keywords": [
       "ShellProtocolProtectedModeTitle_2",
       "Turn off shell protocol protected mode",
@@ -3972,65 +3984,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer",
       "PreXPSP2ShellProtocolBehavior"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "ShellProtocolProtectedModeTitle_2",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_windowsexplorer_shellprotocolprotectedmodetitle_2_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting allows you to configure the amount of functionality that the shell protocol can have. When using the full functionality of this protocol, applications can open folders and launch files. The protected mode reduces the functionality of this protocol allowing applications to only open a limited set of folders. Applications are not able to open files with this protocol when it is in the protected mode. It is recommended to leave this protocol in the protected mode to increase the security of Windows.\r\n\r\nIf you enable this policy setting the protocol is fully enabled, allowing the opening of folders and files.\r\n\r\nIf you disable this policy setting the protocol is in the protected mode, allowing applications to only open a limited set of folders.\r\n\r\nIf you do not configure this policy setting the protocol is in the protected mode, allowing applications to only open a limited set of folders.\r\n ",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "35525ba9-da99-460e-afd3-ba86506b0ba3",
-    "accessTypes": "none",
     "displayName": "Turn off shell protocol protected mode",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_windowsexplorer_shellprotocolprotectedmodetitle_2",
-    "id": "device_vendor_msft_policy_config_admx_windowsexplorer_shellprotocolprotectedmodetitle_2",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_windowsexplorer_shellprotocolprotectedmodetitle_2_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_windowsexplorer_shellprotocolprotectedmodetitle_2_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_windowsexplorer_shellprotocolprotectedmodetitle_2_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_windowsexplorer_shellprotocolprotectedmodetitle_2_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_windowsexplorer_shellprotocolprotectedmodetitle_2_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_WindowsExplorer/ShellProtocolProtectedModeTitle_2",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4042,16 +4038,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This policy setting allows you to configure the amount of functionality that the shell protocol can have. When using the full functionality of this protocol, applications can open folders and launch files. The protected mode reduces the functionality of this protocol allowing applications to only open a limited set of folders. Applications are not able to open files with this protocol when it is in the protected mode. It is recommended to leave this protocol in the protected mode to increase the security of Windows.\r\n\r\nIf you enable this policy setting the protocol is fully enabled, allowing the opening of folders and files.\r\n\r\nIf you disable this policy setting the protocol is in the protected mode, allowing applications to only open a limited set of folders.\r\n\r\nIf you do not configure this policy setting the protocol is in the protected mode, allowing applications to only open a limited set of folders.\r\n ",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-windowsexplorer#admx-windowsexplorer-shellprotocolprotectedmodetitle-2"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_MSAPolicy/MicrosoftAccount_DisableUserAuth",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth",
+    "categoryId": "7444c3f0-214b-45ea-9b8e-f74b81543644",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "MicrosoftAccount_DisableUserAuth",
+    "uxBehavior": "toggle",
     "keywords": [
       "MicrosoftAccount_DisableUserAuth",
       "Block all consumer Microsoft account user authentication",
@@ -4062,65 +4074,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Software\\Policies\\Microsoft\\MicrosoftAccount",
       "DisableUserAuth"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "MicrosoftAccount_DisableUserAuth",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This setting controls whether users can provide Microsoft accounts for authentication for applications or services. If this setting is enabled, all applications and services on the device are prevented from using Microsoft accounts for authentication.  \r\nThis applies both to existing users of a device and new users who may be added. However, any application or service that has already authenticated a user will not be affected by enabling this setting until the authentication cache expires.  \r\nIt is recommended to enable this setting before any user signs in to a device to prevent cached tokens from being present. If this setting is disabled or not configured, applications and services can use Microsoft accounts for authentication.  \r\nBy default, this setting is Disabled. This setting does not affect whether users can sign in to devices by using Microsoft accounts, or the ability for users to provide Microsoft accounts via the browser for authentication with web-based applications. \r\n        \r\n ",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "7444c3f0-214b-45ea-9b8e-f74b81543644",
-    "accessTypes": "none",
     "displayName": "Block all consumer Microsoft account user authentication",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth",
-    "id": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_msapolicy_microsoftaccount_disableuserauth_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_MSAPolicy/MicrosoftAccount_DisableUserAuth",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4132,16 +4128,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This setting controls whether users can provide Microsoft accounts for authentication for applications or services. If this setting is enabled, all applications and services on the device are prevented from using Microsoft accounts for authentication.  \r\nThis applies both to existing users of a device and new users who may be added. However, any application or service that has already authenticated a user will not be affected by enabling this setting until the authentication cache expires.  \r\nIt is recommended to enable this setting before any user signs in to a device to prevent cached tokens from being present. If this setting is disabled or not configured, applications and services can use Microsoft accounts for authentication.  \r\nBy default, this setting is Disabled. This setting does not affect whether users can sign in to devices by using Microsoft accounts, or the ability for users to provide Microsoft accounts via the browser for authentication with web-based applications. \r\n        \r\n ",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-msapolicy#admx-msapolicy-microsoftaccount-disableuserauth"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_Sharing/NoInplaceSharing",
+    "rootDefinitionId": "user_vendor_msft_policy_config_admx_sharing_noinplacesharing",
+    "baseUri": "./User/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "user_vendor_msft_policy_config_admx_sharing_noinplacesharing",
+    "categoryId": "71f9795f-defc-4b03-a2b4-31e129b6f861",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "NoInplaceSharing",
+    "uxBehavior": "toggle",
     "keywords": [
       "NoInplaceSharing",
       "Prevent users from sharing files within their profile.",
@@ -4151,65 +4163,49 @@ If you enable and then disable this policy setting,any values that were previous
       "User",
       "Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "NoInplaceSharing",
-    "defaultOptionId": "user_vendor_msft_policy_config_admx_sharing_noinplacesharing_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting specifies whether users can share files within their profile. By default users are allowed to share files within their profile to other users on their network after an administrator opts in the computer.  An administrator can opt in the computer by using the sharing wizard to share a file within their profile.\r\n\r\nIf you enable this policy setting, users cannot share files within their profile using the sharing wizard.  Also, the sharing wizard cannot create a share at %root%\\users and can only be used to create SMB shares on folders.\r\n\r\nIf you disable or don't configure this policy setting, users can share files out of their user profile after an administrator has opted in the computer.\r\n ",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "71f9795f-defc-4b03-a2b4-31e129b6f861",
-    "accessTypes": "none",
     "displayName": "Prevent users from sharing files within their profile. (User)",
-    "rootDefinitionId": "user_vendor_msft_policy_config_admx_sharing_noinplacesharing",
-    "id": "user_vendor_msft_policy_config_admx_sharing_noinplacesharing",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "user_vendor_msft_policy_config_admx_sharing_noinplacesharing_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "user_vendor_msft_policy_config_admx_sharing_noinplacesharing_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "user_vendor_msft_policy_config_admx_sharing_noinplacesharing_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "user_vendor_msft_policy_config_admx_sharing_noinplacesharing_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "user_vendor_msft_policy_config_admx_sharing_noinplacesharing_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_Sharing/NoInplaceSharing",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4221,16 +4217,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./User/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This policy setting specifies whether users can share files within their profile. By default users are allowed to share files within their profile to other users on their network after an administrator opts in the computer.  An administrator can opt in the computer by using the sharing wizard to share a file within their profile.\r\n\r\nIf you enable this policy setting, users cannot share files within their profile using the sharing wizard.  Also, the sharing wizard cannot create a share at %root%\\users and can only be used to create SMB shares on folders.\r\n\r\nIf you disable or don't configure this policy setting, users can share files out of their user profile after an administrator has opted in the computer.\r\n ",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-sharing#admx-sharing-noinplacesharing"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/RemoteDesktopServices/DoNotAllowPasswordSaving",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowpasswordsaving",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_remotedesktopservices_donotallowpasswordsaving",
+    "categoryId": "a4877a42-7e62-4216-a477-0b35357ab313",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "TS_CLIENT_DISABLE_PASSWORD_SAVING_2",
+    "uxBehavior": "toggle",
     "keywords": [
       "TS_CLIENT_DISABLE_PASSWORD_SAVING_2",
       "Do not allow passwords to be saved",
@@ -4238,65 +4250,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Remote Desktop Services\\Remote Desktop Connection Client",
       "Remote Desktop Connection Client"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "TS_CLIENT_DISABLE_PASSWORD_SAVING_2",
-    "defaultOptionId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowpasswordsaving_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "Controls whether passwords can be saved on this computer from Remote Desktop Connection.\r\n\r\nIf you enable this setting the password saving checkbox in Remote Desktop Connection will be disabled and users will no longer be able to save passwords. When a user opens an RDP file using Remote Desktop Connection and saves his settings, any password that previously existed in the RDP file will be deleted.\r\n\r\nIf you disable this setting or leave it not configured, the user will be able to save passwords using Remote Desktop Connection.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "a4877a42-7e62-4216-a477-0b35357ab313",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Do not allow passwords to be saved",
-    "rootDefinitionId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowpasswordsaving",
-    "id": "device_vendor_msft_policy_config_remotedesktopservices_donotallowpasswordsaving",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowpasswordsaving_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowpasswordsaving_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowpasswordsaving_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowpasswordsaving_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowpasswordsaving_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/RemoteDesktopServices/DoNotAllowPasswordSaving",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4308,16 +4304,32 @@ If you enable and then disable this policy setting,any values that were previous
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "Controls whether passwords can be saved on this computer from Remote Desktop Connection.\r\n\r\nIf you enable this setting the password saving checkbox in Remote Desktop Connection will be disabled and users will no longer be able to save passwords. When a user opens an RDP file using Remote Desktop Connection and saves his settings, any password that previously existed in the RDP file will be deleted.\r\n\r\nIf you disable this setting or leave it not configured, the user will be able to save passwords using Remote Desktop Connection.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-donotallowpasswordsaving"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/RemoteDesktopServices/DoNotAllowDriveRedirection",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection",
+    "categoryId": "fe52de11-190e-4429-96c1-106b22724456",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "TS_CLIENT_DRIVE_M",
+    "uxBehavior": "toggle",
     "keywords": [
       "TS_CLIENT_DRIVE_M",
       "Do not allow drive redirection",
@@ -4328,65 +4340,49 @@ If you enable and then disable this policy setting,any values that were previous
       "SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services",
       "fDisableCdm"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "TS_CLIENT_DRIVE_M",
-    "defaultOptionId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting specifies whether to prevent the mapping of client drives in a Remote Desktop Services session (drive redirection).\r\n\r\nBy default, an RD Session Host server maps client drives automatically upon connection. Mapped drives appear in the session folder tree in File Explorer or Computer in the format <driveletter> on <computername>. You can use this policy setting to override this behavior.\r\n\r\nIf you enable this policy setting, client drive redirection is not allowed in Remote Desktop Services sessions, and Clipboard file copy redirection is not allowed on computers running Windows Server 2003, Windows 8, and Windows XP.\r\n\r\nIf you disable this policy setting, client drive redirection is always allowed. In addition, Clipboard file copy redirection is always allowed if Clipboard redirection is allowed.\r\n\r\nIf you do not configure this policy setting, client drive redirection and Clipboard file copy redirection are not specified at the Group Policy level.\r\n",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "fe52de11-190e-4429-96c1-106b22724456",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Do not allow drive redirection",
-    "rootDefinitionId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection",
-    "id": "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_donotallowdriveredirection_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/RemoteDesktopServices/DoNotAllowDriveRedirection",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4398,16 +4394,32 @@ If you enable and then disable this policy setting,any values that were previous
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting specifies whether to prevent the mapping of client drives in a Remote Desktop Services session (drive redirection).\r\n\r\nBy default, an RD Session Host server maps client drives automatically upon connection. Mapped drives appear in the session folder tree in File Explorer or Computer in the format <driveletter> on <computername>. You can use this policy setting to override this behavior.\r\n\r\nIf you enable this policy setting, client drive redirection is not allowed in Remote Desktop Services sessions, and Clipboard file copy redirection is not allowed on computers running Windows Server 2003, Windows 8, and Windows XP.\r\n\r\nIf you disable this policy setting, client drive redirection is always allowed. In addition, Clipboard file copy redirection is always allowed if Clipboard redirection is allowed.\r\n\r\nIf you do not configure this policy setting, client drive redirection and Clipboard file copy redirection are not specified at the Group Policy level.\r\n",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-donotallowdriveredirection"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/RemoteDesktopServices/PromptForPasswordUponConnection",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remotedesktopservices_promptforpassworduponconnection",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_remotedesktopservices_promptforpassworduponconnection",
+    "categoryId": "bd1bf2cb-c806-479b-a68c-af9dffd438c9",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "TS_PASSWORD",
+    "uxBehavior": "toggle",
     "keywords": [
       "TS_PASSWORD",
       "Always prompt for password upon connection",
@@ -4415,65 +4427,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Remote Desktop Services\\Remote Desktop Session Host\\Security",
       "Security"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "TS_PASSWORD",
-    "defaultOptionId": "device_vendor_msft_policy_config_remotedesktopservices_promptforpassworduponconnection_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting specifies whether Remote Desktop Services always prompts the client for a password upon connection.\r\n\r\nYou can use this setting to enforce a password prompt for users logging on to Remote Desktop Services, even if they already provided the password in the Remote Desktop Connection client.\r\n\r\nBy default, Remote Desktop Services allows users to automatically log on by entering a password in the Remote Desktop Connection client.\r\n\r\nIf you enable this policy setting, users cannot automatically log on to Remote Desktop Services by supplying their passwords in the Remote Desktop Connection client. They are prompted for a password to log on.\r\n\r\nIf you disable this policy setting, users can always log on to Remote Desktop Services automatically by supplying their passwords in the Remote Desktop Connection client.\r\n\r\nIf you do not configure this policy setting, automatic logon is not specified at the Group Policy level.\r\n",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "bd1bf2cb-c806-479b-a68c-af9dffd438c9",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Always prompt for password upon connection",
-    "rootDefinitionId": "device_vendor_msft_policy_config_remotedesktopservices_promptforpassworduponconnection",
-    "id": "device_vendor_msft_policy_config_remotedesktopservices_promptforpassworduponconnection",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_remotedesktopservices_promptforpassworduponconnection_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_promptforpassworduponconnection_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_promptforpassworduponconnection_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_promptforpassworduponconnection_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_promptforpassworduponconnection_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/RemoteDesktopServices/PromptForPasswordUponConnection",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4485,16 +4481,32 @@ If you enable and then disable this policy setting,any values that were previous
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting specifies whether Remote Desktop Services always prompts the client for a password upon connection.\r\n\r\nYou can use this setting to enforce a password prompt for users logging on to Remote Desktop Services, even if they already provided the password in the Remote Desktop Connection client.\r\n\r\nBy default, Remote Desktop Services allows users to automatically log on by entering a password in the Remote Desktop Connection client.\r\n\r\nIf you enable this policy setting, users cannot automatically log on to Remote Desktop Services by supplying their passwords in the Remote Desktop Connection client. They are prompted for a password to log on.\r\n\r\nIf you disable this policy setting, users can always log on to Remote Desktop Services automatically by supplying their passwords in the Remote Desktop Connection client.\r\n\r\nIf you do not configure this policy setting, automatic logon is not specified at the Group Policy level.\r\n",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-promptforpassworduponconnection"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/RemoteDesktopServices/RequireSecureRPCCommunication",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remotedesktopservices_requiresecurerpccommunication",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_remotedesktopservices_requiresecurerpccommunication",
+    "categoryId": "bd1bf2cb-c806-479b-a68c-af9dffd438c9",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "TS_RPC_ENCRYPTION",
+    "uxBehavior": "toggle",
     "keywords": [
       "TS_RPC_ENCRYPTION",
       "Require secure RPC communication",
@@ -4502,65 +4514,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Remote Desktop Services\\Remote Desktop Session Host\\Security",
       "Security"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "TS_RPC_ENCRYPTION",
-    "defaultOptionId": "device_vendor_msft_policy_config_remotedesktopservices_requiresecurerpccommunication_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "Specifies whether a Remote Desktop Session Host server requires secure RPC communication with all clients or allows unsecured communication.\r\n\r\nYou can use this setting to strengthen the security of RPC communication with clients by allowing only authenticated and encrypted requests.\r\n\r\nIf the status is set to Enabled, Remote Desktop Services accepts requests from RPC clients that support secure requests, and does not allow unsecured communication with untrusted clients.\r\n\r\nIf the status is set to Disabled, Remote Desktop Services always requests security for all RPC traffic. However, unsecured communication is allowed for RPC clients that do not respond to the request.\r\n\r\nIf the status is set to Not Configured, unsecured communication is allowed.\r\n\r\nNote: The RPC interface is used for administering and configuring Remote Desktop Services.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "bd1bf2cb-c806-479b-a68c-af9dffd438c9",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Require secure RPC communication",
-    "rootDefinitionId": "device_vendor_msft_policy_config_remotedesktopservices_requiresecurerpccommunication",
-    "id": "device_vendor_msft_policy_config_remotedesktopservices_requiresecurerpccommunication",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_remotedesktopservices_requiresecurerpccommunication_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_requiresecurerpccommunication_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_requiresecurerpccommunication_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_requiresecurerpccommunication_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_requiresecurerpccommunication_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/RemoteDesktopServices/RequireSecureRPCCommunication",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4572,16 +4568,32 @@ If you enable and then disable this policy setting,any values that were previous
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "Specifies whether a Remote Desktop Session Host server requires secure RPC communication with all clients or allows unsecured communication.\r\n\r\nYou can use this setting to strengthen the security of RPC communication with clients by allowing only authenticated and encrypted requests.\r\n\r\nIf the status is set to Enabled, Remote Desktop Services accepts requests from RPC clients that support secure requests, and does not allow unsecured communication with untrusted clients.\r\n\r\nIf the status is set to Disabled, Remote Desktop Services always requests security for all RPC traffic. However, unsecured communication is allowed for RPC clients that do not respond to the request.\r\n\r\nIf the status is set to Not Configured, unsecured communication is allowed.\r\n\r\nNote: The RPC interface is used for administering and configuring Remote Desktop Services.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-requiresecurerpccommunication"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_TerminalServer/TS_SECURITY_LAYER_POLICY",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_ts_security_layer",
+    "categoryId": "bd1bf2cb-c806-479b-a68c-af9dffd438c9",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "TS_SECURITY_LAYER",
+    "uxBehavior": "default",
     "keywords": [
       "TS_SECURITY_LAYER_POLICY",
       "Require use of specific security layer for remote (RDP) connections",
@@ -4589,94 +4601,78 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Remote Desktop Services\\Remote Desktop Session Host\\Security",
       "Security"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "TS_SECURITY_LAYER",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_ts_security_layer_1",
-    "uxBehavior": "default",
-    "helpText": "",
-    "description": null,
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "bd1bf2cb-c806-479b-a68c-af9dffd438c9",
-    "accessTypes": "none",
     "displayName": "Security Layer (Device)",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy",
-    "id": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_ts_security_layer",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_ts_security_layer_1",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": "0",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_1",
-            "parentSettingId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy"
-          }
-        ],
-        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_ts_security_layer_0",
-        "name": "RDP",
         "displayName": "RDP",
-        "description": null
-      },
-      {
-        "helpText": null,
         "dependedOnBy": [],
-        "optionValue": {
-          "value": "1",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
-        },
+        "description": null,
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_1",
             "parentSettingId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy"
           }
         ],
-        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_ts_security_layer_1",
-        "name": "Negotiate",
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "0"
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_ts_security_layer_0",
+        "name": "RDP"
+      },
+      {
         "displayName": "Negotiate",
-        "description": null
-      },
-      {
-        "helpText": null,
         "dependedOnBy": [],
-        "optionValue": {
-          "value": "2",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
-        },
+        "description": null,
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_1",
             "parentSettingId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy"
           }
         ],
-        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_ts_security_layer_2",
-        "name": "SSL",
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "1"
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_ts_security_layer_1",
+        "name": "Negotiate"
+      },
+      {
         "displayName": "SSL",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy"
+          }
+        ],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "2"
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_ts_security_layer_2",
+        "name": "SSL"
       }
     ],
-    "offsetUri": "/Config/ADMX_TerminalServer/TS_SECURITY_LAYER_POLICY",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4688,14 +4684,30 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "infoUrls": []
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": null,
+    "infoUrls": [],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_TerminalServer/TS_SECURITY_LAYER_POLICY",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy",
+    "categoryId": "bd1bf2cb-c806-479b-a68c-af9dffd438c9",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "TS_SECURITY_LAYER_POLICY",
+    "uxBehavior": "toggle",
     "keywords": [
       "TS_SECURITY_LAYER_POLICY",
       "Require use of specific security layer for remote (RDP) connections",
@@ -4705,70 +4717,54 @@ If you enable and then disable this policy setting,any values that were previous
       "Machine",
       "SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "TS_SECURITY_LAYER_POLICY",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting specifies whether to require the use of a specific security layer to secure communications between clients and RD Session Host servers during Remote Desktop Protocol (RDP) connections.\r\n\r\nIf you enable this policy setting, all communications between clients and RD Session Host servers during remote connections must use the security method specified in this setting. The following security methods are available:\r\n\r\n* Negotiate: The Negotiate method enforces the most secure method that is supported by the client. If Transport Layer Security (TLS) version 1.0 is supported, it is used to authenticate the RD Session Host server. If TLS is not supported, native Remote Desktop Protocol (RDP) encryption is used to secure communications, but the RD Session Host server is not authenticated. Native RDP encryption (as opposed to SSL encryption) is not recommended.\r\n\r\n* RDP: The RDP method uses native RDP encryption to secure communications between the client and RD Session Host server. If you select this setting, the RD Session Host server is not authenticated. Native RDP encryption (as opposed to SSL encryption) is not recommended.\r\n\r\n* SSL (TLS 1.0): The SSL method requires the use of TLS 1.0 to authenticate the RD Session Host server. If TLS is not supported, the connection fails. This is the recommended setting for this policy.\r\n\r\nIf you disable or do not configure this policy setting, the security method to be used for remote connections to RD Session Host servers is not specified at the Group Policy level.\r\n\r\n ",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "bd1bf2cb-c806-479b-a68c-af9dffd438c9",
-    "accessTypes": "none",
     "displayName": "Require use of specific security layer for remote (RDP) connections",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy",
-    "id": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
+        "displayName": "Enabled",
         "dependedOnBy": [
           {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_ts_security_layer"
+            "dependedOnBy": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_ts_security_layer",
+            "required": true
           }
         ],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
+        "description": null,
         "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
         "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_security_layer_policy_1",
-        "name": "Enabled",
-        "displayName": "Enabled",
-        "description": null
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_TerminalServer/TS_SECURITY_LAYER_POLICY",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4780,16 +4776,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This policy setting specifies whether to require the use of a specific security layer to secure communications between clients and RD Session Host servers during Remote Desktop Protocol (RDP) connections.\r\n\r\nIf you enable this policy setting, all communications between clients and RD Session Host servers during remote connections must use the security method specified in this setting. The following security methods are available:\r\n\r\n* Negotiate: The Negotiate method enforces the most secure method that is supported by the client. If Transport Layer Security (TLS) version 1.0 is supported, it is used to authenticate the RD Session Host server. If TLS is not supported, native Remote Desktop Protocol (RDP) encryption is used to secure communications, but the RD Session Host server is not authenticated. Native RDP encryption (as opposed to SSL encryption) is not recommended.\r\n\r\n* RDP: The RDP method uses native RDP encryption to secure communications between the client and RD Session Host server. If you select this setting, the RD Session Host server is not authenticated. Native RDP encryption (as opposed to SSL encryption) is not recommended.\r\n\r\n* SSL (TLS 1.0): The SSL method requires the use of TLS 1.0 to authenticate the RD Session Host server. If TLS is not supported, the connection fails. This is the recommended setting for this policy.\r\n\r\nIf you disable or do not configure this policy setting, the security method to be used for remote connections to RD Session Host servers is not specified at the Group Policy level.\r\n\r\n ",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-terminalserver#admx-terminalserver-ts-security-layer-policy"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_TerminalServer/TS_USER_AUTHENTICATION_POLICY",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_user_authentication_policy",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_terminalserver_ts_user_authentication_policy",
+    "categoryId": "bd1bf2cb-c806-479b-a68c-af9dffd438c9",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "TS_USER_AUTHENTICATION_POLICY",
+    "uxBehavior": "toggle",
     "keywords": [
       "TS_USER_AUTHENTICATION_POLICY",
       "Require user authentication for remote connections by using Network Level Authentication",
@@ -4800,65 +4812,49 @@ If you enable and then disable this policy setting,any values that were previous
       "SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services",
       "UserAuthentication"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "TS_USER_AUTHENTICATION_POLICY",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_user_authentication_policy_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting allows you to specify whether to require user authentication for remote connections to the RD Session Host server by using Network Level Authentication. This policy setting enhances security by requiring that user authentication occur earlier in the remote connection process.\r\n\r\nIf you enable this policy setting, only client computers that support Network Level Authentication can connect to the RD Session Host server.\r\n\r\nTo determine whether a client computer supports Network Level Authentication, start Remote Desktop Connection on the client computer, click the icon in the upper-left corner of the Remote Desktop Connection dialog box, and then click About. In the About Remote Desktop Connection dialog box, look for the phrase Network Level Authentication supported.\r\n\r\nIf you disable this policy setting, Network Level Authentication is not required for user authentication before allowing remote connections to the RD Session Host server.\r\n\r\nIf you do not configure this policy setting, the local setting on the target computer will be enforced. On Windows Server 2012 and Windows 8, Network Level Authentication is enforced by default.\r\n\r\nImportant: Disabling this policy setting provides less security because user authentication will occur later in the remote connection process.\r\n\r\n ",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "bd1bf2cb-c806-479b-a68c-af9dffd438c9",
-    "accessTypes": "none",
     "displayName": "Require user authentication for remote connections by using Network Level Authentication",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_user_authentication_policy",
-    "id": "device_vendor_msft_policy_config_admx_terminalserver_ts_user_authentication_policy",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_user_authentication_policy_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_user_authentication_policy_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_user_authentication_policy_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_user_authentication_policy_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_user_authentication_policy_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_TerminalServer/TS_USER_AUTHENTICATION_POLICY",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4870,108 +4866,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This policy setting allows you to specify whether to require user authentication for remote connections to the RD Session Host server by using Network Level Authentication. This policy setting enhances security by requiring that user authentication occur earlier in the remote connection process.\r\n\r\nIf you enable this policy setting, only client computers that support Network Level Authentication can connect to the RD Session Host server.\r\n\r\nTo determine whether a client computer supports Network Level Authentication, start Remote Desktop Connection on the client computer, click the icon in the upper-left corner of the Remote Desktop Connection dialog box, and then click About. In the About Remote Desktop Connection dialog box, look for the phrase Network Level Authentication supported.\r\n\r\nIf you disable this policy setting, Network Level Authentication is not required for user authentication before allowing remote connections to the RD Session Host server.\r\n\r\nIf you do not configure this policy setting, the local setting on the target computer will be enforced. On Windows Server 2012 and Windows 8, Network Level Authentication is enforced by default.\r\n\r\nImportant: Disabling this policy setting provides less security because user authentication will occur later in the remote connection process.\r\n\r\n ",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-terminalserver#admx-terminalserver-ts-user-authentication-policy"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/RemoteDesktopServices/ClientConnectionEncryptionLevel",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
-    "keywords": [
-      "TS_ENCRYPTION_POLICY",
-      "Set client connection encryption level",
-      "\\Windows Components\\Remote Desktop Services\\Remote Desktop Session Host\\Security",
-      "Administrative Templates\\Windows Components\\Remote Desktop Services\\Remote Desktop Session Host\\Security",
-      "Security"
-    ],
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel",
+    "categoryId": "bd1bf2cb-c806-479b-a68c-af9dffd438c9",
     "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
     },
     "name": "TS_ENCRYPTION_POLICY",
-    "defaultOptionId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_0",
     "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "Specifies whether to require the use of a specific encryption level to secure communications between client computers and RD Session Host servers during Remote Desktop Protocol (RDP) connections. This policy only applies when you are using native RDP encryption. However, native RDP encryption (as opposed to SSL encryption) is not recommended. This policy does not apply to SSL encryption.\r\n\r\nIf you enable this policy setting, all communications between clients and RD Session Host servers during remote connections must use the encryption method specified in this setting. By default, the encryption level is set to High. The following encryption methods are available:\r\n\r\n* High: The High setting encrypts data sent from the client to the server and from the server to the client by using strong 128-bit encryption. Use this encryption level in environments that contain only 128-bit clients (for example, clients that run Remote Desktop Connection). Clients that do not support this encryption level cannot connect to RD Session Host servers.\r\n\r\n* Client Compatible: The Client Compatible setting encrypts data sent between the client and the server at the maximum key strength supported by the client. Use this encryption level in environments that include clients that do not support 128-bit encryption.\r\n\r\n* Low: The Low setting encrypts only data sent from the client to the server by using 56-bit encryption.\r\n\r\nIf you disable or do not configure this setting, the encryption level to be used for remote connections to RD Session Host servers is not enforced through Group Policy.\r\n\r\nImportant\r\n\r\nFIPS compliance can be configured through the System cryptography. Use FIPS compliant algorithms for encryption, hashing, and signing settings in Group Policy (under Computer Configuration\\Windows Settings\\Security Settings\\Local Policies\\Security Options.) The FIPS compliant setting encrypts and decrypts data sent from the client to the server and from the server to the client, with the Federal Information Processing Standard (FIPS) 140 encryption algorithms, by using Microsoft cryptographic modules. Use this encryption level when communications between clients and RD Session Host servers requires the highest level of encryption.\r\n",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "bd1bf2cb-c806-479b-a68c-af9dffd438c9",
-    "accessTypes": "add,delete,get,replace",
-    "displayName": "Set client connection encryption level",
-    "rootDefinitionId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel",
-    "id": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_0",
-        "name": "Disabled",
-        "displayName": "Disabled",
-        "description": null
-      },
-      {
-        "helpText": null,
-        "dependedOnBy": [
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level"
-          }
-        ],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_1",
-        "name": "Enabled",
-        "displayName": "Enabled",
-        "description": null
-      }
-    ],
-    "offsetUri": "/Config/RemoteDesktopServices/ClientConnectionEncryptionLevel",
-    "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
-      "maximumSupportedVersion": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
-    },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-clientconnectionencryptionlevel"
-    ]
-  },
-  {
-    "riskLevel": "low",
     "keywords": [
       "TS_ENCRYPTION_POLICY",
       "Set client connection encryption level",
@@ -4979,94 +4899,54 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Remote Desktop Services\\Remote Desktop Session Host\\Security",
       "Security"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "TS_ENCRYPTION_LEVEL",
-    "defaultOptionId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level_2",
-    "uxBehavior": "default",
-    "helpText": "",
-    "description": "",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "bd1bf2cb-c806-479b-a68c-af9dffd438c9",
-    "accessTypes": "add,delete,get,replace",
-    "displayName": "Encryption Level",
-    "rootDefinitionId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel",
-    "id": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "displayName": "Set client connection encryption level",
+    "defaultOptionId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_0",
     "options": [
       {
-        "helpText": null,
+        "displayName": "Disabled",
         "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
         "optionValue": {
-          "value": "1",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
         },
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_1",
-            "parentSettingId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel"
-          }
-        ],
-        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level_1",
-        "name": "Low Level",
-        "displayName": "Low Level",
-        "description": null
+        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": "2",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [
+        "displayName": "Enabled",
+        "dependedOnBy": [
           {
-            "dependentOn": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_1",
-            "parentSettingId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel"
+            "dependedOnBy": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level",
+            "required": true
           }
         ],
-        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level_2",
-        "name": "Client Compatible",
-        "displayName": "Client Compatible",
-        "description": null
-      },
-      {
+        "description": null,
+        "dependentOn": [],
         "helpText": null,
-        "dependedOnBy": [],
         "optionValue": {
-          "value": "3",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
         },
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_1",
-            "parentSettingId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel"
-          }
-        ],
-        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level_3",
-        "name": "High Level",
-        "displayName": "High Level",
-        "description": null
+        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/RemoteDesktopServices/ClientConnectionEncryptionLevel",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5078,14 +4958,146 @@ If you enable and then disable this policy setting,any values that were previous
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "infoUrls": []
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "Specifies whether to require the use of a specific encryption level to secure communications between client computers and RD Session Host servers during Remote Desktop Protocol (RDP) connections. This policy only applies when you are using native RDP encryption. However, native RDP encryption (as opposed to SSL encryption) is not recommended. This policy does not apply to SSL encryption.\r\n\r\nIf you enable this policy setting, all communications between clients and RD Session Host servers during remote connections must use the encryption method specified in this setting. By default, the encryption level is set to High. The following encryption methods are available:\r\n\r\n* High: The High setting encrypts data sent from the client to the server and from the server to the client by using strong 128-bit encryption. Use this encryption level in environments that contain only 128-bit clients (for example, clients that run Remote Desktop Connection). Clients that do not support this encryption level cannot connect to RD Session Host servers.\r\n\r\n* Client Compatible: The Client Compatible setting encrypts data sent between the client and the server at the maximum key strength supported by the client. Use this encryption level in environments that include clients that do not support 128-bit encryption.\r\n\r\n* Low: The Low setting encrypts only data sent from the client to the server by using 56-bit encryption.\r\n\r\nIf you disable or do not configure this setting, the encryption level to be used for remote connections to RD Session Host servers is not enforced through Group Policy.\r\n\r\nImportant\r\n\r\nFIPS compliance can be configured through the System cryptography. Use FIPS compliant algorithms for encryption, hashing, and signing settings in Group Policy (under Computer Configuration\\Windows Settings\\Security Settings\\Local Policies\\Security Options.) The FIPS compliant setting encrypts and decrypts data sent from the client to the server and from the server to the client, with the Federal Information Processing Standard (FIPS) 140 encryption algorithms, by using Microsoft cryptographic modules. Use this encryption level when communications between clients and RD Session Host servers requires the highest level of encryption.\r\n",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotedesktopservices#remotedesktopservices-clientconnectionencryptionlevel"
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/RemoteDesktopServices/ClientConnectionEncryptionLevel",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level",
+    "categoryId": "bd1bf2cb-c806-479b-a68c-af9dffd438c9",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "TS_ENCRYPTION_LEVEL",
+    "uxBehavior": "default",
+    "keywords": [
+      "TS_ENCRYPTION_POLICY",
+      "Set client connection encryption level",
+      "\\Windows Components\\Remote Desktop Services\\Remote Desktop Session Host\\Security",
+      "Administrative Templates\\Windows Components\\Remote Desktop Services\\Remote Desktop Session Host\\Security",
+      "Security"
+    ],
+    "displayName": "Encryption Level",
+    "defaultOptionId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level_2",
+    "options": [
+      {
+        "displayName": "Low Level",
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_1",
+            "parentSettingId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel"
+          }
+        ],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "1"
+        },
+        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level_1",
+        "name": "Low Level"
+      },
+      {
+        "displayName": "Client Compatible",
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_1",
+            "parentSettingId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel"
+          }
+        ],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "2"
+        },
+        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level_2",
+        "name": "Client Compatible"
+      },
+      {
+        "displayName": "High Level",
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_1",
+            "parentSettingId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel"
+          }
+        ],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "3"
+        },
+        "itemId": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level_3",
+        "name": "High Level"
+      }
+    ],
+    "helpText": "",
+    "applicability": {
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "requiredAzureAdTrustType": "none"
+    },
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "",
+    "infoUrls": [],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
+  },
+  {
+    "offsetUri": "/Config/ADMX_TerminalServer/TS_TEMP_DELETE",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_temp_delete",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_terminalserver_ts_temp_delete",
+    "categoryId": "cc9231e6-ed1b-4680-aff4-bc72f16733c0",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "TS_TEMP_DELETE",
+    "uxBehavior": "toggle",
     "keywords": [
       "TS_TEMP_DELETE",
       "Do not delete temp folders upon exit",
@@ -5096,65 +5108,49 @@ If you enable and then disable this policy setting,any values that were previous
       "SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services",
       "DeleteTempDirsOnExit"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "TS_TEMP_DELETE",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_temp_delete_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting specifies whether Remote Desktop Services retains a user's per-session temporary folders at logoff.\r\n\r\nYou can use this setting to maintain a user's session-specific temporary folders on a remote computer, even if the user logs off from a session. By default, Remote Desktop Services deletes a user's temporary folders when the user logs off.\r\n\r\nIf you enable this policy setting, a user's per-session temporary folders are retained when the user logs off from a session.\r\n\r\nIf you disable this policy setting, temporary folders are deleted when a user logs off, even if the server administrator specifies otherwise.\r\n\r\nIf you do not configure this policy setting, Remote Desktop Services deletes the temporary folders from the remote computer at logoff, unless specified otherwise by the server administrator.\r\n\r\nNote: This setting only takes effect if per-session temporary folders are in use on the server. If you enable the Do not use temporary folders per session policy setting, this policy setting has no effect.\r\n\r\n ",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "cc9231e6-ed1b-4680-aff4-bc72f16733c0",
-    "accessTypes": "none",
     "displayName": "Do not delete temp folders upon exit",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_temp_delete",
-    "id": "device_vendor_msft_policy_config_admx_terminalserver_ts_temp_delete",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_terminalserver_ts_temp_delete_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_temp_delete_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_temp_delete_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_temp_delete_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_terminalserver_ts_temp_delete_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_TerminalServer/TS_TEMP_DELETE",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5166,16 +5162,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This policy setting specifies whether Remote Desktop Services retains a user's per-session temporary folders at logoff.\r\n\r\nYou can use this setting to maintain a user's session-specific temporary folders on a remote computer, even if the user logs off from a session. By default, Remote Desktop Services deletes a user's temporary folders when the user logs off.\r\n\r\nIf you enable this policy setting, a user's per-session temporary folders are retained when the user logs off from a session.\r\n\r\nIf you disable this policy setting, temporary folders are deleted when a user logs off, even if the server administrator specifies otherwise.\r\n\r\nIf you do not configure this policy setting, Remote Desktop Services deletes the temporary folders from the remote computer at logoff, unless specified otherwise by the server administrator.\r\n\r\nNote: This setting only takes effect if per-session temporary folders are in use on the server. If you enable the Do not use temporary folders per session policy setting, this policy setting has no effect.\r\n\r\n ",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-terminalserver#admx-terminalserver-ts-temp-delete"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/InternetExplorer/DisableEnclosureDownloading",
+    "rootDefinitionId": "device_vendor_msft_policy_config_internetexplorer_disableenclosuredownloading",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_internetexplorer_disableenclosuredownloading",
+    "categoryId": "569c6b8d-9491-471b-9960-17e3ac60734a",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Disable_Downloading_of_Enclosures",
+    "uxBehavior": "toggle",
     "keywords": [
       "Disable_Downloading_of_Enclosures",
       "Prevent downloading of enclosures",
@@ -5185,65 +5197,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Software\\Policies\\Microsoft\\Internet Explorer\\Feeds",
       "DisableEnclosureDownload"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "Disable_Downloading_of_Enclosures",
-    "defaultOptionId": "device_vendor_msft_policy_config_internetexplorer_disableenclosuredownloading_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting prevents the user from having enclosures (file attachments) downloaded from a feed to the user's computer.\r\n\r\nIf you enable this policy setting, the user cannot set the Feed Sync Engine to download an enclosure through the Feed property page. A developer cannot change the download setting through the Feed APIs.\r\n\r\nIf you disable or do not configure this policy setting, the user can set the Feed Sync Engine to download an enclosure through the Feed property page. A developer can change the download setting through the Feed APIs.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "569c6b8d-9491-471b-9960-17e3ac60734a",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Prevent downloading of enclosures",
-    "rootDefinitionId": "device_vendor_msft_policy_config_internetexplorer_disableenclosuredownloading",
-    "id": "device_vendor_msft_policy_config_internetexplorer_disableenclosuredownloading",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_internetexplorer_disableenclosuredownloading_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_internetexplorer_disableenclosuredownloading_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_internetexplorer_disableenclosuredownloading_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_internetexplorer_disableenclosuredownloading_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_internetexplorer_disableenclosuredownloading_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/InternetExplorer/DisableEnclosureDownloading",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.15063",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "5.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5254,16 +5250,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "5.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting prevents the user from having enclosures (file attachments) downloaded from a feed to the user's computer.\r\n\r\nIf you enable this policy setting, the user cannot set the Feed Sync Engine to download an enclosure through the Feed property page. A developer cannot change the download setting through the Feed APIs.\r\n\r\nIf you disable or do not configure this policy setting, the user can set the Feed Sync Engine to download an enclosure through the Feed property page. A developer can change the download setting through the Feed APIs.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-internetexplorer#internetexplorer-disableenclosuredownloading"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/ADMX_WindowsStore/DisableOSUpgrade_2",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_windowsstore_disableosupgrade_2",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_admx_windowsstore_disableosupgrade_2",
+    "categoryId": "c64ee570-d51c-4286-9a47-367b833754e4",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "DisableOSUpgrade_2",
+    "uxBehavior": "toggle",
     "keywords": [
       "DisableOSUpgrade_2",
       "Turn off the offer to update to the latest version of Windows",
@@ -5274,65 +5286,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Software\\Policies\\Microsoft\\WindowsStore",
       "DisableOSUpgrade"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "DisableOSUpgrade_2",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_windowsstore_disableosupgrade_2_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "Enables or disables the Store offer to update to the latest version of Windows.\r\n\r\nIf you enable this setting, the Store application will not offer updates to the latest version of Windows.\r\n\r\nIf you disable or do not configure this setting the Store application will offer updates to the latest version of Windows.\r\n ",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "c64ee570-d51c-4286-9a47-367b833754e4",
-    "accessTypes": "none",
     "displayName": "Turn off the offer to update to the latest version of Windows",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_windowsstore_disableosupgrade_2",
-    "id": "device_vendor_msft_policy_config_admx_windowsstore_disableosupgrade_2",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_windowsstore_disableosupgrade_2_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_windowsstore_disableosupgrade_2_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_windowsstore_disableosupgrade_2_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_windowsstore_disableosupgrade_2_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_admx_windowsstore_disableosupgrade_2_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_WindowsStore/DisableOSUpgrade_2",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.19041.1202",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "10.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5344,16 +5340,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "10.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "Enables or disables the Store offer to update to the latest version of Windows.\r\n\r\nIf you enable this setting, the Store application will not offer updates to the latest version of Windows.\r\n\r\nIf you disable or do not configure this setting the Store application will offer updates to the latest version of Windows.\r\n ",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-windowsstore#admx-windowsstore-disableosupgrade-2"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/WindowsLogon/EnableMPRNotifications",
+    "rootDefinitionId": "device_vendor_msft_policy_config_windowslogon_enablemprnotifications",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_windowslogon_enablemprnotifications",
+    "categoryId": "e9aff162-feb0-400a-aa68-8dd8deb93275",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "EnableMPRNotifications",
+    "uxBehavior": "toggle",
     "keywords": [
       "EnableMPRNotifications",
       "Enable MPR notifications for the system",
@@ -5361,65 +5373,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Windows Logon Options",
       "Windows Logon Options"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "name": "EnableMPRNotifications",
-    "defaultOptionId": "device_vendor_msft_policy_config_windowslogon_enablemprnotifications_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy controls whether the user's password is included in the content of MPR notifications sent by winlogon in the system.\r\n\r\nIf you disable this setting or do not configure it, winlogon sends MPR notifications with empty password fields of the user's authentication info.\r\n\r\nIf you enable this setting, winlogon sends MPR notifications containing the user's password in the authentication info.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "e9aff162-feb0-400a-aa68-8dd8deb93275",
-    "accessTypes": "none",
     "displayName": "Configure the transmission of the user's password in the content of MPR notifications sent by winlogon.",
-    "rootDefinitionId": "device_vendor_msft_policy_config_windowslogon_enablemprnotifications",
-    "id": "device_vendor_msft_policy_config_windowslogon_enablemprnotifications",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_windowslogon_enablemprnotifications_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_windowslogon_enablemprnotifications_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_windowslogon_enablemprnotifications_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_windowslogon_enablemprnotifications_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_windowslogon_enablemprnotifications_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/WindowsLogon/EnableMPRNotifications",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.22621",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "11.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.22621",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5429,16 +5425,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "11.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "none",
+    "settingUsage": "configuration",
+    "description": "This policy controls whether the user's password is included in the content of MPR notifications sent by winlogon in the system.\r\n\r\nIf you disable this setting or do not configure it, winlogon sends MPR notifications with empty password fields of the user's authentication info.\r\n\r\nIf you enable this setting, winlogon sends MPR notifications containing the user's password in the authentication info.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-enablemprnotifications"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/WindowsLogon/AllowAutomaticRestartSignOn",
+    "rootDefinitionId": "device_vendor_msft_policy_config_windowslogon_allowautomaticrestartsignon",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_windowslogon_allowautomaticrestartsignon",
+    "categoryId": "e9aff162-feb0-400a-aa68-8dd8deb93275",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "AutomaticRestartSignOn",
+    "uxBehavior": "toggle",
     "keywords": [
       "AutomaticRestartSignOn",
       "Sign-in and lock last interactive user automatically after a restart",
@@ -5446,65 +5458,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Windows Logon Options",
       "Windows Logon Options"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "AutomaticRestartSignOn",
-    "defaultOptionId": "device_vendor_msft_policy_config_windowslogon_allowautomaticrestartsignon_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting controls whether a device will automatically sign in and lock the last interactive user after the system restarts or after a shutdown and cold boot.\r\n\r\nThis only occurs if the last interactive user didn’t sign out before the restart or shutdown.​\r\n\r\nIf the device is joined to Active Directory or Azure Active Directory, this policy only applies to Windows Update restarts. Otherwise, this will apply to both Windows Update restarts and user-initiated restarts and shutdowns.​\r\n\r\nIf you don’t configure this policy setting, it is enabled by default. When the policy is enabled, the user is automatically signed in and the session is automatically locked with all lock screen apps configured for that user after the device boots.​\r\n\r\nAfter enabling this policy, you can configure its settings through the ConfigAutomaticRestartSignOn policy, which configures the mode of automatically signing in and locking the last interactive user after a restart or cold boot​.\r\n\r\nIf you disable this policy setting, the device does not configure automatic sign in. The user’s lock screen apps are not restarted after the system restarts.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "e9aff162-feb0-400a-aa68-8dd8deb93275",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Sign-in and lock last interactive user automatically after a restart",
-    "rootDefinitionId": "device_vendor_msft_policy_config_windowslogon_allowautomaticrestartsignon",
-    "id": "device_vendor_msft_policy_config_windowslogon_allowautomaticrestartsignon",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_windowslogon_allowautomaticrestartsignon_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_windowslogon_allowautomaticrestartsignon_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_windowslogon_allowautomaticrestartsignon_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_windowslogon_allowautomaticrestartsignon_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_windowslogon_allowautomaticrestartsignon_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/WindowsLogon/AllowAutomaticRestartSignOn",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.18362",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "9.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.18362",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5515,16 +5511,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "9.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting controls whether a device will automatically sign in and lock the last interactive user after the system restarts or after a shutdown and cold boot.\r\n\r\nThis only occurs if the last interactive user didn’t sign out before the restart or shutdown.​\r\n\r\nIf the device is joined to Active Directory or Azure Active Directory, this policy only applies to Windows Update restarts. Otherwise, this will apply to both Windows Update restarts and user-initiated restarts and shutdowns.​\r\n\r\nIf you don’t configure this policy setting, it is enabled by default. When the policy is enabled, the user is automatically signed in and the session is automatically locked with all lock screen apps configured for that user after the device boots.​\r\n\r\nAfter enabling this policy, you can configure its settings through the ConfigAutomaticRestartSignOn policy, which configures the mode of automatically signing in and locking the last interactive user after a restart or cold boot​.\r\n\r\nIf you disable this policy setting, the device does not configure automatic sign in. The user’s lock screen apps are not restarted after the system restarts.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-allowautomaticrestartsignon"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/RemoteManagement/AllowBasicAuthentication_Client",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_client",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_client",
+    "categoryId": "c919e047-97fc-489f-ab0e-bcb070e36c55",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "AllowBasic_2",
+    "uxBehavior": "toggle",
     "keywords": [
       "AllowBasic_2",
       "Allow Basic authentication",
@@ -5532,65 +5544,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Windows Remote Management (WinRM)\\WinRM Client",
       "WinRM Client"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "AllowBasic_2",
-    "defaultOptionId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_client_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting allows you to manage whether the Windows Remote Management (WinRM) client uses Basic authentication.\r\n\r\nIf you enable this policy setting, the WinRM client uses Basic authentication. If WinRM is configured to use HTTP transport, the user name and password are sent over the network as clear text.\r\n\r\nIf you disable or do not configure this policy setting, the WinRM client does not use Basic authentication.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "c919e047-97fc-489f-ab0e-bcb070e36c55",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Allow Basic authentication",
-    "rootDefinitionId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_client",
-    "id": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_client",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_client_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_client_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_client_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_client_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_client_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/RemoteManagement/AllowBasicAuthentication_Client",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.16299",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "6.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.16299",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5601,16 +5597,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "6.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting allows you to manage whether the Windows Remote Management (WinRM) client uses Basic authentication.\r\n\r\nIf you enable this policy setting, the WinRM client uses Basic authentication. If WinRM is configured to use HTTP transport, the user name and password are sent over the network as clear text.\r\n\r\nIf you disable or do not configure this policy setting, the WinRM client does not use Basic authentication.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowbasicauthentication-client"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/RemoteManagement/AllowUnencryptedTraffic_Client",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_client",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_client",
+    "categoryId": "c919e047-97fc-489f-ab0e-bcb070e36c55",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "AllowUnencrypted_2",
+    "uxBehavior": "toggle",
     "keywords": [
       "AllowUnencrypted_2",
       "Allow unencrypted traffic",
@@ -5618,65 +5630,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Windows Remote Management (WinRM)\\WinRM Client",
       "WinRM Client"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "AllowUnencrypted_2",
-    "defaultOptionId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_client_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting allows you to manage whether the Windows Remote Management (WinRM) client sends and receives unencrypted messages over the network.\r\n\r\nIf you enable this policy setting, the WinRM client sends and receives unencrypted messages over the network.\r\n\r\nIf you disable or do not configure this policy setting, the WinRM client sends or receives only encrypted messages over the network.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "c919e047-97fc-489f-ab0e-bcb070e36c55",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Allow unencrypted traffic",
-    "rootDefinitionId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_client",
-    "id": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_client",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_client_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_client_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_client_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_client_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_client_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/RemoteManagement/AllowUnencryptedTraffic_Client",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.16299",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "6.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.16299",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5687,16 +5683,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "6.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting allows you to manage whether the Windows Remote Management (WinRM) client sends and receives unencrypted messages over the network.\r\n\r\nIf you enable this policy setting, the WinRM client sends and receives unencrypted messages over the network.\r\n\r\nIf you disable or do not configure this policy setting, the WinRM client sends or receives only encrypted messages over the network.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowunencryptedtraffic-client"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/RemoteManagement/DisallowDigestAuthentication",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remotemanagement_disallowdigestauthentication",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_remotemanagement_disallowdigestauthentication",
+    "categoryId": "c919e047-97fc-489f-ab0e-bcb070e36c55",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "DisallowDigest",
+    "uxBehavior": "toggle",
     "keywords": [
       "DisallowDigest",
       "Disallow Digest authentication",
@@ -5704,65 +5716,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Windows Remote Management (WinRM)\\WinRM Client",
       "WinRM Client"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "DisallowDigest",
-    "defaultOptionId": "device_vendor_msft_policy_config_remotemanagement_disallowdigestauthentication_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting allows you to manage whether the Windows Remote Management (WinRM) client uses Digest authentication.\r\n\r\nIf you enable this policy setting, the WinRM client does not use Digest authentication.\r\n\r\nIf you disable or do not configure this policy setting, the WinRM client uses Digest authentication.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "c919e047-97fc-489f-ab0e-bcb070e36c55",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Disallow Digest authentication",
-    "rootDefinitionId": "device_vendor_msft_policy_config_remotemanagement_disallowdigestauthentication",
-    "id": "device_vendor_msft_policy_config_remotemanagement_disallowdigestauthentication",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_remotemanagement_disallowdigestauthentication_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotemanagement_disallowdigestauthentication_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_remotemanagement_disallowdigestauthentication_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotemanagement_disallowdigestauthentication_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_remotemanagement_disallowdigestauthentication_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/RemoteManagement/DisallowDigestAuthentication",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.16299",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "6.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.16299",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5773,16 +5769,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "6.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting allows you to manage whether the Windows Remote Management (WinRM) client uses Digest authentication.\r\n\r\nIf you enable this policy setting, the WinRM client does not use Digest authentication.\r\n\r\nIf you disable or do not configure this policy setting, the WinRM client uses Digest authentication.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-disallowdigestauthentication"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/RemoteManagement/AllowBasicAuthentication_Service",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_service",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_service",
+    "categoryId": "023116df-a32c-43b0-a384-d6fe7ad9fabe",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "AllowBasic_1",
+    "uxBehavior": "toggle",
     "keywords": [
       "AllowBasic_1",
       "Allow Basic authentication",
@@ -5790,65 +5802,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Windows Remote Management (WinRM)\\WinRM Service",
       "WinRM Service"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "AllowBasic_1",
-    "defaultOptionId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_service_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting allows you to manage whether the Windows Remote Management (WinRM) service accepts Basic authentication from a remote client.\r\n\r\n        If you enable this policy setting, the WinRM service accepts Basic authentication from a remote client.\r\n\r\n        If you disable or do not configure this policy setting, the WinRM service does not accept Basic authentication from a remote client.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "023116df-a32c-43b0-a384-d6fe7ad9fabe",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Allow Basic authentication",
-    "rootDefinitionId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_service",
-    "id": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_service",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_service_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_service_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_service_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_service_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowbasicauthentication_service_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/RemoteManagement/AllowBasicAuthentication_Service",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.16299",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "6.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.16299",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5859,16 +5855,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "6.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting allows you to manage whether the Windows Remote Management (WinRM) service accepts Basic authentication from a remote client.\r\n\r\n        If you enable this policy setting, the WinRM service accepts Basic authentication from a remote client.\r\n\r\n        If you disable or do not configure this policy setting, the WinRM service does not accept Basic authentication from a remote client.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowbasicauthentication-service"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/RemoteManagement/AllowUnencryptedTraffic_Service",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_service",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_service",
+    "categoryId": "023116df-a32c-43b0-a384-d6fe7ad9fabe",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "AllowUnencrypted_1",
+    "uxBehavior": "toggle",
     "keywords": [
       "AllowUnencrypted_1",
       "Allow unencrypted traffic",
@@ -5876,65 +5888,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Windows Remote Management (WinRM)\\WinRM Service",
       "WinRM Service"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "AllowUnencrypted_1",
-    "defaultOptionId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_service_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting allows you to manage whether the Windows Remote Management (WinRM) service sends and receives unencrypted messages over the network.\r\n\r\nIf you enable this policy setting, the WinRM client sends and receives unencrypted messages over the network.\r\n\r\nIf you disable or do not configure this policy setting, the WinRM client sends or receives only encrypted messages over the network.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "023116df-a32c-43b0-a384-d6fe7ad9fabe",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Allow unencrypted traffic",
-    "rootDefinitionId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_service",
-    "id": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_service",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_service_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_service_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_service_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_service_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_remotemanagement_allowunencryptedtraffic_service_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/RemoteManagement/AllowUnencryptedTraffic_Service",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.16299",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "6.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.16299",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5945,16 +5941,32 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "6.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting allows you to manage whether the Windows Remote Management (WinRM) service sends and receives unencrypted messages over the network.\r\n\r\nIf you enable this policy setting, the WinRM client sends and receives unencrypted messages over the network.\r\n\r\nIf you disable or do not configure this policy setting, the WinRM client sends or receives only encrypted messages over the network.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-allowunencryptedtraffic-service"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   },
   {
+    "offsetUri": "/Config/RemoteManagement/DisallowStoringOfRunAsCredentials",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remotemanagement_disallowstoringofrunascredentials",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
+    "visibility": "settingsCatalog,template",
+    "id": "device_vendor_msft_policy_config_remotemanagement_disallowstoringofrunascredentials",
+    "categoryId": "023116df-a32c-43b0-a384-d6fe7ad9fabe",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "DisableRunAs",
+    "uxBehavior": "toggle",
     "keywords": [
       "DisableRunAs",
       "Disallow WinRM from storing RunAs credentials",
@@ -5962,65 +5974,49 @@ If you enable and then disable this policy setting,any values that were previous
       "Administrative Templates\\Windows Components\\Windows Remote Management (WinRM)\\WinRM Service",
       "WinRM Service"
     ],
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "name": "DisableRunAs",
-    "defaultOptionId": "device_vendor_msft_policy_config_remotemanagement_disallowstoringofrunascredentials_0",
-    "uxBehavior": "toggle",
-    "helpText": "",
-    "description": "This policy setting allows you to manage whether the Windows Remote Management (WinRM) service will not allow RunAs credentials to be stored for any plug-ins.\r\n\r\nIf you enable this policy setting, the WinRM service will not allow the RunAsUser or RunAsPassword configuration values to be set for any plug-ins.  If a plug-in has already set the RunAsUser and RunAsPassword configuration values, the RunAsPassword configuration value will be erased from the credential store on this computer.\r\n\r\nIf you disable or do not configure this policy setting, the WinRM service will allow the RunAsUser and RunAsPassword configuration values to be set for plug-ins and the RunAsPassword value will be stored securely.\r\n\r\nIf you enable and then disable this policy setting,any values that were previously configured for RunAsPassword will need to be reset.",
-    "visibility": "settingsCatalog,template",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "categoryId": "023116df-a32c-43b0-a384-d6fe7ad9fabe",
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Disallow WinRM from storing RunAs credentials",
-    "rootDefinitionId": "device_vendor_msft_policy_config_remotemanagement_disallowstoringofrunascredentials",
-    "id": "device_vendor_msft_policy_config_remotemanagement_disallowstoringofrunascredentials",
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_remotemanagement_disallowstoringofrunascredentials_0",
     "options": [
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotemanagement_disallowstoringofrunascredentials_0",
-        "name": "Disabled",
         "displayName": "Disabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0
+        },
+        "itemId": "device_vendor_msft_policy_config_remotemanagement_disallowstoringofrunascredentials_0",
+        "name": "Disabled"
       },
       {
-        "helpText": null,
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null
-        },
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_remotemanagement_disallowstoringofrunascredentials_1",
-        "name": "Enabled",
         "displayName": "Enabled",
-        "description": null
+        "dependedOnBy": [],
+        "description": null,
+        "dependentOn": [],
+        "helpText": null,
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1
+        },
+        "itemId": "device_vendor_msft_policy_config_remotemanagement_disallowstoringofrunascredentials_1",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/RemoteManagement/DisallowStoringOfRunAsCredentials",
+    "helpText": "",
     "applicability": {
-      "technologies": "mdm",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "minimumSupportedVersion": "10.0.16299",
+      "platform": "windows10",
       "maximumSupportedVersion": null,
+      "configurationServiceProviderVersion": "6.0",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.16299",
+      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -6031,13 +6027,17 @@ If you enable and then disable this policy setting,any values that were previous
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "configurationServiceProviderVersion": "6.0",
-      "platform": "windows10"
+      "requiredAzureAdTrustType": "none"
     },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
+    "description": "This policy setting allows you to manage whether the Windows Remote Management (WinRM) service will not allow RunAs credentials to be stored for any plug-ins.\r\n\r\nIf you enable this policy setting, the WinRM service will not allow the RunAsUser or RunAsPassword configuration values to be set for any plug-ins.  If a plug-in has already set the RunAsUser and RunAsPassword configuration values, the RunAsPassword configuration value will be erased from the credential store on this computer.\r\n\r\nIf you disable or do not configure this policy setting, the WinRM service will allow the RunAsUser and RunAsPassword configuration values to be set for plug-ins and the RunAsPassword value will be stored securely.\r\n\r\nIf you enable and then disable this policy setting,any values that were previously configured for RunAsPassword will need to be reset.",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remotemanagement#remotemanagement-disallowstoringofrunascredentials"
-    ]
+    ],
+    "version": "639118729572626080",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
   }
 ]
 ```

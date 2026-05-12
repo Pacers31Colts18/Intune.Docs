@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_DomainName.md)
 
-**Report Generated:** 05/11/2026 06:46:01
+**Report Generated:** 05/12/2026 06:19:09
 
 ---
 
@@ -33,27 +33,27 @@ N/A
 
 ```json
 {
-  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
-  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
-  "remediationScriptContent": "",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
-  "version": "1",
-  "highestAvailableVersion": null,
-  "roleScopeTagIds": [
-    "0"
-  ],
-  "publisher": " ",
-  "isGlobalScript": false,
   "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z",
   "runAs32Bit": true,
   "enforceSignatureCheck": false,
-  "description": "Outputs the domain name to be used for Azure Automation.",
-  "remediationScriptParameters": [],
-  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
+  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
   "detectionScriptParameters": [],
+  "publisher": " ",
+  "isGlobalScript": false,
+  "remediationScriptContent": "",
   "runAsAccount": "system",
-  "deviceHealthScriptType": "deviceHealthScript"
+  "remediationScriptParameters": [],
+  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
+  "description": "Outputs the domain name to be used for Azure Automation.",
+  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
+  "highestAvailableVersion": null,
+  "deviceHealthScriptType": "deviceHealthScript",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "version": "1",
+  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity"
 }
 ```
 

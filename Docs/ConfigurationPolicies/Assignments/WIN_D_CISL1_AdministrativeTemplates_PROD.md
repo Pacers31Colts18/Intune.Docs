@@ -2,7 +2,7 @@
 
 **Policy ID:** 3d2ad2b6-ec94-497b-87ab-19baf08933c2
 
-**Report Generated:** 05/12/2026 06:19:17
+**Report Generated:** 05/13/2026 06:30:49
 
 ---
 
@@ -14,14 +14,14 @@
 
 ```json
 {
-  "source": "direct",
   "target": {
-    "deviceAndAppManagementAssignmentFilterType": "none",
+    "deviceAndAppManagementAssignmentFilterId": null,
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
-    "deviceAndAppManagementAssignmentFilterId": null
+    "deviceAndAppManagementAssignmentFilterType": "none"
   },
   "id": "3d2ad2b6-ec94-497b-87ab-19baf08933c2_adadadad-808e-44e2-905a-0b7873a8a531",
-  "sourceId": "3d2ad2b6-ec94-497b-87ab-19baf08933c2"
+  "sourceId": "3d2ad2b6-ec94-497b-87ab-19baf08933c2",
+  "source": "direct"
 }
 ```
 
@@ -33,15 +33,15 @@
 
 ```json
 {
-  "source": "direct",
   "target": {
-    "deviceAndAppManagementAssignmentFilterType": "none",
-    "groupId": "caaaa83f-34d5-4445-befd-69ff875679fb",
+    "deviceAndAppManagementAssignmentFilterId": null,
     "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
-    "deviceAndAppManagementAssignmentFilterId": null
+    "deviceAndAppManagementAssignmentFilterType": "none",
+    "groupId": "caaaa83f-34d5-4445-befd-69ff875679fb"
   },
   "id": "3d2ad2b6-ec94-497b-87ab-19baf08933c2_caaaa83f-34d5-4445-befd-69ff875679fb",
-  "sourceId": "3d2ad2b6-ec94-497b-87ab-19baf08933c2"
+  "sourceId": "3d2ad2b6-ec94-497b-87ab-19baf08933c2",
+  "source": "direct"
 }
 ```
 

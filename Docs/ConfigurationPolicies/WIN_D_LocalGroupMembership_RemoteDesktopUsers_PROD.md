@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/WIN_D_LocalGroupMembership_RemoteDesktopUsers_PROD.md)
 
-**Report Generated:** 05/12/2026 06:19:06
+**Report Generated:** 05/13/2026 06:30:42
 
 ---
 
@@ -26,66 +26,66 @@
 #### device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup
 ```json
 {
+  "auditRuleInformation": null,
   "groupSettingCollectionValue": [
     {
       "settingValueTemplateReference": null,
       "children": [
         {
           "auditRuleInformation": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingCollectionInstance",
+          "settingInstanceTemplateReference": null,
           "choiceSettingCollectionValue": [
             {
-              "settingValueTemplateReference": null,
+              "value": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc_remotedesktopusers",
               "children": [],
-              "value": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc_remotedesktopusers"
+              "settingValueTemplateReference": null
             }
           ],
-          "settingDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingCollectionInstance",
-          "settingInstanceTemplateReference": null
+          "settingDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc"
         },
         {
           "auditRuleInformation": null,
-          "choiceSettingValue": {
-            "settingValueTemplateReference": null,
-            "children": [],
-            "value": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action_add_update"
-          },
-          "settingDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-          "settingInstanceTemplateReference": null
+          "settingInstanceTemplateReference": null,
+          "choiceSettingValue": {
+            "value": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action_add_update",
+            "children": [],
+            "settingValueTemplateReference": null
+          },
+          "settingDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action"
         },
         {
           "auditRuleInformation": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+          "settingInstanceTemplateReference": null,
           "choiceSettingValue": {
-            "settingValueTemplateReference": null,
+            "value": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype_users",
             "children": [
               {
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+                "settingInstanceTemplateReference": null,
                 "simpleSettingCollectionValue": [
                   {
-                    "settingValueTemplateReference": null,
+                    "value": "S-1-12-1-1134101088-1151655155-3051483063-1663312217",
                     "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-                    "value": "S-1-12-1-1134101088-1151655155-3051483063-1663312217"
+                    "settingValueTemplateReference": null
                   }
                 ],
-                "auditRuleInformation": null,
-                "settingDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_users",
-                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
-                "settingInstanceTemplateReference": null
+                "settingDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_users"
               }
             ],
-            "value": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype_users"
+            "settingValueTemplateReference": null
           },
-          "settingDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype",
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-          "settingInstanceTemplateReference": null
+          "settingDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype"
         }
       ]
     }
   ],
-  "auditRuleInformation": null,
-  "settingDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
-  "settingInstanceTemplateReference": null
+  "settingInstanceTemplateReference": null,
+  "settingDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
 }
 ```
 
@@ -93,266 +93,150 @@
 ```json
 [
   {
-    "offsetUri": "/Config/LocalUsersAndGroups/Configure",
-    "rootDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure",
-    "minimumCount": 0,
-    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
-    "visibility": "template",
-    "id": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc",
     "maximumCount": 100,
-    "categoryId": "b86100f0-e4ae-4f93-9dae-dd253a96726f",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 100
-    },
-    "name": "desc",
-    "uxBehavior": "multiheaderGrid",
-    "keywords": [
-      "LocalUsersAndGroups",
-      "Configure",
-      "Local Users And Groups"
-    ],
-    "displayName": "Local group",
-    "defaultOptionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc_administrators",
+    "id": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc",
     "options": [
       {
-        "displayName": "Administrators",
-        "dependedOnBy": [],
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
-            "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
-          }
-        ],
-        "helpText": null,
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "S-1-5-32-544"
-        },
         "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc_administrators",
-        "name": "administrators"
-      },
-      {
-        "displayName": "Users",
-        "dependedOnBy": [],
-        "description": null,
+        "displayName": "Administrators",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
             "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
           }
         ],
+        "description": null,
+        "dependedOnBy": [],
+        "name": "administrators",
         "helpText": null,
         "optionValue": {
-          "settingValueTemplateReference": null,
+          "value": "S-1-5-32-544",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "S-1-5-32-545"
-        },
+          "settingValueTemplateReference": null
+        }
+      },
+      {
         "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc_users",
-        "name": "users"
-      },
-      {
-        "displayName": "Guests",
-        "dependedOnBy": [],
-        "description": null,
+        "displayName": "Users",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
             "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
           }
         ],
+        "description": null,
+        "dependedOnBy": [],
+        "name": "users",
         "helpText": null,
         "optionValue": {
-          "settingValueTemplateReference": null,
+          "value": "S-1-5-32-545",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "S-1-5-32-546"
-        },
+          "settingValueTemplateReference": null
+        }
+      },
+      {
         "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc_guests",
-        "name": "guests"
-      },
-      {
-        "displayName": "Power Users",
-        "dependedOnBy": [],
-        "description": null,
+        "displayName": "Guests",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
             "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
           }
         ],
+        "description": null,
+        "dependedOnBy": [],
+        "name": "guests",
         "helpText": null,
         "optionValue": {
-          "settingValueTemplateReference": null,
+          "value": "S-1-5-32-546",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "S-1-5-32-547"
-        },
+          "settingValueTemplateReference": null
+        }
+      },
+      {
         "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc_powerusers",
-        "name": "powerusers"
-      },
-      {
-        "displayName": "Remote Desktop Users",
-        "dependedOnBy": [],
-        "description": null,
+        "displayName": "Power Users",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
             "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
           }
         ],
+        "description": null,
+        "dependedOnBy": [],
+        "name": "powerusers",
         "helpText": null,
         "optionValue": {
-          "settingValueTemplateReference": null,
+          "value": "S-1-5-32-547",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "S-1-5-32-555"
-        },
+          "settingValueTemplateReference": null
+        }
+      },
+      {
         "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc_remotedesktopusers",
-        "name": "remotedesktopusers"
-      },
-      {
-        "displayName": "Remote Management Users",
-        "dependedOnBy": [],
-        "description": null,
+        "displayName": "Remote Desktop Users",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
             "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
           }
         ],
+        "description": null,
+        "dependedOnBy": [],
+        "name": "remotedesktopusers",
         "helpText": null,
         "optionValue": {
-          "settingValueTemplateReference": null,
+          "value": "S-1-5-32-555",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "S-1-5-32-580"
-        },
+          "settingValueTemplateReference": null
+        }
+      },
+      {
         "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc_remotemanagementusers",
-        "name": "RemoteManagementUsers"
+        "displayName": "Remote Management Users",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
+            "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
+          }
+        ],
+        "description": null,
+        "dependedOnBy": [],
+        "name": "RemoteManagementUsers",
+        "helpText": null,
+        "optionValue": {
+          "value": "S-1-5-32-580",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        }
       }
     ],
-    "helpText": "",
-    "applicability": {
-      "platform": "windows10",
-      "maximumSupportedVersion": null,
-      "configurationServiceProviderVersion": "10.0",
-      "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.19042",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiresAzureAd": false,
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE"
-      ],
-      "requiredAzureAdTrustType": "none"
-    },
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "description": "This Setting allows an administrator to manage local groups on a Device.                             Possible settings:                             1. Update Group Membership: Update a group and add and/or remove members though the 'U' action.                             When using Update, existing group members that are not specified in the policy remain untouched.                             2. Replace Group Membership: Restrict a group by replacing group membership through the 'R' action.                             When using Replace, existing group membership is replaced by the list of members specified in                             the add member section. This option works in the same way as a Restricted Group and any group                             members that are not specified in the policy are removed.                             Caution: If the same group is configured with both Replace and Update, then Replace will win.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-localusersandgroups"
-    ],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingCollectionDefinition",
     "version": "639118729572626080",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingCollectionDefinition"
-  },
-  {
+    "helpText": "",
+    "uxBehavior": "multiheaderGrid",
+    "name": "desc",
     "offsetUri": "/Config/LocalUsersAndGroups/Configure",
-    "rootDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure",
+    "keywords": [
+      "LocalUsersAndGroups",
+      "Configure",
+      "Local Users And Groups"
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc_administrators",
+    "accessTypes": "add,delete,get,replace",
     "baseUri": "./Device/Vendor/MSFT/Policy",
-    "riskLevel": "low",
-    "visibility": "template",
-    "id": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action",
-    "categoryId": "b86100f0-e4ae-4f93-9dae-dd253a96726f",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 100
     },
-    "name": "action",
-    "uxBehavior": "multiheaderGrid",
-    "keywords": [
-      "LocalUsersAndGroups",
-      "Configure",
-      "Local Users And Groups"
-    ],
-    "displayName": "Group and user action",
-    "defaultOptionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action_add_update",
-    "options": [
-      {
-        "displayName": "Add (Update)",
-        "dependedOnBy": [],
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
-            "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
-          }
-        ],
-        "helpText": null,
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "AddUpdate"
-        },
-        "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action_add_update",
-        "name": "update"
-      },
-      {
-        "displayName": "Remove (Update)",
-        "dependedOnBy": [],
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
-            "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
-          }
-        ],
-        "helpText": null,
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "RemoveUpdate"
-        },
-        "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action_remove_update",
-        "name": "remove"
-      },
-      {
-        "displayName": "Add (Replace)",
-        "dependedOnBy": [],
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
-            "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
-          }
-        ],
-        "helpText": null,
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "AddRestrict"
-        },
-        "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action_add_restrict",
-        "name": "restrict"
-      }
-    ],
-    "helpText": "",
+    "referredSettingInformationList": [],
+    "categoryId": "b86100f0-e4ae-4f93-9dae-dd253a96726f",
+    "settingUsage": "configuration",
+    "minimumCount": 0,
     "applicability": {
-      "platform": "windows10",
-      "maximumSupportedVersion": null,
-      "configurationServiceProviderVersion": "10.0",
-      "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.19042",
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiresAzureAd": false,
-      "description": null,
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -361,71 +245,173 @@
         "windowsCloudN",
         "windows11SE"
       ],
-      "requiredAzureAdTrustType": "none"
+      "configurationServiceProviderVersion": "10.0",
+      "platform": "windows10",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19042",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "technologies": "mdm"
     },
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
+    "displayName": "Local group",
+    "visibility": "template",
     "description": "This Setting allows an administrator to manage local groups on a Device.                             Possible settings:                             1. Update Group Membership: Update a group and add and/or remove members though the 'U' action.                             When using Update, existing group members that are not specified in the policy remain untouched.                             2. Replace Group Membership: Restrict a group by replacing group membership through the 'R' action.                             When using Replace, existing group membership is replaced by the list of members specified in                             the add member section. This option works in the same way as a Restricted Group and any group                             members that are not specified in the policy are removed.                             Caution: If the same group is configured with both Replace and Update, then Replace will win.",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-localusersandgroups"
-    ],
-    "version": "639118729572626080",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
+    ]
   },
   {
-    "offsetUri": "/Config/LocalUsersAndGroups/Configure",
-    "rootDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure",
-    "minimumCount": 1,
-    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
-    "visibility": "template",
-    "id": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
-    "maximumCount": 1,
-    "categoryId": "b86100f0-e4ae-4f93-9dae-dd253a96726f",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "accessgroup",
+    "id": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action",
+    "options": [
+      {
+        "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action_add_update",
+        "displayName": "Add (Update)",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
+            "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
+          }
+        ],
+        "description": null,
+        "dependedOnBy": [],
+        "name": "update",
+        "helpText": null,
+        "optionValue": {
+          "value": "AddUpdate",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        }
+      },
+      {
+        "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action_remove_update",
+        "displayName": "Remove (Update)",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
+            "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
+          }
+        ],
+        "description": null,
+        "dependedOnBy": [],
+        "name": "remove",
+        "helpText": null,
+        "optionValue": {
+          "value": "RemoveUpdate",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        }
+      },
+      {
+        "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action_add_restrict",
+        "displayName": "Add (Replace)",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
+            "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
+          }
+        ],
+        "description": null,
+        "dependedOnBy": [],
+        "name": "restrict",
+        "helpText": null,
+        "optionValue": {
+          "value": "AddRestrict",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        }
+      }
+    ],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "version": "639118729572626080",
+    "helpText": "",
     "uxBehavior": "multiheaderGrid",
+    "name": "action",
+    "offsetUri": "/Config/LocalUsersAndGroups/Configure",
     "keywords": [
       "LocalUsersAndGroups",
       "Configure",
       "Local Users And Groups"
     ],
-    "dependedOnBy": [
-      {
-        "dependedOnBy": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc",
-        "required": true
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action",
-        "required": true
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype",
-        "required": true
-      }
+    "defaultOptionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action_add_update",
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 100
+    },
+    "referredSettingInformationList": [],
+    "categoryId": "b86100f0-e4ae-4f93-9dae-dd253a96726f",
+    "settingUsage": "configuration",
+    "applicability": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiredAzureAdTrustType": "none",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE"
+      ],
+      "configurationServiceProviderVersion": "10.0",
+      "platform": "windows10",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19042",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "technologies": "mdm"
+    },
+    "displayName": "Group and user action",
+    "visibility": "template",
+    "description": "This Setting allows an administrator to manage local groups on a Device.                             Possible settings:                             1. Update Group Membership: Update a group and add and/or remove members though the 'U' action.                             When using Update, existing group members that are not specified in the policy remain untouched.                             2. Replace Group Membership: Restrict a group by replacing group membership through the 'R' action.                             When using Replace, existing group membership is replaced by the list of members specified in                             the add member section. This option works in the same way as a Restricted Group and any group                             members that are not specified in the policy are removed.                             Caution: If the same group is configured with both Replace and Update, then Replace will win.",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-localusersandgroups"
+    ]
+  },
+  {
+    "riskLevel": "low",
+    "maximumCount": 1,
+    "id": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
+    "version": "639118729572626080",
+    "helpText": "",
+    "childIds": [
+      "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc",
+      "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action",
+      "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype"
     ],
-    "displayName": "access group",
+    "uxBehavior": "multiheaderGrid",
+    "name": "accessgroup",
+    "offsetUri": "/Config/LocalUsersAndGroups/Configure",
+    "keywords": [
+      "LocalUsersAndGroups",
+      "Configure",
+      "Local Users And Groups"
+    ],
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure",
         "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure"
       }
     ],
-    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "referredSettingInformationList": [],
+    "categoryId": "b86100f0-e4ae-4f93-9dae-dd253a96726f",
+    "settingUsage": "configuration",
+    "minimumCount": 1,
     "applicability": {
-      "platform": "windows10",
-      "maximumSupportedVersion": null,
-      "configurationServiceProviderVersion": "10.0",
-      "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.19042",
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiresAzureAd": false,
-      "description": null,
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -434,105 +420,114 @@
         "windowsCloudN",
         "windows11SE"
       ],
-      "requiredAzureAdTrustType": "none"
+      "configurationServiceProviderVersion": "10.0",
+      "platform": "windows10",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19042",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "technologies": "mdm"
     },
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
+    "dependedOnBy": [
+      {
+        "required": true,
+        "dependedOnBy": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc"
+      },
+      {
+        "required": true,
+        "dependedOnBy": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action"
+      },
+      {
+        "required": true,
+        "dependedOnBy": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype"
+      }
+    ],
+    "displayName": "access group",
+    "visibility": "template",
     "description": "This Setting allows an administrator to manage local groups on a Device.                             Possible settings:                             1. Update Group Membership: Update a group and add and/or remove members though the 'U' action.                             When using Update, existing group members that are not specified in the policy remain untouched.                             2. Replace Group Membership: Restrict a group by replacing group membership through the 'R' action.                             When using Replace, existing group membership is replaced by the list of members specified in                             the add member section. This option works in the same way as a Restricted Group and any group                             members that are not specified in the policy are removed.                             Caution: If the same group is configured with both Replace and Update, then Replace will win.",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-localusersandgroups"
-    ],
-    "version": "639118729572626080",
-    "referredSettingInformationList": [],
-    "childIds": [
-      "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc",
-      "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action",
-      "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype"
-    ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition"
+    ]
   },
   {
-    "offsetUri": "/Config/LocalUsersAndGroups/Configure",
-    "rootDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
-    "visibility": "template",
     "id": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype",
-    "categoryId": "b86100f0-e4ae-4f93-9dae-dd253a96726f",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 100
-    },
-    "name": "userselectiontype",
+    "options": [
+      {
+        "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype_users",
+        "displayName": "Users/Groups",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
+            "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
+          }
+        ],
+        "description": null,
+        "dependedOnBy": [
+          {
+            "required": true,
+            "dependedOnBy": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_users"
+          }
+        ],
+        "name": "users",
+        "helpText": null,
+        "optionValue": {
+          "value": "users",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        }
+      },
+      {
+        "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype_manual",
+        "displayName": "Manual",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
+            "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
+          }
+        ],
+        "description": null,
+        "dependedOnBy": [
+          {
+            "required": true,
+            "dependedOnBy": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_users"
+          }
+        ],
+        "name": "manual",
+        "helpText": null,
+        "optionValue": {
+          "value": "manual",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        }
+      }
+    ],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "version": "639118729572626080",
+    "helpText": "",
     "uxBehavior": "multiheaderGrid",
+    "name": "userselectiontype",
+    "offsetUri": "/Config/LocalUsersAndGroups/Configure",
     "keywords": [
       "LocalUsersAndGroups",
       "Configure",
       "Local Users And Groups"
     ],
-    "displayName": "User selection type",
     "defaultOptionId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype_users",
-    "options": [
-      {
-        "displayName": "Users/Groups",
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_users",
-            "required": true
-          }
-        ],
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
-            "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
-          }
-        ],
-        "helpText": null,
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "users"
-        },
-        "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype_users",
-        "name": "users"
-      },
-      {
-        "displayName": "Manual",
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_users",
-            "required": true
-          }
-        ],
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
-            "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
-          }
-        ],
-        "helpText": null,
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "manual"
-        },
-        "itemId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype_manual",
-        "name": "manual"
-      }
-    ],
-    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 100
+    },
+    "referredSettingInformationList": [],
+    "categoryId": "b86100f0-e4ae-4f93-9dae-dd253a96726f",
+    "settingUsage": "configuration",
     "applicability": {
-      "platform": "windows10",
-      "maximumSupportedVersion": null,
-      "configurationServiceProviderVersion": "10.0",
-      "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.19042",
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiresAzureAd": false,
-      "description": null,
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -541,33 +536,54 @@
         "windowsCloudN",
         "windows11SE"
       ],
-      "requiredAzureAdTrustType": "none"
+      "configurationServiceProviderVersion": "10.0",
+      "platform": "windows10",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19042",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "technologies": "mdm"
     },
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
+    "displayName": "User selection type",
+    "visibility": "template",
     "description": "This Setting allows an administrator to manage local groups on a Device.                             Possible settings:                             1. Update Group Membership: Update a group and add and/or remove members though the 'U' action.                             When using Update, existing group members that are not specified in the policy remain untouched.                             2. Replace Group Membership: Restrict a group by replacing group membership through the 'R' action.                             When using Replace, existing group membership is replaced by the list of members specified in                             the add member section. This option works in the same way as a Restricted Group and any group                             members that are not specified in the policy are removed.                             Caution: If the same group is configured with both Replace and Update, then Replace will win.",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-localusersandgroups"
-    ],
-    "version": "639118729572626080",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition"
+    ]
   },
   {
+    "referredSettingInformationList": [],
+    "helpText": "",
+    "description": "This Setting allows an administrator to manage local groups on a Device.                             Possible settings:                             1. Update Group Membership: Update a group and add and/or remove members though the 'U' action.                             When using Update, existing group members that are not specified in the policy remain untouched.                             2. Replace Group Membership: Restrict a group by replacing group membership through the 'R' action.                             When using Replace, existing group membership is replaced by the list of members specified in                             the add member section. This option works in the same way as a Restricted Group and any group                             members that are not specified in the policy are removed.                             Caution: If the same group is configured with both Replace and Update, then Replace will win.",
+    "visibility": "template",
+    "maximumCount": 1000,
+    "settingUsage": "configuration",
     "id": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_users",
     "categoryId": "b86100f0-e4ae-4f93-9dae-dd253a96726f",
     "valueDefinition": {
-      "isSecret": false,
-      "format": "none",
-      "minimumLength": 0,
-      "maximumLength": 1024,
-      "inputValidationSchema": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
       "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+      "isSecret": false,
+      "inputValidationSchema": null,
+      "minimumLength": 0,
+      "format": "none",
+      "maximumLength": 1024
     },
     "minimumCount": 0,
-    "version": "639118729572626080",
-    "settingUsage": "configuration",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 100
+    },
+    "name": "member",
+    "accessTypes": "add,delete,get,replace",
+    "offsetUri": "/Config/LocalUsersAndGroups/Configure",
+    "keywords": [
+      "LocalUsersAndGroups",
+      "Configure",
+      "Local Users And Groups"
+    ],
     "displayName": "Selected user(s)",
     "dependentOn": [
       {
@@ -575,31 +591,9 @@
         "parentSettingId": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype"
       }
     ],
-    "description": "This Setting allows an administrator to manage local groups on a Device.                             Possible settings:                             1. Update Group Membership: Update a group and add and/or remove members though the 'U' action.                             When using Update, existing group members that are not specified in the policy remain untouched.                             2. Replace Group Membership: Restrict a group by replacing group membership through the 'R' action.                             When using Replace, existing group membership is replaced by the list of members specified in                             the add member section. This option works in the same way as a Restricted Group and any group                             members that are not specified in the policy are removed.                             Caution: If the same group is configured with both Replace and Update, then Replace will win.",
-    "rootDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure",
-    "referredSettingInformationList": [],
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 100
-    },
-    "maximumCount": 1000,
-    "dependedOnBy": [],
-    "name": "member",
     "applicability": {
-      "platform": "windows10",
-      "maximumSupportedVersion": null,
-      "configurationServiceProviderVersion": "10.0",
-      "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.19042",
-      "deviceMode": "none",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiresAzureAd": false,
-      "description": null,
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -608,87 +602,93 @@
         "windowsCloudN",
         "windows11SE"
       ],
-      "requiredAzureAdTrustType": "none"
+      "configurationServiceProviderVersion": "10.0",
+      "platform": "windows10",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19042",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "technologies": "mdm"
     },
-    "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/LocalUsersAndGroups/Configure",
+    "riskLevel": "low",
+    "version": "639118729572626080",
+    "dependedOnBy": [],
     "uxBehavior": "multiheaderGrid",
-    "visibility": "template",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "defaultValue": {
+      "value": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "settingValueTemplateReference": null
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-localusersandgroups"
-    ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "riskLevel": "low",
-    "keywords": [
-      "LocalUsersAndGroups",
-      "Configure",
-      "Local Users And Groups"
-    ],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": ""
+    ]
   },
   {
-    "offsetUri": "/Config/LocalUsersAndGroups/Configure",
-    "rootDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure",
-    "minimumCount": 1,
-    "baseUri": "./Device/Vendor/MSFT/Policy",
     "riskLevel": "low",
-    "visibility": "template",
-    "id": "device_vendor_msft_policy_config_localusersandgroups_configure",
     "maximumCount": 100,
-    "categoryId": "b86100f0-e4ae-4f93-9dae-dd253a96726f",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 100
-    },
-    "name": "GroupConfiguration",
-    "uxBehavior": "multiheaderGrid",
-    "keywords": [
-      "LocalUsersAndGroups",
-      "Configure",
-      "Local Users And Groups"
-    ],
-    "dependedOnBy": [
-      {
-        "dependedOnBy": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
-        "required": true
-      }
-    ],
-    "displayName": "Group Configuration",
-    "dependentOn": [],
-    "helpText": "",
-    "applicability": {
-      "platform": "windows10",
-      "maximumSupportedVersion": null,
-      "configurationServiceProviderVersion": "10.0",
-      "technologies": "mdm",
-      "minimumSupportedVersion": "10.0.19042",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiresAzureAd": false,
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE"
-      ],
-      "requiredAzureAdTrustType": "none"
-    },
-    "accessTypes": "add,delete,get,replace",
-    "settingUsage": "configuration",
-    "description": "This Setting allows an administrator to manage local groups on a Device.                             Possible settings:                             1. Update Group Membership: Update a group and add and/or remove members though the 'U' action.                             When using Update, existing group members that are not specified in the policy remain untouched.                             2. Replace Group Membership: Restrict a group by replacing group membership through the 'R' action.                             When using Replace, existing group membership is replaced by the list of members specified in                             the add member section. This option works in the same way as a Restricted Group and any group                             members that are not specified in the policy are removed.                             Caution: If the same group is configured with both Replace and Update, then Replace will win.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-localusersandgroups"
-    ],
+    "id": "device_vendor_msft_policy_config_localusersandgroups_configure",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
     "version": "639118729572626080",
-    "referredSettingInformationList": [],
+    "helpText": "",
     "childIds": [
       "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
     ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition"
+    "uxBehavior": "multiheaderGrid",
+    "name": "GroupConfiguration",
+    "offsetUri": "/Config/LocalUsersAndGroups/Configure",
+    "keywords": [
+      "LocalUsersAndGroups",
+      "Configure",
+      "Local Users And Groups"
+    ],
+    "dependentOn": [],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 100
+    },
+    "referredSettingInformationList": [],
+    "categoryId": "b86100f0-e4ae-4f93-9dae-dd253a96726f",
+    "settingUsage": "configuration",
+    "minimumCount": 1,
+    "applicability": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiredAzureAdTrustType": "none",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE"
+      ],
+      "configurationServiceProviderVersion": "10.0",
+      "platform": "windows10",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19042",
+      "description": null,
+      "maximumSupportedVersion": null,
+      "technologies": "mdm"
+    },
+    "dependedOnBy": [
+      {
+        "required": true,
+        "dependedOnBy": "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup"
+      }
+    ],
+    "displayName": "Group Configuration",
+    "visibility": "template",
+    "description": "This Setting allows an administrator to manage local groups on a Device.                             Possible settings:                             1. Update Group Membership: Update a group and add and/or remove members though the 'U' action.                             When using Update, existing group members that are not specified in the policy remain untouched.                             2. Replace Group Membership: Restrict a group by replacing group membership through the 'R' action.                             When using Replace, existing group membership is replaced by the list of members specified in                             the add member section. This option works in the same way as a Restricted Group and any group                             members that are not specified in the policy are removed.                             Caution: If the same group is configured with both Replace and Update, then Replace will win.",
+    "rootDefinitionId": "device_vendor_msft_policy_config_localusersandgroups_configure",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-localusersandgroups"
+    ]
   }
 ]
 ```

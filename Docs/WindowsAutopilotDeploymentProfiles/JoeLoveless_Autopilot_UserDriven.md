@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 05/15/2026 06:38:29
+**Report Generated:** 05/16/2026 06:05:00
 
 ---
 
 ```json
 {
-  "deviceType": "windowsPc",
+  "deviceNameTemplate": "JL-%SERIAL%",
   "enrollmentStatusScreenSettings": null,
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "hardwareHashExtractionEnabled": true,
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "locale": "os-default",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "language": "os-default",
+  "managementServiceAppId": null,
+  "description": "",
+  "extractHardwareHash": true,
+  "enableWhiteGlove": false,
   "roleScopeTagIds": [
     "0"
   ],
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "extractHardwareHash": true,
-  "managementServiceAppId": null,
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
   "outOfBoxExperienceSetting": {
-    "keyboardSelectionPageSkipped": true,
     "escapeLinkHidden": true,
+    "deviceUsageType": "singleUser",
+    "userType": "standard",
+    "keyboardSelectionPageSkipped": true,
     "privacySettingsHidden": true,
-    "userType": "standard",
-    "eulaHidden": true,
-    "deviceUsageType": "singleUser"
+    "eulaHidden": true
   },
-  "language": "os-default",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "outOfBoxExperienceSettings": {
-    "hideEULA": true,
-    "hidePrivacySettings": true,
-    "skipKeyboardSelectionPage": true,
-    "userType": "standard",
-    "hideEscapeLink": true,
-    "deviceUsageType": "singleUser"
-  },
-  "hardwareHashExtractionEnabled": true,
-  "deviceNameTemplate": "JL-%SERIAL%",
   "preprovisioningAllowed": false,
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "deviceType": "windowsPc",
   "id": "54c48954-766f-4238-86da-ed2d872e793e",
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "enableWhiteGlove": false,
-  "description": "",
-  "locale": "os-default"
+  "outOfBoxExperienceSettings": {
+    "skipKeyboardSelectionPage": true,
+    "deviceUsageType": "singleUser",
+    "hidePrivacySettings": true,
+    "hideEULA": true,
+    "userType": "standard",
+    "hideEscapeLink": true
+  }
 }
 ```
 

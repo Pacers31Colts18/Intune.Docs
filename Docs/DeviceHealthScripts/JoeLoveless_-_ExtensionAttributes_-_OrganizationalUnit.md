@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 05/16/2026 06:04:59
+**Report Generated:** 05/17/2026 06:28:01
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "deviceHealthScriptType": "deviceHealthScript",
-  "isGlobalScript": false,
-  "enforceSignatureCheck": false,
+  "remediationScriptContent": "",
+  "detectionScriptParameters": [],
   "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "version": "3",
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "description": "ExtensionAttribute2: Organizational Unit of device",
-  "remediationScriptParameters": [],
+  "isGlobalScript": false,
   "roleScopeTagIds": [
     "0"
   ],
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
-  "runAsAccount": "system",
+  "version": "3",
+  "description": "ExtensionAttribute2: Organizational Unit of device",
   "publisher": " Joe Loveless",
-  "detectionScriptParameters": [],
-  "remediationScriptContent": "",
-  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
+  "remediationScriptParameters": [],
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
   "runAs32Bit": true,
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "deviceHealthScriptType": "deviceHealthScript",
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
+  "highestAvailableVersion": null,
   "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "highestAvailableVersion": null
+  "runAsAccount": "system",
+  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
+  "enforceSignatureCheck": false
 }
 ```
 

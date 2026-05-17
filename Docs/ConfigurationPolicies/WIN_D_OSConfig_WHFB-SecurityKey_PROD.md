@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/WIN_D_OSConfig_WHFB-SecurityKey_PROD.md)
 
-**Report Generated:** 05/16/2026 06:04:57
+**Report Generated:** 05/17/2026 06:27:57
 
 ---
 
@@ -25,17 +25,17 @@
 
 ```json
 {
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
+  "name": "enabled",
   "dependedOnBy": [],
   "dependentOn": [],
-  "description": "enabled",
   "helpText": null,
-  "name": "enabled",
+  "description": "enabled",
   "itemId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_1",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null,
+    "value": 1
+  },
   "displayName": "Enabled"
 }
 ```
@@ -43,22 +43,8 @@
 ## Setting Definition
 ```json
 {
-  "occurrence": {
-    "minDeviceOccurrence": 0,
-    "maxDeviceOccurrence": 1
-  },
-  "offsetUri": "/SecurityKey/UseSecurityKeyForSignin",
-  "id": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin",
-  "baseUri": "./Device/Vendor/MSFT/PassportForWork",
   "applicability": {
     "description": null,
-    "configurationServiceProviderVersion": "1.6",
-    "technologies": "mdm,configManager",
-    "platform": "windows10",
-    "minimumSupportedVersion": "10.0.18362",
-    "deviceMode": "none",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "maximumSupportedVersion": null,
     "windowsSkus": [
       "windowsEnterprise",
       "windowsProfessional",
@@ -72,62 +58,76 @@
       "iotEnterpriseSEval",
       "windowsCPC"
     ],
+    "minimumSupportedVersion": "10.0.18362",
+    "configurationServiceProviderVersion": "1.6",
+    "technologies": "mdm,configManager",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+    "deviceMode": "none",
     "requiresAzureAd": false,
-    "requiredAzureAdTrustType": "none"
+    "requiredAzureAdTrustType": "none",
+    "maximumSupportedVersion": null,
+    "platform": "windows10"
   },
-  "defaultOptionId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_0",
-  "uxBehavior": "toggle",
-  "helpText": "",
   "keywords": [
     "Use Security Key For Signin (Device)",
     "PassportForWork",
     "Windows Hello For Business"
   ],
-  "riskLevel": "low",
-  "options": [
-    {
-      "optionValue": {
-        "settingValueTemplateReference": null,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "value": 0
-      },
-      "dependedOnBy": [],
-      "dependentOn": [],
-      "description": "disabled",
-      "helpText": null,
-      "name": "disabled",
-      "itemId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_0",
-      "displayName": "Disabled"
-    },
-    {
-      "optionValue": {
-        "settingValueTemplateReference": null,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "value": 1
-      },
-      "dependedOnBy": [],
-      "dependentOn": [],
-      "description": "enabled",
-      "helpText": null,
-      "name": "enabled",
-      "itemId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_1",
-      "displayName": "Enabled"
-    }
-  ],
-  "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
-  "version": "639118729572626080",
+  "displayName": "Use Security Key For Signin",
+  "referredSettingInformationList": [],
   "infoUrls": [
     "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
   ],
+  "version": "639118729572626080",
   "description": "Use security key for signin. 0 is disabled. 1 is enable. If you do not configure this policy setting, the default is disabled.",
-  "referredSettingInformationList": [],
-  "settingUsage": "configuration",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-  "displayName": "Use Security Key For Signin",
-  "rootDefinitionId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin",
-  "accessTypes": "add,delete,get,replace",
   "visibility": "settingsCatalog,template",
-  "name": "UseSecurityKeyForSignin"
+  "helpText": "",
+  "occurrence": {
+    "minDeviceOccurrence": 0,
+    "maxDeviceOccurrence": 1
+  },
+  "options": [
+    {
+      "name": "disabled",
+      "dependedOnBy": [],
+      "dependentOn": [],
+      "helpText": null,
+      "description": "disabled",
+      "itemId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_0",
+      "optionValue": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null,
+        "value": 0
+      },
+      "displayName": "Disabled"
+    },
+    {
+      "name": "enabled",
+      "dependedOnBy": [],
+      "dependentOn": [],
+      "helpText": null,
+      "description": "enabled",
+      "itemId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_1",
+      "optionValue": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null,
+        "value": 1
+      },
+      "displayName": "Enabled"
+    }
+  ],
+  "defaultOptionId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_0",
+  "accessTypes": "add,delete,get,replace",
+  "baseUri": "./Device/Vendor/MSFT/PassportForWork",
+  "name": "UseSecurityKeyForSignin",
+  "rootDefinitionId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin",
+  "id": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+  "uxBehavior": "toggle",
+  "riskLevel": "low",
+  "offsetUri": "/SecurityKey/UseSecurityKeyForSignin",
+  "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+  "settingUsage": "configuration"
 }
 ```
 

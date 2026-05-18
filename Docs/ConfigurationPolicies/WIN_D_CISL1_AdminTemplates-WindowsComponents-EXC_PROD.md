@@ -1,60 +1,14 @@
-# WIN_D_CISL1_AdminTemplates-WindowsComponents_PROD
+# WIN_D_CISL1_AdminTemplates-WindowsComponents-EXC_PROD
 
-**Policy ID:** 870e159a-4fee-4b84-a5da-2d34072f80db
+**Policy ID:** 41f962fb-4619-4698-a350-0c54dfe788df
 
-**Description:** CIS Recommendation Numbers:
-
-4.11.3.1
-4.11.5.1
-4.11.5.2
-4.11.6.1
-4.11.6.2
-4.11.6.3
-4.11.8.1
-4.11.8.2
-4.11.8.3
-4.11.10.1
-4.11.10.2
-4.11.10.3
-4.11.15.1.1
-4.11.15.1.2
-4.11.15.2.1
-4.11.15.2.2
-4.11.15.3.1
-4.11.15.3.2
-4.11.15.4.1
-4.11.15.4.2
-4.11.18.1
-4.11.18.2
-4.11.18.3
-4.11.18.4
-4.11.27.1
-4.11.31.1
-4.11.36.3.2
-4.11.36.4.3.2
-4.11.36.4.9.1
-4.11.36.4.9.2
-4.11.36.4.9.3
-4.11.36.4.9.4
-4.11.36.4.9.5
-4.11.36.4.11.1
-4.11.37.1
-4.11.42.1
-4.11.50.1
-4.11.50.2
-4.11.55.1.1
-4.11.55.1.2
-4.11.55.1.3
-4.11.55.2.1
-4.11.55.2.3
-4.11.55.2.4
-
+**Description:** Cloned policy from WIN_D_CISL1_AdminTemplates-WindowsComponents_PROD
 
 **Platforms:** windows10
 
 **Technologies:** mdm
 
-[**Assignments**](./Assignments/WIN_D_CISL1_AdminTemplates-WindowsComponents_PROD.md)
+[**Assignments**](./Assignments/WIN_D_CISL1_AdminTemplates-WindowsComponents-EXC_PROD.md)
 
 **Report Generated:** 05/18/2026 07:02:04
 

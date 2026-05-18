@@ -1,14 +1,14 @@
-# WIN_D_CISL1_AdministrativeTemplates_PROD
+# WIN_D_CISL1_AdministrativeTemplates-EXC_PROD
 
-**Policy ID:** 3d2ad2b6-ec94-497b-87ab-19baf08933c2
+**Policy ID:** e4309cd2-9864-4991-b2ba-010caf5b4fab
 
-**Description:** 18
+**Description:** Cloned policy from WIN_D_CISL1_AdministrativeTemplates_PROD
 
 **Platforms:** windows10
 
 **Technologies:** mdm
 
-[**Assignments**](./Assignments/WIN_D_CISL1_AdministrativeTemplates_PROD.md)
+[**Assignments**](./Assignments/WIN_D_CISL1_AdministrativeTemplates-EXC_PROD.md)
 
 **Report Generated:** 05/18/2026 07:02:03
 

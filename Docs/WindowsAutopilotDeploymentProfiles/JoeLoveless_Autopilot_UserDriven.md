@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 05/19/2026 06:53:36
+**Report Generated:** 05/20/2026 06:53:57
 
 ---
 
 ```json
 {
+  "deviceType": "windowsPc",
+  "description": "",
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "hardwareHashExtractionEnabled": true,
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "outOfBoxExperienceSetting": {
+    "privacySettingsHidden": true,
+    "userType": "standard",
+    "deviceUsageType": "singleUser",
+    "escapeLinkHidden": true,
+    "eulaHidden": true,
+    "keyboardSelectionPageSkipped": true
+  },
+  "extractHardwareHash": true,
+  "enableWhiteGlove": false,
   "preprovisioningAllowed": false,
-  "deviceNameTemplate": "JL-%SERIAL%",
   "roleScopeTagIds": [
     "0"
   ],
-  "language": "os-default",
-  "locale": "os-default",
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
-  "enrollmentStatusScreenSettings": null,
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "hardwareHashExtractionEnabled": true,
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "description": "",
-  "extractHardwareHash": true,
-  "deviceType": "windowsPc",
   "outOfBoxExperienceSettings": {
-    "deviceUsageType": "singleUser",
-    "userType": "standard",
-    "hideEULA": true,
-    "skipKeyboardSelectionPage": true,
     "hidePrivacySettings": true,
+    "hideEULA": true,
+    "userType": "standard",
+    "deviceUsageType": "singleUser",
+    "skipKeyboardSelectionPage": true,
     "hideEscapeLink": true
   },
-  "enableWhiteGlove": false,
+  "deviceNameTemplate": "JL-%SERIAL%",
+  "locale": "os-default",
+  "language": "os-default",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
   "managementServiceAppId": null,
-  "outOfBoxExperienceSetting": {
-    "deviceUsageType": "singleUser",
-    "userType": "standard",
-    "eulaHidden": true,
-    "privacySettingsHidden": true,
-    "escapeLinkHidden": true,
-    "keyboardSelectionPageSkipped": true
-  }
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "enrollmentStatusScreenSettings": null
 }
 ```
 

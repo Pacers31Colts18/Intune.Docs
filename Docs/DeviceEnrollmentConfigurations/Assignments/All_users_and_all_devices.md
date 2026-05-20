@@ -2,7 +2,7 @@
 
 **Policy ID:** 636b62ee-ef57-4f54-a1f3-0046fafc9c11_WindowsRestore
 
-**Report Generated:** 05/19/2026 06:53:45
+**Report Generated:** 05/20/2026 06:54:10
 
 ---
 
@@ -14,8 +14,8 @@
 
 ```json
 {
-  "source": "direct",
   "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultLimit",
+  "source": "direct",
   "sourceId": null,
   "target": {
     "deviceAndAppManagementAssignmentFilterId": null,
@@ -31,8 +31,8 @@
 
 ```json
 {
-  "source": "direct",
   "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultPlatformRestrictions",
+  "source": "direct",
   "sourceId": null,
   "target": {
     "deviceAndAppManagementAssignmentFilterId": null,
@@ -48,8 +48,8 @@
 
 ```json
 {
-  "source": "direct",
   "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultWindowsHelloForBusiness",
+  "source": "direct",
   "sourceId": null,
   "target": {
     "deviceAndAppManagementAssignmentFilterId": null,
@@ -65,8 +65,8 @@
 
 ```json
 {
-  "source": "direct",
   "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultWindows10EnrollmentCompletionPageConfiguration",
+  "source": "direct",
   "sourceId": null,
   "target": {
     "deviceAndAppManagementAssignmentFilterId": null,
@@ -82,8 +82,8 @@
 
 ```json
 {
-  "source": "direct",
   "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_WindowsRestore",
+  "source": "direct",
   "sourceId": null,
   "target": {
     "deviceAndAppManagementAssignmentFilterId": null,

@@ -10,19 +10,9 @@
 
 [**Assignments**](./Assignments/ALL_MAC_D_Compliance_SystemSecurity_DEV.md)
 
-**Report Generated:** 05/22/2026 06:54:30
+**Report Generated:** 05/23/2026 06:16:54
 
 ---
-
-## gatekeeperAllowedAppSource
-
-**Value:** macAppStoreAndIdentifiedDevelopers
-
-```json
-{
-  "gatekeeperAllowedAppSource": "macAppStoreAndIdentifiedDevelopers"
-}
-```
 
 ## passwordRequiredType
 
@@ -34,6 +24,16 @@
 }
 ```
 
+## gatekeeperAllowedAppSource
+
+**Value:** macAppStoreAndIdentifiedDevelopers
+
+```json
+{
+  "gatekeeperAllowedAppSource": "macAppStoreAndIdentifiedDevelopers"
+}
+```
+
 ## Actions for noncompliance
 
 ### Mark device noncompliant
@@ -42,10 +42,10 @@
 {
   "SyncRoot": {
     "gracePeriodHours": 0,
+    "notificationTemplateId": "00000000-0000-0000-0000-000000000000",
     "id": "10914201-b449-4e58-b1c0-05141ff622bf",
     "actionType": "block",
-    "notificationMessageCCList": [],
-    "notificationTemplateId": "00000000-0000-0000-0000-000000000000"
+    "notificationMessageCCList": []
   }
 }
 ```

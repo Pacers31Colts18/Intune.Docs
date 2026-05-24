@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/Detection-WindowsHelloforBusiness-EnrollmentCount4.md)
 
-**Report Generated:** 05/23/2026 06:16:52
+**Report Generated:** 05/24/2026 06:42:15
 
 ---
 
@@ -54,27 +54,27 @@ N/A
 
 ```json
 {
-  "isGlobalScript": false,
-  "remediationScriptParameters": [],
-  "remediationScriptContent": "",
-  "highestAvailableVersion": null,
-  "lastModifiedDateTime": "2026-03-09T00:48:33.0483588Z",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "runAs32Bit": false,
-  "enforceSignatureCheck": false,
-  "detectionScriptParameters": [],
-  "runAsAccount": "system",
-  "displayName": "Detection-WindowsHelloforBusiness-EnrollmentCount4",
-  "publisher": "Joe Loveless",
-  "version": "1",
   "createdDateTime": "2026-03-09T00:48:33.0483588Z",
-  "description": "",
-  "detectionScriptContent": "PCMKe0Q2ODg2NjAzLTlEMkYtNEVCMi1CNjY3LTE5NzEwNDFGQTk2Qn0gPSBXVUZCIFBJTiwgTkdDIENyZWRlbnRpYWwgUHJvdmlkZXIKUElOIGlzIG1pbmltdW0gcmVxdWlyZW1lbnQgZm9yIFdpbmRvd3MgSGVsbG8gZm9yIEJ1c2luZXNzIEVucm9sbG1lbnQuCiM+IAoKJGNyZWRlbnRpYWxQcm92aWRlciA9ICJIS0xNOlxTT0ZUV0FSRVxNaWNyb3NvZnRcV2luZG93c1xDdXJyZW50VmVyc2lvblxBdXRoZW50aWNhdGlvblxDcmVkZW50aWFsIFByb3ZpZGVyc1x7RDY4ODY2MDMtOUQyRi00RUIyLUI2NjctMTk3MTA0MUZBOTZCfSIKCiNDb3VudCB1c2VycwppZiAoVGVzdC1QYXRoIC1wYXRoICRjcmVkZW50aWFsUHJvdmlkZXIpewokdXNlclNpZHMgPSAoR2V0LUNoaWxkSXRlbSAtcGF0aCAkY3JlZGVudGlhbFByb3ZpZGVyIHwgV2hlcmUtT2JqZWN0IHsgJF8uTmFtZSAtbWF0Y2ggIlMtMS01LTIxfFMtMS0xMi0xIn0pLm5hbWUuY291bnQKfQoKaWYgKCR1c2VyU2lkcyAtZ2UgIjEwIil7CldyaXRlLU91dHB1dCAiTm90IENvbXBsaWFudCwgV0hGQiBVc2VycyBFbnJvbGxlZCA9ICR1c2Vyc2lkcyIKRXhpdCAxCn0KCmlmICgkdXNlclNpZHMgLWx0ICIxMCIpewpXcml0ZS1PdXRwdXQgIkNvbXBsaWFudCwgV0hGQiBVc2VycyBFbnJvbGxlZCA9ICR1c2Vyc2lkcyIKRXhpdCAwCn0KaWYgKCRudWxsIC1lcSAkdXNlclNpZHMpewogICAgV3JpdGUtT3V0cHV0ICJOb3QgQ29tcGxpYW50LCBObyBXSEZCIHVzZXJzIGVucm9sbGVkIgogICAgRXhpdCAwCn0KCg==",
-  "id": "003cf55f-3dc9-4ba3-a81e-bb4d646213c9",
-  "deviceHealthScriptType": "deviceHealthScript",
+  "enforceSignatureCheck": false,
   "roleScopeTagIds": [
     "0"
-  ]
+  ],
+  "runAs32Bit": false,
+  "description": "",
+  "lastModifiedDateTime": "2026-03-09T00:48:33.0483588Z",
+  "isGlobalScript": false,
+  "publisher": "Joe Loveless",
+  "remediationScriptContent": "",
+  "detectionScriptContent": "PCMKe0Q2ODg2NjAzLTlEMkYtNEVCMi1CNjY3LTE5NzEwNDFGQTk2Qn0gPSBXVUZCIFBJTiwgTkdDIENyZWRlbnRpYWwgUHJvdmlkZXIKUElOIGlzIG1pbmltdW0gcmVxdWlyZW1lbnQgZm9yIFdpbmRvd3MgSGVsbG8gZm9yIEJ1c2luZXNzIEVucm9sbG1lbnQuCiM+IAoKJGNyZWRlbnRpYWxQcm92aWRlciA9ICJIS0xNOlxTT0ZUV0FSRVxNaWNyb3NvZnRcV2luZG93c1xDdXJyZW50VmVyc2lvblxBdXRoZW50aWNhdGlvblxDcmVkZW50aWFsIFByb3ZpZGVyc1x7RDY4ODY2MDMtOUQyRi00RUIyLUI2NjctMTk3MTA0MUZBOTZCfSIKCiNDb3VudCB1c2VycwppZiAoVGVzdC1QYXRoIC1wYXRoICRjcmVkZW50aWFsUHJvdmlkZXIpewokdXNlclNpZHMgPSAoR2V0LUNoaWxkSXRlbSAtcGF0aCAkY3JlZGVudGlhbFByb3ZpZGVyIHwgV2hlcmUtT2JqZWN0IHsgJF8uTmFtZSAtbWF0Y2ggIlMtMS01LTIxfFMtMS0xMi0xIn0pLm5hbWUuY291bnQKfQoKaWYgKCR1c2VyU2lkcyAtZ2UgIjEwIil7CldyaXRlLU91dHB1dCAiTm90IENvbXBsaWFudCwgV0hGQiBVc2VycyBFbnJvbGxlZCA9ICR1c2Vyc2lkcyIKRXhpdCAxCn0KCmlmICgkdXNlclNpZHMgLWx0ICIxMCIpewpXcml0ZS1PdXRwdXQgIkNvbXBsaWFudCwgV0hGQiBVc2VycyBFbnJvbGxlZCA9ICR1c2Vyc2lkcyIKRXhpdCAwCn0KaWYgKCRudWxsIC1lcSAkdXNlclNpZHMpewogICAgV3JpdGUtT3V0cHV0ICJOb3QgQ29tcGxpYW50LCBObyBXSEZCIHVzZXJzIGVucm9sbGVkIgogICAgRXhpdCAwCn0KCg==",
+  "detectionScriptParameters": [],
+  "runAsAccount": "system",
+  "remediationScriptParameters": [],
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "deviceHealthScriptType": "deviceHealthScript",
+  "version": "1",
+  "displayName": "Detection-WindowsHelloforBusiness-EnrollmentCount4",
+  "highestAvailableVersion": null,
+  "id": "003cf55f-3dc9-4ba3-a81e-bb4d646213c9"
 }
 ```
 

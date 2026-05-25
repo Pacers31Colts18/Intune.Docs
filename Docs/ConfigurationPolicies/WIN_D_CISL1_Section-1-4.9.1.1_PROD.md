@@ -46,7 +46,7 @@
 
 [**Assignments**](./Assignments/WIN_D_CISL1_Section-1-4.9.1.1_PROD.md)
 
-**Report Generated:** 05/24/2026 06:42:11
+**Report Generated:** 05/25/2026 07:20:29
 
 ---
 
@@ -61,18 +61,18 @@
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_abovelock_allowcortanaabovelock_0",
-  "dependedOnBy": [],
-  "description": "Not allowed.",
-  "name": "Not allowed.",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 0
-  },
   "displayName": "Block",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Not allowed.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_abovelock_allowcortanaabovelock_0",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0,
+    "settingValueTemplateReference": null
+  },
+  "description": "Not allowed.",
+  "helpText": null
 }
 ```
 
@@ -90,18 +90,18 @@ If you enable this setting, users will no longer be able to enable or disable lo
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_devicelock_preventenablinglockscreencamera_1",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Enabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
   "displayName": "Enabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_devicelock_preventenablinglockscreencamera_1",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -119,18 +119,18 @@ If you enable this setting, users will no longer be able to modify slide show se
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_devicelock_preventlockscreenslideshow_1",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Enabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
   "displayName": "Enabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_devicelock_preventlockscreenslideshow_1",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -153,18 +153,18 @@ For more information about LocalAccountTokenFilterPolicy, see http://support.mic
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_mssecurityguide_applyuacrestrictionstolocalaccountsonnetworklogon_1",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Enabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
   "displayName": "Enabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_mssecurityguide_applyuacrestrictionstolocalaccountsonnetworklogon_1",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -189,18 +189,18 @@ For more information, see https://support.microsoft.com/kb/2696547
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1server_0",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Disabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 0
-  },
   "displayName": "Disabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Disabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1server_0",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -217,18 +217,18 @@ If this setting is disabled or not configured, SEHOP is not enforced for 32-bit 
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_mssecurityguide_enablestructuredexceptionhandlingoverwriteprotection_1",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Enabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
   "displayName": "Enabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_mssecurityguide_enablestructuredexceptionhandlingoverwriteprotection_1",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -253,18 +253,18 @@ For more information, see http://support.microsoft.com/kb/2871997 and http://blo
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_mssecurityguide_wdigestauthentication_0",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Disabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 0
-  },
   "displayName": "Disabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Disabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_mssecurityguide_wdigestauthentication_0",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -278,23 +278,23 @@ For more information, see http://support.microsoft.com/kb/2871997 and http://blo
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_1",
+  "displayName": "Enabled",
+  "dependentOn": [],
+  "name": "Enabled",
   "dependedOnBy": [
     {
       "dependedOnBy": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6",
       "required": true
     }
   ],
-  "description": null,
-  "name": "Enabled",
+  "itemId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_1",
   "optionValue": {
-    "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
+    "value": 1,
+    "settingValueTemplateReference": null
   },
-  "displayName": "Enabled",
-  "dependentOn": []
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -302,13 +302,13 @@ For more information, see http://support.microsoft.com/kb/2871997 and http://blo
 ```json
 {
   "settingDefinitionId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6",
-  "choiceSettingValue": {
-    "settingValueTemplateReference": null,
-    "children": [],
-    "value": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6_2"
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
   "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "choiceSettingValue": {
+    "children": [],
+    "value": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6_2",
+    "settingValueTemplateReference": null
+  },
   "auditRuleInformation": null
 }
 ```
@@ -327,18 +327,18 @@ For more information, see http://support.microsoft.com/kb/2871997 and http://blo
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_msslegacy_allowicmpredirectstooverrideospfgeneratedroutes_0",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Disabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 0
-  },
   "displayName": "Disabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Disabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_msslegacy_allowicmpredirectstooverrideospfgeneratedroutes_0",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -352,18 +352,18 @@ For more information, see http://support.microsoft.com/kb/2871997 and http://blo
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_msslegacy_allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers_1",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Enabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
   "displayName": "Enabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_msslegacy_allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers_1",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -378,18 +378,18 @@ For more information, see http://support.microsoft.com/kb/2871997 and http://blo
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_safedllsearchmode_1",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Enabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
   "displayName": "Enabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_safedllsearchmode_1",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -401,13 +401,13 @@ For more information, see http://support.microsoft.com/kb/2871997 and http://blo
 ```json
 {
   "settingDefinitionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_screensavergraceperiod",
-  "simpleSettingValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 5
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
   "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+  "simpleSettingValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 5,
+    "settingValueTemplateReference": null
+  },
   "auditRuleInformation": null
 }
 ```
@@ -433,18 +433,18 @@ If you disable this policy setting, or you do not configure this policy setting,
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_admx_dnsclient_turn_off_multicast_1",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Enabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
   "displayName": "Enabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_admx_dnsclient_turn_off_multicast_1",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -464,18 +464,18 @@ If you disable this setting or do not configure it, the user will be able to cre
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_connectivity_prohibitinstallationandconfigurationofnetworkbridge_1",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Enabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
   "displayName": "Enabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_connectivity_prohibitinstallationandconfigurationofnetworkbridge_1",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -506,18 +506,18 @@ Note: Disabling this setting does not prevent Wireless Hosted Networking from us
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_admx_networkconnections_nc_showsharedaccessui_1",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Enabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
   "displayName": "Enabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_admx_networkconnections_nc_showsharedaccessui_1",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -536,18 +536,18 @@ If you disable or do not configure this policy setting, domain users can set a n
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_admx_networkconnections_nc_stddomainusersetlocation_1",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Enabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
   "displayName": "Enabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_admx_networkconnections_nc_stddomainusersetlocation_1",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -559,64 +559,64 @@ If you disable or do not configure this policy setting, domain users can set a n
 ```json
 {
   "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
+  "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
   "groupSettingCollectionValue": [
     {
+      "settingValueTemplateReference": null,
       "children": [
         {
           "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key",
-          "simpleSettingValue": {
-            "settingValueTemplateReference": null,
-            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-            "value": "\\\\*\\NETLOGON"
-          },
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
           "settingInstanceTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+          "simpleSettingValue": {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+            "value": "\\\\*\\NETLOGON",
+            "settingValueTemplateReference": null
+          },
           "auditRuleInformation": null
         },
         {
           "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_value",
-          "simpleSettingValue": {
-            "settingValueTemplateReference": null,
-            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-            "value": "RequireIntegrity=1,RequireMutualAuthentication=1,RequirePrivacy=1"
-          },
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
           "settingInstanceTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+          "simpleSettingValue": {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+            "value": "RequireIntegrity=1,RequireMutualAuthentication=1,RequirePrivacy=1",
+            "settingValueTemplateReference": null
+          },
           "auditRuleInformation": null
         }
-      ],
-      "settingValueTemplateReference": null
+      ]
     },
     {
+      "settingValueTemplateReference": null,
       "children": [
         {
           "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key",
-          "simpleSettingValue": {
-            "settingValueTemplateReference": null,
-            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-            "value": "\\\\*\\SYSVOL"
-          },
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
           "settingInstanceTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+          "simpleSettingValue": {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+            "value": "\\\\*\\SYSVOL",
+            "settingValueTemplateReference": null
+          },
           "auditRuleInformation": null
         },
         {
           "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_value",
-          "simpleSettingValue": {
-            "settingValueTemplateReference": null,
-            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-            "value": "RequireIntegrity=1,RequireMutualAuthentication=1,RequirePrivacy=1"
-          },
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
           "settingInstanceTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+          "simpleSettingValue": {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+            "value": "RequireIntegrity=1,RequireMutualAuthentication=1,RequirePrivacy=1",
+            "settingValueTemplateReference": null
+          },
           "auditRuleInformation": null
         }
-      ],
-      "settingValueTemplateReference": null
+      ]
     }
   ],
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
-  "settingInstanceTemplateReference": null,
   "auditRuleInformation": null
 }
 ```
@@ -648,18 +648,18 @@ If this policy setting is not configured or is disabled, computers are allowed t
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_1",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Enabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
   "displayName": "Enabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_1",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -680,18 +680,18 @@ The spooler must be restarted for changes to this policy to take effect.
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_admx_printing2_registerspoolerremoterpcendpoint_0",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Disabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 0
-  },
   "displayName": "Disabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Disabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_admx_printing2_registerspoolerremoterpcendpoint_0",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -724,8 +724,9 @@ If you disable or do not configure this policy setting, the above defaults will 
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1",
+  "displayName": "Enabled",
+  "dependentOn": [],
+  "name": "Enabled",
   "dependedOnBy": [
     {
       "dependedOnBy": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionprotocol_enum",
@@ -736,15 +737,14 @@ If you disable or do not configure this policy setting, the above defaults will 
       "required": true
     }
   ],
-  "description": null,
-  "name": "Enabled",
+  "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1",
   "optionValue": {
-    "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
+    "value": 1,
+    "settingValueTemplateReference": null
   },
-  "displayName": "Enabled",
-  "dependentOn": []
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -752,13 +752,13 @@ If you disable or do not configure this policy setting, the above defaults will 
 ```json
 {
   "settingDefinitionId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionprotocol_enum",
-  "choiceSettingValue": {
-    "settingValueTemplateReference": null,
-    "children": [],
-    "value": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionprotocol_enum_0"
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
   "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "choiceSettingValue": {
+    "children": [],
+    "value": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionprotocol_enum_0",
+    "settingValueTemplateReference": null
+  },
   "auditRuleInformation": null
 }
 ```
@@ -767,13 +767,13 @@ If you disable or do not configure this policy setting, the above defaults will 
 ```json
 {
   "settingDefinitionId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionauthentication_enum",
-  "choiceSettingValue": {
-    "settingValueTemplateReference": null,
-    "children": [],
-    "value": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionauthentication_enum_0"
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
   "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "choiceSettingValue": {
+    "children": [],
+    "value": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionauthentication_enum_0",
+    "settingValueTemplateReference": null
+  },
   "auditRuleInformation": null
 }
 ```
@@ -801,23 +801,23 @@ If you disable or do not configure this policy setting, dynamic TCP ports are us
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_printers_configurerpctcpport_1",
+  "displayName": "Enabled",
+  "dependentOn": [],
+  "name": "Enabled",
   "dependedOnBy": [
     {
       "dependedOnBy": "device_vendor_msft_policy_config_printers_configurerpctcpport_rpctcpport",
       "required": true
     }
   ],
-  "description": null,
-  "name": "Enabled",
+  "itemId": "device_vendor_msft_policy_config_printers_configurerpctcpport_1",
   "optionValue": {
-    "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
+    "value": 1,
+    "settingValueTemplateReference": null
   },
-  "displayName": "Enabled",
-  "dependentOn": []
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -825,13 +825,13 @@ If you disable or do not configure this policy setting, dynamic TCP ports are us
 ```json
 {
   "settingDefinitionId": "device_vendor_msft_policy_config_printers_configurerpctcpport_rpctcpport",
-  "simpleSettingValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 0
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
   "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+  "simpleSettingValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0,
+    "settingValueTemplateReference": null
+  },
   "auditRuleInformation": null
 }
 ```
@@ -854,18 +854,18 @@ If you disable this setting, the system won't limit installation of print driver
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_printers_restrictdriverinstallationtoadministrators_1",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Enabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
   "displayName": "Enabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_printers_restrictdriverinstallationtoadministrators_1",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -891,23 +891,23 @@ If you disable or do not configure this policy setting, the default behavior is 
 
 ```json
 {
-  "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_1",
+  "displayName": "Enabled",
+  "dependentOn": [],
+  "name": "Enabled",
   "dependedOnBy": [
     {
       "dependedOnBy": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum",
       "required": true
     }
   ],
-  "description": null,
-  "name": "Enabled",
+  "itemId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_1",
   "optionValue": {
-    "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
+    "value": 1,
+    "settingValueTemplateReference": null
   },
-  "displayName": "Enabled",
-  "dependentOn": []
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -915,13 +915,13 @@ If you disable or do not configure this policy setting, the default behavior is 
 ```json
 {
   "settingDefinitionId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum",
-  "choiceSettingValue": {
-    "settingValueTemplateReference": null,
-    "children": [],
-    "value": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum_1"
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
   "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "choiceSettingValue": {
+    "children": [],
+    "value": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum_1",
+    "settingValueTemplateReference": null
+  },
   "auditRuleInformation": null
 }
 ```
@@ -949,18 +949,18 @@ If you disable or do not configure this policy setting, the default behavior is 
 
 ```json
 {
-  "helpText": null,
-  "itemId": "user_vendor_msft_policy_config_admx_wpn_nolockscreentoastnotification_1",
-  "dependedOnBy": [],
-  "description": null,
-  "name": "Enabled",
-  "optionValue": {
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "value": 1
-  },
   "displayName": "Enabled",
-  "dependentOn": []
+  "dependentOn": [],
+  "name": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "user_vendor_msft_policy_config_admx_wpn_nolockscreentoastnotification_1",
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "helpText": null
 }
 ```
 
@@ -968,71 +968,63 @@ If you disable or do not configure this policy setting, the default behavior is 
 ```json
 [
   {
-    "keywords": [
-      "Allow Cortana Above Lock",
-      "Above Lock"
-    ],
+    "id": "device_vendor_msft_policy_config_abovelock_allowcortanaabovelock",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-abovelock#allowcortanaabovelock"
     ],
-    "categoryId": "ef8b8f2d-7791-4c44-a4f2-e39051f2e715",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/AboveLock/AllowCortanaAboveLock",
+    "defaultOptionId": "device_vendor_msft_policy_config_abovelock_allowcortanaabovelock_1",
     "rootDefinitionId": "device_vendor_msft_policy_config_abovelock_allowcortanaabovelock",
+    "description": "Added in Windows 10, version 1607. Specifies whether or not the user can interact with Cortana using speech while the system is locked. If you allow or don’t configure this setting, the user can interact with Cortana using speech while the system is locked. If you block this setting, the system will need to be unlocked for the user to interact with Cortana using speech.",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_abovelock_allowcortanaabovelock_0",
-        "dependedOnBy": [],
-        "description": "Not allowed.",
-        "name": "Not allowed.",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Block",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Not allowed.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_abovelock_allowcortanaabovelock_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": "Not allowed.",
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_abovelock_allowcortanaabovelock_1",
-        "dependedOnBy": [],
-        "description": "Allowed.",
-        "name": "Allowed.",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "Allow",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Allowed.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_abovelock_allowcortanaabovelock_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": "Allowed.",
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "AllowCortanaAboveLock",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Allow Cortana Above Lock",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Added in Windows 10, version 1607. Specifies whether or not the user can interact with Cortana using speech while the system is locked. If you allow or don’t configure this setting, the user can interact with Cortana using speech while the system is locked. If you block this setting, the system will need to be unlocked for the user to interact with Cortana using speech.",
-    "offsetUri": "/Config/AboveLock/AllowCortanaAboveLock",
-    "id": "device_vendor_msft_policy_config_abovelock_allowcortanaabovelock",
+    "uxBehavior": "toggle",
+    "name": "AllowCortanaAboveLock",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_abovelock_allowcortanaabovelock_1",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.14393",
+      "configurationServiceProviderVersion": "4.1",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1042,14 +1034,99 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.14393",
-      "configurationServiceProviderVersion": "4.1",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "Allow Cortana Above Lock",
+      "Above Lock"
+    ],
+    "displayName": "Allow Cortana Above Lock",
+    "categoryId": "ef8b8f2d-7791-4c44-a4f2-e39051f2e715"
   },
   {
+    "id": "device_vendor_msft_policy_config_devicelock_preventenablinglockscreencamera",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-preventenablinglockscreencamera"
+    ],
+    "offsetUri": "/Config/DeviceLock/PreventEnablingLockScreenCamera",
+    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_preventenablinglockscreencamera_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_preventenablinglockscreencamera",
+    "description": "Disables the lock screen camera toggle switch in PC Settings and prevents a camera from being invoked on the lock screen.\r\n\r\nBy default, users can enable invocation of an available camera on the lock screen.\r\n\r\nIf you enable this setting, users will no longer be able to enable or disable lock screen camera access in PC Settings, and the camera cannot be invoked on the lock screen.",
+    "options": [
+      {
+        "displayName": "Disabled",
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_devicelock_preventenablinglockscreencamera_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      },
+      {
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_devicelock_preventenablinglockscreencamera_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      }
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "uxBehavior": "toggle",
+    "name": "CPL_Personalization_NoLockScreenCamera",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639141423527581363",
+    "applicability": {
+      "technologies": "mdm",
+      "deviceMode": "none",
+      "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0",
+      "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "platform": "windows10",
+      "maximumSupportedVersion": null
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "CPL_Personalization_NoLockScreenCamera",
       "Prevent enabling lock screen camera",
@@ -1057,67 +1134,67 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Control Panel\\Personalization",
       "Personalization"
     ],
+    "displayName": "Prevent enabling lock screen camera",
+    "categoryId": "e6231142-3d39-44a7-9522-6a3357bd439f"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_devicelock_preventlockscreenslideshow",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-preventenablinglockscreencamera"
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-preventlockscreenslideshow"
     ],
-    "categoryId": "e6231142-3d39-44a7-9522-6a3357bd439f",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_preventenablinglockscreencamera",
+    "offsetUri": "/Config/DeviceLock/PreventLockScreenSlideShow",
+    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_preventlockscreenslideshow_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_preventlockscreenslideshow",
+    "description": "Disables the lock screen slide show settings in PC Settings and prevents a slide show from playing on the lock screen.\r\n\r\nBy default, users can enable a slide show that will run after they lock the machine.\r\n\r\nIf you enable this setting, users will no longer be able to modify slide show settings in PC Settings, and no slide show will ever start.",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_devicelock_preventenablinglockscreencamera_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_devicelock_preventlockscreenslideshow_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_devicelock_preventenablinglockscreencamera_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "Enabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_devicelock_preventlockscreenslideshow_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "CPL_Personalization_NoLockScreenCamera",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Prevent enabling lock screen camera",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Disables the lock screen camera toggle switch in PC Settings and prevents a camera from being invoked on the lock screen.\r\n\r\nBy default, users can enable invocation of an available camera on the lock screen.\r\n\r\nIf you enable this setting, users will no longer be able to enable or disable lock screen camera access in PC Settings, and the camera cannot be invoked on the lock screen.",
-    "offsetUri": "/Config/DeviceLock/PreventEnablingLockScreenCamera",
-    "id": "device_vendor_msft_policy_config_devicelock_preventenablinglockscreencamera",
+    "uxBehavior": "toggle",
+    "name": "CPL_Personalization_NoLockScreenSlideshow",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_preventenablinglockscreencamera_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.15063",
+      "configurationServiceProviderVersion": "5.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1130,14 +1207,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "CPL_Personalization_NoLockScreenSlideshow",
       "Prevent enabling lock screen slide show",
@@ -1145,266 +1222,179 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Control Panel\\Personalization",
       "Personalization"
     ],
+    "displayName": "Prevent enabling lock screen slide show",
+    "categoryId": "e6231142-3d39-44a7-9522-6a3357bd439f"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_mssecurityguide_applyuacrestrictionstolocalaccountsonnetworklogon",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-devicelock#devicelock-preventlockscreenslideshow"
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-mssecurityguide#mssecurityguide-applyuacrestrictionstolocalaccountsonnetworklogon"
     ],
-    "categoryId": "e6231142-3d39-44a7-9522-6a3357bd439f",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_preventlockscreenslideshow",
+    "offsetUri": "/Config/MSSecurityGuide/ApplyUACRestrictionsToLocalAccountsOnNetworkLogon",
+    "defaultOptionId": "device_vendor_msft_policy_config_mssecurityguide_applyuacrestrictionstolocalaccountsonnetworklogon_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_mssecurityguide_applyuacrestrictionstolocalaccountsonnetworklogon",
+    "description": "This setting controls whether local accounts can be used for remote administration via network logon (e.g., NET USE, connecting to C$, etc.). Local accounts are at high risk for credential theft when the same account and password is configured on multiple systems.  Enabling this policy significantly reduces that risk.\r\n\r\nEnabled (recommended): Applies UAC token-filtering to local accounts on network logons. Membership in powerful group such as Administrators is disabled and powerful privileges are removed from the resulting access token. This configures the LocalAccountTokenFilterPolicy registry value to 0. This is the default behavior for Windows.\r\n\r\nDisabled: Allows local accounts to have full administrative rights when authenticating via network logon, by configuring the LocalAccountTokenFilterPolicy registry value to 1.\r\n\r\nFor more information about local accounts and credential theft, see \"Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques\": http://www.microsoft.com/en-us/download/details.aspx?id=36036.\r\n\r\nFor more information about LocalAccountTokenFilterPolicy, see http://support.microsoft.com/kb/951016.\r\n      ",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_devicelock_preventlockscreenslideshow_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_mssecurityguide_applyuacrestrictionstolocalaccountsonnetworklogon_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_devicelock_preventlockscreenslideshow_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "Enabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_mssecurityguide_applyuacrestrictionstolocalaccountsonnetworklogon_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "CPL_Personalization_NoLockScreenSlideshow",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Prevent enabling lock screen slide show",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Disables the lock screen slide show settings in PC Settings and prevents a slide show from playing on the lock screen.\r\n\r\nBy default, users can enable a slide show that will run after they lock the machine.\r\n\r\nIf you enable this setting, users will no longer be able to modify slide show settings in PC Settings, and no slide show will ever start.",
-    "offsetUri": "/Config/DeviceLock/PreventLockScreenSlideShow",
-    "id": "device_vendor_msft_policy_config_devicelock_preventlockscreenslideshow",
+    "uxBehavior": "toggle",
+    "name": "Pol_SecGuide_0201_LATFP",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_preventlockscreenslideshow_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
-        "windowsHome",
         "windowsEducation",
         "windowsMultiSession",
         "iotEnterprise",
         "windowsCloudN",
         "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
+        "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_SecGuide_0201_LATFP",
       "Apply UAC restrictions to local accounts on network logons",
       "\\MS Security Guide",
       "MS Security Guide"
     ],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-mssecurityguide#mssecurityguide-applyuacrestrictionstolocalaccountsonnetworklogon"
-    ],
-    "categoryId": "5371d50c-0aaa-425a-a075-2cb1c59968b9",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_mssecurityguide_applyuacrestrictionstolocalaccountsonnetworklogon",
-    "options": [
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_mssecurityguide_applyuacrestrictionstolocalaccountsonnetworklogon_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "displayName": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_mssecurityguide_applyuacrestrictionstolocalaccountsonnetworklogon_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "displayName": "Enabled",
-        "dependentOn": []
-      }
-    ],
-    "settingUsage": "configuration",
-    "name": "Pol_SecGuide_0201_LATFP",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
     "displayName": "Apply UAC restrictions to local accounts on network logons",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This setting controls whether local accounts can be used for remote administration via network logon (e.g., NET USE, connecting to C$, etc.). Local accounts are at high risk for credential theft when the same account and password is configured on multiple systems.  Enabling this policy significantly reduces that risk.\r\n\r\nEnabled (recommended): Applies UAC token-filtering to local accounts on network logons. Membership in powerful group such as Administrators is disabled and powerful privileges are removed from the resulting access token. This configures the LocalAccountTokenFilterPolicy registry value to 0. This is the default behavior for Windows.\r\n\r\nDisabled: Allows local accounts to have full administrative rights when authenticating via network logon, by configuring the LocalAccountTokenFilterPolicy registry value to 1.\r\n\r\nFor more information about local accounts and credential theft, see \"Mitigating Pass-the-Hash (PtH) Attacks and Other Credential Theft Techniques\": http://www.microsoft.com/en-us/download/details.aspx?id=36036.\r\n\r\nFor more information about LocalAccountTokenFilterPolicy, see http://support.microsoft.com/kb/951016.\r\n      ",
-    "offsetUri": "/Config/MSSecurityGuide/ApplyUACRestrictionsToLocalAccountsOnNetworkLogon",
-    "id": "device_vendor_msft_policy_config_mssecurityguide_applyuacrestrictionstolocalaccountsonnetworklogon",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultOptionId": "device_vendor_msft_policy_config_mssecurityguide_applyuacrestrictionstolocalaccountsonnetworklogon_0",
-    "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "technologies": "mdm",
-      "description": null,
-      "requiredAzureAdTrustType": "none",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null
-    }
+    "categoryId": "5371d50c-0aaa-425a-a075-2cb1c59968b9"
   },
   {
-    "keywords": [
-      "Pol_SecGuide_0002_SMBv1_ClientDriver",
-      "Configure SMB v1 client driver",
-      "\\MS Security Guide",
-      "MS Security Guide"
-    ],
+    "id": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_pol_secguide_smb1clientdriver",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "5371d50c-0aaa-425a-a075-2cb1c59968b9",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/MSSecurityGuide/ConfigureSMBV1ClientDriver",
+    "defaultOptionId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_pol_secguide_smb1clientdriver_4",
     "rootDefinitionId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver",
+    "description": "",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_pol_secguide_smb1clientdriver_4",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disable driver (recommended)",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "4"
-        },
         "displayName": "Disable driver (recommended)",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver",
-            "dependentOn": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_1"
+            "dependentOn": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_1",
+            "parentSettingId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver"
           }
-        ]
+        ],
+        "name": "Disable driver (recommended)",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_pol_secguide_smb1clientdriver_4",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "4",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_pol_secguide_smb1clientdriver_3",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Manual start (default for Win7/2008/2008R2/2012)",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "3"
-        },
         "displayName": "Manual start (default for Win7/2008/2008R2/2012)",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver",
-            "dependentOn": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_1"
+            "dependentOn": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_1",
+            "parentSettingId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver"
           }
-        ]
+        ],
+        "name": "Manual start (default for Win7/2008/2008R2/2012)",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_pol_secguide_smb1clientdriver_3",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "3",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_pol_secguide_smb1clientdriver_2",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Automatic start (default for Win8.1/2012R2/newer)",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "2"
-        },
         "displayName": "Automatic start (default for Win8.1/2012R2/newer)",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver",
-            "dependentOn": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_1"
+            "dependentOn": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_1",
+            "parentSettingId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver"
           }
-        ]
+        ],
+        "name": "Automatic start (default for Win8.1/2012R2/newer)",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_pol_secguide_smb1clientdriver_2",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "2",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Pol_SecGuide_SMB1ClientDriver",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Configure MrxSmb10 driver",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/MSSecurityGuide/ConfigureSMBV1ClientDriver",
-    "id": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_pol_secguide_smb1clientdriver",
+    "uxBehavior": "default",
+    "name": "Pol_SecGuide_SMB1ClientDriver",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_pol_secguide_smb1clientdriver_4",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1415,86 +1405,86 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_SecGuide_0002_SMBv1_ClientDriver",
       "Configure SMB v1 client driver",
       "\\MS Security Guide",
       "MS Security Guide"
     ],
+    "displayName": "Configure MrxSmb10 driver",
+    "categoryId": "5371d50c-0aaa-425a-a075-2cb1c59968b9"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-mssecurityguide#mssecurityguide-configuresmbv1clientdriver"
     ],
-    "categoryId": "5371d50c-0aaa-425a-a075-2cb1c59968b9",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/MSSecurityGuide/ConfigureSMBV1ClientDriver",
+    "defaultOptionId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver",
+    "description": "Configures the SMB v1 client driver's start type.\r\n\r\nTo disable client-side processing of the SMBv1 protocol, select the \"Enabled\" radio button, then select \"Disable driver\" from the dropdown.\r\nWARNING: DO NOT SELECT THE \"DISABLED\" RADIO BUTTON UNDER ANY CIRCUMSTANCES!\r\n\r\nFor Windows 7 and Servers 2008, 2008R2, and 2012, you must also configure the \"Configure SMB v1 client (extra setting needed for pre-Win8.1/2012R2)\" setting.\r\n\r\nTo restore default SMBv1 client-side behavior, select \"Enabled\" and choose the correct default from the dropdown:\r\n* \"Manual start\" for Windows 7 and Windows Servers 2008, 2008R2, and 2012;\r\n* \"Automatic start\" for Windows 8.1 and Windows Server 2012R2 and newer.\r\n\r\nChanges to this setting require a reboot to take effect.\r\n\r\nFor more information, see https://support.microsoft.com/kb/2696547 \r\n      ",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_1",
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_pol_secguide_smb1clientdriver",
             "required": true
           }
         ],
-        "description": null,
-        "name": "Enabled",
+        "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_1",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
+          "value": 1,
+          "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "dependentOn": []
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Pol_SecGuide_0002_SMBv1_ClientDriver",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Configure SMB v1 client driver",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Configures the SMB v1 client driver's start type.\r\n\r\nTo disable client-side processing of the SMBv1 protocol, select the \"Enabled\" radio button, then select \"Disable driver\" from the dropdown.\r\nWARNING: DO NOT SELECT THE \"DISABLED\" RADIO BUTTON UNDER ANY CIRCUMSTANCES!\r\n\r\nFor Windows 7 and Servers 2008, 2008R2, and 2012, you must also configure the \"Configure SMB v1 client (extra setting needed for pre-Win8.1/2012R2)\" setting.\r\n\r\nTo restore default SMBv1 client-side behavior, select \"Enabled\" and choose the correct default from the dropdown:\r\n* \"Manual start\" for Windows 7 and Windows Servers 2008, 2008R2, and 2012;\r\n* \"Automatic start\" for Windows 8.1 and Windows Server 2012R2 and newer.\r\n\r\nChanges to this setting require a reboot to take effect.\r\n\r\nFor more information, see https://support.microsoft.com/kb/2696547 \r\n      ",
-    "offsetUri": "/Config/MSSecurityGuide/ConfigureSMBV1ClientDriver",
-    "id": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver",
+    "uxBehavior": "toggle",
+    "name": "Pol_SecGuide_0002_SMBv1_ClientDriver",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1505,81 +1495,166 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "Pol_SecGuide_0002_SMBv1_ClientDriver",
+      "Configure SMB v1 client driver",
+      "\\MS Security Guide",
+      "MS Security Guide"
+    ],
+    "displayName": "Configure SMB v1 client driver",
+    "categoryId": "5371d50c-0aaa-425a-a075-2cb1c59968b9"
   },
   {
+    "id": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1server",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-mssecurityguide#mssecurityguide-configuresmbv1server"
+    ],
+    "offsetUri": "/Config/MSSecurityGuide/ConfigureSMBV1Server",
+    "defaultOptionId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1server_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1server",
+    "description": "Disabling this setting disables server-side processing of the SMBv1 protocol. (Recommended.)\r\n\r\nEnabling this setting enables server-side processing of the SMBv1 protocol. (Default.)\r\n\r\nChanges to this setting require a reboot to take effect.\r\n\r\nFor more information, see https://support.microsoft.com/kb/2696547\r\n      ",
+    "options": [
+      {
+        "displayName": "Disabled",
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1server_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      },
+      {
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1server_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      }
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "uxBehavior": "toggle",
+    "name": "Pol_SecGuide_0001_SMBv1_Server",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639141423527581363",
+    "applicability": {
+      "technologies": "mdm",
+      "deviceMode": "none",
+      "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0",
+      "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "platform": "windows10",
+      "maximumSupportedVersion": null
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_SecGuide_0001_SMBv1_Server",
       "Configure SMB v1 server",
       "\\MS Security Guide",
       "MS Security Guide"
     ],
+    "displayName": "Configure SMB v1 server",
+    "categoryId": "5371d50c-0aaa-425a-a075-2cb1c59968b9"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_mssecurityguide_enablestructuredexceptionhandlingoverwriteprotection",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-mssecurityguide#mssecurityguide-configuresmbv1server"
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-mssecurityguide#mssecurityguide-enablestructuredexceptionhandlingoverwriteprotection"
     ],
-    "categoryId": "5371d50c-0aaa-425a-a075-2cb1c59968b9",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1server",
+    "offsetUri": "/Config/MSSecurityGuide/EnableStructuredExceptionHandlingOverwriteProtection",
+    "defaultOptionId": "device_vendor_msft_policy_config_mssecurityguide_enablestructuredexceptionhandlingoverwriteprotection_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_mssecurityguide_enablestructuredexceptionhandlingoverwriteprotection",
+    "description": "If this setting is enabled, SEHOP is enforced. For more information, see https://support.microsoft.com/en-us/help/956607/how-to-enable-structured-exception-handling-overwrite-protection-sehop-in-windows-operating-systems.\r\n\r\nIf this setting is disabled or not configured, SEHOP is not enforced for 32-bit processes.\r\n",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1server_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_mssecurityguide_enablestructuredexceptionhandlingoverwriteprotection_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1server_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "Enabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_mssecurityguide_enablestructuredexceptionhandlingoverwriteprotection_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Pol_SecGuide_0001_SMBv1_Server",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Configure SMB v1 server",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Disabling this setting disables server-side processing of the SMBv1 protocol. (Recommended.)\r\n\r\nEnabling this setting enables server-side processing of the SMBv1 protocol. (Default.)\r\n\r\nChanges to this setting require a reboot to take effect.\r\n\r\nFor more information, see https://support.microsoft.com/kb/2696547\r\n      ",
-    "offsetUri": "/Config/MSSecurityGuide/ConfigureSMBV1Server",
-    "id": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1server",
+    "uxBehavior": "toggle",
+    "name": "Pol_SecGuide_0102_SEHOP",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1server_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1590,81 +1665,81 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_SecGuide_0102_SEHOP",
       "Enable Structured Exception Handling Overwrite Protection (SEHOP)",
       "\\MS Security Guide",
       "MS Security Guide"
     ],
+    "displayName": "Enable Structured Exception Handling Overwrite Protection (SEHOP)",
+    "categoryId": "5371d50c-0aaa-425a-a075-2cb1c59968b9"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_mssecurityguide_wdigestauthentication",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-mssecurityguide#mssecurityguide-enablestructuredexceptionhandlingoverwriteprotection"
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-mssecurityguide#mssecurityguide-wdigestauthentication"
     ],
-    "categoryId": "5371d50c-0aaa-425a-a075-2cb1c59968b9",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_mssecurityguide_enablestructuredexceptionhandlingoverwriteprotection",
+    "offsetUri": "/Config/MSSecurityGuide/WDigestAuthentication",
+    "defaultOptionId": "device_vendor_msft_policy_config_mssecurityguide_wdigestauthentication_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_mssecurityguide_wdigestauthentication",
+    "description": "When WDigest authentication is enabled, Lsass.exe retains a copy of the user's plaintext password in memory, where it can be at risk of theft. Microsoft recommends disabling WDigest authentication unless it is needed.\r\n\r\nIf this setting is not configured, WDigest authentication is disabled in Windows 8.1 and in Windows Server 2012 R2; it is enabled by default in earlier versions of Windows and Windows Server.\r\n\r\nUpdate KB2871997 must first be installed to disable WDigest authentication using this setting in Windows 7, Windows 8, Windows Server 2008 R2 and Windows Server 2012.\r\n\r\nEnabled: Enables WDigest authentication.\r\n\r\nDisabled (recommended): Disables WDigest authentication. For this setting to work on Windows 7, Windows 8, Windows Server 2008 R2 or Windows Server 2012, KB2871997 must first be installed.\r\n\r\nFor more information, see http://support.microsoft.com/kb/2871997 and http://blogs.technet.com/b/srd/archive/2014/06/05/an-overview-of-kb2871997.aspx .\r\n      ",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_mssecurityguide_enablestructuredexceptionhandlingoverwriteprotection_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_mssecurityguide_wdigestauthentication_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_mssecurityguide_enablestructuredexceptionhandlingoverwriteprotection_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "Enabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_mssecurityguide_wdigestauthentication_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Pol_SecGuide_0102_SEHOP",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Enable Structured Exception Handling Overwrite Protection (SEHOP)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "If this setting is enabled, SEHOP is enforced. For more information, see https://support.microsoft.com/en-us/help/956607/how-to-enable-structured-exception-handling-overwrite-protection-sehop-in-windows-operating-systems.\r\n\r\nIf this setting is disabled or not configured, SEHOP is not enforced for 32-bit processes.\r\n",
-    "offsetUri": "/Config/MSSecurityGuide/EnableStructuredExceptionHandlingOverwriteProtection",
-    "id": "device_vendor_msft_policy_config_mssecurityguide_enablestructuredexceptionhandlingoverwriteprotection",
+    "uxBehavior": "toggle",
+    "name": "Pol_SecGuide_0202_WDigestAuthn",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_mssecurityguide_enablestructuredexceptionhandlingoverwriteprotection_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1675,81 +1750,86 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_SecGuide_0202_WDigestAuthn",
       "WDigest Authentication (disabling may require KB2871997)",
       "\\MS Security Guide",
       "MS Security Guide"
     ],
+    "displayName": "WDigest Authentication (disabling may require KB2871997)",
+    "categoryId": "5371d50c-0aaa-425a-a075-2cb1c59968b9"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-mssecurityguide#mssecurityguide-wdigestauthentication"
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-msslegacy#msslegacy-ipv6sourceroutingprotectionlevel"
     ],
-    "categoryId": "5371d50c-0aaa-425a-a075-2cb1c59968b9",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_mssecurityguide_wdigestauthentication",
+    "offsetUri": "/Config/MSSLegacy/IPv6SourceRoutingProtectionLevel",
+    "defaultOptionId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel",
+    "description": "MSS: (DisableIPSourceRouting IPv6) IP source routing protection level (protects against packet spoofing)",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_mssecurityguide_wdigestauthentication_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_mssecurityguide_wdigestauthentication_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "Enabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6",
+            "required": true
+          }
+        ],
+        "itemId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Pol_SecGuide_0202_WDigestAuthn",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "WDigest Authentication (disabling may require KB2871997)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "When WDigest authentication is enabled, Lsass.exe retains a copy of the user's plaintext password in memory, where it can be at risk of theft. Microsoft recommends disabling WDigest authentication unless it is needed.\r\n\r\nIf this setting is not configured, WDigest authentication is disabled in Windows 8.1 and in Windows Server 2012 R2; it is enabled by default in earlier versions of Windows and Windows Server.\r\n\r\nUpdate KB2871997 must first be installed to disable WDigest authentication using this setting in Windows 7, Windows 8, Windows Server 2008 R2 and Windows Server 2012.\r\n\r\nEnabled: Enables WDigest authentication.\r\n\r\nDisabled (recommended): Disables WDigest authentication. For this setting to work on Windows 7, Windows 8, Windows Server 2008 R2 or Windows Server 2012, KB2871997 must first be installed.\r\n\r\nFor more information, see http://support.microsoft.com/kb/2871997 and http://blogs.technet.com/b/srd/archive/2014/06/05/an-overview-of-kb2871997.aspx .\r\n      ",
-    "offsetUri": "/Config/MSSecurityGuide/WDigestAuthentication",
-    "id": "device_vendor_msft_policy_config_mssecurityguide_wdigestauthentication",
+    "uxBehavior": "toggle",
+    "name": "Pol_MSS_DisableIPSourceRoutingIPv6",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_mssecurityguide_wdigestauthentication_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1760,14 +1840,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_MSS_DisableIPSourceRoutingIPv6",
       "MSS: (DisableIPSourceRouting IPv6) IP source routing protection level (protects against packet spoofing)",
@@ -1778,72 +1858,94 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Machine",
       "System\\CurrentControlSet\\Services\\Tcpip6\\Parameters"
     ],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-msslegacy#msslegacy-ipv6sourceroutingprotectionlevel"
-    ],
-    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7",
-    "referredSettingInformationList": [],
+    "displayName": "MSS: (DisableIPSourceRouting IPv6) IP source routing protection level (protects against packet spoofing)",
+    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [],
+    "offsetUri": "/Config/MSSLegacy/IPv6SourceRoutingProtectionLevel",
+    "defaultOptionId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6_1",
     "rootDefinitionId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel",
+    "description": "",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "displayName": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_1",
-        "dependedOnBy": [
+        "displayName": "No additional protection, source routed packets are allowed",
+        "dependentOn": [
           {
-            "dependedOnBy": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6",
-            "required": true
+            "dependentOn": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_1",
+            "parentSettingId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel"
           }
         ],
-        "description": null,
-        "name": "Enabled",
+        "name": "No additional protection, source routed packets are allowed",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6_0",
         "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "0",
+          "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "dependentOn": []
+        "description": null,
+        "helpText": null
+      },
+      {
+        "displayName": "Medium, source routed packets ignored when IP forwarding is enabled",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_1",
+            "parentSettingId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel"
+          }
+        ],
+        "name": "Medium, source routed packets ignored when IP forwarding is enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "1",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      },
+      {
+        "displayName": "Highest protection, source routing is completely disabled",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_1",
+            "parentSettingId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel"
+          }
+        ],
+        "name": "Highest protection, source routing is completely disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6_2",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "2",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Pol_MSS_DisableIPSourceRoutingIPv6",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "MSS: (DisableIPSourceRouting IPv6) IP source routing protection level (protects against packet spoofing)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "MSS: (DisableIPSourceRouting IPv6) IP source routing protection level (protects against packet spoofing)",
-    "offsetUri": "/Config/MSSLegacy/IPv6SourceRoutingProtectionLevel",
-    "id": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel",
+    "uxBehavior": "default",
+    "name": "DisableIPSourceRoutingIPv6",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1854,14 +1956,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_MSS_DisableIPSourceRoutingIPv6",
       "MSS: (DisableIPSourceRouting IPv6) IP source routing protection level (protects against packet spoofing)",
@@ -1869,94 +1971,94 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\MSS (Legacy)",
       "MSS (Legacy)"
     ],
+    "displayName": "DisableIPSourceRoutingIPv6 (Device)",
+    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_disableipsourcerouting",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel",
+    "offsetUri": "/Config/MSSLegacy/IPSourceRoutingProtectionLevel",
+    "defaultOptionId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_disableipsourcerouting_1",
+    "rootDefinitionId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel",
+    "description": "",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "No additional protection, source routed packets are allowed",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "0"
-        },
         "displayName": "No additional protection, source routed packets are allowed",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel",
-            "dependentOn": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_1"
+            "dependentOn": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_1",
+            "parentSettingId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel"
           }
-        ]
+        ],
+        "name": "No additional protection, source routed packets are allowed",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_disableipsourcerouting_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Medium, source routed packets ignored when IP forwarding is enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "1"
-        },
         "displayName": "Medium, source routed packets ignored when IP forwarding is enabled",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel",
-            "dependentOn": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_1"
+            "dependentOn": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_1",
+            "parentSettingId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel"
           }
-        ]
+        ],
+        "name": "Medium, source routed packets ignored when IP forwarding is enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_disableipsourcerouting_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "1",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6_2",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Highest protection, source routing is completely disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "2"
-        },
         "displayName": "Highest protection, source routing is completely disabled",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel",
-            "dependentOn": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_1"
+            "dependentOn": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_1",
+            "parentSettingId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel"
           }
-        ]
+        ],
+        "name": "Highest protection, source routing is completely disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_disableipsourcerouting_2",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "2",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "DisableIPSourceRoutingIPv6",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "DisableIPSourceRoutingIPv6 (Device)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/MSSLegacy/IPv6SourceRoutingProtectionLevel",
-    "id": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6",
+    "uxBehavior": "default",
+    "name": "DisableIPSourceRouting",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6_1",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1967,14 +2069,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_MSS_DisableIPSourceRouting",
       "MSS: (DisableIPSourceRouting) IP source routing protection level (protects against packet spoofing)",
@@ -1982,94 +2084,72 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\MSS (Legacy)",
       "MSS (Legacy)"
     ],
-    "infoUrls": [],
-    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7",
-    "referredSettingInformationList": [],
+    "displayName": "DisableIPSourceRouting (Device)",
+    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-msslegacy#msslegacy-ipsourceroutingprotectionlevel"
+    ],
+    "offsetUri": "/Config/MSSLegacy/IPSourceRoutingProtectionLevel",
+    "defaultOptionId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel",
+    "description": "MSS: (DisableIPSourceRouting) IP source routing protection level (protects against packet spoofing)",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_disableipsourcerouting_0",
+        "displayName": "Disabled",
+        "dependentOn": [],
+        "name": "Disabled",
         "dependedOnBy": [],
-        "description": null,
-        "name": "No additional protection, source routed packets are allowed",
+        "itemId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_0",
         "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "0"
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
         },
-        "displayName": "No additional protection, source routed packets are allowed",
-        "dependentOn": [
-          {
-            "parentSettingId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel",
-            "dependentOn": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_1"
-          }
-        ]
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_disableipsourcerouting_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Medium, source routed packets ignored when IP forwarding is enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "1"
-        },
-        "displayName": "Medium, source routed packets ignored when IP forwarding is enabled",
-        "dependentOn": [
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel",
-            "dependentOn": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_1"
+            "dependedOnBy": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_disableipsourcerouting",
+            "required": true
           }
-        ]
-      },
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_disableipsourcerouting_2",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Highest protection, source routing is completely disabled",
+        ],
+        "itemId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_1",
         "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "2"
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
         },
-        "displayName": "Highest protection, source routing is completely disabled",
-        "dependentOn": [
-          {
-            "parentSettingId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel",
-            "dependentOn": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_1"
-          }
-        ]
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "DisableIPSourceRouting",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "DisableIPSourceRouting (Device)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/MSSLegacy/IPSourceRoutingProtectionLevel",
-    "id": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_disableipsourcerouting",
+    "uxBehavior": "toggle",
+    "name": "Pol_MSS_DisableIPSourceRouting",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_disableipsourcerouting_1",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2080,14 +2160,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_MSS_DisableIPSourceRouting",
       "MSS: (DisableIPSourceRouting) IP source routing protection level (protects against packet spoofing)",
@@ -2098,72 +2178,67 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Machine",
       "System\\CurrentControlSet\\Services\\Tcpip\\Parameters"
     ],
+    "displayName": "MSS: (DisableIPSourceRouting) IP source routing protection level (protects against packet spoofing)",
+    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_msslegacy_allowicmpredirectstooverrideospfgeneratedroutes",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-msslegacy#msslegacy-ipsourceroutingprotectionlevel"
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-msslegacy#msslegacy-allowicmpredirectstooverrideospfgeneratedroutes"
     ],
-    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel",
+    "offsetUri": "/Config/MSSLegacy/AllowICMPRedirectsToOverrideOSPFGeneratedRoutes",
+    "defaultOptionId": "device_vendor_msft_policy_config_msslegacy_allowicmpredirectstooverrideospfgeneratedroutes_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_msslegacy_allowicmpredirectstooverrideospfgeneratedroutes",
+    "description": "MSS: (EnableICMPRedirect) Allow ICMP redirects to override OSPF generated routes",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_msslegacy_allowicmpredirectstooverrideospfgeneratedroutes_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_1",
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_disableipsourcerouting",
-            "required": true
-          }
-        ],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "Enabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_msslegacy_allowicmpredirectstooverrideospfgeneratedroutes_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Pol_MSS_DisableIPSourceRouting",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "MSS: (DisableIPSourceRouting) IP source routing protection level (protects against packet spoofing)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "MSS: (DisableIPSourceRouting) IP source routing protection level (protects against packet spoofing)",
-    "offsetUri": "/Config/MSSLegacy/IPSourceRoutingProtectionLevel",
-    "id": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel",
+    "uxBehavior": "toggle",
+    "name": "Pol_MSS_EnableICMPRedirect",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2174,14 +2249,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_MSS_EnableICMPRedirect",
       "MSS: (EnableICMPRedirect) Allow ICMP redirects to override OSPF generated routes",
@@ -2189,67 +2264,67 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\MSS (Legacy)",
       "MSS (Legacy)"
     ],
+    "displayName": "MSS: (EnableICMPRedirect) Allow ICMP redirects to override OSPF generated routes",
+    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_msslegacy_allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-msslegacy#msslegacy-allowicmpredirectstooverrideospfgeneratedroutes"
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-msslegacy#msslegacy-allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers"
     ],
-    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_msslegacy_allowicmpredirectstooverrideospfgeneratedroutes",
+    "offsetUri": "/Config/MSSLegacy/AllowTheComputerToIgnoreNetBIOSNameReleaseRequestsExceptFromWINSServers",
+    "defaultOptionId": "device_vendor_msft_policy_config_msslegacy_allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_msslegacy_allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers",
+    "description": "MSS: (NoNameReleaseOnDemand) Allow the computer to ignore NetBIOS name release requests except from WINS servers",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_msslegacy_allowicmpredirectstooverrideospfgeneratedroutes_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_msslegacy_allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_msslegacy_allowicmpredirectstooverrideospfgeneratedroutes_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "Enabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_msslegacy_allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Pol_MSS_EnableICMPRedirect",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "MSS: (EnableICMPRedirect) Allow ICMP redirects to override OSPF generated routes",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "MSS: (EnableICMPRedirect) Allow ICMP redirects to override OSPF generated routes",
-    "offsetUri": "/Config/MSSLegacy/AllowICMPRedirectsToOverrideOSPFGeneratedRoutes",
-    "id": "device_vendor_msft_policy_config_msslegacy_allowicmpredirectstooverrideospfgeneratedroutes",
+    "uxBehavior": "toggle",
+    "name": "Pol_MSS_NoNameReleaseOnDemand",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_msslegacy_allowicmpredirectstooverrideospfgeneratedroutes_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2260,14 +2335,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_MSS_NoNameReleaseOnDemand",
       "MSS: (NoNameReleaseOnDemand) Allow the computer to ignore NetBIOS name release requests except from WINS servers",
@@ -2275,85 +2350,86 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\MSS (Legacy)",
       "MSS (Legacy)"
     ],
+    "displayName": "MSS: (NoNameReleaseOnDemand) Allow the computer to ignore NetBIOS name release requests except from WINS servers",
+    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_safedllsearchmode",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-msslegacy#msslegacy-allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers"
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-mss-legacy#admx-mss-legacy-pol-mss-safedllsearchmode"
     ],
-    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_msslegacy_allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers",
+    "offsetUri": "/Config/ADMX_MSS-legacy/Pol_MSS_SafeDllSearchMode",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_safedllsearchmode_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_safedllsearchmode",
+    "description": "MSS: (SafeDllSearchMode) Enable Safe DLL search mode (recommended)\n ",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_msslegacy_allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_safedllsearchmode_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_msslegacy_allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "Enabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_safedllsearchmode_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Pol_MSS_NoNameReleaseOnDemand",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "MSS: (NoNameReleaseOnDemand) Allow the computer to ignore NetBIOS name release requests except from WINS servers",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "accessTypes": "add,delete,get,replace",
+    "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "MSS: (NoNameReleaseOnDemand) Allow the computer to ignore NetBIOS name release requests except from WINS servers",
-    "offsetUri": "/Config/MSSLegacy/AllowTheComputerToIgnoreNetBIOSNameReleaseRequestsExceptFromWINSServers",
-    "id": "device_vendor_msft_policy_config_msslegacy_allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers",
+    "uxBehavior": "toggle",
+    "name": "Pol_MSS_SafeDllSearchMode",
     "occurrence": {
-      "minDeviceOccurrence": 0,
+      "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_msslegacy_allowthecomputertoignorenetbiosnamereleaserequestsexceptfromwinsservers_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "configurationServiceProviderVersion": "10.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
         "windowsEducation",
+        "holographicForBusiness",
         "windowsMultiSession",
         "iotEnterprise",
         "windowsCloudN",
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_MSS_SafeDllSearchMode",
       "MSS: (SafeDllSearchMode) Enable Safe DLL search mode (recommended)",
@@ -2365,67 +2441,45 @@ If you disable or do not configure this policy setting, the default behavior is 
       "SYSTEM\\CurrentControlSet\\Control\\Session Manager",
       "SafeDllSearchMode"
     ],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-mss-legacy#admx-mss-legacy-pol-mss-safedllsearchmode"
-    ],
-    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_safedllsearchmode",
-    "options": [
+    "displayName": "MSS: (SafeDllSearchMode) Enable Safe DLL search mode (recommended)",
+    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_screensavergraceperiod",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [],
+    "offsetUri": "/Config/ADMX_MSS-legacy/Pol_MSS_ScreenSaverGracePeriod",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod",
+    "description": null,
+    "dependentOn": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_safedllsearchmode_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "displayName": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_safedllsearchmode_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "displayName": "Enabled",
-        "dependentOn": []
+        "dependentOn": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_1",
+        "parentSettingId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod"
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Pol_MSS_SafeDllSearchMode",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "MSS: (SafeDllSearchMode) Enable Safe DLL search mode (recommended)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "MSS: (SafeDllSearchMode) Enable Safe DLL search mode (recommended)\n ",
-    "offsetUri": "/Config/ADMX_MSS-legacy/Pol_MSS_SafeDllSearchMode",
-    "id": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_safedllsearchmode",
+    "uxBehavior": "default",
+    "name": "ScreenSaverGracePeriod",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "value": 5,
+      "settingValueTemplateReference": null
+    },
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_safedllsearchmode_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "configurationServiceProviderVersion": "10.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2437,14 +2491,20 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0,
+      "maximumValue": 9999
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "settingUsage": "configuration",
+    "dependedOnBy": [],
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_MSS_ScreenSaverGracePeriod",
       "MSS: (ScreenSaverGracePeriod) The time in seconds before the screen saver grace period expires (0 recommended)",
@@ -2452,51 +2512,72 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\MSS (Legacy)",
       "MSS (Legacy)"
     ],
-    "infoUrls": [],
-    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7",
-    "dependedOnBy": [],
-    "referredSettingInformationList": [],
+    "displayName": "ScreenSaverGracePeriod (Device)",
+    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-mss-legacy#admx-mss-legacy-pol-mss-screensavergraceperiod"
+    ],
+    "offsetUri": "/Config/ADMX_MSS-legacy/Pol_MSS_ScreenSaverGracePeriod",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod",
-    "dependentOn": [
+    "description": "MSS: (ScreenSaverGracePeriod) The time in seconds before the screen saver grace period expires (0 recommended)\n ",
+    "options": [
       {
-        "parentSettingId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod",
-        "dependentOn": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_1"
+        "displayName": "Disabled",
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      },
+      {
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_screensavergraceperiod",
+            "required": true
+          }
+        ],
+        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "ScreenSaverGracePeriod",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "ScreenSaverGracePeriod (Device)",
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "value": 5
-    },
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "description": null,
-    "offsetUri": "/Config/ADMX_MSS-legacy/Pol_MSS_ScreenSaverGracePeriod",
-    "id": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_screensavergraceperiod",
+    "uxBehavior": "toggle",
+    "name": "Pol_MSS_ScreenSaverGracePeriod",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "valueDefinition": {
-      "maximumValue": 9999,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 0
-    },
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "configurationServiceProviderVersion": "10.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2508,14 +2589,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_MSS_ScreenSaverGracePeriod",
       "MSS: (ScreenSaverGracePeriod) The time in seconds before the screen saver grace period expires (0 recommended)",
@@ -2526,72 +2607,132 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Machine",
       "Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon"
     ],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-mss-legacy#admx-mss-legacy-pol-mss-screensavergraceperiod"
-    ],
-    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod",
+    "displayName": "MSS: (ScreenSaverGracePeriod) The time in seconds before the screen saver grace period expires (0 recommended)",
+    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [],
+    "offsetUri": "/Config/ADMX_MSS-legacy/Pol_MSS_WarningLevel",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel_90",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel",
+    "description": null,
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "displayName": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_1",
-        "dependedOnBy": [
+        "displayName": "50%",
+        "dependentOn": [
           {
-            "dependedOnBy": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_screensavergraceperiod",
-            "required": true
+            "dependentOn": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_1",
+            "parentSettingId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel"
           }
         ],
-        "description": null,
-        "name": "Enabled",
+        "name": "50%",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel_50",
         "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "50",
+          "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "dependentOn": []
+        "description": null,
+        "helpText": null
+      },
+      {
+        "displayName": "60%",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_1",
+            "parentSettingId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel"
+          }
+        ],
+        "name": "60%",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel_60",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "60",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      },
+      {
+        "displayName": "70%",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_1",
+            "parentSettingId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel"
+          }
+        ],
+        "name": "70%",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel_70",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "70",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      },
+      {
+        "displayName": "80%",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_1",
+            "parentSettingId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel"
+          }
+        ],
+        "name": "80%",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel_80",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "80",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      },
+      {
+        "displayName": "90%",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_1",
+            "parentSettingId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel"
+          }
+        ],
+        "name": "90%",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel_90",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "90",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Pol_MSS_ScreenSaverGracePeriod",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "MSS: (ScreenSaverGracePeriod) The time in seconds before the screen saver grace period expires (0 recommended)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "MSS: (ScreenSaverGracePeriod) The time in seconds before the screen saver grace period expires (0 recommended)\n ",
-    "offsetUri": "/Config/ADMX_MSS-legacy/Pol_MSS_ScreenSaverGracePeriod",
-    "id": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod",
+    "uxBehavior": "default",
+    "name": "WarningLevel",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_screensavergraceperiod_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "configurationServiceProviderVersion": "10.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2603,14 +2744,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_MSS_WarningLevel",
       "MSS: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning",
@@ -2618,132 +2759,72 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\MSS (Legacy)",
       "MSS (Legacy)"
     ],
-    "infoUrls": [],
-    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7",
-    "referredSettingInformationList": [],
+    "displayName": "WarningLevel (Device)",
+    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-mss-legacy#admx-mss-legacy-pol-mss-warninglevel"
+    ],
+    "offsetUri": "/Config/ADMX_MSS-legacy/Pol_MSS_WarningLevel",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel",
+    "description": "MSS: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning\n ",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel_50",
+        "displayName": "Disabled",
+        "dependentOn": [],
+        "name": "Disabled",
         "dependedOnBy": [],
-        "description": null,
-        "name": "50%",
+        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_0",
         "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "50"
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
         },
-        "displayName": "50%",
-        "dependentOn": [
-          {
-            "parentSettingId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel",
-            "dependentOn": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_1"
-          }
-        ]
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel_60",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "60%",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "60"
-        },
-        "displayName": "60%",
-        "dependentOn": [
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel",
-            "dependentOn": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_1"
+            "dependedOnBy": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel",
+            "required": true
           }
-        ]
-      },
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel_70",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "70%",
+        ],
+        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_1",
         "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "70"
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
         },
-        "displayName": "70%",
-        "dependentOn": [
-          {
-            "parentSettingId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel",
-            "dependentOn": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_1"
-          }
-        ]
-      },
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel_80",
-        "dependedOnBy": [],
         "description": null,
-        "name": "80%",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "80"
-        },
-        "displayName": "80%",
-        "dependentOn": [
-          {
-            "parentSettingId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel",
-            "dependentOn": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_1"
-          }
-        ]
-      },
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel_90",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "90%",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "90"
-        },
-        "displayName": "90%",
-        "dependentOn": [
-          {
-            "parentSettingId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel",
-            "dependentOn": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_1"
-          }
-        ]
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "WarningLevel",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "WarningLevel (Device)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": null,
-    "offsetUri": "/Config/ADMX_MSS-legacy/Pol_MSS_WarningLevel",
-    "id": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel",
+    "uxBehavior": "toggle",
+    "name": "Pol_MSS_WarningLevel",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel_90",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "configurationServiceProviderVersion": "10.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2755,14 +2836,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_MSS_WarningLevel",
       "MSS: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning",
@@ -2772,72 +2853,67 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Machine",
       "SYSTEM\\CurrentControlSet\\Services\\Eventlog\\Security"
     ],
+    "displayName": "MSS: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning",
+    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_admx_dnsclient_turn_off_multicast",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-mss-legacy#admx-mss-legacy-pol-mss-warninglevel"
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-dnsclient#admx-dnsclient-turn-off-multicast"
     ],
-    "categoryId": "e00ff1f8-a2d1-4d3b-bb07-f58b38b8d5d7",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel",
+    "offsetUri": "/Config/ADMX_DnsClient/Turn_Off_Multicast",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_dnsclient_turn_off_multicast_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_dnsclient_turn_off_multicast",
+    "description": "Specifies that link local multicast name resolution (LLMNR) is disabled on client computers.\r\n\r\nLLMNR is a secondary name resolution protocol. With LLMNR, queries are sent using multicast over a local network link on a single subnet from a client computer to another client computer on the same subnet that also has LLMNR enabled. LLMNR does not require a DNS server or DNS client configuration, and provides name resolution in scenarios in which conventional DNS name resolution is not possible.\r\n\r\nIf you enable this policy setting, LLMNR will be disabled on all available network adapters on the client computer.\r\n\r\nIf you disable this policy setting, or you do not configure this policy setting, LLMNR will be enabled on all available network adapters.\n ",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_dnsclient_turn_off_multicast_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_1",
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_warninglevel",
-            "required": true
-          }
-        ],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "Enabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_dnsclient_turn_off_multicast_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Pol_MSS_WarningLevel",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "MSS: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "MSS: (WarningLevel) Percentage threshold for the security event log at which the system will generate a warning\n ",
-    "offsetUri": "/Config/ADMX_MSS-legacy/Pol_MSS_WarningLevel",
-    "id": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel",
+    "uxBehavior": "toggle",
+    "name": "Turn_Off_Multicast",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_mss-legacy_pol_mss_warninglevel_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "configurationServiceProviderVersion": "10.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2849,14 +2925,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Turn_Off_Multicast",
       "Turn off multicast name resolution",
@@ -2867,67 +2943,153 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Software\\Policies\\Microsoft\\Windows NT\\DNSClient",
       "EnableMulticast"
     ],
+    "displayName": "Turn off multicast name resolution",
+    "categoryId": "bd8dacbf-ab7b-4a93-8294-7db61b9d49b4"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_connectivity_prohibitinstallationandconfigurationofnetworkbridge",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-dnsclient#admx-dnsclient-turn-off-multicast"
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-connectivity#connectivity-prohibitinstallationandconfigurationofnetworkbridge"
     ],
-    "categoryId": "bd8dacbf-ab7b-4a93-8294-7db61b9d49b4",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_dnsclient_turn_off_multicast",
+    "offsetUri": "/Config/Connectivity/ProhibitInstallationAndConfigurationOfNetworkBridge",
+    "defaultOptionId": "device_vendor_msft_policy_config_connectivity_prohibitinstallationandconfigurationofnetworkbridge_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_prohibitinstallationandconfigurationofnetworkbridge",
+    "description": "Determines whether a user can install and configure the Network Bridge.\r\n\r\nImportant: This settings is location aware. It only applies when a computer is connected to the same DNS domain network it was connected to when the setting was refreshed on that computer. If a computer is connected to a DNS domain network other than the one it was connected to when the setting was refreshed, this setting does not apply.\r\n\r\nThe Network Bridge allows users to create a layer 2 MAC bridge, enabling them to connect two or more network segements together. This connection appears in the Network Connections folder.\r\n\r\nIf you disable this setting or do not configure it, the user will be able to create and modify the configuration of a Network Bridge. Enabling this setting does not remove an existing Network Bridge from the user's computer.",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_dnsclient_turn_off_multicast_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_connectivity_prohibitinstallationandconfigurationofnetworkbridge_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_dnsclient_turn_off_multicast_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "Enabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_connectivity_prohibitinstallationandconfigurationofnetworkbridge_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Turn_Off_Multicast",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Turn off multicast name resolution",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
     "uxBehavior": "toggle",
+    "name": "NC_AllowNetBridge_NLA",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639141423527581363",
+    "applicability": {
+      "technologies": "mdm",
+      "deviceMode": "none",
+      "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.16299",
+      "configurationServiceProviderVersion": "6.0",
+      "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "platform": "windows10",
+      "maximumSupportedVersion": null
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "NC_AllowNetBridge_NLA",
+      "Prohibit installation and configuration of Network Bridge on your DNS domain network",
+      "\\Network\\Network Connections",
+      "Administrative Templates\\Network\\Network Connections",
+      "Network Connections"
+    ],
+    "displayName": "Prohibit installation and configuration of Network Bridge on your DNS domain network",
+    "categoryId": "76c8131a-62fe-4134-aeac-d999f01911ed"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_admx_networkconnections_nc_showsharedaccessui",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-networkconnections#admx-networkconnections-nc-showsharedaccessui"
+    ],
+    "offsetUri": "/Config/ADMX_NetworkConnections/NC_ShowSharedAccessUI",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_networkconnections_nc_showsharedaccessui_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_networkconnections_nc_showsharedaccessui",
+    "description": "Determines whether administrators can enable and configure the Internet Connection Sharing (ICS) feature of an Internet connection and if the ICS service can run on the computer.\r\n\r\nICS lets administrators configure their system as an Internet gateway for a small network and provides network services, such as name resolution and addressing through DHCP, to the local private network.\r\n\r\nIf you enable this setting, ICS cannot be enabled or configured by administrators, and the ICS service cannot run on the computer. The Advanced tab in the Properties dialog box for a LAN or remote access connection is removed. The Internet Connection Sharing page is removed from the New Connection Wizard. The Network Setup Wizard is disabled.\r\n\r\nIf you disable this setting or do not configure it and have two or more connections, administrators can enable ICS. The Advanced tab in the properties dialog box for a LAN or remote access connection is available. In addition, the user is presented with the option to enable Internet Connection Sharing in the Network Setup Wizard and Make New Connection Wizard. (The Network Setup Wizard is available only in Windows XP Professional.)\r\n\r\nBy default, ICS is disabled when you create a remote access connection, but administrators can use the Advanced tab to enable it. When running the New Connection Wizard or Network Setup Wizard, administrators can choose to enable ICS.\r\n\r\nNote: Internet Connection Sharing is only available when two or more network connections are present.\r\n\r\nNote: When the \"Prohibit access to properties of a LAN connection,\" \"Ability to change properties of an all user remote access connection,\" or \"Prohibit changing properties of a private remote access connection\" settings are set to deny access to the Connection Properties dialog box, the Advanced tab for the connection is blocked.\r\n\r\nNote: Nonadministrators are already prohibited from configuring Internet Connection Sharing, regardless of this setting.\r\n\r\nNote: Disabling this setting does not prevent Wireless Hosted Networking from using the ICS service for DHCP services. To prevent the ICS service from running, on the Network Permissions tab in the network's policy properties, select the \"Don't use hosted networks\" check box.\r\n ",
+    "options": [
+      {
+        "displayName": "Disabled",
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_networkconnections_nc_showsharedaccessui_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      },
+      {
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_networkconnections_nc_showsharedaccessui_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      }
+    ],
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Specifies that link local multicast name resolution (LLMNR) is disabled on client computers.\r\n\r\nLLMNR is a secondary name resolution protocol. With LLMNR, queries are sent using multicast over a local network link on a single subnet from a client computer to another client computer on the same subnet that also has LLMNR enabled. LLMNR does not require a DNS server or DNS client configuration, and provides name resolution in scenarios in which conventional DNS name resolution is not possible.\r\n\r\nIf you enable this policy setting, LLMNR will be disabled on all available network adapters on the client computer.\r\n\r\nIf you disable this policy setting, or you do not configure this policy setting, LLMNR will be enabled on all available network adapters.\n ",
-    "offsetUri": "/Config/ADMX_DnsClient/Turn_Off_Multicast",
-    "id": "device_vendor_msft_policy_config_admx_dnsclient_turn_off_multicast",
+    "uxBehavior": "toggle",
+    "name": "NC_ShowSharedAccessUI",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_dnsclient_turn_off_multicast_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "configurationServiceProviderVersion": "10.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2939,100 +3101,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null
-    }
-  },
-  {
-    "keywords": [
-      "NC_AllowNetBridge_NLA",
-      "Prohibit installation and configuration of Network Bridge on your DNS domain network",
-      "\\Network\\Network Connections",
-      "Administrative Templates\\Network\\Network Connections",
-      "Network Connections"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-connectivity#connectivity-prohibitinstallationandconfigurationofnetworkbridge"
-    ],
-    "categoryId": "76c8131a-62fe-4134-aeac-d999f01911ed",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_prohibitinstallationandconfigurationofnetworkbridge",
-    "options": [
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_connectivity_prohibitinstallationandconfigurationofnetworkbridge_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "displayName": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_connectivity_prohibitinstallationandconfigurationofnetworkbridge_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "displayName": "Enabled",
-        "dependentOn": []
-      }
-    ],
-    "settingUsage": "configuration",
-    "name": "NC_AllowNetBridge_NLA",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Prohibit installation and configuration of Network Bridge on your DNS domain network",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Determines whether a user can install and configure the Network Bridge.\r\n\r\nImportant: This settings is location aware. It only applies when a computer is connected to the same DNS domain network it was connected to when the setting was refreshed on that computer. If a computer is connected to a DNS domain network other than the one it was connected to when the setting was refreshed, this setting does not apply.\r\n\r\nThe Network Bridge allows users to create a layer 2 MAC bridge, enabling them to connect two or more network segements together. This connection appears in the Network Connections folder.\r\n\r\nIf you disable this setting or do not configure it, the user will be able to create and modify the configuration of a Network Bridge. Enabling this setting does not remove an existing Network Bridge from the user's computer.",
-    "offsetUri": "/Config/Connectivity/ProhibitInstallationAndConfigurationOfNetworkBridge",
-    "id": "device_vendor_msft_policy_config_connectivity_prohibitinstallationandconfigurationofnetworkbridge",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultOptionId": "device_vendor_msft_policy_config_connectivity_prohibitinstallationandconfigurationofnetworkbridge_0",
-    "applicability": {
-      "requiresAzureAd": false,
       "platform": "windows10",
-      "technologies": "mdm",
-      "description": null,
-      "requiredAzureAdTrustType": "none",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "minimumSupportedVersion": "10.0.16299",
-      "configurationServiceProviderVersion": "6.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "NC_ShowSharedAccessUI",
       "Prohibit use of Internet Connection Sharing on your DNS domain network",
@@ -3042,67 +3118,67 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Machine",
       "Software\\Policies\\Microsoft\\Windows\\Network Connections"
     ],
+    "displayName": "Prohibit use of Internet Connection Sharing on your DNS domain network",
+    "categoryId": "76c8131a-62fe-4134-aeac-d999f01911ed"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_admx_networkconnections_nc_stddomainusersetlocation",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-networkconnections#admx-networkconnections-nc-showsharedaccessui"
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-networkconnections#admx-networkconnections-nc-stddomainusersetlocation"
     ],
-    "categoryId": "76c8131a-62fe-4134-aeac-d999f01911ed",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_networkconnections_nc_showsharedaccessui",
+    "offsetUri": "/Config/ADMX_NetworkConnections/NC_StdDomainUserSetLocation",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_networkconnections_nc_stddomainusersetlocation_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_networkconnections_nc_stddomainusersetlocation",
+    "description": "This policy setting determines whether to require domain users to elevate when setting a network's location.\r\n\r\nIf you enable this policy setting, domain users must elevate when setting a network's location.\r\n\r\nIf you disable or do not configure this policy setting, domain users can set a network's location without elevating.\r\n ",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_networkconnections_nc_showsharedaccessui_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_networkconnections_nc_stddomainusersetlocation_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_networkconnections_nc_showsharedaccessui_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "Enabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_networkconnections_nc_stddomainusersetlocation_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "NC_ShowSharedAccessUI",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Prohibit use of Internet Connection Sharing on your DNS domain network",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Determines whether administrators can enable and configure the Internet Connection Sharing (ICS) feature of an Internet connection and if the ICS service can run on the computer.\r\n\r\nICS lets administrators configure their system as an Internet gateway for a small network and provides network services, such as name resolution and addressing through DHCP, to the local private network.\r\n\r\nIf you enable this setting, ICS cannot be enabled or configured by administrators, and the ICS service cannot run on the computer. The Advanced tab in the Properties dialog box for a LAN or remote access connection is removed. The Internet Connection Sharing page is removed from the New Connection Wizard. The Network Setup Wizard is disabled.\r\n\r\nIf you disable this setting or do not configure it and have two or more connections, administrators can enable ICS. The Advanced tab in the properties dialog box for a LAN or remote access connection is available. In addition, the user is presented with the option to enable Internet Connection Sharing in the Network Setup Wizard and Make New Connection Wizard. (The Network Setup Wizard is available only in Windows XP Professional.)\r\n\r\nBy default, ICS is disabled when you create a remote access connection, but administrators can use the Advanced tab to enable it. When running the New Connection Wizard or Network Setup Wizard, administrators can choose to enable ICS.\r\n\r\nNote: Internet Connection Sharing is only available when two or more network connections are present.\r\n\r\nNote: When the \"Prohibit access to properties of a LAN connection,\" \"Ability to change properties of an all user remote access connection,\" or \"Prohibit changing properties of a private remote access connection\" settings are set to deny access to the Connection Properties dialog box, the Advanced tab for the connection is blocked.\r\n\r\nNote: Nonadministrators are already prohibited from configuring Internet Connection Sharing, regardless of this setting.\r\n\r\nNote: Disabling this setting does not prevent Wireless Hosted Networking from using the ICS service for DHCP services. To prevent the ICS service from running, on the Network Permissions tab in the network's policy properties, select the \"Don't use hosted networks\" check box.\r\n ",
-    "offsetUri": "/Config/ADMX_NetworkConnections/NC_ShowSharedAccessUI",
-    "id": "device_vendor_msft_policy_config_admx_networkconnections_nc_showsharedaccessui",
+    "uxBehavior": "toggle",
+    "name": "NC_StdDomainUserSetLocation",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_networkconnections_nc_showsharedaccessui_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "configurationServiceProviderVersion": "10.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3114,14 +3190,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "NC_StdDomainUserSetLocation",
       "Require domain users to elevate when setting a network's location",
@@ -3131,209 +3207,41 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Machine",
       "Software\\Policies\\Microsoft\\Windows\\Network Connections"
     ],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-networkconnections#admx-networkconnections-nc-stddomainusersetlocation"
-    ],
-    "categoryId": "76c8131a-62fe-4134-aeac-d999f01911ed",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_networkconnections_nc_stddomainusersetlocation",
-    "options": [
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_networkconnections_nc_stddomainusersetlocation_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "displayName": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_networkconnections_nc_stddomainusersetlocation_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "displayName": "Enabled",
-        "dependentOn": []
-      }
-    ],
-    "settingUsage": "configuration",
-    "name": "NC_StdDomainUserSetLocation",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
     "displayName": "Require domain users to elevate when setting a network's location",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "accessTypes": "none",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This policy setting determines whether to require domain users to elevate when setting a network's location.\r\n\r\nIf you enable this policy setting, domain users must elevate when setting a network's location.\r\n\r\nIf you disable or do not configure this policy setting, domain users can set a network's location without elevating.\r\n ",
-    "offsetUri": "/Config/ADMX_NetworkConnections/NC_StdDomainUserSetLocation",
-    "id": "device_vendor_msft_policy_config_admx_networkconnections_nc_stddomainusersetlocation",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_networkconnections_nc_stddomainusersetlocation_0",
-    "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "technologies": "mdm",
-      "description": null,
-      "requiredAzureAdTrustType": "none",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null
-    }
+    "categoryId": "76c8131a-62fe-4134-aeac-d999f01911ed"
   },
   {
-    "keywords": [
-      "Pol_HardenedPaths",
-      "Hardened UNC Paths",
-      "\\Network\\Network Provider",
-      "Administrative Templates\\Network\\Network Provider",
-      "Network Provider"
-    ],
-    "infoUrls": [],
-    "categoryId": "4ad00da1-5ed6-47d8-aef3-70f5bcbbbc77",
-    "dependedOnBy": [],
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
-    "dependentOn": [
-      {
-        "parentSettingId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
-        "dependentOn": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths"
-      }
-    ],
-    "settingUsage": "configuration",
-    "name": "Pol_HardenedPaths",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Value",
-    "defaultValue": null,
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
     "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_value",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "valueDefinition": {
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "isSecret": false,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "fileTypes": [],
-      "format": "none",
-      "maximumLength": 0
-    },
-    "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "technologies": "mdm",
-      "description": null,
-      "requiredAzureAdTrustType": "none",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null
-    }
-  },
-  {
-    "keywords": [
-      "Pol_HardenedPaths",
-      "Hardened UNC Paths",
-      "\\Network\\Network Provider",
-      "Administrative Templates\\Network\\Network Provider",
-      "Network Provider"
-    ],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "4ad00da1-5ed6-47d8-aef3-70f5bcbbbc77",
-    "dependedOnBy": [],
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
     "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
+    "description": "",
     "dependentOn": [
       {
-        "parentSettingId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
-        "dependentOn": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths"
+        "dependentOn": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
+        "parentSettingId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths"
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Pol_HardenedPaths",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Name",
-    "defaultValue": null,
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
-    "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key",
+    "uxBehavior": "default",
+    "name": "Pol_HardenedPaths",
+    "defaultValue": null,
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "valueDefinition": {
-      "inputValidationSchema": null,
-      "minimumLength": 0,
-      "isSecret": false,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "fileTypes": [],
-      "format": "none",
-      "maximumLength": 0
-    },
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.15063",
+      "configurationServiceProviderVersion": "5.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3345,14 +3253,24 @@ If you disable or do not configure this policy setting, the default behavior is 
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "valueDefinition": {
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+      "inputValidationSchema": null,
+      "format": "none",
+      "minimumLength": 0,
+      "maximumLength": 0,
+      "fileTypes": []
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "settingUsage": "configuration",
+    "dependedOnBy": [],
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_HardenedPaths",
       "Hardened UNC Paths",
@@ -3360,72 +3278,143 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Network\\Network Provider",
       "Network Provider"
     ],
+    "displayName": "Value",
+    "categoryId": "4ad00da1-5ed6-47d8-aef3-70f5bcbbbc77"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [],
+    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
+    "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
+    "description": "",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
+        "parentSettingId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths"
+      }
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "uxBehavior": "default",
+    "name": "Pol_HardenedPaths",
+    "defaultValue": null,
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639141423527581363",
+    "applicability": {
+      "technologies": "mdm",
+      "deviceMode": "none",
+      "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.15063",
+      "configurationServiceProviderVersion": "5.0",
+      "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "platform": "windows10",
+      "maximumSupportedVersion": null
+    },
+    "valueDefinition": {
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+      "inputValidationSchema": null,
+      "format": "none",
+      "minimumLength": 0,
+      "maximumLength": 0,
+      "fileTypes": []
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "settingUsage": "configuration",
+    "dependedOnBy": [],
+    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "Pol_HardenedPaths",
+      "Hardened UNC Paths",
+      "\\Network\\Network Provider",
+      "Administrative Templates\\Network\\Network Provider",
+      "Network Provider"
+    ],
+    "displayName": "Name",
+    "categoryId": "4ad00da1-5ed6-47d8-aef3-70f5bcbbbc77"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-hardeneduncpaths"
     ],
-    "categoryId": "4ad00da1-5ed6-47d8-aef3-70f5bcbbbc77",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
+    "defaultOptionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
+    "description": "This policy setting configures secure access to UNC paths.\r\n\r\nIf you enable this policy, Windows only allows access to the specified UNC paths after fulfilling additional security requirements.\r\n",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_1",
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
             "required": true
           }
         ],
-        "description": null,
-        "name": "Enabled",
+        "itemId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_1",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
+          "value": 1,
+          "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "dependentOn": []
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "Pol_HardenedPaths",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Hardened UNC Paths",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This policy setting configures secure access to UNC paths.\r\n\r\nIf you enable this policy, Windows only allows access to the specified UNC paths after fulfilling additional security requirements.\r\n",
-    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
-    "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
+    "uxBehavior": "toggle",
+    "name": "Pol_HardenedPaths",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.15063",
+      "configurationServiceProviderVersion": "5.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3437,14 +3426,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Pol_HardenedPaths",
       "Hardened UNC Paths",
@@ -3452,25 +3441,60 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Network\\Network Provider",
       "Network Provider"
     ],
-    "infoUrls": [],
-    "childIds": [
-      "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key",
-      "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_value"
-    ],
-    "categoryId": "4ad00da1-5ed6-47d8-aef3-70f5bcbbbc77",
+    "displayName": "Hardened UNC Paths",
+    "categoryId": "4ad00da1-5ed6-47d8-aef3-70f5bcbbbc77"
+  },
+  {
     "minimumCount": 1,
-    "referredSettingInformationList": [],
+    "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [],
+    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
     "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
+    "description": "",
     "dependentOn": [
       {
-        "parentSettingId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
-        "dependentOn": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_1"
+        "dependentOn": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_1",
+        "parentSettingId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths"
       }
     ],
-    "settingUsage": "configuration",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "uxBehavior": "default",
     "name": "Pol_HardenedPaths",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Hardened UNC Paths: (Device)",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639141423527581363",
+    "applicability": {
+      "technologies": "mdm",
+      "deviceMode": "none",
+      "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.15063",
+      "configurationServiceProviderVersion": "5.0",
+      "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "platform": "windows10",
+      "maximumSupportedVersion": null
+    },
+    "maximumCount": 600,
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
+    "settingUsage": "configuration",
     "dependedOnBy": [
       {
         "dependedOnBy": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key",
@@ -3481,160 +3505,125 @@ If you disable or do not configure this policy setting, the default behavior is 
         "required": true
       }
     ],
-    "version": "639141423527581363",
-    "riskLevel": "low",
     "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
-    "description": "",
-    "offsetUri": "/Config/Connectivity/HardenedUNCPaths",
-    "maximumCount": 600,
-    "id": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "technologies": "mdm",
-      "description": null,
-      "requiredAzureAdTrustType": "none",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null
-    }
+    "childIds": [
+      "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key",
+      "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_value"
+    ],
+    "keywords": [
+      "Pol_HardenedPaths",
+      "Hardened UNC Paths",
+      "\\Network\\Network Provider",
+      "Administrative Templates\\Network\\Network Provider",
+      "Network Provider"
+    ],
+    "displayName": "Hardened UNC Paths: (Device)",
+    "categoryId": "4ad00da1-5ed6-47d8-aef3-70f5bcbbbc77"
   },
   {
-    "keywords": [
-      "WCM_MinimizeConnections",
-      "Minimize the number of simultaneous connections to the Internet or a Windows Domain",
-      "\\Network\\Windows Connection Manager",
-      "Administrative Templates\\Network\\Windows Connection Manager",
-      "Windows Connection Manager"
-    ],
+    "id": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "618e0144-c57c-45e1-8b55-94dd3d9fec33",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/ADMX_WCM/WCM_MinimizeConnections",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options_2",
     "rootDefinitionId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections",
+    "description": null,
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "0 = Allow simultaneous connections",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "0"
-        },
         "displayName": "0 = Allow simultaneous connections",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections",
-            "dependentOn": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_1"
+            "dependentOn": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_1",
+            "parentSettingId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections"
           }
-        ]
+        ],
+        "name": "0 = Allow simultaneous connections",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "1 = Minimize simultaneous connections",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "1"
-        },
         "displayName": "1 = Minimize simultaneous connections",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections",
-            "dependentOn": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_1"
+            "dependentOn": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_1",
+            "parentSettingId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections"
           }
-        ]
+        ],
+        "name": "1 = Minimize simultaneous connections",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "1",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options_2",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "2 = Stay connected to cellular",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "2"
-        },
         "displayName": "2 = Stay connected to cellular",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections",
-            "dependentOn": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_1"
+            "dependentOn": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_1",
+            "parentSettingId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections"
           }
-        ]
+        ],
+        "name": "2 = Stay connected to cellular",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options_2",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "2",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options_3",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "3 = Prevent Wi-Fi when on Ethernet",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "3"
-        },
         "displayName": "3 = Prevent Wi-Fi when on Ethernet",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections",
-            "dependentOn": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_1"
+            "dependentOn": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_1",
+            "parentSettingId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections"
           }
-        ]
+        ],
+        "name": "3 = Prevent Wi-Fi when on Ethernet",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options_3",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "3",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "WCM_MinimizeConnections_Options",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Minimize Policy Options (Device)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": null,
-    "offsetUri": "/Config/ADMX_WCM/WCM_MinimizeConnections",
-    "id": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options",
+    "uxBehavior": "default",
+    "name": "WCM_MinimizeConnections_Options",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options_2",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "configurationServiceProviderVersion": "10.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3646,14 +3635,106 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "WCM_MinimizeConnections",
+      "Minimize the number of simultaneous connections to the Internet or a Windows Domain",
+      "\\Network\\Windows Connection Manager",
+      "Administrative Templates\\Network\\Windows Connection Manager",
+      "Windows Connection Manager"
+    ],
+    "displayName": "Minimize Policy Options (Device)",
+    "categoryId": "618e0144-c57c-45e1-8b55-94dd3d9fec33"
   },
   {
+    "id": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-wcm#admx-wcm-wcm-minimizeconnections"
+    ],
+    "offsetUri": "/Config/ADMX_WCM/WCM_MinimizeConnections",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections",
+    "description": "\r\n        This policy setting determines if a computer can have multiple connections to the internet or to a Windows domain. If multiple connections are allowed, it then determines how network traffic will be routed.\r\n\r\n        If this policy setting is set to 0, a computer can have simultaneous connections to the internet, to a Windows domain, or to both. Internet traffic can be routed over any connection - including a cellular connection and any metered network. This was previously the Disabled state for this policy setting. This option was first available in Windows 8.\r\n\r\n        If this policy setting is set to 1, any new automatic internet connection is blocked when the computer has at least one active internet connection to a preferred type of network. Here's the order of preference (from most preferred to least preferred): Ethernet, WLAN, then cellular. Ethernet is always preferred when connected. Users can still manually connect to any network. This was previously the Enabled state for this policy setting. This option was first available in Windows 8.\r\n\r\n        If this policy setting is set to 2, the behavior is similar to 1. However, if a cellular data connection is available, it will always stay connected for services that require a cellular connection. When the user is connected to a WLAN or Ethernet connection, no internet traffic will be routed over the cellular connection. This option was first available in Windows 10 (Version 1703).\r\n\r\n        If this policy setting is set to 3, the behavior is similar to 2. However, if there's an Ethernet connection, Windows won't allow users to connect to a WLAN manually. A WLAN can only be connected (automatically or manually) when there's no Ethernet connection.\r\n\r\n        This policy setting is related to the \"Enable Windows to soft-disconnect a computer from a network\" policy setting.\r\n      \r\n ",
+    "options": [
+      {
+        "displayName": "Disabled",
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      },
+      {
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options",
+            "required": true
+          }
+        ],
+        "itemId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      }
+    ],
+    "accessTypes": "none",
+    "helpText": "",
+    "uxBehavior": "toggle",
+    "name": "WCM_MinimizeConnections",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639141423527581363",
+    "applicability": {
+      "technologies": "mdm",
+      "deviceMode": "none",
+      "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "configurationServiceProviderVersion": "10.0",
+      "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "platform": "windows10",
+      "maximumSupportedVersion": null
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "WCM_MinimizeConnections",
       "Minimize the number of simultaneous connections to the Internet or a Windows Domain",
@@ -3663,72 +3744,153 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Machine",
       "Software\\Policies\\Microsoft\\Windows\\WcmSvc\\GroupPolicy"
     ],
+    "displayName": "Minimize the number of simultaneous connections to the Internet or a Windows Domain",
+    "categoryId": "618e0144-c57c-45e1-8b55-94dd3d9fec33"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-wcm#admx-wcm-wcm-minimizeconnections"
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsconnectionmanager#windowsconnectionmanager-prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork"
     ],
-    "categoryId": "618e0144-c57c-45e1-8b55-94dd3d9fec33",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections",
+    "offsetUri": "/Config/WindowsConnectionManager/ProhitConnectionToNonDomainNetworksWhenConnectedToDomainAuthenticatedNetwork",
+    "defaultOptionId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork",
+    "description": "This policy setting prevents computers from connecting to both a domain based network and a non-domain based network at the same time.\r\n\r\nIf this policy setting is enabled, the computer responds to automatic and manual network connection attempts based on the following circumstances:\r\n\r\nAutomatic connection attempts\r\n- When the computer is already connected to a domain based network, all automatic connection attempts to non-domain networks are blocked.\r\n- When the computer is already connected to a non-domain based network, automatic connection attempts to domain based networks are blocked.\r\n\r\nManual connection attempts\r\n- When the computer is already connected to either a non-domain based network or a domain based network over media other than Ethernet, and a user attempts to create a manual connection to an additional network in violation of this policy setting, the existing network connection is disconnected and the manual connection is allowed.\r\n- When the computer is already connected to either a non-domain based network or a domain based network over Ethernet, and a user attempts to create a manual connection to an additional network in violation of this policy setting, the existing Ethernet connection is maintained and the manual connection attempt is blocked.\r\n\r\nIf this policy setting is not configured or is disabled, computers are allowed to connect simultaneously to both domain and non-domain networks.\r\n      ",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_1",
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options",
-            "required": true
-          }
-        ],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "Enabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "WCM_MinimizeConnections",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Minimize the number of simultaneous connections to the Internet or a Windows Domain",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
     "uxBehavior": "toggle",
+    "name": "WCM_BlockNonDomain",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639141423527581363",
+    "applicability": {
+      "technologies": "mdm",
+      "deviceMode": "none",
+      "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.17134",
+      "configurationServiceProviderVersion": "7.0",
+      "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "platform": "windows10",
+      "maximumSupportedVersion": null
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "WCM_BlockNonDomain",
+      "Prohibit connection to non-domain networks when connected to domain authenticated network",
+      "\\Network\\Windows Connection Manager",
+      "Administrative Templates\\Network\\Windows Connection Manager",
+      "Windows Connection Manager"
+    ],
+    "displayName": "Prohibit connection to non-domain networks when connected to domain authenticated network",
+    "categoryId": "618e0144-c57c-45e1-8b55-94dd3d9fec33"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_admx_printing2_registerspoolerremoterpcendpoint",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-printing2#admx-printing2-registerspoolerremoterpcendpoint"
+    ],
+    "offsetUri": "/Config/ADMX_Printing2/RegisterSpoolerRemoteRpcEndPoint",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_printing2_registerspoolerremoterpcendpoint_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_printing2_registerspoolerremoterpcendpoint",
+    "description": "This policy controls whether the print spooler will accept client connections.\r\n\r\nWhen the policy is unconfigured or enabled, the spooler will always accept client connections.\r\n\r\nWhen the policy is disabled, the spooler will not accept client connections nor allow users to share printers.  All printers currently shared will continue to be shared.\r\n\r\nThe spooler must be restarted for changes to this policy to take effect.\r\n ",
+    "options": [
+      {
+        "displayName": "Disabled",
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_printing2_registerspoolerremoterpcendpoint_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      },
+      {
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_admx_printing2_registerspoolerremoterpcendpoint_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      }
+    ],
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "\r\n        This policy setting determines if a computer can have multiple connections to the internet or to a Windows domain. If multiple connections are allowed, it then determines how network traffic will be routed.\r\n\r\n        If this policy setting is set to 0, a computer can have simultaneous connections to the internet, to a Windows domain, or to both. Internet traffic can be routed over any connection - including a cellular connection and any metered network. This was previously the Disabled state for this policy setting. This option was first available in Windows 8.\r\n\r\n        If this policy setting is set to 1, any new automatic internet connection is blocked when the computer has at least one active internet connection to a preferred type of network. Here's the order of preference (from most preferred to least preferred): Ethernet, WLAN, then cellular. Ethernet is always preferred when connected. Users can still manually connect to any network. This was previously the Enabled state for this policy setting. This option was first available in Windows 8.\r\n\r\n        If this policy setting is set to 2, the behavior is similar to 1. However, if a cellular data connection is available, it will always stay connected for services that require a cellular connection. When the user is connected to a WLAN or Ethernet connection, no internet traffic will be routed over the cellular connection. This option was first available in Windows 10 (Version 1703).\r\n\r\n        If this policy setting is set to 3, the behavior is similar to 2. However, if there's an Ethernet connection, Windows won't allow users to connect to a WLAN manually. A WLAN can only be connected (automatically or manually) when there's no Ethernet connection.\r\n\r\n        This policy setting is related to the \"Enable Windows to soft-disconnect a computer from a network\" policy setting.\r\n      \r\n ",
-    "offsetUri": "/Config/ADMX_WCM/WCM_MinimizeConnections",
-    "id": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections",
+    "uxBehavior": "toggle",
+    "name": "RegisterSpoolerRemoteRpcEndPoint",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "configurationServiceProviderVersion": "10.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3740,100 +3902,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null
-    }
-  },
-  {
-    "keywords": [
-      "WCM_BlockNonDomain",
-      "Prohibit connection to non-domain networks when connected to domain authenticated network",
-      "\\Network\\Windows Connection Manager",
-      "Administrative Templates\\Network\\Windows Connection Manager",
-      "Windows Connection Manager"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowsconnectionmanager#windowsconnectionmanager-prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork"
-    ],
-    "categoryId": "618e0144-c57c-45e1-8b55-94dd3d9fec33",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork",
-    "options": [
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "displayName": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "displayName": "Enabled",
-        "dependentOn": []
-      }
-    ],
-    "settingUsage": "configuration",
-    "name": "WCM_BlockNonDomain",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Prohibit connection to non-domain networks when connected to domain authenticated network",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This policy setting prevents computers from connecting to both a domain based network and a non-domain based network at the same time.\r\n\r\nIf this policy setting is enabled, the computer responds to automatic and manual network connection attempts based on the following circumstances:\r\n\r\nAutomatic connection attempts\r\n- When the computer is already connected to a domain based network, all automatic connection attempts to non-domain networks are blocked.\r\n- When the computer is already connected to a non-domain based network, automatic connection attempts to domain based networks are blocked.\r\n\r\nManual connection attempts\r\n- When the computer is already connected to either a non-domain based network or a domain based network over media other than Ethernet, and a user attempts to create a manual connection to an additional network in violation of this policy setting, the existing network connection is disconnected and the manual connection is allowed.\r\n- When the computer is already connected to either a non-domain based network or a domain based network over Ethernet, and a user attempts to create a manual connection to an additional network in violation of this policy setting, the existing Ethernet connection is maintained and the manual connection attempt is blocked.\r\n\r\nIf this policy setting is not configured or is disabled, computers are allowed to connect simultaneously to both domain and non-domain networks.\r\n      ",
-    "offsetUri": "/Config/WindowsConnectionManager/ProhitConnectionToNonDomainNetworksWhenConnectedToDomainAuthenticatedNetwork",
-    "id": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultOptionId": "device_vendor_msft_policy_config_windowsconnectionmanager_prohitconnectiontonondomainnetworkswhenconnectedtodomainauthenticatednetwork_0",
-    "applicability": {
-      "requiresAzureAd": false,
       "platform": "windows10",
-      "technologies": "mdm",
-      "description": null,
-      "requiredAzureAdTrustType": "none",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "minimumSupportedVersion": "10.0.17134",
-      "configurationServiceProviderVersion": "7.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "RegisterSpoolerRemoteRpcEndPoint",
       "Allow Print Spooler to accept client connections",
@@ -3843,181 +3919,94 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Machine",
       "Software\\Policies\\Microsoft\\Windows NT\\Printers"
     ],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-printing2#admx-printing2-registerspoolerremoterpcendpoint"
-    ],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_printing2_registerspoolerremoterpcendpoint",
-    "options": [
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_printing2_registerspoolerremoterpcendpoint_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "displayName": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_admx_printing2_registerspoolerremoterpcendpoint_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "displayName": "Enabled",
-        "dependentOn": []
-      }
-    ],
-    "settingUsage": "configuration",
-    "name": "RegisterSpoolerRemoteRpcEndPoint",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
     "displayName": "Allow Print Spooler to accept client connections",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "accessTypes": "none",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This policy controls whether the print spooler will accept client connections.\r\n\r\nWhen the policy is unconfigured or enabled, the spooler will always accept client connections.\r\n\r\nWhen the policy is disabled, the spooler will not accept client connections nor allow users to share printers.  All printers currently shared will continue to be shared.\r\n\r\nThe spooler must be restarted for changes to this policy to take effect.\r\n ",
-    "offsetUri": "/Config/ADMX_Printing2/RegisterSpoolerRemoteRpcEndPoint",
-    "id": "device_vendor_msft_policy_config_admx_printing2_registerspoolerremoterpcendpoint",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_printing2_registerspoolerremoterpcendpoint_0",
-    "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "technologies": "mdm",
-      "description": null,
-      "requiredAzureAdTrustType": "none",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null
-    }
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
   },
   {
-    "keywords": [
-      "ConfigureRedirectionGuardPolicy",
-      "Configure Redirection Guard",
-      "\\Printers",
-      "Administrative Templates\\Printers",
-      "Printers"
-    ],
+    "id": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_redirectionguardpolicy_enum",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/ConfigureRedirectionGuardPolicy",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_redirectionguardpolicy_enum_1",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy",
+    "description": "",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_redirectionguardpolicy_enum_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Redirection Guard Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "0"
-        },
         "displayName": "Redirection Guard Disabled",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy"
           }
-        ]
+        ],
+        "name": "Redirection Guard Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_redirectionguardpolicy_enum_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_redirectionguardpolicy_enum_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Redirection Guard Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "1"
-        },
         "displayName": "Redirection Guard Enabled",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy"
           }
-        ]
+        ],
+        "name": "Redirection Guard Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_redirectionguardpolicy_enum_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "1",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_redirectionguardpolicy_enum_2",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Redirection Guard Audit Only",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "2"
-        },
         "displayName": "Redirection Guard Audit Only",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy"
           }
-        ]
+        ],
+        "name": "Redirection Guard Audit Only",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_redirectionguardpolicy_enum_2",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "2",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "RedirectionGuardPolicy_Enum",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Redirection Guard Options (Device)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/Printers/ConfigureRedirectionGuardPolicy",
-    "id": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_redirectionguardpolicy_enum",
+    "uxBehavior": "default",
+    "name": "RedirectionGuardPolicy_Enum",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_redirectionguardpolicy_enum_1",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4028,14 +4017,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "ConfigureRedirectionGuardPolicy",
       "Configure Redirection Guard",
@@ -4043,72 +4032,72 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "Redirection Guard Options (Device)",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-printers#printers-configureredirectionguardpolicy"
     ],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/ConfigureRedirectionGuardPolicy",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy",
+    "description": "\r\nDetermines whether Redirection Guard is enabled for the print spooler.\r\n\r\nYou can enable this setting to configure the Redirection Guard policy being applied to spooler.\r\n\r\nIf you disable or do not configure this policy setting, Redirection Guard will default to being 'Enabled'.\r\n\r\nIf you enable this setting you may select the following options:\r\n\r\n-- Enabled : Redirection Guard will prevent any file redirections from being followed\r\n\r\n-- Disabed : Redirection Guard will not be enabled and file redirections may be used within the spooler process\r\n\r\n-- Audit   : Redirection Guard will log events as though it were enabled but will not actually prevent file redirections from being used within the spooler.\r\n      ",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_1",
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_redirectionguardpolicy_enum",
             "required": true
           }
         ],
-        "description": null,
-        "name": "Enabled",
+        "itemId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_1",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
+          "value": 1,
+          "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "dependentOn": []
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "ConfigureRedirectionGuardPolicy",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Configure Redirection Guard",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "\r\nDetermines whether Redirection Guard is enabled for the print spooler.\r\n\r\nYou can enable this setting to configure the Redirection Guard policy being applied to spooler.\r\n\r\nIf you disable or do not configure this policy setting, Redirection Guard will default to being 'Enabled'.\r\n\r\nIf you enable this setting you may select the following options:\r\n\r\n-- Enabled : Redirection Guard will prevent any file redirections from being followed\r\n\r\n-- Disabed : Redirection Guard will not be enabled and file redirections may be used within the spooler process\r\n\r\n-- Audit   : Redirection Guard will log events as though it were enabled but will not actually prevent file redirections from being used within the spooler.\r\n      ",
-    "offsetUri": "/Config/Printers/ConfigureRedirectionGuardPolicy",
-    "id": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy",
+    "uxBehavior": "toggle",
+    "name": "ConfigureRedirectionGuardPolicy",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_configureredirectionguardpolicy_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4119,45 +4108,53 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
-      "ConfigureRpcConnectionPolicy",
-      "Configure RPC connection settings",
+      "ConfigureRedirectionGuardPolicy",
+      "Configure Redirection Guard",
       "\\Printers",
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "Configure Redirection Guard",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-printers#printers-configurerpcconnectionpolicy"
     ],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/ConfigureRpcConnectionPolicy",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy",
+    "description": "\r\nThis policy setting controls which protocol and protocol settings to use for outgoing RPC connections to a remote print spooler.\r\n\r\nBy default, RPC over TCP is used and authentication is always enabled. For RPC over named pipes, authentication is always enabled for domain joined machines but disabled for non domain joined machines.\r\n\r\nProtocol to use for outgoing RPC connections:\r\n    -- \"RPC over TCP\": Use RPC over TCP for outgoing RPC connections to a remote print spooler\r\n    -- \"RPC over named pipes\": Use RPC over named pipes for outgoing RPC connections to a remote print spooler\r\n\r\nUse authentication for outgoing RPC over named pipes connections:\r\n    -- \"Default\": By default domain joined computers enable RPC authentication for RPC over named pipes while non domain joined computers disable RPC authentication for RPC over named pipes\r\n    -- \"Authentication enabled\": RPC authentication will be used for outgoing RPC over named pipes connections\r\n    -- \"Authentication disabled\": RPC authentication will not be used for outgoing RPC over named pipes connections\r\n\r\nIf you disable or do not configure this policy setting, the above defaults will be used.\r\n      ",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1",
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionprotocol_enum",
@@ -4168,42 +4165,34 @@ If you disable or do not configure this policy setting, the default behavior is 
             "required": true
           }
         ],
-        "description": null,
-        "name": "Enabled",
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
+          "value": 1,
+          "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "dependentOn": []
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "ConfigureRpcConnectionPolicy",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Configure RPC connection settings",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "\r\nThis policy setting controls which protocol and protocol settings to use for outgoing RPC connections to a remote print spooler.\r\n\r\nBy default, RPC over TCP is used and authentication is always enabled. For RPC over named pipes, authentication is always enabled for domain joined machines but disabled for non domain joined machines.\r\n\r\nProtocol to use for outgoing RPC connections:\r\n    -- \"RPC over TCP\": Use RPC over TCP for outgoing RPC connections to a remote print spooler\r\n    -- \"RPC over named pipes\": Use RPC over named pipes for outgoing RPC connections to a remote print spooler\r\n\r\nUse authentication for outgoing RPC over named pipes connections:\r\n    -- \"Default\": By default domain joined computers enable RPC authentication for RPC over named pipes while non domain joined computers disable RPC authentication for RPC over named pipes\r\n    -- \"Authentication enabled\": RPC authentication will be used for outgoing RPC over named pipes connections\r\n    -- \"Authentication disabled\": RPC authentication will not be used for outgoing RPC over named pipes connections\r\n\r\nIf you disable or do not configure this policy setting, the above defaults will be used.\r\n      ",
-    "offsetUri": "/Config/Printers/ConfigureRpcConnectionPolicy",
-    "id": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy",
+    "uxBehavior": "toggle",
+    "name": "ConfigureRpcConnectionPolicy",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4214,14 +4203,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "ConfigureRpcConnectionPolicy",
       "Configure RPC connection settings",
@@ -4229,94 +4218,94 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "Configure RPC connection settings",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionauthentication_enum",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/ConfigureRpcConnectionPolicy",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionauthentication_enum_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy",
+    "description": "",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionauthentication_enum_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Default",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "0"
-        },
         "displayName": "Default",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy"
           }
-        ]
+        ],
+        "name": "Default",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionauthentication_enum_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionauthentication_enum_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Authentication enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "1"
-        },
         "displayName": "Authentication enabled",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy"
           }
-        ]
+        ],
+        "name": "Authentication enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionauthentication_enum_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "1",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionauthentication_enum_2",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Authentication disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "2"
-        },
         "displayName": "Authentication disabled",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy"
           }
-        ]
+        ],
+        "name": "Authentication disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionauthentication_enum_2",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "2",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "RpcConnectionAuthentication_Enum",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Use authentication for outgoing RPC connections: (Device)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/Printers/ConfigureRpcConnectionPolicy",
-    "id": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionauthentication_enum",
+    "uxBehavior": "default",
+    "name": "RpcConnectionAuthentication_Enum",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionauthentication_enum_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4327,14 +4316,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "ConfigureRpcConnectionPolicy",
       "Configure RPC connection settings",
@@ -4342,75 +4331,75 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "Use authentication for outgoing RPC connections: (Device)",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionprotocol_enum",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/ConfigureRpcConnectionPolicy",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionprotocol_enum_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy",
+    "description": "",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionprotocol_enum_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "RPC over TCP",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "0"
-        },
         "displayName": "RPC over TCP",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy"
           }
-        ]
+        ],
+        "name": "RPC over TCP",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionprotocol_enum_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionprotocol_enum_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "RPC over named pipes",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "1"
-        },
         "displayName": "RPC over named pipes",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy"
           }
-        ]
+        ],
+        "name": "RPC over named pipes",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionprotocol_enum_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "1",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "RpcConnectionProtocol_Enum",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Protocol to use for outgoing RPC connections: (Device)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/Printers/ConfigureRpcConnectionPolicy",
-    "id": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionprotocol_enum",
+    "uxBehavior": "default",
+    "name": "RpcConnectionProtocol_Enum",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurerpcconnectionpolicy_rpcconnectionprotocol_enum_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4421,90 +4410,90 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
-      "ConfigureRpcListenerPolicy",
-      "Configure RPC listener settings",
+      "ConfigureRpcConnectionPolicy",
+      "Configure RPC connection settings",
       "\\Printers",
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "Protocol to use for outgoing RPC connections: (Device)",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpcauthenticationprotocol_enum",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/ConfigureRpcListenerPolicy",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpcauthenticationprotocol_enum_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy",
+    "description": "",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpcauthenticationprotocol_enum_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Negotiate",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "0"
-        },
         "displayName": "Negotiate",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy"
           }
-        ]
+        ],
+        "name": "Negotiate",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpcauthenticationprotocol_enum_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpcauthenticationprotocol_enum_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Kerberos",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "1"
-        },
         "displayName": "Kerberos",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy"
           }
-        ]
+        ],
+        "name": "Kerberos",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpcauthenticationprotocol_enum_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "1",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "RpcAuthenticationProtocol_Enum",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Authentication protocol to use for incoming RPC connections: (Device)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/Printers/ConfigureRpcListenerPolicy",
-    "id": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpcauthenticationprotocol_enum",
+    "uxBehavior": "default",
+    "name": "RpcAuthenticationProtocol_Enum",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpcauthenticationprotocol_enum_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4515,14 +4504,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "ConfigureRpcListenerPolicy",
       "Configure RPC listener settings",
@@ -4530,30 +4519,38 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "Authentication protocol to use for incoming RPC connections: (Device)",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-printers#printers-configurerpclistenerpolicy"
     ],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/ConfigureRpcListenerPolicy",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy",
+    "description": "\r\nThis policy setting controls which protocols incoming RPC connections to the print spooler are allowed to use.\r\n\r\nBy default, RPC over TCP is enabled and Negotiate is used for the authentication protocol.\r\n\r\nProtocols to allow for incoming RPC connections:\r\n    -- \"RPC over named pipes\": Incoming RPC connections are only allowed over named pipes\r\n    -- \"RPC over TCP\": Incoming RPC connections are only allowed over TCP (the default option)\r\n    -- \"RPC over named pipes and TCP\": Incoming RPC connections will be allowed over TCP and named pipes\r\n\r\nAuthentication protocol to use for incoming RPC connections:\r\n    -- \"Negotiate\": Use the Negotiate authentication protocol (the default option)\r\n    -- \"Kerberos\": Use the Kerberos authentication protocol\r\n\r\nIf you disable or do not configure this policy setting, the above defaults will be used.\r\n      ",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_1",
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpclistenerprotocols_enum",
@@ -4564,42 +4561,34 @@ If you disable or do not configure this policy setting, the default behavior is 
             "required": true
           }
         ],
-        "description": null,
-        "name": "Enabled",
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_1",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
+          "value": 1,
+          "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "dependentOn": []
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "ConfigureRpcListenerPolicy",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Configure RPC listener settings",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "\r\nThis policy setting controls which protocols incoming RPC connections to the print spooler are allowed to use.\r\n\r\nBy default, RPC over TCP is enabled and Negotiate is used for the authentication protocol.\r\n\r\nProtocols to allow for incoming RPC connections:\r\n    -- \"RPC over named pipes\": Incoming RPC connections are only allowed over named pipes\r\n    -- \"RPC over TCP\": Incoming RPC connections are only allowed over TCP (the default option)\r\n    -- \"RPC over named pipes and TCP\": Incoming RPC connections will be allowed over TCP and named pipes\r\n\r\nAuthentication protocol to use for incoming RPC connections:\r\n    -- \"Negotiate\": Use the Negotiate authentication protocol (the default option)\r\n    -- \"Kerberos\": Use the Kerberos authentication protocol\r\n\r\nIf you disable or do not configure this policy setting, the above defaults will be used.\r\n      ",
-    "offsetUri": "/Config/Printers/ConfigureRpcListenerPolicy",
-    "id": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy",
+    "uxBehavior": "toggle",
+    "name": "ConfigureRpcListenerPolicy",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4610,14 +4599,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "ConfigureRpcListenerPolicy",
       "Configure RPC listener settings",
@@ -4625,94 +4614,94 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "Configure RPC listener settings",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpclistenerprotocols_enum",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/ConfigureRpcListenerPolicy",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpclistenerprotocols_enum_5",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy",
+    "description": "",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpclistenerprotocols_enum_3",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "RPC over named pipes",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "3"
-        },
         "displayName": "RPC over named pipes",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy"
           }
-        ]
+        ],
+        "name": "RPC over named pipes",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpclistenerprotocols_enum_3",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "3",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpclistenerprotocols_enum_5",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "RPC over TCP",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "5"
-        },
         "displayName": "RPC over TCP",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy"
           }
-        ]
+        ],
+        "name": "RPC over TCP",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpclistenerprotocols_enum_5",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "5",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpclistenerprotocols_enum_7",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "RPC over named pipes and TCP",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "7"
-        },
         "displayName": "RPC over named pipes and TCP",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy"
           }
-        ]
+        ],
+        "name": "RPC over named pipes and TCP",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpclistenerprotocols_enum_7",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "7",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "RpcListenerProtocols_Enum",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Protocols to allow for incoming RPC connections: (Device)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/Printers/ConfigureRpcListenerPolicy",
-    "id": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpclistenerprotocols_enum",
+    "uxBehavior": "default",
+    "name": "RpcListenerProtocols_Enum",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurerpclistenerpolicy_rpclistenerprotocols_enum_5",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4723,87 +4712,87 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
-      "ConfigureRpcTcpPort",
-      "Configure RPC over TCP port",
+      "ConfigureRpcListenerPolicy",
+      "Configure RPC listener settings",
       "\\Printers",
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "Protocols to allow for incoming RPC connections: (Device)",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_configurerpctcpport",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-printers#printers-configurerpctcpport"
     ],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/ConfigureRpcTcpPort",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurerpctcpport_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_configurerpctcpport",
+    "description": "\r\nThis policy setting controls which port is used for RPC over TCP for incoming connections to the print spooler and outgoing connections to remote print spoolers.\r\n\r\nBy default dynamic TCP ports are used.\r\n\r\nRPC over TCP port:\r\n    -- The port to use for RPC over TCP. A value of 0 is the default and indicates that dynamic TCP ports will be used\r\n\r\nIf you disable or do not configure this policy setting, dynamic TCP ports are used.\r\n      ",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpctcpport_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpctcpport_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurerpctcpport_1",
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_printers_configurerpctcpport_rpctcpport",
             "required": true
           }
         ],
-        "description": null,
-        "name": "Enabled",
+        "itemId": "device_vendor_msft_policy_config_printers_configurerpctcpport_1",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
+          "value": 1,
+          "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "dependentOn": []
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "ConfigureRpcTcpPort",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Configure RPC over TCP port",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "\r\nThis policy setting controls which port is used for RPC over TCP for incoming connections to the print spooler and outgoing connections to remote print spoolers.\r\n\r\nBy default dynamic TCP ports are used.\r\n\r\nRPC over TCP port:\r\n    -- The port to use for RPC over TCP. A value of 0 is the default and indicates that dynamic TCP ports will be used\r\n\r\nIf you disable or do not configure this policy setting, dynamic TCP ports are used.\r\n      ",
-    "offsetUri": "/Config/Printers/ConfigureRpcTcpPort",
-    "id": "device_vendor_msft_policy_config_printers_configurerpctcpport",
+    "uxBehavior": "toggle",
+    "name": "ConfigureRpcTcpPort",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurerpctcpport_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4814,14 +4803,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "ConfigureRpcTcpPort",
       "Configure RPC over TCP port",
@@ -4829,51 +4818,45 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "Configure RPC over TCP port",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_configurerpctcpport_rpctcpport",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "dependedOnBy": [],
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/ConfigureRpcTcpPort",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_configurerpctcpport",
+    "description": "",
     "dependentOn": [
       {
-        "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpctcpport",
-        "dependentOn": "device_vendor_msft_policy_config_printers_configurerpctcpport_1"
+        "dependentOn": "device_vendor_msft_policy_config_printers_configurerpctcpport_1",
+        "parentSettingId": "device_vendor_msft_policy_config_printers_configurerpctcpport"
       }
     ],
-    "settingUsage": "configuration",
-    "name": "RpcTcpPort",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "RPC over TCP port: (Device)",
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "value": 0
-    },
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/Printers/ConfigureRpcTcpPort",
-    "id": "device_vendor_msft_policy_config_printers_configurerpctcpport_rpctcpport",
+    "uxBehavior": "default",
+    "name": "RpcTcpPort",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "value": 0,
+      "settingValueTemplateReference": null
+    },
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "valueDefinition": {
-      "maximumValue": 65535,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 0
-    },
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4884,14 +4867,106 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
+    },
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0,
+      "maximumValue": 65535
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "settingUsage": "configuration",
+    "dependedOnBy": [],
+    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "ConfigureRpcTcpPort",
+      "Configure RPC over TCP port",
+      "\\Printers",
+      "Administrative Templates\\Printers",
+      "Printers"
+    ],
+    "displayName": "RPC over TCP port: (Device)",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
   },
   {
+    "id": "device_vendor_msft_policy_config_printers_restrictdriverinstallationtoadministrators",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-printers#printers-restrictdriverinstallationtoadministrators"
+    ],
+    "offsetUri": "/Config/Printers/RestrictDriverInstallationToAdministrators",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_restrictdriverinstallationtoadministrators_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_printers_restrictdriverinstallationtoadministrators",
+    "description": "\r\nDetermines whether users that aren't Administrators can install print drivers on this computer.\r\n\r\nBy default, users that aren't Administrators can't install print drivers on this computer.\r\n\r\nIf you enable this setting or do not configure it, the system will limit installation of print drivers to Administrators of this computer.\r\n\r\nIf you disable this setting, the system won't limit installation of print drivers to this computer.\r\n        ",
+    "options": [
+      {
+        "displayName": "Disabled",
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_restrictdriverinstallationtoadministrators_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      },
+      {
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_restrictdriverinstallationtoadministrators_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      }
+    ],
+    "accessTypes": "none",
+    "helpText": "",
+    "uxBehavior": "toggle",
+    "name": "RestrictDriverInstallationToAdministrators",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639141423527581363",
+    "applicability": {
+      "technologies": "mdm",
+      "deviceMode": "none",
+      "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0",
+      "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "platform": "windows10",
+      "maximumSupportedVersion": null
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "RestrictDriverInstallationToAdministrators",
       "Limits print driver installation to Administrators",
@@ -4899,158 +4974,72 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Printers",
       "Printers"
     ],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-printers#printers-restrictdriverinstallationtoadministrators"
-    ],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_printers_restrictdriverinstallationtoadministrators",
-    "options": [
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_restrictdriverinstallationtoadministrators_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "displayName": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_restrictdriverinstallationtoadministrators_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "displayName": "Enabled",
-        "dependentOn": []
-      }
-    ],
-    "settingUsage": "configuration",
-    "name": "RestrictDriverInstallationToAdministrators",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
     "displayName": "Limits print driver installation to Administrators",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "accessTypes": "none",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "\r\nDetermines whether users that aren't Administrators can install print drivers on this computer.\r\n\r\nBy default, users that aren't Administrators can't install print drivers on this computer.\r\n\r\nIf you enable this setting or do not configure it, the system will limit installation of print drivers to Administrators of this computer.\r\n\r\nIf you disable this setting, the system won't limit installation of print drivers to this computer.\r\n        ",
-    "offsetUri": "/Config/Printers/RestrictDriverInstallationToAdministrators",
-    "id": "device_vendor_msft_policy_config_printers_restrictdriverinstallationtoadministrators",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_restrictdriverinstallationtoadministrators_0",
-    "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "technologies": "mdm",
-      "description": null,
-      "requiredAzureAdTrustType": "none",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null
-    }
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
   },
   {
-    "keywords": [
-      "ConfigureCopyFilesPolicy",
-      "Manage processing of Queue-specific files",
-      "\\Printers",
-      "Administrative Templates\\Printers",
-      "Printers"
-    ],
+    "id": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-printers#printers-configurecopyfilespolicy"
     ],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/ConfigureCopyFilesPolicy",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy",
+    "description": "\r\nManages how Queue-specific files are processed during printer installation. At printer installation time, a vendor-supplied installation application can specify a set of files, of any type, to be associated with a particular print queue. The files are downloaded to each client that connects to the print server.\r\n\r\nYou can enable this setting to change the default behavior involving queue-specific files. To use this setting, select one of the options below from the \"Manage processing of Queue-specific files\" box.\r\n\r\nIf you disable or do not configure this policy setting, the default behavior is \"Limit Queue-specific files to Color profiles\".\r\n\r\n--  \"Do not allow Queue-specific files\" specifies that no queue-specific files will be allowed/processed during print queue/printer connection installation.\r\n\r\n--  \"Limit Queue-specific files to Color profiles\" specifies that only queue-specific files that adhere to the standard color profile scheme will be allowed. This means entries using the Registry Key CopyFiles\\ICM, containing a Directory value of COLOR and supporting mscms.dll as the Module value. \"Limit Queue-specific files to Color profiles\" is the default behavior.\r\n\r\n--  \"Allow all Queue-specific files\" specifies that all queue-specific files will be allowed/processed during print queue/printer connection installation.\r\n      ",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_1",
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum",
             "required": true
           }
         ],
-        "description": null,
-        "name": "Enabled",
+        "itemId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_1",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
+          "value": 1,
+          "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "dependentOn": []
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "ConfigureCopyFilesPolicy",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Manage processing of Queue-specific files",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "\r\nManages how Queue-specific files are processed during printer installation. At printer installation time, a vendor-supplied installation application can specify a set of files, of any type, to be associated with a particular print queue. The files are downloaded to each client that connects to the print server.\r\n\r\nYou can enable this setting to change the default behavior involving queue-specific files. To use this setting, select one of the options below from the \"Manage processing of Queue-specific files\" box.\r\n\r\nIf you disable or do not configure this policy setting, the default behavior is \"Limit Queue-specific files to Color profiles\".\r\n\r\n--  \"Do not allow Queue-specific files\" specifies that no queue-specific files will be allowed/processed during print queue/printer connection installation.\r\n\r\n--  \"Limit Queue-specific files to Color profiles\" specifies that only queue-specific files that adhere to the standard color profile scheme will be allowed. This means entries using the Registry Key CopyFiles\\ICM, containing a Directory value of COLOR and supporting mscms.dll as the Module value. \"Limit Queue-specific files to Color profiles\" is the default behavior.\r\n\r\n--  \"Allow all Queue-specific files\" specifies that all queue-specific files will be allowed/processed during print queue/printer connection installation.\r\n      ",
-    "offsetUri": "/Config/Printers/ConfigureCopyFilesPolicy",
-    "id": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy",
+    "uxBehavior": "toggle",
+    "name": "ConfigureCopyFilesPolicy",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5061,14 +5050,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "ConfigureCopyFilesPolicy",
       "Manage processing of Queue-specific files",
@@ -5076,94 +5065,94 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "Manage processing of Queue-specific files",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/ConfigureCopyFilesPolicy",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum_1",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy",
+    "description": "",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Do not allow Queue-specific files",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "0"
-        },
         "displayName": "Do not allow Queue-specific files",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy"
           }
-        ]
+        ],
+        "name": "Do not allow Queue-specific files",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Limit Queue-specific files to Color profiles",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "1"
-        },
         "displayName": "Limit Queue-specific files to Color profiles",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy"
           }
-        ]
+        ],
+        "name": "Limit Queue-specific files to Color profiles",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "1",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum_2",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Allow all Queue-specfic files",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "2"
-        },
         "displayName": "Allow all Queue-specfic files",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy",
-            "dependentOn": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy"
           }
-        ]
+        ],
+        "name": "Allow all Queue-specfic files",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum_2",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "2",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "CopyFilesPolicy_Enum",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Manage processing of Queue-Specific files: (Device)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/Printers/ConfigureCopyFilesPolicy",
-    "id": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum",
+    "uxBehavior": "default",
+    "name": "CopyFilesPolicy_Enum",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_configurecopyfilespolicy_copyfilespolicy_enum_1",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.22621",
+      "configurationServiceProviderVersion": "11.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5174,90 +5163,90 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
-      "PointAndPrint_Restrictions_Win7",
-      "Point and Print Restrictions",
+      "ConfigureCopyFilesPolicy",
+      "Manage processing of Queue-specific files",
       "\\Printers",
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "Manage processing of Queue-Specific files: (Device)",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationoninstall_enum",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/PointAndPrintRestrictions",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationoninstall_enum_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
+    "description": "",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationoninstall_enum_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Show warning and elevation prompt",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "0"
-        },
         "displayName": "Show warning and elevation prompt",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
-            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions"
           }
-        ]
+        ],
+        "name": "Show warning and elevation prompt",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationoninstall_enum_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationoninstall_enum_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Do not show warning or elevation prompt",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "1"
-        },
         "displayName": "Do not show warning or elevation prompt",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
-            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions"
           }
-        ]
+        ],
+        "name": "Do not show warning or elevation prompt",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationoninstall_enum_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "1",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "PointAndPrint_NoWarningNoElevationOnInstall_Enum",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "When installing drivers for a new connection: (Device)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/Printers/PointAndPrintRestrictions",
-    "id": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationoninstall_enum",
+    "uxBehavior": "default",
+    "name": "PointAndPrint_NoWarningNoElevationOnInstall_Enum",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationoninstall_enum_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.15063",
+      "configurationServiceProviderVersion": "5.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5268,14 +5257,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "PointAndPrint_Restrictions_Win7",
       "Point and Print Restrictions",
@@ -5283,94 +5272,94 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "When installing drivers for a new connection: (Device)",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationonupdate_enum",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/PointAndPrintRestrictions",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationonupdate_enum_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
+    "description": "",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationonupdate_enum_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Show warning and elevation prompt",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "0"
-        },
         "displayName": "Show warning and elevation prompt",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
-            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions"
           }
-        ]
+        ],
+        "name": "Show warning and elevation prompt",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationonupdate_enum_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationonupdate_enum_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Show warning only",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "1"
-        },
         "displayName": "Show warning only",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
-            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions"
           }
-        ]
+        ],
+        "name": "Show warning only",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationonupdate_enum_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "1",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationonupdate_enum_2",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Do not show warning or elevation prompt",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "value": "2"
-        },
         "displayName": "Do not show warning or elevation prompt",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
-            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions"
           }
-        ]
+        ],
+        "name": "Do not show warning or elevation prompt",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationonupdate_enum_2",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "2",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "PointAndPrint_NoWarningNoElevationOnUpdate_Enum",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "When updating drivers for an existing connection: (Device)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/Printers/PointAndPrintRestrictions",
-    "id": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationonupdate_enum",
+    "uxBehavior": "default",
+    "name": "PointAndPrint_NoWarningNoElevationOnUpdate_Enum",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_nowarningnoelevationonupdate_enum_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.15063",
+      "configurationServiceProviderVersion": "5.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5381,14 +5370,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "PointAndPrint_Restrictions_Win7",
       "Point and Print Restrictions",
@@ -5396,30 +5385,38 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "When updating drivers for an existing connection: (Device)",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-printers#printers-pointandprintrestrictions"
     ],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/PointAndPrintRestrictions",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
+    "description": "This policy setting controls the client Point and Print behavior, including the security prompts for Windows Vista computers. The policy setting applies only to non-Print Administrator clients, and only to computers that are members of a domain.\r\n\r\n          If you enable this policy setting:\r\n          -Windows XP and later clients will only download print driver components from a list of explicitly named servers. If a compatible print driver is available on the client, a printer connection will be made. If a compatible print driver is not available on the client, no connection will be made.\r\n          -You can configure Windows Vista clients so that security warnings and elevated command prompts do not appear when users Point and Print, or when printer connection drivers need to be updated.\r\n\r\n          If you do not configure this policy setting:\r\n          -Windows Vista client computers can point and print to any server.\r\n          -Windows Vista computers will show a warning and an elevated command prompt when users create a printer connection to any server using Point and Print.\r\n          -Windows Vista computers will show a warning and an elevated command prompt when an existing printer connection driver needs to be updated.\r\n          -Windows Server 2003 and Windows XP client computers can create a printer connection to any server in their forest using Point and Print.\r\n\r\n          If you disable this policy setting:\r\n          -Windows Vista client computers can create a printer connection to any server using Point and Print.\r\n          -Windows Vista computers will not show a warning or an elevated command prompt when users create a printer connection to any server using Point and Print.\r\n          -Windows Vista computers will not show a warning or an elevated command prompt when an existing printer connection driver needs to be updated.\r\n          -Windows Server 2003 and Windows XP client computers can create a printer connection to any server using Point and Print.\r\n          -The \"Users can only point and print to computers in their forest\" setting applies only to Windows Server 2003 and Windows XP SP1 (and later service packs).",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1",
+        "displayName": "Enabled",
+        "dependentOn": [],
+        "name": "Enabled",
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedservers_chk",
@@ -5442,42 +5439,34 @@ If you disable or do not configure this policy setting, the default behavior is 
             "required": true
           }
         ],
-        "description": null,
-        "name": "Enabled",
+        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
+          "value": 1,
+          "settingValueTemplateReference": null
         },
-        "displayName": "Enabled",
-        "dependentOn": []
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "PointAndPrint_Restrictions_Win7",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Point and Print Restrictions",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This policy setting controls the client Point and Print behavior, including the security prompts for Windows Vista computers. The policy setting applies only to non-Print Administrator clients, and only to computers that are members of a domain.\r\n\r\n          If you enable this policy setting:\r\n          -Windows XP and later clients will only download print driver components from a list of explicitly named servers. If a compatible print driver is available on the client, a printer connection will be made. If a compatible print driver is not available on the client, no connection will be made.\r\n          -You can configure Windows Vista clients so that security warnings and elevated command prompts do not appear when users Point and Print, or when printer connection drivers need to be updated.\r\n\r\n          If you do not configure this policy setting:\r\n          -Windows Vista client computers can point and print to any server.\r\n          -Windows Vista computers will show a warning and an elevated command prompt when users create a printer connection to any server using Point and Print.\r\n          -Windows Vista computers will show a warning and an elevated command prompt when an existing printer connection driver needs to be updated.\r\n          -Windows Server 2003 and Windows XP client computers can create a printer connection to any server in their forest using Point and Print.\r\n\r\n          If you disable this policy setting:\r\n          -Windows Vista client computers can create a printer connection to any server using Point and Print.\r\n          -Windows Vista computers will not show a warning or an elevated command prompt when users create a printer connection to any server using Point and Print.\r\n          -Windows Vista computers will not show a warning or an elevated command prompt when an existing printer connection driver needs to be updated.\r\n          -Windows Server 2003 and Windows XP client computers can create a printer connection to any server using Point and Print.\r\n          -The \"Users can only point and print to computers in their forest\" setting applies only to Windows Server 2003 and Windows XP SP1 (and later service packs).",
-    "offsetUri": "/Config/Printers/PointAndPrintRestrictions",
-    "id": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
+    "uxBehavior": "toggle",
+    "name": "PointAndPrint_Restrictions_Win7",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.15063",
+      "configurationServiceProviderVersion": "5.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5488,14 +5477,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "PointAndPrint_Restrictions_Win7",
       "Point and Print Restrictions",
@@ -5503,73 +5492,73 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "Point and Print Restrictions",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedservers_edit",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "dependedOnBy": [],
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/PointAndPrintRestrictions",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
+    "description": "",
     "dependentOn": [
       {
-        "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
-        "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1"
+        "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1",
+        "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions"
       }
     ],
-    "settingUsage": "configuration",
-    "name": "PointAndPrint_TrustedServers_Edit",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Enter fully qualified server names separated by semicolons (Device)",
-    "defaultValue": {
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-      "value": null
-    },
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/Printers/PointAndPrintRestrictions",
-    "id": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedservers_edit",
+    "uxBehavior": "default",
+    "name": "PointAndPrint_TrustedServers_Edit",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
+    },
+    "version": "639141423527581363",
+    "applicability": {
+      "technologies": "mdm",
+      "deviceMode": "none",
+      "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.15063",
+      "configurationServiceProviderVersion": "5.0",
+      "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "platform": "windows10",
+      "maximumSupportedVersion": null
     },
     "valueDefinition": {
-      "inputValidationSchema": null,
-      "minimumLength": 0,
       "isSecret": false,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "fileTypes": [],
+      "inputValidationSchema": null,
       "format": "none",
-      "maximumLength": 8192
+      "minimumLength": 0,
+      "maximumLength": 8192,
+      "fileTypes": []
     },
-    "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "technologies": "mdm",
-      "description": null,
-      "requiredAzureAdTrustType": "none",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null
-    }
-  },
-  {
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "settingUsage": "configuration",
+    "dependedOnBy": [],
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "PointAndPrint_Restrictions_Win7",
       "Point and Print Restrictions",
@@ -5577,75 +5566,75 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Printers",
       "Printers"
     ],
-    "infoUrls": [],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
-    "options": [
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedservers_chk_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "False",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "displayName": "False",
-        "dependentOn": [
-          {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
-            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1"
-          }
-        ]
-      },
-      {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedservers_chk_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "True",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "displayName": "True",
-        "dependentOn": [
-          {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
-            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1"
-          }
-        ]
-      }
-    ],
-    "settingUsage": "configuration",
-    "name": "PointAndPrint_TrustedServers_Chk",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Users can only point and print to these servers: (Device)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "accessTypes": "add,delete,get,replace",
-    "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/Printers/PointAndPrintRestrictions",
+    "displayName": "Enter fully qualified server names separated by semicolons (Device)",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
     "id": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedservers_chk",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "infoUrls": [],
+    "offsetUri": "/Config/Printers/PointAndPrintRestrictions",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedservers_chk_0",
+    "rootDefinitionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
+    "description": "",
+    "options": [
+      {
+        "displayName": "False",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions"
+          }
+        ],
+        "name": "False",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedservers_chk_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      },
+      {
+        "displayName": "True",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions"
+          }
+        ],
+        "name": "True",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedservers_chk_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
+      }
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "uxBehavior": "toggle",
+    "name": "PointAndPrint_TrustedServers_Chk",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedservers_chk_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.15063",
+      "configurationServiceProviderVersion": "5.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5656,14 +5645,14 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
-  },
-  {
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "PointAndPrint_Restrictions_Win7",
       "Point and Print Restrictions",
@@ -5671,75 +5660,75 @@ If you disable or do not configure this policy setting, the default behavior is 
       "Administrative Templates\\Printers",
       "Printers"
     ],
+    "displayName": "Users can only point and print to these servers: (Device)",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
+  },
+  {
+    "id": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedforest_chk",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "infoUrls": [],
-    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/Printers/PointAndPrintRestrictions",
+    "defaultOptionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedforest_chk_0",
     "rootDefinitionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
+    "description": "",
     "options": [
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedforest_chk_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "False",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "False",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
-            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions"
           }
-        ]
+        ],
+        "name": "False",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedforest_chk_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedforest_chk_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "True",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "True",
         "dependentOn": [
           {
-            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions",
-            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1"
+            "dependentOn": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_1",
+            "parentSettingId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions"
           }
-        ]
+        ],
+        "name": "True",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedforest_chk_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "PointAndPrint_TrustedForest_Chk",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "displayName": "Users can only point and print to machines in their forest (Device)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "offsetUri": "/Config/Printers/PointAndPrintRestrictions",
-    "id": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedforest_chk",
+    "uxBehavior": "toggle",
+    "name": "PointAndPrint_TrustedForest_Chk",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "device_vendor_msft_policy_config_printers_pointandprintrestrictions_pointandprint_trustedforest_chk_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.15063",
+      "configurationServiceProviderVersion": "5.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5750,85 +5739,82 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.15063",
-      "configurationServiceProviderVersion": "5.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "PointAndPrint_Restrictions_Win7",
+      "Point and Print Restrictions",
+      "\\Printers",
+      "Administrative Templates\\Printers",
+      "Printers"
+    ],
+    "displayName": "Users can only point and print to machines in their forest (Device)",
+    "categoryId": "2becddf1-d8ea-49ec-8560-c8c401faa9bb"
   },
   {
-    "keywords": [
-      "NoLockScreenToastNotification",
-      "Turn off toast notifications on the lock screen",
-      "\\Start Menu and Taskbar\\Notifications",
-      "Administrative Templates\\Start Menu and Taskbar\\Notifications",
-      "Notifications",
-      "User",
-      "SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\PushNotifications",
-      "NoToastApplicationNotificationOnLockScreen"
-    ],
+    "id": "user_vendor_msft_policy_config_admx_wpn_nolockscreentoastnotification",
+    "baseUri": "./User/Vendor/MSFT/Policy",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-wpn#admx-wpn-nolockscreentoastnotification"
     ],
-    "categoryId": "cb98f9d4-d921-4a8b-a763-cf69ce2ada62",
-    "referredSettingInformationList": [],
+    "offsetUri": "/Config/ADMX_WPN/NoLockScreenToastNotification",
+    "defaultOptionId": "user_vendor_msft_policy_config_admx_wpn_nolockscreentoastnotification_0",
     "rootDefinitionId": "user_vendor_msft_policy_config_admx_wpn_nolockscreentoastnotification",
+    "description": "\r\n        This policy setting turns off toast notifications on the lock screen.\r\n\r\n        If you enable this policy setting, applications will not be able to raise toast notifications on the lock screen.\r\n\r\n        If you disable or do not configure this policy setting, toast notifications on the lock screen are enabled and can be turned off by the administrator or user.\r\n\r\n        No reboots or service restarts are required for this policy setting to take effect.\r\n      \r\n ",
     "options": [
       {
-        "helpText": null,
-        "itemId": "user_vendor_msft_policy_config_admx_wpn_nolockscreentoastnotification_0",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
         "displayName": "Disabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "user_vendor_msft_policy_config_admx_wpn_nolockscreentoastnotification_0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       },
       {
-        "helpText": null,
-        "itemId": "user_vendor_msft_policy_config_admx_wpn_nolockscreentoastnotification_1",
-        "dependedOnBy": [],
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
         "displayName": "Enabled",
-        "dependentOn": []
+        "dependentOn": [],
+        "name": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "user_vendor_msft_policy_config_admx_wpn_nolockscreentoastnotification_1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "helpText": null
       }
     ],
-    "settingUsage": "configuration",
-    "name": "NoLockScreenToastNotification",
-    "baseUri": "./User/Vendor/MSFT/Policy",
-    "displayName": "Turn off toast notifications on the lock screen (User)",
-    "version": "639141423527581363",
-    "riskLevel": "low",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
     "accessTypes": "none",
     "helpText": "",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "\r\n        This policy setting turns off toast notifications on the lock screen.\r\n\r\n        If you enable this policy setting, applications will not be able to raise toast notifications on the lock screen.\r\n\r\n        If you disable or do not configure this policy setting, toast notifications on the lock screen are enabled and can be turned off by the administrator or user.\r\n\r\n        No reboots or service restarts are required for this policy setting to take effect.\r\n      \r\n ",
-    "offsetUri": "/Config/ADMX_WPN/NoLockScreenToastNotification",
-    "id": "user_vendor_msft_policy_config_admx_wpn_nolockscreentoastnotification",
+    "uxBehavior": "toggle",
+    "name": "NoLockScreenToastNotification",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "defaultOptionId": "user_vendor_msft_policy_config_admx_wpn_nolockscreentoastnotification_0",
+    "version": "639141423527581363",
     "applicability": {
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "technologies": "mdm",
+      "deviceMode": "none",
       "description": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "configurationServiceProviderVersion": "10.0",
       "requiredAzureAdTrustType": "none",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5840,12 +5826,26 @@ If you disable or do not configure this policy setting, the default behavior is 
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
       "maximumSupportedVersion": null
-    }
+    },
+    "riskLevel": "low",
+    "referredSettingInformationList": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "settingUsage": "configuration",
+    "visibility": "settingsCatalog,template",
+    "keywords": [
+      "NoLockScreenToastNotification",
+      "Turn off toast notifications on the lock screen",
+      "\\Start Menu and Taskbar\\Notifications",
+      "Administrative Templates\\Start Menu and Taskbar\\Notifications",
+      "Notifications",
+      "User",
+      "SOFTWARE\\Policies\\Microsoft\\Windows\\CurrentVersion\\PushNotifications",
+      "NoToastApplicationNotificationOnLockScreen"
+    ],
+    "displayName": "Turn off toast notifications on the lock screen (User)",
+    "categoryId": "cb98f9d4-d921-4a8b-a763-cf69ce2ada62"
   }
 ]
 ```

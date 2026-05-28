@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 05/27/2026 07:10:18
+**Report Generated:** 05/28/2026 06:59:39
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "publisher": " Joe Loveless",
-  "roleScopeTagIds": [
-    "0"
-  ],
-  "highestAvailableVersion": null,
-  "detectionScriptParameters": [],
-  "isGlobalScript": false,
-  "deviceHealthScriptType": "deviceHealthScript",
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
+  "description": "ExtensionAttribute2: Organizational Unit of device",
   "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
+  "runAs32Bit": true,
   "remediationScriptParameters": [],
+  "highestAvailableVersion": null,
+  "isGlobalScript": false,
+  "publisher": " Joe Loveless",
+  "runAsAccount": "system",
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "deviceHealthScriptType": "deviceHealthScript",
   "enforceSignatureCheck": false,
   "remediationScriptContent": "",
-  "version": "3",
-  "runAsAccount": "system",
-  "runAs32Bit": true,
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
   "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
-  "description": "ExtensionAttribute2: Organizational Unit of device"
+  "version": "3",
+  "detectionScriptParameters": [],
+  "roleScopeTagIds": [
+    "0"
+  ]
 }
 ```
 

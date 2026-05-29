@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/WIN_D_Compliance_Firewall_PROD.md)
 
-**Report Generated:** 05/28/2026 06:59:41
+**Report Generated:** 05/29/2026 06:59:46
 
 ---
 
@@ -31,11 +31,11 @@
 ```json
 {
   "SyncRoot": {
-    "id": "52c7c228-1572-4119-ae9d-90837beedd01",
-    "notificationTemplateId": "00000000-0000-0000-0000-000000000000",
     "gracePeriodHours": 0,
     "actionType": "block",
-    "notificationMessageCCList": []
+    "notificationMessageCCList": [],
+    "id": "52c7c228-1572-4119-ae9d-90837beedd01",
+    "notificationTemplateId": "00000000-0000-0000-0000-000000000000"
   }
 }
 ```

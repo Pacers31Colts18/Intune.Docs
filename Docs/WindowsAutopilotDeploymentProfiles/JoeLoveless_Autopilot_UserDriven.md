@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 05/30/2026 06:28:01
+**Report Generated:** 05/31/2026 07:02:21
 
 ---
 
 ```json
 {
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
-  "preprovisioningAllowed": false,
-  "managementServiceAppId": null,
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "hardwareHashExtractionEnabled": true,
-  "outOfBoxExperienceSetting": {
-    "deviceUsageType": "singleUser",
-    "userType": "standard",
-    "eulaHidden": true,
-    "privacySettingsHidden": true,
-    "escapeLinkHidden": true,
-    "keyboardSelectionPageSkipped": true
-  },
   "roleScopeTagIds": [
     "0"
   ],
+  "description": "",
+  "enableWhiteGlove": false,
+  "enrollmentStatusScreenSettings": null,
+  "preprovisioningAllowed": false,
+  "managementServiceAppId": null,
+  "extractHardwareHash": true,
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "deviceNameTemplate": "JL-%SERIAL%",
   "deviceType": "windowsPc",
+  "language": "os-default",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
   "outOfBoxExperienceSettings": {
-    "deviceUsageType": "singleUser",
-    "userType": "standard",
     "hidePrivacySettings": true,
-    "hideEULA": true,
+    "userType": "standard",
     "hideEscapeLink": true,
+    "deviceUsageType": "singleUser",
+    "hideEULA": true,
     "skipKeyboardSelectionPage": true
   },
-  "enableWhiteGlove": false,
-  "extractHardwareHash": true,
-  "enrollmentStatusScreenSettings": null,
-  "locale": "os-default",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "hardwareHashExtractionEnabled": true,
   "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "deviceNameTemplate": "JL-%SERIAL%",
-  "description": "",
-  "language": "os-default"
+  "outOfBoxExperienceSetting": {
+    "userType": "standard",
+    "privacySettingsHidden": true,
+    "keyboardSelectionPageSkipped": true,
+    "deviceUsageType": "singleUser",
+    "escapeLinkHidden": true,
+    "eulaHidden": true
+  },
+  "locale": "os-default",
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z"
 }
 ```
 

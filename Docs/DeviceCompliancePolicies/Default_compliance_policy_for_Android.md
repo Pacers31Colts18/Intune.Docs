@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/Default_compliance_policy_for_Android.md)
 
-**Report Generated:** 05/31/2026 07:02:20
+**Report Generated:** 06/01/2026 08:40:57
 
 ---
 

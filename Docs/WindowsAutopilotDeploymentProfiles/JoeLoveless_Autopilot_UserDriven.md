@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 05/31/2026 07:02:21
+**Report Generated:** 06/01/2026 08:40:58
 
 ---
 
@@ -20,37 +20,37 @@
     "0"
   ],
   "description": "",
-  "enableWhiteGlove": false,
-  "enrollmentStatusScreenSettings": null,
   "preprovisioningAllowed": false,
+  "outOfBoxExperienceSetting": {
+    "escapeLinkHidden": true,
+    "keyboardSelectionPageSkipped": true,
+    "privacySettingsHidden": true,
+    "deviceUsageType": "singleUser",
+    "eulaHidden": true,
+    "userType": "standard"
+  },
   "managementServiceAppId": null,
-  "extractHardwareHash": true,
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
   "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "hardwareHashExtractionEnabled": true,
   "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "language": "os-default",
+  "locale": "os-default",
+  "enableWhiteGlove": false,
   "deviceNameTemplate": "JL-%SERIAL%",
   "deviceType": "windowsPc",
-  "language": "os-default",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
   "outOfBoxExperienceSettings": {
-    "hidePrivacySettings": true,
-    "userType": "standard",
     "hideEscapeLink": true,
-    "deviceUsageType": "singleUser",
+    "skipKeyboardSelectionPage": true,
     "hideEULA": true,
-    "skipKeyboardSelectionPage": true
-  },
-  "hardwareHashExtractionEnabled": true,
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "outOfBoxExperienceSetting": {
-    "userType": "standard",
-    "privacySettingsHidden": true,
-    "keyboardSelectionPageSkipped": true,
     "deviceUsageType": "singleUser",
-    "escapeLinkHidden": true,
-    "eulaHidden": true
+    "hidePrivacySettings": true,
+    "userType": "standard"
   },
-  "locale": "os-default",
+  "enrollmentStatusScreenSettings": null,
+  "extractHardwareHash": true,
   "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z"
 }
 ```

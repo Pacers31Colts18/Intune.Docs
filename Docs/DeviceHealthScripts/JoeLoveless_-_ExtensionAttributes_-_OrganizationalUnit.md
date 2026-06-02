@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 06/01/2026 08:40:55
+**Report Generated:** 06/02/2026 08:01:35
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
+  "isGlobalScript": false,
+  "remediationScriptContent": "",
+  "runAs32Bit": true,
+  "runAsAccount": "system",
+  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "remediationScriptParameters": [],
+  "publisher": " Joe Loveless",
+  "description": "ExtensionAttribute2: Organizational Unit of device",
+  "highestAvailableVersion": null,
+  "enforceSignatureCheck": false,
+  "deviceHealthScriptType": "deviceHealthScript",
+  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "version": "3",
+  "detectionScriptParameters": [],
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
   "roleScopeTagIds": [
     "0"
-  ],
-  "description": "ExtensionAttribute2: Organizational Unit of device",
-  "publisher": " Joe Loveless",
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "highestAvailableVersion": null,
-  "runAsAccount": "system",
-  "enforceSignatureCheck": false,
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "runAs32Bit": true,
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
-  "remediationScriptParameters": [],
-  "isGlobalScript": false,
-  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
-  "deviceHealthScriptType": "deviceHealthScript",
-  "remediationScriptContent": "",
-  "detectionScriptParameters": [],
-  "version": "3"
+  ]
 }
 ```
 

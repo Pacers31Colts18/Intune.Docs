@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/WIN_D_Compliance_TPM_PROD.md)
 
-**Report Generated:** 06/03/2026 08:24:13
+**Report Generated:** 06/04/2026 07:57:04
 
 ---
 
@@ -31,11 +31,11 @@
 ```json
 {
   "SyncRoot": {
-    "actionType": "block",
-    "id": "85c9c570-0416-426e-a980-ea88da12caa1",
-    "notificationMessageCCList": [],
     "notificationTemplateId": "00000000-0000-0000-0000-000000000000",
-    "gracePeriodHours": 0
+    "actionType": "block",
+    "gracePeriodHours": 0,
+    "notificationMessageCCList": [],
+    "id": "85c9c570-0416-426e-a980-ea88da12caa1"
   }
 }
 ```

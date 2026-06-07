@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 06/06/2026 06:34:58
+**Report Generated:** 06/07/2026 07:10:44
 
 ---
 
 ```json
 {
+  "enableWhiteGlove": false,
   "outOfBoxExperienceSettings": {
-    "deviceUsageType": "singleUser",
-    "hideEscapeLink": true,
     "skipKeyboardSelectionPage": true,
     "hidePrivacySettings": true,
+    "hideEscapeLink": true,
     "userType": "standard",
-    "hideEULA": true
+    "hideEULA": true,
+    "deviceUsageType": "singleUser"
   },
-  "description": "",
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "language": "os-default",
-  "outOfBoxExperienceSetting": {
-    "privacySettingsHidden": true,
-    "escapeLinkHidden": true,
-    "deviceUsageType": "singleUser",
-    "keyboardSelectionPageSkipped": true,
-    "userType": "standard",
-    "eulaHidden": true
-  },
-  "deviceNameTemplate": "JL-%SERIAL%",
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
   "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "locale": "os-default",
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "deviceNameTemplate": "JL-%SERIAL%",
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
   "managementServiceAppId": null,
-  "preprovisioningAllowed": false,
-  "enrollmentStatusScreenSettings": null,
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
   "roleScopeTagIds": [
     "0"
   ],
-  "extractHardwareHash": true,
-  "locale": "os-default",
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
   "hardwareHashExtractionEnabled": true,
+  "enrollmentStatusScreenSettings": null,
   "deviceType": "windowsPc",
-  "enableWhiteGlove": false
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "language": "os-default",
+  "extractHardwareHash": true,
+  "outOfBoxExperienceSetting": {
+    "privacySettingsHidden": true,
+    "eulaHidden": true,
+    "userType": "standard",
+    "escapeLinkHidden": true,
+    "keyboardSelectionPageSkipped": true,
+    "deviceUsageType": "singleUser"
+  },
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "description": "",
+  "preprovisioningAllowed": false
 }
 ```
 

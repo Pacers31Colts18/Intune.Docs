@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/WIN_D_CISL1_AdministrativeTemplates_PROD.md)
 
-**Report Generated:** 06/06/2026 06:34:47
+**Report Generated:** 06/07/2026 07:10:34
 
 ---
 
@@ -41,13 +41,11 @@ The "Process even if the Group Policy objects have not changed" option updates a
 ```json
 {
   "description": null,
-  "name": "Enabled",
   "optionValue": {
-    "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null,
     "value": 1
   },
-  "helpText": null,
   "dependedOnBy": [
     {
       "dependedOnBy": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nobackground11",
@@ -60,21 +58,23 @@ The "Process even if the Group Policy objects have not changed" option updates a
   ],
   "dependentOn": [],
   "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_1",
-  "displayName": "Enabled"
+  "helpText": null,
+  "displayName": "Enabled",
+  "name": "Enabled"
 }
 ```
 
 #### device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nobackground11
 ```json
 {
-  "auditRuleInformation": null,
   "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "settingValueTemplateReference": null,
-    "children": [],
-    "value": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nobackground11_0"
+    "value": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nobackground11_0",
+    "children": []
   },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
   "settingDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nobackground11"
 }
 ```
@@ -82,14 +82,14 @@ The "Process even if the Group Policy objects have not changed" option updates a
 #### device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nochanges11
 ```json
 {
-  "auditRuleInformation": null,
   "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "settingValueTemplateReference": null,
-    "children": [],
-    "value": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nochanges11_1"
+    "value": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nochanges11_1",
+    "children": []
   },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
   "settingDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nochanges11"
 }
 ```
@@ -107,17 +107,17 @@ If you disable this setting, LSA does not load custom SSPs and APs.
 ```json
 {
   "description": null,
-  "name": "Disabled",
   "optionValue": {
-    "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null,
     "value": 0
   },
-  "helpText": null,
   "dependedOnBy": [],
   "dependentOn": [],
   "itemId": "device_vendor_msft_policy_config_localsecurityauthority_allowcustomsspsaps_0",
-  "displayName": "Disabled"
+  "helpText": null,
+  "displayName": "Disabled",
+  "name": "Disabled"
 }
 ```
 
@@ -139,17 +139,17 @@ If you do not configure this policy setting, users control this setting.
 ```json
 {
   "description": null,
-  "name": "Disabled",
   "optionValue": {
-    "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null,
     "value": 0
   },
-  "helpText": null,
   "dependedOnBy": [],
   "dependentOn": [],
   "itemId": "device_vendor_msft_policy_config_admx_power_dcconnectivityinstandby_2_0",
-  "displayName": "Disabled"
+  "helpText": null,
+  "displayName": "Disabled",
+  "name": "Disabled"
 }
 ```
 
@@ -171,17 +171,17 @@ If you do not configure this policy setting, users control this setting.
 ```json
 {
   "description": null,
-  "name": "Disabled",
   "optionValue": {
-    "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null,
     "value": 0
   },
-  "helpText": null,
   "dependedOnBy": [],
   "dependentOn": [],
   "itemId": "device_vendor_msft_policy_config_admx_power_acconnectivityinstandby_2_0",
-  "displayName": "Disabled"
+  "helpText": null,
+  "displayName": "Disabled",
+  "name": "Disabled"
 }
 ```
 
@@ -201,17 +201,17 @@ If you do not configure this policy setting, users control this setting.
 ```json
 {
   "description": null,
-  "name": "Disabled",
   "optionValue": {
-    "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null,
     "value": 0
   },
-  "helpText": null,
   "dependedOnBy": [],
   "dependentOn": [],
   "itemId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_scan_disablepackedexescanning_0",
-  "displayName": "Disabled"
+  "helpText": null,
+  "displayName": "Disabled",
+  "name": "Disabled"
 }
 ```
 
@@ -226,17 +226,17 @@ If you do not configure this policy setting, users control this setting.
 ```json
 {
   "description": "Enabled",
-  "name": "Enabled",
   "optionValue": {
-    "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null,
     "value": 1
   },
-  "helpText": null,
   "dependedOnBy": [],
   "dependentOn": [],
   "itemId": "device_vendor_msft_policy_config_lanmanserver_enableauthratelimiter_1",
-  "displayName": "Enabled"
+  "helpText": null,
+  "displayName": "Enabled",
+  "name": "Enabled"
 }
 ```
 
@@ -251,17 +251,17 @@ If you do not configure this policy setting, users control this setting.
 ```json
 {
   "description": "SMB 3.1.1",
-  "name": "SMB 3.1.1",
   "optionValue": {
-    "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null,
     "value": 785
   },
-  "helpText": null,
   "dependedOnBy": [],
   "dependentOn": [],
   "itemId": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect_785",
-  "displayName": "SMB 3.1.1"
+  "helpText": null,
+  "displayName": "SMB 3.1.1",
+  "name": "SMB 3.1.1"
 }
 ```
 
@@ -276,17 +276,17 @@ If you do not configure this policy setting, users control this setting.
 ```json
 {
   "description": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
-  "name": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
   "optionValue": {
-    "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null,
     "value": 1
   },
-  "helpText": null,
   "dependedOnBy": [],
   "dependentOn": [],
   "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_1",
-  "displayName": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked."
+  "helpText": null,
+  "displayName": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
+  "name": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked."
 }
 ```
 
@@ -301,17 +301,17 @@ If you do not configure this policy setting, users control this setting.
 ```json
 {
   "description": "Disabled",
-  "name": "Disabled",
   "optionValue": {
-    "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null,
     "value": 0
   },
-  "helpText": null,
   "dependedOnBy": [],
   "dependentOn": [],
   "itemId": "device_vendor_msft_policy_config_webthreatdefense_automaticdatacollection_0",
-  "displayName": "Disabled"
+  "helpText": null,
+  "displayName": "Disabled",
+  "name": "Disabled"
 }
 ```
 
@@ -319,107 +319,85 @@ If you do not configure this policy setting, users control this setting.
 ```json
 [
   {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "rootDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry",
-    "version": "639150686251400134",
+    "applicability": {
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "technologies": "mdm",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "10.0",
+      "description": null
+    },
+    "accessTypes": "none",
     "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/ADMX_GroupPolicy/CSE_Registry",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
     "defaultOptionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nobackground10_0",
-    "visibility": "settingsCatalog,template",
-    "keywords": [
-      "CSE_Registry",
-      "Configure registry policy processing",
-      "\\System\\Group Policy",
-      "Administrative Templates\\System\\Group Policy",
-      "Group Policy"
-    ],
+    "referredSettingInformationList": [],
     "options": [
       {
         "description": null,
-        "name": "False",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
           "value": 0
         },
-        "helpText": null,
         "dependedOnBy": [],
         "dependentOn": [
           {
-            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_1",
-            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry"
+            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry",
+            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_1"
           }
         ],
         "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nobackground10_0",
-        "displayName": "False"
+        "helpText": null,
+        "displayName": "False",
+        "name": "False"
       },
       {
         "description": null,
-        "name": "True",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
           "value": 1
         },
-        "helpText": null,
         "dependedOnBy": [],
         "dependentOn": [
           {
-            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_1",
-            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry"
+            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry",
+            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_1"
           }
         ],
         "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nobackground10_1",
-        "displayName": "True"
+        "helpText": null,
+        "displayName": "True",
+        "name": "True"
       }
     ],
-    "offsetUri": "/Config/ADMX_GroupPolicy/CSE_Registry",
-    "id": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nobackground10",
-    "description": null,
-    "riskLevel": "low",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "infoUrls": [],
-    "accessTypes": "none",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "referredSettingInformationList": [],
-    "uxBehavior": "toggle",
-    "applicability": {
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
-      "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiresAzureAd": false,
-      "technologies": "mdm"
-    },
     "displayName": "Do not apply during periodic background processing (Device)",
-    "name": "CSE_NOBACKGROUND10",
-    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry",
-    "version": "639150686251400134",
-    "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nochanges10_0",
-    "visibility": "settingsCatalog,template",
+    "description": null,
+    "infoUrls": [],
     "keywords": [
       "CSE_Registry",
       "Configure registry policy processing",
@@ -427,68 +405,25 @@ If you do not configure this policy setting, users control this setting.
       "Administrative Templates\\System\\Group Policy",
       "Group Policy"
     ],
-    "options": [
-      {
-        "description": null,
-        "name": "False",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_1",
-            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry"
-          }
-        ],
-        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nochanges10_0",
-        "displayName": "False"
-      },
-      {
-        "description": null,
-        "name": "True",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_1",
-            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry"
-          }
-        ],
-        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nochanges10_1",
-        "displayName": "True"
-      }
-    ],
-    "offsetUri": "/Config/ADMX_GroupPolicy/CSE_Registry",
-    "id": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nochanges10",
-    "description": null,
-    "riskLevel": "low",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "infoUrls": [],
-    "accessTypes": "none",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "id": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nobackground10",
+    "visibility": "settingsCatalog,template",
+    "version": "639150686251400134",
     "settingUsage": "configuration",
+    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5",
+    "name": "CSE_NOBACKGROUND10"
+  },
+  {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "referredSettingInformationList": [],
-    "uxBehavior": "toggle",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry",
     "applicability": {
       "platform": "windows10",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
       "maximumSupportedVersion": null,
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -500,54 +435,138 @@ If you do not configure this policy setting, users control this setting.
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
       "requiresAzureAd": false,
-      "technologies": "mdm"
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "10.0",
+      "description": null
     },
-    "displayName": "Process even if the Group Policy objects have not changed (Device)",
-    "name": "CSE_NOCHANGES10",
-    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry",
-    "version": "639150686251400134",
+    "accessTypes": "none",
     "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_0",
-    "visibility": "settingsCatalog,template",
+    "offsetUri": "/Config/ADMX_GroupPolicy/CSE_Registry",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nochanges10_0",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "description": null,
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "dependedOnBy": [],
+        "dependentOn": [
+          {
+            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry",
+            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_1"
+          }
+        ],
+        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nochanges10_0",
+        "helpText": null,
+        "displayName": "False",
+        "name": "False"
+      },
+      {
+        "description": null,
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "dependedOnBy": [],
+        "dependentOn": [
+          {
+            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry",
+            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_1"
+          }
+        ],
+        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nochanges10_1",
+        "helpText": null,
+        "displayName": "True",
+        "name": "True"
+      }
+    ],
+    "displayName": "Process even if the Group Policy objects have not changed (Device)",
+    "description": null,
+    "infoUrls": [],
     "keywords": [
       "CSE_Registry",
       "Configure registry policy processing",
       "\\System\\Group Policy",
       "Administrative Templates\\System\\Group Policy",
-      "Group Policy",
-      "Machine",
-      "Software\\Policies\\Microsoft\\Windows\\Group Policy\\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}"
+      "Group Policy"
     ],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "id": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nochanges10",
+    "visibility": "settingsCatalog,template",
+    "version": "639150686251400134",
+    "settingUsage": "configuration",
+    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5",
+    "name": "CSE_NOCHANGES10"
+  },
+  {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry",
+    "applicability": {
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "technologies": "mdm",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "10.0",
+      "description": null
+    },
+    "accessTypes": "none",
+    "helpText": "",
+    "offsetUri": "/Config/ADMX_GroupPolicy/CSE_Registry",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_0",
+    "referredSettingInformationList": [],
     "options": [
       {
         "description": null,
-        "name": "Disabled",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
           "value": 0
         },
-        "helpText": null,
         "dependedOnBy": [],
         "dependentOn": [],
         "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_0",
-        "displayName": "Disabled"
+        "helpText": null,
+        "displayName": "Disabled",
+        "name": "Disabled"
       },
       {
         "description": null,
-        "name": "Enabled",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
           "value": 1
         },
-        "helpText": null,
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nobackground10",
@@ -560,33 +579,44 @@ If you do not configure this policy setting, users control this setting.
         ],
         "dependentOn": [],
         "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_1",
-        "displayName": "Enabled"
+        "helpText": null,
+        "displayName": "Enabled",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_GroupPolicy/CSE_Registry",
-    "id": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry",
+    "displayName": "Configure registry policy processing",
     "description": "This policy setting determines when registry policies are updated.\r\n\r\nThis policy setting affects all policies in the Administrative Templates folder and any other policies that store values in the registry. It overrides customized settings that the program implementing a registry policy set when it was installed.\r\n\r\nIf you enable this policy setting, you can use the check boxes provided to change the options. If you disable or do not configure this policy setting, it has no effect on the system.\r\n\r\nThe \"Do not apply during periodic background processing\" option prevents the system from updating affected policies in the background while the computer is in use. When background updates are disabled, policy changes will not take effect until the next user logon or system restart.\r\n\r\nThe \"Process even if the Group Policy objects have not changed\" option updates and reapplies the policies even if the policies have not changed. Many policy implementations specify that they are updated only when changed. However, you might want to update unchanged policies, such as reapplying a desired policy setting in case a user has changed it.\r\n ",
-    "riskLevel": "low",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-grouppolicy#admx-grouppolicy-cse-registry"
     ],
-    "accessTypes": "none",
+    "keywords": [
+      "CSE_Registry",
+      "Configure registry policy processing",
+      "\\System\\Group Policy",
+      "Administrative Templates\\System\\Group Policy",
+      "Group Policy",
+      "Machine",
+      "Software\\Policies\\Microsoft\\Windows\\Group Policy\\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}"
+    ],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "id": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry",
+    "visibility": "settingsCatalog,template",
+    "version": "639150686251400134",
     "settingUsage": "configuration",
+    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5",
+    "name": "CSE_Registry"
+  },
+  {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "referredSettingInformationList": [],
-    "uxBehavior": "toggle",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security",
     "applicability": {
       "platform": "windows10",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
       "maximumSupportedVersion": null,
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -598,54 +628,43 @@ If you do not configure this policy setting, users control this setting.
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
       "requiresAzureAd": false,
-      "technologies": "mdm"
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "10.0",
+      "description": null
     },
-    "displayName": "Configure registry policy processing",
-    "name": "CSE_Registry",
-    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security",
-    "version": "639150686251400134",
+    "accessTypes": "none",
     "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/ADMX_GroupPolicy/CSE_Security",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
     "defaultOptionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_0",
-    "visibility": "settingsCatalog,template",
-    "keywords": [
-      "CSE_Security",
-      "Configure security policy processing",
-      "\\System\\Group Policy",
-      "Administrative Templates\\System\\Group Policy",
-      "Group Policy",
-      "Machine",
-      "Software\\Policies\\Microsoft\\Windows\\Group Policy\\{827D319E-6EAC-11D2-A4EA-00C04F79F83A}"
-    ],
+    "referredSettingInformationList": [],
     "options": [
       {
         "description": null,
-        "name": "Disabled",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
           "value": 0
         },
-        "helpText": null,
         "dependedOnBy": [],
         "dependentOn": [],
         "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_0",
-        "displayName": "Disabled"
+        "helpText": null,
+        "displayName": "Disabled",
+        "name": "Disabled"
       },
       {
         "description": null,
-        "name": "Enabled",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
           "value": 1
         },
-        "helpText": null,
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nobackground11",
@@ -658,33 +677,44 @@ If you do not configure this policy setting, users control this setting.
         ],
         "dependentOn": [],
         "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_1",
-        "displayName": "Enabled"
+        "helpText": null,
+        "displayName": "Enabled",
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Config/ADMX_GroupPolicy/CSE_Security",
-    "id": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security",
+    "displayName": "Configure security policy processing",
     "description": "This policy setting determines when security policies are updated.\r\n\r\nThis policy setting affects all policies that use the security component of Group Policy, such as those in Windows Settings\\Security Settings.\r\n\r\nThis policy setting overrides customized settings that the program implementing the security policy set when it was installed.\r\n\r\nIf you enable this policy setting, you can use the check boxes provided to change the options. If you disable or do not configure this policy setting, it has no effect on the system.\r\n\r\nThe \"Do not apply during periodic background processing\" option prevents the system from updating affected policies in the background while the computer is in use. When background updates are disabled, policy changes will not take effect until the next user logon or system restart.\r\n\r\nThe \"Process even if the Group Policy objects have not changed\" option updates and reapplies the policies even if the policies have not changed. Many policy implementations specify that they be updated only when changed. However, you might want to update unchanged policies, such as reapplying a desired policy setting in case a user has changed it.\r\n ",
-    "riskLevel": "low",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-grouppolicy#admx-grouppolicy-cse-security"
     ],
-    "accessTypes": "none",
+    "keywords": [
+      "CSE_Security",
+      "Configure security policy processing",
+      "\\System\\Group Policy",
+      "Administrative Templates\\System\\Group Policy",
+      "Group Policy",
+      "Machine",
+      "Software\\Policies\\Microsoft\\Windows\\Group Policy\\{827D319E-6EAC-11D2-A4EA-00C04F79F83A}"
+    ],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "id": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security",
+    "visibility": "settingsCatalog,template",
+    "version": "639150686251400134",
     "settingUsage": "configuration",
+    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5",
+    "name": "CSE_Security"
+  },
+  {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "referredSettingInformationList": [],
-    "uxBehavior": "toggle",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security",
     "applicability": {
       "platform": "windows10",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
       "maximumSupportedVersion": null,
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -696,116 +726,64 @@ If you do not configure this policy setting, users control this setting.
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
       "requiresAzureAd": false,
-      "technologies": "mdm"
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "10.0",
+      "description": null
     },
-    "displayName": "Configure security policy processing",
-    "name": "CSE_Security",
-    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security",
-    "version": "639150686251400134",
+    "accessTypes": "none",
     "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/ADMX_GroupPolicy/CSE_Security",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
     "defaultOptionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nobackground11_0",
-    "visibility": "settingsCatalog,template",
-    "keywords": [
-      "CSE_Security",
-      "Configure security policy processing",
-      "\\System\\Group Policy",
-      "Administrative Templates\\System\\Group Policy",
-      "Group Policy"
-    ],
+    "referredSettingInformationList": [],
     "options": [
       {
         "description": null,
-        "name": "False",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
           "value": 0
         },
-        "helpText": null,
         "dependedOnBy": [],
         "dependentOn": [
           {
-            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_1",
-            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security"
+            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security",
+            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_1"
           }
         ],
         "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nobackground11_0",
-        "displayName": "False"
+        "helpText": null,
+        "displayName": "False",
+        "name": "False"
       },
       {
         "description": null,
-        "name": "True",
         "optionValue": {
-          "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
           "value": 1
         },
-        "helpText": null,
         "dependedOnBy": [],
         "dependentOn": [
           {
-            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_1",
-            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security"
+            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security",
+            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_1"
           }
         ],
         "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nobackground11_1",
-        "displayName": "True"
+        "helpText": null,
+        "displayName": "True",
+        "name": "True"
       }
     ],
-    "offsetUri": "/Config/ADMX_GroupPolicy/CSE_Security",
-    "id": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nobackground11",
-    "description": null,
-    "riskLevel": "low",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "infoUrls": [],
-    "accessTypes": "none",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "referredSettingInformationList": [],
-    "uxBehavior": "toggle",
-    "applicability": {
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
-      "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiresAzureAd": false,
-      "technologies": "mdm"
-    },
     "displayName": "Do not apply during periodic background processing (Device)",
-    "name": "CSE_NOBACKGROUND11",
-    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security",
-    "version": "639150686251400134",
-    "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nochanges11_0",
-    "visibility": "settingsCatalog,template",
+    "description": null,
+    "infoUrls": [],
     "keywords": [
       "CSE_Security",
       "Configure security policy processing",
@@ -813,68 +791,25 @@ If you do not configure this policy setting, users control this setting.
       "Administrative Templates\\System\\Group Policy",
       "Group Policy"
     ],
-    "options": [
-      {
-        "description": null,
-        "name": "False",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_1",
-            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security"
-          }
-        ],
-        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nochanges11_0",
-        "displayName": "False"
-      },
-      {
-        "description": null,
-        "name": "True",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_1",
-            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security"
-          }
-        ],
-        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nochanges11_1",
-        "displayName": "True"
-      }
-    ],
-    "offsetUri": "/Config/ADMX_GroupPolicy/CSE_Security",
-    "id": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nochanges11",
-    "description": null,
-    "riskLevel": "low",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "infoUrls": [],
-    "accessTypes": "none",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "id": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nobackground11",
+    "visibility": "settingsCatalog,template",
+    "version": "639150686251400134",
     "settingUsage": "configuration",
+    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5",
+    "name": "CSE_NOBACKGROUND11"
+  },
+  {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "referredSettingInformationList": [],
-    "uxBehavior": "toggle",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security",
     "applicability": {
       "platform": "windows10",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
       "maximumSupportedVersion": null,
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -886,21 +821,148 @@ If you do not configure this policy setting, users control this setting.
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
       "requiresAzureAd": false,
-      "technologies": "mdm"
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "10.0",
+      "description": null
     },
+    "accessTypes": "none",
+    "helpText": "",
+    "offsetUri": "/Config/ADMX_GroupPolicy/CSE_Security",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nochanges11_0",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "description": null,
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "dependedOnBy": [],
+        "dependentOn": [
+          {
+            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security",
+            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_1"
+          }
+        ],
+        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nochanges11_0",
+        "helpText": null,
+        "displayName": "False",
+        "name": "False"
+      },
+      {
+        "description": null,
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "dependedOnBy": [],
+        "dependentOn": [
+          {
+            "parentSettingId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security",
+            "dependentOn": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_1"
+          }
+        ],
+        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nochanges11_1",
+        "helpText": null,
+        "displayName": "True",
+        "name": "True"
+      }
+    ],
     "displayName": "Process even if the Group Policy objects have not changed (Device)",
-    "name": "CSE_NOCHANGES11",
-    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5"
+    "description": null,
+    "infoUrls": [],
+    "keywords": [
+      "CSE_Security",
+      "Configure security policy processing",
+      "\\System\\Group Policy",
+      "Administrative Templates\\System\\Group Policy",
+      "Group Policy"
+    ],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "id": "device_vendor_msft_policy_config_admx_grouppolicy_cse_security_cse_nochanges11",
+    "visibility": "settingsCatalog,template",
+    "version": "639150686251400134",
+    "settingUsage": "configuration",
+    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5",
+    "name": "CSE_NOCHANGES11"
   },
   {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "rootDefinitionId": "device_vendor_msft_policy_config_localsecurityauthority_allowcustomsspsaps",
-    "version": "639150686251400134",
+    "applicability": {
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "technologies": "mdm",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.22621",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "11.0",
+      "description": null
+    },
+    "accessTypes": "none",
     "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/LocalSecurityAuthority/AllowCustomSSPsAPs",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
     "defaultOptionId": "device_vendor_msft_policy_config_localsecurityauthority_allowcustomsspsaps_0",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "description": null,
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_allowcustomsspsaps_0",
+        "helpText": null,
+        "displayName": "Disabled",
+        "name": "Disabled"
+      },
+      {
+        "description": null,
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_allowcustomsspsaps_1",
+        "helpText": null,
+        "displayName": "Enabled",
+        "name": "Enabled"
+      }
+    ],
+    "displayName": "Allow Custom SSPs and APs to be loaded into LSASS",
+    "description": "This policy controls the configuration under which LSASS loads custom SSPs and APs.\r\n\r\nIf you enable this setting or do not configure it, LSA allows custom SSPs and APs to be loaded.\r\n\r\nIf you disable this setting, LSA does not load custom SSPs and APs.",
+    "infoUrls": [],
     "keywords": [
       "AllowCustomSSPsAPs",
       "Allow Custom SSPs and APs to be loaded into LSASS",
@@ -910,83 +972,86 @@ If you do not configure this policy setting, users control this setting.
       "Machine",
       "Software\\Policies\\Microsoft\\Windows\\System"
     ],
-    "options": [
-      {
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_allowcustomsspsaps_0",
-        "displayName": "Disabled"
-      },
-      {
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_allowcustomsspsaps_1",
-        "displayName": "Enabled"
-      }
-    ],
-    "offsetUri": "/Config/LocalSecurityAuthority/AllowCustomSSPsAPs",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "id": "device_vendor_msft_policy_config_localsecurityauthority_allowcustomsspsaps",
-    "description": "This policy controls the configuration under which LSASS loads custom SSPs and APs.\r\n\r\nIf you enable this setting or do not configure it, LSA allows custom SSPs and APs to be loaded.\r\n\r\nIf you disable this setting, LSA does not load custom SSPs and APs.",
-    "riskLevel": "low",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "infoUrls": [],
-    "accessTypes": "none",
+    "visibility": "settingsCatalog,template",
+    "version": "639150686251400134",
     "settingUsage": "configuration",
+    "categoryId": "e740736f-75f9-481d-990c-02018abc2ea5",
+    "name": "AllowCustomSSPsAPs"
+  },
+  {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "referredSettingInformationList": [],
-    "uxBehavior": "toggle",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_power_dcconnectivityinstandby_2",
     "applicability": {
       "platform": "windows10",
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
       "maximumSupportedVersion": null,
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
         "windowsEducation",
+        "holographicForBusiness",
         "windowsMultiSession",
         "iotEnterprise",
         "windowsCloudN",
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
       "requiresAzureAd": false,
-      "technologies": "mdm"
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "10.0",
+      "description": null
     },
-    "displayName": "Allow Custom SSPs and APs to be loaded into LSASS",
-    "name": "AllowCustomSSPsAPs",
-    "categoryId": "e740736f-75f9-481d-990c-02018abc2ea5"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_power_dcconnectivityinstandby_2",
-    "version": "639150686251400134",
+    "accessTypes": "none",
     "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/ADMX_Power/DCConnectivityInStandby_2",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
     "defaultOptionId": "device_vendor_msft_policy_config_admx_power_dcconnectivityinstandby_2_0",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "description": null,
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_admx_power_dcconnectivityinstandby_2_0",
+        "helpText": null,
+        "displayName": "Disabled",
+        "name": "Disabled"
+      },
+      {
+        "description": null,
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_admx_power_dcconnectivityinstandby_2_1",
+        "helpText": null,
+        "displayName": "Enabled",
+        "name": "Enabled"
+      }
+    ],
+    "displayName": "Allow network connectivity during connected-standby (on battery)",
+    "description": "This policy setting allows you to control the network connectivity state in standby on modern standby-capable systems.\r\n\r\nIf you enable this policy setting, network connectivity will be maintained in standby.\r\n\r\nIf you disable this policy setting, network connectivity in standby is not guaranteed. This connectivity restriction currently applies to WLAN networks only, and is subject to change.\r\n\r\nIf you do not configure this policy setting, users control this setting.\r\n ",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-power#admx-power-dcconnectivityinstandby-2"
+    ],
     "keywords": [
       "DCConnectivityInStandby_2",
       "Allow network connectivity during connected-standby (on battery)",
@@ -997,60 +1062,25 @@ If you do not configure this policy setting, users control this setting.
       "Software\\Policies\\Microsoft\\Power\\PowerSettings\\f15576e8-98b7-4186-b944-eafa664402d9",
       "DCSettingIndex"
     ],
-    "options": [
-      {
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_power_dcconnectivityinstandby_2_0",
-        "displayName": "Disabled"
-      },
-      {
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_power_dcconnectivityinstandby_2_1",
-        "displayName": "Enabled"
-      }
-    ],
-    "offsetUri": "/Config/ADMX_Power/DCConnectivityInStandby_2",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "id": "device_vendor_msft_policy_config_admx_power_dcconnectivityinstandby_2",
-    "description": "This policy setting allows you to control the network connectivity state in standby on modern standby-capable systems.\r\n\r\nIf you enable this policy setting, network connectivity will be maintained in standby.\r\n\r\nIf you disable this policy setting, network connectivity in standby is not guaranteed. This connectivity restriction currently applies to WLAN networks only, and is subject to change.\r\n\r\nIf you do not configure this policy setting, users control this setting.\r\n ",
-    "riskLevel": "low",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-power#admx-power-dcconnectivityinstandby-2"
-    ],
-    "accessTypes": "none",
+    "visibility": "settingsCatalog,template",
+    "version": "639150686251400134",
     "settingUsage": "configuration",
+    "categoryId": "4b2f3557-98e9-48d2-9b78-bcb100f72372",
+    "name": "DCConnectivityInStandby_2"
+  },
+  {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "referredSettingInformationList": [],
-    "uxBehavior": "toggle",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_power_acconnectivityinstandby_2",
     "applicability": {
       "platform": "windows10",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
       "maximumSupportedVersion": null,
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1062,21 +1092,56 @@ If you do not configure this policy setting, users control this setting.
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
       "requiresAzureAd": false,
-      "technologies": "mdm"
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "10.0",
+      "description": null
     },
-    "displayName": "Allow network connectivity during connected-standby (on battery)",
-    "name": "DCConnectivityInStandby_2",
-    "categoryId": "4b2f3557-98e9-48d2-9b78-bcb100f72372"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_power_acconnectivityinstandby_2",
-    "version": "639150686251400134",
+    "accessTypes": "none",
     "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/ADMX_Power/ACConnectivityInStandby_2",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
     "defaultOptionId": "device_vendor_msft_policy_config_admx_power_acconnectivityinstandby_2_0",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "description": null,
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_admx_power_acconnectivityinstandby_2_0",
+        "helpText": null,
+        "displayName": "Disabled",
+        "name": "Disabled"
+      },
+      {
+        "description": null,
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_admx_power_acconnectivityinstandby_2_1",
+        "helpText": null,
+        "displayName": "Enabled",
+        "name": "Enabled"
+      }
+    ],
+    "displayName": "Allow network connectivity during connected-standby (plugged in)",
+    "description": "This policy setting allows you to control the network connectivity state in standby on modern standby-capable systems.\r\n\r\nIf you enable this policy setting, network connectivity will be maintained in standby.\r\n\r\nIf you disable this policy setting, network connectivity in standby is not guaranteed. This connectivity restriction currently applies to WLAN networks only, and is subject to change.\r\n\r\nIf you do not configure this policy setting, users control this setting.\r\n ",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-power#admx-power-acconnectivityinstandby-2"
+    ],
     "keywords": [
       "ACConnectivityInStandby_2",
       "Allow network connectivity during connected-standby (plugged in)",
@@ -1087,60 +1152,25 @@ If you do not configure this policy setting, users control this setting.
       "Software\\Policies\\Microsoft\\Power\\PowerSettings\\f15576e8-98b7-4186-b944-eafa664402d9",
       "ACSettingIndex"
     ],
-    "options": [
-      {
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_power_acconnectivityinstandby_2_0",
-        "displayName": "Disabled"
-      },
-      {
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_power_acconnectivityinstandby_2_1",
-        "displayName": "Enabled"
-      }
-    ],
-    "offsetUri": "/Config/ADMX_Power/ACConnectivityInStandby_2",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "id": "device_vendor_msft_policy_config_admx_power_acconnectivityinstandby_2",
-    "description": "This policy setting allows you to control the network connectivity state in standby on modern standby-capable systems.\r\n\r\nIf you enable this policy setting, network connectivity will be maintained in standby.\r\n\r\nIf you disable this policy setting, network connectivity in standby is not guaranteed. This connectivity restriction currently applies to WLAN networks only, and is subject to change.\r\n\r\nIf you do not configure this policy setting, users control this setting.\r\n ",
-    "riskLevel": "low",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-power#admx-power-acconnectivityinstandby-2"
-    ],
-    "accessTypes": "none",
+    "visibility": "settingsCatalog,template",
+    "version": "639150686251400134",
     "settingUsage": "configuration",
+    "categoryId": "4b2f3557-98e9-48d2-9b78-bcb100f72372",
+    "name": "ACConnectivityInStandby_2"
+  },
+  {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "referredSettingInformationList": [],
-    "uxBehavior": "toggle",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_scan_disablepackedexescanning",
     "applicability": {
       "platform": "windows10",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
       "maximumSupportedVersion": null,
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1152,21 +1182,56 @@ If you do not configure this policy setting, users control this setting.
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
       "requiresAzureAd": false,
-      "technologies": "mdm"
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "10.0",
+      "description": null
     },
-    "displayName": "Allow network connectivity during connected-standby (plugged in)",
-    "name": "ACConnectivityInStandby_2",
-    "categoryId": "4b2f3557-98e9-48d2-9b78-bcb100f72372"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_scan_disablepackedexescanning",
-    "version": "639150686251400134",
+    "accessTypes": "none",
     "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/ADMX_MicrosoftDefenderAntivirus/Scan_DisablePackedExeScanning",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
     "defaultOptionId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_scan_disablepackedexescanning_0",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "description": null,
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_scan_disablepackedexescanning_0",
+        "helpText": null,
+        "displayName": "Disabled",
+        "name": "Disabled"
+      },
+      {
+        "description": null,
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_scan_disablepackedexescanning_1",
+        "helpText": null,
+        "displayName": "Enabled",
+        "name": "Enabled"
+      }
+    ],
+    "displayName": "Scan packed executables",
+    "description": "This policy setting allows you to configure scanning for packed executables. It is recommended that this type of scanning remain enabled.\r\n\r\n    If you enable or do not configure this setting, packed executables will  be scanned.\r\n\r\n    If you disable this setting, packed executables will not be scanned.\r\n ",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-microsoftdefenderantivirus#admx-microsoftdefenderantivirus-scan-disablepackedexescanning"
+    ],
     "keywords": [
       "Scan_DisablePackedExeScanning",
       "Scan packed executables",
@@ -1177,144 +1242,108 @@ If you do not configure this policy setting, users control this setting.
       "Software\\Policies\\Microsoft\\Windows Defender\\Scan",
       "DisablePackedExeScanning"
     ],
-    "options": [
-      {
-        "description": null,
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_scan_disablepackedexescanning_0",
-        "displayName": "Disabled"
-      },
-      {
-        "description": null,
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_scan_disablepackedexescanning_1",
-        "displayName": "Enabled"
-      }
-    ],
-    "offsetUri": "/Config/ADMX_MicrosoftDefenderAntivirus/Scan_DisablePackedExeScanning",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "id": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_scan_disablepackedexescanning",
-    "description": "This policy setting allows you to configure scanning for packed executables. It is recommended that this type of scanning remain enabled.\r\n\r\n    If you enable or do not configure this setting, packed executables will  be scanned.\r\n\r\n    If you disable this setting, packed executables will not be scanned.\r\n ",
-    "riskLevel": "low",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 1
-    },
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-microsoftdefenderantivirus#admx-microsoftdefenderantivirus-scan-disablepackedexescanning"
-    ],
-    "accessTypes": "none",
+    "visibility": "settingsCatalog,template",
+    "version": "639150686251400134",
     "settingUsage": "configuration",
+    "categoryId": "431c3b32-abe7-4534-81a1-9f10c8e0c512",
+    "name": "Scan_DisablePackedExeScanning"
+  },
+  {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "referredSettingInformationList": [],
-    "uxBehavior": "toggle",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_lanmanserver_enableauthratelimiter",
     "applicability": {
       "platform": "windows10",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "configurationServiceProviderVersion": "10.0",
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
       "maximumSupportedVersion": null,
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
         "windowsEducation",
-        "holographicForBusiness",
         "windowsMultiSession",
         "iotEnterprise",
         "windowsCloudN",
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
       "requiresAzureAd": false,
-      "technologies": "mdm"
+      "minimumSupportedVersion": "10.0.26100.3613",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "11.0",
+      "description": null
     },
-    "displayName": "Scan packed executables",
-    "name": "Scan_DisablePackedExeScanning",
-    "categoryId": "431c3b32-abe7-4534-81a1-9f10c8e0c512"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_lanmanserver_enableauthratelimiter",
-    "version": "639150686251400134",
+    "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/LanmanServer/EnableAuthRateLimiter",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
     "defaultOptionId": "device_vendor_msft_policy_config_lanmanserver_enableauthratelimiter_1",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "description": "Disabled",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_lanmanserver_enableauthratelimiter_0",
+        "helpText": null,
+        "displayName": "Disabled",
+        "name": "Disabled"
+      },
+      {
+        "description": "Enabled",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_lanmanserver_enableauthratelimiter_1",
+        "helpText": null,
+        "displayName": "Enabled",
+        "name": "Enabled"
+      }
+    ],
+    "displayName": "Enable Auth Rate Limiter",
+    "description": "This policy controls whether the SMB server will enable or disable the authentication rate limiter. If you disable this policy setting, the authentication rate limiter will not be enabled. If you do not configure this policy setting, the authentication rate limiter may still be working depending on the delay settings (the recommended delay value is 2000ms).",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LanmanServer#enableauthratelimiter"
+    ],
     "keywords": [
       "Enable Auth Rate Limiter",
       "Lanman Server"
     ],
-    "options": [
-      {
-        "description": "Disabled",
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_lanmanserver_enableauthratelimiter_0",
-        "displayName": "Disabled"
-      },
-      {
-        "description": "Enabled",
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_lanmanserver_enableauthratelimiter_1",
-        "displayName": "Enabled"
-      }
-    ],
-    "offsetUri": "/Config/LanmanServer/EnableAuthRateLimiter",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "id": "device_vendor_msft_policy_config_lanmanserver_enableauthratelimiter",
-    "description": "This policy controls whether the SMB server will enable or disable the authentication rate limiter. If you disable this policy setting, the authentication rate limiter will not be enabled. If you do not configure this policy setting, the authentication rate limiter may still be working depending on the delay settings (the recommended delay value is 2000ms).",
-    "riskLevel": "low",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LanmanServer#enableauthratelimiter"
-    ],
-    "accessTypes": "add,delete,get,replace",
+    "visibility": "settingsCatalog,template",
+    "version": "639150686251400134",
     "settingUsage": "configuration",
+    "categoryId": "1c3001ea-af28-4291-94b0-7f12ea93d3ca",
+    "name": "EnableAuthRateLimiter"
+  },
+  {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "referredSettingInformationList": [],
-    "uxBehavior": "toggle",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect",
     "applicability": {
       "platform": "windows10",
-      "minimumSupportedVersion": "10.0.26100.3613",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
       "maximumSupportedVersion": null,
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1325,121 +1354,121 @@ If you do not configure this policy setting, users control this setting.
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
       "requiresAzureAd": false,
-      "technologies": "mdm"
+      "minimumSupportedVersion": "10.0.26100.3613",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "11.0",
+      "description": null
     },
-    "displayName": "Enable Auth Rate Limiter",
-    "name": "EnableAuthRateLimiter",
-    "categoryId": "1c3001ea-af28-4291-94b0-7f12ea93d3ca"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect",
-    "version": "639150686251400134",
+    "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/LanmanServer/MinSmb2Dialect",
+    "uxBehavior": "default",
+    "riskLevel": "low",
     "defaultOptionId": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect_514",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "description": "SMB 2.0.2",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 514
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect_514",
+        "helpText": null,
+        "displayName": "SMB 2.0.2",
+        "name": "SMB 2.0.2"
+      },
+      {
+        "description": "SMB 2.1.0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 528
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect_528",
+        "helpText": null,
+        "displayName": "SMB 2.1.0",
+        "name": "SMB 2.1.0"
+      },
+      {
+        "description": "SMB 3.0.0",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 768
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect_768",
+        "helpText": null,
+        "displayName": "SMB 3.0.0",
+        "name": "SMB 3.0.0"
+      },
+      {
+        "description": "SMB 3.0.2",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 770
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect_770",
+        "helpText": null,
+        "displayName": "SMB 3.0.2",
+        "name": "SMB 3.0.2"
+      },
+      {
+        "description": "SMB 3.1.1",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 785
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect_785",
+        "helpText": null,
+        "displayName": "SMB 3.1.1",
+        "name": "SMB 3.1.1"
+      }
+    ],
+    "displayName": "Min Smb2 Dialect",
+    "description": "This policy controls the minimum version of SMB protocol. Note: This group policy does not prevent use of SMB 1 if that component is still installed and enabled.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LanmanServer#minsmb2dialect"
+    ],
     "keywords": [
       "Min Smb2 Dialect",
       "Lanman Server"
     ],
-    "options": [
-      {
-        "description": "SMB 2.0.2",
-        "name": "SMB 2.0.2",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 514
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect_514",
-        "displayName": "SMB 2.0.2"
-      },
-      {
-        "description": "SMB 2.1.0",
-        "name": "SMB 2.1.0",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 528
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect_528",
-        "displayName": "SMB 2.1.0"
-      },
-      {
-        "description": "SMB 3.0.0",
-        "name": "SMB 3.0.0",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 768
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect_768",
-        "displayName": "SMB 3.0.0"
-      },
-      {
-        "description": "SMB 3.0.2",
-        "name": "SMB 3.0.2",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 770
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect_770",
-        "displayName": "SMB 3.0.2"
-      },
-      {
-        "description": "SMB 3.1.1",
-        "name": "SMB 3.1.1",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 785
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect_785",
-        "displayName": "SMB 3.1.1"
-      }
-    ],
-    "offsetUri": "/Config/LanmanServer/MinSmb2Dialect",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "id": "device_vendor_msft_policy_config_lanmanserver_minsmb2dialect",
-    "description": "This policy controls the minimum version of SMB protocol. Note: This group policy does not prevent use of SMB 1 if that component is still installed and enabled.",
-    "riskLevel": "low",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LanmanServer#minsmb2dialect"
-    ],
-    "accessTypes": "add,delete,get,replace",
+    "visibility": "settingsCatalog,template",
+    "version": "639150686251400134",
     "settingUsage": "configuration",
+    "categoryId": "1c3001ea-af28-4291-94b0-7f12ea93d3ca",
+    "name": "MinSmb2Dialect"
+  },
+  {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "referredSettingInformationList": [],
-    "uxBehavior": "default",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess",
     "applicability": {
       "platform": "windows10",
-      "minimumSupportedVersion": "10.0.26100.3613",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
       "maximumSupportedVersion": null,
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1450,93 +1479,93 @@ If you do not configure this policy setting, users control this setting.
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
       "requiresAzureAd": false,
-      "technologies": "mdm"
+      "minimumSupportedVersion": "10.0.22621",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "11.0",
+      "description": null
     },
-    "displayName": "Min Smb2 Dialect",
-    "name": "MinSmb2Dialect",
-    "categoryId": "1c3001ea-af28-4291-94b0-7f12ea93d3ca"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess",
-    "version": "639150686251400134",
+    "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/LocalSecurityAuthority/ConfigureLsaProtectedProcess",
+    "uxBehavior": "default",
+    "riskLevel": "low",
     "defaultOptionId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_0",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "description": "Disabled. Default value. LSA will not run as protected process.",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_0",
+        "helpText": null,
+        "displayName": "Disabled. Default value. LSA will not run as protected process.",
+        "name": "Disabled. Default value. LSA will not run as protected process."
+      },
+      {
+        "description": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_1",
+        "helpText": null,
+        "displayName": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
+        "name": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked."
+      },
+      {
+        "description": "Enabled without UEFI lock. LSA will run as protected process and this configuration is not UEFI locked.",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 2
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_2",
+        "helpText": null,
+        "displayName": "Enabled without UEFI lock. LSA will run as protected process and this configuration is not UEFI locked.",
+        "name": "Enabled without UEFI lock. LSA will run as protected process and this configuration is not UEFI locked."
+      }
+    ],
+    "displayName": "Configure Lsa Protected Process",
+    "description": "If you do not configure this policy and there is no current setting in the registry, LSA will run as protected process for all clean installed, HVCI capable, client SKUs. This configuration is not UEFI locked. This can be overridden if the policy is configured. If you configure and set this policy setting to 'Disabled', LSA will not run as a protected process. If you configure and set this policy setting to 'EnabledWithUEFILock', LSA will run as a protected process and this configuration is UEFI locked. If you configure and set this policy setting to 'EnabledWithoutUEFILock', LSA will run as a protected process and this configuration is not UEFI locked.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalSecurityAuthority#configurelsaprotectedprocess"
+    ],
     "keywords": [
       "Configure Lsa Protected Process",
       "Local Security Authority"
     ],
-    "options": [
-      {
-        "description": "Disabled. Default value. LSA will not run as protected process.",
-        "name": "Disabled. Default value. LSA will not run as protected process.",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_0",
-        "displayName": "Disabled. Default value. LSA will not run as protected process."
-      },
-      {
-        "description": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
-        "name": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked.",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_1",
-        "displayName": "Enabled with UEFI lock. LSA will run as protected process and this configuration is UEFI locked."
-      },
-      {
-        "description": "Enabled without UEFI lock. LSA will run as protected process and this configuration is not UEFI locked.",
-        "name": "Enabled without UEFI lock. LSA will run as protected process and this configuration is not UEFI locked.",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 2
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess_2",
-        "displayName": "Enabled without UEFI lock. LSA will run as protected process and this configuration is not UEFI locked."
-      }
-    ],
-    "offsetUri": "/Config/LocalSecurityAuthority/ConfigureLsaProtectedProcess",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "id": "device_vendor_msft_policy_config_localsecurityauthority_configurelsaprotectedprocess",
-    "description": "If you do not configure this policy and there is no current setting in the registry, LSA will run as protected process for all clean installed, HVCI capable, client SKUs. This configuration is not UEFI locked. This can be overridden if the policy is configured. If you configure and set this policy setting to 'Disabled', LSA will not run as a protected process. If you configure and set this policy setting to 'EnabledWithUEFILock', LSA will run as a protected process and this configuration is UEFI locked. If you configure and set this policy setting to 'EnabledWithoutUEFILock', LSA will run as a protected process and this configuration is not UEFI locked.",
-    "riskLevel": "low",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-LocalSecurityAuthority#configurelsaprotectedprocess"
-    ],
-    "accessTypes": "add,delete,get,replace",
+    "visibility": "settingsCatalog,template",
+    "version": "639150686251400134",
     "settingUsage": "configuration",
+    "categoryId": "a279f35f-cd71-4489-b0c3-545ea1aa229d",
+    "name": "ConfigureLsaProtectedProcess"
+  },
+  {
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "referredSettingInformationList": [],
-    "uxBehavior": "default",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "rootDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_automaticdatacollection",
     "applicability": {
       "platform": "windows10",
-      "minimumSupportedVersion": "10.0.22621",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
       "requiredAzureAdTrustType": "none",
       "maximumSupportedVersion": null,
-      "description": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1547,97 +1576,68 @@ If you do not configure this policy setting, users control this setting.
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "technologies": "mdm",
       "requiresAzureAd": false,
-      "technologies": "mdm"
+      "minimumSupportedVersion": "10.0.26100",
+      "deviceMode": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "11.0",
+      "description": null
     },
-    "displayName": "Configure Lsa Protected Process",
-    "name": "ConfigureLsaProtectedProcess",
-    "categoryId": "a279f35f-cd71-4489-b0c3-545ea1aa229d"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_webthreatdefense_automaticdatacollection",
-    "version": "639150686251400134",
+    "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "offsetUri": "/Config/WebThreatDefense/AutomaticDataCollection",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
     "defaultOptionId": "device_vendor_msft_policy_config_webthreatdefense_automaticdatacollection_0",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "description": "Disabled",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_webthreatdefense_automaticdatacollection_0",
+        "helpText": null,
+        "displayName": "Disabled",
+        "name": "Disabled"
+      },
+      {
+        "description": "Enabled",
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "dependedOnBy": [],
+        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_webthreatdefense_automaticdatacollection_1",
+        "helpText": null,
+        "displayName": "Enabled",
+        "name": "Enabled"
+      }
+    ],
+    "displayName": "Automatic Data Collection",
+    "description": "Automatically collect website or app content when additional analysis is needed to help identify security threats.",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-WebThreatDefense#automaticdatacollection"
+    ],
     "keywords": [
       "Automatic Data Collection",
       "Web Threat Defense",
       "Enhanced Phishing Protection"
     ],
-    "options": [
-      {
-        "description": "Disabled",
-        "name": "Disabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 0
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_webthreatdefense_automaticdatacollection_0",
-        "displayName": "Disabled"
-      },
-      {
-        "description": "Enabled",
-        "name": "Enabled",
-        "optionValue": {
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "value": 1
-        },
-        "helpText": null,
-        "dependedOnBy": [],
-        "dependentOn": [],
-        "itemId": "device_vendor_msft_policy_config_webthreatdefense_automaticdatacollection_1",
-        "displayName": "Enabled"
-      }
-    ],
-    "offsetUri": "/Config/WebThreatDefense/AutomaticDataCollection",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "id": "device_vendor_msft_policy_config_webthreatdefense_automaticdatacollection",
-    "description": "Automatically collect website or app content when additional analysis is needed to help identify security threats.",
-    "riskLevel": "low",
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-WebThreatDefense#automaticdatacollection"
-    ],
-    "accessTypes": "add,delete,get,replace",
+    "visibility": "settingsCatalog,template",
+    "version": "639150686251400134",
     "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "referredSettingInformationList": [],
-    "uxBehavior": "toggle",
-    "applicability": {
-      "platform": "windows10",
-      "minimumSupportedVersion": "10.0.26100",
-      "configurationServiceProviderVersion": "11.0",
-      "deviceMode": "none",
-      "requiredAzureAdTrustType": "none",
-      "maximumSupportedVersion": null,
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiresAzureAd": false,
-      "technologies": "mdm"
-    },
-    "displayName": "Automatic Data Collection",
-    "name": "AutomaticDataCollection",
-    "categoryId": "20b71dc7-cf08-4534-9e52-d297dd071ca5"
+    "categoryId": "20b71dc7-cf08-4534-9e52-d297dd071ca5",
+    "name": "AutomaticDataCollection"
   }
 ]
 ```

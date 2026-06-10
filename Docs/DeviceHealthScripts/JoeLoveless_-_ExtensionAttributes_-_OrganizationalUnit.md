@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 06/09/2026 06:54:58
+**Report Generated:** 06/10/2026 07:14:40
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "highestAvailableVersion": null,
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
-  "remediationScriptContent": "",
-  "description": "ExtensionAttribute2: Organizational Unit of device",
-  "runAsAccount": "system",
-  "publisher": " Joe Loveless",
-  "deviceHealthScriptType": "deviceHealthScript",
-  "runAs32Bit": true,
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
   "enforceSignatureCheck": false,
-  "remediationScriptParameters": [],
+  "runAs32Bit": true,
+  "remediationScriptContent": "",
+  "version": "3",
   "roleScopeTagIds": [
     "0"
   ],
   "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "version": "3",
+  "remediationScriptParameters": [],
+  "description": "ExtensionAttribute2: Organizational Unit of device",
+  "deviceHealthScriptType": "deviceHealthScript",
   "detectionScriptParameters": [],
+  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
   "isGlobalScript": false,
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity"
+  "runAsAccount": "system",
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "highestAvailableVersion": null,
+  "publisher": " Joe Loveless"
 }
 ```
 

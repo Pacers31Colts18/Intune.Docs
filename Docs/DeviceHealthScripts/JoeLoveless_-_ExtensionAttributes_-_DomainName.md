@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_DomainName.md)
 
-**Report Generated:** 06/12/2026 07:28:49
+**Report Generated:** 06/13/2026 07:03:01
 
 ---
 
@@ -33,27 +33,27 @@ N/A
 
 ```json
 {
-  "isGlobalScript": false,
-  "enforceSignatureCheck": false,
-  "publisher": " ",
-  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
-  "detectionScriptParameters": [],
-  "remediationScriptParameters": [],
   "highestAvailableVersion": null,
-  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "runAsAccount": "system",
+  "deviceHealthScriptType": "deviceHealthScript",
   "remediationScriptContent": "",
+  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
+  "version": "1",
+  "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z",
+  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
+  "isGlobalScript": false,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "description": "Outputs the domain name to be used for Azure Automation.",
   "runAs32Bit": true,
   "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
-  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
-  "deviceHealthScriptType": "deviceHealthScript",
-  "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z",
-  "version": "1",
-  "description": "Outputs the domain name to be used for Azure Automation.",
+  "detectionScriptParameters": [],
+  "runAsAccount": "system",
+  "remediationScriptParameters": [],
   "roleScopeTagIds": [
     "0"
-  ]
+  ],
+  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
+  "enforceSignatureCheck": false,
+  "publisher": " "
 }
 ```
 

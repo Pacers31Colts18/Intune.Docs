@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 06/14/2026 07:52:47
+**Report Generated:** 06/15/2026 09:29:53
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "isGlobalScript": false,
-  "remediationScriptContent": "",
-  "highestAvailableVersion": null,
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "description": "ExtensionAttribute2: Organizational Unit of device",
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
-  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
   "roleScopeTagIds": [
     "0"
   ],
-  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "deviceHealthScriptType": "deviceHealthScript",
+  "enforceSignatureCheck": false,
+  "remediationScriptContent": "",
+  "runAsAccount": "system",
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "highestAvailableVersion": null,
+  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
+  "description": "ExtensionAttribute2: Organizational Unit of device",
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "detectionScriptParameters": [],
   "version": "3",
+  "publisher": " Joe Loveless",
+  "isGlobalScript": false,
   "runAs32Bit": true,
   "remediationScriptParameters": [],
-  "detectionScriptParameters": [],
-  "enforceSignatureCheck": false,
-  "runAsAccount": "system",
-  "publisher": " Joe Loveless",
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ=="
+  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
+  "deviceHealthScriptType": "deviceHealthScript",
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z"
 }
 ```
 

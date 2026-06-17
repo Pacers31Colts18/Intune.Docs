@@ -44,7 +44,7 @@
 
 [**Assignments**](./Assignments/WIN_D_CISL1_Defender_PROD.md)
 
-**Report Generated:** 06/16/2026 08:51:06
+**Report Generated:** 06/17/2026 08:33:16
 
 ---
 
@@ -64,18 +64,18 @@
 
 ```json
 {
-  "description": null,
-  "name": "Disabled",
-  "itemId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_spynet_localsettingoverridespynetreporting_0",
-  "optionValue": {
-    "value": 0,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "dependedOnBy": [],
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 0,
+    "settingValueTemplateReference": null
+  },
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_spynet_localsettingoverridespynetreporting_0",
   "dependentOn": [],
   "helpText": null,
-  "displayName": "Disabled"
+  "displayName": "Disabled",
+  "name": "Disabled"
 }
 ```
 
@@ -89,18 +89,18 @@
 
 ```json
 {
-  "description": "Allowed. Turns on real-time behavior monitoring.",
-  "name": "Allowed. Turns on real-time behavior monitoring.",
-  "itemId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_1",
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "dependedOnBy": [],
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": "Allowed. Turns on real-time behavior monitoring.",
+  "itemId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_1",
   "dependentOn": [],
   "helpText": null,
-  "displayName": "Allowed. Turns on real-time behavior monitoring."
+  "displayName": "Allowed. Turns on real-time behavior monitoring.",
+  "name": "Allowed. Turns on real-time behavior monitoring."
 }
 ```
 
@@ -114,18 +114,18 @@
 
 ```json
 {
-  "description": "Allowed. Turns on email scanning.",
-  "name": "Allowed. Turns on email scanning.",
-  "itemId": "device_vendor_msft_policy_config_defender_allowemailscanning_1",
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "dependedOnBy": [],
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": "Allowed. Turns on email scanning.",
+  "itemId": "device_vendor_msft_policy_config_defender_allowemailscanning_1",
   "dependentOn": [],
   "helpText": null,
-  "displayName": "Allowed. Turns on email scanning."
+  "displayName": "Allowed. Turns on email scanning.",
+  "name": "Allowed. Turns on email scanning."
 }
 ```
 
@@ -139,18 +139,18 @@
 
 ```json
 {
-  "description": "Allowed. Scans removable drives.",
-  "name": "Allowed. Scans removable drives.",
-  "itemId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_1",
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "dependedOnBy": [],
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": "Allowed. Scans removable drives.",
+  "itemId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_1",
   "dependentOn": [],
   "helpText": null,
-  "displayName": "Allowed. Scans removable drives."
+  "displayName": "Allowed. Scans removable drives.",
+  "name": "Allowed. Scans removable drives."
 }
 ```
 
@@ -164,18 +164,18 @@
 
 ```json
 {
-  "description": "Allowed. Turns on and runs the real-time monitoring service.",
-  "name": "Allowed. Turns on and runs the real-time monitoring service.",
-  "itemId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_1",
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "dependedOnBy": [],
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": "Allowed. Turns on and runs the real-time monitoring service.",
+  "itemId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_1",
   "dependentOn": [],
   "helpText": null,
-  "displayName": "Allowed. Turns on and runs the real-time monitoring service."
+  "displayName": "Allowed. Turns on and runs the real-time monitoring service.",
+  "name": "Allowed. Turns on and runs the real-time monitoring service."
 }
 ```
 
@@ -189,18 +189,18 @@
 
 ```json
 {
-  "description": "Allowed.",
-  "name": "Allowed.",
-  "itemId": "device_vendor_msft_policy_config_defender_allowioavprotection_1",
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "dependedOnBy": [],
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": "Allowed.",
+  "itemId": "device_vendor_msft_policy_config_defender_allowioavprotection_1",
   "dependentOn": [],
   "helpText": null,
-  "displayName": "Allowed."
+  "displayName": "Allowed.",
+  "name": "Allowed."
 }
 ```
 
@@ -214,18 +214,18 @@
 
 ```json
 {
-  "description": "Allowed.",
-  "name": "Allowed.",
-  "itemId": "device_vendor_msft_policy_config_defender_allowscriptscanning_1",
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "dependedOnBy": [],
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": "Allowed.",
+  "itemId": "device_vendor_msft_policy_config_defender_allowscriptscanning_1",
   "dependentOn": [],
   "helpText": null,
-  "displayName": "Allowed."
+  "displayName": "Allowed.",
+  "name": "Allowed."
 }
 ```
 
@@ -240,240 +240,240 @@
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_block",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_block",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_audit",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_block",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_block",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_audit",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_audit",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_block",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_block",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_block",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_audit",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription_block",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_audit",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_block",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_block",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
 #### device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware
 ```json
 {
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null,
   "choiceSettingValue": {
     "value": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_audit",
     "settingValueTemplateReference": null,
     "children": []
-  },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "settingInstanceTemplateReference": null
+  }
 }
 ```
 
@@ -487,9 +487,9 @@
 
 ```json
 {
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "value": 7,
-  "settingValueTemplateReference": null,
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -503,18 +503,18 @@
 
 ```json
 {
-  "description": "Enabled (block mode)",
-  "name": "Enabled (block mode)",
-  "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_1",
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "dependedOnBy": [],
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": "Enabled (block mode)",
+  "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_1",
   "dependentOn": [],
   "helpText": null,
-  "displayName": "Enabled (block mode)"
+  "displayName": "Enabled (block mode)",
+  "name": "Enabled (block mode)"
 }
 ```
 
@@ -528,18 +528,18 @@
 
 ```json
 {
-  "description": "If you enable this setting, local users will no longer be able to see the exclusion list in Windows Security App or via PowerShell.",
-  "name": "If you enable this setting, local users will no longer be able to see the exclusion list in Windows Security App or via PowerShell.",
-  "itemId": "device_vendor_msft_defender_configuration_hideexclusionsfromlocalusers_1",
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "dependedOnBy": [],
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": "If you enable this setting, local users will no longer be able to see the exclusion list in Windows Security App or via PowerShell.",
+  "itemId": "device_vendor_msft_defender_configuration_hideexclusionsfromlocalusers_1",
   "dependentOn": [],
   "helpText": null,
-  "displayName": "If you enable this setting, local users will no longer be able to see the exclusion list in Windows Security App or via PowerShell."
+  "displayName": "If you enable this setting, local users will no longer be able to see the exclusion list in Windows Security App or via PowerShell.",
+  "name": "If you enable this setting, local users will no longer be able to see the exclusion list in Windows Security App or via PowerShell."
 }
 ```
 
@@ -553,18 +553,18 @@
 
 ```json
 {
-  "description": "If you enable this setting, real-time protection and Security Intelligence Updates are enabled during OOBE.",
-  "name": "If you enable this setting, real-time protection and Security Intelligence Updates are enabled during OOBE.",
-  "itemId": "device_vendor_msft_defender_configuration_oobeenablertpandsigupdate_1",
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "dependedOnBy": [],
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": "If you enable this setting, real-time protection and Security Intelligence Updates are enabled during OOBE.",
+  "itemId": "device_vendor_msft_defender_configuration_oobeenablertpandsigupdate_1",
   "dependentOn": [],
   "helpText": null,
-  "displayName": "If you enable this setting, real-time protection and Security Intelligence Updates are enabled during OOBE."
+  "displayName": "If you enable this setting, real-time protection and Security Intelligence Updates are enabled during OOBE.",
+  "name": "If you enable this setting, real-time protection and Security Intelligence Updates are enabled during OOBE."
 }
 ```
 
@@ -578,18 +578,18 @@
 
 ```json
 {
-  "description": "PUA Protection on. Detected items are blocked. They will show in history along with other threats.",
-  "name": "PUA Protection on. Detected items are blocked. They will show in history along with other threats.",
-  "itemId": "device_vendor_msft_policy_config_defender_puaprotection_1",
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "dependedOnBy": [],
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": "PUA Protection on. Detected items are blocked. They will show in history along with other threats.",
+  "itemId": "device_vendor_msft_policy_config_defender_puaprotection_1",
   "dependentOn": [],
   "helpText": null,
-  "displayName": "PUA Protection on. Detected items are blocked. They will show in history along with other threats."
+  "displayName": "PUA Protection on. Detected items are blocked. They will show in history along with other threats.",
+  "name": "PUA Protection on. Detected items are blocked. They will show in history along with other threats."
 }
 ```
 
@@ -603,18 +603,18 @@
 
 ```json
 {
-  "description": "If you set this setting to 1, all files and directories that are excluded from real-time protection using contextual exclusions are scanned during a quick scan.",
-  "name": "If you set this setting to 1, all files and directories that are excluded from real-time protection using contextual exclusions are scanned during a quick scan.",
-  "itemId": "device_vendor_msft_defender_configuration_quickscanincludeexclusions_1",
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "dependedOnBy": [],
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": "If you set this setting to 1, all files and directories that are excluded from real-time protection using contextual exclusions are scanned during a quick scan.",
+  "itemId": "device_vendor_msft_defender_configuration_quickscanincludeexclusions_1",
   "dependentOn": [],
   "helpText": null,
-  "displayName": "If you set this setting to 1, all files and directories that are excluded from real-time protection using contextual exclusions are scanned during a quick scan."
+  "displayName": "If you set this setting to 1, all files and directories that are excluded from real-time protection using contextual exclusions are scanned during a quick scan.",
+  "name": "If you set this setting to 1, all files and directories that are excluded from real-time protection using contextual exclusions are scanned during a quick scan."
 }
 ```
 
@@ -628,18 +628,18 @@
 
 ```json
 {
-  "description": "Audit: Generate EDR detections without blocking",
-  "name": "Audit: Generate EDR detections without blocking",
-  "itemId": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate_2",
-  "optionValue": {
-    "value": 2,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "dependedOnBy": [],
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 2,
+    "settingValueTemplateReference": null
+  },
+  "description": "Audit: Generate EDR detections without blocking",
+  "itemId": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate_2",
   "dependentOn": [],
   "helpText": null,
-  "displayName": "Audit: Generate EDR detections without blocking"
+  "displayName": "Audit: Generate EDR detections without blocking",
+  "name": "Audit: Generate EDR detections without blocking"
 }
 ```
 
@@ -653,18 +653,18 @@
 
 ```json
 {
-  "description": "(Enable) Local users cannot make changes in the exploit protection settings area.",
-  "name": "(Enable) Local users cannot make changes in the exploit protection settings area.",
-  "itemId": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disallowexploitprotectionoverride_1",
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "dependedOnBy": [],
+  "optionValue": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
+    "settingValueTemplateReference": null
+  },
+  "description": "(Enable) Local users cannot make changes in the exploit protection settings area.",
+  "itemId": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disallowexploitprotectionoverride_1",
   "dependentOn": [],
   "helpText": null,
-  "displayName": "(Enable) Local users cannot make changes in the exploit protection settings area."
+  "displayName": "(Enable) Local users cannot make changes in the exploit protection settings area.",
+  "name": "(Enable) Local users cannot make changes in the exploit protection settings area."
 }
 ```
 
@@ -672,26 +672,19 @@
 ```json
 [
   {
-    "id": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_spynet_localsettingoverridespynetreporting",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_spynet_localsettingoverridespynetreporting_0",
     "displayName": "Configure local setting override for reporting to Microsoft MAPS",
-    "description": "This policy setting configures a local override for the configuration to join Microsoft MAPS. This setting can only be set by Group Policy.\r\n\r\n    If you enable this setting, the local preference setting will take priority over Group Policy.\r\n\r\n    If you disable or do not configure this setting, Group Policy will take priority over the local preference setting.\r\n ",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_spynet_localsettingoverridespynetreporting",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-microsoftdefenderantivirus#admx-microsoftdefenderantivirus-spynet-localsettingoverridespynetreporting"
     ],
-    "uxBehavior": "toggle",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "visibility": "settingsCatalog,template",
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_spynet_localsettingoverridespynetreporting_0",
-    "riskLevel": "low",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -703,18 +696,17 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "10.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "10.0"
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "Spynet_LocalSettingOverrideSpynetReporting",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Spynet_LocalSettingOverrideSpynetReporting",
@@ -726,62 +718,63 @@
       "Software\\Policies\\Microsoft\\Windows Defender\\Spynet",
       "LocalSettingOverrideSpynetReporting"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_spynet_localsettingoverridespynetreporting",
     "categoryId": "32ee73d6-947f-45e9-856b-793b584c626d",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "none",
     "offsetUri": "/Config/ADMX_MicrosoftDefenderAntivirus/Spynet_LocalSettingOverrideSpynetReporting",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This policy setting configures a local override for the configuration to join Microsoft MAPS. This setting can only be set by Group Policy.\r\n\r\n    If you enable this setting, the local preference setting will take priority over Group Policy.\r\n\r\n    If you disable or do not configure this setting, Group Policy will take priority over the local preference setting.\r\n ",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_spynet_localsettingoverridespynetreporting",
+    "uxBehavior": "toggle",
+    "name": "Spynet_LocalSettingOverrideSpynetReporting",
     "options": [
       {
-        "description": null,
-        "name": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_spynet_localsettingoverridespynetreporting_0",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_spynet_localsettingoverridespynetreporting_0",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Disabled"
+        "displayName": "Disabled",
+        "name": "Disabled"
       },
       {
-        "description": null,
-        "name": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_spynet_localsettingoverridespynetreporting_1",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_spynet_localsettingoverridespynetreporting_1",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Enabled"
+        "displayName": "Enabled",
+        "name": "Enabled"
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_1",
     "displayName": "Allow Behavior Monitoring",
-    "description": "Allows or disallows Windows Defender Behavior Monitoring functionality.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
     ],
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
+    "visibility": "settingsCatalog,template",
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_1",
-    "riskLevel": "low",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -794,79 +787,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.14393",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "4.1",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "4.1"
+      "minimumSupportedVersion": "10.0.14393",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "AllowBehaviorMonitoring",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Allow Behavior Monitoring",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/AllowBehaviorMonitoring",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "Allows or disallows Windows Defender Behavior Monitoring functionality.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring",
+    "uxBehavior": "default",
+    "name": "AllowBehaviorMonitoring",
     "options": [
       {
-        "description": "Not allowed. Turns off behavior monitoring.",
-        "name": "Not allowed. Turns off behavior monitoring.",
-        "itemId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_0",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": "Not allowed. Turns off behavior monitoring.",
+        "itemId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_0",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Not allowed. Turns off behavior monitoring."
+        "displayName": "Not allowed. Turns off behavior monitoring.",
+        "name": "Not allowed. Turns off behavior monitoring."
       },
       {
-        "description": "Allowed. Turns on real-time behavior monitoring.",
-        "name": "Allowed. Turns on real-time behavior monitoring.",
-        "itemId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_1",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": "Allowed. Turns on real-time behavior monitoring.",
+        "itemId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_1",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Allowed. Turns on real-time behavior monitoring."
+        "displayName": "Allowed. Turns on real-time behavior monitoring.",
+        "name": "Allowed. Turns on real-time behavior monitoring."
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_allowemailscanning",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowemailscanning_0",
     "displayName": "Allow Email Scanning",
-    "description": "Allows or disallows scanning of email.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowemailscanning",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
     ],
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
+    "visibility": "settingsCatalog,template",
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowemailscanning_0",
-    "riskLevel": "low",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -879,79 +872,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.14393",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "4.1",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "4.1"
+      "minimumSupportedVersion": "10.0.14393",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "AllowEmailScanning",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Allow Email Scanning",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_allowemailscanning",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/AllowEmailScanning",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "Allows or disallows scanning of email.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowemailscanning",
+    "uxBehavior": "default",
+    "name": "AllowEmailScanning",
     "options": [
       {
-        "description": "Not allowed. Turns off email scanning.",
-        "name": "Not allowed. Turns off email scanning.",
-        "itemId": "device_vendor_msft_policy_config_defender_allowemailscanning_0",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": "Not allowed. Turns off email scanning.",
+        "itemId": "device_vendor_msft_policy_config_defender_allowemailscanning_0",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Not allowed. Turns off email scanning."
+        "displayName": "Not allowed. Turns off email scanning.",
+        "name": "Not allowed. Turns off email scanning."
       },
       {
-        "description": "Allowed. Turns on email scanning.",
-        "name": "Allowed. Turns on email scanning.",
-        "itemId": "device_vendor_msft_policy_config_defender_allowemailscanning_1",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": "Allowed. Turns on email scanning.",
+        "itemId": "device_vendor_msft_policy_config_defender_allowemailscanning_1",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Allowed. Turns on email scanning."
+        "displayName": "Allowed. Turns on email scanning.",
+        "name": "Allowed. Turns on email scanning."
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_0",
     "displayName": "Allow Full Scan Removable Drive Scanning",
-    "description": "Allows or disallows a full scan of removable drives. During a quick scan, removable drives may still be scanned.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
     ],
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
+    "visibility": "settingsCatalog,template",
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_0",
-    "riskLevel": "low",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -964,79 +957,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.14393",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "4.1",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "4.1"
+      "minimumSupportedVersion": "10.0.14393",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "AllowFullScanRemovableDriveScanning",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Allow Full Scan Removable Drive Scanning",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/AllowFullScanRemovableDriveScanning",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "Allows or disallows a full scan of removable drives. During a quick scan, removable drives may still be scanned.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning",
+    "uxBehavior": "default",
+    "name": "AllowFullScanRemovableDriveScanning",
     "options": [
       {
-        "description": "Not allowed. Turns off scanning on removable drives.",
-        "name": "Not allowed. Turns off scanning on removable drives.",
-        "itemId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_0",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": "Not allowed. Turns off scanning on removable drives.",
+        "itemId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_0",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Not allowed. Turns off scanning on removable drives."
+        "displayName": "Not allowed. Turns off scanning on removable drives.",
+        "name": "Not allowed. Turns off scanning on removable drives."
       },
       {
-        "description": "Allowed. Scans removable drives.",
-        "name": "Allowed. Scans removable drives.",
-        "itemId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_1",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": "Allowed. Scans removable drives.",
+        "itemId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_1",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Allowed. Scans removable drives."
+        "displayName": "Allowed. Scans removable drives.",
+        "name": "Allowed. Scans removable drives."
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_1",
     "displayName": "Allow Realtime Monitoring",
-    "description": "Allows or disallows Windows Defender Realtime Monitoring functionality.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
     ],
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
+    "visibility": "settingsCatalog,template",
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_1",
-    "riskLevel": "low",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1049,79 +1042,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.14393",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "4.1",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "4.1"
+      "minimumSupportedVersion": "10.0.14393",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "AllowRealtimeMonitoring",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Allow Realtime Monitoring",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/AllowRealtimeMonitoring",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "Allows or disallows Windows Defender Realtime Monitoring functionality.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring",
+    "uxBehavior": "default",
+    "name": "AllowRealtimeMonitoring",
     "options": [
       {
-        "description": "Not allowed. Turns off the real-time monitoring service.",
-        "name": "Not allowed. Turns off the real-time monitoring service.",
-        "itemId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_0",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": "Not allowed. Turns off the real-time monitoring service.",
+        "itemId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_0",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Not allowed. Turns off the real-time monitoring service."
+        "displayName": "Not allowed. Turns off the real-time monitoring service.",
+        "name": "Not allowed. Turns off the real-time monitoring service."
       },
       {
-        "description": "Allowed. Turns on and runs the real-time monitoring service.",
-        "name": "Allowed. Turns on and runs the real-time monitoring service.",
-        "itemId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_1",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": "Allowed. Turns on and runs the real-time monitoring service.",
+        "itemId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_1",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Allowed. Turns on and runs the real-time monitoring service."
+        "displayName": "Allowed. Turns on and runs the real-time monitoring service.",
+        "name": "Allowed. Turns on and runs the real-time monitoring service."
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_allowioavprotection",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowioavprotection_1",
     "displayName": "Allow scanning of all downloaded files and attachments",
-    "description": "Allows or disallows Windows Defender IOAVP Protection functionality.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowioavprotection",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
     ],
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
+    "visibility": "settingsCatalog,template",
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowioavprotection_1",
-    "riskLevel": "low",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1134,79 +1127,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.14393",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "4.1",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "4.1"
+      "minimumSupportedVersion": "10.0.14393",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "AllowIOAVProtection",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Allow IOAV Protection",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_allowioavprotection",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/AllowIOAVProtection",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "Allows or disallows Windows Defender IOAVP Protection functionality.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowioavprotection",
+    "uxBehavior": "default",
+    "name": "AllowIOAVProtection",
     "options": [
       {
-        "description": "Not allowed.",
-        "name": "Not allowed.",
-        "itemId": "device_vendor_msft_policy_config_defender_allowioavprotection_0",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": "Not allowed.",
+        "itemId": "device_vendor_msft_policy_config_defender_allowioavprotection_0",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Not allowed."
+        "displayName": "Not allowed.",
+        "name": "Not allowed."
       },
       {
-        "description": "Allowed.",
-        "name": "Allowed.",
-        "itemId": "device_vendor_msft_policy_config_defender_allowioavprotection_1",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": "Allowed.",
+        "itemId": "device_vendor_msft_policy_config_defender_allowioavprotection_1",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Allowed."
+        "displayName": "Allowed.",
+        "name": "Allowed."
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_allowscriptscanning",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowscriptscanning_1",
     "displayName": "Allow Script Scanning",
-    "description": "Allows or disallows Windows Defender Script Scanning functionality.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowscriptscanning",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
     ],
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
+    "visibility": "settingsCatalog,template",
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowscriptscanning_1",
-    "riskLevel": "low",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1219,80 +1212,118 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.14393",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "4.1",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "4.1"
+      "minimumSupportedVersion": "10.0.14393",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "AllowScriptScanning",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Allow Script Scanning",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_allowscriptscanning",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/AllowScriptScanning",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "Allows or disallows Windows Defender Script Scanning functionality.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowscriptscanning",
+    "uxBehavior": "default",
+    "name": "AllowScriptScanning",
     "options": [
       {
-        "description": "Not allowed.",
-        "name": "Not allowed.",
-        "itemId": "device_vendor_msft_policy_config_defender_allowscriptscanning_0",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": "Not allowed.",
+        "itemId": "device_vendor_msft_policy_config_defender_allowscriptscanning_0",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Not allowed."
+        "displayName": "Not allowed.",
+        "name": "Not allowed."
       },
       {
-        "description": "Allowed.",
-        "name": "Allowed.",
-        "itemId": "device_vendor_msft_policy_config_defender_allowscriptscanning_1",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": "Allowed.",
+        "itemId": "device_vendor_msft_policy_config_defender_allowscriptscanning_1",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Allowed."
+        "displayName": "Allowed.",
+        "name": "Allowed."
       }
     ]
   },
   {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "maximumCount": 1000,
-    "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
+    "applicability": {
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
+    "baseUri": "./Vendor/MSFT/Defender",
+    "uxBehavior": "default",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
+    "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
+    "dependedOnBy": [],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "version": "639161298837633273",
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_block",
@@ -1307,74 +1338,36 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "technologies": "mdm,microsoftSense",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
-    },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_perruleexclusions"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts",
-    "displayName": "Block execution of potentially obfuscated scripts",
-    "description": "This rule detects suspicious properties within an obfuscated script.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
+    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
     ],
-    "uxBehavior": "default",
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_off",
-    "riskLevel": "low",
+    "displayName": "Block execution of potentially obfuscated scripts",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1385,38 +1378,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "BlockExecutionOfPotentiallyObfuscatedScripts",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Attack Surface Reduction Rules",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule detects suspicious properties within an obfuscated script.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
+    "name": "BlockExecutionOfPotentiallyObfuscatedScripts",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_off",
-        "optionValue": {
-          "value": "5BEB7EFE-FD9A-4556-801D-275E5FFC04CC=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "5BEB7EFE-FD9A-4556-801D-275E5FFC04CC=0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -1424,23 +1423,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_block",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "5BEB7EFE-FD9A-4556-801D-275E5FFC04CC=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -1448,23 +1447,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_audit",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "5BEB7EFE-FD9A-4556-801D-275E5FFC04CC=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -1472,23 +1471,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_warn",
-        "optionValue": {
-          "value": "5BEB7EFE-FD9A-4556-801D-275E5FFC04CC=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_perruleexclusions",
             "required": false
           }
         ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "5BEB7EFE-FD9A-4556-801D-275E5FFC04CC=6",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -1496,32 +1495,64 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "maximumCount": 1000,
-    "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
+    "applicability": {
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
+    "baseUri": "./Vendor/MSFT/Defender",
+    "uxBehavior": "default",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
+    "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
+    "dependedOnBy": [],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "version": "639161298837633273",
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_block",
@@ -1536,74 +1567,36 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "technologies": "mdm,microsoftSense",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
-    },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_perruleexclusions"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses",
-    "displayName": "Block Office communication application from creating child processes",
-    "description": "This rule prevents Outlook from creating child processes, while still allowing legitimate Outlook functions.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
+    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
     ],
-    "uxBehavior": "default",
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_off",
-    "riskLevel": "low",
+    "displayName": "Block Office communication application from creating child processes",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1614,38 +1607,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "BlockOfficeCommunicationAppFromCreatingChildProcesses",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Attack Surface Reduction Rules",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule prevents Outlook from creating child processes, while still allowing legitimate Outlook functions.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
+    "name": "BlockOfficeCommunicationAppFromCreatingChildProcesses",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_off",
-        "optionValue": {
-          "value": "26190899-1602-49e8-8b27-eb1d0a1ce869=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "26190899-1602-49e8-8b27-eb1d0a1ce869=0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -1653,23 +1652,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_block",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "26190899-1602-49e8-8b27-eb1d0a1ce869=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -1677,23 +1676,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_audit",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "26190899-1602-49e8-8b27-eb1d0a1ce869=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -1701,23 +1700,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_warn",
-        "optionValue": {
-          "value": "26190899-1602-49e8-8b27-eb1d0a1ce869=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_perruleexclusions",
             "required": false
           }
         ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "26190899-1602-49e8-8b27-eb1d0a1ce869=6",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -1725,32 +1724,64 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "maximumCount": 1000,
-    "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
+    "applicability": {
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
+    "baseUri": "./Vendor/MSFT/Defender",
+    "uxBehavior": "default",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
+    "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
+    "dependedOnBy": [],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "version": "639161298837633273",
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_block",
@@ -1765,31 +1796,24 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1800,40 +1824,47 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_perruleexclusions"
-  },
-  {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
+    "baseUri": "./Vendor/MSFT/Defender",
+    "uxBehavior": "default",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
     "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
     "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
     },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "version": "639161298837633273",
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_block",
@@ -1848,31 +1879,24 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1883,40 +1907,47 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_perruleexclusions"
-  },
-  {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
+    "baseUri": "./Vendor/MSFT/Defender",
+    "uxBehavior": "default",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
     "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
     "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
     },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "version": "639161298837633273",
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_block",
@@ -1931,74 +1962,36 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "technologies": "mdm,microsoftSense",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
-    },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutionofpotentiallyobfuscatedscripts_perruleexclusions"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses",
-    "displayName": "Block all Office applications from creating child processes",
-    "description": "This rule blocks Office apps from creating child processes. This includes Word, Excel, PowerPoint, OneNote, and Access.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
+    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
     ],
-    "uxBehavior": "default",
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_off",
-    "riskLevel": "low",
+    "displayName": "Block all Office applications from creating child processes",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2009,38 +2002,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule blocks Office apps from creating child processes. This includes Word, Excel, PowerPoint, OneNote, and Access.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
     "name": "BlockAllOfficeApplicationsFromCreatingChildProcesses",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "settingUsage": "configuration",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_off",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "D4F940AB-401B-4EFC-AADC-AD5F3C50688A=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2048,23 +2047,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_block",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "D4F940AB-401B-4EFC-AADC-AD5F3C50688A=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2072,23 +2071,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_audit",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "D4F940AB-401B-4EFC-AADC-AD5F3C50688A=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2096,23 +2095,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_warn",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "D4F940AB-401B-4EFC-AADC-AD5F3C50688A=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2120,31 +2119,25 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros",
-    "displayName": "Block Win32 API calls from Office macros",
-    "description": "This rule prevents VBA macros from calling Win32 APIs.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "uxBehavior": "default",
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_off",
-    "riskLevel": "low",
+    "displayName": "Block Win32 API calls from Office macros",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2155,38 +2148,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "BlockWin32APICallsFromOfficeMacros",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Attack Surface Reduction Rules",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule prevents VBA macros from calling Win32 APIs.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
+    "name": "BlockWin32APICallsFromOfficeMacros",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_off",
-        "optionValue": {
-          "value": "92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B=0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2194,23 +2193,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_block",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2218,23 +2217,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_audit",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2242,23 +2241,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_warn",
-        "optionValue": {
-          "value": "92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_perruleexclusions",
             "required": false
           }
         ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B=6",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2266,178 +2265,210 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_off",
     "displayName": "Block executable files from running unless they meet a prevalence, age, or trusted list criterion",
-    "description": "This rule blocks the following file types from launching unless they meet prevalence or age criteria, or they're in a trusted list or an exclusion list: Executable files (such as .exe, .dll, or .scr).",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
     ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
+    "applicability": {
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+    },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule blocks the following file types from launching unless they meet prevalence or age criteria, or they're in a trusted list or an exclusion list: Executable files (such as .exe, .dll, or .scr).",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
+    "name": "BlockExecutableFilesRunningUnlessTheyMeetPrevalenceAgeTrustedListCriterion",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "01443614-cd74-433a-b99e-2ecdc07bfc25=0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_off",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Off",
+        "name": "Off"
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_perruleexclusions",
+            "required": false
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "01443614-cd74-433a-b99e-2ecdc07bfc25=1",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_block",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Block",
+        "name": "Block"
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_perruleexclusions",
+            "required": false
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "01443614-cd74-433a-b99e-2ecdc07bfc25=2",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_audit",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Audit",
+        "name": "Audit"
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_perruleexclusions",
+            "required": false
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "01443614-cd74-433a-b99e-2ecdc07bfc25=6",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_warn",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Warn",
+        "name": "Warn"
+      }
+    ]
+  },
+  {
+    "applicability": {
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+    },
+    "baseUri": "./Vendor/MSFT/Defender",
     "uxBehavior": "default",
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
+    "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
+    "dependedOnBy": [],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
     },
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_off",
-    "riskLevel": "low",
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "technologies": "mdm,configManager,microsoftSense",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
-    },
-    "name": "BlockExecutableFilesRunningUnlessTheyMeetPrevalenceAgeTrustedListCriterion",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "settingUsage": "configuration",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
-    "options": [
-      {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_off",
-        "optionValue": {
-          "value": "01443614-cd74-433a-b99e-2ecdc07bfc25=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Off"
-      },
-      {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_block",
-        "optionValue": {
-          "value": "01443614-cd74-433a-b99e-2ecdc07bfc25=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_perruleexclusions",
-            "required": false
-          }
-        ],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Block"
-      },
-      {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_audit",
-        "optionValue": {
-          "value": "01443614-cd74-433a-b99e-2ecdc07bfc25=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_perruleexclusions",
-            "required": false
-          }
-        ],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Audit"
-      },
-      {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_warn",
-        "optionValue": {
-          "value": "01443614-cd74-433a-b99e-2ecdc07bfc25=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablefilesrunningunlesstheymeetprevalenceagetrustedlistcriterion_perruleexclusions",
-            "required": false
-          }
-        ],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Warn"
-      }
-    ]
-  },
-  {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "maximumCount": 1000,
-    "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
-    },
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_block",
@@ -2452,74 +2483,36 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "technologies": "mdm,microsoftSense",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
-    },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_perruleexclusions"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb",
-    "displayName": "Block untrusted and unsigned processes that run from USB",
-    "description": "With this rule, admins can prevent unsigned or untrusted scripts (such as VBScript, JavaScript) and executables (such as .exe, .dll, .scr files) from removable USB drives, including attached SD cards, from running.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
+    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
     ],
-    "uxBehavior": "default",
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_off",
-    "riskLevel": "low",
+    "displayName": "Block untrusted and unsigned processes that run from USB",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2530,38 +2523,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "BlockUntrustedUnsignedProcessesThatRunFromUSB",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Attack Surface Reduction Rules",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "With this rule, admins can prevent unsigned or untrusted scripts (such as VBScript, JavaScript) and executables (such as .exe, .dll, .scr files) from removable USB drives, including attached SD cards, from running.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
+    "name": "BlockUntrustedUnsignedProcessesThatRunFromUSB",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_off",
-        "optionValue": {
-          "value": "b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4=0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2569,23 +2568,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_block",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2593,23 +2592,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_audit",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2617,23 +2616,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_warn",
-        "optionValue": {
-          "value": "b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_perruleexclusions",
             "required": false
           }
         ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4=6",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2641,32 +2640,64 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "maximumCount": 1000,
-    "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
+    "applicability": {
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
+    "baseUri": "./Vendor/MSFT/Defender",
+    "uxBehavior": "default",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
+    "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
+    "dependedOnBy": [],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "version": "639161298837633273",
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_block",
@@ -2681,74 +2712,36 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "technologies": "mdm,microsoftSense",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
-    },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_perruleexclusions"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent",
-    "displayName": "Block JavaScript or VBScript from launching downloaded executable content",
-    "description": "This rule prevents scripts from launching potentially malicious downloaded content. Malware written in JavaScript or VBScript often acts as a downloader to fetch and launch other malware from the Internet.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
+    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
     ],
-    "uxBehavior": "default",
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_off",
-    "riskLevel": "low",
+    "displayName": "Block JavaScript or VBScript from launching downloaded executable content",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2759,38 +2752,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "BlockJavaScriptOrVBScriptFromLaunchingDownloadedExecutableContent",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Attack Surface Reduction Rules",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule prevents scripts from launching potentially malicious downloaded content. Malware written in JavaScript or VBScript often acts as a downloader to fetch and launch other malware from the Internet.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
+    "name": "BlockJavaScriptOrVBScriptFromLaunchingDownloadedExecutableContent",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_off",
-        "optionValue": {
-          "value": "D3E037E1-3EB8-44C8-A917-57927947596D=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "D3E037E1-3EB8-44C8-A917-57927947596D=0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2798,23 +2797,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_block",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "D3E037E1-3EB8-44C8-A917-57927947596D=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2822,23 +2821,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_audit",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "D3E037E1-3EB8-44C8-A917-57927947596D=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2846,23 +2845,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_warn",
-        "optionValue": {
-          "value": "D3E037E1-3EB8-44C8-A917-57927947596D=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_perruleexclusions",
             "required": false
           }
         ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "D3E037E1-3EB8-44C8-A917-57927947596D=6",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -2870,32 +2869,64 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "maximumCount": 1000,
-    "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
+    "applicability": {
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
+    "baseUri": "./Vendor/MSFT/Defender",
+    "uxBehavior": "default",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
+    "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
+    "dependedOnBy": [],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "version": "639161298837633273",
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_block",
@@ -2910,31 +2941,24 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2945,40 +2969,47 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockjavascriptorvbscriptfromlaunchingdownloadedexecutablecontent_perruleexclusions"
-  },
-  {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
+    "baseUri": "./Vendor/MSFT/Defender",
+    "uxBehavior": "default",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
     "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
     "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
     },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "version": "639161298837633273",
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_block",
@@ -2993,74 +3024,36 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "technologies": "mdm,microsoftSense",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
-    },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_perruleexclusions"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers",
-    "displayName": "Block Webshell creation for Servers",
-    "description": "This rule block webshell creation for servers.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
+    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
     ],
-    "uxBehavior": "default",
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_off",
-    "riskLevel": "low",
+    "displayName": "Block Webshell creation for Servers",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3071,38 +3064,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule block webshell creation for servers.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
     "name": "BlockWebshellCreationForServers",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "settingUsage": "configuration",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_off",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "a8f5898e-1dc8-49a9-9878-85004b8a61e6=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -3110,23 +3109,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_block",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "a8f5898e-1dc8-49a9-9878-85004b8a61e6=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -3134,23 +3133,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_audit",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "a8f5898e-1dc8-49a9-9878-85004b8a61e6=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -3158,23 +3157,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_warn",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "a8f5898e-1dc8-49a9-9878-85004b8a61e6=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwebshellcreationforservers_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -3182,31 +3181,25 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses",
-    "displayName": "Block Adobe Reader from creating child processes",
-    "description": "This rule prevents attacks by blocking Adobe Reader from creating additional processes.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "uxBehavior": "default",
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_off",
-    "riskLevel": "low",
+    "displayName": "Block Adobe Reader from creating child processes",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3217,38 +3210,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule prevents attacks by blocking Adobe Reader from creating additional processes.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
     "name": "BlockAdobeReaderFromCreatingChildProcesses",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "settingUsage": "configuration",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_off",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -3256,23 +3255,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_block",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -3280,23 +3279,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_audit",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -3304,23 +3303,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_warn",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockadobereaderfromcreatingchildprocesses_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -3328,31 +3327,25 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem",
-    "displayName": "Block credential stealing from the Windows local security authority subsystem",
-    "description": "This rule helps prevent credential stealing, by locking down Local Security Authority Subsystem Service (LSASS).",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "uxBehavior": "default",
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_off",
-    "riskLevel": "low",
+    "displayName": "Block credential stealing from the Windows local security authority subsystem",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3363,38 +3356,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "BlockCredentialStealingFromWindowsLocalSecurityAuthoritySubsystem",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Attack Surface Reduction Rules",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule helps prevent credential stealing, by locking down Local Security Authority Subsystem Service (LSASS).",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
+    "name": "BlockCredentialStealingFromWindowsLocalSecurityAuthoritySubsystem",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_off",
-        "optionValue": {
-          "value": "9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2=0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -3402,23 +3401,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_block",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -3426,23 +3425,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_audit",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -3450,23 +3449,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_warn",
-        "optionValue": {
-          "value": "9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_perruleexclusions",
             "required": false
           }
         ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2=6",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -3474,178 +3473,210 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_off",
     "displayName": "Block abuse of exploited vulnerable signed drivers (Device)",
-    "description": "This rule prevents an application from writing a vulnerable signed driver to disk. In-the-wild, vulnerable signed drivers can be exploited by local applications - that have sufficient privileges - to gain access to the kernel. Vulnerable signed drivers enable attackers to disable or circumvent security solutions, eventually leading to system compromise. The Block abuse of exploited vulnerable signed drivers rule does not block a driver already existing on the system from being loaded.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
     ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
+    "applicability": {
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+    },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule prevents an application from writing a vulnerable signed driver to disk. In-the-wild, vulnerable signed drivers can be exploited by local applications - that have sufficient privileges - to gain access to the kernel. Vulnerable signed drivers enable attackers to disable or circumvent security solutions, eventually leading to system compromise. The Block abuse of exploited vulnerable signed drivers rule does not block a driver already existing on the system from being loaded.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
+    "name": "BlockAbuseOfExploitedVulnerableSignedDrivers",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "56a863a9-875e-4185-98a7-b882c64b5ce5=0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_off",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Off",
+        "name": "Off"
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_perruleexclusions",
+            "required": false
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "56a863a9-875e-4185-98a7-b882c64b5ce5=1",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_block",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Block",
+        "name": "Block"
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_perruleexclusions",
+            "required": false
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "56a863a9-875e-4185-98a7-b882c64b5ce5=2",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_audit",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Audit",
+        "name": "Audit"
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_perruleexclusions",
+            "required": false
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "56a863a9-875e-4185-98a7-b882c64b5ce5=6",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_warn",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Warn",
+        "name": "Warn"
+      }
+    ]
+  },
+  {
+    "applicability": {
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+    },
+    "baseUri": "./Vendor/MSFT/Defender",
     "uxBehavior": "default",
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
+    "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
+    "dependedOnBy": [],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
     },
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_off",
-    "riskLevel": "low",
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "technologies": "mdm,configManager,microsoftSense",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
-    },
-    "name": "BlockAbuseOfExploitedVulnerableSignedDrivers",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "settingUsage": "configuration",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
-    "options": [
-      {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_off",
-        "optionValue": {
-          "value": "56a863a9-875e-4185-98a7-b882c64b5ce5=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Off"
-      },
-      {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_block",
-        "optionValue": {
-          "value": "56a863a9-875e-4185-98a7-b882c64b5ce5=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_perruleexclusions",
-            "required": false
-          }
-        ],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Block"
-      },
-      {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_audit",
-        "optionValue": {
-          "value": "56a863a9-875e-4185-98a7-b882c64b5ce5=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_perruleexclusions",
-            "required": false
-          }
-        ],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Audit"
-      },
-      {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_warn",
-        "optionValue": {
-          "value": "56a863a9-875e-4185-98a7-b882c64b5ce5=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockabuseofexploitedvulnerablesigneddrivers_perruleexclusions",
-            "required": false
-          }
-        ],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Warn"
-      }
-    ]
-  },
-  {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "maximumCount": 1000,
-    "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
-    },
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_block",
@@ -3660,31 +3691,24 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3695,40 +3719,47 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_perruleexclusions"
-  },
-  {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
+    "baseUri": "./Vendor/MSFT/Defender",
+    "uxBehavior": "default",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
     "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
     "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
     },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "version": "639161298837633273",
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_block",
@@ -3743,31 +3774,24 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3778,40 +3802,47 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuntrustedunsignedprocessesthatrunfromusb_perruleexclusions"
-  },
-  {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
+    "baseUri": "./Vendor/MSFT/Defender",
+    "uxBehavior": "default",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
     "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
     "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
     },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "version": "639161298837633273",
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_block",
@@ -3826,31 +3857,24 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3861,40 +3885,47 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_perruleexclusions"
-  },
-  {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
+    "baseUri": "./Vendor/MSFT/Defender",
+    "uxBehavior": "default",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
     "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
     "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
     },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "version": "639161298837633273",
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_block",
@@ -3909,74 +3940,36 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "technologies": "mdm,microsoftSense",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
-    },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockcredentialstealingfromwindowslocalsecurityauthoritysubsystem_perruleexclusions"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription",
-    "displayName": "Block persistence through WMI event subscription",
-    "description": "This rule prevents malware from abusing WMI to attain persistence on a device. Fileless threats employ various tactics to stay hidden, to avoid being seen in the file system, and to gain periodic execution control. Some threats can abuse the WMI repository and event model to stay hidden.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
+    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
     ],
-    "uxBehavior": "default",
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription_off",
-    "riskLevel": "low",
+    "displayName": "Block persistence through WMI event subscription",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3987,38 +3980,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "BlockPersistenceThroughWMIEventSubscription",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Attack Surface Reduction Rules",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule prevents malware from abusing WMI to attain persistence on a device. Fileless threats employ various tactics to stay hidden, to avoid being seen in the file system, and to gain periodic execution control. Some threats can abuse the WMI repository and event model to stay hidden.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
+    "name": "BlockPersistenceThroughWMIEventSubscription",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription_off",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "e6db77e5-3df2-4cf1-b95a-636979351e5b=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4026,18 +4025,18 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription_block",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "e6db77e5-3df2-4cf1-b95a-636979351e5b=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4045,18 +4044,18 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription_audit",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "e6db77e5-3df2-4cf1-b95a-636979351e5b=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4064,18 +4063,18 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription_warn",
-        "optionValue": {
-          "value": "e6db77e5-3df2-4cf1-b95a-636979351e5b=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "e6db77e5-3df2-4cf1-b95a-636979351e5b=6",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockpersistencethroughwmieventsubscription_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4083,178 +4082,210 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_off",
     "displayName": "Block use of copied or impersonated system tools",
-    "description": "This rule blocks executables that impersonate or are copies of system tools & binaries found on the machine.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
     ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
+    "applicability": {
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+    },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule blocks executables that impersonate or are copies of system tools & binaries found on the machine.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
+    "name": "BlockUseOfCopiedOrImpersonatedSystemTools",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "c0033c00-d16d-4114-a5a0-dc9b3a7d2ceb=0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_off",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Off",
+        "name": "Off"
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_perruleexclusions",
+            "required": false
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "c0033c00-d16d-4114-a5a0-dc9b3a7d2ceb=1",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_block",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Block",
+        "name": "Block"
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_perruleexclusions",
+            "required": false
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "c0033c00-d16d-4114-a5a0-dc9b3a7d2ceb=2",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_audit",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Audit",
+        "name": "Audit"
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_perruleexclusions",
+            "required": false
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "c0033c00-d16d-4114-a5a0-dc9b3a7d2ceb=6",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_warn",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Warn",
+        "name": "Warn"
+      }
+    ]
+  },
+  {
+    "applicability": {
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+    },
+    "baseUri": "./Vendor/MSFT/Defender",
     "uxBehavior": "default",
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
+    "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
+    "dependedOnBy": [],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
     },
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_off",
-    "riskLevel": "low",
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "technologies": "mdm,microsoftSense",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
-    },
-    "name": "BlockUseOfCopiedOrImpersonatedSystemTools",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "settingUsage": "configuration",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
-    "options": [
-      {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_off",
-        "optionValue": {
-          "value": "c0033c00-d16d-4114-a5a0-dc9b3a7d2ceb=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Off"
-      },
-      {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_block",
-        "optionValue": {
-          "value": "c0033c00-d16d-4114-a5a0-dc9b3a7d2ceb=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_perruleexclusions",
-            "required": false
-          }
-        ],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Block"
-      },
-      {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_audit",
-        "optionValue": {
-          "value": "c0033c00-d16d-4114-a5a0-dc9b3a7d2ceb=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_perruleexclusions",
-            "required": false
-          }
-        ],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Audit"
-      },
-      {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_warn",
-        "optionValue": {
-          "value": "c0033c00-d16d-4114-a5a0-dc9b3a7d2ceb=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools_perruleexclusions",
-            "required": false
-          }
-        ],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Warn"
-      }
-    ]
-  },
-  {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "maximumCount": 1000,
-    "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
-    },
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_block",
@@ -4269,31 +4300,24 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4304,40 +4328,47 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficecommunicationappfromcreatingchildprocesses_perruleexclusions"
-  },
-  {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
+    "baseUri": "./Vendor/MSFT/Defender",
+    "uxBehavior": "default",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
     "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
     "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
     },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "version": "639161298837633273",
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_block",
@@ -4352,31 +4383,24 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4387,40 +4411,47 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_perruleexclusions"
-  },
-  {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
+    "baseUri": "./Vendor/MSFT/Defender",
+    "uxBehavior": "default",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
     "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
     "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
     },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "version": "639161298837633273",
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_block",
@@ -4435,74 +4466,36 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "technologies": "mdm,microsoftSense",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
-    },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses_perruleexclusions"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses",
-    "displayName": "Block Office applications from injecting code into other processes",
-    "description": "This rule blocks code injection attempts from Office apps into other processes.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
+    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
     ],
-    "uxBehavior": "default",
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_off",
-    "riskLevel": "low",
+    "displayName": "Block Office applications from injecting code into other processes",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4513,38 +4506,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule blocks code injection attempts from Office apps into other processes.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
     "name": "BlockOfficeApplicationsFromInjectingCodeIntoOtherProcesses",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "settingUsage": "configuration",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_off",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4552,23 +4551,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_block",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4576,23 +4575,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_audit",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4600,23 +4599,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_warn",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfrominjectingcodeintootherprocesses_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4624,31 +4623,25 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware",
-    "displayName": "Use advanced protection against ransomware",
-    "description": "This rule provides an extra layer of protection against ransomware. It scans executable files entering the system to determine whether they're trustworthy. If the files closely resemble ransomware, this rule blocks them from running, unless they're in a trusted list or an exclusion list.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "uxBehavior": "default",
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_off",
-    "riskLevel": "low",
+    "displayName": "Use advanced protection against ransomware",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4659,38 +4652,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule provides an extra layer of protection against ransomware. It scans executable files entering the system to determine whether they're trustworthy. If the files closely resemble ransomware, this rule blocks them from running, unless they're in a trusted list or an exclusion list.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
     "name": "UseAdvancedProtectionAgainstRansomware",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "settingUsage": "configuration",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_off",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "c1db55ab-c21a-4637-bb3f-a12568109d35=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4698,23 +4697,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_block",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "c1db55ab-c21a-4637-bb3f-a12568109d35=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4722,23 +4721,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_audit",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "c1db55ab-c21a-4637-bb3f-a12568109d35=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4746,23 +4745,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_warn",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "c1db55ab-c21a-4637-bb3f-a12568109d35=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_useadvancedprotectionagainstransomware_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4770,31 +4769,25 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands",
-    "displayName": "Block process creations originating from PSExec and WMI commands",
-    "description": "This rule blocks processes created through PsExec and WMI from running. Both PsExec and WMI can remotely execute code, so there is a risk of malware abusing this functionality for command and control purposes, or to spread an infection throughout an organization's network.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "uxBehavior": "default",
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_off",
-    "riskLevel": "low",
+    "displayName": "Block process creations originating from PSExec and WMI commands",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4805,38 +4798,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule blocks processes created through PsExec and WMI from running. Both PsExec and WMI can remotely execute code, so there is a risk of malware abusing this functionality for command and control purposes, or to spread an infection throughout an organization's network.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
     "name": "BlockProcessCreationsFromPSExecAndWMICommands",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "settingUsage": "configuration",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_off",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "d1e49aac-8f56-4280-b9ba-993a6d77406c=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4844,23 +4843,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_block",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "d1e49aac-8f56-4280-b9ba-993a6d77406c=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4868,23 +4867,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_audit",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "d1e49aac-8f56-4280-b9ba-993a6d77406c=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4892,23 +4891,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_warn",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "d1e49aac-8f56-4280-b9ba-993a6d77406c=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockprocesscreationsfrompsexecandwmicommands_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4916,31 +4915,25 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode",
-    "displayName": "Block rebooting machine in Safe Mode",
-    "description": "This rule blocks attempts of restarting a machine in SAFE mode.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "uxBehavior": "default",
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_off",
-    "riskLevel": "low",
+    "displayName": "Block rebooting machine in Safe Mode",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4951,38 +4944,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule blocks attempts of restarting a machine in SAFE mode.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
     "name": "BlockRebootingMachineInSafeMode",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "settingUsage": "configuration",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_off",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "33ddedf1-c6e0-47cb-833e-de6133960387=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -4990,23 +4989,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_block",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "33ddedf1-c6e0-47cb-833e-de6133960387=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -5014,23 +5013,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_audit",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "33ddedf1-c6e0-47cb-833e-de6133960387=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -5038,23 +5037,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_warn",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "33ddedf1-c6e0-47cb-833e-de6133960387=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -5062,31 +5061,25 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail",
-    "displayName": "Block executable content from email client and webmail",
-    "description": "This rule blocks the following file types from launching from email opened within the Microsoft Outlook application, or Outlook.com and other popular webmail providers: Executable files (such as .exe, .dll, or .scr), Script files (such as a PowerShell .ps, VisualBasic .vbs, or JavaScript .js file).",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "uxBehavior": "default",
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
-    "version": "639161298837633273",
     "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_off",
-    "riskLevel": "low",
+    "displayName": "Block executable content from email client and webmail",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5097,38 +5090,44 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "BlockExecutableContentFromEmailClientAndWebmail",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Attack Surface Reduction Rules",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule blocks the following file types from launching from email opened within the Microsoft Outlook application, or Outlook.com and other popular webmail providers: Executable files (such as .exe, .dll, or .scr), Script files (such as a PowerShell .ps, VisualBasic .vbs, or JavaScript .js file).",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
+    "name": "BlockExecutableContentFromEmailClientAndWebmail",
     "options": [
       {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_off",
-        "optionValue": {
-          "value": "BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550=0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_off",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -5136,23 +5135,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Off"
+        "displayName": "Off",
+        "name": "Off"
       },
       {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_block",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_block",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -5160,23 +5159,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Block"
+        "displayName": "Block",
+        "name": "Block"
       },
       {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_audit",
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_perruleexclusions",
+            "required": false
+          }
+        ],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "value": "BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_perruleexclusions",
-            "required": false
-          }
-        ],
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_audit",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -5184,23 +5183,23 @@
           }
         ],
         "helpText": null,
-        "displayName": "Audit"
+        "displayName": "Audit",
+        "name": "Audit"
       },
       {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_warn",
-        "optionValue": {
-          "value": "BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
         "dependedOnBy": [
           {
             "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_perruleexclusions",
             "required": false
           }
         ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550=6",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail_warn",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
@@ -5208,178 +5207,210 @@
           }
         ],
         "helpText": null,
-        "displayName": "Warn"
+        "displayName": "Warn",
+        "name": "Warn"
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_off",
     "displayName": "Block Office applications from creating executable content",
-    "description": "This rule prevents Office apps, including Word, Excel, and PowerPoint, from creating potentially malicious executable content, by blocking malicious code from being written to disk.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
     ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
+    "applicability": {
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+    },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This rule prevents Office apps, including Word, Excel, and PowerPoint, from creating potentially malicious executable content, by blocking malicious code from being written to disk.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "uxBehavior": "default",
+    "name": "BlockOfficeApplicationsFromCreatingExecutableContent",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "3B576869-A4EC-4529-8536-B80A7769E899=0",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_off",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Off",
+        "name": "Off"
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_perruleexclusions",
+            "required": false
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "3B576869-A4EC-4529-8536-B80A7769E899=1",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_block",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Block",
+        "name": "Block"
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_perruleexclusions",
+            "required": false
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "3B576869-A4EC-4529-8536-B80A7769E899=2",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_audit",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Audit",
+        "name": "Audit"
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_perruleexclusions",
+            "required": false
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "value": "3B576869-A4EC-4529-8536-B80A7769E899=6",
+          "settingValueTemplateReference": null
+        },
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_warn",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
+          }
+        ],
+        "helpText": null,
+        "displayName": "Warn",
+        "name": "Warn"
+      }
+    ]
+  },
+  {
+    "applicability": {
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+    },
+    "baseUri": "./Vendor/MSFT/Defender",
     "uxBehavior": "default",
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
+    "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
+    "dependedOnBy": [],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
+    },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
     },
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_off",
-    "riskLevel": "low",
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "technologies": "mdm,configManager,microsoftSense",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
-    },
-    "name": "BlockOfficeApplicationsFromCreatingExecutableContent",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "settingUsage": "configuration",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
-    "options": [
-      {
-        "description": null,
-        "name": "Off",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_off",
-        "optionValue": {
-          "value": "3B576869-A4EC-4529-8536-B80A7769E899=0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Off"
-      },
-      {
-        "description": null,
-        "name": "Block",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_block",
-        "optionValue": {
-          "value": "3B576869-A4EC-4529-8536-B80A7769E899=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_perruleexclusions",
-            "required": false
-          }
-        ],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Block"
-      },
-      {
-        "description": null,
-        "name": "Audit",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_audit",
-        "optionValue": {
-          "value": "3B576869-A4EC-4529-8536-B80A7769E899=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_perruleexclusions",
-            "required": false
-          }
-        ],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Audit"
-      },
-      {
-        "description": null,
-        "name": "Warn",
-        "itemId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_warn",
-        "optionValue": {
-          "value": "3B576869-A4EC-4529-8536-B80A7769E899=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "dependedOnBy": [
-          {
-            "dependedOnBy": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockofficeapplicationsfromcreatingexecutablecontent_perruleexclusions",
-            "required": false
-          }
-        ],
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules"
-          }
-        ],
-        "helpText": null,
-        "displayName": "Warn"
-      }
-    ]
-  },
-  {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
-    "maximumCount": 1000,
-    "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
-    },
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_block",
@@ -5394,31 +5425,24 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_perruleexclusions",
     "visibility": "template",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5429,40 +5453,47 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockwin32apicallsfromofficemacros_perruleexclusions"
-  },
-  {
-    "minimumCount": 0,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "description": "Apply ASR only per rule exclusions.",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
-    ],
+    "baseUri": "./Vendor/MSFT/Defender",
+    "uxBehavior": "default",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "helpText": "",
+    "accessTypes": "add,delete,get,replace",
+    "displayName": "ASR Only Per Rule Exclusions",
     "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
     "dependedOnBy": [],
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "valueDefinition": {
-      "maximumLength": 1024,
-      "format": "regEx",
-      "minimumLength": 0,
-      "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "isSecret": false,
-      "inputValidationSchema": "^[^|=>]+$"
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "value": null,
+      "settingValueTemplateReference": null
     },
+    "valueDefinition": {
+      "inputValidationSchema": "^[^|=>]+$",
+      "maximumLength": 1024,
+      "minimumLength": 0,
+      "format": "regEx",
+      "fileTypes": [],
+      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+    },
+    "version": "639161298837633273",
+    "name": "ASROnlyPerRuleExclusions",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_block",
@@ -5477,31 +5508,38 @@
         "parentSettingId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode"
       }
     ],
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "name": "ASROnlyPerRuleExclusions",
-    "version": "639161298837633273",
-    "displayName": "ASR Only Per Rule Exclusions",
-    "helpText": "",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
-    "uxBehavior": "default",
-    "riskLevel": "low",
     "settingUsage": "configuration",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_perruleexclusions",
     "visibility": "template",
+    "riskLevel": "low",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction"
+    ],
+    "offsetUri": "/Configuration/ASROnlyPerRuleExclusions",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "description": "Apply ASR only per rule exclusions."
+  },
+  {
     "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
     },
+    "displayName": "Attack Surface Reduction Rules",
+    "maximumCount": 1,
+    "dependentOn": [],
+    "referredSettingInformationList": [],
+    "minimumCount": 0,
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender#attacksurfacereductionrules"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5512,20 +5550,22 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
-      "technologies": "mdm,microsoftSense",
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode_perruleexclusions"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
+    "keywords": [
+      "Attack Surface Reduction Rules",
+      "Defender"
+    ],
     "childIds": [
       "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockexecutablecontentfromemailclientandwebmail",
       "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockallofficeapplicationsfromcreatingchildprocesses",
@@ -5547,15 +5587,16 @@
       "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockrebootingmachineinsafemode",
       "device_vendor_msft_policy_config_defender_attacksurfacereductionrules_blockuseofcopiedorimpersonatedsystemtools"
     ],
-    "displayName": "Attack Surface Reduction Rules",
-    "description": "Attack surface reduction rules help prevent actions that malware often abuse to compromise devices and networks. ",
+    "id": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
     "baseUri": "./Device/Vendor/MSFT/Policy",
+    "accessTypes": "add,delete,get,replace",
+    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules",
     "helpText": "",
+    "riskLevel": "low",
+    "description": "Attack surface reduction rules help prevent actions that malware often abuse to compromise devices and networks. ",
+    "settingUsage": "configuration",
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_attacksurfacereductionrules",
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender#attacksurfacereductionrules"
-    ],
     "uxBehavior": "default",
     "dependedOnBy": [
       {
@@ -5635,136 +5676,32 @@
         "required": false
       }
     ],
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "minimumCount": 0,
-    "version": "639161298837633273",
-    "riskLevel": "low",
-    "maximumCount": 1,
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "technologies": "mdm,configManager,microsoftSense",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
-    },
-    "name": "AttackSurfaceReductionRules",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
-    "keywords": [
-      "Attack Surface Reduction Rules",
-      "Defender"
-    ],
-    "settingUsage": "configuration",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "accessTypes": "add,delete,get,replace",
-    "dependentOn": [],
-    "offsetUri": "/Config/Defender/AttackSurfaceReductionRules"
+    "name": "AttackSurfaceReductionRules"
   },
   {
-    "id": "device_vendor_msft_defender_configuration_daysuntilaggressivecatchupquickscan",
-    "displayName": "Days Until Aggressive Catchup Quick Scan",
-    "description": "Configure how many days can pass before an aggressive catchup quick scan is triggered. Valid values are 0 and [7-60]. Configuring this setting to 0 will disable aggressive catchup quick scans. By default, these scans will run every 30 days when enabled. These scans are only enabled if catchup scans (quick and full) are disabled, and Microsoft Defender Antivirus is not in Passive mode.",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_defender_configuration_daysuntilaggressivecatchupquickscan",
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "uxBehavior": "default",
-    "dependedOnBy": [],
     "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
     },
-    "defaultValue": {
-      "value": 30,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
-    "version": "639161298837633273",
-    "dependentOn": [],
-    "riskLevel": "low",
-    "applicability": {
-      "platform": "windows10",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.14393",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "technologies": "mdm,microsoftSense",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
-    },
-    "name": "DaysUntilAggressiveCatchupQuickScan",
-    "referredSettingInformationList": [],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "keywords": [
-      "Days Until Aggressive Catchup Quick Scan",
-      "Defender"
-    ],
-    "settingUsage": "configuration",
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "accessTypes": "add,delete,get,replace",
     "valueDefinition": {
       "maximumValue": 60,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
       "minimumValue": 0
     },
-    "offsetUri": "/Configuration/DaysUntilAggressiveCatchupQuickScan"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_defender_enablenetworkprotection",
-    "displayName": "Enable Network Protection",
-    "description": "This policy allows you to turn network protection on (block/audit) or off. Network protection protects employees using any app from accessing phishing scams, exploit-hosting sites, and malicious content on the Internet. This includes preventing third-party browsers from connecting to dangerous sites. Value type is integer. If you enable this setting, network protection is turned on and employees can't turn it off. Its behavior can be controlled by the following options: Block and Audit. If you enable this policy with the Block option, users/apps will be blocked from connecting to dangerous domains. You will be able to see this activity in Windows Defender Security Center. If you enable this policy with the Audit option, users/apps will not be blocked from connecting to dangerous domains. However, you will still see this activity in Windows Defender Security Center. If you disable this policy, users/apps will not be blocked from connecting to dangerous domains. You will not see any network activity in Windows Defender Security Center. If you do not configure this policy, network blocking will be disabled by default.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_enablenetworkprotection",
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+    "displayName": "Days Until Aggressive Catchup Quick Scan",
+    "dependentOn": [],
+    "referredSettingInformationList": [],
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "value": 30,
+      "settingValueTemplateReference": null
     },
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
+    "visibility": "settingsCatalog,template",
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_0",
-    "riskLevel": "low",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5777,93 +5714,149 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
-      "technologies": "mdm,configManager,microsoftSense",
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.14393",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "EnableNetworkProtection",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "keywords": [
+      "Days Until Aggressive Catchup Quick Scan",
+      "Defender"
+    ],
+    "id": "device_vendor_msft_defender_configuration_daysuntilaggressivecatchupquickscan",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "accessTypes": "add,delete,get,replace",
+    "offsetUri": "/Configuration/DaysUntilAggressiveCatchupQuickScan",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "Configure how many days can pass before an aggressive catchup quick scan is triggered. Valid values are 0 and [7-60]. Configuring this setting to 0 will disable aggressive catchup quick scans. By default, these scans will run every 30 days when enabled. These scans are only enabled if catchup scans (quick and full) are disabled, and Microsoft Defender Antivirus is not in Passive mode.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_defender_configuration_daysuntilaggressivecatchupquickscan",
+    "uxBehavior": "default",
+    "dependedOnBy": [],
+    "name": "DaysUntilAggressiveCatchupQuickScan"
+  },
+  {
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_0",
+    "displayName": "Enable Network Protection",
     "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
+    "visibility": "settingsCatalog,template",
+    "version": "639161298837633273",
+    "applicability": {
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "platform": "windows10",
+      "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
+      "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
+      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+    },
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Enable Network Protection",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_enablenetworkprotection",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/EnableNetworkProtection",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This policy allows you to turn network protection on (block/audit) or off. Network protection protects employees using any app from accessing phishing scams, exploit-hosting sites, and malicious content on the Internet. This includes preventing third-party browsers from connecting to dangerous sites. Value type is integer. If you enable this setting, network protection is turned on and employees can't turn it off. Its behavior can be controlled by the following options: Block and Audit. If you enable this policy with the Block option, users/apps will be blocked from connecting to dangerous domains. You will be able to see this activity in Windows Defender Security Center. If you enable this policy with the Audit option, users/apps will not be blocked from connecting to dangerous domains. However, you will still see this activity in Windows Defender Security Center. If you disable this policy, users/apps will not be blocked from connecting to dangerous domains. You will not see any network activity in Windows Defender Security Center. If you do not configure this policy, network blocking will be disabled by default.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_enablenetworkprotection",
+    "uxBehavior": "default",
+    "name": "EnableNetworkProtection",
     "options": [
       {
-        "description": "Disabled",
-        "name": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_0",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": "Disabled",
+        "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_0",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Disabled"
+        "displayName": "Disabled",
+        "name": "Disabled"
       },
       {
-        "description": "Enabled (block mode)",
-        "name": "Enabled (block mode)",
-        "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_1",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": "Enabled (block mode)",
+        "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_1",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Enabled (block mode)"
+        "displayName": "Enabled (block mode)",
+        "name": "Enabled (block mode)"
       },
       {
-        "description": "Enabled (audit mode)",
-        "name": "Enabled (audit mode)",
-        "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_2",
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "description": "Enabled (audit mode)",
+        "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_2",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Enabled (audit mode)"
+        "displayName": "Enabled (audit mode)",
+        "name": "Enabled (audit mode)"
       }
     ]
   },
   {
-    "id": "device_vendor_msft_defender_configuration_hideexclusionsfromlocalusers",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "defaultOptionId": "device_vendor_msft_defender_configuration_hideexclusionsfromlocalusers_0",
     "displayName": "Hide Exclusions From Local Users",
-    "description": "This policy setting controls whether or not exclusions are visible to local users. If HideExclusionsFromLocalAdmins is set then this policy will be implicitly set.",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_defender_configuration_hideexclusionsfromlocalusers",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
     ],
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "visibility": "settingsCatalog,template",
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_hideexclusionsfromlocalusers_0",
-    "riskLevel": "low",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5876,79 +5869,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.17763",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
+      "minimumSupportedVersion": "10.0.17763",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "HideExclusionsFromLocalUsers",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Hide Exclusions From Local Users",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_defender_configuration_hideexclusionsfromlocalusers",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Vendor/MSFT/Defender",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Configuration/HideExclusionsFromLocalUsers",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This policy setting controls whether or not exclusions are visible to local users. If HideExclusionsFromLocalAdmins is set then this policy will be implicitly set.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_defender_configuration_hideexclusionsfromlocalusers",
+    "uxBehavior": "default",
+    "name": "HideExclusionsFromLocalUsers",
     "options": [
       {
-        "description": "If you enable this setting, local users will no longer be able to see the exclusion list in Windows Security App or via PowerShell.",
-        "name": "If you enable this setting, local users will no longer be able to see the exclusion list in Windows Security App or via PowerShell.",
-        "itemId": "device_vendor_msft_defender_configuration_hideexclusionsfromlocalusers_1",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": "If you enable this setting, local users will no longer be able to see the exclusion list in Windows Security App or via PowerShell.",
+        "itemId": "device_vendor_msft_defender_configuration_hideexclusionsfromlocalusers_1",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "If you enable this setting, local users will no longer be able to see the exclusion list in Windows Security App or via PowerShell."
+        "displayName": "If you enable this setting, local users will no longer be able to see the exclusion list in Windows Security App or via PowerShell.",
+        "name": "If you enable this setting, local users will no longer be able to see the exclusion list in Windows Security App or via PowerShell."
       },
       {
-        "description": "If you disable or do not configure this setting, local users will be able to see exclusions in the Windows Security App and via PowerShell.",
-        "name": "If you disable or do not configure this setting, local users will be able to see exclusions in the Windows Security App and via PowerShell.",
-        "itemId": "device_vendor_msft_defender_configuration_hideexclusionsfromlocalusers_0",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": "If you disable or do not configure this setting, local users will be able to see exclusions in the Windows Security App and via PowerShell.",
+        "itemId": "device_vendor_msft_defender_configuration_hideexclusionsfromlocalusers_0",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "If you disable or do not configure this setting, local users will be able to see exclusions in the Windows Security App and via PowerShell."
+        "displayName": "If you disable or do not configure this setting, local users will be able to see exclusions in the Windows Security App and via PowerShell.",
+        "name": "If you disable or do not configure this setting, local users will be able to see exclusions in the Windows Security App and via PowerShell."
       }
     ]
   },
   {
-    "id": "device_vendor_msft_defender_configuration_oobeenablertpandsigupdate",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "defaultOptionId": "device_vendor_msft_defender_configuration_oobeenablertpandsigupdate_0",
     "displayName": "Oobe Enable Rtp And Sig Update",
-    "description": "This setting allows you to configure whether real-time protection and Security Intelligence Updates are enabled during OOBE (Out of Box experience).",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_defender_configuration_oobeenablertpandsigupdate",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
     ],
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "visibility": "settingsCatalog,template",
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_oobeenablertpandsigupdate_0",
-    "riskLevel": "low",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5961,79 +5954,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.14393",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
+      "minimumSupportedVersion": "10.0.14393",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "OobeEnableRtpAndSigUpdate",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Oobe Enable Rtp And Sig Update",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_defender_configuration_oobeenablertpandsigupdate",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Vendor/MSFT/Defender",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Configuration/OobeEnableRtpAndSigUpdate",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This setting allows you to configure whether real-time protection and Security Intelligence Updates are enabled during OOBE (Out of Box experience).",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_defender_configuration_oobeenablertpandsigupdate",
+    "uxBehavior": "default",
+    "name": "OobeEnableRtpAndSigUpdate",
     "options": [
       {
-        "description": "If you enable this setting, real-time protection and Security Intelligence Updates are enabled during OOBE.",
-        "name": "If you enable this setting, real-time protection and Security Intelligence Updates are enabled during OOBE.",
-        "itemId": "device_vendor_msft_defender_configuration_oobeenablertpandsigupdate_1",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": "If you enable this setting, real-time protection and Security Intelligence Updates are enabled during OOBE.",
+        "itemId": "device_vendor_msft_defender_configuration_oobeenablertpandsigupdate_1",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "If you enable this setting, real-time protection and Security Intelligence Updates are enabled during OOBE."
+        "displayName": "If you enable this setting, real-time protection and Security Intelligence Updates are enabled during OOBE.",
+        "name": "If you enable this setting, real-time protection and Security Intelligence Updates are enabled during OOBE."
       },
       {
-        "description": "If you either disable or do not configure this setting, real-time protection and Security Intelligence Updates during OOBE is not enabled.",
-        "name": "If you either disable or do not configure this setting, real-time protection and Security Intelligence Updates during OOBE is not enabled.",
-        "itemId": "device_vendor_msft_defender_configuration_oobeenablertpandsigupdate_0",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": "If you either disable or do not configure this setting, real-time protection and Security Intelligence Updates during OOBE is not enabled.",
+        "itemId": "device_vendor_msft_defender_configuration_oobeenablertpandsigupdate_0",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "If you either disable or do not configure this setting, real-time protection and Security Intelligence Updates during OOBE is not enabled."
+        "displayName": "If you either disable or do not configure this setting, real-time protection and Security Intelligence Updates during OOBE is not enabled.",
+        "name": "If you either disable or do not configure this setting, real-time protection and Security Intelligence Updates during OOBE is not enabled."
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_defender_puaprotection",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_puaprotection_0",
     "displayName": "PUA Protection",
-    "description": "Specifies the level of detection for potentially unwanted applications (PUAs). Windows Defender alerts you when potentially unwanted software is being downloaded or attempts to install itself on your computer.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_puaprotection",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
     ],
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
+    "visibility": "settingsCatalog,template",
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_puaprotection_0",
-    "riskLevel": "low",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -6046,93 +6039,93 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.14393",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "4.1",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "4.1"
+      "minimumSupportedVersion": "10.0.14393",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "PUAProtection",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "PUA Protection",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_defender_puaprotection",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/Defender/PUAProtection",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "Specifies the level of detection for potentially unwanted applications (PUAs). Windows Defender alerts you when potentially unwanted software is being downloaded or attempts to install itself on your computer.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_puaprotection",
+    "uxBehavior": "default",
+    "name": "PUAProtection",
     "options": [
       {
-        "description": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications.",
-        "name": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications.",
-        "itemId": "device_vendor_msft_policy_config_defender_puaprotection_0",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications.",
+        "itemId": "device_vendor_msft_policy_config_defender_puaprotection_0",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications."
+        "displayName": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications.",
+        "name": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications."
       },
       {
-        "description": "PUA Protection on. Detected items are blocked. They will show in history along with other threats.",
-        "name": "PUA Protection on. Detected items are blocked. They will show in history along with other threats.",
-        "itemId": "device_vendor_msft_policy_config_defender_puaprotection_1",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": "PUA Protection on. Detected items are blocked. They will show in history along with other threats.",
+        "itemId": "device_vendor_msft_policy_config_defender_puaprotection_1",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "PUA Protection on. Detected items are blocked. They will show in history along with other threats."
+        "displayName": "PUA Protection on. Detected items are blocked. They will show in history along with other threats.",
+        "name": "PUA Protection on. Detected items are blocked. They will show in history along with other threats."
       },
       {
-        "description": "Audit mode. Windows Defender will detect potentially unwanted applications, but take no action. You can review information about the applications Windows Defender would have taken action against by searching for events created by Windows Defender in the Event Viewer.",
-        "name": "Audit mode. Windows Defender will detect potentially unwanted applications, but take no action. You can review information about the applications Windows Defender would have taken action against by searching for events created by Windows Defender in the Event Viewer.",
-        "itemId": "device_vendor_msft_policy_config_defender_puaprotection_2",
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 2,
+          "settingValueTemplateReference": null
+        },
+        "description": "Audit mode. Windows Defender will detect potentially unwanted applications, but take no action. You can review information about the applications Windows Defender would have taken action against by searching for events created by Windows Defender in the Event Viewer.",
+        "itemId": "device_vendor_msft_policy_config_defender_puaprotection_2",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Audit mode. Windows Defender will detect potentially unwanted applications, but take no action. You can review information about the applications Windows Defender would have taken action against by searching for events created by Windows Defender in the Event Viewer."
+        "displayName": "Audit mode. Windows Defender will detect potentially unwanted applications, but take no action. You can review information about the applications Windows Defender would have taken action against by searching for events created by Windows Defender in the Event Viewer.",
+        "name": "Audit mode. Windows Defender will detect potentially unwanted applications, but take no action. You can review information about the applications Windows Defender would have taken action against by searching for events created by Windows Defender in the Event Viewer."
       }
     ]
   },
   {
-    "id": "device_vendor_msft_defender_configuration_quickscanincludeexclusions",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "defaultOptionId": "device_vendor_msft_defender_configuration_quickscanincludeexclusions_0",
     "displayName": "Quick Scan Include Exclusions",
-    "description": "This setting allows you to scan excluded files and directories during quick scans.",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_defender_configuration_quickscanincludeexclusions",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
     ],
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "visibility": "settingsCatalog,template",
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_quickscanincludeexclusions_0",
-    "riskLevel": "low",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -6145,79 +6138,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.14393",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
+      "minimumSupportedVersion": "10.0.14393",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "QuickScanIncludeExclusions",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Quick Scan Include Exclusions",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_defender_configuration_quickscanincludeexclusions",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Vendor/MSFT/Defender",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Configuration/QuickScanIncludeExclusions",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "This setting allows you to scan excluded files and directories during quick scans.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_defender_configuration_quickscanincludeexclusions",
+    "uxBehavior": "default",
+    "name": "QuickScanIncludeExclusions",
     "options": [
       {
-        "description": "If you set this setting to 0 or do not configure it, exclusions are not scanned during quick scans.",
-        "name": "If you set this setting to 0 or do not configure it, exclusions are not scanned during quick scans.",
-        "itemId": "device_vendor_msft_defender_configuration_quickscanincludeexclusions_0",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": "If you set this setting to 0 or do not configure it, exclusions are not scanned during quick scans.",
+        "itemId": "device_vendor_msft_defender_configuration_quickscanincludeexclusions_0",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "If you set this setting to 0 or do not configure it, exclusions are not scanned during quick scans."
+        "displayName": "If you set this setting to 0 or do not configure it, exclusions are not scanned during quick scans.",
+        "name": "If you set this setting to 0 or do not configure it, exclusions are not scanned during quick scans."
       },
       {
-        "description": "If you set this setting to 1, all files and directories that are excluded from real-time protection using contextual exclusions are scanned during a quick scan.",
-        "name": "If you set this setting to 1, all files and directories that are excluded from real-time protection using contextual exclusions are scanned during a quick scan.",
-        "itemId": "device_vendor_msft_defender_configuration_quickscanincludeexclusions_1",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": "If you set this setting to 1, all files and directories that are excluded from real-time protection using contextual exclusions are scanned during a quick scan.",
+        "itemId": "device_vendor_msft_defender_configuration_quickscanincludeexclusions_1",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "If you set this setting to 1, all files and directories that are excluded from real-time protection using contextual exclusions are scanned during a quick scan."
+        "displayName": "If you set this setting to 1, all files and directories that are excluded from real-time protection using contextual exclusions are scanned during a quick scan.",
+        "name": "If you set this setting to 1, all files and directories that are excluded from real-time protection using contextual exclusions are scanned during a quick scan."
       }
     ]
   },
   {
-    "id": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "defaultOptionId": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate_0",
     "displayName": "Remote Encryption Protection Configured State",
-    "description": "Remote Encryption Protection in Microsoft Defender Antivirus detects and blocks attempts to replace local files with encrypted versions from another device.",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
     ],
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "visibility": "settingsCatalog,template",
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate_0",
-    "riskLevel": "low",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -6230,107 +6223,107 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.14393",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "1.3",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,microsoftSense",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "1.3"
+      "minimumSupportedVersion": "10.0.14393",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "RemoteEncryptionProtectionConfiguredState",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Remote Encryption Protection Configured State",
       "Defender"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate",
     "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "baseUri": "./Vendor/MSFT/Defender",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Configuration/BehavioralNetworkBlocks/RemoteEncryptionProtection/RemoteEncryptionProtectionConfiguredState",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "Remote Encryption Protection in Microsoft Defender Antivirus detects and blocks attempts to replace local files with encrypted versions from another device.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate",
+    "uxBehavior": "default",
+    "name": "RemoteEncryptionProtectionConfiguredState",
     "options": [
       {
-        "description": "Not configured: Apply defaults set for the antivirus engine and platform",
-        "name": "Not configured: Apply defaults set for the antivirus engine and platform",
-        "itemId": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate_0",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": "Not configured: Apply defaults set for the antivirus engine and platform",
+        "itemId": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate_0",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Not configured: Apply defaults set for the antivirus engine and platform"
+        "displayName": "Not configured: Apply defaults set for the antivirus engine and platform",
+        "name": "Not configured: Apply defaults set for the antivirus engine and platform"
       },
       {
-        "description": "Block: Prevent suspicious and malicious behaviors",
-        "name": "Block: Prevent suspicious and malicious behaviors",
-        "itemId": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate_1",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": "Block: Prevent suspicious and malicious behaviors",
+        "itemId": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate_1",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Block: Prevent suspicious and malicious behaviors"
+        "displayName": "Block: Prevent suspicious and malicious behaviors",
+        "name": "Block: Prevent suspicious and malicious behaviors"
       },
       {
-        "description": "Audit: Generate EDR detections without blocking",
-        "name": "Audit: Generate EDR detections without blocking",
-        "itemId": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate_2",
+        "dependedOnBy": [],
         "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+          "settingValueTemplateReference": null
         },
-        "dependedOnBy": [],
+        "description": "Audit: Generate EDR detections without blocking",
+        "itemId": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate_2",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Audit: Generate EDR detections without blocking"
+        "displayName": "Audit: Generate EDR detections without blocking",
+        "name": "Audit: Generate EDR detections without blocking"
       },
       {
-        "description": "Off: Feature is off with no performance impact",
-        "name": "Off: Feature is off with no performance impact",
-        "itemId": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate_4",
-        "optionValue": {
-          "value": 4,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 4,
+          "settingValueTemplateReference": null
+        },
+        "description": "Off: Feature is off with no performance impact",
+        "itemId": "device_vendor_msft_defender_configuration_behavioralnetworkblocks_remoteencryptionprotection_remoteencryptionprotectionconfiguredstate_4",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "Off: Feature is off with no performance impact"
+        "displayName": "Off: Feature is off with no performance impact",
+        "name": "Off: Feature is off with no performance impact"
       }
     ]
   },
   {
-    "id": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disallowexploitprotectionoverride",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "defaultOptionId": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disallowexploitprotectionoverride_0",
     "displayName": "Disallow Exploit Protection Override",
-    "description": "Prevent users from making changes to the exploit protection settings area in the Windows Defender Security Center. If you disable or do not configure this setting, local users can make changes in the exploit protection settings area. Value type is integer. Supported operations are Add, Get, Replace and Delete.",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "helpText": "",
-    "rootDefinitionId": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disallowexploitprotectionoverride",
-    "visibility": "settingsCatalog,template",
+    "referredSettingInformationList": [],
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-WindowsDefenderSecurityCenter#disallowexploitprotectionoverride"
     ],
-    "uxBehavior": "toggle",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
+    "visibility": "settingsCatalog,template",
     "version": "639161298837633273",
-    "defaultOptionId": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disallowexploitprotectionoverride_0",
-    "riskLevel": "low",
     "applicability": {
-      "platform": "windows10",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -6342,55 +6335,62 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "maximumSupportedVersion": null,
-      "minimumSupportedVersion": "10.0.16299",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
       "description": null,
+      "configurationServiceProviderVersion": "6.0",
+      "maximumSupportedVersion": null,
       "technologies": "mdm,configManager",
+      "deviceMode": "none",
       "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "6.0"
+      "minimumSupportedVersion": "10.0.16299",
+      "requiredAzureAdTrustType": "none",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
     },
-    "name": "DisallowExploitProtectionOverride",
-    "referredSettingInformationList": [],
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "keywords": [
       "Disallow Exploit Protection Override",
       "Windows Defender Security Center"
     ],
-    "settingUsage": "configuration",
+    "id": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disallowexploitprotectionoverride",
     "categoryId": "f72e61e9-7e84-4c6d-8057-fa0a4f79cbea",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "accessTypes": "add,delete,get,replace",
     "offsetUri": "/Config/WindowsDefenderSecurityCenter/DisallowExploitProtectionOverride",
+    "helpText": "",
+    "riskLevel": "low",
+    "description": "Prevent users from making changes to the exploit protection settings area in the Windows Defender Security Center. If you disable or do not configure this setting, local users can make changes in the exploit protection settings area. Value type is integer. Supported operations are Add, Get, Replace and Delete.",
+    "settingUsage": "configuration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disallowexploitprotectionoverride",
+    "uxBehavior": "toggle",
+    "name": "DisallowExploitProtectionOverride",
     "options": [
       {
-        "description": "(Disable) Local users are allowed to make changes in the exploit protection settings area.",
-        "name": "(Disable) Local users are allowed to make changes in the exploit protection settings area.",
-        "itemId": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disallowexploitprotectionoverride_0",
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 0,
+          "settingValueTemplateReference": null
+        },
+        "description": "(Disable) Local users are allowed to make changes in the exploit protection settings area.",
+        "itemId": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disallowexploitprotectionoverride_0",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "(Disable) Local users are allowed to make changes in the exploit protection settings area."
+        "displayName": "(Disable) Local users are allowed to make changes in the exploit protection settings area.",
+        "name": "(Disable) Local users are allowed to make changes in the exploit protection settings area."
       },
       {
-        "description": "(Enable) Local users cannot make changes in the exploit protection settings area.",
-        "name": "(Enable) Local users cannot make changes in the exploit protection settings area.",
-        "itemId": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disallowexploitprotectionoverride_1",
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "dependedOnBy": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 1,
+          "settingValueTemplateReference": null
+        },
+        "description": "(Enable) Local users cannot make changes in the exploit protection settings area.",
+        "itemId": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disallowexploitprotectionoverride_1",
         "dependentOn": [],
         "helpText": null,
-        "displayName": "(Enable) Local users cannot make changes in the exploit protection settings area."
+        "displayName": "(Enable) Local users cannot make changes in the exploit protection settings area.",
+        "name": "(Enable) Local users cannot make changes in the exploit protection settings area."
       }
     ]
   }

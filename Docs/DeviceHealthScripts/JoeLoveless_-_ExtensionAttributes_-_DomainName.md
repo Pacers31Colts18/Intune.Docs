@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_DomainName.md)
 
-**Report Generated:** 06/16/2026 08:51:10
+**Report Generated:** 06/17/2026 08:33:20
 
 ---
 
@@ -33,27 +33,27 @@ N/A
 
 ```json
 {
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "runAs32Bit": true,
-  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
+  "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z",
   "isGlobalScript": false,
-  "remediationScriptContent": "",
-  "detectionScriptParameters": [],
-  "enforceSignatureCheck": false,
-  "publisher": " ",
-  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
-  "deviceHealthScriptType": "deviceHealthScript",
-  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
+  "remediationScriptParameters": [],
   "description": "Outputs the domain name to be used for Azure Automation.",
-  "version": "1",
-  "highestAvailableVersion": null,
+  "runAs32Bit": true,
+  "publisher": " ",
   "roleScopeTagIds": [
     "0"
   ],
-  "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z",
+  "version": "1",
+  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
   "runAsAccount": "system",
-  "remediationScriptParameters": [],
-  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea"
+  "highestAvailableVersion": null,
+  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
+  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
+  "detectionScriptParameters": [],
+  "deviceHealthScriptType": "deviceHealthScript",
+  "remediationScriptContent": "",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
+  "enforceSignatureCheck": false
 }
 ```
 

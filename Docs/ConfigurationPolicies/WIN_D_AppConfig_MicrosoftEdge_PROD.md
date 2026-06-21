@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/WIN_D_AppConfig_MicrosoftEdge_PROD.md)
 
-**Report Generated:** 06/20/2026 07:05:28
+**Report Generated:** 06/21/2026 08:05:34
 
 ---
 
@@ -31,18 +31,18 @@ This policy is available only on Windows instances that are joined to a Microsof
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -66,23 +66,23 @@ Example value: https://www.contoso.com
 
 ```json
 {
+  "optionValue": {
+    "value": 1,
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  },
+  "helpText": null,
   "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_1",
   "description": null,
-  "dependentOn": [],
+  "itemId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_1",
   "dependedOnBy": [
     {
       "required": true,
       "dependedOnBy": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_homepagelocation"
     }
   ],
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -91,12 +91,12 @@ Example value: https://www.contoso.com
 {
   "settingInstanceTemplateReference": null,
   "auditRuleInformation": null,
-  "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_homepagelocation",
   "simpleSettingValue": {
     "value": "https://joeloveless.com",
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
   },
+  "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_homepagelocation",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
 }
 ```
@@ -105,10 +105,12 @@ Example value: https://www.contoso.com
 ```json
 [
   {
-    "id": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled_0",
+    "description": "This policy setting lets you configure whether to turn on Microsoft Defender SmartScreen. Microsoft Defender SmartScreen provides warning messages to help protect your users from potential phishing scams and malicious software. By default, Microsoft Defender SmartScreen is turned on.\r\n\r\nIf you enable this setting, Microsoft Defender SmartScreen is turned on.\r\n\r\nIf you disable this setting, Microsoft Defender SmartScreen is turned off.\r\n\r\nIf you don't configure this setting, users can choose whether to use Microsoft Defender SmartScreen.\r\n\r\nThis policy is available only on Windows instances that are joined to a Microsoft Active Directory domain; or on Windows 10 Pro or Enterprise instances that are enrolled for device management.",
+    "helpText": "",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "SmartScreenEnabled",
       "Configure Microsoft Defender SmartScreen",
@@ -116,74 +118,74 @@ Example value: https://www.contoso.com
       "Microsoft Edge\\SmartScreen settings",
       "SmartScreen settings"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "windowsSkus": [],
-      "requiresAzureAd": false,
-      "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
-    },
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "infoUrls": [],
+    "id": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled",
+    "version": "639161298837633273",
     "categoryId": "08c5f391-e156-4a72-bbb9-3670f2f63a56",
+    "rootDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled",
+    "offsetUri": "/Config/microsoft_edge~Policy~microsoft_edge~SmartScreen/SmartScreenEnabled",
     "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Configure Microsoft Defender SmartScreen",
     "uxBehavior": "toggle",
     "riskLevel": "low",
-    "description": "This policy setting lets you configure whether to turn on Microsoft Defender SmartScreen. Microsoft Defender SmartScreen provides warning messages to help protect your users from potential phishing scams and malicious software. By default, Microsoft Defender SmartScreen is turned on.\r\n\r\nIf you enable this setting, Microsoft Defender SmartScreen is turned on.\r\n\r\nIf you disable this setting, Microsoft Defender SmartScreen is turned off.\r\n\r\nIf you don't configure this setting, users can choose whether to use Microsoft Defender SmartScreen.\r\n\r\nThis policy is available only on Windows instances that are joined to a Microsoft Active Directory domain; or on Windows 10 Pro or Enterprise instances that are enrolled for device management.",
-    "offsetUri": "/Config/microsoft_edge~Policy~microsoft_edge~SmartScreen/SmartScreenEnabled",
-    "version": "639161298837633273",
-    "accessTypes": "none",
-    "infoUrls": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "SmartScreenEnabled",
+    "referredSettingInformationList": [],
     "options": [
       {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
         "optionValue": {
           "value": 0,
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
         },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled_0",
+        "dependedOnBy": [],
         "name": "Disabled",
-        "helpText": null
+        "dependentOn": []
       },
       {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
         "optionValue": {
           "value": 1,
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
         },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled_1",
+        "dependedOnBy": [],
         "name": "Enabled",
-        "helpText": null
+        "dependentOn": []
       }
     ],
-    "name": "SmartScreenEnabled"
+    "defaultOptionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled_0",
+    "accessTypes": "none",
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "windowsSkus": [],
+      "minimumSupportedVersion": null,
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "settingUsage": "configuration",
+    "displayName": "Configure Microsoft Defender SmartScreen"
   },
   {
-    "id": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_0",
+    "description": "Configures the default home page URL in Microsoft Edge.\r\n\r\nThe home page is the page opened by the Home button. The pages that open on startup are controlled by the 'RestoreOnStartup' (Action to take on startup) policies.\r\n\r\nYou can either set a URL here or set the home page to open the new tab page. If you select to open the new tab page, then this policy doesn't take effect.\r\n\r\nIf you enable this policy, users can't change their home page URL, but they can choose to use the new tab page as their home page.\r\n\r\nIf you disable or don't configure this policy, users can choose their own home page, as long as the 'HomepageIsNewTabPage' (Set the new tab page as the home page) policy isn't enabled.\r\n\r\nThis policy is available only on Windows instances that are joined to a Microsoft Active Directory domain or Windows 10 Pro or Enterprise instances enrolled for device management.\r\n\r\nExample value: https://www.contoso.com",
+    "helpText": "",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "HomepageLocation",
       "Configure the home page URL",
@@ -193,78 +195,79 @@ Example value: https://www.contoso.com
       "Both",
       "Software\\Policies\\Microsoft\\Edge"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "windowsSkus": [],
-      "requiresAzureAd": false,
-      "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
-    },
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
+    "infoUrls": [],
+    "id": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation",
+    "version": "639161298837633273",
     "categoryId": "00d7396c-cadc-4d29-86ba-fe4df2ecb110",
+    "rootDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation",
+    "offsetUri": "/Config/microsoft_edge~Policy~microsoft_edge~Startup/HomepageLocation",
     "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Configure the home page URL",
     "uxBehavior": "toggle",
     "riskLevel": "low",
-    "description": "Configures the default home page URL in Microsoft Edge.\r\n\r\nThe home page is the page opened by the Home button. The pages that open on startup are controlled by the 'RestoreOnStartup' (Action to take on startup) policies.\r\n\r\nYou can either set a URL here or set the home page to open the new tab page. If you select to open the new tab page, then this policy doesn't take effect.\r\n\r\nIf you enable this policy, users can't change their home page URL, but they can choose to use the new tab page as their home page.\r\n\r\nIf you disable or don't configure this policy, users can choose their own home page, as long as the 'HomepageIsNewTabPage' (Set the new tab page as the home page) policy isn't enabled.\r\n\r\nThis policy is available only on Windows instances that are joined to a Microsoft Active Directory domain or Windows 10 Pro or Enterprise instances enrolled for device management.\r\n\r\nExample value: https://www.contoso.com",
-    "offsetUri": "/Config/microsoft_edge~Policy~microsoft_edge~Startup/HomepageLocation",
-    "version": "639161298837633273",
-    "accessTypes": "none",
-    "infoUrls": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "HomepageLocation",
+    "referredSettingInformationList": [],
     "options": [
       {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
         "optionValue": {
           "value": 0,
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
         },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_0",
+        "dependedOnBy": [],
         "name": "Disabled",
-        "helpText": null
+        "dependentOn": []
       },
       {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
         "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_1",
         "description": null,
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_1",
         "dependedOnBy": [
           {
             "required": true,
             "dependedOnBy": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_homepagelocation"
           }
         ],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "name": "Enabled",
-        "helpText": null
+        "dependentOn": []
       }
     ],
-    "name": "HomepageLocation"
+    "defaultOptionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_0",
+    "accessTypes": "none",
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "windowsSkus": [],
+      "minimumSupportedVersion": null,
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "settingUsage": "configuration",
+    "displayName": "Configure the home page URL"
   },
   {
-    "id": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_homepagelocation",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
+    "description": "",
+    "helpText": "",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "HomepageLocation",
       "Configure the home page URL",
@@ -272,59 +275,56 @@ Example value: https://www.contoso.com
       "Microsoft Edge\\Startup, home page and new tab page",
       "Startup, home page and new tab page"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation",
-    "dependedOnBy": [],
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "windowsSkus": [],
-      "requiresAzureAd": false,
-      "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
-    },
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "categoryId": "00d7396c-cadc-4d29-86ba-fe4df2ecb110",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "infoUrls": [],
+    "id": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_homepagelocation",
+    "version": "639161298837633273",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_1",
         "parentSettingId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation"
       }
     ],
-    "displayName": "Home page URL (Device)",
-    "uxBehavior": "default",
+    "categoryId": "00d7396c-cadc-4d29-86ba-fe4df2ecb110",
+    "rootDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation",
+    "offsetUri": "/Config/microsoft_edge~Policy~microsoft_edge~Startup/HomepageLocation",
+    "visibility": "settingsCatalog,template",
     "defaultValue": {
       "value": null,
       "settingValueTemplateReference": null,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
     },
+    "uxBehavior": "default",
     "riskLevel": "low",
-    "description": "",
-    "offsetUri": "/Config/microsoft_edge~Policy~microsoft_edge~Startup/HomepageLocation",
-    "version": "639161298837633273",
-    "accessTypes": "none",
-    "infoUrls": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "name": "HomepageLocation",
+    "referredSettingInformationList": [],
+    "dependedOnBy": [],
     "valueDefinition": {
-      "maximumLength": 1000000,
       "inputValidationSchema": null,
-      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
       "minimumLength": 0,
       "format": "none",
       "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+      "maximumLength": 1000000,
+      "isSecret": false
     },
-    "name": "HomepageLocation"
+    "accessTypes": "none",
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "windowsSkus": [],
+      "minimumSupportedVersion": null,
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "settingUsage": "configuration",
+    "displayName": "Home page URL (Device)"
   }
 ]
 ```

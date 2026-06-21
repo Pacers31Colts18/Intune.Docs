@@ -36,7 +36,7 @@
 
 [**Assignments**](./Assignments/WIN_D_CISL1_AdminTemplates-System_PROD.md)
 
-**Report Generated:** 06/20/2026 07:05:29
+**Report Generated:** 06/21/2026 08:05:35
 
 ---
 
@@ -61,18 +61,18 @@ Note: When this policy setting is enabled, any user with access to read the secu
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_admx_auditsettings_includecmdline_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_admx_auditsettings_includecmdline_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -101,38 +101,38 @@ For more information about the vulnerability and servicing requirements for prot
 
 ```json
 {
+  "optionValue": {
+    "value": 1,
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  },
+  "helpText": null,
   "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_1",
   "description": null,
-  "dependentOn": [],
+  "itemId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_1",
   "dependedOnBy": [
     {
       "required": true,
       "dependedOnBy": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop"
     }
   ],
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
 #### device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop
 ```json
 {
-  "choiceSettingValue": {
-    "value": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop_0",
-    "children": [],
-    "settingValueTemplateReference": null
-  },
   "settingInstanceTemplateReference": null,
   "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "choiceSettingValue": {
+    "children": [],
+    "value": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop_0",
+    "settingValueTemplateReference": null
+  }
 }
 ```
 
@@ -152,18 +152,18 @@ If you disable or do not configure this policy setting, Restricted Administratio
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_credentialsdelegation_remotehostallowsdelegationofnonexportablecredentials_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_credentialsdelegation_remotehostallowsdelegationofnonexportablecredentials_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -181,18 +181,18 @@ If you disable or do not configure this policy setting, the setting in the Devic
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_deviceinstallation_preventdevicemetadatafromnetwork_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_deviceinstallation_preventdevicemetadatafromnetwork_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -217,38 +217,38 @@ If your malware detection application does not include an Early Launch Antimalwa
 
 ```json
 {
+  "optionValue": {
+    "value": 1,
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  },
+  "helpText": null,
   "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_1",
   "description": null,
-  "dependentOn": [],
+  "itemId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_1",
   "dependedOnBy": [
     {
       "required": true,
       "dependedOnBy": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy"
     }
   ],
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
 #### device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy
 ```json
 {
-  "choiceSettingValue": {
-    "value": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy_3",
-    "children": [],
-    "settingValueTemplateReference": null
-  },
   "settingInstanceTemplateReference": null,
   "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "choiceSettingValue": {
+    "children": [],
+    "value": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy_3",
+    "settingValueTemplateReference": null
+  }
 }
 ```
 
@@ -271,18 +271,18 @@ If you do not configure this policy setting, the default behavior depends on the
 
 ```json
 {
-  "displayName": "Disabled",
-  "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_enablecdp_0",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 0,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Disabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_enablecdp_0",
+  "dependedOnBy": [],
   "name": "Disabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -303,18 +303,18 @@ Note: If you make changes to this policy setting, you must restart your computer
 
 ```json
 {
-  "displayName": "Disabled",
-  "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_disablebackgroundpolicy_0",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 0,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Disabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_disablebackgroundpolicy_0",
+  "dependedOnBy": [],
   "name": "Disabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -336,18 +336,18 @@ If you disable or do not configure this policy setting, users can download print
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_connectivity_disabledownloadingofprintdriversoverhttp_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_connectivity_disabledownloadingofprintdriversoverhttp_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -369,18 +369,18 @@ See the documentation for the web publishing and online ordering wizards for mor
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_connectivity_disableinternetdownloadforwebpublishingandonlineorderingwizards_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_connectivity_disableinternetdownloadforwebpublishingandonlineorderingwizards_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -399,18 +399,18 @@ If you disable or do not configure this policy setting, the user may choose to s
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_admx_logon_blockuserfromshowingaccountdetailsonsignin_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_admx_logon_blockuserfromshowingaccountdetailsonsignin_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -428,18 +428,18 @@ If you disable or don't configure this policy setting, any user can disconnect t
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_windowslogon_dontdisplaynetworkselectionui_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_windowslogon_dontdisplaynetworkselectionui_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -458,18 +458,18 @@ If you disable or do not configure this policy setting, connected users will be 
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_admx_logon_dontenumerateconnectedusers_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_admx_logon_dontenumerateconnectedusers_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -487,18 +487,18 @@ If you disable or do not configure this policy setting, the Logon UI will not en
 
 ```json
 {
-  "displayName": "Disabled",
-  "itemId": "device_vendor_msft_policy_config_windowslogon_enumeratelocalusersondomainjoinedcomputers_0",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 0,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Disabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_windowslogon_enumeratelocalusersondomainjoinedcomputers_0",
+  "dependedOnBy": [],
   "name": "Disabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -516,18 +516,18 @@ If you disable or do not configure this policy setting, users can choose which a
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -547,18 +547,18 @@ Note that the user's domain password will be cached in the system vault when usi
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_credentialproviders_blockpicturepassword_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_credentialproviders_blockpicturepassword_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -580,18 +580,18 @@ To configure Windows Hello for Business, use the Administrative Template policie
 
 ```json
 {
-  "displayName": "Disabled",
-  "itemId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_0",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 0,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Disabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_0",
+  "dependedOnBy": [],
   "name": "Disabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -609,18 +609,18 @@ If you disable this policy setting, the user is not prompted for a password when
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -638,18 +638,18 @@ If you disable this policy setting, the user is not prompted for a password when
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -700,18 +700,18 @@ Allow Remote Desktop Exception
 
 ```json
 {
-  "displayName": "Disabled",
-  "itemId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_0",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 0,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Disabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_0",
+  "dependedOnBy": [],
   "name": "Disabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -737,18 +737,18 @@ Note: This policy will not be applied until the system is rebooted.
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_rpcendpointmapperclientauthentication_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_rpcendpointmapperclientauthentication_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -778,38 +778,38 @@ Note: This policy setting will not be applied until the system is rebooted.
 
 ```json
 {
+  "optionValue": {
+    "value": 1,
+    "settingValueTemplateReference": null,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  },
+  "helpText": null,
   "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_1",
   "description": null,
-  "dependentOn": [],
+  "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_1",
   "dependedOnBy": [
     {
       "required": true,
       "dependedOnBy": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist"
     }
   ],
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
 #### device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist
 ```json
 {
-  "choiceSettingValue": {
-    "value": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist_1",
-    "children": [],
-    "settingValueTemplateReference": null
-  },
   "settingInstanceTemplateReference": null,
   "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "choiceSettingValue": {
+    "children": [],
+    "value": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist_1",
+    "settingValueTemplateReference": null
+  }
 }
 ```
 
@@ -831,18 +831,18 @@ If you disable or do not configure this policy setting, the local computer clock
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpclient_1",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 1,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Enabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpclient_1",
+  "dependedOnBy": [],
   "name": "Enabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -864,18 +864,18 @@ If you disable or do not configure this policy setting, your computer cannot ser
 
 ```json
 {
-  "displayName": "Disabled",
-  "itemId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpserver_0",
-  "description": null,
-  "dependentOn": [],
-  "dependedOnBy": [],
   "optionValue": {
     "value": 0,
     "settingValueTemplateReference": null,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
+  "helpText": null,
+  "displayName": "Disabled",
+  "description": null,
+  "itemId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpserver_0",
+  "dependedOnBy": [],
   "name": "Disabled",
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -883,10 +883,12 @@ If you disable or do not configure this policy setting, your computer cannot ser
 ```json
 [
   {
-    "id": "device_vendor_msft_policy_config_admx_auditsettings_includecmdline",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_auditsettings_includecmdline_0",
+    "description": "This policy setting determines what information is logged in security audit events when a new process has been created.\r\n\r\nThis setting only applies when the Audit Process Creation policy is enabled. If you enable this policy setting the command line information for every process will be logged in plain text in the security event log as part of the Audit Process Creation event 4688, \"a new process has been created,\" on the workstations and servers on which this policy setting is applied.\r\n\r\nIf you disable or do not configure this policy setting, the process's command line information will not be included in Audit Process Creation events.\r\n\r\nDefault: Not configured\r\n\r\nNote: When this policy setting is enabled, any user with access to read the security events will be able to read the command line arguments for any successfully created process. Command line arguments can contain sensitive or private information such as passwords or user data.\r\n      \r\n ",
+    "helpText": "",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "IncludeCmdLine",
       "Include command line in process creation events",
@@ -897,13 +899,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\Audit",
       "ProcessCreationIncludeCmdLine_Enabled"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-auditsettings#admx-auditsettings-includecmdline"
+    ],
+    "id": "device_vendor_msft_policy_config_admx_auditsettings_includecmdline",
+    "version": "639161298837633273",
+    "categoryId": "8d27fb75-5aeb-44f0-aab2-064cc4b9ecd6",
     "rootDefinitionId": "device_vendor_msft_policy_config_admx_auditsettings_includecmdline",
+    "offsetUri": "/Config/ADMX_AuditSettings/IncludeCmdLine",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "IncludeCmdLine",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_auditsettings_includecmdline_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_auditsettings_includecmdline_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_auditsettings_includecmdline_0",
+    "accessTypes": "none",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -915,68 +961,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "10.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "10.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Include command line in process creation events"
+  },
+  {
+    "description": "Encryption Oracle Remediation\r\n\r\nThis policy setting applies to applications using the CredSSP component (for example: Remote Desktop Connection).\r\n\r\nSome versions of the CredSSP protocol are vulnerable to an encryption oracle attack against the client.  This policy controls compatibility with vulnerable clients and servers.  This policy allows you to set the level of protection desired for the encryption oracle vulnerability.\r\n\r\nIf you enable this policy setting, CredSSP version support will be selected based on the following options:\r\n\r\nForce Updated Clients: Client applications which use CredSSP will not be able to fall back to the insecure versions and services using CredSSP will not accept unpatched clients. Note: this setting should not be deployed until all remote hosts support the newest version.\r\n\r\nMitigated: Client applications which use CredSSP will not be able to fall back to the insecure version but services using CredSSP will accept unpatched clients. See the link below for important information about the risk posed by remaining unpatched clients.\r\n\r\nVulnerable: Client applications which use CredSSP will expose the remote servers to attacks by supporting fall back to the insecure versions and services using CredSSP will accept unpatched clients.\r\n\r\nFor more information about the vulnerability and servicing requirements for protection, see https://go.microsoft.com/fwlink/?linkid=866660\r\n ",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "8d27fb75-5aeb-44f0-aab2-064cc4b9ecd6",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Include command line in process creation events",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting determines what information is logged in security audit events when a new process has been created.\r\n\r\nThis setting only applies when the Audit Process Creation policy is enabled. If you enable this policy setting the command line information for every process will be logged in plain text in the security event log as part of the Audit Process Creation event 4688, \"a new process has been created,\" on the workstations and servers on which this policy setting is applied.\r\n\r\nIf you disable or do not configure this policy setting, the process's command line information will not be included in Audit Process Creation events.\r\n\r\nDefault: Not configured\r\n\r\nNote: When this policy setting is enabled, any user with access to read the security events will be able to read the command line arguments for any successfully created process. Command line arguments can contain sensitive or private information such as passwords or user data.\r\n      \r\n ",
-    "offsetUri": "/Config/ADMX_AuditSettings/IncludeCmdLine",
-    "version": "639161298837633273",
-    "accessTypes": "none",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-auditsettings#admx-auditsettings-includecmdline"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_admx_auditsettings_includecmdline_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_admx_auditsettings_includecmdline_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "IncludeCmdLine"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_0",
     "keywords": [
       "AllowEncryptionOracle",
       "Encryption Oracle Remediation",
@@ -986,13 +988,62 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Machine",
       "Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\\CredSSP\\Parameters"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-credssp#admx-credssp-allowencryptionoracle"
+    ],
+    "id": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle",
+    "version": "639161298837633273",
+    "categoryId": "cae68a5f-9d1e-44e8-a34b-6a390b88c451",
     "rootDefinitionId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle",
+    "offsetUri": "/Config/ADMX_CredSsp/AllowEncryptionOracle",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "AllowEncryptionOracle",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_1",
+        "dependedOnBy": [
+          {
+            "required": true,
+            "dependedOnBy": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop"
+          }
+        ],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_0",
+    "accessTypes": "none",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1004,73 +1055,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "10.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "10.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Encryption Oracle Remediation"
+  },
+  {
+    "description": null,
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "cae68a5f-9d1e-44e8-a34b-6a390b88c451",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Encryption Oracle Remediation",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "Encryption Oracle Remediation\r\n\r\nThis policy setting applies to applications using the CredSSP component (for example: Remote Desktop Connection).\r\n\r\nSome versions of the CredSSP protocol are vulnerable to an encryption oracle attack against the client.  This policy controls compatibility with vulnerable clients and servers.  This policy allows you to set the level of protection desired for the encryption oracle vulnerability.\r\n\r\nIf you enable this policy setting, CredSSP version support will be selected based on the following options:\r\n\r\nForce Updated Clients: Client applications which use CredSSP will not be able to fall back to the insecure versions and services using CredSSP will not accept unpatched clients. Note: this setting should not be deployed until all remote hosts support the newest version.\r\n\r\nMitigated: Client applications which use CredSSP will not be able to fall back to the insecure version but services using CredSSP will accept unpatched clients. See the link below for important information about the risk posed by remaining unpatched clients.\r\n\r\nVulnerable: Client applications which use CredSSP will expose the remote servers to attacks by supporting fall back to the insecure versions and services using CredSSP will accept unpatched clients.\r\n\r\nFor more information about the vulnerability and servicing requirements for protection, see https://go.microsoft.com/fwlink/?linkid=866660\r\n ",
-    "offsetUri": "/Config/ADMX_CredSsp/AllowEncryptionOracle",
-    "version": "639161298837633273",
-    "accessTypes": "none",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-credssp#admx-credssp-allowencryptionoracle"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop"
-          }
-        ],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "AllowEncryptionOracle"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop_1",
     "keywords": [
       "AllowEncryptionOracle",
       "Encryption Oracle Remediation",
@@ -1078,13 +1080,84 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Credentials Delegation",
       "Credentials Delegation"
     ],
+    "infoUrls": [],
+    "id": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop",
+    "version": "639161298837633273",
+    "categoryId": "cae68a5f-9d1e-44e8-a34b-6a390b88c451",
     "rootDefinitionId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle",
+    "offsetUri": "/Config/ADMX_CredSsp/AllowEncryptionOracle",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "default",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "AllowEncryptionOracleDrop",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": "0",
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Force Updated Clients",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop_0",
+        "dependedOnBy": [],
+        "name": "Force Updated Clients",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_1",
+            "parentSettingId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle"
+          }
+        ]
+      },
+      {
+        "optionValue": {
+          "value": "1",
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Mitigated",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop_1",
+        "dependedOnBy": [],
+        "name": "Mitigated",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_1",
+            "parentSettingId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle"
+          }
+        ]
+      },
+      {
+        "optionValue": {
+          "value": "2",
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Vulnerable",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop_2",
+        "dependedOnBy": [],
+        "name": "Vulnerable",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_1",
+            "parentSettingId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle"
+          }
+        ]
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop_1",
+    "accessTypes": "none",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1096,95 +1169,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "10.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "10.0"
     },
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "categoryId": "cae68a5f-9d1e-44e8-a34b-6a390b88c451",
-    "visibility": "settingsCatalog,template",
     "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Protection Level: (Device)",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "description": null,
-    "offsetUri": "/Config/ADMX_CredSsp/AllowEncryptionOracle",
-    "version": "639161298837633273",
-    "accessTypes": "none",
-    "infoUrls": [],
-    "options": [
-      {
-        "displayName": "Force Updated Clients",
-        "itemId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop_0",
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_1",
-            "parentSettingId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle"
-          }
-        ],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": "0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "name": "Force Updated Clients",
-        "helpText": null
-      },
-      {
-        "displayName": "Mitigated",
-        "itemId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop_1",
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_1",
-            "parentSettingId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle"
-          }
-        ],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "name": "Mitigated",
-        "helpText": null
-      },
-      {
-        "displayName": "Vulnerable",
-        "itemId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_allowencryptionoracledrop_2",
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle_1",
-            "parentSettingId": "device_vendor_msft_policy_config_admx_credssp_allowencryptionoracle"
-          }
-        ],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "name": "Vulnerable",
-        "helpText": null
-      }
-    ],
-    "name": "AllowEncryptionOracleDrop"
+    "displayName": "Protection Level: (Device)"
   },
   {
-    "id": "device_vendor_msft_policy_config_credentialsdelegation_remotehostallowsdelegationofnonexportablecredentials",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_credentialsdelegation_remotehostallowsdelegationofnonexportablecredentials_0",
+    "description": "Remote host allows delegation of non-exportable credentials\r\n\r\nWhen using credential delegation, devices provide an exportable version of credentials to the remote host. This exposes users to the risk of credential theft from attackers on the remote host.\r\n\r\nIf you enable this policy setting, the host supports Restricted Admin or Remote Credential Guard mode.\r\n\r\nIf you disable or do not configure this policy setting, Restricted Administration and Remote Credential Guard mode are not supported. User will always need to pass their credentials to the host.",
+    "helpText": "",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "AllowProtectedCreds",
       "Remote host allows delegation of non-exportable credentials",
@@ -1192,13 +1194,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Credentials Delegation",
       "Credentials Delegation"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-credentialsdelegation#credentialsdelegation-remotehostallowsdelegationofnonexportablecredentials"
+    ],
+    "id": "device_vendor_msft_policy_config_credentialsdelegation_remotehostallowsdelegationofnonexportablecredentials",
+    "version": "639161298837633273",
+    "categoryId": "cae68a5f-9d1e-44e8-a34b-6a390b88c451",
     "rootDefinitionId": "device_vendor_msft_policy_config_credentialsdelegation_remotehostallowsdelegationofnonexportablecredentials",
+    "offsetUri": "/Config/CredentialsDelegation/RemoteHostAllowsDelegationOfNonExportableCredentials",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "AllowProtectedCreds",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_credentialsdelegation_remotehostallowsdelegationofnonexportablecredentials_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_credentialsdelegation_remotehostallowsdelegationofnonexportablecredentials_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_credentialsdelegation_remotehostallowsdelegationofnonexportablecredentials_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.17134",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1209,81 +1255,81 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.17134",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "7.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "7.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Remote host allows delegation of non-exportable credentials"
+  },
+  {
+    "description": "This policy setting allows you to prevent Windows from downloading applications associated with device metadata.\r\n\r\nIf you enable this policy setting, Windows does not download applications associated with device metadata for installed devices. This policy setting overrides the setting in the Device Installation Settings dialog box (Control Panel > System and Security > System > Advanced System Settings > Hardware tab).\r\n\r\nIf you disable or do not configure this policy setting, the setting in the Device Installation Settings dialog box controls whether Windows downloads applications associated with device metadata.",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "cae68a5f-9d1e-44e8-a34b-6a390b88c451",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Remote host allows delegation of non-exportable credentials",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "Remote host allows delegation of non-exportable credentials\r\n\r\nWhen using credential delegation, devices provide an exportable version of credentials to the remote host. This exposes users to the risk of credential theft from attackers on the remote host.\r\n\r\nIf you enable this policy setting, the host supports Restricted Admin or Remote Credential Guard mode.\r\n\r\nIf you disable or do not configure this policy setting, Restricted Administration and Remote Credential Guard mode are not supported. User will always need to pass their credentials to the host.",
-    "offsetUri": "/Config/CredentialsDelegation/RemoteHostAllowsDelegationOfNonExportableCredentials",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-credentialsdelegation#credentialsdelegation-remotehostallowsdelegationofnonexportablecredentials"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_credentialsdelegation_remotehostallowsdelegationofnonexportablecredentials_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_credentialsdelegation_remotehostallowsdelegationofnonexportablecredentials_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "AllowProtectedCreds"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_deviceinstallation_preventdevicemetadatafromnetwork",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_deviceinstallation_preventdevicemetadatafromnetwork_0",
     "keywords": [
       "DeviceMetadata_PreventDeviceMetadataFromNetwork",
       "Prevent device metadata retrieval from the Internet",
       "\\System\\Device Installation",
       "Device Installation"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-deviceinstallation"
+    ],
+    "id": "device_vendor_msft_policy_config_deviceinstallation_preventdevicemetadatafromnetwork",
+    "version": "639161298837633273",
+    "categoryId": "486dc66e-960c-4622-b3cb-3ff9a2d434eb",
     "rootDefinitionId": "device_vendor_msft_policy_config_deviceinstallation_preventdevicemetadatafromnetwork",
+    "offsetUri": "/Config/DeviceInstallation/PreventDeviceMetadataFromNetwork",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "DeviceMetadata_PreventDeviceMetadataFromNetwork",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_deviceinstallation_preventdevicemetadatafromnetwork_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_deviceinstallation_preventdevicemetadatafromnetwork_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_deviceinstallation_preventdevicemetadatafromnetwork_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.17763",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1293,172 +1339,86 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.17763",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "8.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "8.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Prevent automatic download of applications associated with device metadata"
+  },
+  {
+    "description": "This policy setting allows you to specify which boot-start drivers are initialized based on a classification determined by an Early Launch Antimalware boot-start driver. The Early Launch Antimalware boot-start driver can return the following classifications for each boot-start driver:\r\n-  Good: The driver has been signed and has not been tampered with.\r\n-  Bad: The driver has been identified as malware. It is recommended that you do not allow known bad drivers to be initialized.\r\n-  Bad, but required for boot: The driver has been identified as malware, but the computer cannot successfully boot without loading this driver.\r\n-  Unknown: This driver has not been attested to by your malware detection application and has not been classified by the Early Launch Antimalware boot-start driver.\r\n\r\nIf you enable this policy setting you will be able to choose which boot-start drivers to initialize the next time the computer is started.\r\n\r\nIf you disable or do not configure this policy setting, the boot start drivers determined to be Good, Unknown or Bad but Boot Critical are initialized and the initialization of drivers determined to be Bad is skipped.\r\n\r\nIf your malware detection application does not include an Early Launch Antimalware boot-start driver or if your Early Launch Antimalware boot-start driver has been disabled, this setting has no effect and all boot-start drivers are initialized.\r\n      ",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "486dc66e-960c-4622-b3cb-3ff9a2d434eb",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Prevent automatic download of applications associated with device metadata",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting allows you to prevent Windows from downloading applications associated with device metadata.\r\n\r\nIf you enable this policy setting, Windows does not download applications associated with device metadata for installed devices. This policy setting overrides the setting in the Device Installation Settings dialog box (Control Panel > System and Security > System > Advanced System Settings > Hardware tab).\r\n\r\nIf you disable or do not configure this policy setting, the setting in the Device Installation Settings dialog box controls whether Windows downloads applications associated with device metadata.",
-    "offsetUri": "/Config/DeviceInstallation/PreventDeviceMetadataFromNetwork",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-deviceinstallation"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_deviceinstallation_preventdevicemetadatafromnetwork_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_deviceinstallation_preventdevicemetadatafromnetwork_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "DeviceMetadata_PreventDeviceMetadataFromNetwork"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_system_bootstartdriverinitialization",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_0",
     "keywords": [
       "POL_DriverLoadPolicy_Name",
       "Boot-Start Driver Initialization Policy",
       "\\System\\Early Launch Antimalware",
       "Early Launch Antimalware"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "requiresAzureAd": false,
-      "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
-    },
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "categoryId": "87e607d8-500d-4dba-a58f-d7695945c973",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Boot-Start Driver Initialization Policy",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting allows you to specify which boot-start drivers are initialized based on a classification determined by an Early Launch Antimalware boot-start driver. The Early Launch Antimalware boot-start driver can return the following classifications for each boot-start driver:\r\n-  Good: The driver has been signed and has not been tampered with.\r\n-  Bad: The driver has been identified as malware. It is recommended that you do not allow known bad drivers to be initialized.\r\n-  Bad, but required for boot: The driver has been identified as malware, but the computer cannot successfully boot without loading this driver.\r\n-  Unknown: This driver has not been attested to by your malware detection application and has not been classified by the Early Launch Antimalware boot-start driver.\r\n\r\nIf you enable this policy setting you will be able to choose which boot-start drivers to initialize the next time the computer is started.\r\n\r\nIf you disable or do not configure this policy setting, the boot start drivers determined to be Good, Unknown or Bad but Boot Critical are initialized and the initialization of drivers determined to be Bad is skipped.\r\n\r\nIf your malware detection application does not include an Early Launch Antimalware boot-start driver or if your Early Launch Antimalware boot-start driver has been disabled, this setting has no effect and all boot-start drivers are initialized.\r\n      ",
-    "offsetUri": "/Config/System/BootStartDriverInitialization",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-bootstartdriverinitialization"
     ],
+    "id": "device_vendor_msft_policy_config_system_bootstartdriverinitialization",
+    "version": "639161298837633273",
+    "categoryId": "87e607d8-500d-4dba-a58f-d7695945c973",
+    "rootDefinitionId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization",
+    "offsetUri": "/Config/System/BootStartDriverInitialization",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "POL_DriverLoadPolicy_Name",
+    "referredSettingInformationList": [],
     "options": [
       {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
         "optionValue": {
           "value": 0,
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
         },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_0",
+        "dependedOnBy": [],
         "name": "Disabled",
-        "helpText": null
+        "dependentOn": []
       },
       {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
         "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_1",
         "description": null,
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_1",
         "dependedOnBy": [
           {
             "required": true,
             "dependedOnBy": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy"
           }
         ],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "name": "Enabled",
-        "helpText": null
+        "dependentOn": []
       }
     ],
-    "name": "POL_DriverLoadPolicy_Name"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy_3",
-    "keywords": [
-      "POL_DriverLoadPolicy_Name",
-      "Boot-Start Driver Initialization Policy",
-      "\\System\\Early Launch Antimalware",
-      "Early Launch Antimalware"
-    ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization",
+    "defaultOptionId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1470,114 +1430,156 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "5.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Boot-Start Driver Initialization Policy"
+  },
+  {
+    "description": "",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
+    "keywords": [
+      "POL_DriverLoadPolicy_Name",
+      "Boot-Start Driver Initialization Policy",
+      "\\System\\Early Launch Antimalware",
+      "Early Launch Antimalware"
+    ],
+    "infoUrls": [],
+    "id": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy",
+    "version": "639161298837633273",
     "categoryId": "87e607d8-500d-4dba-a58f-d7695945c973",
+    "rootDefinitionId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization",
+    "offsetUri": "/Config/System/BootStartDriverInitialization",
     "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Choose the boot-start drivers that can be initialized:",
     "uxBehavior": "default",
     "riskLevel": "low",
-    "description": "",
-    "offsetUri": "/Config/System/BootStartDriverInitialization",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "SelectDriverLoadPolicy",
+    "referredSettingInformationList": [],
     "options": [
       {
-        "displayName": "Good only",
-        "itemId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy_8",
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_1",
-            "parentSettingId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization"
-          }
-        ],
-        "dependedOnBy": [],
         "optionValue": {
           "value": "8",
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
         },
-        "name": "Good only",
-        "helpText": null
-      },
-      {
-        "displayName": "Good and unknown",
-        "itemId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy_1",
+        "helpText": null,
+        "displayName": "Good only",
         "description": null,
+        "itemId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy_8",
+        "dependedOnBy": [],
+        "name": "Good only",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_1",
             "parentSettingId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization"
           }
-        ],
-        "dependedOnBy": [],
+        ]
+      },
+      {
         "optionValue": {
           "value": "1",
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
         },
-        "name": "Good and unknown",
-        "helpText": null
-      },
-      {
-        "displayName": "Good, unknown and bad but critical",
-        "itemId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy_3",
+        "helpText": null,
+        "displayName": "Good and unknown",
         "description": null,
+        "itemId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy_1",
+        "dependedOnBy": [],
+        "name": "Good and unknown",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_1",
             "parentSettingId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization"
           }
-        ],
-        "dependedOnBy": [],
+        ]
+      },
+      {
         "optionValue": {
           "value": "3",
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
         },
-        "name": "Good, unknown and bad but critical",
-        "helpText": null
-      },
-      {
-        "displayName": "All",
-        "itemId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy_7",
+        "helpText": null,
+        "displayName": "Good, unknown and bad but critical",
         "description": null,
+        "itemId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy_3",
+        "dependedOnBy": [],
+        "name": "Good, unknown and bad but critical",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_1",
             "parentSettingId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization"
           }
-        ],
-        "dependedOnBy": [],
+        ]
+      },
+      {
         "optionValue": {
           "value": "7",
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
         },
+        "helpText": null,
+        "displayName": "All",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy_7",
+        "dependedOnBy": [],
         "name": "All",
-        "helpText": null
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_1",
+            "parentSettingId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization"
+          }
+        ]
       }
     ],
-    "name": "SelectDriverLoadPolicy"
+    "defaultOptionId": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy_3",
+    "accessTypes": "add,delete,get,replace",
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "settingUsage": "configuration",
+    "displayName": "Choose the boot-start drivers that can be initialized:"
   },
   {
-    "id": "device_vendor_msft_policy_config_admx_grouppolicy_enablecdp",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_grouppolicy_enablecdp_0",
+    "description": "\r\nThis policy setting determines whether the Windows device is allowed to participate in cross-device experiences (continue experiences).\r\n\r\nIf you enable this policy setting, the Windows device is discoverable by other Windows devices that belong to the same user, and can participate in cross-device experiences.\r\n\r\nIf you disable this policy setting, the Windows device is not discoverable by other devices, and cannot participate in cross-device experiences.\r\n\r\nIf you do not configure this policy setting, the default behavior depends on the Windows edition. Changes to this policy take effect on reboot.\r\n      \r\n ",
+    "helpText": "",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "EnableCDP",
       "Continue experiences on this device",
@@ -1587,13 +1589,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Machine",
       "Software\\Policies\\Microsoft\\Windows\\System"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-grouppolicy#admx-grouppolicy-enablecdp"
+    ],
+    "id": "device_vendor_msft_policy_config_admx_grouppolicy_enablecdp",
+    "version": "639161298837633273",
+    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5",
     "rootDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_enablecdp",
+    "offsetUri": "/Config/ADMX_GroupPolicy/EnableCDP",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "EnableCDP",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_enablecdp_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_enablecdp_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_grouppolicy_enablecdp_0",
+    "accessTypes": "none",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1605,68 +1651,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "10.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "10.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Continue experiences on this device"
+  },
+  {
+    "description": "This policy setting prevents Group Policy from being updated while the computer is in use. This policy setting applies to Group Policy for computers, users, and domain controllers.\r\n\r\nIf you enable this policy setting, the system waits until the current user logs off the system before updating the computer and user settings.\r\n\r\nIf you disable or do not configure this policy setting, updates can be applied while users are working. The frequency of updates is determined by the \"Set Group Policy refresh interval for computers\" and \"Set Group Policy refresh interval for users\" policy settings.\r\n\r\nNote: If you make changes to this policy setting, you must restart your computer for it to take effect.\r\n ",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Continue experiences on this device",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "\r\nThis policy setting determines whether the Windows device is allowed to participate in cross-device experiences (continue experiences).\r\n\r\nIf you enable this policy setting, the Windows device is discoverable by other Windows devices that belong to the same user, and can participate in cross-device experiences.\r\n\r\nIf you disable this policy setting, the Windows device is not discoverable by other devices, and cannot participate in cross-device experiences.\r\n\r\nIf you do not configure this policy setting, the default behavior depends on the Windows edition. Changes to this policy take effect on reboot.\r\n      \r\n ",
-    "offsetUri": "/Config/ADMX_GroupPolicy/EnableCDP",
-    "version": "639161298837633273",
-    "accessTypes": "none",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-grouppolicy#admx-grouppolicy-enablecdp"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_enablecdp_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_enablecdp_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "EnableCDP"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_admx_grouppolicy_disablebackgroundpolicy",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_grouppolicy_disablebackgroundpolicy_0",
     "keywords": [
       "DisableBackgroundPolicy",
       "Turn off background refresh of Group Policy",
@@ -1677,13 +1679,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System",
       "DisableBkGndGroupPolicy"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-grouppolicy#admx-grouppolicy-disablebackgroundpolicy"
+    ],
+    "id": "device_vendor_msft_policy_config_admx_grouppolicy_disablebackgroundpolicy",
+    "version": "639161298837633273",
+    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5",
     "rootDefinitionId": "device_vendor_msft_policy_config_admx_grouppolicy_disablebackgroundpolicy",
+    "offsetUri": "/Config/ADMX_GroupPolicy/DisableBackgroundPolicy",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "DisableBackgroundPolicy",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_disablebackgroundpolicy_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_disablebackgroundpolicy_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_grouppolicy_disablebackgroundpolicy_0",
+    "accessTypes": "none",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1695,68 +1741,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "10.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "10.0"
     },
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "categoryId": "deadde1d-7e7f-4577-bd6e-fc237c3854c5",
-    "visibility": "settingsCatalog,template",
     "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Turn off background refresh of Group Policy",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting prevents Group Policy from being updated while the computer is in use. This policy setting applies to Group Policy for computers, users, and domain controllers.\r\n\r\nIf you enable this policy setting, the system waits until the current user logs off the system before updating the computer and user settings.\r\n\r\nIf you disable or do not configure this policy setting, updates can be applied while users are working. The frequency of updates is determined by the \"Set Group Policy refresh interval for computers\" and \"Set Group Policy refresh interval for users\" policy settings.\r\n\r\nNote: If you make changes to this policy setting, you must restart your computer for it to take effect.\r\n ",
-    "offsetUri": "/Config/ADMX_GroupPolicy/DisableBackgroundPolicy",
-    "version": "639161298837633273",
-    "accessTypes": "none",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-grouppolicy#admx-grouppolicy-disablebackgroundpolicy"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_disablebackgroundpolicy_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_admx_grouppolicy_disablebackgroundpolicy_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "DisableBackgroundPolicy"
+    "displayName": "Turn off background refresh of Group Policy"
   },
   {
-    "id": "device_vendor_msft_policy_config_connectivity_disabledownloadingofprintdriversoverhttp",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_connectivity_disabledownloadingofprintdriversoverhttp_0",
+    "description": "This policy setting specifies whether to allow this client to download print driver packages over HTTP.\r\n\r\nTo set up HTTP printing, non-inbox drivers need to be downloaded over HTTP.\r\n\r\nNote: This policy setting does not prevent the client from printing to printers on the Intranet or the Internet over HTTP.  It only prohibits downloading drivers that are not already installed locally.\r\n\r\nIf you enable this policy setting, print drivers cannot be downloaded over HTTP.\r\n\r\nIf you disable or do not configure this policy setting, users can download print drivers over HTTP.",
+    "helpText": "",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "DisableWebPnPDownload_2",
       "Turn off downloading of print drivers over HTTP",
@@ -1764,13 +1766,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Internet Communication Management\\Internet Communication settings",
       "Internet Communication settings"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-connectivity#connectivity-disabledownloadingofprintdriversoverhttp"
+    ],
+    "id": "device_vendor_msft_policy_config_connectivity_disabledownloadingofprintdriversoverhttp",
+    "version": "639161298837633273",
+    "categoryId": "72dfdba4-e7bb-4f09-862c-e003ea763452",
     "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_disabledownloadingofprintdriversoverhttp",
+    "offsetUri": "/Config/Connectivity/DisableDownloadingOfPrintDriversOverHTTP",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "DisableWebPnPDownload_2",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_connectivity_disabledownloadingofprintdriversoverhttp_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_connectivity_disabledownloadingofprintdriversoverhttp_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_connectivity_disabledownloadingofprintdriversoverhttp_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.16299",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1781,68 +1827,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "6.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "6.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Turn off downloading of print drivers over HTTP"
+  },
+  {
+    "description": "This policy setting specifies whether Windows should download a list of providers for the web publishing and online ordering wizards.\r\n\r\nThese wizards allow users to select from a list of companies that provide services such as online storage and photographic printing. By default, Windows displays providers downloaded from a Windows website in addition to providers specified in the registry.\r\n\r\nIf you enable this policy setting, Windows does not download providers, and only the service providers that are cached in the local registry are displayed.\r\n\r\nIf you disable or do not configure this policy setting, a list of providers are downloaded when the user uses the web publishing or online ordering wizards.\r\n\r\nSee the documentation for the web publishing and online ordering wizards for more information, including details on specifying service providers in the registry.",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "72dfdba4-e7bb-4f09-862c-e003ea763452",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Turn off downloading of print drivers over HTTP",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting specifies whether to allow this client to download print driver packages over HTTP.\r\n\r\nTo set up HTTP printing, non-inbox drivers need to be downloaded over HTTP.\r\n\r\nNote: This policy setting does not prevent the client from printing to printers on the Intranet or the Internet over HTTP.  It only prohibits downloading drivers that are not already installed locally.\r\n\r\nIf you enable this policy setting, print drivers cannot be downloaded over HTTP.\r\n\r\nIf you disable or do not configure this policy setting, users can download print drivers over HTTP.",
-    "offsetUri": "/Config/Connectivity/DisableDownloadingOfPrintDriversOverHTTP",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-connectivity#connectivity-disabledownloadingofprintdriversoverhttp"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_connectivity_disabledownloadingofprintdriversoverhttp_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_connectivity_disabledownloadingofprintdriversoverhttp_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "DisableWebPnPDownload_2"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_connectivity_disableinternetdownloadforwebpublishingandonlineorderingwizards",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_connectivity_disableinternetdownloadforwebpublishingandonlineorderingwizards_0",
     "keywords": [
       "ShellPreventWPWDownload_2",
       "Turn off Internet download for Web publishing and online ordering wizards",
@@ -1850,13 +1852,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Internet Communication Management\\Internet Communication settings",
       "Internet Communication settings"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-connectivity#connectivity-disableinternetdownloadforwebpublishingandonlineorderingwizards"
+    ],
+    "id": "device_vendor_msft_policy_config_connectivity_disableinternetdownloadforwebpublishingandonlineorderingwizards",
+    "version": "639161298837633273",
+    "categoryId": "72dfdba4-e7bb-4f09-862c-e003ea763452",
     "rootDefinitionId": "device_vendor_msft_policy_config_connectivity_disableinternetdownloadforwebpublishingandonlineorderingwizards",
+    "offsetUri": "/Config/Connectivity/DisableInternetDownloadForWebPublishingAndOnlineOrderingWizards",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "ShellPreventWPWDownload_2",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_connectivity_disableinternetdownloadforwebpublishingandonlineorderingwizards_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_connectivity_disableinternetdownloadforwebpublishingandonlineorderingwizards_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_connectivity_disableinternetdownloadforwebpublishingandonlineorderingwizards_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.16299",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1867,68 +1913,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.16299",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "6.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "6.0"
     },
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "categoryId": "72dfdba4-e7bb-4f09-862c-e003ea763452",
-    "visibility": "settingsCatalog,template",
     "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Turn off Internet download for Web publishing and online ordering wizards",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting specifies whether Windows should download a list of providers for the web publishing and online ordering wizards.\r\n\r\nThese wizards allow users to select from a list of companies that provide services such as online storage and photographic printing. By default, Windows displays providers downloaded from a Windows website in addition to providers specified in the registry.\r\n\r\nIf you enable this policy setting, Windows does not download providers, and only the service providers that are cached in the local registry are displayed.\r\n\r\nIf you disable or do not configure this policy setting, a list of providers are downloaded when the user uses the web publishing or online ordering wizards.\r\n\r\nSee the documentation for the web publishing and online ordering wizards for more information, including details on specifying service providers in the registry.",
-    "offsetUri": "/Config/Connectivity/DisableInternetDownloadForWebPublishingAndOnlineOrderingWizards",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-connectivity#connectivity-disableinternetdownloadforwebpublishingandonlineorderingwizards"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_connectivity_disableinternetdownloadforwebpublishingandonlineorderingwizards_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_connectivity_disableinternetdownloadforwebpublishingandonlineorderingwizards_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "ShellPreventWPWDownload_2"
+    "displayName": "Turn off Internet download for Web publishing and online ordering wizards"
   },
   {
-    "id": "device_vendor_msft_policy_config_admx_logon_blockuserfromshowingaccountdetailsonsignin",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_logon_blockuserfromshowingaccountdetailsonsignin_0",
+    "description": "This policy prevents the user from showing account details (email address or user name) on the sign-in screen.\r\n\r\nIf you enable this policy setting, the user cannot choose to show account details on the sign-in screen.\r\n\r\nIf you disable or do not configure this policy setting, the user may choose to show account details on the sign-in screen.\r\n ",
+    "helpText": "",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "BlockUserFromShowingAccountDetailsOnSignin",
       "Block user from showing account details on sign-in",
@@ -1938,13 +1940,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Machine",
       "Software\\Policies\\Microsoft\\Windows\\System"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-logon#admx-logon-blockuserfromshowingaccountdetailsonsignin"
+    ],
+    "id": "device_vendor_msft_policy_config_admx_logon_blockuserfromshowingaccountdetailsonsignin",
+    "version": "639161298837633273",
+    "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
     "rootDefinitionId": "device_vendor_msft_policy_config_admx_logon_blockuserfromshowingaccountdetailsonsignin",
+    "offsetUri": "/Config/ADMX_Logon/BlockUserFromShowingAccountDetailsOnSignin",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "BlockUserFromShowingAccountDetailsOnSignin",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_logon_blockuserfromshowingaccountdetailsonsignin_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_logon_blockuserfromshowingaccountdetailsonsignin_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_logon_blockuserfromshowingaccountdetailsonsignin_0",
+    "accessTypes": "none",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1956,68 +2002,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "10.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "10.0"
     },
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
-    "visibility": "settingsCatalog,template",
     "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Block user from showing account details on sign-in",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy prevents the user from showing account details (email address or user name) on the sign-in screen.\r\n\r\nIf you enable this policy setting, the user cannot choose to show account details on the sign-in screen.\r\n\r\nIf you disable or do not configure this policy setting, the user may choose to show account details on the sign-in screen.\r\n ",
-    "offsetUri": "/Config/ADMX_Logon/BlockUserFromShowingAccountDetailsOnSignin",
-    "version": "639161298837633273",
-    "accessTypes": "none",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-logon#admx-logon-blockuserfromshowingaccountdetailsonsignin"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_admx_logon_blockuserfromshowingaccountdetailsonsignin_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_admx_logon_blockuserfromshowingaccountdetailsonsignin_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "BlockUserFromShowingAccountDetailsOnSignin"
+    "displayName": "Block user from showing account details on sign-in"
   },
   {
-    "id": "device_vendor_msft_policy_config_windowslogon_dontdisplaynetworkselectionui",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_windowslogon_dontdisplaynetworkselectionui_0",
+    "description": "This policy setting allows you to control whether anyone can interact with available networks UI on the logon screen.\r\n\r\nIf you enable this policy setting, the PC's network connectivity state cannot be changed without signing into Windows.\r\n\r\nIf you disable or don't configure this policy setting, any user can disconnect the PC from the network or can connect the PC to other available networks without signing into Windows.",
+    "helpText": "",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "DontDisplayNetworkSelectionUI",
       "Do not display network selection UI",
@@ -2025,13 +2027,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Logon",
       "Logon"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-dontdisplaynetworkselectionui"
+    ],
+    "id": "device_vendor_msft_policy_config_windowslogon_dontdisplaynetworkselectionui",
+    "version": "639161298837633273",
+    "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
     "rootDefinitionId": "device_vendor_msft_policy_config_windowslogon_dontdisplaynetworkselectionui",
+    "offsetUri": "/Config/WindowsLogon/DontDisplayNetworkSelectionUI",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "DontDisplayNetworkSelectionUI",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_windowslogon_dontdisplaynetworkselectionui_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_windowslogon_dontdisplaynetworkselectionui_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_windowslogon_dontdisplaynetworkselectionui_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2041,68 +2087,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "5.0"
     },
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
-    "visibility": "settingsCatalog,template",
     "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Do not display network selection UI",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting allows you to control whether anyone can interact with available networks UI on the logon screen.\r\n\r\nIf you enable this policy setting, the PC's network connectivity state cannot be changed without signing into Windows.\r\n\r\nIf you disable or don't configure this policy setting, any user can disconnect the PC from the network or can connect the PC to other available networks without signing into Windows.",
-    "offsetUri": "/Config/WindowsLogon/DontDisplayNetworkSelectionUI",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-dontdisplaynetworkselectionui"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_windowslogon_dontdisplaynetworkselectionui_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_windowslogon_dontdisplaynetworkselectionui_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "DontDisplayNetworkSelectionUI"
+    "displayName": "Do not display network selection UI"
   },
   {
-    "id": "device_vendor_msft_policy_config_admx_logon_dontenumerateconnectedusers",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_logon_dontenumerateconnectedusers_0",
+    "description": "This policy setting prevents connected users from being enumerated on domain-joined computers. \r\n\r\nIf you enable this policy setting, the Logon UI will not enumerate any connected users on domain-joined computers.\r\n\r\nIf you disable or do not configure this policy setting, connected users will be enumerated on domain-joined computers.\r\n ",
+    "helpText": "",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "DontEnumerateConnectedUsers",
       "Do not enumerate connected users on domain-joined computers",
@@ -2110,13 +2112,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Logon",
       "Logon"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-logon#admx-logon-dontenumerateconnectedusers"
+    ],
+    "id": "device_vendor_msft_policy_config_admx_logon_dontenumerateconnectedusers",
+    "version": "639161298837633273",
+    "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
     "rootDefinitionId": "device_vendor_msft_policy_config_admx_logon_dontenumerateconnectedusers",
+    "offsetUri": "/Config/ADMX_Logon/DontEnumerateConnectedUsers",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "DontEnumerateConnectedUsers",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_logon_dontenumerateconnectedusers_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_logon_dontenumerateconnectedusers_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_logon_dontenumerateconnectedusers_0",
+    "accessTypes": "none",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2128,68 +2174,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "10.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "10.0"
     },
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
-    "visibility": "settingsCatalog,template",
     "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Do not enumerate connected users on domain-joined computers",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting prevents connected users from being enumerated on domain-joined computers. \r\n\r\nIf you enable this policy setting, the Logon UI will not enumerate any connected users on domain-joined computers.\r\n\r\nIf you disable or do not configure this policy setting, connected users will be enumerated on domain-joined computers.\r\n ",
-    "offsetUri": "/Config/ADMX_Logon/DontEnumerateConnectedUsers",
-    "version": "639161298837633273",
-    "accessTypes": "none",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-logon#admx-logon-dontenumerateconnectedusers"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_admx_logon_dontenumerateconnectedusers_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_admx_logon_dontenumerateconnectedusers_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "DontEnumerateConnectedUsers"
+    "displayName": "Do not enumerate connected users on domain-joined computers"
   },
   {
-    "id": "device_vendor_msft_policy_config_windowslogon_enumeratelocalusersondomainjoinedcomputers",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_windowslogon_enumeratelocalusersondomainjoinedcomputers_0",
+    "description": "This policy setting allows local users to be enumerated on domain-joined computers.  \r\n\r\nIf you enable this policy setting, Logon UI will enumerate all local users on domain-joined computers.\r\n\r\nIf you disable or do not configure this policy setting, the Logon UI will not enumerate local users on domain-joined computers.",
+    "helpText": "",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "EnumerateLocalUsers",
       "Enumerate local users on domain-joined computers",
@@ -2197,13 +2199,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Logon",
       "Logon"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-enumeratelocalusersondomainjoinedcomputers"
+    ],
+    "id": "device_vendor_msft_policy_config_windowslogon_enumeratelocalusersondomainjoinedcomputers",
+    "version": "639161298837633273",
+    "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
     "rootDefinitionId": "device_vendor_msft_policy_config_windowslogon_enumeratelocalusersondomainjoinedcomputers",
+    "offsetUri": "/Config/WindowsLogon/EnumerateLocalUsersOnDomainJoinedComputers",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "EnumerateLocalUsers",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_windowslogon_enumeratelocalusersondomainjoinedcomputers_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_windowslogon_enumeratelocalusersondomainjoinedcomputers_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_windowslogon_enumeratelocalusersondomainjoinedcomputers_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.17134",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2213,68 +2259,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.17134",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "7.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "7.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Enumerate local users on domain-joined computers"
+  },
+  {
+    "description": "This policy setting allows you to prevent app notifications from appearing on the lock screen.\r\n\r\nIf you enable this policy setting, no app notifications are displayed on the lock screen.\r\n\r\nIf you disable or do not configure this policy setting, users can choose which apps display notifications on the lock screen.",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Enumerate local users on domain-joined computers",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting allows local users to be enumerated on domain-joined computers.  \r\n\r\nIf you enable this policy setting, Logon UI will enumerate all local users on domain-joined computers.\r\n\r\nIf you disable or do not configure this policy setting, the Logon UI will not enumerate local users on domain-joined computers.",
-    "offsetUri": "/Config/WindowsLogon/EnumerateLocalUsersOnDomainJoinedComputers",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-enumeratelocalusersondomainjoinedcomputers"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_windowslogon_enumeratelocalusersondomainjoinedcomputers_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_windowslogon_enumeratelocalusersondomainjoinedcomputers_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "EnumerateLocalUsers"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_0",
     "keywords": [
       "DisableLockScreenAppNotifications",
       "Turn off app notifications on the lock screen",
@@ -2282,13 +2284,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Logon",
       "Logon"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-disablelockscreenappnotifications"
+    ],
+    "id": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications",
+    "version": "639161298837633273",
+    "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
     "rootDefinitionId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications",
+    "offsetUri": "/Config/WindowsLogon/DisableLockScreenAppNotifications",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "DisableLockScreenAppNotifications",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2298,68 +2344,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "5.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Turn off app notifications on the lock screen"
+  },
+  {
+    "description": "This policy setting allows you to control whether a domain user can sign in using a picture password.\r\n\r\nIf you enable this policy setting, a domain user can't set up or sign in with a picture password. \r\n\r\nIf you disable or don't configure this policy setting, a domain user can set up and use a picture password.\r\n\r\nNote that the user's domain password will be cached in the system vault when using this feature.",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Turn off app notifications on the lock screen",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting allows you to prevent app notifications from appearing on the lock screen.\r\n\r\nIf you enable this policy setting, no app notifications are displayed on the lock screen.\r\n\r\nIf you disable or do not configure this policy setting, users can choose which apps display notifications on the lock screen.",
-    "offsetUri": "/Config/WindowsLogon/DisableLockScreenAppNotifications",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-windowslogon#windowslogon-disablelockscreenappnotifications"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_windowslogon_disablelockscreenappnotifications_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "DisableLockScreenAppNotifications"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_credentialproviders_blockpicturepassword",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_credentialproviders_blockpicturepassword_0",
     "keywords": [
       "BlockDomainPicturePassword",
       "Turn off picture password sign-in",
@@ -2367,13 +2369,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Logon",
       "Logon"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-credentialproviders#credentialproviders-blockpicturepassword"
+    ],
+    "id": "device_vendor_msft_policy_config_credentialproviders_blockpicturepassword",
+    "version": "639161298837633273",
+    "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
     "rootDefinitionId": "device_vendor_msft_policy_config_credentialproviders_blockpicturepassword",
+    "offsetUri": "/Config/CredentialProviders/BlockPicturePassword",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "BlockDomainPicturePassword",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_credentialproviders_blockpicturepassword_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_credentialproviders_blockpicturepassword_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_credentialproviders_blockpicturepassword_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2384,68 +2430,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "5.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Turn off picture password sign-in"
+  },
+  {
+    "description": "This policy setting allows you to control whether a domain user can sign in using a convenience PIN.\r\n\r\nIf you enable this policy setting, a domain user can set up and sign in with a convenience PIN.\r\n\r\nIf you disable or don't configure this policy setting, a domain user can't set up and use a convenience PIN.\r\n\r\nNote: The user's domain password will be cached in the system vault when using this feature.\r\n\r\nTo configure Windows Hello for Business, use the Administrative Template policies under Windows Hello for Business.",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Turn off picture password sign-in",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting allows you to control whether a domain user can sign in using a picture password.\r\n\r\nIf you enable this policy setting, a domain user can't set up or sign in with a picture password. \r\n\r\nIf you disable or don't configure this policy setting, a domain user can set up and use a picture password.\r\n\r\nNote that the user's domain password will be cached in the system vault when using this feature.",
-    "offsetUri": "/Config/CredentialProviders/BlockPicturePassword",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-credentialproviders#credentialproviders-blockpicturepassword"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_credentialproviders_blockpicturepassword_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_credentialproviders_blockpicturepassword_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "BlockDomainPicturePassword"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_0",
     "keywords": [
       "AllowDomainPINLogon",
       "Turn on convenience PIN sign-in",
@@ -2453,13 +2455,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Logon",
       "Logon"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-credentialproviders#credentialproviders-allowpinlogon"
+    ],
+    "id": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon",
+    "version": "639161298837633273",
+    "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
     "rootDefinitionId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon",
+    "offsetUri": "/Config/CredentialProviders/AllowPINLogon",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "AllowDomainPINLogon",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2470,68 +2516,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "5.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Turn on convenience PIN sign-in"
+  },
+  {
+    "description": "This policy setting specifies whether or not the user is prompted for a password when the system resumes from sleep.\r\n\r\nIf you enable or do not configure this policy setting, the user is prompted for a password when the system resumes from sleep.\r\n\r\nIf you disable this policy setting, the user is not prompted for a password when the system resumes from sleep.",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Turn on convenience PIN sign-in",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting allows you to control whether a domain user can sign in using a convenience PIN.\r\n\r\nIf you enable this policy setting, a domain user can set up and sign in with a convenience PIN.\r\n\r\nIf you disable or don't configure this policy setting, a domain user can't set up and use a convenience PIN.\r\n\r\nNote: The user's domain password will be cached in the system vault when using this feature.\r\n\r\nTo configure Windows Hello for Business, use the Administrative Template policies under Windows Hello for Business.",
-    "offsetUri": "/Config/CredentialProviders/AllowPINLogon",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-credentialproviders#credentialproviders-allowpinlogon"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "AllowDomainPINLogon"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery_0",
     "keywords": [
       "DCPromptForPasswordOnResume_2",
       "Require a password when a computer wakes (on battery)",
@@ -2539,13 +2541,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Power Management\\Sleep Settings",
       "Sleep Settings"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-requirepasswordwhencomputerwakesonbattery"
+    ],
+    "id": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery",
+    "version": "639161298837633273",
+    "categoryId": "4b2f3557-98e9-48d2-9b78-bcb100f72372",
     "rootDefinitionId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery",
+    "offsetUri": "/Config/Power/RequirePasswordWhenComputerWakesOnBattery",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "DCPromptForPasswordOnResume_2",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2556,68 +2602,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "5.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Require a password when a computer wakes (on battery)"
+  },
+  {
+    "description": "This policy setting specifies whether or not the user is prompted for a password when the system resumes from sleep.\r\n\r\nIf you enable or do not configure this policy setting, the user is prompted for a password when the system resumes from sleep.\r\n\r\nIf you disable this policy setting, the user is not prompted for a password when the system resumes from sleep.",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "4b2f3557-98e9-48d2-9b78-bcb100f72372",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Require a password when a computer wakes (on battery)",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting specifies whether or not the user is prompted for a password when the system resumes from sleep.\r\n\r\nIf you enable or do not configure this policy setting, the user is prompted for a password when the system resumes from sleep.\r\n\r\nIf you disable this policy setting, the user is not prompted for a password when the system resumes from sleep.",
-    "offsetUri": "/Config/Power/RequirePasswordWhenComputerWakesOnBattery",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-requirepasswordwhencomputerwakesonbattery"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakesonbattery_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "DCPromptForPasswordOnResume_2"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin_0",
     "keywords": [
       "ACPromptForPasswordOnResume_2",
       "Require a password when a computer wakes (plugged in)",
@@ -2625,13 +2627,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Power Management\\Sleep Settings",
       "Sleep Settings"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-requirepasswordwhencomputerwakespluggedin"
+    ],
+    "id": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin",
+    "version": "639161298837633273",
+    "categoryId": "4b2f3557-98e9-48d2-9b78-bcb100f72372",
     "rootDefinitionId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin",
+    "offsetUri": "/Config/Power/RequirePasswordWhenComputerWakesPluggedIn",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "ACPromptForPasswordOnResume_2",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2642,68 +2688,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "5.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Require a password when a computer wakes (plugged in)"
+  },
+  {
+    "description": "This policy setting allows you to turn on or turn off Offer (Unsolicited) Remote Assistance on this computer.\r\n\r\nIf you enable this policy setting, users on this computer can get help from their corporate technical support staff using Offer (Unsolicited) Remote Assistance.\r\n\r\nIf you disable this policy setting, users on this computer cannot get help from their corporate technical support staff using Offer (Unsolicited) Remote Assistance.\r\n\r\nIf you do not configure this policy setting, users on this computer cannot get help from their corporate technical support staff using Offer (Unsolicited) Remote Assistance.\r\n\r\nIf you enable this policy setting, you have two ways to allow helpers to provide Remote Assistance: \"Allow helpers to only view the computer\" or \"Allow helpers to remotely control the computer.\" When you configure this policy setting, you also specify the list of users or user groups that are allowed to offer remote assistance.\r\n\r\nTo configure the list of helpers, click \"Show.\" In the window that opens, you can enter the names of the helpers. Add each user or group one by one. When you enter the name of the helper user or user groups, use the following format:\r\n\r\n<Domain Name>\\<User Name> or\r\n\r\n<Domain Name>\\<Group Name>\r\n\r\nIf you enable this policy setting, you should also enable firewall exceptions to allow Remote Assistance communications. The firewall exceptions required for Offer (Unsolicited) Remote Assistance depend on the version of Windows you are running.\r\n\r\nWindows Vista and later\r\n\r\nEnable the Remote Assistance exception for the domain profile. The exception must contain:\r\nPort 135:TCP\r\n%WINDIR%\\System32\\msra.exe\r\n%WINDIR%\\System32\\raserver.exe\r\n\r\nWindows XP with Service Pack 2 (SP2) and Windows XP Professional x64 Edition with Service Pack 1 (SP1)\r\n\r\nPort 135:TCP\r\n%WINDIR%\\PCHealth\\HelpCtr\\Binaries\\Helpsvc.exe\r\n%WINDIR%\\PCHealth\\HelpCtr\\Binaries\\Helpctr.exe\r\n%WINDIR%\\System32\\Sessmgr.exe\r\n\r\nFor computers running Windows Server 2003 with Service Pack 1 (SP1)\r\n\r\nPort 135:TCP\r\n%WINDIR%\\PCHealth\\HelpCtr\\Binaries\\Helpsvc.exe\r\n%WINDIR%\\PCHealth\\HelpCtr\\Binaries\\Helpctr.exe\r\nAllow Remote Desktop Exception",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "4b2f3557-98e9-48d2-9b78-bcb100f72372",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Require a password when a computer wakes (plugged in)",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting specifies whether or not the user is prompted for a password when the system resumes from sleep.\r\n\r\nIf you enable or do not configure this policy setting, the user is prompted for a password when the system resumes from sleep.\r\n\r\nIf you disable this policy setting, the user is not prompted for a password when the system resumes from sleep.",
-    "offsetUri": "/Config/Power/RequirePasswordWhenComputerWakesPluggedIn",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-requirepasswordwhencomputerwakespluggedin"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_power_requirepasswordwhencomputerwakespluggedin_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "ACPromptForPasswordOnResume_2"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_0",
     "keywords": [
       "RA_Unsolicit",
       "Configure Offer Remote Assistance",
@@ -2711,68 +2713,46 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Remote Assistance",
       "Remote Assistance"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "requiresAzureAd": false,
-      "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
-    },
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "categoryId": "12a1b259-a0d5-4505-aedf-b8ca811cd5f9",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Configure Offer Remote Assistance",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting allows you to turn on or turn off Offer (Unsolicited) Remote Assistance on this computer.\r\n\r\nIf you enable this policy setting, users on this computer can get help from their corporate technical support staff using Offer (Unsolicited) Remote Assistance.\r\n\r\nIf you disable this policy setting, users on this computer cannot get help from their corporate technical support staff using Offer (Unsolicited) Remote Assistance.\r\n\r\nIf you do not configure this policy setting, users on this computer cannot get help from their corporate technical support staff using Offer (Unsolicited) Remote Assistance.\r\n\r\nIf you enable this policy setting, you have two ways to allow helpers to provide Remote Assistance: \"Allow helpers to only view the computer\" or \"Allow helpers to remotely control the computer.\" When you configure this policy setting, you also specify the list of users or user groups that are allowed to offer remote assistance.\r\n\r\nTo configure the list of helpers, click \"Show.\" In the window that opens, you can enter the names of the helpers. Add each user or group one by one. When you enter the name of the helper user or user groups, use the following format:\r\n\r\n<Domain Name>\\<User Name> or\r\n\r\n<Domain Name>\\<Group Name>\r\n\r\nIf you enable this policy setting, you should also enable firewall exceptions to allow Remote Assistance communications. The firewall exceptions required for Offer (Unsolicited) Remote Assistance depend on the version of Windows you are running.\r\n\r\nWindows Vista and later\r\n\r\nEnable the Remote Assistance exception for the domain profile. The exception must contain:\r\nPort 135:TCP\r\n%WINDIR%\\System32\\msra.exe\r\n%WINDIR%\\System32\\raserver.exe\r\n\r\nWindows XP with Service Pack 2 (SP2) and Windows XP Professional x64 Edition with Service Pack 1 (SP1)\r\n\r\nPort 135:TCP\r\n%WINDIR%\\PCHealth\\HelpCtr\\Binaries\\Helpsvc.exe\r\n%WINDIR%\\PCHealth\\HelpCtr\\Binaries\\Helpctr.exe\r\n%WINDIR%\\System32\\Sessmgr.exe\r\n\r\nFor computers running Windows Server 2003 with Service Pack 1 (SP1)\r\n\r\nPort 135:TCP\r\n%WINDIR%\\PCHealth\\HelpCtr\\Binaries\\Helpsvc.exe\r\n%WINDIR%\\PCHealth\\HelpCtr\\Binaries\\Helpctr.exe\r\nAllow Remote Desktop Exception",
-    "offsetUri": "/Config/RemoteAssistance/UnsolicitedRemoteAssistance",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteassistance#remoteassistance-unsolicitedremoteassistance"
     ],
+    "id": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance",
+    "version": "639161298837633273",
+    "categoryId": "12a1b259-a0d5-4505-aedf-b8ca811cd5f9",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance",
+    "offsetUri": "/Config/RemoteAssistance/UnsolicitedRemoteAssistance",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "RA_Unsolicit",
+    "referredSettingInformationList": [],
     "options": [
       {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
         "optionValue": {
           "value": 0,
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
         },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_0",
+        "dependedOnBy": [],
         "name": "Disabled",
-        "helpText": null
+        "dependentOn": []
       },
       {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
         "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_1",
         "description": null,
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_1",
         "dependedOnBy": [
           {
             "required": true,
@@ -2783,36 +2763,16 @@ If you disable or do not configure this policy setting, your computer cannot ser
             "dependedOnBy": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_ra_unsolicit_dacl_edit"
           }
         ],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "name": "Enabled",
-        "helpText": null
+        "dependentOn": []
       }
     ],
-    "name": "RA_Unsolicit"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_ra_unsolicit_control_list",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_ra_unsolicit_control_list_1",
-    "keywords": [
-      "RA_Unsolicit",
-      "Configure Offer Remote Assistance",
-      "\\System\\Remote Assistance",
-      "Administrative Templates\\System\\Remote Assistance",
-      "Remote Assistance"
-    ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance",
+    "defaultOptionId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2823,110 +2783,174 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "5.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Configure Offer Remote Assistance"
+  },
+  {
+    "description": "",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
+    "keywords": [
+      "RA_Unsolicit",
+      "Configure Offer Remote Assistance",
+      "\\System\\Remote Assistance",
+      "Administrative Templates\\System\\Remote Assistance",
+      "Remote Assistance"
+    ],
+    "infoUrls": [],
+    "id": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_ra_unsolicit_control_list",
+    "version": "639161298837633273",
     "categoryId": "12a1b259-a0d5-4505-aedf-b8ca811cd5f9",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance",
+    "offsetUri": "/Config/RemoteAssistance/UnsolicitedRemoteAssistance",
     "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Permit remote control of this computer: (Device)",
     "uxBehavior": "toggle",
     "riskLevel": "low",
-    "description": "",
-    "offsetUri": "/Config/RemoteAssistance/UnsolicitedRemoteAssistance",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "RA_Unsolicit_Control_List",
+    "referredSettingInformationList": [],
     "options": [
       {
-        "displayName": "Allow helpers to remotely control the computer",
-        "itemId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_ra_unsolicit_control_list_1",
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_1",
-            "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance"
-          }
-        ],
-        "dependedOnBy": [],
         "optionValue": {
           "value": "1",
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
         },
-        "name": "Allow helpers to remotely control the computer",
-        "helpText": null
-      },
-      {
-        "displayName": "Allow helpers to only view the computer",
-        "itemId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_ra_unsolicit_control_list_0",
+        "helpText": null,
+        "displayName": "Allow helpers to remotely control the computer",
         "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_ra_unsolicit_control_list_1",
+        "dependedOnBy": [],
+        "name": "Allow helpers to remotely control the computer",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_1",
             "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance"
           }
-        ],
-        "dependedOnBy": [],
+        ]
+      },
+      {
         "optionValue": {
           "value": "0",
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
         },
+        "helpText": null,
+        "displayName": "Allow helpers to only view the computer",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_ra_unsolicit_control_list_0",
+        "dependedOnBy": [],
         "name": "Allow helpers to only view the computer",
-        "helpText": null
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_1",
+            "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance"
+          }
+        ]
       }
     ],
-    "name": "RA_Unsolicit_Control_List"
+    "defaultOptionId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_ra_unsolicit_control_list_1",
+    "accessTypes": "add,delete,get,replace",
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "settingUsage": "configuration",
+    "displayName": "Permit remote control of this computer: (Device)"
   },
   {
-    "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance",
-    "riskLevel": "low",
-    "uxBehavior": "default",
-    "categoryId": "12a1b259-a0d5-4505-aedf-b8ca811cd5f9",
-    "referredSettingInformationList": [],
-    "visibility": "settingsCatalog,template",
-    "offsetUri": "/Config/RemoteAssistance/UnsolicitedRemoteAssistance",
     "valueDefinition": {
-      "maximumLength": 2048,
       "inputValidationSchema": null,
-      "isSecret": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
       "minimumLength": 0,
       "format": "none",
       "fileTypes": [],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition"
+      "maximumLength": 2048,
+      "isSecret": false
     },
+    "name": "RA_Unsolicit_DACL_Edit",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "version": "639161298837633273",
+    "accessTypes": "add,delete,get,replace",
+    "visibility": "settingsCatalog,template",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance",
+    "maximumCount": 1000,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
+    "referredSettingInformationList": [],
+    "description": "",
     "settingUsage": "configuration",
+    "offsetUri": "/Config/RemoteAssistance/UnsolicitedRemoteAssistance",
+    "categoryId": "12a1b259-a0d5-4505-aedf-b8ca811cd5f9",
+    "infoUrls": [],
+    "riskLevel": "low",
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "helpText": "",
+    "dependedOnBy": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "uxBehavior": "default",
+    "minimumCount": 1,
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_1",
         "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance"
       }
     ],
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "version": "639161298837633273",
-    "id": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_ra_unsolicit_dacl_edit",
-    "defaultValue": null,
-    "maximumCount": 1000,
-    "helpText": "",
-    "dependedOnBy": [],
-    "accessTypes": "add,delete,get,replace",
     "displayName": "Helpers: (Device)",
-    "minimumCount": 1,
-    "infoUrls": [],
-    "name": "RA_Unsolicit_DACL_Edit",
+    "id": "device_vendor_msft_policy_config_remoteassistance_unsolicitedremoteassistance_ra_unsolicit_dacl_edit",
     "keywords": [
       "RA_Unsolicit",
       "Configure Offer Remote Assistance",
@@ -2934,37 +2958,15 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Remote Assistance",
       "Remote Assistance"
     ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionDefinition",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "requiresAzureAd": false,
-      "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
-    },
-    "description": "",
-    "baseUri": "./Device/Vendor/MSFT/Policy"
+    "defaultValue": null
   },
   {
-    "id": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_expireunits_list",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_expireunits_list_1",
+    "description": "",
+    "helpText": "",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "RA_Solicit",
       "Configure Solicited Remote Assistance",
@@ -2972,126 +2974,84 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Remote Assistance",
       "Remote Assistance"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "requiresAzureAd": false,
-      "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
-    },
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
+    "infoUrls": [],
+    "id": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_expireunits_list",
+    "version": "639161298837633273",
     "categoryId": "12a1b259-a0d5-4505-aedf-b8ca811cd5f9",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance",
+    "offsetUri": "/Config/RemoteAssistance/SolicitedRemoteAssistance",
     "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Maximum ticket time (units):",
     "uxBehavior": "default",
     "riskLevel": "low",
-    "description": "",
-    "offsetUri": "/Config/RemoteAssistance/SolicitedRemoteAssistance",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "RA_Solicit_ExpireUnits_List",
+    "referredSettingInformationList": [],
     "options": [
       {
-        "displayName": "Minutes",
-        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_expireunits_list_0",
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_1",
-            "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance"
-          }
-        ],
-        "dependedOnBy": [],
         "optionValue": {
           "value": "0",
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
         },
-        "name": "Minutes",
-        "helpText": null
-      },
-      {
-        "displayName": "Hours",
-        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_expireunits_list_1",
+        "helpText": null,
+        "displayName": "Minutes",
         "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_expireunits_list_0",
+        "dependedOnBy": [],
+        "name": "Minutes",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_1",
             "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance"
           }
-        ],
-        "dependedOnBy": [],
+        ]
+      },
+      {
         "optionValue": {
           "value": "1",
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
         },
-        "name": "Hours",
-        "helpText": null
-      },
-      {
-        "displayName": "Days",
-        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_expireunits_list_2",
+        "helpText": null,
+        "displayName": "Hours",
         "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_expireunits_list_1",
+        "dependedOnBy": [],
+        "name": "Hours",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_1",
             "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance"
           }
-        ],
-        "dependedOnBy": [],
+        ]
+      },
+      {
         "optionValue": {
           "value": "2",
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
         },
+        "helpText": null,
+        "displayName": "Days",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_expireunits_list_2",
+        "dependedOnBy": [],
         "name": "Days",
-        "helpText": null
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_1",
+            "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance"
+          }
+        ]
       }
     ],
-    "name": "RA_Solicit_ExpireUnits_List"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_expirevalue_edt",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "keywords": [
-      "RA_Solicit",
-      "Configure Solicited Remote Assistance",
-      "\\System\\Remote Assistance",
-      "Administrative Templates\\System\\Remote Assistance",
-      "Remote Assistance"
-    ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance",
-    "dependedOnBy": [],
+    "defaultOptionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_expireunits_list_1",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3102,66 +3062,66 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "5.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Maximum ticket time (units):"
+  },
+  {
+    "description": "",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "12a1b259-a0d5-4505-aedf-b8ca811cd5f9",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "keywords": [
+      "RA_Solicit",
+      "Configure Solicited Remote Assistance",
+      "\\System\\Remote Assistance",
+      "Administrative Templates\\System\\Remote Assistance",
+      "Remote Assistance"
+    ],
+    "infoUrls": [],
+    "id": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_expirevalue_edt",
+    "version": "639161298837633273",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_1",
         "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance"
       }
     ],
-    "displayName": "Maximum ticket time (value):",
-    "uxBehavior": "default",
+    "categoryId": "12a1b259-a0d5-4505-aedf-b8ca811cd5f9",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance",
+    "offsetUri": "/Config/RemoteAssistance/SolicitedRemoteAssistance",
+    "visibility": "settingsCatalog,template",
     "defaultValue": {
       "value": 1,
       "settingValueTemplateReference": null,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
     },
+    "uxBehavior": "default",
     "riskLevel": "low",
-    "description": "",
-    "offsetUri": "/Config/RemoteAssistance/SolicitedRemoteAssistance",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "name": "RA_Solicit_ExpireValue_Edt",
+    "referredSettingInformationList": [],
+    "dependedOnBy": [],
     "valueDefinition": {
-      "minimumValue": 1,
       "maximumValue": 99,
+      "minimumValue": 1,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
     },
-    "name": "RA_Solicit_ExpireValue_Edt"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_control_list",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_control_list_1",
-    "keywords": [
-      "RA_Solicit",
-      "Configure Solicited Remote Assistance",
-      "\\System\\Remote Assistance",
-      "Administrative Templates\\System\\Remote Assistance",
-      "Remote Assistance"
-    ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3172,90 +3132,90 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "5.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Maximum ticket time (value):"
+  },
+  {
+    "description": "",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
+    "keywords": [
+      "RA_Solicit",
+      "Configure Solicited Remote Assistance",
+      "\\System\\Remote Assistance",
+      "Administrative Templates\\System\\Remote Assistance",
+      "Remote Assistance"
+    ],
+    "infoUrls": [],
+    "id": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_control_list",
+    "version": "639161298837633273",
     "categoryId": "12a1b259-a0d5-4505-aedf-b8ca811cd5f9",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance",
+    "offsetUri": "/Config/RemoteAssistance/SolicitedRemoteAssistance",
     "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Permit remote control of this computer:",
     "uxBehavior": "toggle",
     "riskLevel": "low",
-    "description": "",
-    "offsetUri": "/Config/RemoteAssistance/SolicitedRemoteAssistance",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "RA_Solicit_Control_List",
+    "referredSettingInformationList": [],
     "options": [
       {
-        "displayName": "Allow helpers to remotely control the computer",
-        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_control_list_1",
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_1",
-            "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance"
-          }
-        ],
-        "dependedOnBy": [],
         "optionValue": {
           "value": "1",
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
         },
-        "name": "Allow helpers to remotely control the computer",
-        "helpText": null
-      },
-      {
-        "displayName": "Allow helpers to only view the computer",
-        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_control_list_0",
+        "helpText": null,
+        "displayName": "Allow helpers to remotely control the computer",
         "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_control_list_1",
+        "dependedOnBy": [],
+        "name": "Allow helpers to remotely control the computer",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_1",
             "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance"
           }
-        ],
-        "dependedOnBy": [],
+        ]
+      },
+      {
         "optionValue": {
           "value": "0",
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
         },
+        "helpText": null,
+        "displayName": "Allow helpers to only view the computer",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_control_list_0",
+        "dependedOnBy": [],
         "name": "Allow helpers to only view the computer",
-        "helpText": null
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_1",
+            "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance"
+          }
+        ]
       }
     ],
-    "name": "RA_Solicit_Control_List"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_0",
-    "keywords": [
-      "RA_Solicit",
-      "Configure Solicited Remote Assistance",
-      "\\System\\Remote Assistance",
-      "Administrative Templates\\System\\Remote Assistance",
-      "Remote Assistance"
-    ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance",
+    "defaultOptionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_control_list_1",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3266,51 +3226,71 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "5.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Permit remote control of this computer:"
+  },
+  {
+    "description": "This policy setting allows you to turn on or turn off Solicited (Ask for) Remote Assistance on this computer.\r\n\r\nIf you enable this policy setting, users on this computer can use email or file transfer to ask someone for help. Also, users can use instant messaging programs to allow connections to this computer, and you can configure additional Remote Assistance settings.\r\n\r\nIf you disable this policy setting, users on this computer cannot use email or file transfer to ask someone for help. Also, users cannot use instant messaging programs to allow connections to this computer.\r\n\r\nIf you do not configure this policy setting, users can turn on or turn off Solicited (Ask for) Remote Assistance themselves in System Properties in Control Panel. Users can also configure Remote Assistance settings.\r\n\r\nIf you enable this policy setting, you have two ways to allow helpers to provide Remote Assistance: \"Allow helpers to only view the computer\" or \"Allow helpers to remotely control the computer.\"\r\n\r\nThe \"Maximum ticket time\" policy setting sets a limit on the amount of time that a Remote Assistance invitation created by using email or file transfer can remain open.\r\n\r\nThe \"Select the method for sending email invitations\" setting specifies which email standard to use to send Remote Assistance invitations. Depending on your email program, you can use either the Mailto standard (the invitation recipient connects through an Internet link) or the SMAPI (Simple MAPI) standard (the invitation is attached to your email message). This policy setting is not available in Windows Vista since SMAPI is the only method supported.\r\n\r\nIf you enable this policy setting you should also enable appropriate firewall exceptions to allow Remote Assistance communications.",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "12a1b259-a0d5-4505-aedf-b8ca811cd5f9",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Configure Solicited Remote Assistance",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting allows you to turn on or turn off Solicited (Ask for) Remote Assistance on this computer.\r\n\r\nIf you enable this policy setting, users on this computer can use email or file transfer to ask someone for help. Also, users can use instant messaging programs to allow connections to this computer, and you can configure additional Remote Assistance settings.\r\n\r\nIf you disable this policy setting, users on this computer cannot use email or file transfer to ask someone for help. Also, users cannot use instant messaging programs to allow connections to this computer.\r\n\r\nIf you do not configure this policy setting, users can turn on or turn off Solicited (Ask for) Remote Assistance themselves in System Properties in Control Panel. Users can also configure Remote Assistance settings.\r\n\r\nIf you enable this policy setting, you have two ways to allow helpers to provide Remote Assistance: \"Allow helpers to only view the computer\" or \"Allow helpers to remotely control the computer.\"\r\n\r\nThe \"Maximum ticket time\" policy setting sets a limit on the amount of time that a Remote Assistance invitation created by using email or file transfer can remain open.\r\n\r\nThe \"Select the method for sending email invitations\" setting specifies which email standard to use to send Remote Assistance invitations. Depending on your email program, you can use either the Mailto standard (the invitation recipient connects through an Internet link) or the SMAPI (Simple MAPI) standard (the invitation is attached to your email message). This policy setting is not available in Windows Vista since SMAPI is the only method supported.\r\n\r\nIf you enable this policy setting you should also enable appropriate firewall exceptions to allow Remote Assistance communications.",
-    "offsetUri": "/Config/RemoteAssistance/SolicitedRemoteAssistance",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
+    "keywords": [
+      "RA_Solicit",
+      "Configure Solicited Remote Assistance",
+      "\\System\\Remote Assistance",
+      "Administrative Templates\\System\\Remote Assistance",
+      "Remote Assistance"
+    ],
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteassistance#remoteassistance-solicitedremoteassistance"
     ],
+    "id": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance",
+    "version": "639161298837633273",
+    "categoryId": "12a1b259-a0d5-4505-aedf-b8ca811cd5f9",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance",
+    "offsetUri": "/Config/RemoteAssistance/SolicitedRemoteAssistance",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "RA_Solicit",
+    "referredSettingInformationList": [],
     "options": [
       {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
         "optionValue": {
           "value": 0,
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
         },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_0",
+        "dependedOnBy": [],
         "name": "Disabled",
-        "helpText": null
+        "dependentOn": []
       },
       {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
         "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_1",
         "description": null,
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_1",
         "dependedOnBy": [
           {
             "required": true,
@@ -3329,22 +3309,44 @@ If you disable or do not configure this policy setting, your computer cannot ser
             "dependedOnBy": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_mailto_list"
           }
         ],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "name": "Enabled",
-        "helpText": null
+        "dependentOn": []
       }
     ],
-    "name": "RA_Solicit"
+    "defaultOptionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_0",
+    "accessTypes": "add,delete,get,replace",
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "settingUsage": "configuration",
+    "displayName": "Configure Solicited Remote Assistance"
   },
   {
-    "id": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_mailto_list",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_mailto_list_1",
+    "description": "",
+    "helpText": "",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "RA_Solicit",
       "Configure Solicited Remote Assistance",
@@ -3352,13 +3354,65 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Remote Assistance",
       "Remote Assistance"
     ],
+    "infoUrls": [],
+    "id": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_mailto_list",
+    "version": "639161298837633273",
+    "categoryId": "12a1b259-a0d5-4505-aedf-b8ca811cd5f9",
     "rootDefinitionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance",
+    "offsetUri": "/Config/RemoteAssistance/SolicitedRemoteAssistance",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "default",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "RA_Solicit_Mailto_List",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": "0",
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Simple MAPI",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_mailto_list_0",
+        "dependedOnBy": [],
+        "name": "Simple MAPI",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_1",
+            "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance"
+          }
+        ]
+      },
+      {
+        "optionValue": {
+          "value": "1",
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Mailto",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_mailto_list_1",
+        "dependedOnBy": [],
+        "name": "Mailto",
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_1",
+            "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance"
+          }
+        ]
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_mailto_list_1",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3369,76 +3423,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "5.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Method for sending email invitations:"
+  },
+  {
+    "description": "This policy setting controls whether RPC clients authenticate with the Endpoint Mapper Service when the call they are making contains authentication information.   The Endpoint Mapper Service on computers running Windows NT4 (all service packs) cannot process authentication information supplied in this manner. \r\n\r\nIf you disable this policy setting, RPC clients will not authenticate to the Endpoint Mapper Service, but they will be able to communicate with the Endpoint Mapper Service on Windows NT4 Server.\r\n\r\nIf you enable this policy setting, RPC clients will authenticate to the Endpoint Mapper Service for calls that contain authentication information.  Clients making such calls will not be able to communicate with the Windows NT4 Server Endpoint Mapper Service.\r\n\r\nIf you do not configure this policy setting, it remains disabled.  RPC clients will not authenticate to the Endpoint Mapper Service, but they will be able to communicate with the Windows NT4 Server Endpoint Mapper Service.\r\n\r\nNote: This policy will not be applied until the system is rebooted.",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "12a1b259-a0d5-4505-aedf-b8ca811cd5f9",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Method for sending email invitations:",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "description": "",
-    "offsetUri": "/Config/RemoteAssistance/SolicitedRemoteAssistance",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [],
-    "options": [
-      {
-        "displayName": "Simple MAPI",
-        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_mailto_list_0",
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_1",
-            "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance"
-          }
-        ],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": "0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "name": "Simple MAPI",
-        "helpText": null
-      },
-      {
-        "displayName": "Mailto",
-        "itemId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_ra_solicit_mailto_list_1",
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance_1",
-            "parentSettingId": "device_vendor_msft_policy_config_remoteassistance_solicitedremoteassistance"
-          }
-        ],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "name": "Mailto",
-        "helpText": null
-      }
-    ],
-    "name": "RA_Solicit_Mailto_List"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_remoteprocedurecall_rpcendpointmapperclientauthentication",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_remoteprocedurecall_rpcendpointmapperclientauthentication_0",
     "keywords": [
       "RpcEnableAuthEpResolution",
       "Enable RPC Endpoint Mapper Client Authentication",
@@ -3446,13 +3448,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Remote Procedure Call",
       "Remote Procedure Call"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteprocedurecall#remoteprocedurecall-rpcendpointmapperclientauthentication"
+    ],
+    "id": "device_vendor_msft_policy_config_remoteprocedurecall_rpcendpointmapperclientauthentication",
+    "version": "639161298837633273",
+    "categoryId": "73a3a483-dcba-4b34-b7cb-9c68c871864c",
     "rootDefinitionId": "device_vendor_msft_policy_config_remoteprocedurecall_rpcendpointmapperclientauthentication",
+    "offsetUri": "/Config/RemoteProcedureCall/RPCEndpointMapperClientAuthentication",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "RpcEnableAuthEpResolution",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_rpcendpointmapperclientauthentication_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_rpcendpointmapperclientauthentication_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_remoteprocedurecall_rpcendpointmapperclientauthentication_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3463,68 +3509,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "5.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Enable RPC Endpoint Mapper Client Authentication"
+  },
+  {
+    "description": "This policy setting controls how the RPC server runtime handles unauthenticated RPC clients connecting to RPC servers.\r\n\r\nThis policy setting impacts all RPC applications.  In a domain environment this policy setting should be used with caution as it can impact a wide range of functionality including group policy processing itself.  Reverting a change to this policy setting can require manual intervention on each affected machine.  This policy setting should never be applied to a domain controller.\r\n\r\nIf you disable this policy setting, the RPC server runtime uses the value of \"Authenticated\" on Windows Client, and the value of \"None\" on Windows Server versions that support this policy setting. \r\n\r\nIf you do not configure this policy setting, it remains disabled.  The RPC server runtime will behave as though it was enabled with the value of \"Authenticated\" used for Windows Client and the value of \"None\" used for Server SKUs that support this policy setting. \r\n\r\nIf you enable this policy setting, it directs the RPC server runtime to restrict unauthenticated RPC clients connecting to RPC servers running on a machine. A client will be considered an authenticated client if it uses a named pipe to communicate with the server or if it uses RPC Security. RPC Interfaces that have specifically requested to be accessible by unauthenticated clients may be exempt from this restriction, depending on the selected value for this policy setting.\r\n\r\n--  \"None\" allows all RPC clients to connect to RPC Servers running on the machine on which the policy setting is applied.\r\n\r\n--  \"Authenticated\" allows only authenticated RPC Clients (per the definition above) to connect to RPC Servers running on the machine on which the policy setting is applied. Exemptions are granted to interfaces that have requested them.\r\n\r\n--  \"Authenticated without exceptions\" allows only authenticated RPC Clients (per the definition above) to connect to RPC Servers running on the machine on which the policy setting is applied.  No exceptions are allowed.\r\n\r\nNote: This policy setting will not be applied until the system is rebooted.",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "73a3a483-dcba-4b34-b7cb-9c68c871864c",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Enable RPC Endpoint Mapper Client Authentication",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting controls whether RPC clients authenticate with the Endpoint Mapper Service when the call they are making contains authentication information.   The Endpoint Mapper Service on computers running Windows NT4 (all service packs) cannot process authentication information supplied in this manner. \r\n\r\nIf you disable this policy setting, RPC clients will not authenticate to the Endpoint Mapper Service, but they will be able to communicate with the Endpoint Mapper Service on Windows NT4 Server.\r\n\r\nIf you enable this policy setting, RPC clients will authenticate to the Endpoint Mapper Service for calls that contain authentication information.  Clients making such calls will not be able to communicate with the Windows NT4 Server Endpoint Mapper Service.\r\n\r\nIf you do not configure this policy setting, it remains disabled.  RPC clients will not authenticate to the Endpoint Mapper Service, but they will be able to communicate with the Windows NT4 Server Endpoint Mapper Service.\r\n\r\nNote: This policy will not be applied until the system is rebooted.",
-    "offsetUri": "/Config/RemoteProcedureCall/RPCEndpointMapperClientAuthentication",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteprocedurecall#remoteprocedurecall-rpcendpointmapperclientauthentication"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_rpcendpointmapperclientauthentication_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_rpcendpointmapperclientauthentication_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "RpcEnableAuthEpResolution"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_0",
     "keywords": [
       "RpcRestrictRemoteClients",
       "Restrict Unauthenticated RPC clients",
@@ -3532,104 +3534,62 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Administrative Templates\\System\\Remote Procedure Call",
       "Remote Procedure Call"
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "requiresAzureAd": false,
-      "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
-    },
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "categoryId": "73a3a483-dcba-4b34-b7cb-9c68c871864c",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Restrict Unauthenticated RPC clients",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting controls how the RPC server runtime handles unauthenticated RPC clients connecting to RPC servers.\r\n\r\nThis policy setting impacts all RPC applications.  In a domain environment this policy setting should be used with caution as it can impact a wide range of functionality including group policy processing itself.  Reverting a change to this policy setting can require manual intervention on each affected machine.  This policy setting should never be applied to a domain controller.\r\n\r\nIf you disable this policy setting, the RPC server runtime uses the value of \"Authenticated\" on Windows Client, and the value of \"None\" on Windows Server versions that support this policy setting. \r\n\r\nIf you do not configure this policy setting, it remains disabled.  The RPC server runtime will behave as though it was enabled with the value of \"Authenticated\" used for Windows Client and the value of \"None\" used for Server SKUs that support this policy setting. \r\n\r\nIf you enable this policy setting, it directs the RPC server runtime to restrict unauthenticated RPC clients connecting to RPC servers running on a machine. A client will be considered an authenticated client if it uses a named pipe to communicate with the server or if it uses RPC Security. RPC Interfaces that have specifically requested to be accessible by unauthenticated clients may be exempt from this restriction, depending on the selected value for this policy setting.\r\n\r\n--  \"None\" allows all RPC clients to connect to RPC Servers running on the machine on which the policy setting is applied.\r\n\r\n--  \"Authenticated\" allows only authenticated RPC Clients (per the definition above) to connect to RPC Servers running on the machine on which the policy setting is applied. Exemptions are granted to interfaces that have requested them.\r\n\r\n--  \"Authenticated without exceptions\" allows only authenticated RPC Clients (per the definition above) to connect to RPC Servers running on the machine on which the policy setting is applied.  No exceptions are allowed.\r\n\r\nNote: This policy setting will not be applied until the system is rebooted.",
-    "offsetUri": "/Config/RemoteProcedureCall/RestrictUnauthenticatedRPCClients",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-remoteprocedurecall#remoteprocedurecall-restrictunauthenticatedrpcclients"
     ],
+    "id": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients",
+    "version": "639161298837633273",
+    "categoryId": "73a3a483-dcba-4b34-b7cb-9c68c871864c",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients",
+    "offsetUri": "/Config/RemoteProcedureCall/RestrictUnauthenticatedRPCClients",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "RpcRestrictRemoteClients",
+    "referredSettingInformationList": [],
     "options": [
       {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
         "optionValue": {
           "value": 0,
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
         },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_0",
+        "dependedOnBy": [],
         "name": "Disabled",
-        "helpText": null
+        "dependentOn": []
       },
       {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
         "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_1",
         "description": null,
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_1",
         "dependedOnBy": [
           {
             "required": true,
             "dependedOnBy": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist"
           }
         ],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
         "name": "Enabled",
-        "helpText": null
+        "dependentOn": []
       }
     ],
-    "name": "RpcRestrictRemoteClients"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist_1",
-    "keywords": [
-      "RpcRestrictRemoteClients",
-      "Restrict Unauthenticated RPC clients",
-      "\\System\\Remote Procedure Call",
-      "Administrative Templates\\System\\Remote Procedure Call",
-      "Remote Procedure Call"
-    ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients",
+    "defaultOptionId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_0",
+    "accessTypes": "add,delete,get,replace",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.15063",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3640,95 +3600,137 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "5.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "5.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Restrict Unauthenticated RPC clients"
+  },
+  {
+    "description": "",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
+    "keywords": [
+      "RpcRestrictRemoteClients",
+      "Restrict Unauthenticated RPC clients",
+      "\\System\\Remote Procedure Call",
+      "Administrative Templates\\System\\Remote Procedure Call",
+      "Remote Procedure Call"
+    ],
+    "infoUrls": [],
+    "id": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist",
+    "version": "639161298837633273",
     "categoryId": "73a3a483-dcba-4b34-b7cb-9c68c871864c",
+    "rootDefinitionId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients",
+    "offsetUri": "/Config/RemoteProcedureCall/RestrictUnauthenticatedRPCClients",
     "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "RPC Runtime Unauthenticated Client Restriction to Apply:",
     "uxBehavior": "default",
     "riskLevel": "low",
-    "description": "",
-    "offsetUri": "/Config/RemoteProcedureCall/RestrictUnauthenticatedRPCClients",
-    "version": "639161298837633273",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "RpcRestrictRemoteClientsList",
+    "referredSettingInformationList": [],
     "options": [
       {
-        "displayName": "None",
-        "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist_0",
-        "description": null,
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_1",
-            "parentSettingId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients"
-          }
-        ],
-        "dependedOnBy": [],
         "optionValue": {
           "value": "0",
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
         },
-        "name": "None",
-        "helpText": null
-      },
-      {
-        "displayName": "Authenticated",
-        "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist_1",
+        "helpText": null,
+        "displayName": "None",
         "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist_0",
+        "dependedOnBy": [],
+        "name": "None",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_1",
             "parentSettingId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients"
           }
-        ],
-        "dependedOnBy": [],
+        ]
+      },
+      {
         "optionValue": {
           "value": "1",
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
         },
-        "name": "Authenticated",
-        "helpText": null
-      },
-      {
-        "displayName": "Authenticated without exceptions",
-        "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist_2",
+        "helpText": null,
+        "displayName": "Authenticated",
         "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist_1",
+        "dependedOnBy": [],
+        "name": "Authenticated",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_1",
             "parentSettingId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients"
           }
-        ],
-        "dependedOnBy": [],
+        ]
+      },
+      {
         "optionValue": {
           "value": "2",
           "settingValueTemplateReference": null,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
         },
+        "helpText": null,
+        "displayName": "Authenticated without exceptions",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist_2",
+        "dependedOnBy": [],
         "name": "Authenticated without exceptions",
-        "helpText": null
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_1",
+            "parentSettingId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients"
+          }
+        ]
       }
     ],
-    "name": "RpcRestrictRemoteClientsList"
+    "defaultOptionId": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist_1",
+    "accessTypes": "add,delete,get,replace",
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "platform": "windows10",
+      "requiresAzureAd": false,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "minimumSupportedVersion": "10.0.15063",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "settingUsage": "configuration",
+    "displayName": "RPC Runtime Unauthenticated Client Restriction to Apply:"
   },
   {
-    "id": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpclient",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpclient_0",
+    "description": "This policy setting specifies whether the Windows NTP Client is enabled.\r\n\r\nEnabling the Windows NTP Client allows your computer to synchronize its computer clock with other NTP servers. You might want to disable this service if you decide to use a third-party time provider.\r\n\r\nIf you enable this policy setting, you can set the local computer clock to synchronize time with NTP servers.\r\n\r\nIf you disable or do not configure this policy setting, the local computer clock does not synchronize time with NTP servers.\r\n      \r\n ",
+    "helpText": "",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "W32TIME_POLICY_ENABLE_NTPCLIENT",
       "Enable Windows NTP Client",
@@ -3739,13 +3741,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Software\\Policies\\Microsoft\\W32time\\TimeProviders\\NtpClient",
       "Enabled"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-w32time#admx-w32time-w32time-policy-enable-ntpclient"
+    ],
+    "id": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpclient",
+    "version": "639161298837633273",
+    "categoryId": "b5006d56-dc0b-4a07-95ee-d6d6e3000f9f",
     "rootDefinitionId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpclient",
+    "offsetUri": "/Config/ADMX_W32Time/W32TIME_POLICY_ENABLE_NTPCLIENT",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "W32TIME_POLICY_ENABLE_NTPCLIENT",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpclient_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpclient_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpclient_0",
+    "accessTypes": "none",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3757,68 +3803,24 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "10.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "10.0"
     },
+    "settingUsage": "configuration",
+    "displayName": "Enable Windows NTP Client"
+  },
+  {
+    "description": "This policy setting allows you to specify whether the Windows NTP Server is enabled.\r\n\r\nIf you enable this policy setting for the Windows NTP Server, your computer can service NTP requests from other computers.\r\n\r\n\r\nIf you disable or do not configure this policy setting, your computer cannot service NTP requests from other computers.\r\n\r\n\r\n ",
     "helpText": "",
     "occurrence": {
       "minDeviceOccurrence": 1,
       "maxDeviceOccurrence": 1
     },
-    "categoryId": "b5006d56-dc0b-4a07-95ee-d6d6e3000f9f",
-    "visibility": "settingsCatalog,template",
-    "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Enable Windows NTP Client",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting specifies whether the Windows NTP Client is enabled.\r\n\r\nEnabling the Windows NTP Client allows your computer to synchronize its computer clock with other NTP servers. You might want to disable this service if you decide to use a third-party time provider.\r\n\r\nIf you enable this policy setting, you can set the local computer clock to synchronize time with NTP servers.\r\n\r\nIf you disable or do not configure this policy setting, the local computer clock does not synchronize time with NTP servers.\r\n      \r\n ",
-    "offsetUri": "/Config/ADMX_W32Time/W32TIME_POLICY_ENABLE_NTPCLIENT",
-    "version": "639161298837633273",
-    "accessTypes": "none",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-w32time#admx-w32time-w32time-policy-enable-ntpclient"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpclient_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpclient_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "W32TIME_POLICY_ENABLE_NTPCLIENT"
-  },
-  {
-    "id": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpserver",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpserver_0",
     "keywords": [
       "W32TIME_POLICY_ENABLE_NTPSERVER",
       "Enable Windows NTP Server",
@@ -3829,13 +3831,57 @@ If you disable or do not configure this policy setting, your computer cannot ser
       "Software\\Policies\\Microsoft\\W32Time\\TimeProviders\\NtpServer",
       "Enabled"
     ],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-w32time#admx-w32time-w32time-policy-enable-ntpserver"
+    ],
+    "id": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpserver",
+    "version": "639161298837633273",
+    "categoryId": "b5006d56-dc0b-4a07-95ee-d6d6e3000f9f",
     "rootDefinitionId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpserver",
+    "offsetUri": "/Config/ADMX_W32Time/W32TIME_POLICY_ENABLE_NTPSERVER",
+    "visibility": "settingsCatalog,template",
+    "uxBehavior": "toggle",
+    "riskLevel": "low",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "name": "W32TIME_POLICY_ENABLE_NTPSERVER",
+    "referredSettingInformationList": [],
+    "options": [
+      {
+        "optionValue": {
+          "value": 0,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Disabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpserver_0",
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "dependentOn": []
+      },
+      {
+        "optionValue": {
+          "value": 1,
+          "settingValueTemplateReference": null,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "helpText": null,
+        "displayName": "Enabled",
+        "description": null,
+        "itemId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpserver_1",
+        "dependedOnBy": [],
+        "name": "Enabled",
+        "dependentOn": []
+      }
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpserver_0",
+    "accessTypes": "none",
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "deviceMode": "none",
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "platform": "windows10",
+      "requiresAzureAd": false,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3847,62 +3893,16 @@ If you disable or do not configure this policy setting, your computer cannot ser
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "requiresAzureAd": false,
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none",
       "description": null,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "10.0",
-      "maximumSupportedVersion": null
+      "configurationServiceProviderVersion": "10.0"
     },
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "categoryId": "b5006d56-dc0b-4a07-95ee-d6d6e3000f9f",
-    "visibility": "settingsCatalog,template",
     "settingUsage": "configuration",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "displayName": "Enable Windows NTP Server",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "description": "This policy setting allows you to specify whether the Windows NTP Server is enabled.\r\n\r\nIf you enable this policy setting for the Windows NTP Server, your computer can service NTP requests from other computers.\r\n\r\n\r\nIf you disable or do not configure this policy setting, your computer cannot service NTP requests from other computers.\r\n\r\n\r\n ",
-    "offsetUri": "/Config/ADMX_W32Time/W32TIME_POLICY_ENABLE_NTPSERVER",
-    "version": "639161298837633273",
-    "accessTypes": "none",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-admx-w32time#admx-w32time-w32time-policy-enable-ntpserver"
-    ],
-    "options": [
-      {
-        "displayName": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpserver_0",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Disabled",
-        "helpText": null
-      },
-      {
-        "displayName": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_admx_w32time_w32time_policy_enable_ntpserver_1",
-        "description": null,
-        "dependentOn": [],
-        "dependedOnBy": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "name": "Enabled",
-        "helpText": null
-      }
-    ],
-    "name": "W32TIME_POLICY_ENABLE_NTPSERVER"
+    "displayName": "Enable Windows NTP Server"
   }
 ]
 ```

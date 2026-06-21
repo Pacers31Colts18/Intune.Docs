@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/ALL_MAC_D_Compliance_SystemSecurity_DEV.md)
 
-**Report Generated:** 06/20/2026 07:05:35
+**Report Generated:** 06/21/2026 08:05:40
 
 ---
 
@@ -41,10 +41,10 @@
 ```json
 {
   "SyncRoot": {
-    "gracePeriodHours": 0,
     "actionType": "block",
-    "notificationMessageCCList": [],
     "notificationTemplateId": "00000000-0000-0000-0000-000000000000",
+    "notificationMessageCCList": [],
+    "gracePeriodHours": 0,
     "id": "10914201-b449-4e58-b1c0-05141ff622bf"
   }
 }

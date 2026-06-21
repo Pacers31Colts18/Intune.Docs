@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 06/20/2026 07:05:34
+**Report Generated:** 06/21/2026 08:05:40
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "runAsAccount": "system",
-  "deviceHealthScriptType": "deviceHealthScript",
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
-  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
-  "description": "ExtensionAttribute2: Organizational Unit of device",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "remediationScriptParameters": [],
-  "remediationScriptContent": "",
   "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "publisher": " Joe Loveless",
+  "remediationScriptContent": "",
+  "isGlobalScript": false,
   "enforceSignatureCheck": false,
-  "version": "3",
+  "publisher": " Joe Loveless",
   "roleScopeTagIds": [
     "0"
   ],
+  "version": "3",
+  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
+  "deviceHealthScriptType": "deviceHealthScript",
+  "runAsAccount": "system",
+  "remediationScriptParameters": [],
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "description": "ExtensionAttribute2: Organizational Unit of device",
   "highestAvailableVersion": null,
-  "isGlobalScript": false,
+  "runAs32Bit": true,
   "detectionScriptParameters": [],
-  "runAs32Bit": true
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z"
 }
 ```
 

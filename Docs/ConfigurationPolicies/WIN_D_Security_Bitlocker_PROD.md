@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/WIN_D_Security_Bitlocker_PROD.md)
 
-**Report Generated:** 06/21/2026 08:05:38
+**Report Generated:** 06/22/2026 09:16:38
 
 ---
 
@@ -34,26 +34,26 @@ If you disable this policy setting, users cannot use BitLocker on removable disk
 
 ```json
 {
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
-  "helpText": null,
-  "displayName": "Enabled",
-  "description": null,
-  "itemId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_1",
   "dependedOnBy": [
     {
-      "required": true,
-      "dependedOnBy": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name"
+      "dependedOnBy": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name",
+      "required": true
     },
     {
-      "required": true,
-      "dependedOnBy": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name"
+      "dependedOnBy": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name",
+      "required": true
     }
   ],
   "name": "Enabled",
+  "helpText": null,
+  "optionValue": {
+    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null
+  },
+  "displayName": "Enabled",
+  "itemId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_1",
+  "description": null,
   "dependentOn": []
 }
 ```
@@ -61,36 +61,36 @@ If you disable this policy setting, users cannot use BitLocker on removable disk
 #### device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name
 ```json
 {
-  "settingInstanceTemplateReference": null,
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
   "choiceSettingValue": {
-    "children": [],
-    "value": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name_1",
     "settingValueTemplateReference": {
-      "useTemplateDefault": false,
-      "settingValueTemplateId": "3a3ef51b-01c4-4f3b-9e63-5e41d351428b"
-    }
-  }
+      "settingValueTemplateId": "3a3ef51b-01c4-4f3b-9e63-5e41d351428b",
+      "useTemplateDefault": false
+    },
+    "value": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name_1",
+    "children": []
+  },
+  "auditRuleInformation": null
 }
 ```
 
 #### device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name
 ```json
 {
-  "settingInstanceTemplateReference": null,
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
   "choiceSettingValue": {
-    "children": [],
-    "value": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name_1",
     "settingValueTemplateReference": {
-      "useTemplateDefault": false,
-      "settingValueTemplateId": "3a3ef51b-01c4-4f3b-9e63-5e41d351428b"
-    }
-  }
+      "settingValueTemplateId": "3a3ef51b-01c4-4f3b-9e63-5e41d351428b",
+      "useTemplateDefault": false
+    },
+    "value": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name_1",
+    "children": []
+  },
+  "auditRuleInformation": null
 }
 ```
 
@@ -111,17 +111,17 @@ If you disable this policy setting, users cannot use BitLocker on removable disk
 
 ```json
 {
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
-  "helpText": null,
-  "displayName": "Enabled",
-  "description": null,
-  "itemId": "device_vendor_msft_bitlocker_requiredeviceencryption_1",
   "dependedOnBy": [],
   "name": "Enabled",
+  "helpText": null,
+  "optionValue": {
+    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null
+  },
+  "displayName": "Enabled",
+  "itemId": "device_vendor_msft_bitlocker_requiredeviceencryption_1",
+  "description": null,
   "dependentOn": []
 }
 ```
@@ -148,17 +148,17 @@ If you disable this policy setting, users cannot use BitLocker on removable disk
 
 ```json
 {
-  "optionValue": {
-    "value": 2,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
-  "helpText": null,
-  "displayName": "Refresh on for both Entra ID-joined and hybrid-joined devices",
-  "description": "Refresh on for both Entra ID-joined and hybrid-joined devices",
-  "itemId": "device_vendor_msft_bitlocker_configurerecoverypasswordrotation_2",
   "dependedOnBy": [],
   "name": "Refresh on for both Entra ID-joined and hybrid-joined devices",
+  "helpText": null,
+  "optionValue": {
+    "value": 2,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null
+  },
+  "displayName": "Refresh on for both Entra ID-joined and hybrid-joined devices",
+  "itemId": "device_vendor_msft_bitlocker_configurerecoverypasswordrotation_2",
+  "description": "Refresh on for both Entra ID-joined and hybrid-joined devices",
   "dependentOn": []
 }
 ```
@@ -176,36 +176,36 @@ If you disable this policy setting, users cannot use BitLocker on removable disk
 #### device_vendor_msft_bitlocker_identificationfield_secidentificationfield
 ```json
 {
-  "settingInstanceTemplateReference": null,
-  "auditRuleInformation": null,
-  "simpleSettingValue": {
-    "value": "State_of_Minnesota",
-    "settingValueTemplateReference": {
-      "useTemplateDefault": false,
-      "settingValueTemplateId": "a6116a90-93c2-40e1-bea8-c7dd279f35c4"
-    },
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-  },
   "settingDefinitionId": "device_vendor_msft_bitlocker_identificationfield_secidentificationfield",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+  "simpleSettingValue": {
+    "settingValueTemplateReference": {
+      "settingValueTemplateId": "a6116a90-93c2-40e1-bea8-c7dd279f35c4",
+      "useTemplateDefault": false
+    },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+    "value": "State_of_Minnesota"
+  },
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null
 }
 ```
 
 #### device_vendor_msft_bitlocker_identificationfield_identificationfield
 ```json
 {
-  "settingInstanceTemplateReference": null,
-  "auditRuleInformation": null,
-  "simpleSettingValue": {
-    "value": "State_of_Minnesota",
-    "settingValueTemplateReference": {
-      "useTemplateDefault": false,
-      "settingValueTemplateId": "a6116a90-93c2-40e1-bea8-c7dd279f35c4"
-    },
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-  },
   "settingDefinitionId": "device_vendor_msft_bitlocker_identificationfield_identificationfield",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance"
+  "simpleSettingValue": {
+    "settingValueTemplateReference": {
+      "settingValueTemplateId": "a6116a90-93c2-40e1-bea8-c7dd279f35c4",
+      "useTemplateDefault": false
+    },
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+    "value": "State_of_Minnesota"
+  },
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+  "settingInstanceTemplateReference": null,
+  "auditRuleInformation": null
 }
 ```
 
@@ -237,38 +237,38 @@ Note: If you want to require the use of a startup PIN and a USB flash drive, you
 
 ```json
 {
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
-  "helpText": null,
-  "displayName": "Enabled",
-  "description": null,
-  "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
   "dependedOnBy": [
     {
-      "required": true,
-      "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name"
+      "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name",
+      "required": true
     },
     {
-      "required": true,
-      "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name"
+      "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name",
+      "required": true
     },
     {
-      "required": true,
-      "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name"
+      "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name",
+      "required": true
     },
     {
-      "required": true,
-      "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name"
+      "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name",
+      "required": true
     },
     {
-      "required": true,
-      "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name"
+      "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name",
+      "required": true
     }
   ],
   "name": "Enabled",
+  "helpText": null,
+  "optionValue": {
+    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null
+  },
+  "displayName": "Enabled",
+  "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+  "description": null,
   "dependentOn": []
 }
 ```
@@ -276,90 +276,90 @@ Note: If you want to require the use of a startup PIN and a USB flash drive, you
 #### device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name
 ```json
 {
-  "settingInstanceTemplateReference": null,
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
   "choiceSettingValue": {
-    "children": [],
-    "value": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name_0",
     "settingValueTemplateReference": {
-      "useTemplateDefault": false,
-      "settingValueTemplateId": "f742e25d-2f09-41f7-9556-6af75960f42b"
-    }
-  }
+      "settingValueTemplateId": "f742e25d-2f09-41f7-9556-6af75960f42b",
+      "useTemplateDefault": false
+    },
+    "value": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name_0",
+    "children": []
+  },
+  "auditRuleInformation": null
 }
 ```
 
 #### device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name
 ```json
 {
-  "settingInstanceTemplateReference": null,
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
   "choiceSettingValue": {
-    "children": [],
-    "value": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name_0",
     "settingValueTemplateReference": {
-      "useTemplateDefault": false,
-      "settingValueTemplateId": "f742e25d-2f09-41f7-9556-6af75960f42b"
-    }
-  }
+      "settingValueTemplateId": "f742e25d-2f09-41f7-9556-6af75960f42b",
+      "useTemplateDefault": false
+    },
+    "value": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name_0",
+    "children": []
+  },
+  "auditRuleInformation": null
 }
 ```
 
 #### device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name
 ```json
 {
-  "settingInstanceTemplateReference": null,
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
   "choiceSettingValue": {
-    "children": [],
-    "value": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name_0",
     "settingValueTemplateReference": {
-      "useTemplateDefault": false,
-      "settingValueTemplateId": "f742e25d-2f09-41f7-9556-6af75960f42b"
-    }
-  }
+      "settingValueTemplateId": "f742e25d-2f09-41f7-9556-6af75960f42b",
+      "useTemplateDefault": false
+    },
+    "value": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name_0",
+    "children": []
+  },
+  "auditRuleInformation": null
 }
 ```
 
 #### device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name
 ```json
 {
-  "settingInstanceTemplateReference": null,
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
   "choiceSettingValue": {
-    "children": [],
-    "value": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name_1",
     "settingValueTemplateReference": {
-      "useTemplateDefault": false,
-      "settingValueTemplateId": "f742e25d-2f09-41f7-9556-6af75960f42b"
-    }
-  }
+      "settingValueTemplateId": "f742e25d-2f09-41f7-9556-6af75960f42b",
+      "useTemplateDefault": false
+    },
+    "value": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name_1",
+    "children": []
+  },
+  "auditRuleInformation": null
 }
 ```
 
 #### device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name
 ```json
 {
-  "settingInstanceTemplateReference": null,
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
   "choiceSettingValue": {
-    "children": [],
-    "value": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name_0",
     "settingValueTemplateReference": {
-      "useTemplateDefault": false,
-      "settingValueTemplateId": "f742e25d-2f09-41f7-9556-6af75960f42b"
-    }
-  }
+      "settingValueTemplateId": "f742e25d-2f09-41f7-9556-6af75960f42b",
+      "useTemplateDefault": false
+    },
+    "value": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name_0",
+    "children": []
+  },
+  "auditRuleInformation": null
 }
 ```
 
@@ -392,22 +392,22 @@ If you disable or do not configure this policy setting, the BitLocker setup wiza
 
 ```json
 {
-  "optionValue": {
-    "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-  },
-  "helpText": null,
-  "displayName": "Enabled",
-  "description": null,
-  "itemId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_1",
   "dependedOnBy": [
     {
-      "required": true,
-      "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name"
+      "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name",
+      "required": true
     }
   ],
   "name": "Enabled",
+  "helpText": null,
+  "optionValue": {
+    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null
+  },
+  "displayName": "Enabled",
+  "itemId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_1",
+  "description": null,
   "dependentOn": []
 }
 ```
@@ -415,18 +415,18 @@ If you disable or do not configure this policy setting, the BitLocker setup wiza
 #### device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name
 ```json
 {
-  "settingInstanceTemplateReference": null,
-  "auditRuleInformation": null,
   "settingDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+  "settingInstanceTemplateReference": null,
   "choiceSettingValue": {
-    "children": [],
-    "value": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name_2",
     "settingValueTemplateReference": {
-      "useTemplateDefault": false,
-      "settingValueTemplateId": "bdc82022-1c59-49a3-ac69-50e329650297"
-    }
-  }
+      "settingValueTemplateId": "bdc82022-1c59-49a3-ac69-50e329650297",
+      "useTemplateDefault": false
+    },
+    "value": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name_2",
+    "children": []
+  },
+  "auditRuleInformation": null
 }
 ```
 
@@ -460,11 +460,36 @@ If you disable or do not configure this policy setting, the BitLocker setup wiza
 ```json
 [
   {
-    "description": "This policy setting controls the use of BitLocker on removable data drives. This policy setting is applied when you turn on BitLocker.\r\n\r\nWhen this policy setting is enabled you can select property settings that control how users can configure BitLocker. Choose \"Allow users to apply BitLocker protection on removable data drives\" to permit the user to run the BitLocker setup wizard on a removable data drive. Choose \"Allow users to suspend and decrypt BitLocker on removable data drives\" to permit the user to remove BitLocker Drive encryption from the drive or suspend the encryption while maintenance is performed. Consult the BitLocker Drive Encryption Deployment Guide on Microsoft TechNet for more information on suspending BitLocker protection.\r\n\r\nIf you do not configure this policy setting, users can use BitLocker on removable disk drives.\r\n\r\nIf you disable this policy setting, users cannot use BitLocker on removable disk drives.\r\n\r\n      \n ",
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_0",
+    "categoryId": "949a5b32-bbe6-40f6-9d73-99cf9fafe75f",
+    "offsetUri": "/RemovableDrivesConfigureBDE",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
     "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/BitLocker-csp/"
+    ],
+    "accessTypes": "none",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
     "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
     },
     "keywords": [
       "RDVConfigureBDE",
@@ -473,266 +498,84 @@ If you disable or do not configure this policy setting, the BitLocker setup wiza
       "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Removable Data Drives",
       "Removable Data Drives"
     ],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/BitLocker-csp/"
-    ],
-    "id": "device_vendor_msft_bitlocker_removabledrivesconfigurebde",
-    "version": "639161298837633273",
-    "categoryId": "949a5b32-bbe6-40f6-9d73-99cf9fafe75f",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde",
-    "offsetUri": "/RemovableDrivesConfigureBDE",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "RDVConfigureBDE",
-    "referredSettingInformationList": [],
+    "displayName": "Control use of BitLocker on removable drives",
     "options": [
       {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Disabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_0",
         "dependedOnBy": [],
         "name": "Disabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Disabled",
+        "itemId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_0",
+        "description": null,
         "dependentOn": []
       },
       {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Enabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_1",
         "dependedOnBy": [
           {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name"
+            "dependedOnBy": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name",
+            "required": true
           },
           {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name"
+            "dependedOnBy": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name",
+            "required": true
           }
         ],
         "name": "Enabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Enabled",
+        "itemId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_1",
+        "description": null,
         "dependentOn": []
       }
     ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_0",
-    "accessTypes": "none",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "5.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Control use of BitLocker on removable drives"
+    "description": "This policy setting controls the use of BitLocker on removable data drives. This policy setting is applied when you turn on BitLocker.\r\n\r\nWhen this policy setting is enabled you can select property settings that control how users can configure BitLocker. Choose \"Allow users to apply BitLocker protection on removable data drives\" to permit the user to run the BitLocker setup wizard on a removable data drive. Choose \"Allow users to suspend and decrypt BitLocker on removable data drives\" to permit the user to remove BitLocker Drive encryption from the drive or suspend the encryption while maintenance is performed. Consult the BitLocker Drive Encryption Deployment Guide on Microsoft TechNet for more information on suspending BitLocker protection.\r\n\r\nIf you do not configure this policy setting, users can use BitLocker on removable disk drives.\r\n\r\nIf you disable this policy setting, users cannot use BitLocker on removable disk drives.\r\n\r\n      \n ",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde",
+    "name": "RDVConfigureBDE",
+    "id": "device_vendor_msft_bitlocker_removabledrivesconfigurebde",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
   },
   {
-    "description": "This policy setting allows you to configure the encryption type used by BitLocker Drive Encryption. This policy setting is applied when you turn on BitLocker. Changing the encryption type has no effect if the drive is already encrypted or if encryption is in progress. Choose full encryption to require that the entire drive be encrypted when BitLocker is turned on. Choose used space only encryption to require that only the portion of the drive used to store data is encrypted when BitLocker is turned on.\r\n\r\nIf you enable this policy setting the encryption type that BitLocker will use to encrypt drives is defined by this policy and the encryption type option will not be presented in the BitLocker setup wizard.\r\n\r\nIf you disable or do not configure this policy setting, the BitLocker setup wizard will ask the user to select the encryption type before turning on BitLocker.\r\n\r\n      \n ",
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_0",
+    "categoryId": "949a5b32-bbe6-40f6-9d73-99cf9fafe75f",
+    "offsetUri": "/RemovableDrivesEncryptionType",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
     "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "RDVEncryptionType_Name",
-      "Enforce drive encryption type on removable data drives",
-      "\\Windows Components\\BitLocker Drive Encryption\\Removable Data Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Removable Data Drives",
-      "Removable Data Drives"
-    ],
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/BitLocker-csp/"
     ],
-    "id": "device_vendor_msft_bitlocker_removabledrivesencryptiontype",
-    "version": "639161298837633273",
-    "categoryId": "949a5b32-bbe6-40f6-9d73-99cf9fafe75f",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde",
-    "offsetUri": "/RemovableDrivesEncryptionType",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "RDVEncryptionType_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Disabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_0",
-        "dependedOnBy": [],
-        "name": "Disabled",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Enabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_1",
-        "dependedOnBy": [
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_rdvencryptiontypedropdown_name"
-          }
-        ],
-        "name": "Enabled",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_0",
     "accessTypes": "none",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.19041.1202",
       "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
+      "minimumSupportedVersion": "10.0.19041.1202",
       "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
       "description": null,
       "configurationServiceProviderVersion": "5.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Enforce drive encryption type on removable data drives"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "RDVConfigureBDE",
-      "Control use of BitLocker on removable drives",
-      "\\Windows Components\\BitLocker Drive Encryption\\Removable Data Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Removable Data Drives",
-      "Removable Data Drives"
-    ],
-    "infoUrls": [],
-    "id": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name",
-    "version": "639161298837633273",
-    "categoryId": "949a5b32-bbe6-40f6-9d73-99cf9fafe75f",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde",
-    "offsetUri": "/RemovableDrivesConfigureBDE",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "RDVAllowBDE_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "False",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name_0",
-        "dependedOnBy": [],
-        "name": "False",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "True",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name_1",
-        "dependedOnBy": [
-          {
-            "required": false,
-            "dependedOnBy": "device_vendor_msft_bitlocker_removabledrivesencryptiontype"
-          }
-        ],
-        "name": "True",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name_1",
-    "accessTypes": "none",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "5.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Allow users to apply BitLocker protection on removable data drives (Device)"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
     },
     "keywords": [
       "RDVEncryptionType_Name",
@@ -741,102 +584,88 @@ If you disable or do not configure this policy setting, the BitLocker setup wiza
       "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Removable Data Drives",
       "Removable Data Drives"
     ],
-    "infoUrls": [],
-    "id": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_rdvencryptiontypedropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "949a5b32-bbe6-40f6-9d73-99cf9fafe75f",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde",
-    "offsetUri": "/RemovableDrivesEncryptionType",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "RDVEncryptionTypeDropDown_Name",
-    "referredSettingInformationList": [],
+    "displayName": "Enforce drive encryption type on removable data drives",
     "options": [
       {
-        "optionValue": {
-          "value": "0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Allow user to choose (default)",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_rdvencryptiontypedropdown_name_0",
         "dependedOnBy": [],
-        "name": "Allow user to choose (default)",
+        "name": "Disabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Disabled",
+        "itemId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_0",
+        "description": null,
         "dependentOn": [
           {
-            "dependentOn": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype"
+            "dependentOn": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name"
           }
         ]
       },
       {
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Full encryption",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_rdvencryptiontypedropdown_name_1",
-        "dependedOnBy": [],
-        "name": "Full encryption",
-        "dependentOn": [
+        "dependedOnBy": [
           {
-            "dependentOn": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype"
+            "dependedOnBy": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_rdvencryptiontypedropdown_name",
+            "required": true
           }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
+        ],
+        "name": "Enabled",
         "helpText": null,
-        "displayName": "Used Space Only encryption",
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Enabled",
+        "itemId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_1",
         "description": null,
-        "itemId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_rdvencryptiontypedropdown_name_2",
-        "dependedOnBy": [],
-        "name": "Used Space Only encryption",
         "dependentOn": [
           {
-            "dependentOn": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype"
+            "dependentOn": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name"
           }
         ]
       }
     ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_rdvencryptiontypedropdown_name_0",
-    "accessTypes": "none",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "5.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Select the encryption type: (Device)"
+    "description": "This policy setting allows you to configure the encryption type used by BitLocker Drive Encryption. This policy setting is applied when you turn on BitLocker. Changing the encryption type has no effect if the drive is already encrypted or if encryption is in progress. Choose full encryption to require that the entire drive be encrypted when BitLocker is turned on. Choose used space only encryption to require that only the portion of the drive used to store data is encrypted when BitLocker is turned on.\r\n\r\nIf you enable this policy setting the encryption type that BitLocker will use to encrypt drives is defined by this policy and the encryption type option will not be presented in the BitLocker setup wizard.\r\n\r\nIf you disable or do not configure this policy setting, the BitLocker setup wizard will ask the user to select the encryption type before turning on BitLocker.\r\n\r\n      \n ",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde",
+    "name": "RDVEncryptionType_Name",
+    "id": "device_vendor_msft_bitlocker_removabledrivesencryptiontype",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
   },
   {
-    "description": "",
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name_1",
+    "categoryId": "949a5b32-bbe6-40f6-9d73-99cf9fafe75f",
+    "offsetUri": "/RemovableDrivesConfigureBDE",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
     "helpText": "",
+    "infoUrls": [],
+    "accessTypes": "none",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
     "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
     },
     "keywords": [
       "RDVConfigureBDE",
@@ -845,32 +674,20 @@ If you disable or do not configure this policy setting, the BitLocker setup wiza
       "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Removable Data Drives",
       "Removable Data Drives"
     ],
-    "infoUrls": [],
-    "id": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name",
-    "version": "639161298837633273",
-    "categoryId": "949a5b32-bbe6-40f6-9d73-99cf9fafe75f",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde",
-    "offsetUri": "/RemovableDrivesConfigureBDE",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "RDVDisableBDE_Name",
-    "referredSettingInformationList": [],
+    "displayName": "Allow users to apply BitLocker protection on removable data drives (Device)",
     "options": [
       {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "False",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name_0",
         "dependedOnBy": [],
         "name": "False",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "False",
+        "itemId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name_0",
+        "description": null,
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_1",
@@ -879,17 +696,22 @@ If you disable or do not configure this policy setting, the BitLocker setup wiza
         ]
       },
       {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_removabledrivesencryptiontype",
+            "required": false
+          }
+        ],
+        "name": "True",
+        "helpText": null,
         "optionValue": {
           "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
         },
-        "helpText": null,
         "displayName": "True",
+        "itemId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name_1",
         "description": null,
-        "itemId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name_1",
-        "dependedOnBy": [],
-        "name": "True",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_1",
@@ -898,86 +720,309 @@ If you disable or do not configure this policy setting, the BitLocker setup wiza
         ]
       }
     ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name_1",
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde",
+    "name": "RDVAllowBDE_Name",
+    "id": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvallowbde_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_rdvencryptiontypedropdown_name_0",
+    "categoryId": "949a5b32-bbe6-40f6-9d73-99cf9fafe75f",
+    "offsetUri": "/RemovableDrivesEncryptionType",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [],
     "accessTypes": "none",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.19041.1202",
       "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
+      "minimumSupportedVersion": "10.0.19041.1202",
       "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
       "description": null,
       "configurationServiceProviderVersion": "5.0"
     },
-    "settingUsage": "configuration",
-    "displayName": "Allow users to suspend and decrypt BitLocker protection on removable data drives (Device)"
+    "keywords": [
+      "RDVEncryptionType_Name",
+      "Enforce drive encryption type on removable data drives",
+      "\\Windows Components\\BitLocker Drive Encryption\\Removable Data Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Removable Data Drives",
+      "Removable Data Drives"
+    ],
+    "displayName": "Select the encryption type: (Device)",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Allow user to choose (default)",
+        "helpText": null,
+        "optionValue": {
+          "value": "0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Allow user to choose (default)",
+        "itemId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_rdvencryptiontypedropdown_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Full encryption",
+        "helpText": null,
+        "optionValue": {
+          "value": "1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Full encryption",
+        "itemId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_rdvencryptiontypedropdown_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Used Space Only encryption",
+        "helpText": null,
+        "optionValue": {
+          "value": "2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Used Space Only encryption",
+        "itemId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_rdvencryptiontypedropdown_name_2",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_removabledrivesencryptiontype"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde",
+    "name": "RDVEncryptionTypeDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_removabledrivesencryptiontype_rdvencryptiontypedropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
   },
   {
-    "description": "Allows the Admin to require encryption to be turned on using BitLocker\\Device Encryption.\n                         The format is integer.\n                         Sample value for this node to enable this policy:\n                         1\n\n                         Disabling the policy will not turn off the encryption on the system drive. But will stop prompting the user to turn it on.\n                         If you want to disable this policy use the following SyncML:\n                         101./Device/Vendor/MSFT/BitLocker/RequireDeviceEncryptionint0",
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name_1",
+    "categoryId": "949a5b32-bbe6-40f6-9d73-99cf9fafe75f",
+    "offsetUri": "/RemovableDrivesConfigureBDE",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
     "helpText": "",
+    "infoUrls": [],
+    "accessTypes": "none",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
     "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "keywords": [
+      "RDVConfigureBDE",
+      "Control use of BitLocker on removable drives",
+      "\\Windows Components\\BitLocker Drive Encryption\\Removable Data Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Removable Data Drives",
+      "Removable Data Drives"
+    ],
+    "displayName": "Allow users to suspend and decrypt BitLocker protection on removable data drives (Device)",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "False",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "False",
+        "itemId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "True",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "True",
+        "itemId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_removabledrivesconfigurebde",
+    "name": "RDVDisableBDE_Name",
+    "id": "device_vendor_msft_bitlocker_removabledrivesconfigurebde_rdvdisablebde_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_requiredeviceencryption_0",
+    "categoryId": "0a1347d2-90c0-407a-baa0-e4859260532a",
+    "offsetUri": "/RequireDeviceEncryption",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
     },
     "keywords": [
       "Require Device Encryption",
       "BitLocker"
     ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_requiredeviceencryption",
-    "version": "639161298837633273",
-    "categoryId": "0a1347d2-90c0-407a-baa0-e4859260532a",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_requiredeviceencryption",
-    "offsetUri": "/RequireDeviceEncryption",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "RequireDeviceEncryption",
-    "referredSettingInformationList": [],
+    "displayName": "Require Device Encryption",
     "options": [
       {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Disabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_requiredeviceencryption_0",
         "dependedOnBy": [],
         "name": "Disabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Disabled",
+        "itemId": "device_vendor_msft_bitlocker_requiredeviceencryption_0",
+        "description": null,
         "dependentOn": []
       },
       {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Enabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_requiredeviceencryption_1",
         "dependedOnBy": [],
         "name": "Enabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Enabled",
+        "itemId": "device_vendor_msft_bitlocker_requiredeviceencryption_1",
+        "description": null,
         "dependentOn": []
       }
     ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_requiredeviceencryption_0",
+    "description": "Allows the Admin to require encryption to be turned on using BitLocker\\Device Encryption.\n                         The format is integer.\n                         Sample value for this node to enable this policy:\n                         1\n\n                         Disabling the policy will not turn off the encryption on the system drive. But will stop prompting the user to turn it on.\n                         If you want to disable this policy use the following SyncML:\n                         101./Device/Vendor/MSFT/BitLocker/RequireDeviceEncryptionint0",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_requiredeviceencryption",
+    "name": "RequireDeviceEncryption",
+    "id": "device_vendor_msft_bitlocker_requiredeviceencryption",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_configurerecoverypasswordrotation_0",
+    "categoryId": "0a1347d2-90c0-407a-baa0-e4859260532a",
+    "offsetUri": "/ConfigureRecoveryPasswordRotation",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/BitLocker-csp/"
+    ],
     "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.18363",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -988,93 +1033,3610 @@ If you disable or do not configure this policy setting, the BitLocker setup wiza
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
       "maximumSupportedVersion": null,
-      "deviceMode": "none",
       "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Require Device Encryption"
-  },
-  {
-    "description": " Allows Admin to configure Numeric Recovery Password Rotation upon use for OS and fixed drives on Entra ID and Hybrid domain joined devices.\n                          When not configured, Rotation is turned on by default for Entra ID only and off on Hybrid. The Policy will be effective only when \n                          Active Directory back up for recovery password is configured to required.\n                          For OS drive: Turn on \"Do not enable Bitlocker until recovery information is stored to AD DS for operating system drives\"\n                          For Fixed drives: Turn on \"Do not enable Bitlocker until recovery information is stored to AD DS for fixed data drives\"\n                       \n                          Supported Values: 0 - Numeric Recovery Passwords rotation OFF.\n                                            1 - Numeric Recovery Passwords Rotation upon use ON for Entra ID joined devices. Default value\n                                            2 - Numeric Recovery Passwords Rotation upon use ON for both Entra ID and Hybrid devices\n                         \n                         If you want to disable this policy use the following SyncML:\n \n                         112./Device/Vendor/MSFT/BitLocker/ConfigureRecoveryPasswordRotationint0",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "configurationServiceProviderVersion": "5.0"
     },
     "keywords": [
       "Configure Recovery Password Rotation",
       "BitLocker"
     ],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/BitLocker-csp/"
-    ],
-    "id": "device_vendor_msft_bitlocker_configurerecoverypasswordrotation",
-    "version": "639161298837633273",
-    "categoryId": "0a1347d2-90c0-407a-baa0-e4859260532a",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_configurerecoverypasswordrotation",
-    "offsetUri": "/ConfigureRecoveryPasswordRotation",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "ConfigureRecoveryPasswordRotation",
-    "referredSettingInformationList": [],
+    "displayName": "Configure Recovery Password Rotation",
     "options": [
       {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Refresh off (default)",
-        "description": "Refresh off (default)",
-        "itemId": "device_vendor_msft_bitlocker_configurerecoverypasswordrotation_0",
         "dependedOnBy": [],
         "name": "Refresh off (default)",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Refresh off (default)",
+        "itemId": "device_vendor_msft_bitlocker_configurerecoverypasswordrotation_0",
+        "description": "Refresh off (default)",
         "dependentOn": []
       },
       {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Refresh on for Entra ID-joined devices",
-        "description": "Refresh on for Entra ID-joined devices",
-        "itemId": "device_vendor_msft_bitlocker_configurerecoverypasswordrotation_1",
         "dependedOnBy": [],
         "name": "Refresh on for Entra ID-joined devices",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Refresh on for Entra ID-joined devices",
+        "itemId": "device_vendor_msft_bitlocker_configurerecoverypasswordrotation_1",
+        "description": "Refresh on for Entra ID-joined devices",
         "dependentOn": []
       },
       {
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Refresh on for both Entra ID-joined and hybrid-joined devices",
-        "description": "Refresh on for both Entra ID-joined and hybrid-joined devices",
-        "itemId": "device_vendor_msft_bitlocker_configurerecoverypasswordrotation_2",
         "dependedOnBy": [],
         "name": "Refresh on for both Entra ID-joined and hybrid-joined devices",
+        "helpText": null,
+        "optionValue": {
+          "value": 2,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Refresh on for both Entra ID-joined and hybrid-joined devices",
+        "itemId": "device_vendor_msft_bitlocker_configurerecoverypasswordrotation_2",
+        "description": "Refresh on for both Entra ID-joined and hybrid-joined devices",
         "dependentOn": []
       }
     ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_configurerecoverypasswordrotation_0",
+    "description": " Allows Admin to configure Numeric Recovery Password Rotation upon use for OS and fixed drives on Entra ID and Hybrid domain joined devices.\n                          When not configured, Rotation is turned on by default for Entra ID only and off on Hybrid. The Policy will be effective only when \n                          Active Directory back up for recovery password is configured to required.\n                          For OS drive: Turn on \"Do not enable Bitlocker until recovery information is stored to AD DS for operating system drives\"\n                          For Fixed drives: Turn on \"Do not enable Bitlocker until recovery information is stored to AD DS for fixed data drives\"\n                       \n                          Supported Values: 0 - Numeric Recovery Passwords rotation OFF.\n                                            1 - Numeric Recovery Passwords Rotation upon use ON for Entra ID joined devices. Default value\n                                            2 - Numeric Recovery Passwords Rotation upon use ON for both Entra ID and Hybrid devices\n                         \n                         If you want to disable this policy use the following SyncML:\n \n                         112./Device/Vendor/MSFT/BitLocker/ConfigureRecoveryPasswordRotationint0",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_configurerecoverypasswordrotation",
+    "name": "ConfigureRecoveryPasswordRotation",
+    "id": "device_vendor_msft_bitlocker_configurerecoverypasswordrotation",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsosdropdown_name_6",
+    "categoryId": "0101d1d0-1e54-47b0-a749-62c6bd7ab3da",
+    "offsetUri": "/EncryptionMethodByDriveType",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp#encryptionmethodbydrivetype"
+    ],
     "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "EncryptionMethodWithXts_Name",
+      "Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later)",
+      "\\Windows Components\\BitLocker Drive Encryption",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption",
+      "BitLocker Drive Encryption"
+    ],
+    "displayName": "Select the encryption method for operating system drives:",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "AES-CBC 128-bit",
+        "helpText": null,
+        "optionValue": {
+          "value": "3",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "AES-CBC 128-bit",
+        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsosdropdown_name_3",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "AES-CBC 256-bit",
+        "helpText": null,
+        "optionValue": {
+          "value": "4",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "AES-CBC 256-bit",
+        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsosdropdown_name_4",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "XTS-AES 128-bit (default)",
+        "helpText": null,
+        "optionValue": {
+          "value": "6",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "XTS-AES 128-bit (default)",
+        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsosdropdown_name_6",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "XTS-AES 256-bit",
+        "helpText": null,
+        "optionValue": {
+          "value": "7",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "XTS-AES 256-bit",
+        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsosdropdown_name_7",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype",
+    "name": "EncryptionMethodWithXtsOsDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsosdropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsfdvdropdown_name_6",
+    "categoryId": "0101d1d0-1e54-47b0-a749-62c6bd7ab3da",
+    "offsetUri": "/EncryptionMethodByDriveType",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp#encryptionmethodbydrivetype"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "EncryptionMethodWithXts_Name",
+      "Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later)",
+      "\\Windows Components\\BitLocker Drive Encryption",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption",
+      "BitLocker Drive Encryption"
+    ],
+    "displayName": "Select the encryption method for fixed data drives:",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "AES-CBC 128-bit",
+        "helpText": null,
+        "optionValue": {
+          "value": "3",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "AES-CBC 128-bit",
+        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsfdvdropdown_name_3",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "AES-CBC 256-bit",
+        "helpText": null,
+        "optionValue": {
+          "value": "4",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "AES-CBC 256-bit",
+        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsfdvdropdown_name_4",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "XTS-AES 128-bit (default)",
+        "helpText": null,
+        "optionValue": {
+          "value": "6",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "XTS-AES 128-bit (default)",
+        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsfdvdropdown_name_6",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "XTS-AES 256-bit",
+        "helpText": null,
+        "optionValue": {
+          "value": "7",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "XTS-AES 256-bit",
+        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsfdvdropdown_name_7",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype",
+    "name": "EncryptionMethodWithXtsFdvDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsfdvdropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_0",
+    "categoryId": "0101d1d0-1e54-47b0-a749-62c6bd7ab3da",
+    "offsetUri": "/EncryptionMethodByDriveType",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp#encryptionmethodbydrivetype"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "EncryptionMethodWithXts_Name",
+      "Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later)",
+      "\\Windows Components\\BitLocker Drive Encryption",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption",
+      "BitLocker Drive Encryption"
+    ],
+    "displayName": "Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later)",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Disabled",
+        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_0",
+        "description": null,
+        "dependentOn": []
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsosdropdown_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsfdvdropdown_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsrdvdropdown_name",
+            "required": true
+          }
+        ],
+        "name": "Enabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Enabled",
+        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
+        "description": null,
+        "dependentOn": []
+      }
+    ],
+    "description": "This policy setting allows you to configure the algorithm and cipher strength used by BitLocker Drive Encryption. This policy setting is applied when you turn on BitLocker. Changing the encryption method has no effect if the drive is already encrypted, or if encryption is in progress.\r\n\r\nIf you enable this policy setting you will be able to configure an encryption algorithm and key cipher strength for fixed data drives, operating system drives, and removable data drives individually. For fixed and operating system drives, we recommend that you use the XTS-AES algorithm. For removable drives, you should use AES-CBC 128-bit or AES-CBC 256-bit if the drive will be used in other devices that are not running Windows 10 (Version 1511).\r\n\r\nIf you disable or do not configure this policy setting, BitLocker will use AES with the same bit strength (128-bit or 256-bit) as the \"Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7)\" and \"Choose drive encryption method and cipher strength\" policy settings (in that order), if they are set. If none of the policies are set, BitLocker will use the default encryption method of XTS-AES 128-bit or the encryption method specified by the setup script.”\r\n\r\n      ",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype",
+    "name": "EncryptionMethodWithXts_Name",
+    "id": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsrdvdropdown_name_3",
+    "categoryId": "0101d1d0-1e54-47b0-a749-62c6bd7ab3da",
+    "offsetUri": "/EncryptionMethodByDriveType",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp#encryptionmethodbydrivetype"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "EncryptionMethodWithXts_Name",
+      "Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later)",
+      "\\Windows Components\\BitLocker Drive Encryption",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption",
+      "BitLocker Drive Encryption"
+    ],
+    "displayName": "Select the encryption method for removable data drives:",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "AES-CBC 128-bit  (default)",
+        "helpText": null,
+        "optionValue": {
+          "value": "3",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "AES-CBC 128-bit  (default)",
+        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsrdvdropdown_name_3",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "AES-CBC 256-bit",
+        "helpText": null,
+        "optionValue": {
+          "value": "4",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "AES-CBC 256-bit",
+        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsrdvdropdown_name_4",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "XTS-AES 128-bit",
+        "helpText": null,
+        "optionValue": {
+          "value": "6",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "XTS-AES 128-bit",
+        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsrdvdropdown_name_6",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "XTS-AES 256-bit",
+        "helpText": null,
+        "optionValue": {
+          "value": "7",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "XTS-AES 256-bit",
+        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsrdvdropdown_name_7",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype",
+    "name": "EncryptionMethodWithXtsRdvDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsrdvdropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "dependedOnBy": [],
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "categoryId": "0101d1d0-1e54-47b0-a749-62c6bd7ab3da",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_bitlocker_identificationfield_1",
+        "parentSettingId": "device_vendor_msft_bitlocker_identificationfield"
+      }
+    ],
+    "offsetUri": "/IdentificationField",
+    "valueDefinition": {
+      "fileTypes": [],
+      "format": "none",
+      "minimumLength": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+      "maximumLength": 260,
+      "isSecret": false,
+      "inputValidationSchema": null
+    },
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [],
+    "accessTypes": "none",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "keywords": [
+      "IdentificationField_Name",
+      "Provide the unique identifiers for your organization",
+      "\\Windows Components\\BitLocker Drive Encryption",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption",
+      "BitLocker Drive Encryption"
+    ],
+    "displayName": "BitLocker identification field: (Device)",
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_identificationfield",
+    "defaultValue": {
+      "value": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "settingValueTemplateReference": null
+    },
+    "name": "IdentificationField",
+    "id": "device_vendor_msft_bitlocker_identificationfield_identificationfield",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_identificationfield_0",
+    "categoryId": "0101d1d0-1e54-47b0-a749-62c6bd7ab3da",
+    "offsetUri": "/IdentificationField",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/BitLocker-csp/"
+    ],
+    "accessTypes": "none",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "keywords": [
+      "IdentificationField_Name",
+      "Provide the unique identifiers for your organization",
+      "\\Windows Components\\BitLocker Drive Encryption",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption",
+      "BitLocker Drive Encryption"
+    ],
+    "displayName": "Provide the unique identifiers for your organization",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Disabled",
+        "itemId": "device_vendor_msft_bitlocker_identificationfield_0",
+        "description": null,
+        "dependentOn": []
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_identificationfield_identificationfield",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_identificationfield_secidentificationfield",
+            "required": true
+          }
+        ],
+        "name": "Enabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Enabled",
+        "itemId": "device_vendor_msft_bitlocker_identificationfield_1",
+        "description": null,
+        "dependentOn": []
+      }
+    ],
+    "description": "This policy setting allows you to associate unique organizational identifiers to a new drive that is enabled with BitLocker. These identifiers are stored as the identification field and allowed identification field. The identification field allows you to associate a unique organizational identifier to BitLocker-protected drives. This identifier is automatically added to new BitLocker-protected drives and can be updated on existing BitLocker-protected drives using the manage-bde command-line tool. An identification field is required for management of certificate-based data recovery agents on BitLocker-protected drives and for potential updates to the BitLocker To Go Reader. BitLocker will only manage and update data recovery agents when the identification field on the drive matches the value configured in the identification field. In a similar manner, BitLocker will only update the BitLocker To Go Reader when the identification field on the drive matches the value configured for the identification field.\r\n\r\nThe allowed identification field is used in combination with the \"Deny write access to removable drives not protected by BitLocker\" policy setting to help control the use of removable drives in your organization. It is a comma separated list of identification fields from your organization or other external organizations.\r\n\r\nYou can configure the identification fields on existing drives by using manage-bde.exe.\r\n\r\nIf you enable this policy setting, you can configure the identification field on the BitLocker-protected drive and any allowed identification field used by your organization.\r\n\r\nWhen a BitLocker-protected drive is mounted on another BitLocker-enabled computer the identification field and allowed identification field will be used to determine whether the drive is from an outside organization.\r\n\r\nIf you disable or do not configure this policy setting, the identification field is not required.\r\n\r\nNote: Identification fields are required for management of certificate-based data recovery agents on BitLocker-protected drives. BitLocker will only manage and update certificate-based data recovery agents when the identification field is present on a drive and is identical to the value configured on the computer. The identification field can be any value of 260 characters or fewer.\r\n\r\n      \n ",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_identificationfield",
+    "name": "IdentificationField_Name",
+    "id": "device_vendor_msft_bitlocker_identificationfield",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "dependedOnBy": [],
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "categoryId": "0101d1d0-1e54-47b0-a749-62c6bd7ab3da",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_bitlocker_identificationfield_1",
+        "parentSettingId": "device_vendor_msft_bitlocker_identificationfield"
+      }
+    ],
+    "offsetUri": "/IdentificationField",
+    "valueDefinition": {
+      "fileTypes": [],
+      "format": "none",
+      "minimumLength": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+      "maximumLength": 260,
+      "isSecret": false,
+      "inputValidationSchema": null
+    },
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [],
+    "accessTypes": "none",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "keywords": [
+      "IdentificationField_Name",
+      "Provide the unique identifiers for your organization",
+      "\\Windows Components\\BitLocker Drive Encryption",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption",
+      "BitLocker Drive Encryption"
+    ],
+    "displayName": "Allowed BitLocker identification field: (Device)",
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_identificationfield",
+    "defaultValue": {
+      "value": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "settingValueTemplateReference": null
+    },
+    "name": "SecIdentificationField",
+    "id": "device_vendor_msft_bitlocker_identificationfield_secidentificationfield",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_osencryptiontypedropdown_name_0",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesEncryptionType",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [],
+    "accessTypes": "none",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "keywords": [
+      "OSEncryptionType_Name",
+      "Enforce drive encryption type on operating system drives",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Select the encryption type: (Device)",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Allow user to choose (default)",
+        "helpText": null,
+        "optionValue": {
+          "value": "0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Allow user to choose (default)",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_osencryptiontypedropdown_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Full encryption",
+        "helpText": null,
+        "optionValue": {
+          "value": "1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Full encryption",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_osencryptiontypedropdown_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Used Space Only encryption",
+        "helpText": null,
+        "optionValue": {
+          "value": "2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Used Space Only encryption",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_osencryptiontypedropdown_name_2",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype",
+    "name": "OSEncryptionTypeDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_osencryptiontypedropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_0",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesEncryptionType",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/BitLocker-csp/"
+    ],
+    "accessTypes": "none",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "keywords": [
+      "OSEncryptionType_Name",
+      "Enforce drive encryption type on operating system drives",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Enforce drive encryption type on operating system drives",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Disabled",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_0",
+        "description": null,
+        "dependentOn": []
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_osencryptiontypedropdown_name",
+            "required": true
+          }
+        ],
+        "name": "Enabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Enabled",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_1",
+        "description": null,
+        "dependentOn": []
+      }
+    ],
+    "description": "This policy setting allows you to configure the encryption type used by BitLocker Drive Encryption. This policy setting is applied when you turn on BitLocker. Changing the encryption type has no effect if the drive is already encrypted or if encryption is in progress. Choose full encryption to require that the entire drive be encrypted when BitLocker is turned on. Choose used space only encryption to require that only the portion of the drive used to store data is encrypted when BitLocker is turned on.\r\n\r\nIf you enable this policy setting the encryption type that BitLocker will use to encrypt drives is defined by this policy and the encryption type option will not be presented in the BitLocker setup wizard.\r\n\r\nIf you disable or do not configure this policy setting, the BitLocker setup wizard will ask the user to select the encryption type before turning on BitLocker.\r\n\r\n      \n ",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype",
+    "name": "OSEncryptionType_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesencryptiontype",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_0",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRequireStartupAuthentication",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "ConfigureAdvancedStartup_Name",
+      "Require additional authentication at startup",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Require additional authentication at startup",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Disabled",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_0",
+        "description": null,
+        "dependentOn": []
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name",
+            "required": true
+          }
+        ],
+        "name": "Enabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Enabled",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+        "description": null,
+        "dependentOn": []
+      }
+    ],
+    "description": "This policy setting allows you to configure whether BitLocker requires additional authentication each time the computer starts and whether you are using BitLocker with or without a Trusted Platform Module (TPM). This policy setting is applied when you turn on BitLocker.\r\n\r\nNote: Only one of the additional authentication options can be required at startup, otherwise a policy error occurs.\r\n\r\nIf you want to use BitLocker on a computer without a TPM, select the \"Allow BitLocker without a compatible TPM\" check box. In this mode either a password or a USB drive is required for start-up. When using a startup key, the key information used to encrypt the drive is stored on the USB drive, creating a USB key. When the USB key is inserted the access to the drive is authenticated and the drive is accessible. If the USB key is lost or unavailable or if you have forgotten the password then you will need to use one of the BitLocker recovery options to access the drive.\r\n\r\nOn a computer with a compatible TPM, four types of authentication methods can be used at startup to provide added protection for encrypted data. When the computer starts, it can use only the TPM for authentication, or it can also require insertion of a USB flash drive containing a startup key, the entry of a 6-digit to 20-digit personal identification number (PIN), or both.\r\n\r\nIf you enable this policy setting, users can configure advanced startup options in the BitLocker setup wizard.\r\n\r\nIf you disable or do not configure this policy setting, users can configure only basic options on computers with a TPM.\r\n\r\nNote: If you want to require the use of a startup PIN and a USB flash drive, you must configure BitLocker settings using the command-line tool manage-bde instead of the BitLocker Drive Encryption setup wizard.\r\n\r\n",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication",
+    "name": "ConfigureAdvancedStartup_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name_2",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRequireStartupAuthentication",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "ConfigureAdvancedStartup_Name",
+      "Require additional authentication at startup",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Configure TPM startup key:",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Allow startup key with TPM",
+        "helpText": null,
+        "optionValue": {
+          "value": "2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Allow startup key with TPM",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name_2",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Require startup key with TPM",
+        "helpText": null,
+        "optionValue": {
+          "value": "1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Require startup key with TPM",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Do not allow startup key with TPM",
+        "helpText": null,
+        "optionValue": {
+          "value": "0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Do not allow startup key with TPM",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication",
+    "name": "ConfigureTPMStartupKeyUsageDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name_2",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRequireStartupAuthentication",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "ConfigureAdvancedStartup_Name",
+      "Require additional authentication at startup",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Configure TPM startup key and PIN:",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Allow startup key and PIN with TPM",
+        "helpText": null,
+        "optionValue": {
+          "value": "2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Allow startup key and PIN with TPM",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name_2",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Require startup key and PIN with TPM",
+        "helpText": null,
+        "optionValue": {
+          "value": "1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Require startup key and PIN with TPM",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Do not allow startup key and PIN with TPM",
+        "helpText": null,
+        "optionValue": {
+          "value": "0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Do not allow startup key and PIN with TPM",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication",
+    "name": "ConfigureTPMPINKeyUsageDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name_1",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRequireStartupAuthentication",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "ConfigureAdvancedStartup_Name",
+      "Require additional authentication at startup",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Allow BitLocker without a compatible TPM (requires a password or a startup key on a USB flash drive)",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "False",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "False",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "True",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "True",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication",
+    "name": "ConfigureNonTPMStartupKeyUsage_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name_2",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRequireStartupAuthentication",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "ConfigureAdvancedStartup_Name",
+      "Require additional authentication at startup",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Configure TPM startup:",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Allow TPM",
+        "helpText": null,
+        "optionValue": {
+          "value": "2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Allow TPM",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name_2",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Require TPM",
+        "helpText": null,
+        "optionValue": {
+          "value": "1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Require TPM",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Do not allow TPM",
+        "helpText": null,
+        "optionValue": {
+          "value": "0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Do not allow TPM",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication",
+    "name": "ConfigureTPMUsageDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name_2",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRequireStartupAuthentication",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "ConfigureAdvancedStartup_Name",
+      "Require additional authentication at startup",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Configure TPM startup PIN:",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Allow startup PIN with TPM",
+        "helpText": null,
+        "optionValue": {
+          "value": "2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Allow startup PIN with TPM",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name_2",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Require startup PIN with TPM",
+        "helpText": null,
+        "optionValue": {
+          "value": "1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Require startup PIN with TPM",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Do not allow startup PIN with TPM",
+        "helpText": null,
+        "optionValue": {
+          "value": "0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Do not allow startup PIN with TPM",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication",
+    "name": "ConfigurePINUsageDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackup_name_1",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRecoveryOptions",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "OSRecoveryUsage_Name",
+      "Choose how BitLocker-protected operating system drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Save BitLocker recovery information to AD DS for operating system drives",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "False",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "False",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackup_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "True",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "True",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackup_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
+    "name": "OSActiveDirectoryBackup_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackup_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrequireactivedirectorybackup_name_0",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRecoveryOptions",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "OSRecoveryUsage_Name",
+      "Choose how BitLocker-protected operating system drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Do not enable BitLocker until recovery information is stored to AD DS for operating system drives",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "False",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "False",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrequireactivedirectorybackup_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "True",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "True",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrequireactivedirectorybackup_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
+    "name": "OSRequireActiveDirectoryBackup_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrequireactivedirectorybackup_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverypasswordusagedropdown_name_2",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRecoveryOptions",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "OSRecoveryUsage_Name",
+      "Choose how BitLocker-protected operating system drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "\r\nConfigure user storage of BitLocker recovery information:\r\n",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Allow 48-digit recovery password",
+        "helpText": null,
+        "optionValue": {
+          "value": "2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Allow 48-digit recovery password",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverypasswordusagedropdown_name_2",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Require 48-digit recovery password",
+        "helpText": null,
+        "optionValue": {
+          "value": "1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Require 48-digit recovery password",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverypasswordusagedropdown_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Do not allow 48-digit recovery password",
+        "helpText": null,
+        "optionValue": {
+          "value": "0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Do not allow 48-digit recovery password",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverypasswordusagedropdown_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
+    "name": "OSRecoveryPasswordUsageDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverypasswordusagedropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osallowdra_name_1",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRecoveryOptions",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "OSRecoveryUsage_Name",
+      "Choose how BitLocker-protected operating system drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Allow data recovery agent",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "False",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "False",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osallowdra_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "True",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "True",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osallowdra_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
+    "name": "OSAllowDRA_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osallowdra_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackupdropdown_name_1",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRecoveryOptions",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "OSRecoveryUsage_Name",
+      "Choose how BitLocker-protected operating system drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Configure storage of BitLocker recovery information to AD DS:",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Store recovery passwords and key packages",
+        "helpText": null,
+        "optionValue": {
+          "value": "1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Store recovery passwords and key packages",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackupdropdown_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Store recovery passwords only",
+        "helpText": null,
+        "optionValue": {
+          "value": "2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Store recovery passwords only",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackupdropdown_name_2",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
+    "name": "OSActiveDirectoryBackupDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackupdropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_0",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRecoveryOptions",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "OSRecoveryUsage_Name",
+      "Choose how BitLocker-protected operating system drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Choose how BitLocker-protected operating system drives can be recovered",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Disabled",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_0",
+        "description": null,
+        "dependentOn": []
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osallowdra_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverypasswordusagedropdown_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverykeyusagedropdown_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_oshiderecoverypage_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackup_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackupdropdown_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrequireactivedirectorybackup_name",
+            "required": true
+          }
+        ],
+        "name": "Enabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Enabled",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+        "description": null,
+        "dependentOn": []
+      }
+    ],
+    "description": "This policy setting allows you to control how BitLocker-protected operating system drives are recovered in the absence of the required startup key information. This policy setting is applied when you turn on BitLocker.\r\n\r\nThe \"Allow certificate-based data recovery agent\" check box is used to specify whether a data recovery agent can be used with BitLocker-protected operating system drives. Before a data recovery agent can be used it must be added from the Public Key Policies item in either the Group Policy Management Console or the Local Group Policy Editor. Consult the BitLocker Drive Encryption Deployment Guide on Microsoft TechNet for more information about adding data recovery agents.\r\n\r\nIn \"Configure user storage of BitLocker recovery information\" select whether users are allowed, required, or not allowed to generate a 48-digit recovery password or a 256-bit recovery key.\r\n\r\nSelect \"Omit recovery options from the BitLocker setup wizard\" to prevent users from specifying recovery options when they turn on BitLocker on a drive. This means that you will not be able to specify which recovery option to use when you turn on BitLocker, instead BitLocker recovery options for the drive are determined by the policy setting.\r\n\r\nIn \"Save BitLocker recovery information to Active Directory Domain Services\", choose which BitLocker recovery information to store in AD DS for operating system drives. If you select \"Backup recovery password and key package\", both the BitLocker recovery password and key package are stored in AD DS. Storing the key package supports recovering data from a drive that has been physically corrupted. If you select \"Backup recovery password only,\" only the recovery password is stored in AD DS.\r\n\r\nSelect the \"Do not enable BitLocker until recovery information is stored in AD DS for operating system drives\" check box if you want to prevent users from enabling BitLocker unless the computer is connected to the domain and the backup of BitLocker recovery information to AD DS succeeds.\r\n\r\nNote: If the \"Do not enable BitLocker until recovery information is stored in AD DS for operating system drives\" check box is selected, a recovery password is automatically generated.\r\n\r\nIf you enable this policy setting, you can control the methods available to users to recover data from BitLocker-protected operating system drives.\r\n\r\nIf this policy setting is disabled or not configured, the default recovery options are supported for BitLocker recovery. By default a DRA is allowed, the recovery options can be specified by the user including the recovery password and recovery key, and recovery information is not backed up to AD DS.\r\n\r\n",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
+    "name": "OSRecoveryUsage_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_oshiderecoverypage_name_0",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRecoveryOptions",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "OSRecoveryUsage_Name",
+      "Choose how BitLocker-protected operating system drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Omit recovery options from the BitLocker setup wizard",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "False",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "False",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_oshiderecoverypage_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "True",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "True",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_oshiderecoverypage_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
+    "name": "OSHideRecoveryPage_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_oshiderecoverypage_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverykeyusagedropdown_name_2",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRecoveryOptions",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "OSRecoveryUsage_Name",
+      "Choose how BitLocker-protected operating system drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Allow 256-bit recovery key",
+        "helpText": null,
+        "optionValue": {
+          "value": "2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Allow 256-bit recovery key",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverykeyusagedropdown_name_2",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Require 256-bit recovery key",
+        "helpText": null,
+        "optionValue": {
+          "value": "1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Require 256-bit recovery key",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverykeyusagedropdown_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Do not allow 256-bit recovery key",
+        "helpText": null,
+        "optionValue": {
+          "value": "0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Do not allow 256-bit recovery key",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverykeyusagedropdown_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
+    "name": "OSRecoveryKeyUsageDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverykeyusagedropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_prebootrecoveryinfodropdown_name_0",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRecoveryMessage",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "PrebootRecoveryInfo_Name",
+      "Configure pre-boot recovery message and URL",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Select an option for the pre-boot recovery message:",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "",
+        "helpText": null,
+        "optionValue": {
+          "value": "0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_prebootrecoveryinfodropdown_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Use default recovery message and URL",
+        "helpText": null,
+        "optionValue": {
+          "value": "1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Use default recovery message and URL",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_prebootrecoveryinfodropdown_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Use custom recovery message",
+        "helpText": null,
+        "optionValue": {
+          "value": "2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Use custom recovery message",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_prebootrecoveryinfodropdown_name_2",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Use custom recovery URL",
+        "helpText": null,
+        "optionValue": {
+          "value": "3",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Use custom recovery URL",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_prebootrecoveryinfodropdown_name_3",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage",
+    "name": "PrebootRecoveryInfoDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_prebootrecoveryinfodropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "dependedOnBy": [],
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_1",
+        "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage"
+      }
+    ],
+    "offsetUri": "/SystemDrivesRecoveryMessage",
+    "valueDefinition": {
+      "fileTypes": [],
+      "format": "none",
+      "minimumLength": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+      "maximumLength": 500,
+      "isSecret": false,
+      "inputValidationSchema": null
+    },
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "PrebootRecoveryInfo_Name",
+      "Configure pre-boot recovery message and URL",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Custom recovery URL option:",
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage",
+    "defaultValue": {
+      "value": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "settingValueTemplateReference": null
+    },
+    "name": "RecoveryUrl_Input",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_recoveryurl_input",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "dependedOnBy": [],
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_1",
+        "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage"
+      }
+    ],
+    "offsetUri": "/SystemDrivesRecoveryMessage",
+    "valueDefinition": {
+      "fileTypes": [],
+      "format": "none",
+      "minimumLength": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
+      "maximumLength": 900,
+      "isSecret": false,
+      "inputValidationSchema": null
+    },
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "PrebootRecoveryInfo_Name",
+      "Configure pre-boot recovery message and URL",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Custom recovery message option:",
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage",
+    "defaultValue": {
+      "value": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+      "settingValueTemplateReference": null
+    },
+    "name": "RecoveryMessage_Input",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_recoverymessage_input",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_0",
+    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
+    "offsetUri": "/SystemDrivesRecoveryMessage",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "PrebootRecoveryInfo_Name",
+      "Configure pre-boot recovery message and URL",
+      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
+      "Operating System Drives"
+    ],
+    "displayName": "Configure pre-boot recovery message and URL",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Disabled",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_0",
+        "description": null,
+        "dependentOn": []
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_prebootrecoveryinfodropdown_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_recoverymessage_input",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_recoveryurl_input",
+            "required": true
+          }
+        ],
+        "name": "Enabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Enabled",
+        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_1",
+        "description": null,
+        "dependentOn": []
+      }
+    ],
+    "description": "This policy setting lets you configure the entire recovery message or replace the existing URL that are displayed on the pre-boot key recovery screen when the OS drive is locked.\r\n\r\nIf you select the \"Use default recovery message and URL\" option, the default BitLocker recovery message and URL will be displayed in the pre-boot key recovery screen. If you have previously configured a custom recovery message or URL and want to revert to the default message, you must keep the policy enabled and select the \"Use default recovery message and URL\" option.\r\n\r\nIf you select the \"Use custom recovery message\" option, the message you type in the \"Custom recovery message option\" text box will be displayed in the pre-boot key recovery screen. If a recovery URL is available, include it in the message.\r\n\r\nIf you select the \"Use custom recovery URL\" option, the URL you type in the \"Custom recovery URL option\" text box will replace the default URL in the default recovery message, which will be displayed in the pre-boot key recovery screen.\r\n\r\nNote: Not all characters and languages are supported in pre-boot. It is strongly recommended that you test that the characters you use for the custom message or URL appear correctly on the pre-boot recovery screen.\r\n      ",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage",
+    "name": "PrebootRecoveryInfo_Name",
+    "id": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_0",
+    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
+    "offsetUri": "/FixedDrivesEncryptionType",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/BitLocker-csp/"
+    ],
+    "accessTypes": "none",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "keywords": [
+      "FDVEncryptionType_Name",
+      "Enforce drive encryption type on fixed data drives",
+      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Fixed Data Drives"
+    ],
+    "displayName": "Enforce drive encryption type on fixed data drives",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Disabled",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_0",
+        "description": null,
+        "dependentOn": []
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name",
+            "required": true
+          }
+        ],
+        "name": "Enabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Enabled",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_1",
+        "description": null,
+        "dependentOn": []
+      }
+    ],
+    "description": "This policy setting allows you to configure the encryption type used by BitLocker Drive Encryption. This policy setting is applied when you turn on BitLocker. Changing the encryption type has no effect if the drive is already encrypted or if encryption is in progress. Choose full encryption to require that the entire drive be encrypted when BitLocker is turned on. Choose used space only encryption to require that only the portion of the drive used to store data is encrypted when BitLocker is turned on.\r\n\r\nIf you enable this policy setting the encryption type that BitLocker will use to encrypt drives is defined by this policy and the encryption type option will not be presented in the BitLocker setup wizard.\r\n\r\nIf you disable or do not configure this policy setting, the BitLocker setup wizard will ask the user to select the encryption type before turning on BitLocker.\r\n\r\n      \n ",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype",
+    "name": "FDVEncryptionType_Name",
+    "id": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name_0",
+    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
+    "offsetUri": "/FixedDrivesEncryptionType",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [],
+    "accessTypes": "none",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 1
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.19041.1202",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "5.0"
+    },
+    "keywords": [
+      "FDVEncryptionType_Name",
+      "Enforce drive encryption type on fixed data drives",
+      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Fixed Data Drives"
+    ],
+    "displayName": "Select the encryption type: (Device)",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Allow user to choose (default)",
+        "helpText": null,
+        "optionValue": {
+          "value": "0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Allow user to choose (default)",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Full encryption",
+        "helpText": null,
+        "optionValue": {
+          "value": "1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Full encryption",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Used Space Only encryption",
+        "helpText": null,
+        "optionValue": {
+          "value": "2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Used Space Only encryption",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name_2",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype",
+    "name": "FDVEncryptionTypeDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvhiderecoverypage_name_0",
+    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
+    "offsetUri": "/FixedDrivesRecoveryOptions",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "FDVRecoveryUsage_Name",
+      "Choose how BitLocker-protected fixed drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Fixed Data Drives"
+    ],
+    "displayName": "Omit recovery options from the BitLocker setup wizard",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "False",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "False",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvhiderecoverypage_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "True",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "True",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvhiderecoverypage_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
+    "name": "FDVHideRecoveryPage_Name",
+    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvhiderecoverypage_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackup_name_1",
+    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
+    "offsetUri": "/FixedDrivesRecoveryOptions",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "FDVRecoveryUsage_Name",
+      "Choose how BitLocker-protected fixed drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Fixed Data Drives"
+    ],
+    "displayName": "Save BitLocker recovery information to AD DS for fixed data drives",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "False",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "False",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackup_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "True",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "True",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackup_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
+    "name": "FDVActiveDirectoryBackup_Name",
+    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackup_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverypasswordusagedropdown_name_2",
+    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
+    "offsetUri": "/FixedDrivesRecoveryOptions",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "FDVRecoveryUsage_Name",
+      "Choose how BitLocker-protected fixed drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Fixed Data Drives"
+    ],
+    "displayName": "\r\nConfigure user storage of BitLocker recovery information:\r\n",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Allow 48-digit recovery password",
+        "helpText": null,
+        "optionValue": {
+          "value": "2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Allow 48-digit recovery password",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverypasswordusagedropdown_name_2",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Require 48-digit recovery password",
+        "helpText": null,
+        "optionValue": {
+          "value": "1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Require 48-digit recovery password",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverypasswordusagedropdown_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Do not allow 48-digit recovery password",
+        "helpText": null,
+        "optionValue": {
+          "value": "0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Do not allow 48-digit recovery password",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverypasswordusagedropdown_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
+    "name": "FDVRecoveryPasswordUsageDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverypasswordusagedropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_0",
+    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
+    "offsetUri": "/FixedDrivesRecoveryOptions",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "FDVRecoveryUsage_Name",
+      "Choose how BitLocker-protected fixed drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Fixed Data Drives"
+    ],
+    "displayName": "Choose how BitLocker-protected fixed drives can be recovered",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Disabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Disabled",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_0",
+        "description": null,
+        "dependentOn": []
+      },
+      {
+        "dependedOnBy": [
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvallowdra_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverypasswordusagedropdown_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverykeyusagedropdown_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvhiderecoverypage_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackup_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackupdropdown_name",
+            "required": true
+          },
+          {
+            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrequireactivedirectorybackup_name",
+            "required": true
+          }
+        ],
+        "name": "Enabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Enabled",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+        "description": null,
+        "dependentOn": []
+      }
+    ],
+    "description": "This policy setting allows you to control how BitLocker-protected fixed data drives are recovered in the absence of the required credentials. This policy setting is applied when you turn on BitLocker.\r\n\r\nThe \"Allow data recovery agent\" check box is used to specify whether a data recovery agent can be used with BitLocker-protected fixed data drives. Before a data recovery agent can be used it must be added from the Public Key Policies item in either the Group Policy Management Console or the Local Group Policy Editor. Consult the BitLocker Drive Encryption Deployment Guide on Microsoft TechNet for more information about adding data recovery agents.\r\n\r\nIn \"Configure user storage of BitLocker recovery information\" select whether users are allowed, required, or not allowed to generate a 48-digit recovery password or a 256-bit recovery key.\r\n\r\nSelect \"Omit recovery options from the BitLocker setup wizard\" to prevent users from specifying recovery options when they turn on BitLocker on a drive. This means that you will not be able to specify which recovery option to use when you turn on BitLocker, instead BitLocker recovery options for the drive are determined by the policy setting.\r\n\r\nIn \"Save BitLocker recovery information to Active Directory Domain Services\" choose which BitLocker recovery information to store in AD DS for fixed data drives. If you select \"Backup recovery password and key package\", both the BitLocker recovery password and key package are stored in AD DS. Storing the key package supports recovering data from a drive that has been physically corrupted. If you select \"Backup recovery password only,\" only the recovery password is stored in AD DS.\r\n\r\nSelect the \"Do not enable BitLocker until recovery information is stored in AD DS for fixed data drives\" check box if you want to prevent users from enabling BitLocker unless the computer is connected to the domain and the backup of BitLocker recovery information to AD DS succeeds.\r\n\r\nNote: If the \"Do not enable BitLocker until recovery information is stored in AD DS for fixed data drives\" check box is selected, a recovery password is automatically generated.\r\n\r\nIf you enable this policy setting, you can control the methods available to users to recover data from BitLocker-protected fixed data drives.\r\n\r\nIf this policy setting is not configured or disabled, the default recovery options are supported for BitLocker recovery. By default a DRA is allowed, the recovery options can be specified by the user including the recovery password and recovery key, and recovery information is not backed up to AD DS\r\n\r\n",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
+    "name": "FDVRecoveryUsage_Name",
+    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrequireactivedirectorybackup_name_0",
+    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
+    "offsetUri": "/FixedDrivesRecoveryOptions",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "FDVRecoveryUsage_Name",
+      "Choose how BitLocker-protected fixed drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Fixed Data Drives"
+    ],
+    "displayName": "Do not enable BitLocker until recovery information is stored to AD DS for fixed data drives",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "False",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "False",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrequireactivedirectorybackup_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "True",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "True",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrequireactivedirectorybackup_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
+    "name": "FDVRequireActiveDirectoryBackup_Name",
+    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrequireactivedirectorybackup_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvallowdra_name_1",
+    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
+    "offsetUri": "/FixedDrivesRecoveryOptions",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "FDVRecoveryUsage_Name",
+      "Choose how BitLocker-protected fixed drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Fixed Data Drives"
+    ],
+    "displayName": "Allow data recovery agent",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "False",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "False",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvallowdra_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "True",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "True",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvallowdra_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
+    "name": "FDVAllowDRA_Name",
+    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvallowdra_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackupdropdown_name_1",
+    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
+    "offsetUri": "/FixedDrivesRecoveryOptions",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "FDVRecoveryUsage_Name",
+      "Choose how BitLocker-protected fixed drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Fixed Data Drives"
+    ],
+    "displayName": "Configure storage of BitLocker recovery information to AD DS:",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Backup recovery passwords and key packages",
+        "helpText": null,
+        "optionValue": {
+          "value": "1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Backup recovery passwords and key packages",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackupdropdown_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Backup recovery passwords only",
+        "helpText": null,
+        "optionValue": {
+          "value": "2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Backup recovery passwords only",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackupdropdown_name_2",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
+    "name": "FDVActiveDirectoryBackupDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackupdropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverykeyusagedropdown_name_2",
+    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
+    "offsetUri": "/FixedDrivesRecoveryOptions",
+    "uxBehavior": "default",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
+      "windowsSkus": [],
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "maximumSupportedVersion": null,
+      "description": null,
+      "configurationServiceProviderVersion": "1.0"
+    },
+    "keywords": [
+      "FDVRecoveryUsage_Name",
+      "Choose how BitLocker-protected fixed drives can be recovered",
+      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
+      "Fixed Data Drives"
+    ],
+    "displayName": "",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "name": "Allow 256-bit recovery key",
+        "helpText": null,
+        "optionValue": {
+          "value": "2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Allow 256-bit recovery key",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverykeyusagedropdown_name_2",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Require 256-bit recovery key",
+        "helpText": null,
+        "optionValue": {
+          "value": "1",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Require 256-bit recovery key",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverykeyusagedropdown_name_1",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      },
+      {
+        "dependedOnBy": [],
+        "name": "Do not allow 256-bit recovery key",
+        "helpText": null,
+        "optionValue": {
+          "value": "0",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Do not allow 256-bit recovery key",
+        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverykeyusagedropdown_name_0",
+        "description": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
+            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
+    "name": "FDVRecoveryKeyUsageDropDown_Name",
+    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverykeyusagedropdown_name",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_allowstandarduserencryption_0",
+    "categoryId": "0a1347d2-90c0-407a-baa0-e4859260532a",
+    "offsetUri": "/AllowStandardUserEncryption",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
+    "applicability": {
+      "requiredAzureAdTrustType": "none",
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.17763",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1085,3573 +4647,31 @@ If you disable or do not configure this policy setting, the BitLocker setup wiza
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.18363",
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "5.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Configure Recovery Password Rotation"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "EncryptionMethodWithXts_Name",
-      "Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later)",
-      "\\Windows Components\\BitLocker Drive Encryption",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption",
-      "BitLocker Drive Encryption"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp#encryptionmethodbydrivetype"
-    ],
-    "id": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsosdropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "0101d1d0-1e54-47b0-a749-62c6bd7ab3da",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype",
-    "offsetUri": "/EncryptionMethodByDriveType",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EncryptionMethodWithXtsOsDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "3",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "AES-CBC 128-bit",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsosdropdown_name_3",
-        "dependedOnBy": [],
-        "name": "AES-CBC 128-bit",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "4",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "AES-CBC 256-bit",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsosdropdown_name_4",
-        "dependedOnBy": [],
-        "name": "AES-CBC 256-bit",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "XTS-AES 128-bit (default)",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsosdropdown_name_6",
-        "dependedOnBy": [],
-        "name": "XTS-AES 128-bit (default)",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "7",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "XTS-AES 256-bit",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsosdropdown_name_7",
-        "dependedOnBy": [],
-        "name": "XTS-AES 256-bit",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsosdropdown_name_6",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
       "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Select the encryption method for operating system drives:"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "EncryptionMethodWithXts_Name",
-      "Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later)",
-      "\\Windows Components\\BitLocker Drive Encryption",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption",
-      "BitLocker Drive Encryption"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp#encryptionmethodbydrivetype"
-    ],
-    "id": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsfdvdropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "0101d1d0-1e54-47b0-a749-62c6bd7ab3da",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype",
-    "offsetUri": "/EncryptionMethodByDriveType",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EncryptionMethodWithXtsFdvDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "3",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "AES-CBC 128-bit",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsfdvdropdown_name_3",
-        "dependedOnBy": [],
-        "name": "AES-CBC 128-bit",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "4",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "AES-CBC 256-bit",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsfdvdropdown_name_4",
-        "dependedOnBy": [],
-        "name": "AES-CBC 256-bit",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "XTS-AES 128-bit (default)",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsfdvdropdown_name_6",
-        "dependedOnBy": [],
-        "name": "XTS-AES 128-bit (default)",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "7",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "XTS-AES 256-bit",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsfdvdropdown_name_7",
-        "dependedOnBy": [],
-        "name": "XTS-AES 256-bit",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsfdvdropdown_name_6",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
       "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "maximumSupportedVersion": null,
-      "deviceMode": "none",
       "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Select the encryption method for fixed data drives:"
-  },
-  {
-    "description": "This policy setting allows you to configure the algorithm and cipher strength used by BitLocker Drive Encryption. This policy setting is applied when you turn on BitLocker. Changing the encryption method has no effect if the drive is already encrypted, or if encryption is in progress.\r\n\r\nIf you enable this policy setting you will be able to configure an encryption algorithm and key cipher strength for fixed data drives, operating system drives, and removable data drives individually. For fixed and operating system drives, we recommend that you use the XTS-AES algorithm. For removable drives, you should use AES-CBC 128-bit or AES-CBC 256-bit if the drive will be used in other devices that are not running Windows 10 (Version 1511).\r\n\r\nIf you disable or do not configure this policy setting, BitLocker will use AES with the same bit strength (128-bit or 256-bit) as the \"Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7)\" and \"Choose drive encryption method and cipher strength\" policy settings (in that order), if they are set. If none of the policies are set, BitLocker will use the default encryption method of XTS-AES 128-bit or the encryption method specified by the setup script.”\r\n\r\n      ",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "EncryptionMethodWithXts_Name",
-      "Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later)",
-      "\\Windows Components\\BitLocker Drive Encryption",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption",
-      "BitLocker Drive Encryption"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp#encryptionmethodbydrivetype"
-    ],
-    "id": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype",
-    "version": "639161298837633273",
-    "categoryId": "0101d1d0-1e54-47b0-a749-62c6bd7ab3da",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype",
-    "offsetUri": "/EncryptionMethodByDriveType",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EncryptionMethodWithXts_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Disabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_0",
-        "dependedOnBy": [],
-        "name": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Enabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
-        "dependedOnBy": [
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsosdropdown_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsfdvdropdown_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsrdvdropdown_name"
-          }
-        ],
-        "name": "Enabled",
-        "dependentOn": []
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_0",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later)"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "EncryptionMethodWithXts_Name",
-      "Choose drive encryption method and cipher strength (Windows 10 [Version 1511] and later)",
-      "\\Windows Components\\BitLocker Drive Encryption",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption",
-      "BitLocker Drive Encryption"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp#encryptionmethodbydrivetype"
-    ],
-    "id": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsrdvdropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "0101d1d0-1e54-47b0-a749-62c6bd7ab3da",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype",
-    "offsetUri": "/EncryptionMethodByDriveType",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "EncryptionMethodWithXtsRdvDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "3",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "AES-CBC 128-bit  (default)",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsrdvdropdown_name_3",
-        "dependedOnBy": [],
-        "name": "AES-CBC 128-bit  (default)",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "4",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "AES-CBC 256-bit",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsrdvdropdown_name_4",
-        "dependedOnBy": [],
-        "name": "AES-CBC 256-bit",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "XTS-AES 128-bit",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsrdvdropdown_name_6",
-        "dependedOnBy": [],
-        "name": "XTS-AES 128-bit",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "7",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "XTS-AES 256-bit",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsrdvdropdown_name_7",
-        "dependedOnBy": [],
-        "name": "XTS-AES 256-bit",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_encryptionmethodbydrivetype_encryptionmethodwithxtsrdvdropdown_name_3",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Select the encryption method for removable data drives:"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "IdentificationField_Name",
-      "Provide the unique identifiers for your organization",
-      "\\Windows Components\\BitLocker Drive Encryption",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption",
-      "BitLocker Drive Encryption"
-    ],
-    "infoUrls": [],
-    "id": "device_vendor_msft_bitlocker_identificationfield_identificationfield",
-    "version": "639161298837633273",
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_bitlocker_identificationfield_1",
-        "parentSettingId": "device_vendor_msft_bitlocker_identificationfield"
-      }
-    ],
-    "categoryId": "0101d1d0-1e54-47b0-a749-62c6bd7ab3da",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_identificationfield",
-    "offsetUri": "/IdentificationField",
-    "visibility": "settingsCatalog,template",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "name": "IdentificationField",
-    "referredSettingInformationList": [],
-    "dependedOnBy": [],
-    "valueDefinition": {
-      "inputValidationSchema": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "minimumLength": 0,
-      "format": "none",
-      "fileTypes": [],
-      "maximumLength": 260,
-      "isSecret": false
-    },
-    "accessTypes": "none",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "5.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "BitLocker identification field: (Device)"
-  },
-  {
-    "description": "This policy setting allows you to associate unique organizational identifiers to a new drive that is enabled with BitLocker. These identifiers are stored as the identification field and allowed identification field. The identification field allows you to associate a unique organizational identifier to BitLocker-protected drives. This identifier is automatically added to new BitLocker-protected drives and can be updated on existing BitLocker-protected drives using the manage-bde command-line tool. An identification field is required for management of certificate-based data recovery agents on BitLocker-protected drives and for potential updates to the BitLocker To Go Reader. BitLocker will only manage and update data recovery agents when the identification field on the drive matches the value configured in the identification field. In a similar manner, BitLocker will only update the BitLocker To Go Reader when the identification field on the drive matches the value configured for the identification field.\r\n\r\nThe allowed identification field is used in combination with the \"Deny write access to removable drives not protected by BitLocker\" policy setting to help control the use of removable drives in your organization. It is a comma separated list of identification fields from your organization or other external organizations.\r\n\r\nYou can configure the identification fields on existing drives by using manage-bde.exe.\r\n\r\nIf you enable this policy setting, you can configure the identification field on the BitLocker-protected drive and any allowed identification field used by your organization.\r\n\r\nWhen a BitLocker-protected drive is mounted on another BitLocker-enabled computer the identification field and allowed identification field will be used to determine whether the drive is from an outside organization.\r\n\r\nIf you disable or do not configure this policy setting, the identification field is not required.\r\n\r\nNote: Identification fields are required for management of certificate-based data recovery agents on BitLocker-protected drives. BitLocker will only manage and update certificate-based data recovery agents when the identification field is present on a drive and is identical to the value configured on the computer. The identification field can be any value of 260 characters or fewer.\r\n\r\n      \n ",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "IdentificationField_Name",
-      "Provide the unique identifiers for your organization",
-      "\\Windows Components\\BitLocker Drive Encryption",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption",
-      "BitLocker Drive Encryption"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/BitLocker-csp/"
-    ],
-    "id": "device_vendor_msft_bitlocker_identificationfield",
-    "version": "639161298837633273",
-    "categoryId": "0101d1d0-1e54-47b0-a749-62c6bd7ab3da",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_identificationfield",
-    "offsetUri": "/IdentificationField",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "IdentificationField_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Disabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_identificationfield_0",
-        "dependedOnBy": [],
-        "name": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Enabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_identificationfield_1",
-        "dependedOnBy": [
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_identificationfield_identificationfield"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_identificationfield_secidentificationfield"
-          }
-        ],
-        "name": "Enabled",
-        "dependentOn": []
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_identificationfield_0",
-    "accessTypes": "none",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "5.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Provide the unique identifiers for your organization"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "IdentificationField_Name",
-      "Provide the unique identifiers for your organization",
-      "\\Windows Components\\BitLocker Drive Encryption",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption",
-      "BitLocker Drive Encryption"
-    ],
-    "infoUrls": [],
-    "id": "device_vendor_msft_bitlocker_identificationfield_secidentificationfield",
-    "version": "639161298837633273",
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_bitlocker_identificationfield_1",
-        "parentSettingId": "device_vendor_msft_bitlocker_identificationfield"
-      }
-    ],
-    "categoryId": "0101d1d0-1e54-47b0-a749-62c6bd7ab3da",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_identificationfield",
-    "offsetUri": "/IdentificationField",
-    "visibility": "settingsCatalog,template",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "name": "SecIdentificationField",
-    "referredSettingInformationList": [],
-    "dependedOnBy": [],
-    "valueDefinition": {
-      "inputValidationSchema": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "minimumLength": 0,
-      "format": "none",
-      "fileTypes": [],
-      "maximumLength": 260,
-      "isSecret": false
-    },
-    "accessTypes": "none",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "5.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Allowed BitLocker identification field: (Device)"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "OSEncryptionType_Name",
-      "Enforce drive encryption type on operating system drives",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [],
-    "id": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_osencryptiontypedropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype",
-    "offsetUri": "/SystemDrivesEncryptionType",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "OSEncryptionTypeDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Allow user to choose (default)",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_osencryptiontypedropdown_name_0",
-        "dependedOnBy": [],
-        "name": "Allow user to choose (default)",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Full encryption",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_osencryptiontypedropdown_name_1",
-        "dependedOnBy": [],
-        "name": "Full encryption",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Used Space Only encryption",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_osencryptiontypedropdown_name_2",
-        "dependedOnBy": [],
-        "name": "Used Space Only encryption",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_osencryptiontypedropdown_name_0",
-    "accessTypes": "none",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "5.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Select the encryption type: (Device)"
-  },
-  {
-    "description": "This policy setting allows you to configure the encryption type used by BitLocker Drive Encryption. This policy setting is applied when you turn on BitLocker. Changing the encryption type has no effect if the drive is already encrypted or if encryption is in progress. Choose full encryption to require that the entire drive be encrypted when BitLocker is turned on. Choose used space only encryption to require that only the portion of the drive used to store data is encrypted when BitLocker is turned on.\r\n\r\nIf you enable this policy setting the encryption type that BitLocker will use to encrypt drives is defined by this policy and the encryption type option will not be presented in the BitLocker setup wizard.\r\n\r\nIf you disable or do not configure this policy setting, the BitLocker setup wizard will ask the user to select the encryption type before turning on BitLocker.\r\n\r\n      \n ",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "OSEncryptionType_Name",
-      "Enforce drive encryption type on operating system drives",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/BitLocker-csp/"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesencryptiontype",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype",
-    "offsetUri": "/SystemDrivesEncryptionType",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "OSEncryptionType_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Disabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_0",
-        "dependedOnBy": [],
-        "name": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Enabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_1",
-        "dependedOnBy": [
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_osencryptiontypedropdown_name"
-          }
-        ],
-        "name": "Enabled",
-        "dependentOn": []
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesencryptiontype_0",
-    "accessTypes": "none",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "5.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Enforce drive encryption type on operating system drives"
-  },
-  {
-    "description": "This policy setting allows you to configure whether BitLocker requires additional authentication each time the computer starts and whether you are using BitLocker with or without a Trusted Platform Module (TPM). This policy setting is applied when you turn on BitLocker.\r\n\r\nNote: Only one of the additional authentication options can be required at startup, otherwise a policy error occurs.\r\n\r\nIf you want to use BitLocker on a computer without a TPM, select the \"Allow BitLocker without a compatible TPM\" check box. In this mode either a password or a USB drive is required for start-up. When using a startup key, the key information used to encrypt the drive is stored on the USB drive, creating a USB key. When the USB key is inserted the access to the drive is authenticated and the drive is accessible. If the USB key is lost or unavailable or if you have forgotten the password then you will need to use one of the BitLocker recovery options to access the drive.\r\n\r\nOn a computer with a compatible TPM, four types of authentication methods can be used at startup to provide added protection for encrypted data. When the computer starts, it can use only the TPM for authentication, or it can also require insertion of a USB flash drive containing a startup key, the entry of a 6-digit to 20-digit personal identification number (PIN), or both.\r\n\r\nIf you enable this policy setting, users can configure advanced startup options in the BitLocker setup wizard.\r\n\r\nIf you disable or do not configure this policy setting, users can configure only basic options on computers with a TPM.\r\n\r\nNote: If you want to require the use of a startup PIN and a USB flash drive, you must configure BitLocker settings using the command-line tool manage-bde instead of the BitLocker Drive Encryption setup wizard.\r\n\r\n",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "ConfigureAdvancedStartup_Name",
-      "Require additional authentication at startup",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication",
-    "offsetUri": "/SystemDrivesRequireStartupAuthentication",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "ConfigureAdvancedStartup_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Disabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_0",
-        "dependedOnBy": [],
-        "name": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Enabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-        "dependedOnBy": [
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name"
-          }
-        ],
-        "name": "Enabled",
-        "dependentOn": []
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_0",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Require additional authentication at startup"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "ConfigureAdvancedStartup_Name",
-      "Require additional authentication at startup",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication",
-    "offsetUri": "/SystemDrivesRequireStartupAuthentication",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "ConfigureTPMStartupKeyUsageDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Allow startup key with TPM",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name_2",
-        "dependedOnBy": [],
-        "name": "Allow startup key with TPM",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Require startup key with TPM",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name_1",
-        "dependedOnBy": [],
-        "name": "Require startup key with TPM",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Do not allow startup key with TPM",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name_0",
-        "dependedOnBy": [],
-        "name": "Do not allow startup key with TPM",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name_2",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Configure TPM startup key:"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "ConfigureAdvancedStartup_Name",
-      "Require additional authentication at startup",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication",
-    "offsetUri": "/SystemDrivesRequireStartupAuthentication",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "ConfigureTPMPINKeyUsageDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Allow startup key and PIN with TPM",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name_2",
-        "dependedOnBy": [],
-        "name": "Allow startup key and PIN with TPM",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Require startup key and PIN with TPM",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name_1",
-        "dependedOnBy": [],
-        "name": "Require startup key and PIN with TPM",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Do not allow startup key and PIN with TPM",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name_0",
-        "dependedOnBy": [],
-        "name": "Do not allow startup key and PIN with TPM",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name_2",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Configure TPM startup key and PIN:"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "ConfigureAdvancedStartup_Name",
-      "Require additional authentication at startup",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication",
-    "offsetUri": "/SystemDrivesRequireStartupAuthentication",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "ConfigureNonTPMStartupKeyUsage_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "False",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name_0",
-        "dependedOnBy": [],
-        "name": "False",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "True",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name_1",
-        "dependedOnBy": [],
-        "name": "True",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name_1",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Allow BitLocker without a compatible TPM (requires a password or a startup key on a USB flash drive)"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "ConfigureAdvancedStartup_Name",
-      "Require additional authentication at startup",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication",
-    "offsetUri": "/SystemDrivesRequireStartupAuthentication",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "ConfigureTPMUsageDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Allow TPM",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name_2",
-        "dependedOnBy": [],
-        "name": "Allow TPM",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Require TPM",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name_1",
-        "dependedOnBy": [],
-        "name": "Require TPM",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Do not allow TPM",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name_0",
-        "dependedOnBy": [],
-        "name": "Do not allow TPM",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name_2",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Configure TPM startup:"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "ConfigureAdvancedStartup_Name",
-      "Require additional authentication at startup",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication",
-    "offsetUri": "/SystemDrivesRequireStartupAuthentication",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "ConfigurePINUsageDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Allow startup PIN with TPM",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name_2",
-        "dependedOnBy": [],
-        "name": "Allow startup PIN with TPM",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Require startup PIN with TPM",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name_1",
-        "dependedOnBy": [],
-        "name": "Require startup PIN with TPM",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Do not allow startup PIN with TPM",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name_0",
-        "dependedOnBy": [],
-        "name": "Do not allow startup PIN with TPM",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name_2",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Configure TPM startup PIN:"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "OSRecoveryUsage_Name",
-      "Choose how BitLocker-protected operating system drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackup_name",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
-    "offsetUri": "/SystemDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "OSActiveDirectoryBackup_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "False",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackup_name_0",
-        "dependedOnBy": [],
-        "name": "False",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "True",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackup_name_1",
-        "dependedOnBy": [],
-        "name": "True",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackup_name_1",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Save BitLocker recovery information to AD DS for operating system drives"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "OSRecoveryUsage_Name",
-      "Choose how BitLocker-protected operating system drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrequireactivedirectorybackup_name",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
-    "offsetUri": "/SystemDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "OSRequireActiveDirectoryBackup_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "False",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrequireactivedirectorybackup_name_0",
-        "dependedOnBy": [],
-        "name": "False",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "True",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrequireactivedirectorybackup_name_1",
-        "dependedOnBy": [],
-        "name": "True",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrequireactivedirectorybackup_name_0",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Do not enable BitLocker until recovery information is stored to AD DS for operating system drives"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "OSRecoveryUsage_Name",
-      "Choose how BitLocker-protected operating system drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverypasswordusagedropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
-    "offsetUri": "/SystemDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "OSRecoveryPasswordUsageDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Allow 48-digit recovery password",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverypasswordusagedropdown_name_2",
-        "dependedOnBy": [],
-        "name": "Allow 48-digit recovery password",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Require 48-digit recovery password",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverypasswordusagedropdown_name_1",
-        "dependedOnBy": [],
-        "name": "Require 48-digit recovery password",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Do not allow 48-digit recovery password",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverypasswordusagedropdown_name_0",
-        "dependedOnBy": [],
-        "name": "Do not allow 48-digit recovery password",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverypasswordusagedropdown_name_2",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "\r\nConfigure user storage of BitLocker recovery information:\r\n"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "OSRecoveryUsage_Name",
-      "Choose how BitLocker-protected operating system drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osallowdra_name",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
-    "offsetUri": "/SystemDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "OSAllowDRA_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "False",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osallowdra_name_0",
-        "dependedOnBy": [],
-        "name": "False",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "True",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osallowdra_name_1",
-        "dependedOnBy": [],
-        "name": "True",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osallowdra_name_1",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Allow data recovery agent"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "OSRecoveryUsage_Name",
-      "Choose how BitLocker-protected operating system drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackupdropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
-    "offsetUri": "/SystemDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "OSActiveDirectoryBackupDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Store recovery passwords and key packages",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackupdropdown_name_1",
-        "dependedOnBy": [],
-        "name": "Store recovery passwords and key packages",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Store recovery passwords only",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackupdropdown_name_2",
-        "dependedOnBy": [],
-        "name": "Store recovery passwords only",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackupdropdown_name_1",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Configure storage of BitLocker recovery information to AD DS:"
-  },
-  {
-    "description": "This policy setting allows you to control how BitLocker-protected operating system drives are recovered in the absence of the required startup key information. This policy setting is applied when you turn on BitLocker.\r\n\r\nThe \"Allow certificate-based data recovery agent\" check box is used to specify whether a data recovery agent can be used with BitLocker-protected operating system drives. Before a data recovery agent can be used it must be added from the Public Key Policies item in either the Group Policy Management Console or the Local Group Policy Editor. Consult the BitLocker Drive Encryption Deployment Guide on Microsoft TechNet for more information about adding data recovery agents.\r\n\r\nIn \"Configure user storage of BitLocker recovery information\" select whether users are allowed, required, or not allowed to generate a 48-digit recovery password or a 256-bit recovery key.\r\n\r\nSelect \"Omit recovery options from the BitLocker setup wizard\" to prevent users from specifying recovery options when they turn on BitLocker on a drive. This means that you will not be able to specify which recovery option to use when you turn on BitLocker, instead BitLocker recovery options for the drive are determined by the policy setting.\r\n\r\nIn \"Save BitLocker recovery information to Active Directory Domain Services\", choose which BitLocker recovery information to store in AD DS for operating system drives. If you select \"Backup recovery password and key package\", both the BitLocker recovery password and key package are stored in AD DS. Storing the key package supports recovering data from a drive that has been physically corrupted. If you select \"Backup recovery password only,\" only the recovery password is stored in AD DS.\r\n\r\nSelect the \"Do not enable BitLocker until recovery information is stored in AD DS for operating system drives\" check box if you want to prevent users from enabling BitLocker unless the computer is connected to the domain and the backup of BitLocker recovery information to AD DS succeeds.\r\n\r\nNote: If the \"Do not enable BitLocker until recovery information is stored in AD DS for operating system drives\" check box is selected, a recovery password is automatically generated.\r\n\r\nIf you enable this policy setting, you can control the methods available to users to recover data from BitLocker-protected operating system drives.\r\n\r\nIf this policy setting is disabled or not configured, the default recovery options are supported for BitLocker recovery. By default a DRA is allowed, the recovery options can be specified by the user including the recovery password and recovery key, and recovery information is not backed up to AD DS.\r\n\r\n",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "OSRecoveryUsage_Name",
-      "Choose how BitLocker-protected operating system drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
-    "offsetUri": "/SystemDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "OSRecoveryUsage_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Disabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_0",
-        "dependedOnBy": [],
-        "name": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Enabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-        "dependedOnBy": [
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osallowdra_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverypasswordusagedropdown_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverykeyusagedropdown_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_oshiderecoverypage_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackup_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osactivedirectorybackupdropdown_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrequireactivedirectorybackup_name"
-          }
-        ],
-        "name": "Enabled",
-        "dependentOn": []
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_0",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Choose how BitLocker-protected operating system drives can be recovered"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "OSRecoveryUsage_Name",
-      "Choose how BitLocker-protected operating system drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_oshiderecoverypage_name",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
-    "offsetUri": "/SystemDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "OSHideRecoveryPage_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "False",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_oshiderecoverypage_name_0",
-        "dependedOnBy": [],
-        "name": "False",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "True",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_oshiderecoverypage_name_1",
-        "dependedOnBy": [],
-        "name": "True",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_oshiderecoverypage_name_0",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Omit recovery options from the BitLocker setup wizard"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "OSRecoveryUsage_Name",
-      "Choose how BitLocker-protected operating system drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverykeyusagedropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions",
-    "offsetUri": "/SystemDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "OSRecoveryKeyUsageDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Allow 256-bit recovery key",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverykeyusagedropdown_name_2",
-        "dependedOnBy": [],
-        "name": "Allow 256-bit recovery key",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Require 256-bit recovery key",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverykeyusagedropdown_name_1",
-        "dependedOnBy": [],
-        "name": "Require 256-bit recovery key",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Do not allow 256-bit recovery key",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverykeyusagedropdown_name_0",
-        "dependedOnBy": [],
-        "name": "Do not allow 256-bit recovery key",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoveryoptions_osrecoverykeyusagedropdown_name_2",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": ""
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "PrebootRecoveryInfo_Name",
-      "Configure pre-boot recovery message and URL",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_prebootrecoveryinfodropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage",
-    "offsetUri": "/SystemDrivesRecoveryMessage",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "PrebootRecoveryInfoDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_prebootrecoveryinfodropdown_name_0",
-        "dependedOnBy": [],
-        "name": "",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Use default recovery message and URL",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_prebootrecoveryinfodropdown_name_1",
-        "dependedOnBy": [],
-        "name": "Use default recovery message and URL",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Use custom recovery message",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_prebootrecoveryinfodropdown_name_2",
-        "dependedOnBy": [],
-        "name": "Use custom recovery message",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "3",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Use custom recovery URL",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_prebootrecoveryinfodropdown_name_3",
-        "dependedOnBy": [],
-        "name": "Use custom recovery URL",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_prebootrecoveryinfodropdown_name_0",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Select an option for the pre-boot recovery message:"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "PrebootRecoveryInfo_Name",
-      "Configure pre-boot recovery message and URL",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_recoveryurl_input",
-    "version": "639161298837633273",
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_1",
-        "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage"
-      }
-    ],
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage",
-    "offsetUri": "/SystemDrivesRecoveryMessage",
-    "visibility": "settingsCatalog,template",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "name": "RecoveryUrl_Input",
-    "referredSettingInformationList": [],
-    "dependedOnBy": [],
-    "valueDefinition": {
-      "inputValidationSchema": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "minimumLength": 0,
-      "format": "none",
-      "fileTypes": [],
-      "maximumLength": 500,
-      "isSecret": false
-    },
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Custom recovery URL option:"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "PrebootRecoveryInfo_Name",
-      "Configure pre-boot recovery message and URL",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_recoverymessage_input",
-    "version": "639161298837633273",
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_1",
-        "parentSettingId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage"
-      }
-    ],
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage",
-    "offsetUri": "/SystemDrivesRecoveryMessage",
-    "visibility": "settingsCatalog,template",
-    "defaultValue": {
-      "value": null,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-    },
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "name": "RecoveryMessage_Input",
-    "referredSettingInformationList": [],
-    "dependedOnBy": [],
-    "valueDefinition": {
-      "inputValidationSchema": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValueDefinition",
-      "minimumLength": 0,
-      "format": "none",
-      "fileTypes": [],
-      "maximumLength": 900,
-      "isSecret": false
-    },
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Custom recovery message option:"
-  },
-  {
-    "description": "This policy setting lets you configure the entire recovery message or replace the existing URL that are displayed on the pre-boot key recovery screen when the OS drive is locked.\r\n\r\nIf you select the \"Use default recovery message and URL\" option, the default BitLocker recovery message and URL will be displayed in the pre-boot key recovery screen. If you have previously configured a custom recovery message or URL and want to revert to the default message, you must keep the policy enabled and select the \"Use default recovery message and URL\" option.\r\n\r\nIf you select the \"Use custom recovery message\" option, the message you type in the \"Custom recovery message option\" text box will be displayed in the pre-boot key recovery screen. If a recovery URL is available, include it in the message.\r\n\r\nIf you select the \"Use custom recovery URL\" option, the URL you type in the \"Custom recovery URL option\" text box will replace the default URL in the default recovery message, which will be displayed in the pre-boot key recovery screen.\r\n\r\nNote: Not all characters and languages are supported in pre-boot. It is strongly recommended that you test that the characters you use for the custom message or URL appear correctly on the pre-boot recovery screen.\r\n      ",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "PrebootRecoveryInfo_Name",
-      "Configure pre-boot recovery message and URL",
-      "\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Operating System Drives",
-      "Operating System Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage",
-    "version": "639161298837633273",
-    "categoryId": "27e0674a-ea53-4f63-9c2e-fe76aa1021d0",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage",
-    "offsetUri": "/SystemDrivesRecoveryMessage",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "PrebootRecoveryInfo_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Disabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_0",
-        "dependedOnBy": [],
-        "name": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Enabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_1",
-        "dependedOnBy": [
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_prebootrecoveryinfodropdown_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_recoverymessage_input"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_recoveryurl_input"
-          }
-        ],
-        "name": "Enabled",
-        "dependentOn": []
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_systemdrivesrecoverymessage_0",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Configure pre-boot recovery message and URL"
-  },
-  {
-    "description": "This policy setting allows you to configure the encryption type used by BitLocker Drive Encryption. This policy setting is applied when you turn on BitLocker. Changing the encryption type has no effect if the drive is already encrypted or if encryption is in progress. Choose full encryption to require that the entire drive be encrypted when BitLocker is turned on. Choose used space only encryption to require that only the portion of the drive used to store data is encrypted when BitLocker is turned on.\r\n\r\nIf you enable this policy setting the encryption type that BitLocker will use to encrypt drives is defined by this policy and the encryption type option will not be presented in the BitLocker setup wizard.\r\n\r\nIf you disable or do not configure this policy setting, the BitLocker setup wizard will ask the user to select the encryption type before turning on BitLocker.\r\n\r\n      \n ",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "FDVEncryptionType_Name",
-      "Enforce drive encryption type on fixed data drives",
-      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Fixed Data Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/BitLocker-csp/"
-    ],
-    "id": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype",
-    "version": "639161298837633273",
-    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype",
-    "offsetUri": "/FixedDrivesEncryptionType",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "FDVEncryptionType_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Disabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_0",
-        "dependedOnBy": [],
-        "name": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Enabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_1",
-        "dependedOnBy": [
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name"
-          }
-        ],
-        "name": "Enabled",
-        "dependentOn": []
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_0",
-    "accessTypes": "none",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "5.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Enforce drive encryption type on fixed data drives"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "FDVEncryptionType_Name",
-      "Enforce drive encryption type on fixed data drives",
-      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Fixed Data Drives"
-    ],
-    "infoUrls": [],
-    "id": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype",
-    "offsetUri": "/FixedDrivesEncryptionType",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "FDVEncryptionTypeDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Allow user to choose (default)",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name_0",
-        "dependedOnBy": [],
-        "name": "Allow user to choose (default)",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Full encryption",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name_1",
-        "dependedOnBy": [],
-        "name": "Full encryption",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Used Space Only encryption",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name_2",
-        "dependedOnBy": [],
-        "name": "Used Space Only encryption",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesencryptiontype_fdvencryptiontypedropdown_name_0",
-    "accessTypes": "none",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.19041.1202",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "5.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Select the encryption type: (Device)"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "FDVRecoveryUsage_Name",
-      "Choose how BitLocker-protected fixed drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Fixed Data Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvhiderecoverypage_name",
-    "version": "639161298837633273",
-    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
-    "offsetUri": "/FixedDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "FDVHideRecoveryPage_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "False",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvhiderecoverypage_name_0",
-        "dependedOnBy": [],
-        "name": "False",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "True",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvhiderecoverypage_name_1",
-        "dependedOnBy": [],
-        "name": "True",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvhiderecoverypage_name_0",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Omit recovery options from the BitLocker setup wizard"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "FDVRecoveryUsage_Name",
-      "Choose how BitLocker-protected fixed drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Fixed Data Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackup_name",
-    "version": "639161298837633273",
-    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
-    "offsetUri": "/FixedDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "FDVActiveDirectoryBackup_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "False",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackup_name_0",
-        "dependedOnBy": [],
-        "name": "False",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "True",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackup_name_1",
-        "dependedOnBy": [],
-        "name": "True",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackup_name_1",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Save BitLocker recovery information to AD DS for fixed data drives"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "FDVRecoveryUsage_Name",
-      "Choose how BitLocker-protected fixed drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Fixed Data Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverypasswordusagedropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
-    "offsetUri": "/FixedDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "FDVRecoveryPasswordUsageDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Allow 48-digit recovery password",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverypasswordusagedropdown_name_2",
-        "dependedOnBy": [],
-        "name": "Allow 48-digit recovery password",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Require 48-digit recovery password",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverypasswordusagedropdown_name_1",
-        "dependedOnBy": [],
-        "name": "Require 48-digit recovery password",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Do not allow 48-digit recovery password",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverypasswordusagedropdown_name_0",
-        "dependedOnBy": [],
-        "name": "Do not allow 48-digit recovery password",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverypasswordusagedropdown_name_2",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "\r\nConfigure user storage of BitLocker recovery information:\r\n"
-  },
-  {
-    "description": "This policy setting allows you to control how BitLocker-protected fixed data drives are recovered in the absence of the required credentials. This policy setting is applied when you turn on BitLocker.\r\n\r\nThe \"Allow data recovery agent\" check box is used to specify whether a data recovery agent can be used with BitLocker-protected fixed data drives. Before a data recovery agent can be used it must be added from the Public Key Policies item in either the Group Policy Management Console or the Local Group Policy Editor. Consult the BitLocker Drive Encryption Deployment Guide on Microsoft TechNet for more information about adding data recovery agents.\r\n\r\nIn \"Configure user storage of BitLocker recovery information\" select whether users are allowed, required, or not allowed to generate a 48-digit recovery password or a 256-bit recovery key.\r\n\r\nSelect \"Omit recovery options from the BitLocker setup wizard\" to prevent users from specifying recovery options when they turn on BitLocker on a drive. This means that you will not be able to specify which recovery option to use when you turn on BitLocker, instead BitLocker recovery options for the drive are determined by the policy setting.\r\n\r\nIn \"Save BitLocker recovery information to Active Directory Domain Services\" choose which BitLocker recovery information to store in AD DS for fixed data drives. If you select \"Backup recovery password and key package\", both the BitLocker recovery password and key package are stored in AD DS. Storing the key package supports recovering data from a drive that has been physically corrupted. If you select \"Backup recovery password only,\" only the recovery password is stored in AD DS.\r\n\r\nSelect the \"Do not enable BitLocker until recovery information is stored in AD DS for fixed data drives\" check box if you want to prevent users from enabling BitLocker unless the computer is connected to the domain and the backup of BitLocker recovery information to AD DS succeeds.\r\n\r\nNote: If the \"Do not enable BitLocker until recovery information is stored in AD DS for fixed data drives\" check box is selected, a recovery password is automatically generated.\r\n\r\nIf you enable this policy setting, you can control the methods available to users to recover data from BitLocker-protected fixed data drives.\r\n\r\nIf this policy setting is not configured or disabled, the default recovery options are supported for BitLocker recovery. By default a DRA is allowed, the recovery options can be specified by the user including the recovery password and recovery key, and recovery information is not backed up to AD DS\r\n\r\n",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "FDVRecoveryUsage_Name",
-      "Choose how BitLocker-protected fixed drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Fixed Data Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
-    "version": "639161298837633273",
-    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
-    "offsetUri": "/FixedDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "FDVRecoveryUsage_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Disabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_0",
-        "dependedOnBy": [],
-        "name": "Disabled",
-        "dependentOn": []
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Enabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-        "dependedOnBy": [
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvallowdra_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverypasswordusagedropdown_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverykeyusagedropdown_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvhiderecoverypage_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackup_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackupdropdown_name"
-          },
-          {
-            "required": true,
-            "dependedOnBy": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrequireactivedirectorybackup_name"
-          }
-        ],
-        "name": "Enabled",
-        "dependentOn": []
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_0",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Choose how BitLocker-protected fixed drives can be recovered"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "FDVRecoveryUsage_Name",
-      "Choose how BitLocker-protected fixed drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Fixed Data Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrequireactivedirectorybackup_name",
-    "version": "639161298837633273",
-    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
-    "offsetUri": "/FixedDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "FDVRequireActiveDirectoryBackup_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "False",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrequireactivedirectorybackup_name_0",
-        "dependedOnBy": [],
-        "name": "False",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "True",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrequireactivedirectorybackup_name_1",
-        "dependedOnBy": [],
-        "name": "True",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrequireactivedirectorybackup_name_0",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Do not enable BitLocker until recovery information is stored to AD DS for fixed data drives"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "FDVRecoveryUsage_Name",
-      "Choose how BitLocker-protected fixed drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Fixed Data Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvallowdra_name",
-    "version": "639161298837633273",
-    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
-    "offsetUri": "/FixedDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "FDVAllowDRA_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "False",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvallowdra_name_0",
-        "dependedOnBy": [],
-        "name": "False",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "True",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvallowdra_name_1",
-        "dependedOnBy": [],
-        "name": "True",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvallowdra_name_1",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Allow data recovery agent"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "FDVRecoveryUsage_Name",
-      "Choose how BitLocker-protected fixed drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Fixed Data Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackupdropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
-    "offsetUri": "/FixedDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "FDVActiveDirectoryBackupDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Backup recovery passwords and key packages",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackupdropdown_name_1",
-        "dependedOnBy": [],
-        "name": "Backup recovery passwords and key packages",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Backup recovery passwords only",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackupdropdown_name_2",
-        "dependedOnBy": [],
-        "name": "Backup recovery passwords only",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvactivedirectorybackupdropdown_name_1",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Configure storage of BitLocker recovery information to AD DS:"
-  },
-  {
-    "description": "",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "keywords": [
-      "FDVRecoveryUsage_Name",
-      "Choose how BitLocker-protected fixed drives can be recovered",
-      "\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Administrative Templates\\Windows Components\\BitLocker Drive Encryption\\Fixed Data Drives",
-      "Fixed Data Drives"
-    ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverykeyusagedropdown_name",
-    "version": "639161298837633273",
-    "categoryId": "36aafec3-7ffb-4ab9-bef9-b8bb431bf8b3",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions",
-    "offsetUri": "/FixedDrivesRecoveryOptions",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "default",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "FDVRecoveryKeyUsageDropDown_Name",
-    "referredSettingInformationList": [],
-    "options": [
-      {
-        "optionValue": {
-          "value": "2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Allow 256-bit recovery key",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverykeyusagedropdown_name_2",
-        "dependedOnBy": [],
-        "name": "Allow 256-bit recovery key",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Require 256-bit recovery key",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverykeyusagedropdown_name_1",
-        "dependedOnBy": [],
-        "name": "Require 256-bit recovery key",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      },
-      {
-        "optionValue": {
-          "value": "0",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Do not allow 256-bit recovery key",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverykeyusagedropdown_name_0",
-        "dependedOnBy": [],
-        "name": "Do not allow 256-bit recovery key",
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_1",
-            "parentSettingId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions"
-          }
-        ]
-      }
-    ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_fixeddrivesrecoveryoptions_fdvrecoverykeyusagedropdown_name_2",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": ""
-  },
-  {
-    "description": "Allows Admin to enforce \"RequireDeviceEncryption\" policy for scenarios where policy is pushed while current logged on user is non-admin/standard user.\n                         \"AllowStandardUserEncryption\" policy is tied to \"AllowWarningForOtherDiskEncryption\" policy  being set to \"0\", i.e, Silent encryption is enforced.\n                         If \"AllowWarningForOtherDiskEncryption\" is not set, or is set to \"1\", \"RequireDeviceEncryption\" policy will not try to encrypt drive(s) if a standard user\n                         is the current logged on user in the system.\n\n                         The expected values for this policy are: \n\n                         1 = \"RequireDeviceEncryption\" policy will try to enable encryption on all fixed drives even if a current logged in user is standard user.\n                         0 = This is the default, when the policy is not set. If current logged on user is a standard user, \"RequireDeviceEncryption\" policy\n                             will not try to enable encryption on any drive.\n\n                         If you want to disable this policy use the following SyncML:\n                         111./Device/Vendor/MSFT/BitLocker/AllowStandardUserEncryptionint0",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "configurationServiceProviderVersion": "3.0"
     },
     "keywords": [
       "Allow Standard User Encryption",
       "BitLocker"
     ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp"
-    ],
-    "id": "device_vendor_msft_bitlocker_allowstandarduserencryption",
-    "version": "639161298837633273",
-    "categoryId": "0a1347d2-90c0-407a-baa0-e4859260532a",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_allowwarningforotherdiskencryption",
-    "offsetUri": "/AllowStandardUserEncryption",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "AllowStandardUserEncryption",
-    "referredSettingInformationList": [],
+    "displayName": "Allow Standard User Encryption",
     "options": [
       {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Disabled",
-        "description": "This is the default, when the policy is not set. If current logged on user is a standard user, \"RequireDeviceEncryption\" policy will not try to enable encryption on any drive.",
-        "itemId": "device_vendor_msft_bitlocker_allowstandarduserencryption_0",
         "dependedOnBy": [],
         "name": "This is the default, when the policy is not set. If current logged on user is a standard user, \"RequireDeviceEncryption\" policy will not try to enable encryption on any drive.",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Disabled",
+        "itemId": "device_vendor_msft_bitlocker_allowstandarduserencryption_0",
+        "description": "This is the default, when the policy is not set. If current logged on user is a standard user, \"RequireDeviceEncryption\" policy will not try to enable encryption on any drive.",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_bitlocker_allowwarningforotherdiskencryption_0",
@@ -4660,17 +4680,17 @@ If you disable or do not configure this policy setting, the BitLocker setup wiza
         ]
       },
       {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Enabled",
-        "description": "\"RequireDeviceEncryption\" policy will try to enable encryption on all fixed drives even if a current logged in user is standard user.",
-        "itemId": "device_vendor_msft_bitlocker_allowstandarduserencryption_1",
         "dependedOnBy": [],
         "name": "\"RequireDeviceEncryption\" policy will try to enable encryption on all fixed drives even if a current logged in user is standard user.",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Enabled",
+        "itemId": "device_vendor_msft_bitlocker_allowstandarduserencryption_1",
+        "description": "\"RequireDeviceEncryption\" policy will try to enable encryption on all fixed drives even if a current logged in user is standard user.",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_bitlocker_allowwarningforotherdiskencryption_0",
@@ -4679,12 +4699,37 @@ If you disable or do not configure this policy setting, the BitLocker setup wiza
         ]
       }
     ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_allowstandarduserencryption_0",
+    "description": "Allows Admin to enforce \"RequireDeviceEncryption\" policy for scenarios where policy is pushed while current logged on user is non-admin/standard user.\n                         \"AllowStandardUserEncryption\" policy is tied to \"AllowWarningForOtherDiskEncryption\" policy  being set to \"0\", i.e, Silent encryption is enforced.\n                         If \"AllowWarningForOtherDiskEncryption\" is not set, or is set to \"1\", \"RequireDeviceEncryption\" policy will not try to encrypt drive(s) if a standard user\n                         is the current logged on user in the system.\n\n                         The expected values for this policy are: \n\n                         1 = \"RequireDeviceEncryption\" policy will try to enable encryption on all fixed drives even if a current logged in user is standard user.\n                         0 = This is the default, when the policy is not set. If current logged on user is a standard user, \"RequireDeviceEncryption\" policy\n                             will not try to enable encryption on any drive.\n\n                         If you want to disable this policy use the following SyncML:\n                         111./Device/Vendor/MSFT/BitLocker/AllowStandardUserEncryptionint0",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_allowwarningforotherdiskencryption",
+    "name": "AllowStandardUserEncryption",
+    "id": "device_vendor_msft_bitlocker_allowstandarduserencryption",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
+  },
+  {
+    "referredSettingInformationList": [],
+    "riskLevel": "low",
+    "version": "639161298837633273",
+    "defaultOptionId": "device_vendor_msft_bitlocker_allowwarningforotherdiskencryption_1",
+    "categoryId": "0a1347d2-90c0-407a-baa0-e4859260532a",
+    "offsetUri": "/AllowWarningForOtherDiskEncryption",
+    "uxBehavior": "toggle",
+    "settingUsage": "configuration",
+    "helpText": "",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp#allowwarningforotherdiskencryption"
+    ],
     "accessTypes": "add,delete,get,replace",
+    "baseUri": "./Device/Vendor/MSFT/BitLocker",
+    "occurrence": {
+      "maxDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0
+    },
     "applicability": {
       "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
+      "technologies": "mdm",
+      "minimumSupportedVersion": "10.0.15063",
+      "deviceMode": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4695,104 +4740,59 @@ If you disable or do not configure this policy setting, the BitLocker setup wiza
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "minimumSupportedVersion": "10.0.17763",
-      "technologies": "mdm",
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "requiresAzureAd": false,
+      "platform": "windows10",
       "maximumSupportedVersion": null,
-      "deviceMode": "none",
       "description": null,
-      "configurationServiceProviderVersion": "3.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Allow Standard User Encryption"
-  },
-  {
-    "description": "Allows Admin to disable all UI (notification for encryption and warning prompt for other disk encryption)\n                         and turn on encryption on the user machines silently.\n                         Warning: When you enable BitLocker on a device with third party encryption, it may render the device unusable and will\n                         require reinstallation of Windows.\n                         Note: This policy takes effect only if \"RequireDeviceEncryption\" policy is set to 1.\n                         The format is integer.\n                         The expected values for this policy are: \n\n                         1 = This is the default, when the policy is not set. Warning prompt and encryption notification is allowed.\n                         0 = Disables the warning prompt and encryption notification. Starting in Windows 10, next major update, \n                             the value 0 only takes affect on Entra ID joined devices. \n                             Windows will attempt to silently enable BitLocker for value 0.\n\n                         If you want to disable this policy use the following SyncML:\n                         110./Device/Vendor/MSFT/BitLocker/AllowWarningForOtherDiskEncryptionint0",
-    "helpText": "",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
+      "configurationServiceProviderVersion": "1.0"
     },
     "keywords": [
       "Allow Warning For Other Disk Encryption",
       "BitLocker"
     ],
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/bitlocker-csp#allowwarningforotherdiskencryption"
-    ],
-    "id": "device_vendor_msft_bitlocker_allowwarningforotherdiskencryption",
-    "version": "639161298837633273",
-    "categoryId": "0a1347d2-90c0-407a-baa0-e4859260532a",
-    "rootDefinitionId": "device_vendor_msft_bitlocker_allowwarningforotherdiskencryption",
-    "offsetUri": "/AllowWarningForOtherDiskEncryption",
-    "visibility": "settingsCatalog,template",
-    "uxBehavior": "toggle",
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/BitLocker",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "name": "AllowWarningForOtherDiskEncryption",
-    "referredSettingInformationList": [],
+    "displayName": "Allow Warning For Other Disk Encryption",
     "options": [
       {
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Disabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_allowwarningforotherdiskencryption_0",
         "dependedOnBy": [
           {
-            "required": false,
-            "dependedOnBy": "device_vendor_msft_bitlocker_allowstandarduserencryption"
+            "dependedOnBy": "device_vendor_msft_bitlocker_allowstandarduserencryption",
+            "required": false
           }
         ],
         "name": "Disabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Disabled",
+        "itemId": "device_vendor_msft_bitlocker_allowwarningforotherdiskencryption_0",
+        "description": null,
         "dependentOn": []
       },
       {
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "helpText": null,
-        "displayName": "Enabled",
-        "description": null,
-        "itemId": "device_vendor_msft_bitlocker_allowwarningforotherdiskencryption_1",
         "dependedOnBy": [],
         "name": "Enabled",
+        "helpText": null,
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "displayName": "Enabled",
+        "itemId": "device_vendor_msft_bitlocker_allowwarningforotherdiskencryption_1",
+        "description": null,
         "dependentOn": []
       }
     ],
-    "defaultOptionId": "device_vendor_msft_bitlocker_allowwarningforotherdiskencryption_1",
-    "accessTypes": "add,delete,get,replace",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "minimumSupportedVersion": "10.0.15063",
-      "technologies": "mdm",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "deviceMode": "none",
-      "description": null,
-      "configurationServiceProviderVersion": "1.0"
-    },
-    "settingUsage": "configuration",
-    "displayName": "Allow Warning For Other Disk Encryption"
+    "description": "Allows Admin to disable all UI (notification for encryption and warning prompt for other disk encryption)\n                         and turn on encryption on the user machines silently.\n                         Warning: When you enable BitLocker on a device with third party encryption, it may render the device unusable and will\n                         require reinstallation of Windows.\n                         Note: This policy takes effect only if \"RequireDeviceEncryption\" policy is set to 1.\n                         The format is integer.\n                         The expected values for this policy are: \n\n                         1 = This is the default, when the policy is not set. Warning prompt and encryption notification is allowed.\n                         0 = Disables the warning prompt and encryption notification. Starting in Windows 10, next major update, \n                             the value 0 only takes affect on Entra ID joined devices. \n                             Windows will attempt to silently enable BitLocker for value 0.\n\n                         If you want to disable this policy use the following SyncML:\n                         110./Device/Vendor/MSFT/BitLocker/AllowWarningForOtherDiskEncryptionint0",
+    "rootDefinitionId": "device_vendor_msft_bitlocker_allowwarningforotherdiskencryption",
+    "name": "AllowWarningForOtherDiskEncryption",
+    "id": "device_vendor_msft_bitlocker_allowwarningforotherdiskencryption",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "visibility": "settingsCatalog,template"
   }
 ]
 ```

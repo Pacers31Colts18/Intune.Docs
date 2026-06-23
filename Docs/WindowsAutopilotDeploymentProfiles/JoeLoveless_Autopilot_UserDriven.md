@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 06/22/2026 09:16:41
+**Report Generated:** 06/23/2026 06:56:12
 
 ---
 
 ```json
 {
   "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
   "outOfBoxExperienceSettings": {
-    "hideEULA": true,
-    "deviceUsageType": "singleUser",
     "userType": "standard",
-    "hidePrivacySettings": true,
     "skipKeyboardSelectionPage": true,
-    "hideEscapeLink": true
-  },
-  "deviceType": "windowsPc",
-  "preprovisioningAllowed": false,
-  "language": "os-default",
-  "enableWhiteGlove": false,
-  "outOfBoxExperienceSetting": {
-    "keyboardSelectionPageSkipped": true,
-    "userType": "standard",
     "deviceUsageType": "singleUser",
-    "privacySettingsHidden": true,
-    "eulaHidden": true,
-    "escapeLinkHidden": true
+    "hideEULA": true,
+    "hideEscapeLink": true,
+    "hidePrivacySettings": true
   },
-  "managementServiceAppId": null,
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "deviceNameTemplate": "JL-%SERIAL%",
-  "extractHardwareHash": true,
-  "locale": "os-default",
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
   "roleScopeTagIds": [
     "0"
   ],
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "hardwareHashExtractionEnabled": true,
+  "enrollmentStatusScreenSettings": null,
+  "deviceType": "windowsPc",
+  "preprovisioningAllowed": false,
+  "enableWhiteGlove": false,
+  "language": "os-default",
   "description": "",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "enrollmentStatusScreenSettings": null
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "outOfBoxExperienceSetting": {
+    "userType": "standard",
+    "deviceUsageType": "singleUser",
+    "escapeLinkHidden": true,
+    "eulaHidden": true,
+    "privacySettingsHidden": true,
+    "keyboardSelectionPageSkipped": true
+  },
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "managementServiceAppId": null,
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "locale": "os-default",
+  "hardwareHashExtractionEnabled": true,
+  "deviceNameTemplate": "JL-%SERIAL%",
+  "extractHardwareHash": true
 }
 ```
 

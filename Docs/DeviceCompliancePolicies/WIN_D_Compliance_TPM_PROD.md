@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/WIN_D_Compliance_TPM_PROD.md)
 
-**Report Generated:** 06/24/2026 06:53:52
+**Report Generated:** 06/25/2026 06:53:40
 
 ---
 
@@ -32,8 +32,8 @@
 {
   "SyncRoot": {
     "notificationMessageCCList": [],
-    "gracePeriodHours": 0,
     "id": "85c9c570-0416-426e-a980-ea88da12caa1",
+    "gracePeriodHours": 0,
     "actionType": "block",
     "notificationTemplateId": "00000000-0000-0000-0000-000000000000"
   }

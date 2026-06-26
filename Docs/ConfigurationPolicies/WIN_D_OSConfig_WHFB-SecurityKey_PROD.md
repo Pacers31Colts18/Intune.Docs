@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/WIN_D_OSConfig_WHFB-SecurityKey_PROD.md)
 
-**Report Generated:** 06/25/2026 06:53:35
+**Report Generated:** 06/26/2026 07:00:15
 
 ---
 
@@ -25,79 +25,38 @@
 
 ```json
 {
-  "helpText": null,
   "dependedOnBy": [],
-  "dependentOn": [],
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_1",
   "optionValue": {
     "value": 1,
-    "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null
   },
-  "description": "enabled",
-  "name": "enabled"
+  "helpText": null,
+  "dependentOn": [],
+  "itemId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_1",
+  "displayName": "Enabled",
+  "name": "enabled",
+  "description": "enabled"
 }
 ```
 
 ## Setting Definition
 ```json
 {
-  "riskLevel": "low",
-  "name": "UseSecurityKeyForSignin",
-  "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
-  "version": "639174077717488091",
-  "displayName": "Use Security Key For Signin",
-  "referredSettingInformationList": [],
-  "options": [
-    {
-      "helpText": null,
-      "dependedOnBy": [],
-      "dependentOn": [],
-      "displayName": "Disabled",
-      "itemId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_0",
-      "optionValue": {
-        "value": 0,
-        "settingValueTemplateReference": null,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-      },
-      "description": "disabled",
-      "name": "disabled"
-    },
-    {
-      "helpText": null,
-      "dependedOnBy": [],
-      "dependentOn": [],
-      "displayName": "Enabled",
-      "itemId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_1",
-      "optionValue": {
-        "value": 1,
-        "settingValueTemplateReference": null,
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-      },
-      "description": "enabled",
-      "name": "enabled"
-    }
-  ],
-  "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-  "occurrence": {
-    "maxDeviceOccurrence": 1,
-    "minDeviceOccurrence": 0
-  },
-  "accessTypes": "add,delete,get,replace",
+  "helpText": "",
   "infoUrls": [
     "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
   ],
-  "settingUsage": "configuration",
-  "helpText": "",
+  "offsetUri": "/SecurityKey/UseSecurityKeyForSignin",
   "applicability": {
-    "requiresAzureAd": false,
-    "technologies": "mdm,configManager",
-    "minimumSupportedVersion": "10.0.18362",
-    "platform": "windows10",
+    "configurationServiceProviderVersion": "1.6",
     "maximumSupportedVersion": null,
     "deviceMode": "none",
+    "technologies": "mdm,configManager",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
     "description": null,
+    "minimumSupportedVersion": "10.0.18362",
+    "platform": "windows10",
     "windowsSkus": [
       "windowsEnterprise",
       "windowsProfessional",
@@ -111,23 +70,64 @@
       "iotEnterpriseSEval",
       "windowsCPC"
     ],
-    "configurationServiceProviderVersion": "1.6",
-    "requiredAzureAdTrustType": "none",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+    "requiresAzureAd": false,
+    "requiredAzureAdTrustType": "none"
   },
-  "rootDefinitionId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin",
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+  "settingUsage": "configuration",
+  "displayName": "Use Security Key For Signin",
+  "id": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin",
+  "referredSettingInformationList": [],
   "visibility": "settingsCatalog,template",
+  "name": "UseSecurityKeyForSignin",
+  "accessTypes": "add,delete,get,replace",
+  "baseUri": "./Device/Vendor/MSFT/PassportForWork",
+  "options": [
+    {
+      "dependedOnBy": [],
+      "optionValue": {
+        "value": 0,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null
+      },
+      "helpText": null,
+      "dependentOn": [],
+      "itemId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_0",
+      "displayName": "Disabled",
+      "name": "disabled",
+      "description": "disabled"
+    },
+    {
+      "dependedOnBy": [],
+      "optionValue": {
+        "value": 1,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+        "settingValueTemplateReference": null
+      },
+      "helpText": null,
+      "dependentOn": [],
+      "itemId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_1",
+      "displayName": "Enabled",
+      "name": "enabled",
+      "description": "enabled"
+    }
+  ],
+  "defaultOptionId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_0",
+  "riskLevel": "low",
+  "rootDefinitionId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin",
+  "uxBehavior": "toggle",
   "keywords": [
     "Use Security Key For Signin (Device)",
     "PassportForWork",
     "Windows Hello For Business"
   ],
-  "offsetUri": "/SecurityKey/UseSecurityKeyForSignin",
-  "uxBehavior": "toggle",
-  "defaultOptionId": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin_0",
-  "id": "device_vendor_msft_passportforwork_securitykey_usesecuritykeyforsignin",
-  "description": "Use security key for signin. 0 is disabled. 1 is enable. If you do not configure this policy setting, the default is disabled."
+  "version": "639174077717488091",
+  "description": "Use security key for signin. 0 is disabled. 1 is enable. If you do not configure this policy setting, the default is disabled.",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+  "occurrence": {
+    "maxDeviceOccurrence": 1,
+    "minDeviceOccurrence": 0
+  },
+  "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0"
 }
 ```
 

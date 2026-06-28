@@ -18,7 +18,7 @@
 
 [**Assignments**](./Assignments/WIN_D_CISL1_WindowsUpdate_PROD.md)
 
-**Report Generated:** 06/27/2026 06:34:00
+**Report Generated:** 06/28/2026 07:07:03
 
 ---
 
@@ -33,18 +33,18 @@
 
 ```json
 {
-  "displayName": "Auto install and restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This is the default behavior for unmanaged devices. Devices are updated quickly, but it increases the risk of accidental data loss caused by an application that does not shutdown properly on restart.",
   "optionValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "value": 2,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "dependentOn": [],
+  "itemId": "device_vendor_msft_policy_config_update_allowautoupdate_2",
+  "displayName": "Auto install and restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This is the default behavior for unmanaged devices. Devices are updated quickly, but it increases the risk of accidental data loss caused by an application that does not shutdown properly on restart.",
   "dependedOnBy": [],
-  "description": "Auto install and restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This is the default behavior for unmanaged devices. Devices are updated quickly, but it increases the risk of accidental data loss caused by an application that does not shutdown properly on restart.",
-  "name": "Auto install and restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This is the default behavior for unmanaged devices. Devices are updated quickly, but it increases the risk of accidental data loss caused by an application that does not shutdown properly on restart.",
   "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_update_allowautoupdate_2"
+  "dependentOn": [],
+  "description": "Auto install and restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This is the default behavior for unmanaged devices. Devices are updated quickly, but it increases the risk of accidental data loss caused by an application that does not shutdown properly on restart.",
+  "name": "Auto install and restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This is the default behavior for unmanaged devices. Devices are updated quickly, but it increases the risk of accidental data loss caused by an application that does not shutdown properly on restart."
 }
 ```
 
@@ -58,18 +58,18 @@
 
 ```json
 {
-  "displayName": "Block",
   "optionValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "dependentOn": [],
+  "itemId": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess_1",
+  "displayName": "Block",
   "dependedOnBy": [],
-  "description": "Enable",
-  "name": "Enable",
   "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess_1"
+  "dependentOn": [],
+  "description": "Enable",
+  "name": "Enable"
 }
 ```
 
@@ -83,8 +83,8 @@
 
 ```json
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "value": 180,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "settingValueTemplateReference": null
 }
 ```
@@ -99,8 +99,8 @@
 
 ```json
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "value": 0,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "settingValueTemplateReference": null
 }
 ```
@@ -115,18 +115,18 @@
 
 ```json
 {
-  "displayName": "Disable Preview builds",
   "optionValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "dependentOn": [],
+  "itemId": "device_vendor_msft_policy_config_update_managepreviewbuilds_0",
+  "displayName": "Disable Preview builds",
   "dependedOnBy": [],
-  "description": "Disable Preview builds",
-  "name": "Disable Preview builds",
   "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_update_managepreviewbuilds_0"
+  "dependentOn": [],
+  "description": "Disable Preview builds",
+  "name": "Disable Preview builds"
 }
 ```
 
@@ -140,18 +140,18 @@
 
 ```json
 {
-  "displayName": "Every day",
   "optionValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null
   },
-  "dependentOn": [],
+  "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_0",
+  "displayName": "Every day",
   "dependedOnBy": [],
-  "description": "Every day",
-  "name": "Every day",
   "helpText": null,
-  "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_0"
+  "dependentOn": [],
+  "description": "Every day",
+  "name": "Every day"
 }
 ```
 
@@ -159,28 +159,32 @@
 ```json
 [
   {
-    "visibility": "settingsCatalog,template",
     "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
     },
-    "offsetUri": "/Config/Update/AllowAutoUpdate",
-    "name": "AllowAutoUpdate",
-    "categoryId": "0e6c9053-73d6-4c56-9147-53513f6eefd8",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "id": "device_vendor_msft_policy_config_update_allowautoupdate",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "helpText": "",
-    "description": "Enables the IT admin to manage automatic update behavior to scan, download, and install updates. Supported operations are Get and Replace. Important. This option should be used only for systems under regulatory compliance, as you will not get security updates as well. If the policy is not configured, end-users get the default behavior (Auto install and restart).",
+    "categoryId": "0e6c9053-73d6-4c56-9147-53513f6eefd8",
     "accessTypes": "add,delete,get,replace",
+    "name": "AllowAutoUpdate",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Update#allowautoupdate"
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_update_allowautoupdate_2",
+    "settingUsage": "configuration",
     "keywords": [
       "Allow Auto Update",
       "Update",
       "Windows Update For Business"
     ],
-    "settingUsage": "configuration",
-    "id": "device_vendor_msft_policy_config_update_allowautoupdate",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Update#allowautoupdate"
-    ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "riskLevel": "low",
+    "displayName": "Allow Auto Update",
+    "uxBehavior": "default",
+    "visibility": "settingsCatalog,template",
     "applicability": {
       "windowsSkus": [
         "windowsEnterprise",
@@ -193,135 +197,135 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "platform": "windows10",
-      "description": null,
       "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null,
       "minimumSupportedVersion": "10.0.10240",
-      "configurationServiceProviderVersion": "1.0",
-      "technologies": "mdm",
+      "platform": "windows10",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "requiredAzureAdTrustType": "none"
+      "configurationServiceProviderVersion": "1.0",
+      "technologies": "mdm"
     },
-    "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_policy_config_update_allowautoupdate",
-    "displayName": "Allow Auto Update",
     "options": [
       {
-        "displayName": "Notify the user before downloading the update. This policy is used by the enterprise who wants to enable the end-users to manage data usage. With this option users are notified when there are updates that apply to the device and are ready for download. Users can download and install the updates from the Windows Update control panel.",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_allowautoupdate_0",
+        "displayName": "Notify the user before downloading the update. This policy is used by the enterprise who wants to enable the end-users to manage data usage. With this option users are notified when there are updates that apply to the device and are ready for download. Users can download and install the updates from the Windows Update control panel.",
         "dependedOnBy": [],
+        "helpText": null,
+        "dependentOn": [],
         "description": "Notify the user before downloading the update. This policy is used by the enterprise who wants to enable the end-users to manage data usage. With this option users are notified when there are updates that apply to the device and are ready for download. Users can download and install the updates from the Windows Update control panel.",
-        "name": "Notify the user before downloading the update. This policy is used by the enterprise who wants to enable the end-users to manage data usage. With this option users are notified when there are updates that apply to the device and are ready for download. Users can download and install the updates from the Windows Update control panel.",
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_allowautoupdate_0"
+        "name": "Notify the user before downloading the update. This policy is used by the enterprise who wants to enable the end-users to manage data usage. With this option users are notified when there are updates that apply to the device and are ready for download. Users can download and install the updates from the Windows Update control panel."
       },
       {
-        "displayName": "Auto install the update and then notify the user to schedule a device restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates immediately. If the installation requires a restart, the end-user is prompted to schedule the restart time. The end-user has up to seven days to schedule the restart and after that, a restart of the device is forced. Enabling the end-user to control the start time reduces the risk of accidental data loss caused by applications that do not shutdown properly on restart.",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_allowautoupdate_1",
+        "displayName": "Auto install the update and then notify the user to schedule a device restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates immediately. If the installation requires a restart, the end-user is prompted to schedule the restart time. The end-user has up to seven days to schedule the restart and after that, a restart of the device is forced. Enabling the end-user to control the start time reduces the risk of accidental data loss caused by applications that do not shutdown properly on restart.",
         "dependedOnBy": [],
+        "helpText": null,
+        "dependentOn": [],
         "description": "Auto install the update and then notify the user to schedule a device restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates immediately. If the installation requires a restart, the end-user is prompted to schedule the restart time. The end-user has up to seven days to schedule the restart and after that, a restart of the device is forced. Enabling the end-user to control the start time reduces the risk of accidental data loss caused by applications that do not shutdown properly on restart.",
-        "name": "Auto install the update and then notify the user to schedule a device restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates immediately. If the installation requires a restart, the end-user is prompted to schedule the restart time. After the update is installed, if the user has not scheduled a restart, the device will attempt to restart automatically. The user will be notified about the scheduled restart and can reschedule it if the proposed time is inconvenient. Enabling the end-user to control the start time reduces the risk of accidental data loss caused by applications that do not shutdown properly on restart.",
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_allowautoupdate_1"
+        "name": "Auto install the update and then notify the user to schedule a device restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates immediately. If the installation requires a restart, the end-user is prompted to schedule the restart time. After the update is installed, if the user has not scheduled a restart, the device will attempt to restart automatically. The user will be notified about the scheduled restart and can reschedule it if the proposed time is inconvenient. Enabling the end-user to control the start time reduces the risk of accidental data loss caused by applications that do not shutdown properly on restart."
       },
       {
-        "displayName": "Auto install and restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This is the default behavior for unmanaged devices. Devices are updated quickly, but it increases the risk of accidental data loss caused by an application that does not shutdown properly on restart.",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 2,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_allowautoupdate_2",
+        "displayName": "Auto install and restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This is the default behavior for unmanaged devices. Devices are updated quickly, but it increases the risk of accidental data loss caused by an application that does not shutdown properly on restart.",
         "dependedOnBy": [],
+        "helpText": null,
+        "dependentOn": [],
         "description": "Auto install and restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This is the default behavior for unmanaged devices. Devices are updated quickly, but it increases the risk of accidental data loss caused by an application that does not shutdown properly on restart.",
-        "name": "Auto install and restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This is the default behavior for unmanaged devices. Devices are updated quickly, but it increases the risk of accidental data loss caused by an application that does not shutdown properly on restart.",
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_allowautoupdate_2"
+        "name": "Auto install and restart. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This is the default behavior for unmanaged devices. Devices are updated quickly, but it increases the risk of accidental data loss caused by an application that does not shutdown properly on restart."
       },
       {
-        "displayName": "Auto install and restart at a specified time. The IT specifies the installation day and time. If no day and time are specified, the default is 3 AM daily. Automatic installation happens at this time and device restart happens after a 15-minute countdown. If the user is logged in when Windows is ready to restart, the user can interrupt the 15-minute countdown to delay the restart.",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 3,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_allowautoupdate_3",
+        "displayName": "Auto install and restart at a specified time. The IT specifies the installation day and time. If no day and time are specified, the default is 3 AM daily. Automatic installation happens at this time and device restart happens after a 15-minute countdown. If the user is logged in when Windows is ready to restart, the user can interrupt the 15-minute countdown to delay the restart.",
         "dependedOnBy": [],
+        "helpText": null,
+        "dependentOn": [],
         "description": "Auto install and restart at a specified time. The IT specifies the installation day and time. If no day and time are specified, the default is 3 AM daily. Automatic installation happens at this time and device restart happens after a 15-minute countdown. If the user is logged in when Windows is ready to restart, the user can interrupt the 15-minute countdown to delay the restart.",
-        "name": "Auto install and restart at a specified time. The IT specifies the installation day and time. If no day and time are specified, the default is 3 AM daily. Automatic installation happens at this time and device restart happens after a 15-minute countdown. If the user is logged in when Windows is ready to restart, the user can interrupt the 15-minute countdown to delay the restart.",
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_allowautoupdate_3"
+        "name": "Auto install and restart at a specified time. The IT specifies the installation day and time. If no day and time are specified, the default is 3 AM daily. Automatic installation happens at this time and device restart happens after a 15-minute countdown. If the user is logged in when Windows is ready to restart, the user can interrupt the 15-minute countdown to delay the restart."
       },
       {
-        "displayName": "Auto install and restart without end-user control. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This setting option also sets the end-user control panel to read-only.",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 4,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_allowautoupdate_4",
+        "displayName": "Auto install and restart without end-user control. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This setting option also sets the end-user control panel to read-only.",
         "dependedOnBy": [],
-        "description": "Auto install and restart without end-user control. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This setting option also sets the end-user control panel to read-only.",
-        "name": "Auto install and restart without end-user control. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This setting option also sets the end-user control panel to read-only.",
         "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_allowautoupdate_4"
+        "dependentOn": [],
+        "description": "Auto install and restart without end-user control. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This setting option also sets the end-user control panel to read-only.",
+        "name": "Auto install and restart without end-user control. Updates are downloaded automatically on non-metered networks and installed during \"Automatic Maintenance\" when the device is not in use and is not running on battery power. If automatic maintenance is unable to install updates for two days, Windows Update will install updates right away. If a restart is required, then the device is automatically restarted when the device is not actively being used. This setting option also sets the end-user control panel to read-only."
       },
       {
-        "displayName": "Turn off automatic updates.",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 5,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_allowautoupdate_5",
+        "displayName": "Turn off automatic updates.",
         "dependedOnBy": [],
-        "description": "Turn off automatic updates.",
-        "name": "Turn off automatic updates.",
         "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_allowautoupdate_5"
+        "dependentOn": [],
+        "description": "Turn off automatic updates.",
+        "name": "Turn off automatic updates."
       }
     ],
-    "riskLevel": "low",
-    "uxBehavior": "default",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_update_allowautoupdate_2",
-    "baseUri": "./Device/Vendor/MSFT/Policy"
+    "offsetUri": "/Config/Update/AllowAutoUpdate",
+    "version": "639174077717488091",
+    "description": "Enables the IT admin to manage automatic update behavior to scan, download, and install updates. Supported operations are Get and Replace. Important. This option should be used only for systems under regulatory compliance, as you will not get security updates as well. If the policy is not configured, end-users get the default behavior (Auto install and restart).",
+    "rootDefinitionId": "device_vendor_msft_policy_config_update_allowautoupdate"
   },
   {
-    "visibility": "settingsCatalog,template",
     "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
     },
-    "offsetUri": "/Config/Update/SetDisablePauseUXAccess",
-    "name": "SetDisablePauseUXAccess",
-    "categoryId": "0e6c9053-73d6-4c56-9147-53513f6eefd8",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "id": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "helpText": "",
-    "description": "This policy allows the IT admin to disable the Pause Updates feature. When this policy is enabled, the user cannot access the Pause updates feature. Value type is integer. Default is 0. Supported values 0, 1.",
+    "categoryId": "0e6c9053-73d6-4c56-9147-53513f6eefd8",
     "accessTypes": "add,delete,get,replace",
+    "name": "SetDisablePauseUXAccess",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Update#setdisablepauseuxaccess"
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess_0",
+    "settingUsage": "configuration",
     "keywords": [
       "Set Disable Pause UX Access",
       "Update",
       "Windows Update For Business"
     ],
-    "settingUsage": "configuration",
-    "id": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Update#setdisablepauseuxaccess"
-    ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "riskLevel": "low",
+    "displayName": "Block \"Pause Updates\" ability",
+    "uxBehavior": "toggle",
+    "visibility": "settingsCatalog,template",
     "applicability": {
       "windowsSkus": [
         "windowsEnterprise",
@@ -335,89 +339,89 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "platform": "windows10",
-      "description": null,
       "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null,
       "minimumSupportedVersion": "10.0.17763",
-      "configurationServiceProviderVersion": "8.0",
-      "technologies": "mdm",
+      "platform": "windows10",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "requiredAzureAdTrustType": "none"
+      "configurationServiceProviderVersion": "8.0",
+      "technologies": "mdm"
     },
-    "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess",
-    "displayName": "Block \"Pause Updates\" ability",
     "options": [
       {
-        "displayName": "Block",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess_1",
+        "displayName": "Block",
         "dependedOnBy": [],
-        "description": "Enable",
-        "name": "Enable",
         "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess_1"
+        "dependentOn": [],
+        "description": "Enable",
+        "name": "Enable"
       },
       {
-        "displayName": "Allow",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess_0",
+        "displayName": "Allow",
         "dependedOnBy": [],
-        "description": "Disable",
-        "name": "Disable",
         "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess_0"
+        "dependentOn": [],
+        "description": "Disable",
+        "name": "Disable"
       }
     ],
-    "riskLevel": "low",
-    "uxBehavior": "toggle",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy"
+    "offsetUri": "/Config/Update/SetDisablePauseUXAccess",
+    "version": "639174077717488091",
+    "description": "This policy allows the IT admin to disable the Pause Updates feature. When this policy is enabled, the user cannot access the Pause updates feature. Value type is integer. Default is 0. Supported values 0, 1.",
+    "rootDefinitionId": "device_vendor_msft_policy_config_update_setdisablepauseuxaccess"
   },
   {
-    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "id": "device_vendor_msft_policy_config_update_deferfeatureupdatesperiodindays",
+    "dependedOnBy": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "helpText": "",
+    "categoryId": "0e6c9053-73d6-4c56-9147-53513f6eefd8",
+    "accessTypes": "add,delete,get,replace",
+    "name": "DeferFeatureUpdatesPeriodInDays",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Update#deferfeatureupdatesperiodindays"
+    ],
     "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
       "value": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
       "settingValueTemplateReference": null
     },
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "minimumValue": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "maximumValue": 365
-    },
-    "offsetUri": "/Config/Update/DeferFeatureUpdatesPeriodInDays",
-    "name": "DeferFeatureUpdatesPeriodInDays",
-    "categoryId": "0e6c9053-73d6-4c56-9147-53513f6eefd8",
-    "helpText": "",
-    "description": "Since this policy is not blocked, you will not get a failure message when you use it to configure a Windows 10 Mobile device. However, the policy will not take effect.  Defers Feature Updates for the specified number of days. Supported values are 0-365 days. Important The default maximum number of days to defer an update has been increased from 180 (Windows 10, version 1607) to 365 in Windows 10, version 1703.",
-    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
     "keywords": [
       "Defer Feature Updates Period In Days",
       "Update",
       "Windows Update For Business"
     ],
-    "settingUsage": "configuration",
-    "id": "device_vendor_msft_policy_config_update_deferfeatureupdatesperiodindays",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Update#deferfeatureupdatesperiodindays"
-    ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "riskLevel": "low",
+    "displayName": "Defer Feature Updates Period In Days",
+    "uxBehavior": "default",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "minimumValue": 0,
+      "maximumValue": 365,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
+    },
     "applicability": {
       "windowsSkus": [
         "windowsEnterprise",
@@ -430,61 +434,61 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "platform": "windows10",
-      "description": null,
       "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null,
       "minimumSupportedVersion": "10.0.14393",
-      "configurationServiceProviderVersion": "4.1",
-      "technologies": "mdm",
+      "platform": "windows10",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "requiredAzureAdTrustType": "none"
+      "configurationServiceProviderVersion": "4.1",
+      "technologies": "mdm"
     },
+    "dependentOn": [],
+    "offsetUri": "/Config/Update/DeferFeatureUpdatesPeriodInDays",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_policy_config_update_deferfeatureupdatesperiodindays",
-    "displayName": "Defer Feature Updates Period In Days",
-    "dependedOnBy": [],
-    "riskLevel": "low",
-    "uxBehavior": "default",
-    "referredSettingInformationList": [],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependentOn": []
+    "description": "Since this policy is not blocked, you will not get a failure message when you use it to configure a Windows 10 Mobile device. However, the policy will not take effect.  Defers Feature Updates for the specified number of days. Supported values are 0-365 days. Important The default maximum number of days to defer an update has been increased from 180 (Windows 10, version 1607) to 365 in Windows 10, version 1703.",
+    "rootDefinitionId": "device_vendor_msft_policy_config_update_deferfeatureupdatesperiodindays"
   },
   {
-    "visibility": "settingsCatalog,template",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "id": "device_vendor_msft_policy_config_update_deferqualityupdatesperiodindays",
+    "dependedOnBy": [],
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "helpText": "",
+    "categoryId": "0e6c9053-73d6-4c56-9147-53513f6eefd8",
+    "accessTypes": "add,delete,get,replace",
+    "name": "DeferQualityUpdatesPeriodInDays",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Update#deferqualityupdatesperiodindays"
+    ],
     "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
       "value": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
       "settingValueTemplateReference": null
     },
-    "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
-    },
-    "valueDefinition": {
-      "minimumValue": 0,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "maximumValue": 30
-    },
-    "offsetUri": "/Config/Update/DeferQualityUpdatesPeriodInDays",
-    "name": "DeferQualityUpdatesPeriodInDays",
-    "categoryId": "0e6c9053-73d6-4c56-9147-53513f6eefd8",
-    "helpText": "",
-    "description": "Defers Quality Updates for the specified number of days. Supported values are 0-30.",
-    "accessTypes": "add,delete,get,replace",
+    "settingUsage": "configuration",
     "keywords": [
       "DeferQualityUpdatesPeriodInDays",
       "Update",
       "Defer Quality Updates Period",
       "Windows Update For Business"
     ],
-    "settingUsage": "configuration",
-    "id": "device_vendor_msft_policy_config_update_deferqualityupdatesperiodindays",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Update#deferqualityupdatesperiodindays"
-    ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "riskLevel": "low",
+    "displayName": "Defer Quality Updates Period (Days)",
+    "uxBehavior": "default",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "minimumValue": 0,
+      "maximumValue": 30,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition"
+    },
     "applicability": {
       "windowsSkus": [
         "windowsEnterprise",
@@ -498,50 +502,50 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "platform": "windows10",
-      "description": null,
       "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null,
       "minimumSupportedVersion": "10.0.14393",
-      "configurationServiceProviderVersion": "4.1",
-      "technologies": "mdm",
+      "platform": "windows10",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "requiredAzureAdTrustType": "none"
+      "configurationServiceProviderVersion": "4.1",
+      "technologies": "mdm"
     },
+    "dependentOn": [],
+    "offsetUri": "/Config/Update/DeferQualityUpdatesPeriodInDays",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_policy_config_update_deferqualityupdatesperiodindays",
-    "displayName": "Defer Quality Updates Period (Days)",
-    "dependedOnBy": [],
-    "riskLevel": "low",
-    "uxBehavior": "default",
-    "referredSettingInformationList": [],
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "dependentOn": []
+    "description": "Defers Quality Updates for the specified number of days. Supported values are 0-30.",
+    "rootDefinitionId": "device_vendor_msft_policy_config_update_deferqualityupdatesperiodindays"
   },
   {
-    "visibility": "settingsCatalog,template",
     "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
     },
-    "offsetUri": "/Config/Update/ManagePreviewBuilds",
-    "name": "ManagePreviewBuilds",
-    "categoryId": "0e6c9053-73d6-4c56-9147-53513f6eefd8",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "id": "device_vendor_msft_policy_config_update_managepreviewbuilds",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "helpText": "",
-    "description": "Used to manage Windows 10 Insider Preview builds. Value type is integer.",
+    "categoryId": "0e6c9053-73d6-4c56-9147-53513f6eefd8",
     "accessTypes": "add,delete,get,replace",
+    "name": "ManagePreviewBuilds",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Update#managepreviewbuilds"
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_update_managepreviewbuilds_3",
+    "settingUsage": "configuration",
     "keywords": [
       "Manage Preview Builds",
       "Update",
       "Windows Update For Business"
     ],
-    "settingUsage": "configuration",
-    "id": "device_vendor_msft_policy_config_update_managepreviewbuilds",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Update#managepreviewbuilds"
-    ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "riskLevel": "low",
+    "displayName": "Manage Preview Builds",
+    "uxBehavior": "default",
+    "visibility": "settingsCatalog,template",
     "applicability": {
       "windowsSkus": [
         "windowsEnterprise",
@@ -554,107 +558,107 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "platform": "windows10",
-      "description": null,
       "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null,
       "minimumSupportedVersion": "10.0.16299",
-      "configurationServiceProviderVersion": "6.0",
-      "technologies": "mdm",
+      "platform": "windows10",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "requiredAzureAdTrustType": "none"
+      "configurationServiceProviderVersion": "6.0",
+      "technologies": "mdm"
     },
-    "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_policy_config_update_managepreviewbuilds",
-    "displayName": "Manage Preview Builds",
     "options": [
       {
-        "displayName": "Disable Preview builds",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_managepreviewbuilds_0",
+        "displayName": "Disable Preview builds",
         "dependedOnBy": [],
+        "helpText": null,
+        "dependentOn": [],
         "description": "Disable Preview builds",
-        "name": "Disable Preview builds",
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_managepreviewbuilds_0"
+        "name": "Disable Preview builds"
       },
       {
-        "displayName": "Disable Preview builds once the next release is public",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_managepreviewbuilds_1",
+        "displayName": "Disable Preview builds once the next release is public",
         "dependedOnBy": [],
+        "helpText": null,
+        "dependentOn": [],
         "description": "Disable Preview builds once the next release is public",
-        "name": "Disable Preview builds once the next release is public",
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_managepreviewbuilds_1"
+        "name": "Disable Preview builds once the next release is public"
       },
       {
-        "displayName": "Enable Preview builds",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 2,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_managepreviewbuilds_2",
+        "displayName": "Enable Preview builds",
         "dependedOnBy": [],
-        "description": "Enable Preview builds",
-        "name": "Enable Preview builds",
         "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_managepreviewbuilds_2"
+        "dependentOn": [],
+        "description": "Enable Preview builds",
+        "name": "Enable Preview builds"
       },
       {
-        "displayName": "Preview builds is left to user selection",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 3,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_managepreviewbuilds_3",
+        "displayName": "Preview builds is left to user selection",
         "dependedOnBy": [],
-        "description": "Preview builds is left to user selection",
-        "name": "Preview builds is left to user selection",
         "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_managepreviewbuilds_3"
+        "dependentOn": [],
+        "description": "Preview builds is left to user selection",
+        "name": "Preview builds is left to user selection"
       }
     ],
-    "riskLevel": "low",
-    "uxBehavior": "default",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_update_managepreviewbuilds_3",
-    "baseUri": "./Device/Vendor/MSFT/Policy"
+    "offsetUri": "/Config/Update/ManagePreviewBuilds",
+    "version": "639174077717488091",
+    "description": "Used to manage Windows 10 Insider Preview builds. Value type is integer.",
+    "rootDefinitionId": "device_vendor_msft_policy_config_update_managepreviewbuilds"
   },
   {
-    "visibility": "settingsCatalog,template",
     "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
     },
-    "offsetUri": "/Config/Update/ScheduledInstallDay",
-    "name": "ScheduledInstallDay",
-    "categoryId": "0e6c9053-73d6-4c56-9147-53513f6eefd8",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "id": "device_vendor_msft_policy_config_update_scheduledinstallday",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "helpText": "",
-    "description": "Enables the IT admin to schedule the day of the update installation. The data type is a integer. Supported operations are Add, Delete, Get, and Replace.",
+    "categoryId": "0e6c9053-73d6-4c56-9147-53513f6eefd8",
     "accessTypes": "add,delete,get,replace",
+    "name": "ScheduledInstallDay",
+    "referredSettingInformationList": [],
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Update#scheduledinstallday"
+    ],
+    "defaultOptionId": "device_vendor_msft_policy_config_update_scheduledinstallday_0",
+    "settingUsage": "configuration",
     "keywords": [
       "Scheduled Install Day",
       "Update",
       "Windows Update For Business"
     ],
-    "settingUsage": "configuration",
-    "id": "device_vendor_msft_policy_config_update_scheduledinstallday",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Update#scheduledinstallday"
-    ],
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "riskLevel": "low",
+    "displayName": "Scheduled Install Day",
+    "uxBehavior": "default",
+    "visibility": "settingsCatalog,template",
     "applicability": {
       "windowsSkus": [
         "windowsEnterprise",
@@ -667,139 +671,135 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "maximumSupportedVersion": null,
-      "platform": "windows10",
-      "description": null,
       "requiresAzureAd": false,
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "description": null,
       "minimumSupportedVersion": "10.0.10240",
-      "configurationServiceProviderVersion": "1.0",
-      "technologies": "mdm",
+      "platform": "windows10",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "requiredAzureAdTrustType": "none"
+      "configurationServiceProviderVersion": "1.0",
+      "technologies": "mdm"
     },
-    "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_policy_config_update_scheduledinstallday",
-    "displayName": "Scheduled Install Day",
     "options": [
       {
-        "displayName": "Every day",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_0",
+        "displayName": "Every day",
         "dependedOnBy": [],
+        "helpText": null,
+        "dependentOn": [],
         "description": "Every day",
-        "name": "Every day",
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_0"
+        "name": "Every day"
       },
       {
-        "displayName": "Sunday",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_1",
+        "displayName": "Sunday",
         "dependedOnBy": [],
+        "helpText": null,
+        "dependentOn": [],
         "description": "Sunday",
-        "name": "Sunday",
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_1"
+        "name": "Sunday"
       },
       {
-        "displayName": "Monday",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 2,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_2",
+        "displayName": "Monday",
         "dependedOnBy": [],
+        "helpText": null,
+        "dependentOn": [],
         "description": "Monday",
-        "name": "Monday",
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_2"
+        "name": "Monday"
       },
       {
-        "displayName": "Tuesday",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 3,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_3",
+        "displayName": "Tuesday",
         "dependedOnBy": [],
+        "helpText": null,
+        "dependentOn": [],
         "description": "Tuesday",
-        "name": "Tuesday",
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_3"
+        "name": "Tuesday"
       },
       {
-        "displayName": "Wednesday",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 4,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_4",
+        "displayName": "Wednesday",
         "dependedOnBy": [],
+        "helpText": null,
+        "dependentOn": [],
         "description": "Wednesday",
-        "name": "Wednesday",
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_4"
+        "name": "Wednesday"
       },
       {
-        "displayName": "Thursday",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 5,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_5",
+        "displayName": "Thursday",
         "dependedOnBy": [],
+        "helpText": null,
+        "dependentOn": [],
         "description": "Thursday",
-        "name": "Thursday",
-        "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_5"
+        "name": "Thursday"
       },
       {
-        "displayName": "Friday",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 6,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_6",
+        "displayName": "Friday",
         "dependedOnBy": [],
-        "description": "Friday",
-        "name": "Friday",
         "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_6"
+        "dependentOn": [],
+        "description": "Friday",
+        "name": "Friday"
       },
       {
-        "displayName": "Saturday",
         "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "value": 7,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
           "settingValueTemplateReference": null
         },
-        "dependentOn": [],
+        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_7",
+        "displayName": "Saturday",
         "dependedOnBy": [],
-        "description": "Saturday",
-        "name": "Saturday",
         "helpText": null,
-        "itemId": "device_vendor_msft_policy_config_update_scheduledinstallday_7"
+        "dependentOn": [],
+        "description": "Saturday",
+        "name": "Saturday"
       }
     ],
-    "riskLevel": "low",
-    "uxBehavior": "default",
-    "referredSettingInformationList": [],
-    "defaultOptionId": "device_vendor_msft_policy_config_update_scheduledinstallday_0",
-    "baseUri": "./Device/Vendor/MSFT/Policy"
+    "offsetUri": "/Config/Update/ScheduledInstallDay",
+    "version": "639174077717488091",
+    "description": "Enables the IT admin to schedule the day of the update installation. The data type is a integer. Supported operations are Add, Delete, Get, and Replace.",
+    "rootDefinitionId": "device_vendor_msft_policy_config_update_scheduledinstallday"
   }
 ]
 ```

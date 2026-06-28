@@ -2,7 +2,7 @@
 
 **Policy ID:** de818a0e-0449-4a2f-be74-063a9694918d
 
-**Report Generated:** 06/27/2026 06:34:07
+**Report Generated:** 06/28/2026 07:07:11
 
 ---
 
@@ -14,8 +14,8 @@
 
 ```json
 {
-  "source": "direct",
   "sourceId": "de818a0e-0449-4a2f-be74-063a9694918d",
+  "source": "direct",
   "id": "de818a0e-0449-4a2f-be74-063a9694918d_adadadad-808e-44e2-905a-0b7873a8a531",
   "target": {
     "deviceAndAppManagementAssignmentFilterType": "none",

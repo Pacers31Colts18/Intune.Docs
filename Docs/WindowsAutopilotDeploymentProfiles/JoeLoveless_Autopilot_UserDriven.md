@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 06/29/2026 08:21:03
+**Report Generated:** 06/30/2026 07:00:04
 
 ---
 
 ```json
 {
-  "description": "",
   "managementServiceAppId": null,
-  "deviceType": "windowsPc",
-  "language": "os-default",
   "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "enrollmentStatusScreenSettings": null,
-  "locale": "os-default",
   "extractHardwareHash": true,
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "outOfBoxExperienceSetting": {
-    "deviceUsageType": "singleUser",
-    "escapeLinkHidden": true,
-    "eulaHidden": true,
-    "userType": "standard",
-    "privacySettingsHidden": true,
-    "keyboardSelectionPageSkipped": true
-  },
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "hardwareHashExtractionEnabled": true,
   "roleScopeTagIds": [
     "0"
   ],
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "deviceType": "windowsPc",
+  "preprovisioningAllowed": false,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "enableWhiteGlove": false,
+  "locale": "os-default",
   "deviceNameTemplate": "JL-%SERIAL%",
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "enrollmentStatusScreenSettings": null,
   "outOfBoxExperienceSettings": {
-    "userType": "standard",
+    "skipKeyboardSelectionPage": true,
     "deviceUsageType": "singleUser",
+    "userType": "standard",
     "hideEULA": true,
     "hidePrivacySettings": true,
-    "hideEscapeLink": true,
-    "skipKeyboardSelectionPage": true
+    "hideEscapeLink": true
   },
-  "hardwareHashExtractionEnabled": true,
-  "preprovisioningAllowed": false,
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
-  "enableWhiteGlove": false,
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity"
+  "language": "os-default",
+  "outOfBoxExperienceSetting": {
+    "deviceUsageType": "singleUser",
+    "keyboardSelectionPageSkipped": true,
+    "eulaHidden": true,
+    "privacySettingsHidden": true,
+    "escapeLinkHidden": true,
+    "userType": "standard"
+  },
+  "description": "",
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z"
 }
 ```
 

@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_DomainName.md)
 
-**Report Generated:** 06/29/2026 08:21:00
+**Report Generated:** 06/30/2026 07:00:01
 
 ---
 
@@ -34,26 +34,26 @@ N/A
 ```json
 {
   "version": "1",
-  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
+  "isGlobalScript": false,
+  "enforceSignatureCheck": false,
   "runAsAccount": "system",
-  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
-  "remediationScriptContent": "",
-  "description": "Outputs the domain name to be used for Azure Automation.",
-  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
-  "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z",
+  "highestAvailableVersion": null,
+  "publisher": " ",
   "runAs32Bit": true,
+  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
+  "detectionScriptParameters": [],
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "remediationScriptParameters": [],
+  "remediationScriptContent": "",
+  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
   "roleScopeTagIds": [
     "0"
   ],
-  "remediationScriptParameters": [],
-  "detectionScriptParameters": [],
+  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
   "deviceHealthScriptType": "deviceHealthScript",
-  "isGlobalScript": false,
-  "highestAvailableVersion": null,
-  "enforceSignatureCheck": false,
-  "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "publisher": " "
+  "description": "Outputs the domain name to be used for Azure Automation.",
+  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
+  "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z"
 }
 ```
 

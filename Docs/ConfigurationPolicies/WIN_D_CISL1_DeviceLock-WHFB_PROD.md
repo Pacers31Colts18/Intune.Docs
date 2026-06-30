@@ -25,7 +25,7 @@
 
 [**Assignments**](./Assignments/WIN_D_CISL1_DeviceLock-WHFB_PROD.md)
 
-**Report Generated:** 06/29/2026 08:20:56
+**Report Generated:** 06/30/2026 06:59:56
 
 ---
 
@@ -40,142 +40,142 @@
 
 ```json
 {
+  "itemId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
   "dependentOn": [],
+  "optionValue": {
+    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "settingValueTemplateReference": null
+  },
+  "helpText": null,
   "dependedOnBy": [
     {
-      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_allowidlereturnwithoutpassword",
-      "required": false
+      "required": false,
+      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_allowidlereturnwithoutpassword"
     },
     {
-      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword",
-      "required": false
+      "required": false,
+      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword"
     },
     {
-      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired",
-      "required": false
+      "required": false,
+      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired"
     },
     {
-      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_devicepasswordexpiration",
-      "required": false
+      "required": false,
+      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_devicepasswordexpiration"
     },
     {
-      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_devicepasswordhistory",
-      "required": false
+      "required": false,
+      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_devicepasswordhistory"
     },
     {
-      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_maxdevicepasswordfailedattempts",
-      "required": false
+      "required": false,
+      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_maxdevicepasswordfailedattempts"
     },
     {
-      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_maxinactivitytimedevicelock",
-      "required": false
+      "required": false,
+      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_maxinactivitytimedevicelock"
     },
     {
-      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters",
-      "required": false
+      "required": false,
+      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters"
     },
     {
-      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_mindevicepasswordlength",
-      "required": false
+      "required": false,
+      "dependedOnBy": "device_vendor_msft_policy_config_devicelock_mindevicepasswordlength"
     }
   ],
-  "helpText": null,
-  "name": "Enabled",
   "displayName": "Enabled",
-  "optionValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null,
-    "value": 0
-  },
   "description": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0"
+  "name": "Enabled"
 }
 ```
 
 #### device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired
 ```json
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-  "auditRuleInformation": null,
-  "settingInstanceTemplateReference": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired",
+  "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
   "choiceSettingValue": {
     "children": [
       {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-        "auditRuleInformation": null,
-        "settingInstanceTemplateReference": null,
         "settingDefinitionId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters",
+        "settingInstanceTemplateReference": null,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
         "choiceSettingValue": {
           "children": [],
-          "settingValueTemplateReference": null,
-          "value": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_2"
-        }
+          "value": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_2",
+          "settingValueTemplateReference": null
+        },
+        "auditRuleInformation": null
       }
     ],
-    "settingValueTemplateReference": null,
-    "value": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_0"
-  }
+    "value": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_0",
+    "settingValueTemplateReference": null
+  },
+  "auditRuleInformation": null
 }
 ```
 
 #### device_vendor_msft_policy_config_devicelock_devicepasswordexpiration
 ```json
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
-  "auditRuleInformation": null,
-  "settingInstanceTemplateReference": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordexpiration",
+  "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
   "simpleSettingValue": {
+    "value": 365,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null,
-    "value": 365
-  }
+    "settingValueTemplateReference": null
+  },
+  "auditRuleInformation": null
 }
 ```
 
 #### device_vendor_msft_policy_config_devicelock_maxdevicepasswordfailedattempts
 ```json
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
-  "auditRuleInformation": null,
-  "settingInstanceTemplateReference": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_devicelock_maxdevicepasswordfailedattempts",
+  "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
   "simpleSettingValue": {
+    "value": 5,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null,
-    "value": 5
-  }
+    "settingValueTemplateReference": null
+  },
+  "auditRuleInformation": null
 }
 ```
 
 #### device_vendor_msft_policy_config_devicelock_maxinactivitytimedevicelock
 ```json
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
-  "auditRuleInformation": null,
-  "settingInstanceTemplateReference": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_devicelock_maxinactivitytimedevicelock",
+  "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
   "simpleSettingValue": {
+    "value": 15,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null,
-    "value": 15
-  }
+    "settingValueTemplateReference": null
+  },
+  "auditRuleInformation": null
 }
 ```
 
 #### device_vendor_msft_policy_config_devicelock_mindevicepasswordlength
 ```json
 {
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
-  "auditRuleInformation": null,
-  "settingInstanceTemplateReference": null,
   "settingDefinitionId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordlength",
+  "settingInstanceTemplateReference": null,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
   "simpleSettingValue": {
+    "value": 14,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null,
-    "value": 14
-  }
+    "settingValueTemplateReference": null
+  },
+  "auditRuleInformation": null
 }
 ```
 
@@ -189,9 +189,9 @@
 
 ```json
 {
+  "value": 1,
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-  "settingValueTemplateReference": null,
-  "value": 1
+  "settingValueTemplateReference": null
 }
 ```
 
@@ -218,18 +218,18 @@ If you disable or do not configure this policy setting, the TPM is still preferr
 
 ```json
 {
+  "itemId": "device_vendor_msft_passportforwork_biometrics_enableesswithsupportedperipherals_1",
   "dependentOn": [],
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "ESS will be enabled on systems with capable software and hardware, following the existing default behavior in Windows. Authentication operations of any peripheral biometric device will be blocked and not available for Windows Hello.",
-  "displayName": "Enhanced sign-in security will be enabled on systems with capable software and hardware, following the existing default behavior in Windows. For systems with one secure modality (face or fingerprint) and one insecure modality (fingerprint or face), only the secure sensor can be used for sign-in and the insecure sensor(s) will be blocked. This includes peripheral devices, which are unsupported and will be unusable. (default and recommended for highest security)",
   "optionValue": {
+    "value": 1,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-    "settingValueTemplateReference": null,
-    "value": 1
+    "settingValueTemplateReference": null
   },
+  "helpText": null,
+  "dependedOnBy": [],
+  "displayName": "Enhanced sign-in security will be enabled on systems with capable software and hardware, following the existing default behavior in Windows. For systems with one secure modality (face or fingerprint) and one insecure modality (fingerprint or face), only the secure sensor can be used for sign-in and the insecure sensor(s) will be blocked. This includes peripheral devices, which are unsupported and will be unusable. (default and recommended for highest security)",
   "description": "Enhanced sign-in security will be enabled on systems with capable software and hardware, following the existing default behavior in Windows. For systems with one secure modality (face or fingerprint) and one insecure modality (fingerprint or face), only the secure sensor can be used for sign-in and the insecure sensor(s) will be blocked. This includes peripheral devices, which are unsupported and will be unusable. (default and recommended for highest security)",
-  "itemId": "device_vendor_msft_passportforwork_biometrics_enableesswithsupportedperipherals_1"
+  "name": "ESS will be enabled on systems with capable software and hardware, following the existing default behavior in Windows. Authentication operations of any peripheral biometric device will be blocked and not available for Windows Hello."
 }
 ```
 
@@ -249,18 +249,18 @@ Note that enhanced anti-spoofing for Windows Hello face authentication is not re
 
 ```json
 {
+  "itemId": "device_vendor_msft_passportforwork_biometrics_facialfeaturesuseenhancedantispoofing_true",
   "dependentOn": [],
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Enabled",
-  "displayName": "true",
   "optionValue": {
+    "value": "true",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-    "settingValueTemplateReference": null,
-    "value": "true"
+    "settingValueTemplateReference": null
   },
+  "helpText": null,
+  "dependedOnBy": [],
+  "displayName": "true",
   "description": "Enabled",
-  "itemId": "device_vendor_msft_passportforwork_biometrics_facialfeaturesuseenhancedantispoofing_true"
+  "name": "Enabled"
 }
 ```
 
@@ -282,39 +282,29 @@ If you do not configure this policy setting, Windows Hello for Business requires
 ```json
 [
   {
+    "settingUsage": "configuration,compliance",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_1",
+    "displayName": "Device Password Enabled",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "DevicePasswordEnabled",
       "DeviceLock",
       "Device Lock"
     ],
-    "displayName": "Device Password Enabled",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "DevicePasswordEnabled",
-    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_1",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "uxBehavior": "toggle",
-    "settingUsage": "configuration,compliance",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#devicepasswordenabled"
     ],
-    "id": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "uxBehavior": "toggle",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
       "description": null,
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -328,131 +318,126 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Specifies whether device lock is enabled.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "options": [
       {
+        "itemId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
         "dependentOn": [],
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "helpText": null,
         "dependedOnBy": [
           {
-            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_allowidlereturnwithoutpassword",
-            "required": false
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_allowidlereturnwithoutpassword"
           },
           {
-            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword",
-            "required": false
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword"
           },
           {
-            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired",
-            "required": false
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired"
           },
           {
-            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_devicepasswordexpiration",
-            "required": false
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_devicepasswordexpiration"
           },
           {
-            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_devicepasswordhistory",
-            "required": false
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_devicepasswordhistory"
           },
           {
-            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_maxdevicepasswordfailedattempts",
-            "required": false
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_maxdevicepasswordfailedattempts"
           },
           {
-            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_maxinactivitytimedevicelock",
-            "required": false
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_maxinactivitytimedevicelock"
           },
           {
-            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters",
-            "required": false
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters"
           },
           {
-            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_mindevicepasswordlength",
-            "required": false
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_mindevicepasswordlength"
           }
         ],
-        "helpText": null,
-        "name": "Enabled",
         "displayName": "Enabled",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 0
-        },
         "description": "Enabled",
-        "itemId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0"
+        "name": "Enabled"
       },
       {
+        "itemId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_1",
         "dependentOn": [],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "displayName": "Disabled",
         "optionValue": {
+          "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 1
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Disabled",
         "description": "Disabled",
-        "itemId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_1"
+        "name": "Disabled"
       }
     ],
-    "offsetUri": "/Config/DeviceLock/DevicePasswordEnabled"
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "description": "Specifies whether device lock is enabled.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/Config/DeviceLock/DevicePasswordEnabled",
+    "id": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "DevicePasswordEnabled"
   },
   {
+    "settingUsage": "configuration,compliance",
+    "riskLevel": "low",
+    "displayName": "Device Password Expiration",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 730,
+      "minimumValue": 0
+    },
+    "dependedOnBy": [],
     "keywords": [
       "Device Password Expiration",
       "Device Lock"
     ],
-    "displayName": "Device Password Expiration",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "DevicePasswordExpiration",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null,
-      "value": 0
-    },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "uxBehavior": "default",
-    "settingUsage": "configuration,compliance",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#devicepasswordexpiration"
     ],
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 0,
-      "maximumValue": 730
-    },
-    "id": "device_vendor_msft_policy_config_devicelock_devicepasswordexpiration",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "version": "639174077717488091",
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
-        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
-      }
-    ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "defaultValue": {
+      "value": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null
+    },
     "applicability": {
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
       "description": null,
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -466,65 +451,65 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
+        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+      }
+    ],
     "description": "Specifies when the password expires (in days). 0 - Passwords do not expire.",
-    "dependedOnBy": [],
     "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/DeviceLock/DevicePasswordExpiration"
+    "helpText": "",
+    "offsetUri": "/Config/DeviceLock/DevicePasswordExpiration",
+    "id": "device_vendor_msft_policy_config_devicelock_devicepasswordexpiration",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "DevicePasswordExpiration"
   },
   {
+    "settingUsage": "configuration,compliance",
+    "riskLevel": "low",
+    "displayName": "Min Device Password Length",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 16,
+      "minimumValue": 4
+    },
+    "dependedOnBy": [],
     "keywords": [
       "Min Device Password Length",
       "Device Lock"
     ],
-    "displayName": "Min Device Password Length",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "MinDevicePasswordLength",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null,
-      "value": 4
-    },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "uxBehavior": "default",
-    "settingUsage": "configuration,compliance",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#mindevicepasswordlength"
     ],
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 4,
-      "maximumValue": 16
-    },
-    "id": "device_vendor_msft_policy_config_devicelock_mindevicepasswordlength",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "version": "639174077717488091",
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
-        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
-      }
-    ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "defaultValue": {
+      "value": 4,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null
+    },
     "applicability": {
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
       "description": null,
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -538,65 +523,65 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
+        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+      }
+    ],
     "description": "Specifies the minimum number or characters required in the PIN or password.",
-    "dependedOnBy": [],
     "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/DeviceLock/MinDevicePasswordLength"
+    "helpText": "",
+    "offsetUri": "/Config/DeviceLock/MinDevicePasswordLength",
+    "id": "device_vendor_msft_policy_config_devicelock_mindevicepasswordlength",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "MinDevicePasswordLength"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "displayName": "Max Device Password Failed Attempts",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 999,
+      "minimumValue": 0
+    },
+    "dependedOnBy": [],
     "keywords": [
       "Max Device Password Failed Attempts",
       "Device Lock"
     ],
-    "displayName": "Max Device Password Failed Attempts",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "MaxDevicePasswordFailedAttempts",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null,
-      "value": 0
-    },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#maxdevicepasswordfailedattempts"
     ],
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 0,
-      "maximumValue": 999
-    },
-    "id": "device_vendor_msft_policy_config_devicelock_maxdevicepasswordfailedattempts",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "version": "639174077717488091",
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
-        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
-      }
-    ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "defaultValue": {
+      "value": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null
+    },
     "applicability": {
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
       "description": null,
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -610,50 +595,55 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
+        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+      }
+    ],
     "description": "On a desktop, when the user reaches the value set by this policy, it is not wiped. Instead, the desktop is put on BitLocker recovery mode, which makes the data inaccessible but recoverable. If BitLocker is not enabled, then the policy cannot be enforced.",
-    "dependedOnBy": [],
     "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/DeviceLock/MaxDevicePasswordFailedAttempts"
+    "helpText": "",
+    "offsetUri": "/Config/DeviceLock/MaxDevicePasswordFailedAttempts",
+    "id": "device_vendor_msft_policy_config_devicelock_maxdevicepasswordfailedattempts",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "MaxDevicePasswordFailedAttempts"
   },
   {
+    "settingUsage": "configuration,compliance",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_2",
+    "displayName": "Alphanumeric Device Password Required",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Alphanumeric Device Password Required",
       "Device Lock"
     ],
-    "displayName": "Alphanumeric Device Password Required",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "AlphanumericDevicePasswordRequired",
-    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_2",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "uxBehavior": "default",
-    "settingUsage": "configuration,compliance",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#alphanumericdevicepasswordrequired"
     ],
-    "id": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
       "description": null,
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -667,113 +657,113 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Determines the type of PIN or password required. This policy only applies if the DeviceLock/DevicePasswordEnabled policy is set to 0",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "options": [
       {
+        "itemId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_0",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
           }
         ],
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
+        "helpText": null,
         "dependedOnBy": [
           {
-            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters",
-            "required": false
+            "required": false,
+            "dependedOnBy": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters"
           }
         ],
-        "helpText": null,
-        "name": "Password or Alphanumeric PIN required.",
         "displayName": "Password or Alphanumeric PIN required.",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 0
-        },
         "description": "Password or Alphanumeric PIN required.",
-        "itemId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_0"
+        "name": "Password or Alphanumeric PIN required."
       },
       {
+        "itemId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_1",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Password or Numeric PIN required.",
+        "dependedOnBy": [],
         "displayName": "Password or Numeric PIN required.",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 1
-        },
         "description": "Password or Numeric PIN required.",
-        "itemId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_1"
+        "name": "Password or Numeric PIN required."
       },
       {
+        "itemId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_2",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Password, Numeric PIN, or Alphanumeric PIN required.",
-        "displayName": "Password, Numeric PIN, or Alphanumeric PIN required.",
         "optionValue": {
+          "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 2
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Password, Numeric PIN, or Alphanumeric PIN required.",
         "description": "Password, Numeric PIN, or Alphanumeric PIN required.",
-        "itemId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired_2"
+        "name": "Password, Numeric PIN, or Alphanumeric PIN required."
       }
     ],
-    "offsetUri": "/Config/DeviceLock/AlphanumericDevicePasswordRequired"
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "description": "Determines the type of PIN or password required. This policy only applies if the DeviceLock/DevicePasswordEnabled policy is set to 0",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/Config/DeviceLock/AlphanumericDevicePasswordRequired",
+    "id": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "AlphanumericDevicePasswordRequired"
   },
   {
+    "settingUsage": "configuration,compliance",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_1",
+    "displayName": "Min Device Password Complex Characters",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Min Device Password Complex Characters",
       "Device Lock"
     ],
-    "displayName": "Min Device Password Complex Characters",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "MinDevicePasswordComplexCharacters",
-    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_1",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "uxBehavior": "default",
-    "settingUsage": "configuration,compliance",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#mindevicepasswordcomplexcharacters"
     ],
-    "id": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
       "description": null,
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -787,16 +777,17 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "The number of complex element types (uppercase and lowercase letters, numbers, and punctuation) required for a strong PIN or password.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "options": [
       {
+        "itemId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_1",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
@@ -807,19 +798,19 @@ If you do not configure this policy setting, Windows Hello for Business requires
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Digits only",
+        "dependedOnBy": [],
         "displayName": "Digits only",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 1
-        },
         "description": "Digits only",
-        "itemId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_1"
+        "name": "Digits only"
       },
       {
+        "itemId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_2",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
@@ -830,19 +821,19 @@ If you do not configure this policy setting, Windows Hello for Business requires
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 2,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Digits and lowercase letters are required",
+        "dependedOnBy": [],
         "displayName": "Digits and lowercase letters are required",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 2
-        },
         "description": "Digits and lowercase letters are required",
-        "itemId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_2"
+        "name": "Digits and lowercase letters are required"
       },
       {
+        "itemId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_3",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
@@ -853,19 +844,19 @@ If you do not configure this policy setting, Windows Hello for Business requires
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 3,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Digits lowercase letters and uppercase letters are required. Not supported in desktop Microsoft accounts and domain accounts",
+        "dependedOnBy": [],
         "displayName": "Digits lowercase letters and uppercase letters are required. Not supported in desktop Microsoft accounts and domain accounts",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 3
-        },
         "description": "Digits lowercase letters and uppercase letters are required. Not supported in desktop Microsoft accounts and domain accounts",
-        "itemId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_3"
+        "name": "Digits lowercase letters and uppercase letters are required. Not supported in desktop Microsoft accounts and domain accounts"
       },
       {
+        "itemId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_4",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
@@ -876,69 +867,63 @@ If you do not configure this policy setting, Windows Hello for Business requires
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_alphanumericdevicepasswordrequired"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Digits lowercase letters uppercase letters and special characters are required. Not supported in desktop",
-        "displayName": "Digits lowercase letters uppercase letters and special characters are required. Not supported in desktop",
         "optionValue": {
+          "value": 4,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 4
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Digits lowercase letters uppercase letters and special characters are required. Not supported in desktop",
         "description": "Digits lowercase letters uppercase letters and special characters are required. Not supported in desktop",
-        "itemId": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters_4"
+        "name": "Digits lowercase letters uppercase letters and special characters are required. Not supported in desktop"
       }
     ],
-    "offsetUri": "/Config/DeviceLock/MinDevicePasswordComplexCharacters"
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "description": "The number of complex element types (uppercase and lowercase letters, numbers, and punctuation) required for a strong PIN or password.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/Config/DeviceLock/MinDevicePasswordComplexCharacters",
+    "id": "device_vendor_msft_policy_config_devicelock_mindevicepasswordcomplexcharacters",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "MinDevicePasswordComplexCharacters"
   },
   {
+    "settingUsage": "configuration,compliance",
+    "riskLevel": "low",
+    "displayName": "Max Inactivity Time Device Lock",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 999,
+      "minimumValue": 0
+    },
+    "dependedOnBy": [],
     "keywords": [
       "Max Inactivity Time Device Lock",
       "Device Lock"
     ],
-    "displayName": "Max Inactivity Time Device Lock",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "MaxInactivityTimeDeviceLock",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null,
-      "value": 0
-    },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "uxBehavior": "default",
-    "settingUsage": "configuration,compliance",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#maxinactivitytimedevicelock"
     ],
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 0,
-      "maximumValue": 999
-    },
-    "id": "device_vendor_msft_policy_config_devicelock_maxinactivitytimedevicelock",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "version": "639174077717488091",
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
-        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
-      }
-    ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "defaultValue": {
+      "value": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null
+    },
     "applicability": {
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
       "description": null,
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -952,122 +937,127 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
+        "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
+      }
+    ],
     "description": "Specifies the maximum amount of time (in minutes) allowed after the device is idle that will cause the device to become PIN or password locked. Users can select any existing timeout value less than the specified maximum time in the Settings app. 0 - No timeout is defined",
-    "dependedOnBy": [],
     "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/DeviceLock/MaxInactivityTimeDeviceLock"
+    "helpText": "",
+    "offsetUri": "/Config/DeviceLock/MaxInactivityTimeDeviceLock",
+    "id": "device_vendor_msft_policy_config_devicelock_maxinactivitytimedevicelock",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "MaxInactivityTimeDeviceLock"
   },
   {
+    "settingUsage": "configuration,compliance",
+    "riskLevel": "low",
+    "displayName": "Device Password History",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 50,
+      "minimumValue": 0
+    },
+    "dependedOnBy": [],
     "keywords": [
       "Device Password History",
       "Device Lock"
     ],
-    "displayName": "Device Password History",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "DevicePasswordHistory",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null,
-      "value": 0
-    },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "uxBehavior": "default",
-    "settingUsage": "configuration,compliance",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#devicepasswordhistory"
     ],
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 0,
-      "maximumValue": 50
-    },
-    "id": "device_vendor_msft_policy_config_devicelock_devicepasswordhistory",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "version": "639174077717488091",
+    "defaultValue": {
+      "value": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null
+    },
+    "applicability": {
+      "description": null,
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "configurationServiceProviderVersion": "1.0",
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
+    },
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
         "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
       }
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
-    "applicability": {
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
-    },
     "description": "Specifies how many passwords can be stored in the history that can’t be used.",
-    "dependedOnBy": [],
     "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/DeviceLock/DevicePasswordHistory"
+    "helpText": "",
+    "offsetUri": "/Config/DeviceLock/DevicePasswordHistory",
+    "id": "device_vendor_msft_policy_config_devicelock_devicepasswordhistory",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "DevicePasswordHistory"
   },
   {
+    "settingUsage": "configuration,compliance",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword_1",
+    "displayName": "Allow Simple Device Password",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Allow Simple Device Password",
       "Device Lock"
     ],
-    "displayName": "Allow Simple Device Password",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "AllowSimpleDevicePassword",
-    "defaultOptionId": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword_1",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "uxBehavior": "default",
-    "settingUsage": "configuration,compliance",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#allowsimpledevicepassword"
     ],
-    "id": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled",
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
       "description": null,
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1081,99 +1071,99 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Specifies whether PINs or passwords such as 1111 or 1234 are allowed. For the desktop, it also controls the use of picture passwords.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "options": [
       {
+        "itemId": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword_0",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not allowed.",
-        "displayName": "Not allowed.",
         "optionValue": {
+          "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 0
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Not allowed.",
         "description": "Not allowed.",
-        "itemId": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword_0"
+        "name": "Not allowed."
       },
       {
+        "itemId": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword_1",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled_0",
             "parentSettingId": "device_vendor_msft_policy_config_devicelock_devicepasswordenabled"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed.",
-        "displayName": "Allowed.",
         "optionValue": {
+          "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 1
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Allowed.",
         "description": "Allowed.",
-        "itemId": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword_1"
+        "name": "Allowed."
       }
     ],
-    "offsetUri": "/Config/DeviceLock/AllowSimpleDevicePassword"
-  },
-  {
-    "keywords": [
-      "Minimum Password Age",
-      "Device Lock"
-    ],
-    "displayName": "Minimum Password Age",
-    "referredSettingInformationList": [],
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "description": "Specifies whether PINs or passwords such as 1111 or 1234 are allowed. For the desktop, it also controls the use of picture passwords.",
+    "accessTypes": "add,delete,get,replace",
     "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "MinimumPasswordAge",
+    "offsetUri": "/Config/DeviceLock/AllowSimpleDevicePassword",
+    "id": "device_vendor_msft_policy_config_devicelock_allowsimpledevicepassword",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null,
-      "value": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "uxBehavior": "default",
+    "name": "AllowSimpleDevicePassword"
+  },
+  {
     "settingUsage": "configuration",
     "riskLevel": "low",
+    "displayName": "Minimum Password Age",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 998,
+      "minimumValue": 0
+    },
+    "dependedOnBy": [],
+    "keywords": [
+      "Minimum Password Age",
+      "Device Lock"
+    ],
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-devicelock#minimumpasswordage"
     ],
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 0,
-      "maximumValue": 998
-    },
-    "id": "device_vendor_msft_policy_config_devicelock_minimumpasswordage",
+    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_minimumpasswordage",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "version": "639174077717488091",
-    "dependentOn": [],
-    "rootDefinitionId": "device_vendor_msft_policy_config_devicelock_minimumpasswordage",
-    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "defaultValue": {
+      "value": 1,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null
+    },
     "applicability": {
-      "minimumSupportedVersion": "10.0.16299",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
       "description": null,
+      "minimumSupportedVersion": "10.0.16299",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1186,51 +1176,51 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "6.0",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "categoryId": "a4fb2510-977f-42ff-9033-6f1eb98f141b",
+    "dependentOn": [],
     "description": "This security setting determines the period of time (in days) that a password must be used before the user can change it. You can set a value between 1 and 998 days, or you can allow changes immediately by setting the number of days to 0.  The minimum password age must be less than the Maximum password age, unless the maximum password age is set to 0, indicating that passwords will never expire. If the maximum password age is set to 0, the minimum password age can be set to any value between 0 and 998.  Configure the minimum password age to be more than 0 if you want Enforce password history to be effective. Without a minimum password age, users can cycle through passwords repeatedly until they get to an old favorite. The default setting does not follow this recommendation, so that an administrator can specify a password for a user and then require the user to change the administrator-defined password when the user logs on. If the password history is set to 0, the user does not have to choose a new password. For this reason, Enforce password history is set to 1 by default.",
-    "dependedOnBy": [],
     "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/Config/DeviceLock/MinimumPasswordAge"
+    "helpText": "",
+    "offsetUri": "/Config/DeviceLock/MinimumPasswordAge",
+    "id": "device_vendor_msft_policy_config_devicelock_minimumpasswordage",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "MinimumPasswordAge"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice_false",
+    "displayName": "Require Security Device",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Require Security Device (Device)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Require Security Device",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "RequireSecurityDevice",
-    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice_false",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1244,105 +1234,100 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "A Trusted Platform Module (TPM) provides additional security benefits over software because data stored within it cannot be used on other devices.\n\nIf you enable this policy setting, only devices with a usable TPM provision Windows Hello for Business.\n\nIf you disable or do not configure this policy setting, the TPM is still preferred, but all devices provision Windows Hello for Business using software if the TPM is non-functional or unavailable.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice_false",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "displayName": "false",
         "optionValue": {
+          "value": "false",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "false"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "false",
         "description": "Disabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice_false"
+        "name": "Disabled"
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice_true",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "displayName": "true",
         "optionValue": {
+          "value": "true",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "true"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "true",
         "description": "Enabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice_true"
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/{0}/Policies/RequireSecurityDevice"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "A Trusted Platform Module (TPM) provides additional security benefits over software because data stored within it cannot be used on other devices.\n\nIf you enable this policy setting, only devices with a usable TPM provision Windows Hello for Business.\n\nIf you disable or do not configure this policy setting, the TPM is still preferred, but all devices provision Windows Hello for Business using software if the TPM is non-functional or unavailable.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/RequireSecurityDevice",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "RequireSecurityDevice"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "displayName": "Maximum PIN Length",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 127,
+      "minimumValue": 4
+    },
+    "dependedOnBy": [],
     "keywords": [
       "Maximum PIN Length (Device)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Maximum PIN Length",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "MaximumPINLength",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null,
-      "value": 127
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 4,
-      "maximumValue": 127
-    },
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_maximumpinlength",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "version": "639174077717488091",
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
-        "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
-      }
-    ],
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "defaultValue": {
+      "value": 127,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null
+    },
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1356,51 +1341,56 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
+        "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
+      }
+    ],
     "description": "Maximum PIN length configures the maximum number of characters allowed for the PIN.  The largest number you can configure for this policy setting is 127. The lowest number you can configure must be larger than the number configured in the Minimum PIN length policy setting or the number 4, whichever is greater.\n\nIf you configure this policy setting, the PIN length must be less than or equal to this number.\n\nIf you do not configure this policy setting, the PIN length must be less than or equal to 127.\n\nNOTE: If the above specified conditions for the maximum PIN length are not met, default values will be used for both the maximum and minimum PIN lengths.",
-    "dependedOnBy": [],
     "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/{0}/Policies/PINComplexity/MaximumPINLength"
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/MaximumPINLength",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_maximumpinlength",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "MaximumPINLength"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_excludesecuritydevices_tpm12_false",
+    "displayName": "Restrict use of TPM 1.2",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "TPM12",
       "Passport For Work",
       "Windows Hello For Business"
     ],
-    "displayName": "Restrict use of TPM 1.2",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "TPM12",
-    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_excludesecuritydevices_tpm12_false",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "toggle",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_excludesecuritydevices_tpm12",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "toggle",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.15063",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
       "description": null,
+      "minimumSupportedVersion": "10.0.15063",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1414,105 +1404,100 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.3",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Some Trusted Platform Modules (TPMs) are only compliant with the older 1.2 revision of the TPM specification defined by the Trusted Computing Group (TCG).\n\nIf you enable this policy setting, TPM revision 1.2 modules will be disallowed from being used with Windows Hello for Business.\n\nIf you disable or do not configure this policy setting, TPM revision 1.2 modules will be allowed to be used with Windows Hello for Business.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_excludesecuritydevices_tpm12_false",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "displayName": "Disabled",
         "optionValue": {
+          "value": "false",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "false"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Disabled",
         "description": "Disabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_excludesecuritydevices_tpm12_false"
+        "name": "Disabled"
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_excludesecuritydevices_tpm12_true",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "displayName": "Enabled",
         "optionValue": {
+          "value": "true",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "true"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Enabled",
         "description": "Enabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_excludesecuritydevices_tpm12_true"
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/{0}/Policies/ExcludeSecurityDevices/TPM12"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Some Trusted Platform Modules (TPMs) are only compliant with the older 1.2 revision of the TPM specification defined by the Trusted Computing Group (TCG).\n\nIf you enable this policy setting, TPM revision 1.2 modules will be disallowed from being used with Windows Hello for Business.\n\nIf you disable or do not configure this policy setting, TPM revision 1.2 modules will be allowed to be used with Windows Hello for Business.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/ExcludeSecurityDevices/TPM12",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_excludesecuritydevices_tpm12",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "TPM12"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "displayName": "PIN History",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 50,
+      "minimumValue": 0
+    },
+    "dependedOnBy": [],
     "keywords": [
       "History (Device)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "PIN History",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "History",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null,
-      "value": 0
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 0,
-      "maximumValue": 50
-    },
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_history",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "version": "639174077717488091",
-    "dependentOn": [
-      {
-        "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
-        "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
-      }
-    ],
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "defaultValue": {
+      "value": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null
+    },
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1526,51 +1511,56 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "dependentOn": [
+      {
+        "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
+        "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
+      }
+    ],
     "description": "This policy specifies the number of past PINs that can be stored in the history that can’t be used. Valid values are 0 to 50 inclusive. If this policy is set to 0, then storage of previous PINs is not required. PIN history is not preserved through PIN reset.",
-    "dependedOnBy": [],
     "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/{0}/Policies/PINComplexity/History"
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/History",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_history",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "History"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_2",
+    "displayName": "Special Characters",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Special Characters (Device)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Special Characters",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "SpecialCharacters",
-    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_2",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1584,109 +1574,109 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Use this policy setting to configure the use of special characters in the Windows Hello for Business PIN gesture.  Valid special characters for Windows Hello for Business PIN gestures include: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ ` { | } ~ .\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one special character in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using special characters in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business does not allow users to use special characters in their PIN.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_0",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Allows the use of special characters in PIN.",
+        "dependedOnBy": [],
         "displayName": "Allows the use of special characters in PIN.",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 0
-        },
         "description": "Allows the use of special characters in PIN.",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_0"
+        "name": "Allows the use of special characters in PIN."
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_1",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Requires the use of at least one special characters in PIN.",
+        "dependedOnBy": [],
         "displayName": "Requires the use of at least one special characters in PIN.",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 1
-        },
         "description": "Requires the use of at least one special characters in PIN.",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_1"
+        "name": "Requires the use of at least one special characters in PIN."
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_2",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Does not allow the use of special characters in PIN.",
-        "displayName": "Does not allow the use of special characters in PIN.",
         "optionValue": {
+          "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 2
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Does not allow the use of special characters in PIN.",
         "description": "Does not allow the use of special characters in PIN.",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_2"
+        "name": "Does not allow the use of special characters in PIN."
       }
     ],
-    "offsetUri": "/{0}/Policies/PINComplexity/SpecialCharacters"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Use this policy setting to configure the use of special characters in the Windows Hello for Business PIN gesture.  Valid special characters for Windows Hello for Business PIN gestures include: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ ` { | } ~ .\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one special character in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using special characters in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business does not allow users to use special characters in their PIN.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/SpecialCharacters",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "SpecialCharacters"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork_true",
+    "displayName": "Use Windows Hello For Business (Device)",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Use Passport For Work (Device)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Use Windows Hello For Business (Device)",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "UsePassportForWork",
-    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork_true",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1700,90 +1690,90 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Windows Hello for Business is an alternative method for signing into Windows using your Active Directory or Azure Active Directory account that can replace passwords, Smart Cards, and Virtual Smart Cards.\n\nIf you enable or do not configure this policy setting, the device provisions Windows Hello for Business for all users.\n\nIf you disable this policy setting, the device does not provision Windows Hello for Business for any user.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork_false",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "displayName": "false",
         "optionValue": {
+          "value": "false",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "false"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "false",
         "description": "Disabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork_false"
+        "name": "Disabled"
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork_true",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "displayName": "true",
         "optionValue": {
+          "value": "true",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "true"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "true",
         "description": "Enabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork_true"
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/{0}/Policies/UsePassportForWork"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Windows Hello for Business is an alternative method for signing into Windows using your Active Directory or Azure Active Directory account that can replace passwords, Smart Cards, and Virtual Smart Cards.\n\nIf you enable or do not configure this policy setting, the device provisions Windows Hello for Business for all users.\n\nIf you disable this policy setting, the device does not provision Windows Hello for Business for any user.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/UsePassportForWork",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "UsePassportForWork"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_usecloudtrustforonpremauth_false",
+    "displayName": "Use Cloud Trust For On Prem Auth",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Use Certificate For On Prem Auth",
       "Passport For Work",
       "Windows Hello For Business"
     ],
-    "displayName": "Use Cloud Trust For On Prem Auth",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "UseCloudTrustForOnPremAuth",
-    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_usecloudtrustforonpremauth_false",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "toggle",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_usecloudtrustforonpremauth",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "toggle",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.19044.1566",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.19044.1566",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1797,90 +1787,90 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.6",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Windows Hello for Business to use Azure AD Kerberos to authenticate to on-premises resources. \n\nIf you enable this policy setting, Windows Hello for Business will use an Azure AD Kerberos ticket to authenticate to on-premises resources.\n\nIf you disable or do not configure this policy setting, Windows Hello for Business will use a key or certificate to authenticate to on-premises resources.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usecloudtrustforonpremauth_false",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "displayName": "Disabled",
         "optionValue": {
+          "value": "false",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "false"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Disabled",
         "description": "Disabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usecloudtrustforonpremauth_false"
+        "name": "Disabled"
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usecloudtrustforonpremauth_true",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "displayName": "Enabled",
         "optionValue": {
+          "value": "true",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "true"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Enabled",
         "description": "Enabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usecloudtrustforonpremauth_true"
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/{0}/Policies/UseCloudTrustForOnPremAuth"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Windows Hello for Business to use Azure AD Kerberos to authenticate to on-premises resources. \n\nIf you enable this policy setting, Windows Hello for Business will use an Azure AD Kerberos ticket to authenticate to on-premises resources.\n\nIf you disable or do not configure this policy setting, Windows Hello for Business will use a key or certificate to authenticate to on-premises resources.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/UseCloudTrustForOnPremAuth",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_usecloudtrustforonpremauth",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "UseCloudTrustForOnPremAuth"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_0",
+    "displayName": "Uppercase Letters",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Uppercase Letters (Device)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Uppercase Letters",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "UppercaseLetters",
-    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_0",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1894,256 +1884,256 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Use this policy setting to configure the use of uppercase letters in the Windows Hello for Business PIN.\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one uppercase letter in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using uppercase letters in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business does not allow users to use uppercase letters in their PIN.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_0",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Allows the use of uppercase letters in PIN.",
+        "dependedOnBy": [],
         "displayName": "Allowed",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 0
-        },
         "description": "Allows the use of uppercase letters in PIN.",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_0"
+        "name": "Allows the use of uppercase letters in PIN."
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_1",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Requires the use of at least one uppercase letters in PIN.",
+        "dependedOnBy": [],
         "displayName": "Required",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 1
-        },
         "description": "Requires the use of at least one uppercase letters in PIN.",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_1"
+        "name": "Requires the use of at least one uppercase letters in PIN."
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_2",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Does not allow the use of uppercase letters in PIN.",
-        "displayName": "Blocked",
         "optionValue": {
+          "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 2
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Blocked",
         "description": "Does not allow the use of uppercase letters in PIN.",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_2"
+        "name": "Does not allow the use of uppercase letters in PIN."
       }
     ],
-    "offsetUri": "/{0}/Policies/PINComplexity/UppercaseLetters"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Use this policy setting to configure the use of uppercase letters in the Windows Hello for Business PIN.\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one uppercase letter in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using uppercase letters in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business does not allow users to use uppercase letters in their PIN.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/UppercaseLetters",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "UppercaseLetters"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "displayName": "Expiration",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 730,
+      "minimumValue": 0
+    },
+    "dependedOnBy": [],
     "keywords": [
       "Expiration (Device)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Expiration",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "Expiration",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null,
-      "value": 0
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 0,
-      "maximumValue": 730
-    },
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_expiration",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "version": "639174077717488091",
+    "defaultValue": {
+      "value": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null
+    },
+    "applicability": {
+      "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "configurationServiceProviderVersion": "1.2",
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
+    },
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
         "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
       }
     ],
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
-    "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
-    },
     "description": "This policy specifies when the PIN expires (in days). Valid values are 0 to 730 inclusive. If this policy is set to 0, then PINs do not expire.",
-    "dependedOnBy": [],
     "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/{0}/Policies/PINComplexity/Expiration"
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/Expiration",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_expiration",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Expiration"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "displayName": "Minimum PIN Length",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 127,
+      "minimumValue": 4
+    },
+    "dependedOnBy": [],
     "keywords": [
       "Minimum PIN Length (Device)",
       "PassportForWork",
       "Complexity",
       "Windows Hello For Business"
     ],
-    "displayName": "Minimum PIN Length",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "MinimumPINLength",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null,
-      "value": 4
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 4,
-      "maximumValue": 127
-    },
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_minimumpinlength",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "version": "639174077717488091",
+    "defaultValue": {
+      "value": 4,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null
+    },
+    "applicability": {
+      "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "configurationServiceProviderVersion": "1.2",
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
+    },
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "dependentOn": [
       {
         "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
         "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
       }
     ],
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
-    "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
-    },
     "description": "Minimum PIN length configures the minimum number of characters required for the PIN.  The lowest number you can configure for this policy setting is 4.  The largest number you can configure must be less than the number configured in the Maximum PIN length policy setting or the number 127, whichever is the lowest.\n\nIf you configure this policy setting, the PIN length must be greater than or equal to this number.\n\nIf you do not configure this policy setting, the PIN length must be greater than or equal to 4.\n\nNOTE: If the above specified conditions for the minimum PIN length are not met, default values will be used for both the maximum and minimum PIN lengths.",
-    "dependedOnBy": [],
     "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/{0}/Policies/PINComplexity/MinimumPINLength"
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/MinimumPINLength",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_minimumpinlength",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "MinimumPINLength"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_remote_useremotepassport_false",
+    "displayName": "Use Remote Passport",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Use Remote Passport",
       "Passport For Work",
       "Windows Hello For Business"
     ],
-    "displayName": "Use Remote Passport",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "UseRemotePassport",
-    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_remote_useremotepassport_false",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "toggle",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_remote_useremotepassport",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "toggle",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2157,90 +2147,90 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Boolean that specifies if phone sign-in can be used with a device. Phone sign-in provides the ability for a portable, registered device to be usable as a companion device for desktop authentication.\n\nDefault value is false. If you enable this setting, a desktop device will allow a registered, companion device to be used as an authentication factor. If you disable this setting, a companion device cannot be used in desktop authentication scenarios.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_remote_useremotepassport_false",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "displayName": "Disabled",
         "optionValue": {
+          "value": "false",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "false"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Disabled",
         "description": "Disabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_remote_useremotepassport_false"
+        "name": "Disabled"
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_remote_useremotepassport_true",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "displayName": "Enabled",
         "optionValue": {
+          "value": "true",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "true"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Enabled",
         "description": "Enabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_remote_useremotepassport_true"
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/{0}/Policies/Remote/UseRemotePassport"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Boolean that specifies if phone sign-in can be used with a device. Phone sign-in provides the ability for a portable, registered device to be usable as a companion device for desktop authentication.\n\nDefault value is false. If you enable this setting, a desktop device will allow a registered, companion device to be used as an authentication factor. If you disable this setting, a companion device cannot be used in desktop authentication scenarios.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/Remote/UseRemotePassport",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_remote_useremotepassport",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "UseRemotePassport"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_usecertificateforonpremauth_false",
+    "displayName": "Use Certificate For On Prem Auth",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Use Certificate For On Prem Auth",
       "Passport For Work",
       "Windows Hello For Business"
     ],
-    "displayName": "Use Certificate For On Prem Auth",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "UseCertificateForOnPremAuth",
-    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_usecertificateforonpremauth_false",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "toggle",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_usecertificateforonpremauth",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "toggle",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2254,90 +2244,90 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Windows Hello for Business can use certificates to authenticate to on-premise resources. \n\nIf you enable this policy setting, Windows Hello for Business will wait until the device has received a certificate payload from the mobile device management server before provisioning a PIN.\n\nIf you disable or do not configure this policy setting, the PIN will be provisioned when the user logs in, without waiting for a certificate payload.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usecertificateforonpremauth_false",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "displayName": "Disabled",
         "optionValue": {
+          "value": "false",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "false"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Disabled",
         "description": "Disabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usecertificateforonpremauth_false"
+        "name": "Disabled"
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usecertificateforonpremauth_true",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "displayName": "Enabled",
         "optionValue": {
+          "value": "true",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "true"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Enabled",
         "description": "Enabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usecertificateforonpremauth_true"
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/{0}/Policies/UseCertificateForOnPremAuth"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Windows Hello for Business can use certificates to authenticate to on-premise resources. \n\nIf you enable this policy setting, Windows Hello for Business will wait until the device has received a certificate payload from the mobile device management server before provisioning a PIN.\n\nIf you disable or do not configure this policy setting, the PIN will be provisioned when the user logs in, without waiting for a certificate payload.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/UseCertificateForOnPremAuth",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_usecertificateforonpremauth",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "UseCertificateForOnPremAuth"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery_false",
+    "displayName": "Enable Pin Recovery",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Enable Pin Recovery (Device)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Enable Pin Recovery",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "EnablePinRecovery",
-    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery_false",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.15063",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.15063",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2351,90 +2341,90 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.3",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "If the user forgets their PIN, it can be changed to a new PIN using the Windows Hello for Business PIN recovery service. This cloud service encrypts a recovery secret which is stored locally on the client, but which can only be decrypted by the cloud service.\n\nIf you enable this policy setting, the PIN recovery secret will be stored on the device and the user will be able to change to a new PIN in case their PIN is forgotten.\n\nIf you disable or do not configure this policy setting, the PIN recovery secret will not be created or stored. If the user's PIN is forgotten, the only way to get a new PIN is by deleting the existing PIN and creating a new one, which will require the user to re-register with any services the old PIN provided access to.\n                ",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery_false",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "displayName": "false",
         "optionValue": {
+          "value": "false",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "false"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "false",
         "description": "Disabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery_false"
+        "name": "Disabled"
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery_true",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "displayName": "true",
         "optionValue": {
+          "value": "true",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "true"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "true",
         "description": "Enabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery_true"
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/{0}/Policies/EnablePinRecovery"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "If the user forgets their PIN, it can be changed to a new PIN using the Windows Hello for Business PIN recovery service. This cloud service encrypts a recovery secret which is stored locally on the client, but which can only be decrypted by the cloud service.\n\nIf you enable this policy setting, the PIN recovery secret will be stored on the device and the user will be able to change to a new PIN in case their PIN is forgotten.\n\nIf you disable or do not configure this policy setting, the PIN recovery secret will not be created or stored. If the user's PIN is forgotten, the only way to get a new PIN is by deleting the existing PIN and creating a new one, which will require the user to re-register with any services the old PIN provided access to.\n                ",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/EnablePinRecovery",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "EnablePinRecovery"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_usehellocertificatesassmartcardcertificates_false",
+    "displayName": "Use Hello Certificates As Smart Card Certificates",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Use Hello Certificates As Smart Card Certificates",
       "Passport For Work",
       "Windows Hello For Business"
     ],
-    "displayName": "Use Hello Certificates As Smart Card Certificates",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "UseHelloCertificatesAsSmartCardCertificates",
-    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_usehellocertificatesassmartcardcertificates_false",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "toggle",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_usehellocertificatesassmartcardcertificates",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "toggle",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.17763",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
       "description": null,
+      "minimumSupportedVersion": "10.0.17763",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2448,62 +2438,186 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.6",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "If you enable this policy setting, applications use Windows Hello for Business certificates as smart card certificates. Biometric factors are unavailable when a user is asked to authorize the use of the certificate's private key. This policy setting is designed to allow compatibility with applications that rely exclusively on smart card certificates.\n\nIf you disable or do not configure this policy setting, applications do not use Windows Hello for Business certificates as smart card certificates, and biometric factors are available when a user is asked to authorize the use of the certificate's private key.\n\nWindows requires a user to lock and unlock their session after changing this setting if the user is currently signed in.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usehellocertificatesassmartcardcertificates_false",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "displayName": "Disabled",
         "optionValue": {
+          "value": "false",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "false"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Disabled",
         "description": "Disabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usehellocertificatesassmartcardcertificates_false"
+        "name": "Disabled"
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usehellocertificatesassmartcardcertificates_true",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "displayName": "Enabled",
         "optionValue": {
+          "value": "true",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "true"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Enabled",
         "description": "Enabled",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_usehellocertificatesassmartcardcertificates_true"
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/{0}/Policies/UseHelloCertificatesAsSmartCardCertificates"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "If you enable this policy setting, applications use Windows Hello for Business certificates as smart card certificates. Biometric factors are unavailable when a user is asked to authorize the use of the certificate's private key. This policy setting is designed to allow compatibility with applications that rely exclusively on smart card certificates.\n\nIf you disable or do not configure this policy setting, applications do not use Windows Hello for Business certificates as smart card certificates, and biometric factors are available when a user is asked to authorize the use of the certificate's private key.\n\nWindows requires a user to lock and unlock their session after changing this setting if the user is currently signed in.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/UseHelloCertificatesAsSmartCardCertificates",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_usehellocertificatesassmartcardcertificates",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "UseHelloCertificatesAsSmartCardCertificates"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "displayName": "Device-scoped settings",
+    "visibility": "settingsCatalog,template",
+    "dependedOnBy": [
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_excludesecuritydevices_tpm12"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_enablewindowshelloprovisioningforsecuritykeys"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_disablepostlogonprovisioning"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_disablepostlogoncredentialcaching"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_usecertificateforonpremauth"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_usecloudtrustforonpremauth"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_minimumpinlength"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_maximumpinlength"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_history"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_expiration"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_remote_useremotepassport"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_usehellocertificatesassmartcardcertificates"
+      }
+    ],
     "keywords": [
       "Tenant Id (Device)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
+    "infoUrls": [],
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
+    "version": "639174077717488091",
+    "applicability": {
+      "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "configurationServiceProviderVersion": "1.2",
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
+    },
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "childIds": [
       "device_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork",
       "device_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice",
@@ -2525,169 +2639,45 @@ If you do not configure this policy setting, Windows Hello for Business requires
       "device_vendor_msft_passportforwork_{tenantid}_policies_remote_useremotepassport",
       "device_vendor_msft_passportforwork_{tenantid}_policies_usehellocertificatesassmartcardcertificates"
     ],
-    "displayName": "Device-scoped settings",
-    "maximumCount": 1,
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "{TenantId}",
     "minimumCount": 0,
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "dependentOn": [],
+    "description": "This policy specifies the Tenant ID in the format of a Globally Unique Identifier (GUID) without curly braces ( { , } ), which will be used as part of Windows Hello for Business provisioning and management.",
+    "accessTypes": "add,delete,get",
+    "helpText": "",
+    "offsetUri": "/{0}",
+    "id": "device_vendor_msft_passportforwork_{tenantid}",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 100
     },
-    "referredSettingInformationList": [],
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
-    "infoUrls": [],
-    "id": "device_vendor_msft_passportforwork_{tenantid}",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
-    "version": "639174077717488091",
-    "dependentOn": [],
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
-    "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
-    },
-    "description": "This policy specifies the Tenant ID in the format of a Globally Unique Identifier (GUID) without curly braces ( { , } ), which will be used as part of Windows Hello for Business provisioning and management.",
-    "dependedOnBy": [
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_excludesecuritydevices_tpm12",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_enablewindowshelloprovisioningforsecuritykeys",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_disablepostlogonprovisioning",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_disablepostlogoncredentialcaching",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_usecertificateforonpremauth",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_usecloudtrustforonpremauth",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_minimumpinlength",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_maximumpinlength",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_history",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_expiration",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_remote_useremotepassport",
-        "required": false
-      },
-      {
-        "dependedOnBy": "device_vendor_msft_passportforwork_{tenantid}_policies_usehellocertificatesassmartcardcertificates",
-        "required": false
-      }
-    ],
-    "accessTypes": "add,delete,get",
-    "offsetUri": "/{0}"
+    "maximumCount": 1,
+    "name": "{TenantId}"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_0",
+    "displayName": "Digits",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Digits",
       "Passport For Work",
       "Windows Hello For Business"
     ],
-    "displayName": "Digits",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "Digits",
-    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_0",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2701,109 +2691,109 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Use this policy setting to configure the use of digits in the Windows Hello for Business PIN.\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one digit in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using digits in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business requires users to use digits in their PIN.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_0",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Allows the use of digits in PIN.",
+        "dependedOnBy": [],
         "displayName": "Allows the use of digits in PIN.",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 0
-        },
         "description": "Allows the use of digits in PIN.",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_0"
+        "name": "Allows the use of digits in PIN."
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_1",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Requires the use of at least one digits in PIN.",
+        "dependedOnBy": [],
         "displayName": "Requires the use of at least one digits in PIN.",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 1
-        },
         "description": "Requires the use of at least one digits in PIN.",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_1"
+        "name": "Requires the use of at least one digits in PIN."
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_2",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Does not allow the use of digits in PIN.",
-        "displayName": "Does not allow the use of digits in PIN.",
         "optionValue": {
+          "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 2
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Does not allow the use of digits in PIN.",
         "description": "Does not allow the use of digits in PIN.",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_2"
+        "name": "Does not allow the use of digits in PIN."
       }
     ],
-    "offsetUri": "/{0}/Policies/PINComplexity/Digits"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Use this policy setting to configure the use of digits in the Windows Hello for Business PIN.\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one digit in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using digits in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business requires users to use digits in their PIN.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/Digits",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Digits"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_0",
+    "displayName": "Lowercase Letters",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Lowercase Letters (Device)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Lowercase Letters",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "LowercaseLetters",
-    "defaultOptionId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_0",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2817,109 +2807,109 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Use this policy setting to configure the use of lowercase letters in the Windows Hello for Business PIN.\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one lowercase letter in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using lowercase letters in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business does not allow users to use lowercase letters in their PIN.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_0",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Allows the use of lowercase letters in PIN.",
+        "dependedOnBy": [],
         "displayName": "Allowed",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 0
-        },
         "description": "Allows the use of lowercase letters in PIN.",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_0"
+        "name": "Allows the use of lowercase letters in PIN."
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_1",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Requires the use of at least one lowercase letters in PIN.",
+        "dependedOnBy": [],
         "displayName": "Required",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 1
-        },
         "description": "Requires the use of at least one lowercase letters in PIN.",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_1"
+        "name": "Requires the use of at least one lowercase letters in PIN."
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_2",
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "device_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Does not allow the use of lowercase letters in PIN.",
-        "displayName": "Blocked",
         "optionValue": {
+          "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 2
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Blocked",
         "description": "Does not allow the use of lowercase letters in PIN.",
-        "itemId": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_2"
+        "name": "Does not allow the use of lowercase letters in PIN."
       }
     ],
-    "offsetUri": "/{0}/Policies/PINComplexity/LowercaseLetters"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Use this policy setting to configure the use of lowercase letters in the Windows Hello for Business PIN.\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one lowercase letter in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using lowercase letters in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business does not allow users to use lowercase letters in their PIN.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/LowercaseLetters",
+    "id": "device_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "LowercaseLetters"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_passportforwork_biometrics_enableesswithsupportedperipherals_1",
+    "displayName": "Enable ESS with Supported Peripherals",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Enable ESS with Supported Peripherals",
       "Passport For Work",
       "Windows Hello For Business"
     ],
-    "displayName": "Enable ESS with Supported Peripherals",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "EnableESSwithSupportedPeripherals",
-    "defaultOptionId": "device_vendor_msft_passportforwork_biometrics_enableesswithsupportedperipherals_1",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "device_vendor_msft_passportforwork_biometrics_enableesswithsupportedperipherals",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_biometrics_enableesswithsupportedperipherals",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_passportforwork_biometrics_enableesswithsupportedperipherals",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.22621",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm",
       "description": null,
+      "minimumSupportedVersion": "10.0.22621",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2933,80 +2923,80 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.3",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Enhanced Sign-in Security (ESS) isolates both biometric template data and matching operations to trusted hardware or specified memory regions, meaning the rest of the operating system cannot access or tamper with them. Because the channel of communication between the sensors and the algorithm is also secured, it is impossible for malware to inject or replay data in order to simulate a user signing in or to lock a user out of their machine.\r\n ",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "device_vendor_msft_passportforwork_biometrics_enableesswithsupportedperipherals_0",
         "dependentOn": [],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "ESS will be disabled on systems with capable software and hardware. Authentication operations of peripheral Windows Hello capable devices will be allowed, subject to current feature limitations.",
-        "displayName": "Enhanced sign-in security will be disabled on all systems. If a user already has a secure Windows Hello enrollment, they will lose their enrollment and must reset PIN, and they will have the option to re-enroll in normal face and fingerprint. Peripheral usage will be enabled by disabling Enhanced sign-in security. OS will not attempt to start secure components, even if the secure hardware and software components are present. (not recommended)",
         "optionValue": {
+          "value": 0,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 0
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Enhanced sign-in security will be disabled on all systems. If a user already has a secure Windows Hello enrollment, they will lose their enrollment and must reset PIN, and they will have the option to re-enroll in normal face and fingerprint. Peripheral usage will be enabled by disabling Enhanced sign-in security. OS will not attempt to start secure components, even if the secure hardware and software components are present. (not recommended)",
         "description": "Enhanced sign-in security will be disabled on all systems. If a user already has a secure Windows Hello enrollment, they will lose their enrollment and must reset PIN, and they will have the option to re-enroll in normal face and fingerprint. Peripheral usage will be enabled by disabling Enhanced sign-in security. OS will not attempt to start secure components, even if the secure hardware and software components are present. (not recommended)",
-        "itemId": "device_vendor_msft_passportforwork_biometrics_enableesswithsupportedperipherals_0"
+        "name": "ESS will be disabled on systems with capable software and hardware. Authentication operations of peripheral Windows Hello capable devices will be allowed, subject to current feature limitations."
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_biometrics_enableesswithsupportedperipherals_1",
         "dependentOn": [],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "ESS will be enabled on systems with capable software and hardware, following the existing default behavior in Windows. Authentication operations of any peripheral biometric device will be blocked and not available for Windows Hello.",
-        "displayName": "Enhanced sign-in security will be enabled on systems with capable software and hardware, following the existing default behavior in Windows. For systems with one secure modality (face or fingerprint) and one insecure modality (fingerprint or face), only the secure sensor can be used for sign-in and the insecure sensor(s) will be blocked. This includes peripheral devices, which are unsupported and will be unusable. (default and recommended for highest security)",
         "optionValue": {
+          "value": 1,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 1
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Enhanced sign-in security will be enabled on systems with capable software and hardware, following the existing default behavior in Windows. For systems with one secure modality (face or fingerprint) and one insecure modality (fingerprint or face), only the secure sensor can be used for sign-in and the insecure sensor(s) will be blocked. This includes peripheral devices, which are unsupported and will be unusable. (default and recommended for highest security)",
         "description": "Enhanced sign-in security will be enabled on systems with capable software and hardware, following the existing default behavior in Windows. For systems with one secure modality (face or fingerprint) and one insecure modality (fingerprint or face), only the secure sensor can be used for sign-in and the insecure sensor(s) will be blocked. This includes peripheral devices, which are unsupported and will be unusable. (default and recommended for highest security)",
-        "itemId": "device_vendor_msft_passportforwork_biometrics_enableesswithsupportedperipherals_1"
+        "name": "ESS will be enabled on systems with capable software and hardware, following the existing default behavior in Windows. Authentication operations of any peripheral biometric device will be blocked and not available for Windows Hello."
       }
     ],
-    "offsetUri": "/Biometrics/EnableESSwithSupportedPeripherals"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Enhanced Sign-in Security (ESS) isolates both biometric template data and matching operations to trusted hardware or specified memory regions, meaning the rest of the operating system cannot access or tamper with them. Because the channel of communication between the sensors and the algorithm is also secured, it is impossible for malware to inject or replay data in order to simulate a user signing in or to lock a user out of their machine.\r\n ",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/Biometrics/EnableESSwithSupportedPeripherals",
+    "id": "device_vendor_msft_passportforwork_biometrics_enableesswithsupportedperipherals",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "EnableESSwithSupportedPeripherals"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_passportforwork_biometrics_facialfeaturesuseenhancedantispoofing_false",
+    "displayName": "Facial Features Use Enhanced Anti Spoofing",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Facial Features Use Enhanced Anti Spoofing (Device)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Facial Features Use Enhanced Anti Spoofing",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "FacialFeaturesUseEnhancedAntiSpoofing",
-    "defaultOptionId": "device_vendor_msft_passportforwork_biometrics_facialfeaturesuseenhancedantispoofing_false",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "device_vendor_msft_passportforwork_biometrics_facialfeaturesuseenhancedantispoofing",
+    "rootDefinitionId": "device_vendor_msft_passportforwork_biometrics_facialfeaturesuseenhancedantispoofing",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "device_vendor_msft_passportforwork_biometrics_facialfeaturesuseenhancedantispoofing",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3020,80 +3010,80 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "This setting determines whether enhanced anti-spoofing is required for Windows Hello face authentication.\n\nIf you enable this setting, Windows requires all users on managed devices to use enhanced anti-spoofing for Windows Hello face authentication. This disables Windows Hello face authentication on devices that do not support enhanced anti-spoofing.\n\nIf you disable or do not configure this setting, Windows doesn't require enhanced anti-spoofing for Windows Hello face authentication.\n\nNote that enhanced anti-spoofing for Windows Hello face authentication is not required on unmanaged devices.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./Device/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "device_vendor_msft_passportforwork_biometrics_facialfeaturesuseenhancedantispoofing_false",
         "dependentOn": [],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "displayName": "false",
         "optionValue": {
+          "value": "false",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "false"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "false",
         "description": "Disabled",
-        "itemId": "device_vendor_msft_passportforwork_biometrics_facialfeaturesuseenhancedantispoofing_false"
+        "name": "Disabled"
       },
       {
+        "itemId": "device_vendor_msft_passportforwork_biometrics_facialfeaturesuseenhancedantispoofing_true",
         "dependentOn": [],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "displayName": "true",
         "optionValue": {
+          "value": "true",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "true"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "true",
         "description": "Enabled",
-        "itemId": "device_vendor_msft_passportforwork_biometrics_facialfeaturesuseenhancedantispoofing_true"
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/Biometrics/FacialFeaturesUseEnhancedAntiSpoofing"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "This setting determines whether enhanced anti-spoofing is required for Windows Hello face authentication.\n\nIf you enable this setting, Windows requires all users on managed devices to use enhanced anti-spoofing for Windows Hello face authentication. This disables Windows Hello face authentication on devices that do not support enhanced anti-spoofing.\n\nIf you disable or do not configure this setting, Windows doesn't require enhanced anti-spoofing for Windows Hello face authentication.\n\nNote that enhanced anti-spoofing for Windows Hello face authentication is not required on unmanaged devices.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/Biometrics/FacialFeaturesUseEnhancedAntiSpoofing",
+    "id": "device_vendor_msft_passportforwork_biometrics_facialfeaturesuseenhancedantispoofing",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "FacialFeaturesUseEnhancedAntiSpoofing"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_0",
+    "displayName": "Digits (User)",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Digits",
       "Passport For Work",
       "Windows Hello For Business"
     ],
-    "displayName": "Digits (User)",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "Digits",
-    "defaultOptionId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_0",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./User/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits",
+    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3107,109 +3097,109 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Use this policy setting to configure the use of digits in the Windows Hello for Business PIN.\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one digit in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using digits in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business requires users to use digits in their PIN.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./User/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_0",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Allows the use of digits in PIN.",
+        "dependedOnBy": [],
         "displayName": "Allows the use of digits in PIN.",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 0
-        },
         "description": "Allows the use of digits in PIN.",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_0"
+        "name": "Allows the use of digits in PIN."
       },
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_1",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Requires the use of at least one digits in PIN.",
+        "dependedOnBy": [],
         "displayName": "Requires the use of at least one digits in PIN.",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 1
-        },
         "description": "Requires the use of at least one digits in PIN.",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_1"
+        "name": "Requires the use of at least one digits in PIN."
       },
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_2",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Does not allow the use of digits in PIN.",
-        "displayName": "Does not allow the use of digits in PIN.",
         "optionValue": {
+          "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 2
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Does not allow the use of digits in PIN.",
         "description": "Does not allow the use of digits in PIN.",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits_2"
+        "name": "Does not allow the use of digits in PIN."
       }
     ],
-    "offsetUri": "/{0}/Policies/PINComplexity/Digits"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Use this policy setting to configure the use of digits in the Windows Hello for Business PIN.\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one digit in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using digits in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business requires users to use digits in their PIN.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/Digits",
+    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Digits"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_2",
+    "displayName": "Special Characters (User)",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Special Characters (User)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Special Characters (User)",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "SpecialCharacters",
-    "defaultOptionId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_2",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./User/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters",
+    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3223,124 +3213,119 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Use this policy setting to configure the use of special characters in the Windows Hello for Business PIN gesture.  Valid special characters for Windows Hello for Business PIN gestures include: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ ` { | } ~ .\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one special character in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using special characters in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business does not allow users to use special characters in their PIN.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./User/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_0",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Allows the use of special characters in PIN.",
+        "dependedOnBy": [],
         "displayName": "Allows the use of special characters in PIN.",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 0
-        },
         "description": "Allows the use of special characters in PIN.",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_0"
+        "name": "Allows the use of special characters in PIN."
       },
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_1",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Requires the use of at least one special characters in PIN.",
+        "dependedOnBy": [],
         "displayName": "Requires the use of at least one special characters in PIN.",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 1
-        },
         "description": "Requires the use of at least one special characters in PIN.",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_1"
+        "name": "Requires the use of at least one special characters in PIN."
       },
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_2",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Does not allow the use of special characters in PIN.",
-        "displayName": "Does not allow the use of special characters in PIN.",
         "optionValue": {
+          "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 2
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Does not allow the use of special characters in PIN.",
         "description": "Does not allow the use of special characters in PIN.",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters_2"
+        "name": "Does not allow the use of special characters in PIN."
       }
     ],
-    "offsetUri": "/{0}/Policies/PINComplexity/SpecialCharacters"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Use this policy setting to configure the use of special characters in the Windows Hello for Business PIN gesture.  Valid special characters for Windows Hello for Business PIN gestures include: ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ ` { | } ~ .\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one special character in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using special characters in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business does not allow users to use special characters in their PIN.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/SpecialCharacters",
+    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "SpecialCharacters"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "displayName": "Maximum PIN Length (User)",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 127,
+      "minimumValue": 4
+    },
+    "dependedOnBy": [],
     "keywords": [
       "Maximum PIN Length (User)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Maximum PIN Length (User)",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "MaximumPINLength",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null,
-      "value": 127
-    },
-    "baseUri": "./User/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 4,
-      "maximumValue": 127
-    },
-    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_maximumpinlength",
+    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "version": "639174077717488091",
-    "dependentOn": [
-      {
-        "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
-        "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
-      }
-    ],
-    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "defaultValue": {
+      "value": 127,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null
+    },
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3354,66 +3339,66 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
+    "referredSettingInformationList": [],
+    "baseUri": "./User/Vendor/MSFT/PassportForWork",
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "dependentOn": [
+      {
+        "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
+        "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
+      }
+    ],
     "description": "Maximum PIN length configures the maximum number of characters allowed for the PIN.  The largest number you can configure for this policy setting is 127. The lowest number you can configure must be larger than the number configured in the Minimum PIN length policy setting or the number 4, whichever is greater.\n\nIf you configure this policy setting, the PIN length must be less than or equal to this number.\n\nIf you do not configure this policy setting, the PIN length must be less than or equal to 127.\n\nNOTE: If the above specified conditions for the maximum PIN length are not met, default values will be used for both the maximum and minimum PIN lengths.",
-    "dependedOnBy": [],
     "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/{0}/Policies/PINComplexity/MaximumPINLength"
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/MaximumPINLength",
+    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_maximumpinlength",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "MaximumPINLength"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "displayName": "Expiration (User)",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 730,
+      "minimumValue": 0
+    },
+    "dependedOnBy": [],
     "keywords": [
       "Expiration (User)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Expiration (User)",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "Expiration",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null,
-      "value": 0
-    },
-    "baseUri": "./User/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 0,
-      "maximumValue": 730
-    },
-    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_expiration",
+    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "version": "639174077717488091",
-    "dependentOn": [
-      {
-        "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
-        "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
-      }
-    ],
-    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "defaultValue": {
+      "value": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null
+    },
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3427,124 +3412,129 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
+    "referredSettingInformationList": [],
+    "baseUri": "./User/Vendor/MSFT/PassportForWork",
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "dependentOn": [
+      {
+        "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
+        "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
+      }
+    ],
     "description": "This policy specifies when the PIN expires (in days). Valid values are 0 to 730 inclusive. If this policy is set to 0, then PINs do not expire.",
-    "dependedOnBy": [],
     "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/{0}/Policies/PINComplexity/Expiration"
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/Expiration",
+    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_expiration",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "Expiration"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "displayName": "PIN History (User)",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 50,
+      "minimumValue": 0
+    },
+    "dependedOnBy": [],
     "keywords": [
       "History (User)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "PIN History (User)",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "History",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null,
-      "value": 0
-    },
-    "baseUri": "./User/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 0,
-      "maximumValue": 50
-    },
-    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_history",
+    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "version": "639174077717488091",
+    "defaultValue": {
+      "value": 0,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null
+    },
+    "applicability": {
+      "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "configurationServiceProviderVersion": "1.2",
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
+    },
+    "referredSettingInformationList": [],
+    "baseUri": "./User/Vendor/MSFT/PassportForWork",
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "dependentOn": [
       {
         "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
         "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
       }
     ],
-    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
-    "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
-    },
     "description": "This policy specifies the number of past PINs that can be stored in the history that can’t be used. Valid values are 0 to 50 inclusive. If this policy is set to 0, then storage of previous PINs is not required. PIN history is not preserved through PIN reset.",
-    "dependedOnBy": [],
     "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/{0}/Policies/PINComplexity/History"
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/History",
+    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_history",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "History"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "user_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery_false",
+    "displayName": "Enable Pin Recovery (User)",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Enable Pin Recovery (User)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Enable Pin Recovery (User)",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "EnablePinRecovery",
-    "defaultOptionId": "user_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery_false",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./User/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery",
+    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.15063",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.15063",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3558,106 +3548,101 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.3",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "If the user forgets their PIN, it can be changed to a new PIN using the Windows Hello for Business PIN recovery service. This cloud service encrypts a recovery secret which is stored locally on the client, but which can only be decrypted by the cloud service.\n\nIf you enable this policy setting, the PIN recovery secret will be stored on the device and the user will be able to change to a new PIN in case their PIN is forgotten.\n\nIf you disable or do not configure this policy setting, the PIN recovery secret will not be created or stored. If the user's PIN is forgotten, the only way to get a new PIN is by deleting the existing PIN and creating a new one, which will require the user to re-register with any services the old PIN provided access to.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./User/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery_false",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "displayName": "false",
         "optionValue": {
+          "value": "false",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "false"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "false",
         "description": "Disabled",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery_false"
+        "name": "Disabled"
       },
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery_true",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "displayName": "true",
         "optionValue": {
+          "value": "true",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "true"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "true",
         "description": "Enabled",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery_true"
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/{0}/Policies/EnablePinRecovery"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "If the user forgets their PIN, it can be changed to a new PIN using the Windows Hello for Business PIN recovery service. This cloud service encrypts a recovery secret which is stored locally on the client, but which can only be decrypted by the cloud service.\n\nIf you enable this policy setting, the PIN recovery secret will be stored on the device and the user will be able to change to a new PIN in case their PIN is forgotten.\n\nIf you disable or do not configure this policy setting, the PIN recovery secret will not be created or stored. If the user's PIN is forgotten, the only way to get a new PIN is by deleting the existing PIN and creating a new one, which will require the user to re-register with any services the old PIN provided access to.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/EnablePinRecovery",
+    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "EnablePinRecovery"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "displayName": "Minimum PIN Length (User)",
+    "visibility": "settingsCatalog,template",
+    "valueDefinition": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "maximumValue": 127,
+      "minimumValue": 4
+    },
+    "dependedOnBy": [],
     "keywords": [
       "Minimum PIN Length (User)",
       "PassportForWork",
       "complexity",
       "Windows Hello For Business"
     ],
-    "displayName": "Minimum PIN Length (User)",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "MinimumPINLength",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "defaultValue": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-      "settingValueTemplateReference": null,
-      "value": 4
-    },
-    "baseUri": "./User/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "valueDefinition": {
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
-      "minimumValue": 4,
-      "maximumValue": 127
-    },
-    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_minimumpinlength",
+    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "version": "639174077717488091",
-    "dependentOn": [
-      {
-        "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
-        "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
-      }
-    ],
-    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "defaultValue": {
+      "value": 4,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null
+    },
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3671,23 +3656,120 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
+    "referredSettingInformationList": [],
+    "baseUri": "./User/Vendor/MSFT/PassportForWork",
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "dependentOn": [
+      {
+        "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
+        "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
+      }
+    ],
     "description": "Minimum PIN length configures the minimum number of characters required for the PIN.  The lowest number you can configure for this policy setting is 4.  The largest number you can configure must be less than the number configured in the Maximum PIN length policy setting or the number 127, whichever is the lowest.\n\nIf you configure this policy setting, the PIN length must be greater than or equal to this number.\n\nIf you do not configure this policy setting, the PIN length must be greater than or equal to 4.\n\nNOTE: If the above specified conditions for the minimum PIN length are not met, default values will be used for both the maximum and minimum PIN lengths.",
-    "dependedOnBy": [],
     "accessTypes": "add,delete,get,replace",
-    "offsetUri": "/{0}/Policies/PINComplexity/MinimumPINLength"
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/MinimumPINLength",
+    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_minimumpinlength",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "MinimumPINLength"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "displayName": "User-scoped settings",
+    "visibility": "settingsCatalog,template",
+    "dependedOnBy": [
+      {
+        "required": false,
+        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_minimumpinlength"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_maximumpinlength"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_history"
+      },
+      {
+        "required": false,
+        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_expiration"
+      }
+    ],
     "keywords": [
       "Tenant Id (User)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
+    "infoUrls": [],
+    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
+    "version": "639174077717488091",
+    "applicability": {
+      "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "holographicForBusiness",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "configurationServiceProviderVersion": "1.2",
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
+    },
+    "referredSettingInformationList": [],
+    "baseUri": "./User/Vendor/MSFT/PassportForWork",
     "childIds": [
       "user_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork",
       "user_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice",
@@ -3701,137 +3783,45 @@ If you do not configure this policy setting, Windows Hello for Business requires
       "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_history",
       "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_expiration"
     ],
-    "displayName": "User-scoped settings",
-    "maximumCount": 1,
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "{TenantId}",
     "minimumCount": 0,
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "dependentOn": [],
+    "description": "This policy specifies the Tenant ID in the format of a Globally Unique Identifier (GUID) without curly braces ( { , } ), which will be used as part of Windows Hello for Business provisioning and management.",
+    "accessTypes": "add,delete,get",
+    "helpText": "",
+    "offsetUri": "/{0}",
+    "id": "user_vendor_msft_passportforwork_{tenantid}",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 100
     },
-    "referredSettingInformationList": [],
-    "baseUri": "./User/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
-    "infoUrls": [],
-    "id": "user_vendor_msft_passportforwork_{tenantid}",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
-    "version": "639174077717488091",
-    "dependentOn": [],
-    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
-    "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
-      "description": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "holographicForBusiness",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
-    },
-    "description": "This policy specifies the Tenant ID in the format of a Globally Unique Identifier (GUID) without curly braces ( { , } ), which will be used as part of Windows Hello for Business provisioning and management.",
-    "dependedOnBy": [
-      {
-        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork",
-        "required": false
-      },
-      {
-        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice",
-        "required": false
-      },
-      {
-        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_enablepinrecovery",
-        "required": false
-      },
-      {
-        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_minimumpinlength",
-        "required": false
-      },
-      {
-        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_maximumpinlength",
-        "required": false
-      },
-      {
-        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters",
-        "required": false
-      },
-      {
-        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters",
-        "required": false
-      },
-      {
-        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_specialcharacters",
-        "required": false
-      },
-      {
-        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_digits",
-        "required": false
-      },
-      {
-        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_history",
-        "required": false
-      },
-      {
-        "dependedOnBy": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_expiration",
-        "required": false
-      }
-    ],
-    "accessTypes": "add,delete,get",
-    "offsetUri": "/{0}"
+    "maximumCount": 1,
+    "name": "{TenantId}"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "user_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice_false",
+    "displayName": "Require Security Device (User)",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Require Security Device (User)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Require Security Device (User)",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "RequireSecurityDevice",
-    "defaultOptionId": "user_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice_false",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./User/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice",
+    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3845,90 +3835,90 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "A Trusted Platform Module (TPM) provides additional security benefits over software because data stored within it cannot be used on other devices.\n\nIf you enable this policy setting, only devices with a usable TPM provision Windows Hello for Business.\n\nIf you disable or do not configure this policy setting, the TPM is still preferred, but all devices provision Windows Hello for Business using software if the TPM is non-functional or unavailable.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./User/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice_false",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "displayName": "false",
         "optionValue": {
+          "value": "false",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "false"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "false",
         "description": "Disabled",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice_false"
+        "name": "Disabled"
       },
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice_true",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "displayName": "true",
         "optionValue": {
+          "value": "true",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "true"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "true",
         "description": "Enabled",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice_true"
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/{0}/Policies/RequireSecurityDevice"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "A Trusted Platform Module (TPM) provides additional security benefits over software because data stored within it cannot be used on other devices.\n\nIf you enable this policy setting, only devices with a usable TPM provision Windows Hello for Business.\n\nIf you disable or do not configure this policy setting, the TPM is still preferred, but all devices provision Windows Hello for Business using software if the TPM is non-functional or unavailable.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/RequireSecurityDevice",
+    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_requiresecuritydevice",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "RequireSecurityDevice"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_0",
+    "displayName": "Uppercase Letters (User)",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Uppercase Letters (User)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Uppercase Letters (User)",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "UppercaseLetters",
-    "defaultOptionId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_0",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./User/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters",
+    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3942,109 +3932,109 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Use this policy setting to configure the use of uppercase letters in the Windows Hello for Business PIN.\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one uppercase letter in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using uppercase letters in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business does not allow users to use uppercase letters in their PIN.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./User/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_0",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Allows the use of uppercase letters in PIN.",
+        "dependedOnBy": [],
         "displayName": "Allowed",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 0
-        },
         "description": "Allows the use of uppercase letters in PIN.",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_0"
+        "name": "Allows the use of uppercase letters in PIN."
       },
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_1",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Requires the use of at least one uppercase letters in PIN.",
+        "dependedOnBy": [],
         "displayName": "Required",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 1
-        },
         "description": "Requires the use of at least one uppercase letters in PIN.",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_1"
+        "name": "Requires the use of at least one uppercase letters in PIN."
       },
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_2",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Does not allow the use of uppercase letters in PIN.",
-        "displayName": "Blocked",
         "optionValue": {
+          "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 2
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Blocked",
         "description": "Does not allow the use of uppercase letters in PIN.",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters_2"
+        "name": "Does not allow the use of uppercase letters in PIN."
       }
     ],
-    "offsetUri": "/{0}/Policies/PINComplexity/UppercaseLetters"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Use this policy setting to configure the use of uppercase letters in the Windows Hello for Business PIN.\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one uppercase letter in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using uppercase letters in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business does not allow users to use uppercase letters in their PIN.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/UppercaseLetters",
+    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_uppercaseletters",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "UppercaseLetters"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_0",
+    "displayName": "Lowercase Letters (User)",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Lowercase Letters (User)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Lowercase Letters (User)",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "LowercaseLetters",
-    "defaultOptionId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_0",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./User/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters",
+    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4058,109 +4048,109 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Use this policy setting to configure the use of lowercase letters in the Windows Hello for Business PIN.\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one lowercase letter in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using lowercase letters in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business does not allow users to use lowercase letters in their PIN.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./User/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_0",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 0,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Allows the use of lowercase letters in PIN.",
+        "dependedOnBy": [],
         "displayName": "Allowed",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 0
-        },
         "description": "Allows the use of lowercase letters in PIN.",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_0"
+        "name": "Allows the use of lowercase letters in PIN."
       },
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_1",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
+        "optionValue": {
+          "value": 1,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null
+        },
         "helpText": null,
-        "name": "Requires the use of at least one lowercase letters in PIN.",
+        "dependedOnBy": [],
         "displayName": "Required",
-        "optionValue": {
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 1
-        },
         "description": "Requires the use of at least one lowercase letters in PIN.",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_1"
+        "name": "Requires the use of at least one lowercase letters in PIN."
       },
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_2",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Does not allow the use of lowercase letters in PIN.",
-        "displayName": "Blocked",
         "optionValue": {
+          "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-          "settingValueTemplateReference": null,
-          "value": 2
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "Blocked",
         "description": "Does not allow the use of lowercase letters in PIN.",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters_2"
+        "name": "Does not allow the use of lowercase letters in PIN."
       }
     ],
-    "offsetUri": "/{0}/Policies/PINComplexity/LowercaseLetters"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Use this policy setting to configure the use of lowercase letters in the Windows Hello for Business PIN.\n\nA value of 1 corresponds to “Required.” If you configure this policy setting to 1, Windows Hello for Business requires users to include at least one lowercase letter in their PIN.\n\nA value of 2 corresponds to “Disallow.” If you configure this policy setting to 2, Windows Hello for Business prevents users from using lowercase letters in their PIN.\n\nIf you do not configure this policy setting, Windows Hello for Business does not allow users to use lowercase letters in their PIN.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/PINComplexity/LowercaseLetters",
+    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_pincomplexity_lowercaseletters",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "LowercaseLetters"
   },
   {
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "user_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork_true",
+    "displayName": "Use Windows Hello For Business (User)",
+    "visibility": "settingsCatalog,template",
     "keywords": [
       "Use Passport For Work (User)",
       "PassportForWork",
       "Windows Hello For Business"
     ],
-    "displayName": "Use Windows Hello For Business (User)",
-    "referredSettingInformationList": [],
-    "helpText": "",
-    "visibility": "settingsCatalog,template",
-    "name": "UsePassportForWork",
-    "defaultOptionId": "user_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork_true",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "baseUri": "./User/Vendor/MSFT/PassportForWork",
-    "uxBehavior": "default",
-    "settingUsage": "configuration",
-    "riskLevel": "low",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/PassportForWork-csp/"
     ],
-    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork",
+    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "version": "639174077717488091",
-    "rootDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
-    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
     "applicability": {
-      "minimumSupportedVersion": "10.0.10586",
-      "maximumSupportedVersion": null,
-      "requiredAzureAdTrustType": "none",
-      "technologies": "mdm,configManager",
       "description": null,
+      "minimumSupportedVersion": "10.0.10586",
+      "requiresAzureAd": false,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4174,55 +4164,65 @@ If you do not configure this policy setting, Windows Hello for Business requires
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "requiresAzureAd": false,
-      "platform": "windows10",
       "configurationServiceProviderVersion": "1.2",
-      "deviceMode": "none",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability"
+      "technologies": "mdm,configManager",
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "deviceMode": "none"
     },
-    "description": "Windows Hello for Business is an alternative method for signing into Windows using your Active Directory or Azure Active Directory account that can replace passwords, Smart Cards, and Virtual Smart Cards.\n\nIf you enable or do not configure this policy setting, the device provisions Windows Hello for Business for all users.\n\nIf you disable this policy setting, the device does not provision Windows Hello for Business for any user.",
-    "accessTypes": "add,delete,get,replace",
+    "referredSettingInformationList": [],
+    "baseUri": "./User/Vendor/MSFT/PassportForWork",
     "options": [
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork_false",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "displayName": "false",
         "optionValue": {
+          "value": "false",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "false"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "false",
         "description": "Disabled",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork_false"
+        "name": "Disabled"
       },
       {
+        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork_true",
         "dependentOn": [
           {
             "dependentOn": "user_vendor_msft_passportforwork_{tenantid}",
             "parentSettingId": "user_vendor_msft_passportforwork_{tenantid}"
           }
         ],
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "displayName": "true",
         "optionValue": {
+          "value": "true",
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
-          "settingValueTemplateReference": null,
-          "value": "true"
+          "settingValueTemplateReference": null
         },
+        "helpText": null,
+        "dependedOnBy": [],
+        "displayName": "true",
         "description": "Enabled",
-        "itemId": "user_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork_true"
+        "name": "Enabled"
       }
     ],
-    "offsetUri": "/{0}/Policies/UsePassportForWork"
+    "categoryId": "e7ae2b99-0479-475f-af5c-96457121fcd0",
+    "description": "Windows Hello for Business is an alternative method for signing into Windows using your Active Directory or Azure Active Directory account that can replace passwords, Smart Cards, and Virtual Smart Cards.\n\nIf you enable or do not configure this policy setting, the device provisions Windows Hello for Business for all users.\n\nIf you disable this policy setting, the device does not provision Windows Hello for Business for any user.",
+    "accessTypes": "add,delete,get,replace",
+    "helpText": "",
+    "offsetUri": "/{0}/Policies/UsePassportForWork",
+    "id": "user_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "name": "UsePassportForWork"
   }
 ]
 ```

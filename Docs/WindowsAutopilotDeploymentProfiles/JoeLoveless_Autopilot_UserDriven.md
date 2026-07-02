@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 07/01/2026 07:17:43
+**Report Generated:** 07/02/2026 06:47:25
 
 ---
 
 ```json
 {
-  "outOfBoxExperienceSettings": {
-    "userType": "standard",
-    "hideEULA": true,
-    "deviceUsageType": "singleUser",
-    "hideEscapeLink": true,
-    "hidePrivacySettings": true,
-    "skipKeyboardSelectionPage": true
-  },
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "deviceType": "windowsPc",
-  "locale": "os-default",
+  "enrollmentStatusScreenSettings": null,
   "deviceNameTemplate": "JL-%SERIAL%",
-  "description": "",
-  "preprovisioningAllowed": false,
-  "outOfBoxExperienceSetting": {
-    "privacySettingsHidden": true,
-    "userType": "standard",
-    "keyboardSelectionPageSkipped": true,
-    "deviceUsageType": "singleUser",
-    "escapeLinkHidden": true,
-    "eulaHidden": true
-  },
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "language": "os-default",
   "extractHardwareHash": true,
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
   "roleScopeTagIds": [
     "0"
   ],
-  "hardwareHashExtractionEnabled": true,
+  "description": "",
+  "preprovisioningAllowed": false,
+  "deviceType": "windowsPc",
+  "outOfBoxExperienceSettings": {
+    "userType": "standard",
+    "hideEscapeLink": true,
+    "hidePrivacySettings": true,
+    "hideEULA": true,
+    "deviceUsageType": "singleUser",
+    "skipKeyboardSelectionPage": true
+  },
+  "outOfBoxExperienceSetting": {
+    "userType": "standard",
+    "escapeLinkHidden": true,
+    "privacySettingsHidden": true,
+    "eulaHidden": true,
+    "deviceUsageType": "singleUser",
+    "keyboardSelectionPageSkipped": true
+  },
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "language": "os-default",
   "displayName": "JoeLoveless_Autopilot_UserDriven",
   "managementServiceAppId": null,
-  "enableWhiteGlove": false,
-  "enrollmentStatusScreenSettings": null
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "hardwareHashExtractionEnabled": true,
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "locale": "os-default",
+  "enableWhiteGlove": false
 }
 ```
 

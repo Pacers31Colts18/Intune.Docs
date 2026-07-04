@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/WIN_D_CISL1_SystemServices_PROD.md)
 
-**Report Generated:** 07/03/2026 06:37:29
+**Report Generated:** 07/04/2026 06:25:36
 
 ---
 
@@ -25,18 +25,18 @@
 
 ```json
 {
+  "dependedOnBy": [],
+  "description": "Disabled",
   "displayName": "Disabled",
-  "dependentOn": [],
+  "helpText": null,
   "name": "Disabled",
   "optionValue": {
-    "value": 4,
     "settingValueTemplateReference": null,
+    "value": 4,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
   "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode_4",
-  "description": "Disabled",
-  "dependedOnBy": [],
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -50,18 +50,18 @@
 
 ```json
 {
+  "dependedOnBy": [],
+  "description": "Disabled",
   "displayName": "Disabled",
-  "dependentOn": [],
+  "helpText": null,
   "name": "Disabled",
   "optionValue": {
-    "value": 4,
     "settingValueTemplateReference": null,
+    "value": 4,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
   "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode_4",
-  "description": "Disabled",
-  "dependedOnBy": [],
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -75,18 +75,18 @@
 
 ```json
 {
+  "dependedOnBy": [],
+  "description": "Disabled",
   "displayName": "Disabled",
-  "dependentOn": [],
+  "helpText": null,
   "name": "Disabled",
   "optionValue": {
-    "value": 4,
     "settingValueTemplateReference": null,
+    "value": 4,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
   "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode_4",
-  "description": "Disabled",
-  "dependedOnBy": [],
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -100,18 +100,18 @@
 
 ```json
 {
+  "dependedOnBy": [],
+  "description": "Disabled",
   "displayName": "Disabled",
-  "dependentOn": [],
+  "helpText": null,
   "name": "Disabled",
   "optionValue": {
-    "value": 4,
     "settingValueTemplateReference": null,
+    "value": 4,
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
   "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxlivenetworkingservicestartupmode_4",
-  "description": "Disabled",
-  "dependedOnBy": [],
-  "helpText": null
+  "dependentOn": []
 }
 ```
 
@@ -119,107 +119,28 @@
 ```json
 [
   {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "settingUsage": "configuration",
-    "applicability": {
-      "technologies": "mdm",
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval"
-      ],
-      "maximumSupportedVersion": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
-      "minimumSupportedVersion": "10.0.17134",
-      "platform": "windows10",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0"
-    },
-    "id": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode",
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "riskLevel": "low",
-    "displayName": "Configure Xbox Accessory Management Service Startup Mode",
-    "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-SystemServices#configurexboxaccessorymanagementservicestartupmode"
-    ],
-    "offsetUri": "/Config/SystemServices/ConfigureXboxAccessoryManagementServiceStartupMode",
+    "helpText": "",
+    "referredSettingInformationList": [],
     "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
     },
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "displayName": "Configure Xbox Accessory Management Service Startup Mode",
+    "description": "This setting determines whether the service's start type is Automatic(2), Manual(3), Disabled(4). Default: Manual.",
+    "version": "639178389135387192",
+    "rootDefinitionId": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode",
+    "id": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "offsetUri": "/Config/SystemServices/ConfigureXboxAccessoryManagementServiceStartupMode",
     "keywords": [
       "Configure Xbox Accessory Management Service Startup Mode",
       "System Services"
     ],
-    "uxBehavior": "default",
-    "defaultOptionId": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode_3",
-    "helpText": "",
-    "options": [
-      {
-        "displayName": "Automatic",
-        "dependentOn": [],
-        "name": "Automatic",
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode_2",
-        "description": "Automatic",
-        "dependedOnBy": [],
-        "helpText": null
-      },
-      {
-        "displayName": "Manual",
-        "dependentOn": [],
-        "name": "Manual",
-        "optionValue": {
-          "value": 3,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode_3",
-        "description": "Manual",
-        "dependedOnBy": [],
-        "helpText": null
-      },
-      {
-        "displayName": "Disabled",
-        "dependentOn": [],
-        "name": "Disabled",
-        "optionValue": {
-          "value": 4,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode_4",
-        "description": "Disabled",
-        "dependedOnBy": [],
-        "helpText": null
-      }
-    ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode",
-    "description": "This setting determines whether the service's start type is Automatic(2), Manual(3), Disabled(4). Default: Manual.",
-    "referredSettingInformationList": [],
-    "name": "ConfigureXboxAccessoryManagementServiceStartupMode",
-    "categoryId": "4f29ef5c-6ca0-4b09-893f-01755a670877",
-    "version": "639178389135387192"
-  },
-  {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "settingUsage": "configuration",
     "applicability": {
-      "technologies": "mdm",
+      "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -230,93 +151,93 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "maximumSupportedVersion": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
       "minimumSupportedVersion": "10.0.17134",
+      "description": null,
       "platform": "windows10",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0"
+      "requiredAzureAdTrustType": "none",
+      "configurationServiceProviderVersion": "7.0",
+      "deviceMode": "none",
+      "technologies": "mdm"
     },
-    "id": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode",
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "riskLevel": "low",
-    "displayName": "Configure Xbox Live Auth Manager Service Startup Mode",
     "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-SystemServices#configurexboxliveauthmanagerservicestartupmode"
+    "name": "ConfigureXboxAccessoryManagementServiceStartupMode",
+    "uxBehavior": "default",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "description": "Automatic",
+        "displayName": "Automatic",
+        "helpText": null,
+        "name": "Automatic",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "value": 2,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode_2",
+        "dependentOn": []
+      },
+      {
+        "dependedOnBy": [],
+        "description": "Manual",
+        "displayName": "Manual",
+        "helpText": null,
+        "name": "Manual",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "value": 3,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode_3",
+        "dependentOn": []
+      },
+      {
+        "dependedOnBy": [],
+        "description": "Disabled",
+        "displayName": "Disabled",
+        "helpText": null,
+        "name": "Disabled",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "value": 4,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode_4",
+        "dependentOn": []
+      }
     ],
-    "offsetUri": "/Config/SystemServices/ConfigureXboxLiveAuthManagerServiceStartupMode",
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_policy_config_systemservices_configurexboxaccessorymanagementservicestartupmode_3",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-SystemServices#configurexboxaccessorymanagementservicestartupmode"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "categoryId": "4f29ef5c-6ca0-4b09-893f-01755a670877"
+  },
+  {
+    "helpText": "",
+    "referredSettingInformationList": [],
     "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
     },
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "displayName": "Configure Xbox Live Auth Manager Service Startup Mode",
+    "description": "This setting determines whether the service's start type is Automatic(2), Manual(3), Disabled(4). Default: Manual.",
+    "version": "639178389135387192",
+    "rootDefinitionId": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode",
+    "id": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "offsetUri": "/Config/SystemServices/ConfigureXboxLiveAuthManagerServiceStartupMode",
     "keywords": [
       "Configure Xbox Live Auth Manager Service Startup Mode",
       "System Services"
     ],
-    "uxBehavior": "default",
-    "defaultOptionId": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode_3",
-    "helpText": "",
-    "options": [
-      {
-        "displayName": "Automatic",
-        "dependentOn": [],
-        "name": "Automatic",
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode_2",
-        "description": "Automatic",
-        "dependedOnBy": [],
-        "helpText": null
-      },
-      {
-        "displayName": "Manual",
-        "dependentOn": [],
-        "name": "Manual",
-        "optionValue": {
-          "value": 3,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode_3",
-        "description": "Manual",
-        "dependedOnBy": [],
-        "helpText": null
-      },
-      {
-        "displayName": "Disabled",
-        "dependentOn": [],
-        "name": "Disabled",
-        "optionValue": {
-          "value": 4,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode_4",
-        "description": "Disabled",
-        "dependedOnBy": [],
-        "helpText": null
-      }
-    ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode",
-    "description": "This setting determines whether the service's start type is Automatic(2), Manual(3), Disabled(4). Default: Manual.",
-    "referredSettingInformationList": [],
-    "name": "ConfigureXboxLiveAuthManagerServiceStartupMode",
-    "categoryId": "4f29ef5c-6ca0-4b09-893f-01755a670877",
-    "version": "639178389135387192"
-  },
-  {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "settingUsage": "configuration",
     "applicability": {
-      "technologies": "mdm",
+      "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -327,93 +248,93 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "maximumSupportedVersion": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
       "minimumSupportedVersion": "10.0.17134",
+      "description": null,
       "platform": "windows10",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0"
+      "requiredAzureAdTrustType": "none",
+      "configurationServiceProviderVersion": "7.0",
+      "deviceMode": "none",
+      "technologies": "mdm"
     },
-    "id": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode",
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "riskLevel": "low",
-    "displayName": "Configure Xbox Live Game Save Service Startup Mode",
     "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-SystemServices#configurexboxlivegamesaveservicestartupmode"
+    "name": "ConfigureXboxLiveAuthManagerServiceStartupMode",
+    "uxBehavior": "default",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "description": "Automatic",
+        "displayName": "Automatic",
+        "helpText": null,
+        "name": "Automatic",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "value": 2,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode_2",
+        "dependentOn": []
+      },
+      {
+        "dependedOnBy": [],
+        "description": "Manual",
+        "displayName": "Manual",
+        "helpText": null,
+        "name": "Manual",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "value": 3,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode_3",
+        "dependentOn": []
+      },
+      {
+        "dependedOnBy": [],
+        "description": "Disabled",
+        "displayName": "Disabled",
+        "helpText": null,
+        "name": "Disabled",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "value": 4,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode_4",
+        "dependentOn": []
+      }
     ],
-    "offsetUri": "/Config/SystemServices/ConfigureXboxLiveGameSaveServiceStartupMode",
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_policy_config_systemservices_configurexboxliveauthmanagerservicestartupmode_3",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-SystemServices#configurexboxliveauthmanagerservicestartupmode"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "categoryId": "4f29ef5c-6ca0-4b09-893f-01755a670877"
+  },
+  {
+    "helpText": "",
+    "referredSettingInformationList": [],
     "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
     },
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "displayName": "Configure Xbox Live Game Save Service Startup Mode",
+    "description": "This setting determines whether the service's start type is Automatic(2), Manual(3), Disabled(4). Default: Manual.",
+    "version": "639178389135387192",
+    "rootDefinitionId": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode",
+    "id": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "offsetUri": "/Config/SystemServices/ConfigureXboxLiveGameSaveServiceStartupMode",
     "keywords": [
       "Configure Xbox Live Game Save Service Startup Mode",
       "System Services"
     ],
-    "uxBehavior": "default",
-    "defaultOptionId": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode_3",
-    "helpText": "",
-    "options": [
-      {
-        "displayName": "Automatic",
-        "dependentOn": [],
-        "name": "Automatic",
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode_2",
-        "description": "Automatic",
-        "dependedOnBy": [],
-        "helpText": null
-      },
-      {
-        "displayName": "Manual",
-        "dependentOn": [],
-        "name": "Manual",
-        "optionValue": {
-          "value": 3,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode_3",
-        "description": "Manual",
-        "dependedOnBy": [],
-        "helpText": null
-      },
-      {
-        "displayName": "Disabled",
-        "dependentOn": [],
-        "name": "Disabled",
-        "optionValue": {
-          "value": 4,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode_4",
-        "description": "Disabled",
-        "dependedOnBy": [],
-        "helpText": null
-      }
-    ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode",
-    "description": "This setting determines whether the service's start type is Automatic(2), Manual(3), Disabled(4). Default: Manual.",
-    "referredSettingInformationList": [],
-    "name": "ConfigureXboxLiveGameSaveServiceStartupMode",
-    "categoryId": "4f29ef5c-6ca0-4b09-893f-01755a670877",
-    "version": "639178389135387192"
-  },
-  {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "settingUsage": "configuration",
     "applicability": {
-      "technologies": "mdm",
+      "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -424,87 +345,166 @@
         "windows11SE",
         "iotEnterpriseSEval"
       ],
-      "maximumSupportedVersion": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "requiredAzureAdTrustType": "none",
-      "deviceMode": "none",
-      "description": null,
       "minimumSupportedVersion": "10.0.17134",
+      "description": null,
       "platform": "windows10",
-      "requiresAzureAd": false,
-      "configurationServiceProviderVersion": "7.0"
+      "requiredAzureAdTrustType": "none",
+      "configurationServiceProviderVersion": "7.0",
+      "deviceMode": "none",
+      "technologies": "mdm"
     },
-    "id": "device_vendor_msft_policy_config_systemservices_configurexboxlivenetworkingservicestartupmode",
-    "accessTypes": "add,delete,get,replace",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "riskLevel": "low",
-    "displayName": "Configure Xbox Live Networking Service Startup Mode",
     "visibility": "settingsCatalog,template",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-SystemServices#configurexboxlivenetworkingservicestartupmode"
+    "name": "ConfigureXboxLiveGameSaveServiceStartupMode",
+    "uxBehavior": "default",
+    "options": [
+      {
+        "dependedOnBy": [],
+        "description": "Automatic",
+        "displayName": "Automatic",
+        "helpText": null,
+        "name": "Automatic",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "value": 2,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode_2",
+        "dependentOn": []
+      },
+      {
+        "dependedOnBy": [],
+        "description": "Manual",
+        "displayName": "Manual",
+        "helpText": null,
+        "name": "Manual",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "value": 3,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode_3",
+        "dependentOn": []
+      },
+      {
+        "dependedOnBy": [],
+        "description": "Disabled",
+        "displayName": "Disabled",
+        "helpText": null,
+        "name": "Disabled",
+        "optionValue": {
+          "settingValueTemplateReference": null,
+          "value": 4,
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+        },
+        "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode_4",
+        "dependentOn": []
+      }
     ],
-    "offsetUri": "/Config/SystemServices/ConfigureXboxLiveNetworkingServiceStartupMode",
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_policy_config_systemservices_configurexboxlivegamesaveservicestartupmode_3",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-SystemServices#configurexboxlivegamesaveservicestartupmode"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "categoryId": "4f29ef5c-6ca0-4b09-893f-01755a670877"
+  },
+  {
+    "helpText": "",
+    "referredSettingInformationList": [],
     "occurrence": {
-      "maxDeviceOccurrence": 1,
-      "minDeviceOccurrence": 0
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
     },
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "displayName": "Configure Xbox Live Networking Service Startup Mode",
+    "description": "This setting determines whether the service's start type is Automatic(2), Manual(3), Disabled(4). Default: Manual.",
+    "version": "639178389135387192",
+    "rootDefinitionId": "device_vendor_msft_policy_config_systemservices_configurexboxlivenetworkingservicestartupmode",
+    "id": "device_vendor_msft_policy_config_systemservices_configurexboxlivenetworkingservicestartupmode",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "offsetUri": "/Config/SystemServices/ConfigureXboxLiveNetworkingServiceStartupMode",
     "keywords": [
       "Configure Xbox Live Networking Service Startup Mode",
       "System Services"
     ],
+    "applicability": {
+      "requiresAzureAd": false,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "maximumSupportedVersion": null,
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval"
+      ],
+      "minimumSupportedVersion": "10.0.17134",
+      "description": null,
+      "platform": "windows10",
+      "requiredAzureAdTrustType": "none",
+      "configurationServiceProviderVersion": "7.0",
+      "deviceMode": "none",
+      "technologies": "mdm"
+    },
+    "visibility": "settingsCatalog,template",
+    "name": "ConfigureXboxLiveNetworkingServiceStartupMode",
     "uxBehavior": "default",
-    "defaultOptionId": "device_vendor_msft_policy_config_systemservices_configurexboxlivenetworkingservicestartupmode_3",
-    "helpText": "",
     "options": [
       {
+        "dependedOnBy": [],
+        "description": "Automatic",
         "displayName": "Automatic",
-        "dependentOn": [],
+        "helpText": null,
         "name": "Automatic",
         "optionValue": {
-          "value": 2,
           "settingValueTemplateReference": null,
+          "value": 2,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
         },
         "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxlivenetworkingservicestartupmode_2",
-        "description": "Automatic",
-        "dependedOnBy": [],
-        "helpText": null
+        "dependentOn": []
       },
       {
+        "dependedOnBy": [],
+        "description": "Manual",
         "displayName": "Manual",
-        "dependentOn": [],
+        "helpText": null,
         "name": "Manual",
         "optionValue": {
-          "value": 3,
           "settingValueTemplateReference": null,
+          "value": 3,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
         },
         "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxlivenetworkingservicestartupmode_3",
-        "description": "Manual",
-        "dependedOnBy": [],
-        "helpText": null
+        "dependentOn": []
       },
       {
+        "dependedOnBy": [],
+        "description": "Disabled",
         "displayName": "Disabled",
-        "dependentOn": [],
+        "helpText": null,
         "name": "Disabled",
         "optionValue": {
-          "value": 4,
           "settingValueTemplateReference": null,
+          "value": 4,
           "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
         },
         "itemId": "device_vendor_msft_policy_config_systemservices_configurexboxlivenetworkingservicestartupmode_4",
-        "description": "Disabled",
-        "dependedOnBy": [],
-        "helpText": null
+        "dependentOn": []
       }
     ],
-    "rootDefinitionId": "device_vendor_msft_policy_config_systemservices_configurexboxlivenetworkingservicestartupmode",
-    "description": "This setting determines whether the service's start type is Automatic(2), Manual(3), Disabled(4). Default: Manual.",
-    "referredSettingInformationList": [],
-    "name": "ConfigureXboxLiveNetworkingServiceStartupMode",
-    "categoryId": "4f29ef5c-6ca0-4b09-893f-01755a670877",
-    "version": "639178389135387192"
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "defaultOptionId": "device_vendor_msft_policy_config_systemservices_configurexboxlivenetworkingservicestartupmode_3",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-SystemServices#configurexboxlivenetworkingservicestartupmode"
+    ],
+    "accessTypes": "add,delete,get,replace",
+    "categoryId": "4f29ef5c-6ca0-4b09-893f-01755a670877"
   }
 ]
 ```

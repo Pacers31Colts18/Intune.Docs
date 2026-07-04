@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 07/03/2026 06:37:33
+**Report Generated:** 07/04/2026 06:25:42
 
 ---
 
 ```json
 {
-  "hardwareHashExtractionEnabled": true,
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "preprovisioningAllowed": false,
-  "deviceType": "windowsPc",
-  "enableWhiteGlove": false,
+  "extractHardwareHash": true,
   "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "deviceType": "windowsPc",
+  "description": "",
   "roleScopeTagIds": [
     "0"
   ],
-  "description": "",
-  "outOfBoxExperienceSetting": {
-    "privacySettingsHidden": true,
-    "userType": "standard",
-    "escapeLinkHidden": true,
-    "deviceUsageType": "singleUser",
-    "eulaHidden": true,
-    "keyboardSelectionPageSkipped": true
-  },
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
-  "deviceNameTemplate": "JL-%SERIAL%",
-  "managementServiceAppId": null,
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "extractHardwareHash": true,
+  "enableWhiteGlove": false,
   "language": "os-default",
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "enrollmentStatusScreenSettings": null,
+  "hardwareHashExtractionEnabled": true,
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
   "outOfBoxExperienceSettings": {
-    "skipKeyboardSelectionPage": true,
-    "userType": "standard",
-    "hideEscapeLink": true,
-    "hideEULA": true,
     "hidePrivacySettings": true,
-    "deviceUsageType": "singleUser"
+    "deviceUsageType": "singleUser",
+    "hideEscapeLink": true,
+    "skipKeyboardSelectionPage": true,
+    "hideEULA": true,
+    "userType": "standard"
   },
+  "outOfBoxExperienceSetting": {
+    "keyboardSelectionPageSkipped": true,
+    "deviceUsageType": "singleUser",
+    "eulaHidden": true,
+    "privacySettingsHidden": true,
+    "userType": "standard",
+    "escapeLinkHidden": true
+  },
+  "managementServiceAppId": null,
+  "deviceNameTemplate": "JL-%SERIAL%",
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
   "locale": "os-default",
-  "enrollmentStatusScreenSettings": null
+  "preprovisioningAllowed": false
 }
 ```
 

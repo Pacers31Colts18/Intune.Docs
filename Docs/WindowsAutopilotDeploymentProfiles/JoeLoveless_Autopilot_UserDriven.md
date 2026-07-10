@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 07/09/2026 06:50:58
+**Report Generated:** 07/10/2026 06:52:06
 
 ---
 
 ```json
 {
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "enableWhiteGlove": false,
-  "description": "",
   "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "managementServiceAppId": null,
   "language": "os-default",
-  "deviceType": "windowsPc",
-  "hardwareHashExtractionEnabled": true,
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "locale": "os-default",
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
   "extractHardwareHash": true,
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
   "roleScopeTagIds": [
     "0"
   ],
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
-  "enrollmentStatusScreenSettings": null,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "locale": "os-default",
   "outOfBoxExperienceSettings": {
-    "skipKeyboardSelectionPage": true,
     "hidePrivacySettings": true,
     "userType": "standard",
     "hideEscapeLink": true,
     "deviceUsageType": "singleUser",
-    "hideEULA": true
+    "hideEULA": true,
+    "skipKeyboardSelectionPage": true
   },
-  "deviceNameTemplate": "JL-%SERIAL%",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "outOfBoxExperienceSetting": {
-    "escapeLinkHidden": true,
-    "eulaHidden": true,
-    "userType": "standard",
-    "privacySettingsHidden": true,
-    "deviceUsageType": "singleUser",
-    "keyboardSelectionPageSkipped": true
-  },
+  "description": "",
+  "managementServiceAppId": null,
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
   "preprovisioningAllowed": false,
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z"
+  "hardwareHashExtractionEnabled": true,
+  "deviceType": "windowsPc",
+  "deviceNameTemplate": "JL-%SERIAL%",
+  "enableWhiteGlove": false,
+  "enrollmentStatusScreenSettings": null,
+  "outOfBoxExperienceSetting": {
+    "privacySettingsHidden": true,
+    "keyboardSelectionPageSkipped": true,
+    "userType": "standard",
+    "escapeLinkHidden": true,
+    "deviceUsageType": "singleUser",
+    "eulaHidden": true
+  },
+  "id": "54c48954-766f-4238-86da-ed2d872e793e"
 }
 ```
 

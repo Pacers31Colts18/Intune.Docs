@@ -10,19 +10,9 @@
 
 [**Assignments**](./Assignments/ALL_MAC_D_Compliance_SystemSecurity_DEV.md)
 
-**Report Generated:** 07/11/2026 05:46:43
+**Report Generated:** 07/12/2026 06:09:45
 
 ---
-
-## passwordRequiredType
-
-**Value:** deviceDefault
-
-```json
-{
-  "passwordRequiredType": "deviceDefault"
-}
-```
 
 ## gatekeeperAllowedAppSource
 
@@ -34,6 +24,16 @@
 }
 ```
 
+## passwordRequiredType
+
+**Value:** deviceDefault
+
+```json
+{
+  "passwordRequiredType": "deviceDefault"
+}
+```
+
 ## Actions for noncompliance
 
 ### Mark device noncompliant
@@ -41,11 +41,11 @@
 ```json
 {
   "SyncRoot": {
-    "gracePeriodHours": 0,
+    "actionType": "block",
     "notificationTemplateId": "00000000-0000-0000-0000-000000000000",
     "id": "10914201-b449-4e58-b1c0-05141ff622bf",
-    "actionType": "block",
-    "notificationMessageCCList": []
+    "notificationMessageCCList": [],
+    "gracePeriodHours": 0
   }
 }
 ```

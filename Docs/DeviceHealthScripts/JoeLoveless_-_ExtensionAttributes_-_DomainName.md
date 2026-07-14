@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_DomainName.md)
 
-**Report Generated:** 07/13/2026 06:26:25
+**Report Generated:** 07/14/2026 05:37:17
 
 ---
 
@@ -33,27 +33,27 @@ N/A
 
 ```json
 {
-  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
-  "deviceHealthScriptType": "deviceHealthScript",
-  "description": "Outputs the domain name to be used for Azure Automation.",
-  "remediationScriptContent": "",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "isGlobalScript": false,
-  "publisher": " ",
-  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
-  "enforceSignatureCheck": false,
-  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
+  "remediationScriptParameters": [],
   "id": "13c2f40a-a837-4c9d-a377-4b28310a8fea",
-  "runAsAccount": "system",
-  "detectionScriptParameters": [],
-  "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z",
+  "highestAvailableVersion": null,
   "version": "1",
+  "displayName": "JoeLoveless - ExtensionAttributes - DomainName",
+  "lastModifiedDateTime": "2025-04-04T00:37:33.6892117Z",
+  "detectionScriptParameters": [],
+  "runAs32Bit": true,
+  "description": "Outputs the domain name to be used for Azure Automation.",
+  "isGlobalScript": false,
+  "detectionScriptContent": "77u/77u/U3RhcnQtVHJhbnNjcmlwdCAiQzpcUHJvZ3JhbURhdGFcTWljcm9zb2Z0XEludHVuZU1hbmFnZW1lbnRFeHRlbnNpb25cTG9nc1xJbnR1bmVfUmVtZWRpYXRpb25fRXh0ZW5zaW9uQXR0cmlidXRlMS5sb2ciIC1Gb3JjZQ0KDQokZG9tYWluID0gKEdldC1XbWlPYmplY3QgLUNsYXNzIFdpbjMyX0NvbXB1dGVyU3lzdGVtIHwgU2VsZWN0IGRvbWFpbikuZG9tYWluDQoNCldyaXRlLU91dHB1dCAkZG9tYWluDQpFeGl0IDA=",
   "roleScopeTagIds": [
     "0"
   ],
-  "remediationScriptParameters": [],
-  "runAs32Bit": true,
-  "highestAvailableVersion": null
+  "runAsAccount": "system",
+  "createdDateTime": "2025-04-04T00:37:33.6892117Z",
+  "remediationScriptContent": "",
+  "deviceHealthScriptType": "deviceHealthScript",
+  "enforceSignatureCheck": false,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "publisher": " "
 }
 ```
 

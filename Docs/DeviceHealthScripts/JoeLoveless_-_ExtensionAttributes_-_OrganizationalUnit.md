@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 07/13/2026 06:26:25
+**Report Generated:** 07/14/2026 05:37:17
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "deviceHealthScriptType": "deviceHealthScript",
-  "description": "ExtensionAttribute2: Organizational Unit of device",
-  "remediationScriptContent": "",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
-  "isGlobalScript": false,
-  "publisher": " Joe Loveless",
-  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "enforceSignatureCheck": false,
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "remediationScriptParameters": [],
   "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
-  "runAsAccount": "system",
-  "detectionScriptParameters": [],
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "highestAvailableVersion": null,
   "version": "3",
+  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "detectionScriptParameters": [],
+  "runAs32Bit": true,
+  "description": "ExtensionAttribute2: Organizational Unit of device",
+  "isGlobalScript": false,
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
   "roleScopeTagIds": [
     "0"
   ],
-  "remediationScriptParameters": [],
-  "runAs32Bit": true,
-  "highestAvailableVersion": null
+  "runAsAccount": "system",
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
+  "remediationScriptContent": "",
+  "deviceHealthScriptType": "deviceHealthScript",
+  "enforceSignatureCheck": false,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "publisher": " Joe Loveless"
 }
 ```
 

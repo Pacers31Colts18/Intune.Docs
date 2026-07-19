@@ -1,8 +1,8 @@
-# WIN_D_CISL1_Section15-104_PROD
+# WIN_D_Security_Antivirus_PROD
 
-**Policy ID:** ca5bb88b-b5ed-47d6-bd87-b3fc4d88730f
+**Policy ID:** 3c697f3f-3ebc-42ce-8fc1-931efcd29978
 
-**Report Generated:** 07/19/2026 06:05:01
+**Report Generated:** 07/19/2026 06:05:02
 
 ---
 
@@ -15,13 +15,13 @@
 ```json
 {
   "source": "direct",
-  "sourceId": "ca5bb88b-b5ed-47d6-bd87-b3fc4d88730f",
+  "sourceId": "3c697f3f-3ebc-42ce-8fc1-931efcd29978",
   "target": {
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
     "deviceAndAppManagementAssignmentFilterType": "none",
     "deviceAndAppManagementAssignmentFilterId": null
   },
-  "id": "ca5bb88b-b5ed-47d6-bd87-b3fc4d88730f_adadadad-808e-44e2-905a-0b7873a8a531"
+  "id": "3c697f3f-3ebc-42ce-8fc1-931efcd29978_adadadad-808e-44e2-905a-0b7873a8a531"
 }
 ```
 

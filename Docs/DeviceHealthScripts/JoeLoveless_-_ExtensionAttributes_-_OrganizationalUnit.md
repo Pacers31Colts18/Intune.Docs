@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/JoeLoveless_-_ExtensionAttributes_-_OrganizationalUnit.md)
 
-**Report Generated:** 07/21/2026 05:56:54
+**Report Generated:** 07/22/2026 05:55:57
 
 ---
 
@@ -32,27 +32,27 @@ N/A
 
 ```json
 {
-  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
-  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
-  "runAs32Bit": true,
-  "publisher": " Joe Loveless",
-  "remediationScriptParameters": [],
-  "deviceHealthScriptType": "deviceHealthScript",
-  "detectionScriptParameters": [],
-  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
-  "version": "3",
+  "isGlobalScript": false,
   "remediationScriptContent": "",
   "roleScopeTagIds": [
     "0"
   ],
-  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
-  "isGlobalScript": false,
-  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
-  "highestAvailableVersion": null,
-  "description": "ExtensionAttribute2: Organizational Unit of device",
+  "detectionScriptContent": "JENvbXB1dGVyID0gKEdldC1XbWlPYmplY3QgLU5hbWVzcGFjZSAncm9vdFxkaXJlY3RvcnlcbGRhcCcgLVF1ZXJ5ICJTZWxlY3QgRFNfZGlzdGluZ3Vpc2hlZE5hbWUgZnJvbSBEU19jb21wdXRlciB3aGVyZSBEU19jbiA9ICckZW52OkNPTVBVVEVSTkFNRSciKS5EU19kaXN0aW5ndWlzaGVkTmFtZQ0KaWYgKCRjb21wdXRlciAtbWF0Y2ggJ09VPShbXixdKyknKSB7DQogICAgJEZpcnN0T1UgPSAkbWF0Y2hlc1sxXQ0KICAgIFdyaXRlLU91dHB1dCAkRmlyc3RPVQ0KfQ==",
+  "remediationScriptParameters": [],
   "enforceSignatureCheck": false,
+  "description": "ExtensionAttribute2: Organizational Unit of device",
+  "createdDateTime": "2025-04-09T21:07:11.1907001Z",
+  "deviceHealthScriptType": "deviceHealthScript",
+  "lastModifiedDateTime": "2025-04-10T01:06:03.7375642Z",
+  "id": "7698ad30-9436-4ffd-ba0f-efd617f1d998",
+  "version": "3",
+  "displayName": "JoeLoveless - ExtensionAttributes - OrganizationalUnit",
+  "publisher": " Joe Loveless",
   "runAsAccount": "system",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity"
+  "detectionScriptParameters": [],
+  "runAs32Bit": true,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceHealthScripts/$entity",
+  "highestAvailableVersion": null
 }
 ```
 

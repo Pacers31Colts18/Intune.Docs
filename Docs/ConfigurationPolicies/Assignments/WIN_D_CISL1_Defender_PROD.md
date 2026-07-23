@@ -2,7 +2,7 @@
 
 **Policy ID:** bc7a3655-5734-43ed-a4ac-cbe50e44d65a
 
-**Report Generated:** 07/22/2026 05:56:03
+**Report Generated:** 07/23/2026 06:07:27
 
 ---
 
@@ -14,13 +14,13 @@
 
 ```json
 {
-  "sourceId": "bc7a3655-5734-43ed-a4ac-cbe50e44d65a",
-  "id": "bc7a3655-5734-43ed-a4ac-cbe50e44d65a_adadadad-808e-44e2-905a-0b7873a8a531",
   "source": "direct",
+  "id": "bc7a3655-5734-43ed-a4ac-cbe50e44d65a_adadadad-808e-44e2-905a-0b7873a8a531",
+  "sourceId": "bc7a3655-5734-43ed-a4ac-cbe50e44d65a",
   "target": {
-    "deviceAndAppManagementAssignmentFilterId": null,
+    "deviceAndAppManagementAssignmentFilterType": "none",
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget",
-    "deviceAndAppManagementAssignmentFilterType": "none"
+    "deviceAndAppManagementAssignmentFilterId": null
   }
 }
 ```

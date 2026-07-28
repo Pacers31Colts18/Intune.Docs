@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 07/27/2026 06:36:08
+**Report Generated:** 07/28/2026 05:53:50
 
 ---
 
 ```json
 {
-  "enableWhiteGlove": false,
-  "deviceType": "windowsPc",
   "outOfBoxExperienceSettings": {
-    "userType": "standard",
-    "hideEscapeLink": true,
-    "skipKeyboardSelectionPage": true,
     "hideEULA": true,
+    "deviceUsageType": "singleUser",
+    "skipKeyboardSelectionPage": true,
+    "userType": "standard",
     "hidePrivacySettings": true,
-    "deviceUsageType": "singleUser"
+    "hideEscapeLink": true
   },
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
   "locale": "os-default",
+  "language": "os-default",
   "roleScopeTagIds": [
     "0"
   ],
-  "enrollmentStatusScreenSettings": null,
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "deviceNameTemplate": "JL-%SERIAL%",
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
   "description": "",
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
   "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "hardwareHashExtractionEnabled": true,
+  "deviceNameTemplate": "JL-%SERIAL%",
   "id": "54c48954-766f-4238-86da-ed2d872e793e",
   "outOfBoxExperienceSetting": {
+    "deviceUsageType": "singleUser",
     "userType": "standard",
-    "privacySettingsHidden": true,
-    "keyboardSelectionPageSkipped": true,
-    "escapeLinkHidden": true,
     "eulaHidden": true,
-    "deviceUsageType": "singleUser"
+    "escapeLinkHidden": true,
+    "privacySettingsHidden": true,
+    "keyboardSelectionPageSkipped": true
   },
-  "extractHardwareHash": true,
+  "hardwareHashExtractionEnabled": true,
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
   "managementServiceAppId": null,
   "preprovisioningAllowed": false,
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "language": "os-default"
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "enrollmentStatusScreenSettings": null,
+  "enableWhiteGlove": false,
+  "extractHardwareHash": true,
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "deviceType": "windowsPc"
 }
 ```
 

@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/WIN_D_CISL1_AdminTemplates-System-ConveniencePINSignIn-EXC_PROD.md)
 
-**Report Generated:** 07/27/2026 06:36:01
+**Report Generated:** 07/28/2026 05:53:43
 
 ---
 
@@ -33,32 +33,42 @@ To configure Windows Hello for Business, use the Administrative Template policie
 
 ```json
 {
-  "displayName": "Enabled",
-  "itemId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_1",
   "dependentOn": [],
-  "description": null,
-  "name": "Enabled",
-  "helpText": null,
   "optionValue": {
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+    "value": 1,
     "settingValueTemplateReference": null,
-    "value": 1
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
   },
-  "dependedOnBy": []
+  "itemId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_1",
+  "dependedOnBy": [],
+  "helpText": null,
+  "name": "Enabled",
+  "description": null,
+  "displayName": "Enabled"
 }
 ```
 
 ## Setting Definition
 ```json
 {
-  "riskLevel": "low",
+  "rootDefinitionId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon",
+  "uxBehavior": "toggle",
+  "occurrence": {
+    "minDeviceOccurrence": 0,
+    "maxDeviceOccurrence": 1
+  },
+  "name": "AllowDomainPINLogon",
+  "version": "639199236441736374",
   "applicability": {
+    "requiredAzureAdTrustType": "none",
     "description": null,
-    "maximumSupportedVersion": null,
     "requiresAzureAd": false,
-    "technologies": "mdm",
-    "configurationServiceProviderVersion": "5.0",
+    "platform": "windows10",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
     "deviceMode": "none",
+    "configurationServiceProviderVersion": "5.0",
+    "minimumSupportedVersion": "10.0.15063",
+    "maximumSupportedVersion": null,
     "windowsSkus": [
       "windowsEnterprise",
       "windowsProfessional",
@@ -69,64 +79,50 @@ To configure Windows Hello for Business, use the Administrative Template policie
       "windows11SE",
       "iotEnterpriseSEval"
     ],
-    "minimumSupportedVersion": "10.0.15063",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-    "platform": "windows10",
-    "requiredAzureAdTrustType": "none"
+    "technologies": "mdm"
   },
-  "occurrence": {
-    "minDeviceOccurrence": 0,
-    "maxDeviceOccurrence": 1
-  },
-  "version": "639199236441736374",
-  "defaultOptionId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_0",
   "settingUsage": "configuration",
+  "options": [
+    {
+      "dependentOn": [],
+      "optionValue": {
+        "value": 0,
+        "settingValueTemplateReference": null,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+      },
+      "itemId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_0",
+      "dependedOnBy": [],
+      "helpText": null,
+      "name": "Disabled",
+      "description": null,
+      "displayName": "Disabled"
+    },
+    {
+      "dependentOn": [],
+      "optionValue": {
+        "value": 1,
+        "settingValueTemplateReference": null,
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+      },
+      "itemId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_1",
+      "dependedOnBy": [],
+      "helpText": null,
+      "name": "Enabled",
+      "description": null,
+      "displayName": "Enabled"
+    }
+  ],
+  "offsetUri": "/Config/CredentialProviders/AllowPINLogon",
+  "defaultOptionId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_0",
+  "id": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon",
   "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-  "uxBehavior": "toggle",
-  "baseUri": "./Device/Vendor/MSFT/Policy",
-  "helpText": "",
   "description": "This policy setting allows you to control whether a domain user can sign in using a convenience PIN.\r\n\r\nIf you enable this policy setting, a domain user can set up and sign in with a convenience PIN.\r\n\r\nIf you disable or don't configure this policy setting, a domain user can't set up and use a convenience PIN.\r\n\r\nNote: The user's domain password will be cached in the system vault when using this feature.\r\n\r\nTo configure Windows Hello for Business, use the Administrative Template policies under Windows Hello for Business.",
-  "name": "AllowDomainPINLogon",
-  "visibility": "settingsCatalog,template",
+  "helpText": "",
+  "accessTypes": "add,delete,get,replace",
   "infoUrls": [
     "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-credentialproviders#credentialproviders-allowpinlogon"
   ],
-  "offsetUri": "/Config/CredentialProviders/AllowPINLogon",
-  "options": [
-    {
-      "displayName": "Disabled",
-      "itemId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_0",
-      "dependentOn": [],
-      "description": null,
-      "name": "Disabled",
-      "helpText": null,
-      "optionValue": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "settingValueTemplateReference": null,
-        "value": 0
-      },
-      "dependedOnBy": []
-    },
-    {
-      "displayName": "Enabled",
-      "itemId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon_1",
-      "dependentOn": [],
-      "description": null,
-      "name": "Enabled",
-      "helpText": null,
-      "optionValue": {
-        "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
-        "settingValueTemplateReference": null,
-        "value": 1
-      },
-      "dependedOnBy": []
-    }
-  ],
-  "accessTypes": "add,delete,get,replace",
-  "displayName": "Turn on convenience PIN sign-in",
   "categoryId": "f4fd69bc-8622-411d-91bb-0e214f8fb112",
-  "rootDefinitionId": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon",
-  "referredSettingInformationList": [],
   "keywords": [
     "AllowDomainPINLogon",
     "Turn on convenience PIN sign-in",
@@ -134,7 +130,11 @@ To configure Windows Hello for Business, use the Administrative Template policie
     "Administrative Templates\\System\\Logon",
     "Logon"
   ],
-  "id": "device_vendor_msft_policy_config_credentialproviders_allowpinlogon"
+  "riskLevel": "low",
+  "baseUri": "./Device/Vendor/MSFT/Policy",
+  "referredSettingInformationList": [],
+  "displayName": "Turn on convenience PIN sign-in",
+  "visibility": "settingsCatalog,template"
 }
 ```
 

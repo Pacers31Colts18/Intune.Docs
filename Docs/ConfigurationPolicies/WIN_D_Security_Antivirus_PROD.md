@@ -10,7 +10,7 @@
 
 [**Assignments**](./Assignments/WIN_D_Security_Antivirus_PROD.md)
 
-**Report Generated:** 07/28/2026 05:53:46
+**Report Generated:** 07/29/2026 06:04:38
 
 ---
 
@@ -25,18 +25,18 @@
 
 ```json
 {
+  "description": "Allowed. Turns on Cloud Protection.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_allowcloudprotection_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_policy_config_defender_allowcloudprotection_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Allowed. Turns on the Microsoft Active Protection Service.",
-  "description": "Allowed. Turns on Cloud Protection.",
-  "displayName": "Allowed. Turns on Cloud Protection."
+  "displayName": "Allowed. Turns on Cloud Protection.",
+  "name": "Allowed. Turns on the Microsoft Active Protection Service."
 }
 ```
 
@@ -50,18 +50,18 @@
 
 ```json
 {
+  "description": "Allowed.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_allowscriptscanning_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_policy_config_defender_allowscriptscanning_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Allowed.",
-  "description": "Allowed.",
-  "displayName": "Allowed."
+  "displayName": "Allowed.",
+  "name": "Allowed."
 }
 ```
 
@@ -75,18 +75,18 @@
 
 ```json
 {
+  "description": "Allowed. Lets users access UI.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_allowuseruiaccess_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_policy_config_defender_allowuseruiaccess_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Allowed. Lets users access UI.",
-  "description": "Allowed. Lets users access UI.",
-  "displayName": "Allowed. Lets users access UI."
+  "displayName": "Allowed. Lets users access UI.",
+  "name": "Allowed. Lets users access UI."
 }
 ```
 
@@ -100,18 +100,18 @@
 
 ```json
 {
+  "description": "Allowed. Scans network files.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_allowscanningnetworkfiles_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_policy_config_defender_allowscanningnetworkfiles_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Allowed. Scans network files.",
-  "description": "Allowed. Scans network files.",
-  "displayName": "Allowed. Scans network files."
+  "displayName": "Allowed. Scans network files.",
+  "name": "Allowed. Scans network files."
 }
 ```
 
@@ -125,18 +125,18 @@
 
 ```json
 {
+  "description": "Allowed. Turns on and runs the real-time monitoring service.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Allowed. Turns on and runs the real-time monitoring service.",
-  "description": "Allowed. Turns on and runs the real-time monitoring service.",
-  "displayName": "Allowed. Turns on and runs the real-time monitoring service."
+  "displayName": "Allowed. Turns on and runs the real-time monitoring service.",
+  "name": "Allowed. Turns on and runs the real-time monitoring service."
 }
 ```
 
@@ -150,18 +150,18 @@
 
 ```json
 {
+  "description": "Allowed.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_allowioavprotection_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_policy_config_defender_allowioavprotection_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Allowed.",
-  "description": "Allowed.",
-  "displayName": "Allowed."
+  "displayName": "Allowed.",
+  "name": "Allowed."
 }
 ```
 
@@ -175,18 +175,18 @@
 
 ```json
 {
+  "description": "Not allowed. Turns off scanning on removable drives.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Not allowed. Turns off scanning on removable drives.",
-  "description": "Not allowed. Turns off scanning on removable drives.",
-  "displayName": "Not allowed. Turns off scanning on removable drives."
+  "displayName": "Not allowed. Turns off scanning on removable drives.",
+  "name": "Not allowed. Turns off scanning on removable drives."
 }
 ```
 
@@ -200,18 +200,18 @@
 
 ```json
 {
+  "description": "Not allowed. Disables scanning on mapped network drives.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_allowfullscanonmappednetworkdrives_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_policy_config_defender_allowfullscanonmappednetworkdrives_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Not allowed. Disables scanning on mapped network drives.",
-  "description": "Not allowed. Disables scanning on mapped network drives.",
-  "displayName": "Not allowed. Disables scanning on mapped network drives."
+  "displayName": "Not allowed. Disables scanning on mapped network drives.",
+  "name": "Not allowed. Disables scanning on mapped network drives."
 }
 ```
 
@@ -225,18 +225,18 @@
 
 ```json
 {
+  "description": "Not allowed. Turns off email scanning.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_allowemailscanning_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_policy_config_defender_allowemailscanning_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Not allowed. Turns off email scanning.",
-  "description": "Not allowed. Turns off email scanning.",
-  "displayName": "Not allowed. Turns off email scanning."
+  "displayName": "Not allowed. Turns off email scanning.",
+  "name": "Not allowed. Turns off email scanning."
 }
 ```
 
@@ -250,18 +250,18 @@
 
 ```json
 {
+  "description": "Allowed. Turns on real-time behavior monitoring.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Allowed. Turns on real-time behavior monitoring.",
-  "description": "Allowed. Turns on real-time behavior monitoring.",
-  "displayName": "Allowed. Turns on real-time behavior monitoring."
+  "displayName": "Allowed. Turns on real-time behavior monitoring.",
+  "name": "Allowed. Turns on real-time behavior monitoring."
 }
 ```
 
@@ -275,18 +275,18 @@
 
 ```json
 {
+  "description": "Allowed. Scans the archive files.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_allowarchivescanning_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_policy_config_defender_allowarchivescanning_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Allowed. Scans the archive files.",
-  "description": "Allowed. Scans the archive files.",
-  "displayName": "Allowed. Scans the archive files."
+  "displayName": "Allowed. Scans the archive files.",
+  "name": "Allowed. Scans the archive files."
 }
 ```
 
@@ -300,18 +300,18 @@
 
 ```json
 {
+  "description": "Allowed.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_allowintrusionpreventionsystem_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_policy_config_defender_allowintrusionpreventionsystem_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Allowed.",
-  "description": "Allowed.",
-  "displayName": "Allowed."
+  "displayName": "Allowed.",
+  "name": "Allowed."
 }
 ```
 
@@ -325,12 +325,12 @@
 
 ```json
 {
-  "value": 50,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "settingValueTemplateReference": {
     "useTemplateDefault": false,
     "settingValueTemplateId": "37195fb1-3743-4c8e-a0ce-b6fae6fa3acd"
   },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  "value": 50
 }
 ```
 
@@ -344,12 +344,12 @@
 
 ```json
 {
-  "value": 0,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "settingValueTemplateReference": {
     "useTemplateDefault": false,
     "settingValueTemplateId": "de452788-d643-4704-b378-7a3a161056d2"
   },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  "value": 0
 }
 ```
 
@@ -363,12 +363,12 @@
 
 ```json
 {
-  "value": 0,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "settingValueTemplateReference": {
     "useTemplateDefault": false,
     "settingValueTemplateId": "6f4924c5-0957-476d-b3a6-09be291f5c36"
   },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  "value": 0
 }
 ```
 
@@ -382,18 +382,18 @@
 
 ```json
 {
+  "description": "Disabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_checkforsignaturesbeforerunningscan_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_policy_config_defender_checkforsignaturesbeforerunningscan_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Disabled",
-  "description": "Disabled",
-  "displayName": "Disabled"
+  "displayName": "Disabled",
+  "name": "Disabled"
 }
 ```
 
@@ -407,18 +407,18 @@
 
 ```json
 {
+  "description": "Default State",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_cloudblocklevel_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_policy_config_defender_cloudblocklevel_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "NotConfigured",
-  "description": "Default State",
-  "displayName": "Default State"
+  "displayName": "Default State",
+  "name": "NotConfigured"
 }
 ```
 
@@ -432,12 +432,12 @@
 
 ```json
 {
-  "value": 0,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "settingValueTemplateReference": {
     "useTemplateDefault": false,
     "settingValueTemplateId": "608f1561-b603-46bd-bf5f-0b9872002f75"
   },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  "value": 0
 }
 ```
 
@@ -451,12 +451,12 @@
 
 ```json
 {
-  "value": 0,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "settingValueTemplateReference": {
     "useTemplateDefault": false,
     "settingValueTemplateId": "214b6feb-c9b2-4a17-af54-d51c805473e4"
   },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  "value": 0
 }
 ```
 
@@ -470,18 +470,18 @@
 
 ```json
 {
+  "description": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_disablecatchupfullscan_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_policy_config_defender_disablecatchupfullscan_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Disabled",
-  "description": "Enabled",
-  "displayName": "Enabled"
+  "displayName": "Enabled",
+  "name": "Disabled"
 }
 ```
 
@@ -495,18 +495,18 @@
 
 ```json
 {
+  "description": "Enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_disablecatchupquickscan_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_policy_config_defender_disablecatchupquickscan_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Disabled",
-  "description": "Enabled",
-  "displayName": "Enabled"
+  "displayName": "Enabled",
+  "name": "Disabled"
 }
 ```
 
@@ -520,18 +520,18 @@
 
 ```json
 {
+  "description": "Disabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_enablelowcpupriority_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_policy_config_defender_enablelowcpupriority_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Disabled",
-  "description": "Disabled",
-  "displayName": "Disabled"
+  "displayName": "Disabled",
+  "name": "Disabled"
 }
 ```
 
@@ -545,18 +545,18 @@
 
 ```json
 {
+  "description": "Enabled (audit mode)",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_2",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 2,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 2
   },
-  "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_2",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Enabled (audit mode)",
-  "description": "Enabled (audit mode)",
-  "displayName": "Enabled (audit mode)"
+  "displayName": "Enabled (audit mode)",
+  "name": "Enabled (audit mode)"
 }
 ```
 
@@ -570,18 +570,18 @@
 
 ```json
 {
+  "description": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_puaprotection_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_policy_config_defender_puaprotection_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications.",
-  "description": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications.",
-  "displayName": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications."
+  "displayName": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications.",
+  "name": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications."
 }
 ```
 
@@ -595,18 +595,18 @@
 
 ```json
 {
+  "description": "Monitor all files (bi-directional).",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_realtimescandirection_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_policy_config_defender_realtimescandirection_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Monitor all files (bi-directional).",
-  "description": "Monitor all files (bi-directional).",
-  "displayName": "Monitor all files (bi-directional)."
+  "displayName": "Monitor all files (bi-directional).",
+  "name": "Monitor all files (bi-directional)."
 }
 ```
 
@@ -620,18 +620,18 @@
 
 ```json
 {
+  "description": "Quick scan",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_scanparameter_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_policy_config_defender_scanparameter_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Quick scan",
-  "description": "Quick scan",
-  "displayName": "Quick scan"
+  "displayName": "Quick scan",
+  "name": "Quick scan"
 }
 ```
 
@@ -645,12 +645,12 @@
 
 ```json
 {
-  "value": 120,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "settingValueTemplateReference": {
     "useTemplateDefault": false,
     "settingValueTemplateId": "5d5c55c8-1a4e-4272-830d-8dc64cd3ac03"
   },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  "value": 120
 }
 ```
 
@@ -664,18 +664,18 @@
 
 ```json
 {
+  "description": "Every day",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Every day",
-  "description": "Every day",
-  "displayName": "Every day"
+  "displayName": "Every day",
+  "name": "Every day"
 }
 ```
 
@@ -689,12 +689,12 @@
 
 ```json
 {
-  "value": 120,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "settingValueTemplateReference": {
     "useTemplateDefault": false,
     "settingValueTemplateId": "a204c511-6130-473a-b05f-93bda521aba9"
   },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  "value": 120
 }
 ```
 
@@ -708,12 +708,12 @@
 
 ```json
 {
-  "value": 8,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "settingValueTemplateReference": {
     "useTemplateDefault": false,
     "settingValueTemplateId": "0af6bbed-a74a-4d08-8587-b16b10b774cb"
   },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  "value": 8
 }
 ```
 
@@ -727,18 +727,18 @@
 
 ```json
 {
+  "description": "Send safe samples automatically.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_submitsamplesconsent_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_policy_config_defender_submitsamplesconsent_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Send safe samples automatically.",
-  "description": "Send safe samples automatically.",
-  "displayName": "Send safe samples automatically."
+  "displayName": "Send safe samples automatically.",
+  "name": "Send safe samples automatically."
 }
 ```
 
@@ -752,18 +752,18 @@
 
 ```json
 {
+  "description": "Enable Local Admin Merge",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_defender_configuration_disablelocaladminmerge_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_defender_configuration_disablelocaladminmerge_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Enable Local Admin Merge",
-  "description": "Enable Local Admin Merge",
-  "displayName": "Enable Local Admin Merge"
+  "displayName": "Enable Local Admin Merge",
+  "name": "Enable Local Admin Merge"
 }
 ```
 
@@ -777,18 +777,18 @@
 
 ```json
 {
+  "description": "Allowed.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_policy_config_defender_allowonaccessprotection_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_policy_config_defender_allowonaccessprotection_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Allowed.",
-  "description": "Allowed.",
-  "displayName": "Allowed."
+  "displayName": "Allowed.",
+  "name": "Allowed."
 }
 ```
 
@@ -806,18 +806,18 @@
 
 ```json
 {
+  "description": "Network protection will be disabled downlevel.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_defender_configuration_allownetworkprotectiondownlevel_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_defender_configuration_allownetworkprotectiondownlevel_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Network protection will be disabled downlevel.",
-  "description": "Network protection will be disabled downlevel.",
-  "displayName": "Network protection will be disabled downlevel."
+  "displayName": "Network protection will be disabled downlevel.",
+  "name": "Network protection will be disabled downlevel."
 }
 ```
 
@@ -831,18 +831,18 @@
 
 ```json
 {
+  "description": "Datagram processing on Windows Server is disabled.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_defender_configuration_allowdatagramprocessingonwinserver_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_defender_configuration_allowdatagramprocessingonwinserver_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Datagram processing on Windows Server is disabled.",
-  "description": "Datagram processing on Windows Server is disabled.",
-  "displayName": "Datagram processing on Windows Server is disabled."
+  "displayName": "Datagram processing on Windows Server is disabled.",
+  "name": "Datagram processing on Windows Server is disabled."
 }
 ```
 
@@ -856,18 +856,18 @@
 
 ```json
 {
+  "description": "DNS over TCP parsing is enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_defender_configuration_disablednsovertcpparsing_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_defender_configuration_disablednsovertcpparsing_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "DNS over TCP parsing is enabled",
-  "description": "DNS over TCP parsing is enabled",
-  "displayName": "DNS over TCP parsing is enabled"
+  "displayName": "DNS over TCP parsing is enabled",
+  "name": "DNS over TCP parsing is enabled"
 }
 ```
 
@@ -881,18 +881,18 @@
 
 ```json
 {
+  "description": "HTTP parsing is enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_defender_configuration_disablehttpparsing_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_defender_configuration_disablehttpparsing_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "HTTP parsing is enabled",
-  "description": "HTTP parsing is enabled",
-  "displayName": "HTTP parsing is enabled"
+  "displayName": "HTTP parsing is enabled",
+  "name": "HTTP parsing is enabled"
 }
 ```
 
@@ -906,18 +906,18 @@
 
 ```json
 {
+  "description": "SSH parsing is enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_defender_configuration_disablesshparsing_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_defender_configuration_disablesshparsing_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "SSH parsing is enabled",
-  "description": "SSH parsing is enabled",
-  "displayName": "SSH parsing is enabled"
+  "displayName": "SSH parsing is enabled",
+  "name": "SSH parsing is enabled"
 }
 ```
 
@@ -931,18 +931,18 @@
 
 ```json
 {
+  "description": "TLS parsing is enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_defender_configuration_disabletlsparsing_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_defender_configuration_disabletlsparsing_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "TLS parsing is enabled",
-  "description": "TLS parsing is enabled",
-  "displayName": "TLS parsing is enabled"
+  "displayName": "TLS parsing is enabled",
+  "name": "TLS parsing is enabled"
 }
 ```
 
@@ -956,18 +956,18 @@
 
 ```json
 {
+  "description": "DNS Sinkhole is enabled",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_defender_configuration_enablednssinkhole_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_defender_configuration_enablednssinkhole_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "DNS Sinkhole is enabled",
-  "description": "DNS Sinkhole is enabled",
-  "displayName": "DNS Sinkhole is enabled"
+  "displayName": "DNS Sinkhole is enabled",
+  "name": "DNS Sinkhole is enabled"
 }
 ```
 
@@ -981,18 +981,18 @@
 
 ```json
 {
+  "description": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_defender_configuration_engineupdateschannel_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_defender_configuration_engineupdateschannel_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
-  "description": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
-  "displayName": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices."
+  "displayName": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
+  "name": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices."
 }
 ```
 
@@ -1006,18 +1006,18 @@
 
 ```json
 {
+  "description": "Not Allowed",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_defender_configuration_meteredconnectionupdates_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_defender_configuration_meteredconnectionupdates_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Not Allowed",
-  "description": "Not Allowed",
-  "displayName": "Not Allowed"
+  "displayName": "Not Allowed",
+  "name": "Not Allowed"
 }
 ```
 
@@ -1031,18 +1031,18 @@
 
 ```json
 {
+  "description": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_defender_configuration_platformupdateschannel_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_defender_configuration_platformupdateschannel_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
-  "description": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
-  "displayName": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices."
+  "displayName": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
+  "name": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices."
 }
 ```
 
@@ -1056,18 +1056,18 @@
 
 ```json
 {
+  "description": "Not configured (Default). Microsoft will either assign the device to Current Channel (Broad) or a beta channel early in the gradual release cycle. The channel selected by Microsoft might be one that receives updates early during the gradual release cycle, which may not be suitable for devices in a production or critical environment",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_0",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 0,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 0
   },
-  "itemId": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_0",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Not configured (Default). Microsoft will either assign the device to Current Channel (Broad) or a beta channel early in the gradual release cycle. The channel selected by Microsoft might be one that receives updates early during the gradual release cycle, which may not be suitable for devices in a production or critical environment",
-  "description": "Not configured (Default). Microsoft will either assign the device to Current Channel (Broad) or a beta channel early in the gradual release cycle. The channel selected by Microsoft might be one that receives updates early during the gradual release cycle, which may not be suitable for devices in a production or critical environment",
-  "displayName": "Not configured (Default). Microsoft will either assign the device to Current Channel (Broad) or a beta channel early in the gradual release cycle. The channel selected by Microsoft might be one that receives updates early during the gradual release cycle, which may not be suitable for devices in a production or critical environment"
+  "displayName": "Not configured (Default). Microsoft will either assign the device to Current Channel (Broad) or a beta channel early in the gradual release cycle. The channel selected by Microsoft might be one that receives updates early during the gradual release cycle, which may not be suitable for devices in a production or critical environment",
+  "name": "Not configured (Default). Microsoft will either assign the device to Current Channel (Broad) or a beta channel early in the gradual release cycle. The channel selected by Microsoft might be one that receives updates early during the gradual release cycle, which may not be suitable for devices in a production or critical environment"
 }
 ```
 
@@ -1081,18 +1081,18 @@
 
 ```json
 {
+  "description": "Widen or narrow the randomization period for scheduled scans. Specify a randomization window of between 1 and 23 hours by using the setting SchedulerRandomizationTime.",
+  "dependedOnBy": [],
+  "itemId": "device_vendor_msft_defender_configuration_randomizescheduletasktimes_1",
+  "helpText": null,
   "dependentOn": [],
   "optionValue": {
-    "value": 1,
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
     "settingValueTemplateReference": null,
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+    "value": 1
   },
-  "itemId": "device_vendor_msft_defender_configuration_randomizescheduletasktimes_1",
-  "dependedOnBy": [],
-  "helpText": null,
-  "name": "Widen or narrow the randomization period for scheduled scans. Specify a randomization window of between 1 and 23 hours by using the setting SchedulerRandomizationTime.",
-  "description": "Widen or narrow the randomization period for scheduled scans. Specify a randomization window of between 1 and 23 hours by using the setting SchedulerRandomizationTime.",
-  "displayName": "Widen or narrow the randomization period for scheduled scans. Specify a randomization window of between 1 and 23 hours by using the setting SchedulerRandomizationTime."
+  "displayName": "Widen or narrow the randomization period for scheduled scans. Specify a randomization window of between 1 and 23 hours by using the setting SchedulerRandomizationTime.",
+  "name": "Widen or narrow the randomization period for scheduled scans. Specify a randomization window of between 1 and 23 hours by using the setting SchedulerRandomizationTime."
 }
 ```
 
@@ -1106,12 +1106,12 @@
 
 ```json
 {
-  "value": 4,
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
   "settingValueTemplateReference": {
     "useTemplateDefault": false,
     "settingValueTemplateId": "3107ec22-c9b4-41da-b567-7a4850bb7731"
   },
-  "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+  "value": 4
 }
 ```
 
@@ -1119,24 +1119,56 @@
 ```json
 [
   {
+    "description": "To best protect your PC, Windows Defender will send information to Microsoft about any problems it finds. Microsoft will analyze that information, learn more about problems affecting you and other customers, and offer improved solutions.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowcloudprotection_1",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowcloudprotection",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AllowCloudProtection",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Not allowed. Turns off Cloud Protection.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowcloudprotection_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not allowed. Turns off Cloud Protection.",
+        "name": "Not allowed. Turns off the Microsoft Active Protection Service."
+      },
+      {
+        "description": "Allowed. Turns on Cloud Protection.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowcloudprotection_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Allowed. Turns on Cloud Protection.",
+        "name": "Allowed. Turns on the Microsoft Active Protection Service."
+      }
+    ],
+    "offsetUri": "/Config/Defender/AllowCloudProtection",
     "version": "639199236441736374",
+    "name": "AllowCloudProtection",
+    "id": "device_vendor_msft_policy_config_defender_allowcloudprotection",
+    "displayName": "Allow Cloud Protection",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.0",
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1149,79 +1181,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.0",
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowcloudprotection_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not allowed. Turns off the Microsoft Active Protection Service.",
-        "description": "Not allowed. Turns off Cloud Protection.",
-        "displayName": "Not allowed. Turns off Cloud Protection."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowcloudprotection_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed. Turns on the Microsoft Active Protection Service.",
-        "description": "Allowed. Turns on Cloud Protection.",
-        "displayName": "Allowed. Turns on Cloud Protection."
-      }
-    ],
-    "offsetUri": "/Config/Defender/AllowCloudProtection",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowcloudprotection_1",
-    "id": "device_vendor_msft_policy_config_defender_allowcloudprotection",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "To best protect your PC, Windows Defender will send information to Microsoft about any problems it finds. Microsoft will analyze that information, learn more about problems affecting you and other customers, and offer improved solutions.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow Cloud Protection",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Allow Cloud Protection",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Allows or disallows Windows Defender Script Scanning functionality.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowscriptscanning_1",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowscriptscanning",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AllowScriptScanning",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Not allowed.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowscriptscanning_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not allowed.",
+        "name": "Not allowed."
+      },
+      {
+        "description": "Allowed.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowscriptscanning_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Allowed.",
+        "name": "Allowed."
+      }
+    ],
+    "offsetUri": "/Config/Defender/AllowScriptScanning",
     "version": "639199236441736374",
+    "name": "AllowScriptScanning",
+    "id": "device_vendor_msft_policy_config_defender_allowscriptscanning",
+    "displayName": "Allow Script Scanning",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1234,164 +1266,164 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowscriptscanning_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not allowed.",
-        "description": "Not allowed.",
-        "displayName": "Not allowed."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowscriptscanning_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed.",
-        "description": "Allowed.",
-        "displayName": "Allowed."
-      }
-    ],
-    "offsetUri": "/Config/Defender/AllowScriptScanning",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowscriptscanning_1",
-    "id": "device_vendor_msft_policy_config_defender_allowscriptscanning",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Allows or disallows Windows Defender Script Scanning functionality.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow Script Scanning",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Allow Script Scanning",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowuseruiaccess",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AllowUserUIAccess",
-    "version": "639199236441736374",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.0",
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "technologies": "mdm,configManager,microsoftSense"
-    },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowuseruiaccess_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not allowed. Prevents users from accessing UI.",
-        "description": "Not allowed. Prevents users from accessing UI.",
-        "displayName": "Not allowed. Prevents users from accessing UI."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowuseruiaccess_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed. Lets users access UI.",
-        "description": "Allowed. Lets users access UI.",
-        "displayName": "Allowed. Lets users access UI."
-      }
-    ],
-    "offsetUri": "/Config/Defender/AllowUserUIAccess",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowuseruiaccess_1",
-    "id": "device_vendor_msft_policy_config_defender_allowuseruiaccess",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "description": "Allows or disallows user access to the Windows Defender UI. If disallowed, all Windows Defender notifications will also be suppressed.",
-    "helpText": "",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowuseruiaccess_1",
+    "riskLevel": "low",
     "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Defender#allowuseruiaccess"
     ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowuseruiaccess",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Not allowed. Prevents users from accessing UI.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowuseruiaccess_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not allowed. Prevents users from accessing UI.",
+        "name": "Not allowed. Prevents users from accessing UI."
+      },
+      {
+        "description": "Allowed. Lets users access UI.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowuseruiaccess_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Allowed. Lets users access UI.",
+        "name": "Allowed. Lets users access UI."
+      }
+    ],
+    "offsetUri": "/Config/Defender/AllowUserUIAccess",
+    "version": "639199236441736374",
+    "name": "AllowUserUIAccess",
+    "id": "device_vendor_msft_policy_config_defender_allowuseruiaccess",
+    "displayName": "Allow User UI Access",
+    "applicability": {
+      "deviceMode": "none",
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.0",
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false
+    },
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow User UI Access",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Allow User UI Access",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Allows or disallows a scanning of network files.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowscanningnetworkfiles_1",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowscanningnetworkfiles",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AllowScanningNetworkFiles",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Not allowed. Turns off scanning of network files.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowscanningnetworkfiles_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not allowed. Turns off scanning of network files.",
+        "name": "Not allowed. Turns off scanning of network files."
+      },
+      {
+        "description": "Allowed. Scans network files.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowscanningnetworkfiles_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Allowed. Scans network files.",
+        "name": "Allowed. Scans network files."
+      }
+    ],
+    "offsetUri": "/Config/Defender/AllowScanningNetworkFiles",
     "version": "639199236441736374",
+    "name": "AllowScanningNetworkFiles",
+    "id": "device_vendor_msft_policy_config_defender_allowscanningnetworkfiles",
+    "displayName": "Allow Scanning Network Files",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1404,79 +1436,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowscanningnetworkfiles_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not allowed. Turns off scanning of network files.",
-        "description": "Not allowed. Turns off scanning of network files.",
-        "displayName": "Not allowed. Turns off scanning of network files."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowscanningnetworkfiles_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed. Scans network files.",
-        "description": "Allowed. Scans network files.",
-        "displayName": "Allowed. Scans network files."
-      }
-    ],
-    "offsetUri": "/Config/Defender/AllowScanningNetworkFiles",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowscanningnetworkfiles_1",
-    "id": "device_vendor_msft_policy_config_defender_allowscanningnetworkfiles",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Allows or disallows a scanning of network files.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow Scanning Network Files",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Allow Scanning Network Files",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Allows or disallows Windows Defender Realtime Monitoring functionality.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_1",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AllowRealtimeMonitoring",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Not allowed. Turns off the real-time monitoring service.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not allowed. Turns off the real-time monitoring service.",
+        "name": "Not allowed. Turns off the real-time monitoring service."
+      },
+      {
+        "description": "Allowed. Turns on and runs the real-time monitoring service.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Allowed. Turns on and runs the real-time monitoring service.",
+        "name": "Allowed. Turns on and runs the real-time monitoring service."
+      }
+    ],
+    "offsetUri": "/Config/Defender/AllowRealtimeMonitoring",
     "version": "639199236441736374",
+    "name": "AllowRealtimeMonitoring",
+    "id": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring",
+    "displayName": "Allow Realtime Monitoring",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1489,79 +1521,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not allowed. Turns off the real-time monitoring service.",
-        "description": "Not allowed. Turns off the real-time monitoring service.",
-        "displayName": "Not allowed. Turns off the real-time monitoring service."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed. Turns on and runs the real-time monitoring service.",
-        "description": "Allowed. Turns on and runs the real-time monitoring service.",
-        "displayName": "Allowed. Turns on and runs the real-time monitoring service."
-      }
-    ],
-    "offsetUri": "/Config/Defender/AllowRealtimeMonitoring",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring_1",
-    "id": "device_vendor_msft_policy_config_defender_allowrealtimemonitoring",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Allows or disallows Windows Defender Realtime Monitoring functionality.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow Realtime Monitoring",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Allow Realtime Monitoring",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Allows or disallows Windows Defender IOAVP Protection functionality.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowioavprotection_1",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowioavprotection",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AllowIOAVProtection",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Not allowed.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowioavprotection_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not allowed.",
+        "name": "Not allowed."
+      },
+      {
+        "description": "Allowed.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowioavprotection_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Allowed.",
+        "name": "Allowed."
+      }
+    ],
+    "offsetUri": "/Config/Defender/AllowIOAVProtection",
     "version": "639199236441736374",
+    "name": "AllowIOAVProtection",
+    "id": "device_vendor_msft_policy_config_defender_allowioavprotection",
+    "displayName": "Allow scanning of all downloaded files and attachments",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1574,79 +1606,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowioavprotection_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not allowed.",
-        "description": "Not allowed.",
-        "displayName": "Not allowed."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowioavprotection_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed.",
-        "description": "Allowed.",
-        "displayName": "Allowed."
-      }
-    ],
-    "offsetUri": "/Config/Defender/AllowIOAVProtection",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowioavprotection_1",
-    "id": "device_vendor_msft_policy_config_defender_allowioavprotection",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Allows or disallows Windows Defender IOAVP Protection functionality.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow IOAV Protection",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Allow scanning of all downloaded files and attachments",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Allows or disallows a full scan of removable drives. During a quick scan, removable drives may still be scanned.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AllowFullScanRemovableDriveScanning",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Not allowed. Turns off scanning on removable drives.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not allowed. Turns off scanning on removable drives.",
+        "name": "Not allowed. Turns off scanning on removable drives."
+      },
+      {
+        "description": "Allowed. Scans removable drives.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Allowed. Scans removable drives.",
+        "name": "Allowed. Scans removable drives."
+      }
+    ],
+    "offsetUri": "/Config/Defender/AllowFullScanRemovableDriveScanning",
     "version": "639199236441736374",
+    "name": "AllowFullScanRemovableDriveScanning",
+    "id": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning",
+    "displayName": "Allow Full Scan Removable Drive Scanning",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1659,79 +1691,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not allowed. Turns off scanning on removable drives.",
-        "description": "Not allowed. Turns off scanning on removable drives.",
-        "displayName": "Not allowed. Turns off scanning on removable drives."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed. Scans removable drives.",
-        "description": "Allowed. Scans removable drives.",
-        "displayName": "Allowed. Scans removable drives."
-      }
-    ],
-    "offsetUri": "/Config/Defender/AllowFullScanRemovableDriveScanning",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_0",
-    "id": "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Allows or disallows a full scan of removable drives. During a quick scan, removable drives may still be scanned.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow Full Scan Removable Drive Scanning",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Allow Full Scan Removable Drive Scanning",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Allows or disallows a full scan of mapped network drives.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowfullscanonmappednetworkdrives_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowfullscanonmappednetworkdrives",
-    "uxBehavior": "toggle",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AllowFullScanOnMappedNetworkDrives",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Not allowed. Disables scanning on mapped network drives.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowfullscanonmappednetworkdrives_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not allowed. Disables scanning on mapped network drives.",
+        "name": "Not allowed. Disables scanning on mapped network drives."
+      },
+      {
+        "description": "Allowed. Scans mapped network drives.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowfullscanonmappednetworkdrives_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Allowed. Scans mapped network drives.",
+        "name": "Allowed. Scans mapped network drives."
+      }
+    ],
+    "offsetUri": "/Config/Defender/AllowFullScanOnMappedNetworkDrives",
     "version": "639199236441736374",
+    "name": "AllowFullScanOnMappedNetworkDrives",
+    "id": "device_vendor_msft_policy_config_defender_allowfullscanonmappednetworkdrives",
+    "displayName": "Allow Full Scan On Mapped Network Drives",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1744,79 +1776,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowfullscanonmappednetworkdrives_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not allowed. Disables scanning on mapped network drives.",
-        "description": "Not allowed. Disables scanning on mapped network drives.",
-        "displayName": "Not allowed. Disables scanning on mapped network drives."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowfullscanonmappednetworkdrives_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed. Scans mapped network drives.",
-        "description": "Allowed. Scans mapped network drives.",
-        "displayName": "Allowed. Scans mapped network drives."
-      }
-    ],
-    "offsetUri": "/Config/Defender/AllowFullScanOnMappedNetworkDrives",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowfullscanonmappednetworkdrives_0",
-    "id": "device_vendor_msft_policy_config_defender_allowfullscanonmappednetworkdrives",
+    "referredSettingInformationList": [],
+    "uxBehavior": "toggle",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Allows or disallows a full scan of mapped network drives.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow Full Scan On Mapped Network Drives",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Allow Full Scan On Mapped Network Drives",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Allows or disallows scanning of email.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowemailscanning_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowemailscanning",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AllowEmailScanning",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Not allowed. Turns off email scanning.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowemailscanning_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not allowed. Turns off email scanning.",
+        "name": "Not allowed. Turns off email scanning."
+      },
+      {
+        "description": "Allowed. Turns on email scanning.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowemailscanning_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Allowed. Turns on email scanning.",
+        "name": "Allowed. Turns on email scanning."
+      }
+    ],
+    "offsetUri": "/Config/Defender/AllowEmailScanning",
     "version": "639199236441736374",
+    "name": "AllowEmailScanning",
+    "id": "device_vendor_msft_policy_config_defender_allowemailscanning",
+    "displayName": "Allow Email Scanning",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1829,79 +1861,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowemailscanning_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not allowed. Turns off email scanning.",
-        "description": "Not allowed. Turns off email scanning.",
-        "displayName": "Not allowed. Turns off email scanning."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowemailscanning_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed. Turns on email scanning.",
-        "description": "Allowed. Turns on email scanning.",
-        "displayName": "Allowed. Turns on email scanning."
-      }
-    ],
-    "offsetUri": "/Config/Defender/AllowEmailScanning",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowemailscanning_0",
-    "id": "device_vendor_msft_policy_config_defender_allowemailscanning",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Allows or disallows scanning of email.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow Email Scanning",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Allow Email Scanning",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Allows or disallows Windows Defender Behavior Monitoring functionality.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_1",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AllowBehaviorMonitoring",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Not allowed. Turns off behavior monitoring.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not allowed. Turns off behavior monitoring.",
+        "name": "Not allowed. Turns off behavior monitoring."
+      },
+      {
+        "description": "Allowed. Turns on real-time behavior monitoring.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Allowed. Turns on real-time behavior monitoring.",
+        "name": "Allowed. Turns on real-time behavior monitoring."
+      }
+    ],
+    "offsetUri": "/Config/Defender/AllowBehaviorMonitoring",
     "version": "639199236441736374",
+    "name": "AllowBehaviorMonitoring",
+    "id": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring",
+    "displayName": "Allow Behavior Monitoring",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1914,79 +1946,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not allowed. Turns off behavior monitoring.",
-        "description": "Not allowed. Turns off behavior monitoring.",
-        "displayName": "Not allowed. Turns off behavior monitoring."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed. Turns on real-time behavior monitoring.",
-        "description": "Allowed. Turns on real-time behavior monitoring.",
-        "displayName": "Allowed. Turns on real-time behavior monitoring."
-      }
-    ],
-    "offsetUri": "/Config/Defender/AllowBehaviorMonitoring",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring_1",
-    "id": "device_vendor_msft_policy_config_defender_allowbehaviormonitoring",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Allows or disallows Windows Defender Behavior Monitoring functionality.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow Behavior Monitoring",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Allow Behavior Monitoring",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Allows or disallows scanning of archives.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowarchivescanning_1",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowarchivescanning",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AllowArchiveScanning",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Not allowed. Turns off scanning on archived files.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowarchivescanning_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not allowed. Turns off scanning on archived files.",
+        "name": "Not allowed. Turns off scanning on archived files."
+      },
+      {
+        "description": "Allowed. Scans the archive files.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowarchivescanning_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Allowed. Scans the archive files.",
+        "name": "Allowed. Scans the archive files."
+      }
+    ],
+    "offsetUri": "/Config/Defender/AllowArchiveScanning",
     "version": "639199236441736374",
+    "name": "AllowArchiveScanning",
+    "id": "device_vendor_msft_policy_config_defender_allowarchivescanning",
+    "displayName": "Allow Archive Scanning",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -1999,79 +2031,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowarchivescanning_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not allowed. Turns off scanning on archived files.",
-        "description": "Not allowed. Turns off scanning on archived files.",
-        "displayName": "Not allowed. Turns off scanning on archived files."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowarchivescanning_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed. Scans the archive files.",
-        "description": "Allowed. Scans the archive files.",
-        "displayName": "Allowed. Scans the archive files."
-      }
-    ],
-    "offsetUri": "/Config/Defender/AllowArchiveScanning",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowarchivescanning_1",
-    "id": "device_vendor_msft_policy_config_defender_allowarchivescanning",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Allows or disallows scanning of archives.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow Archive Scanning",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Allow Archive Scanning",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Allows or disallows Windows Defender Intrusion Prevention functionality. This setting is deprecated and no longer has impact on devices.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowintrusionpreventionsystem_1",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowintrusionpreventionsystem",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AllowIntrusionPreventionSystem",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Not allowed.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowintrusionpreventionsystem_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not allowed.",
+        "name": "Not allowed."
+      },
+      {
+        "description": "Allowed.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowintrusionpreventionsystem_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Allowed.",
+        "name": "Allowed."
+      }
+    ],
+    "offsetUri": "/Config/Defender/AllowIntrusionPreventionSystem",
     "version": "639199236441736374",
+    "name": "AllowIntrusionPreventionSystem",
+    "id": "device_vendor_msft_policy_config_defender_allowintrusionpreventionsystem",
+    "displayName": "[Deprecated] Allow Intrusion Prevention System",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "88.8.88888",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2084,84 +2116,60 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "88.8.88888",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowintrusionpreventionsystem_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not allowed.",
-        "description": "Not allowed.",
-        "displayName": "Not allowed."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowintrusionpreventionsystem_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed.",
-        "description": "Allowed.",
-        "displayName": "Allowed."
-      }
-    ],
-    "offsetUri": "/Config/Defender/AllowIntrusionPreventionSystem",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowintrusionpreventionsystem_1",
-    "id": "device_vendor_msft_policy_config_defender_allowintrusionpreventionsystem",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Allows or disallows Windows Defender Intrusion Prevention functionality. This setting is deprecated and no longer has impact on devices.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow Intrusion Prevention System",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "[Deprecated] Allow Intrusion Prevention System",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_avgcpuloadfactor",
-    "uxBehavior": "default",
     "valueDefinition": {
-      "minimumValue": 0,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0,
       "maximumValue": 100
     },
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AvgCPULoadFactor",
+    "description": "Represents the average CPU load factor for the Windows Defender scan (in percent). The default value is 50.",
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
+    "dependentOn": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_avgcpuloadfactor",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "dependedOnBy": [],
+    "offsetUri": "/Config/Defender/AvgCPULoadFactor",
     "version": "639199236441736374",
+    "name": "AvgCPULoadFactor",
+    "id": "device_vendor_msft_policy_config_defender_avgcpuloadfactor",
+    "displayName": "Avg CPU Load Factor",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 50
+    },
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2174,60 +2182,60 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "dependentOn": [],
-    "dependedOnBy": [],
-    "offsetUri": "/Config/Defender/AvgCPULoadFactor",
-    "defaultValue": {
-      "value": 50,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
-    "id": "device_vendor_msft_policy_config_defender_avgcpuloadfactor",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "description": "Represents the average CPU load factor for the Windows Defender scan (in percent). The default value is 50.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Avg CPU Load Factor",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Avg CPU Load Factor",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_defender_configuration_archivemaxdepth",
-    "uxBehavior": "default",
     "valueDefinition": {
-      "minimumValue": 0,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0,
       "maximumValue": 4294967295
     },
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "ArchiveMaxDepth",
+    "description": "Specify the maximum folder depth to extract from archive files for scanning. If this configuration is off or not set, the default value (0) is applied, and all archives are extracted up to the deepest folder for scanning.",
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
+    "dependentOn": [],
+    "rootDefinitionId": "device_vendor_msft_defender_configuration_archivemaxdepth",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "dependedOnBy": [],
+    "offsetUri": "/Configuration/ArchiveMaxDepth",
     "version": "639199236441736374",
+    "name": "ArchiveMaxDepth",
+    "id": "device_vendor_msft_defender_configuration_archivemaxdepth",
+    "displayName": "Archive Max Depth",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 0
+    },
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2240,60 +2248,60 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "dependentOn": [],
-    "dependedOnBy": [],
-    "offsetUri": "/Configuration/ArchiveMaxDepth",
-    "defaultValue": {
-      "value": 0,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
-    "id": "device_vendor_msft_defender_configuration_archivemaxdepth",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "description": "Specify the maximum folder depth to extract from archive files for scanning. If this configuration is off or not set, the default value (0) is applied, and all archives are extracted up to the deepest folder for scanning.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Archive Max Depth",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Archive Max Depth",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_defender_configuration_archivemaxsize",
-    "uxBehavior": "default",
     "valueDefinition": {
-      "minimumValue": 0,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0,
       "maximumValue": 4294967295
     },
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "ArchiveMaxSize",
+    "description": "Specify the maximum size, in KB, of archive files to be extracted and scanned. If this configuration is off or not set, the default value (0) is applied, and all archives are extracted and scanned regardless of size.",
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
+    "dependentOn": [],
+    "rootDefinitionId": "device_vendor_msft_defender_configuration_archivemaxsize",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "dependedOnBy": [],
+    "offsetUri": "/Configuration/ArchiveMaxSize",
     "version": "639199236441736374",
+    "name": "ArchiveMaxSize",
+    "id": "device_vendor_msft_defender_configuration_archivemaxsize",
+    "displayName": "Archive Max Size",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 0
+    },
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2306,55 +2314,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "dependentOn": [],
-    "dependedOnBy": [],
-    "offsetUri": "/Configuration/ArchiveMaxSize",
-    "defaultValue": {
-      "value": 0,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
-    "id": "device_vendor_msft_defender_configuration_archivemaxsize",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "description": "Specify the maximum size, in KB, of archive files to be extracted and scanned. If this configuration is off or not set, the default value (0) is applied, and all archives are extracted and scanned regardless of size.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Archive Max Size",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Archive Max Size",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "This policy setting allows you to manage whether a check for new virus and spyware definitions will occur before running a scan. This setting applies to scheduled scans as well as the command line mpcmdrun -SigUpdate, but it has no effect on scans initiated manually from the user interface. If you enable this setting, a check for new definitions will occur before running a scan. If you disable this setting or do not configure this setting, the scan will start using the existing definitions. Supported values:0 (default) - Disabled1 - EnabledOMA-URI Path: . /Vendor/MSFT/Policy/Config/Defender/CheckForSignaturesBeforeRunningScan",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_checkforsignaturesbeforerunningscan_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_checkforsignaturesbeforerunningscan",
-    "uxBehavior": "toggle",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "CheckForSignaturesBeforeRunningScan",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_checkforsignaturesbeforerunningscan_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Disabled",
+        "name": "Disabled"
+      },
+      {
+        "description": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_checkforsignaturesbeforerunningscan_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Enabled",
+        "name": "Enabled"
+      }
+    ],
+    "offsetUri": "/Config/Defender/CheckForSignaturesBeforeRunningScan",
     "version": "639199236441736374",
+    "name": "CheckForSignaturesBeforeRunningScan",
+    "id": "device_vendor_msft_policy_config_defender_checkforsignaturesbeforerunningscan",
+    "displayName": "Check For Signatures Before Running Scan",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "8.0",
-      "minimumSupportedVersion": "10.0.17763",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2367,79 +2399,107 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "8.0",
+      "minimumSupportedVersion": "10.0.17763",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_checkforsignaturesbeforerunningscan_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "description": "Disabled",
-        "displayName": "Disabled"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_checkforsignaturesbeforerunningscan_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "description": "Enabled",
-        "displayName": "Enabled"
-      }
-    ],
-    "offsetUri": "/Config/Defender/CheckForSignaturesBeforeRunningScan",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_checkforsignaturesbeforerunningscan_0",
-    "id": "device_vendor_msft_policy_config_defender_checkforsignaturesbeforerunningscan",
+    "referredSettingInformationList": [],
+    "uxBehavior": "toggle",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This policy setting allows you to manage whether a check for new virus and spyware definitions will occur before running a scan. This setting applies to scheduled scans as well as the command line mpcmdrun -SigUpdate, but it has no effect on scans initiated manually from the user interface. If you enable this setting, a check for new definitions will occur before running a scan. If you disable this setting or do not configure this setting, the scan will start using the existing definitions. Supported values:0 (default) - Disabled1 - EnabledOMA-URI Path: . /Vendor/MSFT/Policy/Config/Defender/CheckForSignaturesBeforeRunningScan",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Check For Signatures Before Running Scan",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Check For Signatures Before Running Scan",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "This policy setting determines how aggressive Windows Defender Antivirus will be in blocking and scanning suspicious files. Value type is integer. If this setting is on, Windows Defender Antivirus will be more aggressive when identifying suspicious files to block and scan; otherwise, it will be less aggressive and therefore block and scan with less frequency. For more information about specific values that are supported, see the Windows Defender Antivirus documentation site. NoteThis feature requires the Join Microsoft MAPS setting enabled in order to function.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_cloudblocklevel_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_cloudblocklevel",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "CloudBlockLevel",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Default State",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_cloudblocklevel_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Default State",
+        "name": "NotConfigured"
+      },
+      {
+        "description": "High",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_cloudblocklevel_2",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 2
+        },
+        "displayName": "High",
+        "name": "High"
+      },
+      {
+        "description": "HighPlus",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_cloudblocklevel_4",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 4
+        },
+        "displayName": "High Plus",
+        "name": "HighPlus"
+      },
+      {
+        "description": "ZeroTolerance",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_cloudblocklevel_6",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 6
+        },
+        "displayName": "Zero Tolerance",
+        "name": "ZeroTolerance"
+      }
+    ],
+    "offsetUri": "/Config/Defender/CloudBlockLevel",
     "version": "639199236441736374",
+    "name": "CloudBlockLevel",
+    "id": "device_vendor_msft_policy_config_defender_cloudblocklevel",
+    "displayName": "Cloud Block Level",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "6.0",
-      "minimumSupportedVersion": "10.0.16299",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2452,112 +2512,60 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "6.0",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_cloudblocklevel_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "NotConfigured",
-        "description": "Default State",
-        "displayName": "Default State"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_cloudblocklevel_2",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "High",
-        "description": "High",
-        "displayName": "High"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 4,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_cloudblocklevel_4",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "HighPlus",
-        "description": "HighPlus",
-        "displayName": "High Plus"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 6,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_cloudblocklevel_6",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "ZeroTolerance",
-        "description": "ZeroTolerance",
-        "displayName": "Zero Tolerance"
-      }
-    ],
-    "offsetUri": "/Config/Defender/CloudBlockLevel",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_cloudblocklevel_0",
-    "id": "device_vendor_msft_policy_config_defender_cloudblocklevel",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This policy setting determines how aggressive Windows Defender Antivirus will be in blocking and scanning suspicious files. Value type is integer. If this setting is on, Windows Defender Antivirus will be more aggressive when identifying suspicious files to block and scan; otherwise, it will be less aggressive and therefore block and scan with less frequency. For more information about specific values that are supported, see the Windows Defender Antivirus documentation site. NoteThis feature requires the Join Microsoft MAPS setting enabled in order to function.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Cloud Block Level",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Cloud Block Level",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_cloudextendedtimeout",
-    "uxBehavior": "default",
     "valueDefinition": {
-      "minimumValue": 0,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0,
       "maximumValue": 50
     },
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "CloudExtendedTimeout",
+    "description": "This feature allows Windows Defender Antivirus to block a suspicious file for up to 60 seconds, and scan it in the cloud to make sure it's safe. Value type is integer, range is 0 - 50. The typical cloud check timeout is 10 seconds. To enable the extended cloud check feature, specify the extended time in seconds, up to an additional 50 seconds. For example, if the desired timeout is 60 seconds, specify 50 seconds in this setting, which will enable the extended cloud check feature, and will raise the total time to 60 seconds. NoteThis feature depends on three other MAPS settings the must all be enabled- Configure the 'Block at First Sight' feature; Join Microsoft MAPS; Send file samples when further analysis is required.",
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
+    "dependentOn": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_cloudextendedtimeout",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "dependedOnBy": [],
+    "offsetUri": "/Config/Defender/CloudExtendedTimeout",
     "version": "639199236441736374",
+    "name": "CloudExtendedTimeout",
+    "id": "device_vendor_msft_policy_config_defender_cloudextendedtimeout",
+    "displayName": "Cloud Extended Timeout",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 0
+    },
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "6.0",
-      "minimumSupportedVersion": "10.0.16299",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2570,60 +2578,60 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "6.0",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "dependentOn": [],
-    "dependedOnBy": [],
-    "offsetUri": "/Config/Defender/CloudExtendedTimeout",
-    "defaultValue": {
-      "value": 0,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
-    "id": "device_vendor_msft_policy_config_defender_cloudextendedtimeout",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "description": "This feature allows Windows Defender Antivirus to block a suspicious file for up to 60 seconds, and scan it in the cloud to make sure it's safe. Value type is integer, range is 0 - 50. The typical cloud check timeout is 10 seconds. To enable the extended cloud check feature, specify the extended time in seconds, up to an additional 50 seconds. For example, if the desired timeout is 60 seconds, specify 50 seconds in this setting, which will enable the extended cloud check feature, and will raise the total time to 60 seconds. NoteThis feature depends on three other MAPS settings the must all be enabled- Configure the 'Block at First Sight' feature; Join Microsoft MAPS; Send file samples when further analysis is required.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Cloud Extended Timeout",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Cloud Extended Timeout",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_daystoretaincleanedmalware",
-    "uxBehavior": "default",
     "valueDefinition": {
-      "minimumValue": 0,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0,
       "maximumValue": 90
     },
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "DaysToRetainCleanedMalware",
+    "description": "Time period (in days) that quarantine items will be stored on the system. The default value is 0, which keeps items in quarantine, and does not automatically remove them.",
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
+    "dependentOn": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_daystoretaincleanedmalware",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "dependedOnBy": [],
+    "offsetUri": "/Config/Defender/DaysToRetainCleanedMalware",
     "version": "639199236441736374",
+    "name": "DaysToRetainCleanedMalware",
+    "id": "device_vendor_msft_policy_config_defender_daystoretaincleanedmalware",
+    "displayName": "Days To Retain Cleaned Malware",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 0
+    },
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.0",
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2636,55 +2644,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.0",
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "dependentOn": [],
-    "dependedOnBy": [],
-    "offsetUri": "/Config/Defender/DaysToRetainCleanedMalware",
-    "defaultValue": {
-      "value": 0,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
-    "id": "device_vendor_msft_policy_config_defender_daystoretaincleanedmalware",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "description": "Time period (in days) that quarantine items will be stored on the system. The default value is 0, which keeps items in quarantine, and does not automatically remove them.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Days To Retain Cleaned Malware",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Days To Retain Cleaned Malware",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "This policy setting allows you to configure catch-up scans for scheduled full scans. A catch-up scan is a scan that is initiated because a regularly scheduled scan was missed. Usually these scheduled scans are missed because the computer was turned off at the scheduled time. If you disable or do not configure this setting, catch-up scans for scheduled full scans will be turned on. If a computer is offline for two consecutive scheduled scans, a catch-up scan is started the next time someone logs on to the computer. If there is no scheduled scan configured, there will be no catch-up scan run. If you enable this setting, catch-up scans for scheduled full scans will be disabled. Supported values:0 - Disabled1 - Enabled (default)OMA-URI Path: . /Vendor/MSFT/Policy/Config/Defender/DisableCatchupFullScan",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_disablecatchupfullscan_1",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_disablecatchupfullscan",
-    "uxBehavior": "toggle",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "DisableCatchupFullScan",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_disablecatchupfullscan_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Disabled",
+        "name": "Enabled"
+      },
+      {
+        "description": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_disablecatchupfullscan_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Enabled",
+        "name": "Disabled"
+      }
+    ],
+    "offsetUri": "/Config/Defender/DisableCatchupFullScan",
     "version": "639199236441736374",
+    "name": "DisableCatchupFullScan",
+    "id": "device_vendor_msft_policy_config_defender_disablecatchupfullscan",
+    "displayName": "Disable Catchup Full Scan",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "8.0",
-      "minimumSupportedVersion": "10.0.17763",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2697,164 +2729,164 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "8.0",
+      "minimumSupportedVersion": "10.0.17763",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_disablecatchupfullscan_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "description": "Disabled",
-        "displayName": "Disabled"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_disablecatchupfullscan_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "description": "Enabled",
-        "displayName": "Enabled"
-      }
-    ],
-    "offsetUri": "/Config/Defender/DisableCatchupFullScan",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_disablecatchupfullscan_1",
-    "id": "device_vendor_msft_policy_config_defender_disablecatchupfullscan",
+    "referredSettingInformationList": [],
+    "uxBehavior": "toggle",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This policy setting allows you to configure catch-up scans for scheduled full scans. A catch-up scan is a scan that is initiated because a regularly scheduled scan was missed. Usually these scheduled scans are missed because the computer was turned off at the scheduled time. If you disable or do not configure this setting, catch-up scans for scheduled full scans will be turned on. If a computer is offline for two consecutive scheduled scans, a catch-up scan is started the next time someone logs on to the computer. If there is no scheduled scan configured, there will be no catch-up scan run. If you enable this setting, catch-up scans for scheduled full scans will be disabled. Supported values:0 - Disabled1 - Enabled (default)OMA-URI Path: . /Vendor/MSFT/Policy/Config/Defender/DisableCatchupFullScan",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Disable Catchup Full Scan",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Disable Catchup Full Scan",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_disablecatchupquickscan",
-    "uxBehavior": "toggle",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "DisableCatchupQuickScan",
-    "version": "639199236441736374",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "8.0",
-      "minimumSupportedVersion": "10.0.17763",
-      "maximumSupportedVersion": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "technologies": "mdm,configManager,microsoftSense"
-    },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_disablecatchupquickscan_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "description": "Disabled",
-        "displayName": "Disabled"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_disablecatchupquickscan_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "description": "Enabled",
-        "displayName": "Enabled"
-      }
-    ],
-    "offsetUri": "/Config/Defender/DisableCatchupQuickScan",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_disablecatchupquickscan_1",
-    "id": "device_vendor_msft_policy_config_defender_disablecatchupquickscan",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "description": "This policy setting allows you to configure catch-up scans for scheduled quick scans. A catch-up scan is a scan that is initiated because a regularly scheduled scan was missed. Usually these scheduled scans are missed because the computer was turned off at the scheduled time. If you enable this setting, catch-up scans for scheduled quick scans will be turned on. If a computer is offline for two consecutive scheduled scans, a catch-up scan is started the next time someone logs on to the computer. If there is no scheduled scan configured, there will be no catch-up scan run. If you disable or do not configure this setting, catch-up scans for scheduled quick scans will be turned off. Supported values:0 - Disabled1 - Enabled (default)OMA-URI Path: . /Vendor/MSFT/Policy/Config/Defender/DisableCatchupQuickScan",
-    "helpText": "",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_disablecatchupquickscan_1",
+    "riskLevel": "low",
     "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Defender#disablecatchupquickscan"
     ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_disablecatchupquickscan",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_disablecatchupquickscan_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Disabled",
+        "name": "Enabled"
+      },
+      {
+        "description": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_disablecatchupquickscan_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Enabled",
+        "name": "Disabled"
+      }
+    ],
+    "offsetUri": "/Config/Defender/DisableCatchupQuickScan",
+    "version": "639199236441736374",
+    "name": "DisableCatchupQuickScan",
+    "id": "device_vendor_msft_policy_config_defender_disablecatchupquickscan",
+    "displayName": "Disable Catchup Quick Scan",
+    "applicability": {
+      "deviceMode": "none",
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "8.0",
+      "minimumSupportedVersion": "10.0.17763",
+      "requiresAzureAd": false
+    },
+    "referredSettingInformationList": [],
+    "uxBehavior": "toggle",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Disable Catchup Quick Scan",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Disable Catchup Quick Scan",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "This policy setting allows you to enable or disable low CPU priority for scheduled scans. If you enable this setting, low CPU priority will be used during scheduled scans. If you disable or do not configure this setting, not changes will be made to CPU priority for scheduled scans. Supported values:0 - Disabled (default)1 - Enabled",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_enablelowcpupriority_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_enablelowcpupriority",
-    "uxBehavior": "toggle",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "EnableLowCPUPriority",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_enablelowcpupriority_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Disabled",
+        "name": "Disabled"
+      },
+      {
+        "description": "Enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_enablelowcpupriority_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Enabled",
+        "name": "Enabled"
+      }
+    ],
+    "offsetUri": "/Config/Defender/EnableLowCPUPriority",
     "version": "639199236441736374",
+    "name": "EnableLowCPUPriority",
+    "id": "device_vendor_msft_policy_config_defender_enablelowcpupriority",
+    "displayName": "Enable Low CPU Priority",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "8.0",
-      "minimumSupportedVersion": "10.0.17763",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2867,79 +2899,93 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "8.0",
+      "minimumSupportedVersion": "10.0.17763",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_enablelowcpupriority_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "description": "Disabled",
-        "displayName": "Disabled"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_enablelowcpupriority_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled",
-        "description": "Enabled",
-        "displayName": "Enabled"
-      }
-    ],
-    "offsetUri": "/Config/Defender/EnableLowCPUPriority",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_enablelowcpupriority_0",
-    "id": "device_vendor_msft_policy_config_defender_enablelowcpupriority",
+    "referredSettingInformationList": [],
+    "uxBehavior": "toggle",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This policy setting allows you to enable or disable low CPU priority for scheduled scans. If you enable this setting, low CPU priority will be used during scheduled scans. If you disable or do not configure this setting, not changes will be made to CPU priority for scheduled scans. Supported values:0 - Disabled (default)1 - Enabled",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Enable Low CPU Priority",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Enable Low CPU Priority",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "This policy allows you to turn network protection on (block/audit) or off. Network protection protects employees using any app from accessing phishing scams, exploit-hosting sites, and malicious content on the Internet. This includes preventing third-party browsers from connecting to dangerous sites. Value type is integer. If you enable this setting, network protection is turned on and employees can't turn it off. Its behavior can be controlled by the following options: Block and Audit. If you enable this policy with the Block option, users/apps will be blocked from connecting to dangerous domains. You will be able to see this activity in Windows Defender Security Center. If you enable this policy with the Audit option, users/apps will not be blocked from connecting to dangerous domains. However, you will still see this activity in Windows Defender Security Center. If you disable this policy, users/apps will not be blocked from connecting to dangerous domains. You will not see any network activity in Windows Defender Security Center. If you do not configure this policy, network blocking will be disabled by default.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_enablenetworkprotection",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "EnableNetworkProtection",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Disabled",
+        "name": "Disabled"
+      },
+      {
+        "description": "Enabled (block mode)",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Enabled (block mode)",
+        "name": "Enabled (block mode)"
+      },
+      {
+        "description": "Enabled (audit mode)",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_2",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 2
+        },
+        "displayName": "Enabled (audit mode)",
+        "name": "Enabled (audit mode)"
+      }
+    ],
+    "offsetUri": "/Config/Defender/EnableNetworkProtection",
     "version": "639199236441736374",
+    "name": "EnableNetworkProtection",
+    "id": "device_vendor_msft_policy_config_defender_enablenetworkprotection",
+    "displayName": "Enable Network Protection",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "6.0",
-      "minimumSupportedVersion": "10.0.16299",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -2952,93 +2998,93 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "6.0",
+      "minimumSupportedVersion": "10.0.16299",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disabled",
-        "description": "Disabled",
-        "displayName": "Disabled"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled (block mode)",
-        "description": "Enabled (block mode)",
-        "displayName": "Enabled (block mode)"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_2",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enabled (audit mode)",
-        "description": "Enabled (audit mode)",
-        "displayName": "Enabled (audit mode)"
-      }
-    ],
-    "offsetUri": "/Config/Defender/EnableNetworkProtection",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_enablenetworkprotection_0",
-    "id": "device_vendor_msft_policy_config_defender_enablenetworkprotection",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This policy allows you to turn network protection on (block/audit) or off. Network protection protects employees using any app from accessing phishing scams, exploit-hosting sites, and malicious content on the Internet. This includes preventing third-party browsers from connecting to dangerous sites. Value type is integer. If you enable this setting, network protection is turned on and employees can't turn it off. Its behavior can be controlled by the following options: Block and Audit. If you enable this policy with the Block option, users/apps will be blocked from connecting to dangerous domains. You will be able to see this activity in Windows Defender Security Center. If you enable this policy with the Audit option, users/apps will not be blocked from connecting to dangerous domains. However, you will still see this activity in Windows Defender Security Center. If you disable this policy, users/apps will not be blocked from connecting to dangerous domains. You will not see any network activity in Windows Defender Security Center. If you do not configure this policy, network blocking will be disabled by default.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Enable Network Protection",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Enable Network Protection",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Specifies the level of detection for potentially unwanted applications (PUAs). Windows Defender alerts you when potentially unwanted software is being downloaded or attempts to install itself on your computer.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_puaprotection_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_puaprotection",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "PUAProtection",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_puaprotection_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications.",
+        "name": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications."
+      },
+      {
+        "description": "PUA Protection on. Detected items are blocked. They will show in history along with other threats.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_puaprotection_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "PUA Protection on. Detected items are blocked. They will show in history along with other threats.",
+        "name": "PUA Protection on. Detected items are blocked. They will show in history along with other threats."
+      },
+      {
+        "description": "Audit mode. Windows Defender will detect potentially unwanted applications, but take no action. You can review information about the applications Windows Defender would have taken action against by searching for events created by Windows Defender in the Event Viewer.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_puaprotection_2",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 2
+        },
+        "displayName": "Audit mode. Windows Defender will detect potentially unwanted applications, but take no action. You can review information about the applications Windows Defender would have taken action against by searching for events created by Windows Defender in the Event Viewer.",
+        "name": "Audit mode. Windows Defender will detect potentially unwanted applications, but take no action. You can review information about the applications Windows Defender would have taken action against by searching for events created by Windows Defender in the Event Viewer."
+      }
+    ],
+    "offsetUri": "/Config/Defender/PUAProtection",
     "version": "639199236441736374",
+    "name": "PUAProtection",
+    "id": "device_vendor_msft_policy_config_defender_puaprotection",
+    "displayName": "PUA Protection",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3051,192 +3097,178 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_puaprotection_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications.",
-        "description": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications.",
-        "displayName": "PUA Protection off. Windows Defender will not protect against potentially unwanted applications."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_puaprotection_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "PUA Protection on. Detected items are blocked. They will show in history along with other threats.",
-        "description": "PUA Protection on. Detected items are blocked. They will show in history along with other threats.",
-        "displayName": "PUA Protection on. Detected items are blocked. They will show in history along with other threats."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_puaprotection_2",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Audit mode. Windows Defender will detect potentially unwanted applications, but take no action. You can review information about the applications Windows Defender would have taken action against by searching for events created by Windows Defender in the Event Viewer.",
-        "description": "Audit mode. Windows Defender will detect potentially unwanted applications, but take no action. You can review information about the applications Windows Defender would have taken action against by searching for events created by Windows Defender in the Event Viewer.",
-        "displayName": "Audit mode. Windows Defender will detect potentially unwanted applications, but take no action. You can review information about the applications Windows Defender would have taken action against by searching for events created by Windows Defender in the Event Viewer."
-      }
-    ],
-    "offsetUri": "/Config/Defender/PUAProtection",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_puaprotection_0",
-    "id": "device_vendor_msft_policy_config_defender_puaprotection",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Specifies the level of detection for potentially unwanted applications (PUAs). Windows Defender alerts you when potentially unwanted software is being downloaded or attempts to install itself on your computer.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "PUA Protection",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "PUA Protection",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_realtimescandirection",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "RealTimeScanDirection",
-    "version": "639199236441736374",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.0",
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "technologies": "mdm,configManager,microsoftSense"
-    },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_realtimescandirection_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Monitor all files (bi-directional).",
-        "description": "Monitor all files (bi-directional).",
-        "displayName": "Monitor all files (bi-directional)."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_realtimescandirection_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Monitor incoming files.",
-        "description": "Monitor incoming files.",
-        "displayName": "Monitor incoming files."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_realtimescandirection_2",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Monitor outgoing files.",
-        "description": "Monitor outgoing files.",
-        "displayName": "Monitor outgoing files."
-      }
-    ],
-    "offsetUri": "/Config/Defender/RealTimeScanDirection",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_realtimescandirection_0",
-    "id": "device_vendor_msft_policy_config_defender_realtimescandirection",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "description": "Controls which sets of files should be monitored. Note If AllowOnAccessProtection is not allowed, then this configuration can be used to monitor specific files.",
-    "helpText": "",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_realtimescandirection_0",
+    "riskLevel": "low",
     "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Defender#realtimescandirection"
     ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_realtimescandirection",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Monitor all files (bi-directional).",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_realtimescandirection_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Monitor all files (bi-directional).",
+        "name": "Monitor all files (bi-directional)."
+      },
+      {
+        "description": "Monitor incoming files.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_realtimescandirection_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Monitor incoming files.",
+        "name": "Monitor incoming files."
+      },
+      {
+        "description": "Monitor outgoing files.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_realtimescandirection_2",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 2
+        },
+        "displayName": "Monitor outgoing files.",
+        "name": "Monitor outgoing files."
+      }
+    ],
+    "offsetUri": "/Config/Defender/RealTimeScanDirection",
+    "version": "639199236441736374",
+    "name": "RealTimeScanDirection",
+    "id": "device_vendor_msft_policy_config_defender_realtimescandirection",
+    "displayName": "Real Time Scan Direction",
+    "applicability": {
+      "deviceMode": "none",
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.0",
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false
+    },
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Real Time Scan Direction",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Real Time Scan Direction",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Selects whether to perform a quick scan or full scan.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_scanparameter_1",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_scanparameter",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "ScanParameter",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Quick scan",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_scanparameter_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Quick scan",
+        "name": "Quick scan"
+      },
+      {
+        "description": "Full scan",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_scanparameter_2",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 2
+        },
+        "displayName": "Full scan",
+        "name": "Full scan"
+      }
+    ],
+    "offsetUri": "/Config/Defender/ScanParameter",
     "version": "639199236441736374",
+    "name": "ScanParameter",
+    "id": "device_vendor_msft_policy_config_defender_scanparameter",
+    "displayName": "Scan Parameter",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.0",
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3249,460 +3281,488 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.0",
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_scanparameter_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Quick scan",
-        "description": "Quick scan",
-        "displayName": "Quick scan"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_scanparameter_2",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Full scan",
-        "description": "Full scan",
-        "displayName": "Full scan"
-      }
-    ],
-    "offsetUri": "/Config/Defender/ScanParameter",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_scanparameter_1",
-    "id": "device_vendor_msft_policy_config_defender_scanparameter",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Selects whether to perform a quick scan or full scan.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Scan Parameter",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Scan Parameter",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_schedulequickscantime",
-    "uxBehavior": "default",
     "valueDefinition": {
-      "minimumValue": 0,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0,
       "maximumValue": 1380
     },
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "ScheduleQuickScanTime",
-    "version": "639199236441736374",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.0",
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "technologies": "mdm,configManager,microsoftSense"
-    },
-    "settingUsage": "configuration",
-    "dependentOn": [],
-    "dependedOnBy": [],
-    "offsetUri": "/Config/Defender/ScheduleQuickScanTime",
-    "defaultValue": {
-      "value": 120,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
-    "id": "device_vendor_msft_policy_config_defender_schedulequickscantime",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "description": "Selects the time of day that the daily Windows Defender quick scan should run. For example, a value of 0=12:00AM, a value of 60=1:00AM, a value of 120=2:00, and so on, up to a value of 1380=11:00PM. The default value is 120",
-    "helpText": "",
+    "settingUsage": "configuration",
+    "riskLevel": "low",
     "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Defender#schedulequickscantime"
     ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "dependentOn": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_schedulequickscantime",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "dependedOnBy": [],
+    "offsetUri": "/Config/Defender/ScheduleQuickScanTime",
+    "version": "639199236441736374",
+    "name": "ScheduleQuickScanTime",
+    "id": "device_vendor_msft_policy_config_defender_schedulequickscantime",
+    "displayName": "Schedule Quick Scan Time",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 120
+    },
+    "applicability": {
+      "deviceMode": "none",
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.0",
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false
+    },
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Schedule Quick Scan Time",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Schedule Quick Scan Time",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_schedulescanday",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "ScheduleScanDay",
-    "version": "639199236441736374",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.0",
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "technologies": "mdm,configManager,microsoftSense"
-    },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Every day",
-        "description": "Every day",
-        "displayName": "Every day"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Sunday",
-        "description": "Sunday",
-        "displayName": "Sunday"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_2",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Monday",
-        "description": "Monday",
-        "displayName": "Monday"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 3,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_3",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Tuesday",
-        "description": "Tuesday",
-        "displayName": "Tuesday"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 4,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_4",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Wednesday",
-        "description": "Wednesday",
-        "displayName": "Wednesday"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 5,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_5",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Thursday",
-        "description": "Thursday",
-        "displayName": "Thursday"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 6,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_6",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Friday",
-        "description": "Friday",
-        "displayName": "Friday"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 7,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_7",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Saturday",
-        "description": "Saturday",
-        "displayName": "Saturday"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 8,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_8",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "No scheduled scan",
-        "description": "No scheduled scan",
-        "displayName": "No scheduled scan"
-      }
-    ],
-    "offsetUri": "/Config/Defender/ScheduleScanDay",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_schedulescanday_0",
-    "id": "device_vendor_msft_policy_config_defender_schedulescanday",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "description": "Selects the day that the Windows Defender scan should run. Note The scan type will depends on what scan type is selected in the Defender/ScanParameter setting.",
-    "helpText": "",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_schedulescanday_0",
+    "riskLevel": "low",
     "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Defender#schedulescanday"
     ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_schedulescanday",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Every day",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Every day",
+        "name": "Every day"
+      },
+      {
+        "description": "Sunday",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Sunday",
+        "name": "Sunday"
+      },
+      {
+        "description": "Monday",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_2",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 2
+        },
+        "displayName": "Monday",
+        "name": "Monday"
+      },
+      {
+        "description": "Tuesday",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_3",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 3
+        },
+        "displayName": "Tuesday",
+        "name": "Tuesday"
+      },
+      {
+        "description": "Wednesday",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_4",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 4
+        },
+        "displayName": "Wednesday",
+        "name": "Wednesday"
+      },
+      {
+        "description": "Thursday",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_5",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 5
+        },
+        "displayName": "Thursday",
+        "name": "Thursday"
+      },
+      {
+        "description": "Friday",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_6",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 6
+        },
+        "displayName": "Friday",
+        "name": "Friday"
+      },
+      {
+        "description": "Saturday",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_7",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 7
+        },
+        "displayName": "Saturday",
+        "name": "Saturday"
+      },
+      {
+        "description": "No scheduled scan",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_schedulescanday_8",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 8
+        },
+        "displayName": "No scheduled scan",
+        "name": "No scheduled scan"
+      }
+    ],
+    "offsetUri": "/Config/Defender/ScheduleScanDay",
+    "version": "639199236441736374",
+    "name": "ScheduleScanDay",
+    "id": "device_vendor_msft_policy_config_defender_schedulescanday",
+    "displayName": "Schedule Scan Day",
+    "applicability": {
+      "deviceMode": "none",
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.0",
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false
+    },
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Schedule Scan Day",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Schedule Scan Day",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_schedulescantime",
-    "uxBehavior": "default",
     "valueDefinition": {
-      "minimumValue": 0,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0,
       "maximumValue": 1380
     },
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "ScheduleScanTime",
-    "version": "639199236441736374",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.0",
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "technologies": "mdm,configManager,microsoftSense"
-    },
-    "settingUsage": "configuration",
-    "dependentOn": [],
-    "dependedOnBy": [],
-    "offsetUri": "/Config/Defender/ScheduleScanTime",
-    "defaultValue": {
-      "value": 120,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
-    "id": "device_vendor_msft_policy_config_defender_schedulescantime",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "description": "Selects the time of day that the weekly Windows Defender scan should run. Note The scan type will depends on what scan type is selected in the Defender/ScanParameter setting. For example, a value of 0=12:00AM, a value of 60=1:00AM, a value of 120=2:00, and so on, up to a value of 1380=11:00PM. The default value is 120.",
-    "helpText": "",
+    "settingUsage": "configuration",
+    "riskLevel": "low",
     "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Defender#schedulescantime"
     ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "dependentOn": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_schedulescantime",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "dependedOnBy": [],
+    "offsetUri": "/Config/Defender/ScheduleScanTime",
+    "version": "639199236441736374",
+    "name": "ScheduleScanTime",
+    "id": "device_vendor_msft_policy_config_defender_schedulescantime",
+    "displayName": "Schedule Scan Time",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 120
+    },
+    "applicability": {
+      "deviceMode": "none",
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.0",
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false
+    },
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Schedule Scan Time",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Schedule Scan Time",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_signatureupdateinterval",
-    "uxBehavior": "default",
     "valueDefinition": {
-      "minimumValue": 0,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 0,
       "maximumValue": 24
     },
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "SignatureUpdateInterval",
-    "version": "639199236441736374",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.0",
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "technologies": "mdm,configManager,microsoftSense"
-    },
-    "settingUsage": "configuration",
-    "dependentOn": [],
-    "dependedOnBy": [],
-    "offsetUri": "/Config/Defender/SignatureUpdateInterval",
-    "defaultValue": {
-      "value": 8,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
-    "id": "device_vendor_msft_policy_config_defender_signatureupdateinterval",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
     "description": "Specifies the interval (in hours) that will be used to check for signatures, so instead of using the ScheduleDay and ScheduleTime the check for new signatures will be set according to the interval. A value of 0 means no check for new signatures, a value of 1 means to check every hour, a value of 2 means to check every two hours, and so on, up to a value of 24, which means to check every day. The default value is 8. OMA-URI Path: . /Vendor/MSFT/Policy/Config/Defender/SignatureUpdateInterval",
-    "helpText": "",
+    "settingUsage": "configuration",
+    "riskLevel": "low",
     "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/policy-csp-Defender#signatureupdateinterval"
     ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "dependentOn": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_signatureupdateinterval",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "dependedOnBy": [],
+    "offsetUri": "/Config/Defender/SignatureUpdateInterval",
+    "version": "639199236441736374",
+    "name": "SignatureUpdateInterval",
+    "id": "device_vendor_msft_policy_config_defender_signatureupdateinterval",
+    "displayName": "Signature Update Interval",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 8
+    },
+    "applicability": {
+      "deviceMode": "none",
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.0",
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false
+    },
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Signature Update Interval",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Signature Update Interval",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Checks for the user consent level in Windows Defender to send data. If the required consent has already been granted, Windows Defender submits them. If not, (and if the user has specified never to ask), the UI is launched to ask for user consent (when Defender/AllowCloudProtection is allowed) before sending data.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_submitsamplesconsent_1",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
+    ],
     "rootDefinitionId": "device_vendor_msft_policy_config_defender_submitsamplesconsent",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "SubmitSamplesConsent",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Always prompt.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_submitsamplesconsent_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Always prompt.",
+        "name": "Always prompt."
+      },
+      {
+        "description": "Send safe samples automatically.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_submitsamplesconsent_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Send safe samples automatically.",
+        "name": "Send safe samples automatically."
+      },
+      {
+        "description": "Never send.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_submitsamplesconsent_2",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 2
+        },
+        "displayName": "Never send.",
+        "name": "Never send."
+      },
+      {
+        "description": "Send all samples automatically.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_submitsamplesconsent_3",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 3
+        },
+        "displayName": "Send all samples automatically.",
+        "name": "Send all samples automatically."
+      }
+    ],
+    "offsetUri": "/Config/Defender/SubmitSamplesConsent",
     "version": "639199236441736374",
+    "name": "SubmitSamplesConsent",
+    "id": "device_vendor_msft_policy_config_defender_submitsamplesconsent",
+    "displayName": "Submit Samples Consent",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.0",
-      "minimumSupportedVersion": "10.0.10240",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3715,192 +3775,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.0",
+      "minimumSupportedVersion": "10.0.10240",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_submitsamplesconsent_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Always prompt.",
-        "description": "Always prompt.",
-        "displayName": "Always prompt."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_submitsamplesconsent_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Send safe samples automatically.",
-        "description": "Send safe samples automatically.",
-        "displayName": "Send safe samples automatically."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_submitsamplesconsent_2",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Never send.",
-        "description": "Never send.",
-        "displayName": "Never send."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 3,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_submitsamplesconsent_3",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Send all samples automatically.",
-        "description": "Send all samples automatically.",
-        "displayName": "Send all samples automatically."
-      }
-    ],
-    "offsetUri": "/Config/Defender/SubmitSamplesConsent",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_submitsamplesconsent_1",
-    "id": "device_vendor_msft_policy_config_defender_submitsamplesconsent",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Checks for the user consent level in Windows Defender to send data. If the required consent has already been granted, Windows Defender submits them. If not, (and if the user has specified never to ask), the UI is launched to ask for user consent (when Defender/AllowCloudProtection is allowed) before sending data.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Submit Samples Consent",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Submit Samples Consent",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_defender_configuration_disablelocaladminmerge",
-    "uxBehavior": "toggle",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "DisableLocalAdminMerge",
-    "version": "639199236441736374",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "windowsEducation",
-        "windowsMultiSession",
-        "iotEnterprise",
-        "windowsCloudN",
-        "windows11SE",
-        "iotEnterpriseSEval",
-        "windowsCPC"
-      ],
-      "technologies": "mdm,microsoftSense"
-    },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_disablelocaladminmerge_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Enable Local Admin Merge",
-        "description": "Enable Local Admin Merge",
-        "displayName": "Enable Local Admin Merge"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_disablelocaladminmerge_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Disable Local Admin Merge",
-        "description": "Disable Local Admin Merge",
-        "displayName": "Disable Local Admin Merge"
-      }
-    ],
-    "offsetUri": "/Configuration/DisableLocalAdminMerge",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_disablelocaladminmerge_0",
-    "id": "device_vendor_msft_defender_configuration_disablelocaladminmerge",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "description": "When this value is set to false, it allows a local admin the ability to specify some settings for complex list type that will then merge /override the Preference settings with the Policy settings",
-    "helpText": "",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_defender_configuration_disablelocaladminmerge_0",
+    "riskLevel": "low",
     "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
     ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "keywords": [
-      "Disable Local Admin Merge",
-      "Defender"
-    ],
-    "riskLevel": "low",
+    "rootDefinitionId": "device_vendor_msft_defender_configuration_disablelocaladminmerge",
     "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Disable Local Admin Merge",
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowonaccessprotection",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AllowOnAccessProtection",
+    "options": [
+      {
+        "description": "Enable Local Admin Merge",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_disablelocaladminmerge_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Enable Local Admin Merge",
+        "name": "Enable Local Admin Merge"
+      },
+      {
+        "description": "Disable Local Admin Merge",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_disablelocaladminmerge_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Disable Local Admin Merge",
+        "name": "Disable Local Admin Merge"
+      }
+    ],
+    "offsetUri": "/Configuration/DisableLocalAdminMerge",
     "version": "639199236441736374",
+    "name": "DisableLocalAdminMerge",
+    "id": "device_vendor_msft_defender_configuration_disablelocaladminmerge",
+    "displayName": "Disable Local Admin Merge",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -3913,113 +3860,128 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowonaccessprotection_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not allowed.",
-        "description": "Not allowed.",
-        "displayName": "Not allowed."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_allowonaccessprotection_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed.",
-        "description": "Allowed.",
-        "displayName": "Allowed."
-      }
-    ],
-    "offsetUri": "/Config/Defender/AllowOnAccessProtection",
-    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowonaccessprotection_1",
-    "id": "device_vendor_msft_policy_config_defender_allowonaccessprotection",
+    "referredSettingInformationList": [],
+    "uxBehavior": "toggle",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
+    "keywords": [
+      "Disable Local Admin Merge",
+      "Defender"
+    ],
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
+  },
+  {
     "description": "Allows or disallows Windows Defender On Access Protection functionality.",
-    "helpText": "",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_policy_config_defender_allowonaccessprotection_1",
+    "riskLevel": "low",
     "accessTypes": "add,delete,get,replace",
     "infoUrls": [
       "https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-defender"
     ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_allowonaccessprotection",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": "Not allowed.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowonaccessprotection_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not allowed.",
+        "name": "Not allowed."
+      },
+      {
+        "description": "Allowed.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_allowonaccessprotection_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Allowed.",
+        "name": "Allowed."
+      }
+    ],
+    "offsetUri": "/Config/Defender/AllowOnAccessProtection",
+    "version": "639199236441736374",
+    "name": "AllowOnAccessProtection",
+    "id": "device_vendor_msft_policy_config_defender_allowonaccessprotection",
+    "displayName": "Allow On Access Protection",
+    "applicability": {
+      "deviceMode": "none",
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "windowsEducation",
+        "windowsMultiSession",
+        "iotEnterprise",
+        "windowsCloudN",
+        "windows11SE",
+        "iotEnterpriseSEval",
+        "windowsCPC"
+      ],
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
+    },
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow On Access Protection",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Allow On Access Protection",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "HighSeverityThreatDefaultAction",
-    "version": "639199236441736374",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "technologies": "mdm,configManager,microsoftSense"
-    },
+    "description": "",
     "settingUsage": "configuration",
+    "defaultOptionId": null,
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "options": [
       {
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
-          }
-        ],
-        "optionValue": {
-          "value": "4=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_highseveritythreats_clean",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "Clean",
-        "description": null,
-        "displayName": "Clean. Service tries to recover files and try to disinfect."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4027,18 +3989,18 @@
           }
         ],
         "optionValue": {
-          "value": "4=2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "4=1"
         },
+        "displayName": "Clean. Service tries to recover files and try to disinfect.",
+        "name": "Clean"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_highseveritythreats_quarantine",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "Quarantine",
-        "description": null,
-        "displayName": "Quarantine. Moves files to quarantine."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4046,18 +4008,18 @@
           }
         ],
         "optionValue": {
-          "value": "4=3",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "4=2"
         },
+        "displayName": "Quarantine. Moves files to quarantine.",
+        "name": "Quarantine"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_highseveritythreats_remove",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "Remove",
-        "description": null,
-        "displayName": "Remove. Removes files from system."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4065,18 +4027,18 @@
           }
         ],
         "optionValue": {
-          "value": "4=6",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "4=3"
         },
+        "displayName": "Remove. Removes files from system.",
+        "name": "Remove"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_highseveritythreats_allow",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "Allow",
-        "description": null,
-        "displayName": "Allow. Allows file/does none of the above actions."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4084,18 +4046,18 @@
           }
         ],
         "optionValue": {
-          "value": "4=8",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "4=6"
         },
+        "displayName": "Allow. Allows file/does none of the above actions.",
+        "name": "Allow"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_highseveritythreats_userdefined",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "UserDefined",
-        "description": null,
-        "displayName": "User defined. Requires user to make a decision on which action to take."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4103,50 +4065,43 @@
           }
         ],
         "optionValue": {
-          "value": "4=10",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "4=8"
         },
-        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_highseveritythreats_block",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Block",
+        "displayName": "User defined. Requires user to make a decision on which action to take.",
+        "name": "UserDefined"
+      },
+      {
         "description": null,
-        "displayName": "Block. Blocks file execution."
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_highseveritythreats_block",
+        "helpText": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "4=10"
+        },
+        "displayName": "Block. Blocks file execution.",
+        "name": "Block"
       }
     ],
     "offsetUri": "/Config/Defender/ThreatSeverityDefaultAction",
-    "defaultOptionId": null,
+    "version": "639199236441736374",
+    "name": "HighSeverityThreatDefaultAction",
     "id": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_highseveritythreats",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "keywords": [
-      "Threat Severity Default Action",
-      "Defender"
-    ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
     "displayName": "Remediation action for High severity threats",
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-    "uxBehavior": "default",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4157,50 +4112,87 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "occurrence": {
       "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "name": "ThreatSeverityDefaultAction",
-    "version": "639199236441736374",
-    "minimumCount": 0,
-    "settingUsage": "configuration",
-    "dependentOn": [],
-    "dependedOnBy": [
-      {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_lowseveritythreats"
-      },
-      {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats"
-      },
-      {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_highseveritythreats"
-      },
-      {
-        "required": false,
-        "dependedOnBy": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_severethreats"
-      }
-    ],
-    "offsetUri": "/Config/Defender/ThreatSeverityDefaultAction",
-    "id": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
-    "description": "",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "maximumCount": 1,
-    "infoUrls": [],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
     "keywords": [
       "Threat Severity Default Action",
       "Defender"
     ],
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
+  },
+  {
+    "description": "",
+    "settingUsage": "configuration",
     "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [],
+    "minimumCount": 0,
+    "dependentOn": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
     "baseUri": "./Device/Vendor/MSFT/Policy",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "dependedOnBy": [
+      {
+        "dependedOnBy": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_lowseveritythreats",
+        "required": false
+      },
+      {
+        "dependedOnBy": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats",
+        "required": false
+      },
+      {
+        "dependedOnBy": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_highseveritythreats",
+        "required": false
+      },
+      {
+        "dependedOnBy": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_severethreats",
+        "required": false
+      }
+    ],
+    "applicability": {
+      "deviceMode": "none",
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
+    },
+    "offsetUri": "/Config/Defender/ThreatSeverityDefaultAction",
+    "version": "639199236441736374",
+    "name": "ThreatSeverityDefaultAction",
+    "id": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+    "displayName": "Threat Severity Default Action",
     "childIds": [
       "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_lowseveritythreats",
       "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats",
@@ -4208,62 +4200,32 @@
       "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_severethreats"
     ],
     "referredSettingInformationList": [],
-    "displayName": "Threat Severity Default Action",
-    "visibility": "settingsCatalog,template"
+    "uxBehavior": "default",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingGroupCollectionDefinition",
+    "maximumCount": 1,
+    "keywords": [
+      "Threat Severity Default Action",
+      "Defender"
+    ],
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "SevereThreatDefaultAction",
-    "version": "639199236441736374",
-    "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
-      "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
-      "windowsSkus": [
-        "windowsEnterprise",
-        "windowsProfessional",
-        "windowsHome",
-        "unknown",
-        "windowsEducation",
-        "windowsMultiSession",
-        "surfaceHub",
-        "iotEnterprise"
-      ],
-      "technologies": "mdm,configManager,microsoftSense"
-    },
+    "description": "",
     "settingUsage": "configuration",
+    "defaultOptionId": null,
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "options": [
       {
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
-          }
-        ],
-        "optionValue": {
-          "value": "5=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_severethreats_clean",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "Clean",
-        "description": null,
-        "displayName": "Clean. Service tries to recover files and try to disinfect."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4271,18 +4233,18 @@
           }
         ],
         "optionValue": {
-          "value": "5=2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "5=1"
         },
+        "displayName": "Clean. Service tries to recover files and try to disinfect.",
+        "name": "Clean"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_severethreats_quarantine",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "Quarantine",
-        "description": null,
-        "displayName": "Quarantine. Moves files to quarantine."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4290,18 +4252,18 @@
           }
         ],
         "optionValue": {
-          "value": "5=3",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "5=2"
         },
+        "displayName": "Quarantine. Moves files to quarantine.",
+        "name": "Quarantine"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_severethreats_remove",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "Remove",
-        "description": null,
-        "displayName": "Remove. Removes files from system."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4309,18 +4271,18 @@
           }
         ],
         "optionValue": {
-          "value": "5=6",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "5=3"
         },
+        "displayName": "Remove. Removes files from system.",
+        "name": "Remove"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_severethreats_allow",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "Allow",
-        "description": null,
-        "displayName": "Allow. Allows file/does none of the above actions."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4328,18 +4290,18 @@
           }
         ],
         "optionValue": {
-          "value": "5=8",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "5=6"
         },
+        "displayName": "Allow. Allows file/does none of the above actions.",
+        "name": "Allow"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_severethreats_userdefined",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "UserDefined",
-        "description": null,
-        "displayName": "User defined. Requires user to make a decision on which action to take."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4347,56 +4309,43 @@
           }
         ],
         "optionValue": {
-          "value": "5=10",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "5=8"
         },
+        "displayName": "User defined. Requires user to make a decision on which action to take.",
+        "name": "UserDefined"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_severethreats_block",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "Block",
-        "description": null,
-        "displayName": "Block. Blocks file execution."
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "5=10"
+        },
+        "displayName": "Block. Blocks file execution.",
+        "name": "Block"
       }
     ],
     "offsetUri": "/Config/Defender/ThreatSeverityDefaultAction",
-    "defaultOptionId": null,
+    "version": "639199236441736374",
+    "name": "SevereThreatDefaultAction",
     "id": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_severethreats",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "keywords": [
-      "Threat Severity Default Action",
-      "Defender"
-    ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
     "displayName": "Remediation action for Severe threats",
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "LowSeverityThreatDefaultAction",
-    "version": "639199236441736374",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4407,30 +4356,43 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
+    "keywords": [
+      "Threat Severity Default Action",
+      "Defender"
+    ],
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
+  },
+  {
+    "description": "",
     "settingUsage": "configuration",
+    "defaultOptionId": null,
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
     "options": [
       {
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
-          }
-        ],
-        "optionValue": {
-          "value": "1=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_lowseveritythreats_clean",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "Clean",
-        "description": null,
-        "displayName": "Clean. Service tries to recover files and try to disinfect."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4438,18 +4400,18 @@
           }
         ],
         "optionValue": {
-          "value": "1=2",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "1=1"
         },
+        "displayName": "Clean. Service tries to recover files and try to disinfect.",
+        "name": "Clean"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_lowseveritythreats_quarantine",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "Quarantine",
-        "description": null,
-        "displayName": "Quarantine. Moves files to quarantine."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4457,18 +4419,18 @@
           }
         ],
         "optionValue": {
-          "value": "1=3",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "1=2"
         },
+        "displayName": "Quarantine. Moves files to quarantine.",
+        "name": "Quarantine"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_lowseveritythreats_remove",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "Remove",
-        "description": null,
-        "displayName": "Remove. Removes files from system."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4476,18 +4438,18 @@
           }
         ],
         "optionValue": {
-          "value": "1=6",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "1=3"
         },
+        "displayName": "Remove. Removes files from system.",
+        "name": "Remove"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_lowseveritythreats_allow",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "Allow",
-        "description": null,
-        "displayName": "Allow. Allows file/does none of the above actions."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4495,18 +4457,18 @@
           }
         ],
         "optionValue": {
-          "value": "1=8",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "1=6"
         },
+        "displayName": "Allow. Allows file/does none of the above actions.",
+        "name": "Allow"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
         "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_lowseveritythreats_userdefined",
-        "dependedOnBy": [],
         "helpText": null,
-        "name": "UserDefined",
-        "description": null,
-        "displayName": "User defined. Requires user to make a decision on which action to take."
-      },
-      {
         "dependentOn": [
           {
             "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
@@ -4514,56 +4476,43 @@
           }
         ],
         "optionValue": {
-          "value": "1=10",
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
           "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+          "value": "1=8"
         },
-        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_lowseveritythreats_block",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Block",
+        "displayName": "User defined. Requires user to make a decision on which action to take.",
+        "name": "UserDefined"
+      },
+      {
         "description": null,
-        "displayName": "Block. Blocks file execution."
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_lowseveritythreats_block",
+        "helpText": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "1=10"
+        },
+        "displayName": "Block. Blocks file execution.",
+        "name": "Block"
       }
     ],
     "offsetUri": "/Config/Defender/ThreatSeverityDefaultAction",
-    "defaultOptionId": null,
-    "id": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_lowseveritythreats",
-    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
-    "keywords": [
-      "Threat Severity Default Action",
-      "Defender"
-    ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Remediation action for Low severity threats",
-    "visibility": "settingsCatalog,template"
-  },
-  {
-    "rootDefinitionId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 0,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "ModerateSeverityThreatDefaultAction",
     "version": "639199236441736374",
+    "name": "LowSeverityThreatDefaultAction",
+    "id": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_lowseveritythreats",
+    "displayName": "Remediation action for Low severity threats",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "4.1",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4574,163 +4523,246 @@
         "surfaceHub",
         "iotEnterprise"
       ],
-      "technologies": "mdm,configManager,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
-          }
-        ],
-        "optionValue": {
-          "value": "2=1",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats_clean",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Clean",
-        "description": null,
-        "displayName": "Clean. Service tries to recover files and try to disinfect."
-      },
-      {
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
-          }
-        ],
-        "optionValue": {
-          "value": "2=2",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats_quarantine",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Quarantine",
-        "description": null,
-        "displayName": "Quarantine. Moves files to quarantine."
-      },
-      {
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
-          }
-        ],
-        "optionValue": {
-          "value": "2=3",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats_remove",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Remove",
-        "description": null,
-        "displayName": "Remove. Removes files from system."
-      },
-      {
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
-          }
-        ],
-        "optionValue": {
-          "value": "2=6",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats_allow",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allow",
-        "description": null,
-        "displayName": "Allow. Allows file/does none of the above actions."
-      },
-      {
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
-          }
-        ],
-        "optionValue": {
-          "value": "2=8",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats_userdefined",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "UserDefined",
-        "description": null,
-        "displayName": "User defined. Requires user to make a decision on which action to take."
-      },
-      {
-        "dependentOn": [
-          {
-            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
-            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
-          }
-        ],
-        "optionValue": {
-          "value": "2=10",
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
-        },
-        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats_block",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Block",
-        "description": null,
-        "displayName": "Block. Blocks file execution."
-      }
-    ],
-    "offsetUri": "/Config/Defender/ThreatSeverityDefaultAction",
-    "defaultOptionId": null,
-    "id": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 0,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Threat Severity Default Action",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Device/Vendor/MSFT/Policy",
-    "referredSettingInformationList": [],
-    "displayName": "Remediation action for Moderate severity threats",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_defender_configuration_allownetworkprotectiondownlevel",
+    "description": "",
+    "settingUsage": "configuration",
+    "defaultOptionId": null,
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [],
+    "rootDefinitionId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+    "baseUri": "./Device/Vendor/MSFT/Policy",
+    "options": [
+      {
+        "description": null,
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats_clean",
+        "helpText": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "2=1"
+        },
+        "displayName": "Clean. Service tries to recover files and try to disinfect.",
+        "name": "Clean"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats_quarantine",
+        "helpText": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "2=2"
+        },
+        "displayName": "Quarantine. Moves files to quarantine.",
+        "name": "Quarantine"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats_remove",
+        "helpText": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "2=3"
+        },
+        "displayName": "Remove. Removes files from system.",
+        "name": "Remove"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats_allow",
+        "helpText": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "2=6"
+        },
+        "displayName": "Allow. Allows file/does none of the above actions.",
+        "name": "Allow"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats_userdefined",
+        "helpText": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "2=8"
+        },
+        "displayName": "User defined. Requires user to make a decision on which action to take.",
+        "name": "UserDefined"
+      },
+      {
+        "description": null,
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats_block",
+        "helpText": null,
+        "dependentOn": [
+          {
+            "dependentOn": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction",
+            "parentSettingId": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction"
+          }
+        ],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "2=10"
+        },
+        "displayName": "Block. Blocks file execution.",
+        "name": "Block"
+      }
+    ],
+    "offsetUri": "/Config/Defender/ThreatSeverityDefaultAction",
+    "version": "639199236441736374",
+    "name": "ModerateSeverityThreatDefaultAction",
+    "id": "device_vendor_msft_policy_config_defender_threatseveritydefaultaction_moderateseveritythreats",
+    "displayName": "Remediation action for Moderate severity threats",
+    "applicability": {
+      "deviceMode": "none",
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,configManager,microsoftSense",
+      "windowsSkus": [
+        "windowsEnterprise",
+        "windowsProfessional",
+        "windowsHome",
+        "unknown",
+        "windowsEducation",
+        "windowsMultiSession",
+        "surfaceHub",
+        "iotEnterprise"
+      ],
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "4.1",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
+    },
+    "referredSettingInformationList": [],
     "uxBehavior": "default",
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
     "occurrence": {
-      "minDeviceOccurrence": 1,
+      "minDeviceOccurrence": 0,
       "maxDeviceOccurrence": 1
     },
-    "name": "AllowNetworkProtectionDownLevel",
+    "keywords": [
+      "Threat Severity Default Action",
+      "Defender"
+    ],
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
+  },
+  {
+    "description": "This settings controls whether Network Protection is allowed to be configured into block or audit mode on windows downlevel of RS3. If false, the value of EnableNetworkProtection will be ignored.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_defender_configuration_allownetworkprotectiondownlevel_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
+    "rootDefinitionId": "device_vendor_msft_defender_configuration_allownetworkprotectiondownlevel",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "options": [
+      {
+        "description": "Network protection will be enabled downlevel.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_allownetworkprotectiondownlevel_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Network protection will be enabled downlevel.",
+        "name": "Network protection will be enabled downlevel."
+      },
+      {
+        "description": "Network protection will be disabled downlevel.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_allownetworkprotectiondownlevel_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Network protection will be disabled downlevel.",
+        "name": "Network protection will be disabled downlevel."
+      }
+    ],
+    "offsetUri": "/Configuration/AllowNetworkProtectionDownLevel",
     "version": "639199236441736374",
+    "name": "AllowNetworkProtectionDownLevel",
+    "id": "device_vendor_msft_defender_configuration_allownetworkprotectiondownlevel",
+    "displayName": "Allow Network Protection Down Level",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4743,79 +4775,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_allownetworkprotectiondownlevel_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Network protection will be enabled downlevel.",
-        "description": "Network protection will be enabled downlevel.",
-        "displayName": "Network protection will be enabled downlevel."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_allownetworkprotectiondownlevel_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Network protection will be disabled downlevel.",
-        "description": "Network protection will be disabled downlevel.",
-        "displayName": "Network protection will be disabled downlevel."
-      }
-    ],
-    "offsetUri": "/Configuration/AllowNetworkProtectionDownLevel",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_allownetworkprotectiondownlevel_0",
-    "id": "device_vendor_msft_defender_configuration_allownetworkprotectiondownlevel",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This settings controls whether Network Protection is allowed to be configured into block or audit mode on windows downlevel of RS3. If false, the value of EnableNetworkProtection will be ignored.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow Network Protection Down Level",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Allow Network Protection Down Level",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "This settings controls whether Network Protection is allowed to enable datagram processing on Windows Server. If false, the value of DisableDatagramProcessing will be ignored and default to disabling Datagram inspection.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_defender_configuration_allowdatagramprocessingonwinserver_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
     "rootDefinitionId": "device_vendor_msft_defender_configuration_allowdatagramprocessingonwinserver",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "AllowDatagramProcessingOnWinServer",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "options": [
+      {
+        "description": "Datagram processing on Windows Server is enabled.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_allowdatagramprocessingonwinserver_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Datagram processing on Windows Server is enabled.",
+        "name": "Datagram processing on Windows Server is enabled."
+      },
+      {
+        "description": "Datagram processing on Windows Server is disabled.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_allowdatagramprocessingonwinserver_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Datagram processing on Windows Server is disabled.",
+        "name": "Datagram processing on Windows Server is disabled."
+      }
+    ],
+    "offsetUri": "/Configuration/AllowDatagramProcessingOnWinServer",
     "version": "639199236441736374",
+    "name": "AllowDatagramProcessingOnWinServer",
+    "id": "device_vendor_msft_defender_configuration_allowdatagramprocessingonwinserver",
+    "displayName": "Allow Datagram Processing On Win Server",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4828,79 +4860,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_allowdatagramprocessingonwinserver_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Datagram processing on Windows Server is enabled.",
-        "description": "Datagram processing on Windows Server is enabled.",
-        "displayName": "Datagram processing on Windows Server is enabled."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_allowdatagramprocessingonwinserver_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Datagram processing on Windows Server is disabled.",
-        "description": "Datagram processing on Windows Server is disabled.",
-        "displayName": "Datagram processing on Windows Server is disabled."
-      }
-    ],
-    "offsetUri": "/Configuration/AllowDatagramProcessingOnWinServer",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_allowdatagramprocessingonwinserver_0",
-    "id": "device_vendor_msft_defender_configuration_allowdatagramprocessingonwinserver",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This settings controls whether Network Protection is allowed to enable datagram processing on Windows Server. If false, the value of DisableDatagramProcessing will be ignored and default to disabling Datagram inspection.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Allow Datagram Processing On Win Server",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Allow Datagram Processing On Win Server",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "This setting disables DNS over TCP Parsing for Network Protection.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_defender_configuration_disablednsovertcpparsing_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
     "rootDefinitionId": "device_vendor_msft_defender_configuration_disablednsovertcpparsing",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "DisableDnsOverTcpParsing",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "options": [
+      {
+        "description": "DNS over TCP parsing is disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_disablednsovertcpparsing_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "DNS over TCP parsing is disabled",
+        "name": "DNS over TCP parsing is disabled"
+      },
+      {
+        "description": "DNS over TCP parsing is enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_disablednsovertcpparsing_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "DNS over TCP parsing is enabled",
+        "name": "DNS over TCP parsing is enabled"
+      }
+    ],
+    "offsetUri": "/Configuration/DisableDnsOverTcpParsing",
     "version": "639199236441736374",
+    "name": "DisableDnsOverTcpParsing",
+    "id": "device_vendor_msft_defender_configuration_disablednsovertcpparsing",
+    "displayName": "Disable Dns Over Tcp Parsing",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4913,79 +4945,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_disablednsovertcpparsing_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "DNS over TCP parsing is disabled",
-        "description": "DNS over TCP parsing is disabled",
-        "displayName": "DNS over TCP parsing is disabled"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_disablednsovertcpparsing_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "DNS over TCP parsing is enabled",
-        "description": "DNS over TCP parsing is enabled",
-        "displayName": "DNS over TCP parsing is enabled"
-      }
-    ],
-    "offsetUri": "/Configuration/DisableDnsOverTcpParsing",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_disablednsovertcpparsing_0",
-    "id": "device_vendor_msft_defender_configuration_disablednsovertcpparsing",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This setting disables DNS over TCP Parsing for Network Protection.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Disable Dns Over Tcp Parsing",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Disable Dns Over Tcp Parsing",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "This setting disables HTTP Parsing for Network Protection.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_defender_configuration_disablehttpparsing_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
     "rootDefinitionId": "device_vendor_msft_defender_configuration_disablehttpparsing",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "DisableHttpParsing",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "options": [
+      {
+        "description": "HTTP parsing is disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_disablehttpparsing_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "HTTP parsing is disabled",
+        "name": "HTTP parsing is disabled"
+      },
+      {
+        "description": "HTTP parsing is enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_disablehttpparsing_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "HTTP parsing is enabled",
+        "name": "HTTP parsing is enabled"
+      }
+    ],
+    "offsetUri": "/Configuration/DisableHttpParsing",
     "version": "639199236441736374",
+    "name": "DisableHttpParsing",
+    "id": "device_vendor_msft_defender_configuration_disablehttpparsing",
+    "displayName": "Disable Http Parsing",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -4998,79 +5030,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_disablehttpparsing_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "HTTP parsing is disabled",
-        "description": "HTTP parsing is disabled",
-        "displayName": "HTTP parsing is disabled"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_disablehttpparsing_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "HTTP parsing is enabled",
-        "description": "HTTP parsing is enabled",
-        "displayName": "HTTP parsing is enabled"
-      }
-    ],
-    "offsetUri": "/Configuration/DisableHttpParsing",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_disablehttpparsing_0",
-    "id": "device_vendor_msft_defender_configuration_disablehttpparsing",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This setting disables HTTP Parsing for Network Protection.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Disable Http Parsing",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Disable Http Parsing",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "This setting disables SSH Parsing for Network Protection.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_defender_configuration_disablesshparsing_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
     "rootDefinitionId": "device_vendor_msft_defender_configuration_disablesshparsing",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "DisableSshParsing",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "options": [
+      {
+        "description": "SSH parsing is disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_disablesshparsing_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "SSH parsing is disabled",
+        "name": "SSH parsing is disabled"
+      },
+      {
+        "description": "SSH parsing is enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_disablesshparsing_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "SSH parsing is enabled",
+        "name": "SSH parsing is enabled"
+      }
+    ],
+    "offsetUri": "/Configuration/DisableSshParsing",
     "version": "639199236441736374",
+    "name": "DisableSshParsing",
+    "id": "device_vendor_msft_defender_configuration_disablesshparsing",
+    "displayName": "Disable Ssh Parsing",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5083,79 +5115,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_disablesshparsing_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "SSH parsing is disabled",
-        "description": "SSH parsing is disabled",
-        "displayName": "SSH parsing is disabled"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_disablesshparsing_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "SSH parsing is enabled",
-        "description": "SSH parsing is enabled",
-        "displayName": "SSH parsing is enabled"
-      }
-    ],
-    "offsetUri": "/Configuration/DisableSshParsing",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_disablesshparsing_0",
-    "id": "device_vendor_msft_defender_configuration_disablesshparsing",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This setting disables SSH Parsing for Network Protection.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Disable Ssh Parsing",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Disable Ssh Parsing",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "This setting disables TLS Parsing for Network Protection.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_defender_configuration_disabletlsparsing_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
     "rootDefinitionId": "device_vendor_msft_defender_configuration_disabletlsparsing",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "DisableTlsParsing",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "options": [
+      {
+        "description": "TLS parsing is disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_disabletlsparsing_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "TLS parsing is disabled",
+        "name": "TLS parsing is disabled"
+      },
+      {
+        "description": "TLS parsing is enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_disabletlsparsing_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "TLS parsing is enabled",
+        "name": "TLS parsing is enabled"
+      }
+    ],
+    "offsetUri": "/Configuration/DisableTlsParsing",
     "version": "639199236441736374",
+    "name": "DisableTlsParsing",
+    "id": "device_vendor_msft_defender_configuration_disabletlsparsing",
+    "displayName": "Disable Tls Parsing",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5168,79 +5200,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_disabletlsparsing_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "TLS parsing is disabled",
-        "description": "TLS parsing is disabled",
-        "displayName": "TLS parsing is disabled"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_disabletlsparsing_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "TLS parsing is enabled",
-        "description": "TLS parsing is enabled",
-        "displayName": "TLS parsing is enabled"
-      }
-    ],
-    "offsetUri": "/Configuration/DisableTlsParsing",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_disabletlsparsing_0",
-    "id": "device_vendor_msft_defender_configuration_disabletlsparsing",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This setting disables TLS Parsing for Network Protection.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Disable Tls Parsing",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Disable Tls Parsing",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "This setting is deprecated and no longer has impact on devices. This setting enables the DNS Sinkhole feature for Network Protection, respecting the value of EnableNetworkProtection for block vs audit, does nothing in inspect mode.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_defender_configuration_enablednssinkhole_1",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
     "rootDefinitionId": "device_vendor_msft_defender_configuration_enablednssinkhole",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "EnableDnsSinkhole",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "options": [
+      {
+        "description": "DNS Sinkhole is disabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_enablednssinkhole_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "DNS Sinkhole is disabled",
+        "name": "DNS Sinkhole is disabled"
+      },
+      {
+        "description": "DNS Sinkhole is enabled",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_enablednssinkhole_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "DNS Sinkhole is enabled",
+        "name": "DNS Sinkhole is enabled"
+      }
+    ],
+    "offsetUri": "/Configuration/EnableDnsSinkhole",
     "version": "639199236441736374",
+    "name": "EnableDnsSinkhole",
+    "id": "device_vendor_msft_defender_configuration_enablednssinkhole",
+    "displayName": "[Deprecated] Enable Dns Sinkhole",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "88.8.88888",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5253,79 +5285,135 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "88.8.88888",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_enablednssinkhole_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "DNS Sinkhole is disabled",
-        "description": "DNS Sinkhole is disabled",
-        "displayName": "DNS Sinkhole is disabled"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_enablednssinkhole_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "DNS Sinkhole is enabled",
-        "description": "DNS Sinkhole is enabled",
-        "displayName": "DNS Sinkhole is enabled"
-      }
-    ],
-    "offsetUri": "/Configuration/EnableDnsSinkhole",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_enablednssinkhole_1",
-    "id": "device_vendor_msft_defender_configuration_enablednssinkhole",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "This setting is deprecated and no longer has impact on devices. This setting enables the DNS Sinkhole feature for Network Protection, respecting the value of EnableNetworkProtection for block vs audit, does nothing in inspect mode.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Enable Dns Sinkhole",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "[Deprecated] Enable Dns Sinkhole",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Enable this policy to specify when devices receive Microsoft Defender engine updates during the monthly gradual rollout.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_defender_configuration_engineupdateschannel_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
     "rootDefinitionId": "device_vendor_msft_defender_configuration_engineupdateschannel",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "EngineUpdatesChannel",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "options": [
+      {
+        "description": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_engineupdateschannel_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
+        "name": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices."
+      },
+      {
+        "description": "Beta Channel: Devices set to this channel will be the first to receive new updates. Select Beta Channel to participate in identifying and reporting issues to Microsoft. Devices in the Windows Insider Program are subscribed to this channel by default. For use in (manual) test environments only and a limited number of devices.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_engineupdateschannel_2",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 2
+        },
+        "displayName": "Beta Channel: Devices set to this channel will be the first to receive new updates. Select Beta Channel to participate in identifying and reporting issues to Microsoft. Devices in the Windows Insider Program are subscribed to this channel by default. For use in (manual) test environments only and a limited number of devices.",
+        "name": "Beta Channel: Devices set to this channel will be the first to receive new updates. Select Beta Channel to participate in identifying and reporting issues to Microsoft. Devices in the Windows Insider Program are subscribed to this channel by default. For use in (manual) test environments only and a limited number of devices."
+      },
+      {
+        "description": "Current Channel (Preview): Devices set to this channel will be offered updates earliest during the monthly gradual release cycle. Suggested for pre-production/validation environments.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_engineupdateschannel_3",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 3
+        },
+        "displayName": "Current Channel (Preview): Devices set to this channel will be offered updates earliest during the monthly gradual release cycle. Suggested for pre-production/validation environments.",
+        "name": "Current Channel (Preview): Devices set to this channel will be offered updates earliest during the monthly gradual release cycle. Suggested for pre-production/validation environments."
+      },
+      {
+        "description": "Current Channel (Staged): Devices will be offered updates after the monthly gradual release cycle. Suggested to apply to a small, representative part of your production population (~10%).",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_engineupdateschannel_4",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 4
+        },
+        "displayName": "Current Channel (Staged): Devices will be offered updates after the monthly gradual release cycle. Suggested to apply to a small, representative part of your production population (~10%).",
+        "name": "Current Channel (Staged): Devices will be offered updates after the monthly gradual release cycle. Suggested to apply to a small, representative part of your production population (~10%)."
+      },
+      {
+        "description": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in your production population (~10-100%).",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_engineupdateschannel_5",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 5
+        },
+        "displayName": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in your production population (~10-100%).",
+        "name": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in your production population (~10-100%)."
+      },
+      {
+        "description": "Critical - Time delay: Devices will be offered updates with a 48-hour delay. Suggested for critical environments only.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_engineupdateschannel_6",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 6
+        },
+        "displayName": "Critical - Time delay: Devices will be offered updates with a 48-hour delay. Suggested for critical environments only.",
+        "name": "Critical - Time delay: Devices will be offered updates with a 48-hour delay. Suggested for critical environments only."
+      }
+    ],
+    "offsetUri": "/Configuration/EngineUpdatesChannel",
     "version": "639199236441736374",
+    "name": "EngineUpdatesChannel",
+    "id": "device_vendor_msft_defender_configuration_engineupdateschannel",
+    "displayName": "Engine Updates Channel",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5338,135 +5426,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_engineupdateschannel_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
-        "description": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
-        "displayName": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_engineupdateschannel_2",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Beta Channel: Devices set to this channel will be the first to receive new updates. Select Beta Channel to participate in identifying and reporting issues to Microsoft. Devices in the Windows Insider Program are subscribed to this channel by default. For use in (manual) test environments only and a limited number of devices.",
-        "description": "Beta Channel: Devices set to this channel will be the first to receive new updates. Select Beta Channel to participate in identifying and reporting issues to Microsoft. Devices in the Windows Insider Program are subscribed to this channel by default. For use in (manual) test environments only and a limited number of devices.",
-        "displayName": "Beta Channel: Devices set to this channel will be the first to receive new updates. Select Beta Channel to participate in identifying and reporting issues to Microsoft. Devices in the Windows Insider Program are subscribed to this channel by default. For use in (manual) test environments only and a limited number of devices."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 3,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_engineupdateschannel_3",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Current Channel (Preview): Devices set to this channel will be offered updates earliest during the monthly gradual release cycle. Suggested for pre-production/validation environments.",
-        "description": "Current Channel (Preview): Devices set to this channel will be offered updates earliest during the monthly gradual release cycle. Suggested for pre-production/validation environments.",
-        "displayName": "Current Channel (Preview): Devices set to this channel will be offered updates earliest during the monthly gradual release cycle. Suggested for pre-production/validation environments."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 4,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_engineupdateschannel_4",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Current Channel (Staged): Devices will be offered updates after the monthly gradual release cycle. Suggested to apply to a small, representative part of your production population (~10%).",
-        "description": "Current Channel (Staged): Devices will be offered updates after the monthly gradual release cycle. Suggested to apply to a small, representative part of your production population (~10%).",
-        "displayName": "Current Channel (Staged): Devices will be offered updates after the monthly gradual release cycle. Suggested to apply to a small, representative part of your production population (~10%)."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 5,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_engineupdateschannel_5",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in your production population (~10-100%).",
-        "description": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in your production population (~10-100%).",
-        "displayName": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in your production population (~10-100%)."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 6,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_engineupdateschannel_6",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Critical - Time delay: Devices will be offered updates with a 48-hour delay. Suggested for critical environments only.",
-        "description": "Critical - Time delay: Devices will be offered updates with a 48-hour delay. Suggested for critical environments only.",
-        "displayName": "Critical - Time delay: Devices will be offered updates with a 48-hour delay. Suggested for critical environments only."
-      }
-    ],
-    "offsetUri": "/Configuration/EngineUpdatesChannel",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_engineupdateschannel_0",
-    "id": "device_vendor_msft_defender_configuration_engineupdateschannel",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Enable this policy to specify when devices receive Microsoft Defender engine updates during the monthly gradual rollout.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Engine Updates Channel",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Engine Updates Channel",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Allow managed devices to update through metered connections. Default is 0 - not allowed, 1 - allowed",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_defender_configuration_meteredconnectionupdates_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
     "rootDefinitionId": "device_vendor_msft_defender_configuration_meteredconnectionupdates",
-    "uxBehavior": "toggle",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "MeteredConnectionUpdates",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "options": [
+      {
+        "description": "Allowed",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_meteredconnectionupdates_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Allowed",
+        "name": "Allowed"
+      },
+      {
+        "description": "Not Allowed",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_meteredconnectionupdates_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not Allowed",
+        "name": "Not Allowed"
+      }
+    ],
+    "offsetUri": "/Configuration/MeteredConnectionUpdates",
     "version": "639199236441736374",
+    "name": "MeteredConnectionUpdates",
+    "id": "device_vendor_msft_defender_configuration_meteredconnectionupdates",
+    "displayName": "Metered Connection Updates",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5479,79 +5511,135 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_meteredconnectionupdates_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Allowed",
-        "description": "Allowed",
-        "displayName": "Allowed"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_meteredconnectionupdates_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not Allowed",
-        "description": "Not Allowed",
-        "displayName": "Not Allowed"
-      }
-    ],
-    "offsetUri": "/Configuration/MeteredConnectionUpdates",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_meteredconnectionupdates_0",
-    "id": "device_vendor_msft_defender_configuration_meteredconnectionupdates",
+    "referredSettingInformationList": [],
+    "uxBehavior": "toggle",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Allow managed devices to update through metered connections. Default is 0 - not allowed, 1 - allowed",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Metered Connection Updates",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Metered Connection Updates",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Enable this policy to specify when devices receive Microsoft Defender platform updates during the monthly gradual rollout.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_defender_configuration_platformupdateschannel_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
     "rootDefinitionId": "device_vendor_msft_defender_configuration_platformupdateschannel",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "PlatformUpdatesChannel",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "options": [
+      {
+        "description": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_platformupdateschannel_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
+        "name": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices."
+      },
+      {
+        "description": "Beta Channel: Devices set to this channel will be the first to receive new updates. Select Beta Channel to participate in identifying and reporting issues to Microsoft. Devices in the Windows Insider Program are subscribed to this channel by default. For use in (manual) test environments only and a limited number of devices.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_platformupdateschannel_2",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 2
+        },
+        "displayName": "Beta Channel: Devices set to this channel will be the first to receive new updates. Select Beta Channel to participate in identifying and reporting issues to Microsoft. Devices in the Windows Insider Program are subscribed to this channel by default. For use in (manual) test environments only and a limited number of devices.",
+        "name": "Beta Channel: Devices set to this channel will be the first to receive new updates. Select Beta Channel to participate in identifying and reporting issues to Microsoft. Devices in the Windows Insider Program are subscribed to this channel by default. For use in (manual) test environments only and a limited number of devices."
+      },
+      {
+        "description": "Current Channel (Preview): Devices set to this channel will be offered updates earliest during the monthly gradual release cycle. Suggested for pre-production/validation environments.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_platformupdateschannel_3",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 3
+        },
+        "displayName": "Current Channel (Preview): Devices set to this channel will be offered updates earliest during the monthly gradual release cycle. Suggested for pre-production/validation environments.",
+        "name": "Current Channel (Preview): Devices set to this channel will be offered updates earliest during the monthly gradual release cycle. Suggested for pre-production/validation environments."
+      },
+      {
+        "description": "Current Channel (Staged): Devices will be offered updates after the monthly gradual release cycle. Suggested to apply to a small, representative part of your production population (~10%).",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_platformupdateschannel_4",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 4
+        },
+        "displayName": "Current Channel (Staged): Devices will be offered updates after the monthly gradual release cycle. Suggested to apply to a small, representative part of your production population (~10%).",
+        "name": "Current Channel (Staged): Devices will be offered updates after the monthly gradual release cycle. Suggested to apply to a small, representative part of your production population (~10%)."
+      },
+      {
+        "description": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in your production population (~10-100%).",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_platformupdateschannel_5",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 5
+        },
+        "displayName": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in your production population (~10-100%).",
+        "name": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in your production population (~10-100%)."
+      },
+      {
+        "description": "Critical - Time delay: Devices will be offered updates with a 48-hour delay. Suggested for critical environments only.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_platformupdateschannel_6",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 6
+        },
+        "displayName": "Critical - Time delay: Devices will be offered updates with a 48-hour delay. Suggested for critical environments only.",
+        "name": "Critical - Time delay: Devices will be offered updates with a 48-hour delay. Suggested for critical environments only."
+      }
+    ],
+    "offsetUri": "/Configuration/PlatformUpdatesChannel",
     "version": "639199236441736374",
+    "name": "PlatformUpdatesChannel",
+    "id": "device_vendor_msft_defender_configuration_platformupdateschannel",
+    "displayName": "Platform Updates Channel",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5564,135 +5652,93 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_platformupdateschannel_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
-        "description": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices.",
-        "displayName": "Not configured (Default). The device will stay up to date automatically during the gradual release cycle. Suitable for most devices."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 2,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_platformupdateschannel_2",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Beta Channel: Devices set to this channel will be the first to receive new updates. Select Beta Channel to participate in identifying and reporting issues to Microsoft. Devices in the Windows Insider Program are subscribed to this channel by default. For use in (manual) test environments only and a limited number of devices.",
-        "description": "Beta Channel: Devices set to this channel will be the first to receive new updates. Select Beta Channel to participate in identifying and reporting issues to Microsoft. Devices in the Windows Insider Program are subscribed to this channel by default. For use in (manual) test environments only and a limited number of devices.",
-        "displayName": "Beta Channel: Devices set to this channel will be the first to receive new updates. Select Beta Channel to participate in identifying and reporting issues to Microsoft. Devices in the Windows Insider Program are subscribed to this channel by default. For use in (manual) test environments only and a limited number of devices."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 3,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_platformupdateschannel_3",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Current Channel (Preview): Devices set to this channel will be offered updates earliest during the monthly gradual release cycle. Suggested for pre-production/validation environments.",
-        "description": "Current Channel (Preview): Devices set to this channel will be offered updates earliest during the monthly gradual release cycle. Suggested for pre-production/validation environments.",
-        "displayName": "Current Channel (Preview): Devices set to this channel will be offered updates earliest during the monthly gradual release cycle. Suggested for pre-production/validation environments."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 4,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_platformupdateschannel_4",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Current Channel (Staged): Devices will be offered updates after the monthly gradual release cycle. Suggested to apply to a small, representative part of your production population (~10%).",
-        "description": "Current Channel (Staged): Devices will be offered updates after the monthly gradual release cycle. Suggested to apply to a small, representative part of your production population (~10%).",
-        "displayName": "Current Channel (Staged): Devices will be offered updates after the monthly gradual release cycle. Suggested to apply to a small, representative part of your production population (~10%)."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 5,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_platformupdateschannel_5",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in your production population (~10-100%).",
-        "description": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in your production population (~10-100%).",
-        "displayName": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in your production population (~10-100%)."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 6,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_platformupdateschannel_6",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Critical - Time delay: Devices will be offered updates with a 48-hour delay. Suggested for critical environments only.",
-        "description": "Critical - Time delay: Devices will be offered updates with a 48-hour delay. Suggested for critical environments only.",
-        "displayName": "Critical - Time delay: Devices will be offered updates with a 48-hour delay. Suggested for critical environments only."
-      }
-    ],
-    "offsetUri": "/Configuration/PlatformUpdatesChannel",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_platformupdateschannel_0",
-    "id": "device_vendor_msft_defender_configuration_platformupdateschannel",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Enable this policy to specify when devices receive Microsoft Defender platform updates during the monthly gradual rollout.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Platform Updates Channel",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Platform Updates Channel",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "Enable this policy to specify when devices receive Microsoft Defender security intelligence updates during the daily gradual rollout.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_0",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
     "rootDefinitionId": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "SecurityIntelligenceUpdatesChannel",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "options": [
+      {
+        "description": "Not configured (Default). Microsoft will either assign the device to Current Channel (Broad) or a beta channel early in the gradual release cycle. The channel selected by Microsoft might be one that receives updates early during the gradual release cycle, which may not be suitable for devices in a production or critical environment",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Not configured (Default). Microsoft will either assign the device to Current Channel (Broad) or a beta channel early in the gradual release cycle. The channel selected by Microsoft might be one that receives updates early during the gradual release cycle, which may not be suitable for devices in a production or critical environment",
+        "name": "Not configured (Default). Microsoft will either assign the device to Current Channel (Broad) or a beta channel early in the gradual release cycle. The channel selected by Microsoft might be one that receives updates early during the gradual release cycle, which may not be suitable for devices in a production or critical environment"
+      },
+      {
+        "description": "Current Channel (Staged): Same as Current Channel (Broad).",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_4",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 4
+        },
+        "displayName": "Current Channel (Staged): Same as Current Channel (Broad).",
+        "name": "Current Channel (Staged): Same as Current Channel (Broad)."
+      },
+      {
+        "description": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in all populations, including production.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_5",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 5
+        },
+        "displayName": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in all populations, including production.",
+        "name": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in all populations, including production."
+      }
+    ],
+    "offsetUri": "/Configuration/SecurityIntelligenceUpdatesChannel",
     "version": "639199236441736374",
+    "name": "SecurityIntelligenceUpdatesChannel",
+    "id": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel",
+    "displayName": "Security Intelligence Updates Channel",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5705,93 +5751,79 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Not configured (Default). Microsoft will either assign the device to Current Channel (Broad) or a beta channel early in the gradual release cycle. The channel selected by Microsoft might be one that receives updates early during the gradual release cycle, which may not be suitable for devices in a production or critical environment",
-        "description": "Not configured (Default). Microsoft will either assign the device to Current Channel (Broad) or a beta channel early in the gradual release cycle. The channel selected by Microsoft might be one that receives updates early during the gradual release cycle, which may not be suitable for devices in a production or critical environment",
-        "displayName": "Not configured (Default). Microsoft will either assign the device to Current Channel (Broad) or a beta channel early in the gradual release cycle. The channel selected by Microsoft might be one that receives updates early during the gradual release cycle, which may not be suitable for devices in a production or critical environment"
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 4,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_4",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Current Channel (Staged): Same as Current Channel (Broad).",
-        "description": "Current Channel (Staged): Same as Current Channel (Broad).",
-        "displayName": "Current Channel (Staged): Same as Current Channel (Broad)."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 5,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_5",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in all populations, including production.",
-        "description": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in all populations, including production.",
-        "displayName": "Current Channel (Broad): Devices will be offered updates only after the gradual release cycle completes. Suggested to apply to a broad set of devices in all populations, including production."
-      }
-    ],
-    "offsetUri": "/Configuration/SecurityIntelligenceUpdatesChannel",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel_0",
-    "id": "device_vendor_msft_defender_configuration_securityintelligenceupdateschannel",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "Enable this policy to specify when devices receive Microsoft Defender security intelligence updates during the daily gradual rollout.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Security Intelligence Updates Channel",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Security Intelligence Updates Channel",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
+    "description": "In Microsoft Defender Antivirus, randomize the start time of the scan to any interval from 0 to 23 hours. This can be useful in virtual machines or VDI deployments.",
+    "settingUsage": "configuration",
+    "defaultOptionId": "device_vendor_msft_defender_configuration_randomizescheduletasktimes_1",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
     "rootDefinitionId": "device_vendor_msft_defender_configuration_randomizescheduletasktimes",
-    "uxBehavior": "default",
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "RandomizeScheduleTaskTimes",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "options": [
+      {
+        "description": "Widen or narrow the randomization period for scheduled scans. Specify a randomization window of between 1 and 23 hours by using the setting SchedulerRandomizationTime.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_randomizescheduletasktimes_1",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 1
+        },
+        "displayName": "Widen or narrow the randomization period for scheduled scans. Specify a randomization window of between 1 and 23 hours by using the setting SchedulerRandomizationTime.",
+        "name": "Widen or narrow the randomization period for scheduled scans. Specify a randomization window of between 1 and 23 hours by using the setting SchedulerRandomizationTime."
+      },
+      {
+        "description": "Scheduled tasks will not be randomized.",
+        "dependedOnBy": [],
+        "itemId": "device_vendor_msft_defender_configuration_randomizescheduletasktimes_0",
+        "helpText": null,
+        "dependentOn": [],
+        "optionValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "settingValueTemplateReference": null,
+          "value": 0
+        },
+        "displayName": "Scheduled tasks will not be randomized.",
+        "name": "Scheduled tasks will not be randomized."
+      }
+    ],
+    "offsetUri": "/Configuration/RandomizeScheduleTaskTimes",
     "version": "639199236441736374",
+    "name": "RandomizeScheduleTaskTimes",
+    "id": "device_vendor_msft_defender_configuration_randomizescheduletasktimes",
+    "displayName": "Randomize Schedule Task Times",
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5804,84 +5836,60 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "options": [
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 1,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_randomizescheduletasktimes_1",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Widen or narrow the randomization period for scheduled scans. Specify a randomization window of between 1 and 23 hours by using the setting SchedulerRandomizationTime.",
-        "description": "Widen or narrow the randomization period for scheduled scans. Specify a randomization window of between 1 and 23 hours by using the setting SchedulerRandomizationTime.",
-        "displayName": "Widen or narrow the randomization period for scheduled scans. Specify a randomization window of between 1 and 23 hours by using the setting SchedulerRandomizationTime."
-      },
-      {
-        "dependentOn": [],
-        "optionValue": {
-          "value": 0,
-          "settingValueTemplateReference": null,
-          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-        },
-        "itemId": "device_vendor_msft_defender_configuration_randomizescheduletasktimes_0",
-        "dependedOnBy": [],
-        "helpText": null,
-        "name": "Scheduled tasks will not be randomized.",
-        "description": "Scheduled tasks will not be randomized.",
-        "displayName": "Scheduled tasks will not be randomized."
-      }
-    ],
-    "offsetUri": "/Configuration/RandomizeScheduleTaskTimes",
-    "defaultOptionId": "device_vendor_msft_defender_configuration_randomizescheduletasktimes_1",
-    "id": "device_vendor_msft_defender_configuration_randomizescheduletasktimes",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingDefinition",
-    "description": "In Microsoft Defender Antivirus, randomize the start time of the scan to any interval from 0 to 23 hours. This can be useful in virtual machines or VDI deployments.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Randomize Schedule Task Times",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Randomize Schedule Task Times",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   },
   {
-    "rootDefinitionId": "device_vendor_msft_defender_configuration_schedulerrandomizationtime",
-    "uxBehavior": "default",
     "valueDefinition": {
-      "minimumValue": 1,
       "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValueDefinition",
+      "minimumValue": 1,
       "maximumValue": 23
     },
-    "occurrence": {
-      "minDeviceOccurrence": 1,
-      "maxDeviceOccurrence": 1
-    },
-    "name": "SchedulerRandomizationTime",
+    "description": "This setting allows you to configure the scheduler randomization in hours. The randomization interval is [1 - 23] hours. For more information on the randomization effect please check the RandomizeScheduleTaskTimes setting.",
+    "settingUsage": "configuration",
+    "riskLevel": "low",
+    "accessTypes": "add,delete,get,replace",
+    "infoUrls": [
+      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
+    ],
+    "dependentOn": [],
+    "rootDefinitionId": "device_vendor_msft_defender_configuration_schedulerrandomizationtime",
+    "baseUri": "./Vendor/MSFT/Defender",
+    "dependedOnBy": [],
+    "offsetUri": "/Configuration/SchedulerRandomizationTime",
     "version": "639199236441736374",
+    "name": "SchedulerRandomizationTime",
+    "id": "device_vendor_msft_defender_configuration_schedulerrandomizationtime",
+    "displayName": "Scheduler Randomization Time",
+    "defaultValue": {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+      "settingValueTemplateReference": null,
+      "value": 4
+    },
     "applicability": {
-      "requiredAzureAdTrustType": "none",
-      "description": null,
-      "requiresAzureAd": false,
-      "platform": "windows10",
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
       "deviceMode": "none",
-      "configurationServiceProviderVersion": "1.3",
-      "minimumSupportedVersion": "10.0.14393",
-      "maximumSupportedVersion": null,
+      "description": null,
+      "platform": "windows10",
+      "technologies": "mdm,microsoftSense",
       "windowsSkus": [
         "windowsEnterprise",
         "windowsProfessional",
@@ -5894,35 +5902,27 @@
         "iotEnterpriseSEval",
         "windowsCPC"
       ],
-      "technologies": "mdm,microsoftSense"
+      "requiredAzureAdTrustType": "none",
+      "maximumSupportedVersion": null,
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationWindowsSettingApplicability",
+      "configurationServiceProviderVersion": "1.3",
+      "minimumSupportedVersion": "10.0.14393",
+      "requiresAzureAd": false
     },
-    "settingUsage": "configuration",
-    "dependentOn": [],
-    "dependedOnBy": [],
-    "offsetUri": "/Configuration/SchedulerRandomizationTime",
-    "defaultValue": {
-      "value": 4,
-      "settingValueTemplateReference": null,
-      "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
-    },
-    "id": "device_vendor_msft_defender_configuration_schedulerrandomizationtime",
+    "referredSettingInformationList": [],
+    "uxBehavior": "default",
     "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingDefinition",
-    "description": "This setting allows you to configure the scheduler randomization in hours. The randomization interval is [1 - 23] hours. For more information on the randomization effect please check the RandomizeScheduleTaskTimes setting.",
-    "helpText": "",
-    "accessTypes": "add,delete,get,replace",
-    "infoUrls": [
-      "https://docs.microsoft.com/windows/client-management/mdm/Defender-csp/"
-    ],
-    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "occurrence": {
+      "minDeviceOccurrence": 1,
+      "maxDeviceOccurrence": 1
+    },
     "keywords": [
       "Scheduler Randomization Time",
       "Defender"
     ],
-    "riskLevel": "low",
-    "baseUri": "./Vendor/MSFT/Defender",
-    "referredSettingInformationList": [],
-    "displayName": "Scheduler Randomization Time",
-    "visibility": "settingsCatalog,template"
+    "visibility": "settingsCatalog,template",
+    "categoryId": "e8400c82-34c8-4d6e-bbf9-85220f3205ea",
+    "helpText": ""
   }
 ]
 ```

@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 07/29/2026 06:04:43
+**Report Generated:** 07/30/2026 05:49:49
 
 ---
 
 ```json
 {
-  "hardwareHashExtractionEnabled": true,
+  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "preprovisioningAllowed": false,
   "outOfBoxExperienceSettings": {
-    "deviceUsageType": "singleUser",
-    "hideEULA": true,
+    "userType": "standard",
     "hideEscapeLink": true,
+    "hideEULA": true,
     "hidePrivacySettings": true,
     "skipKeyboardSelectionPage": true,
-    "userType": "standard"
+    "deviceUsageType": "singleUser"
   },
-  "language": "os-default",
   "deviceNameTemplate": "JL-%SERIAL%",
-  "description": "",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "managementServiceAppId": null,
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "enrollmentStatusScreenSettings": null,
   "outOfBoxExperienceSetting": {
     "userType": "standard",
-    "deviceUsageType": "singleUser",
-    "escapeLinkHidden": true,
-    "privacySettingsHidden": true,
+    "eulaHidden": true,
     "keyboardSelectionPageSkipped": true,
-    "eulaHidden": true
+    "escapeLinkHidden": true,
+    "deviceUsageType": "singleUser",
+    "privacySettingsHidden": true
   },
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "language": "os-default",
+  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
   "roleScopeTagIds": [
     "0"
   ],
-  "id": "54c48954-766f-4238-86da-ed2d872e793e",
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-  "enrollmentStatusScreenSettings": null,
+  "managementServiceAppId": null,
   "locale": "os-default",
-  "createdDateTime": "2026-01-23T16:04:50.2192925Z",
+  "hardwareHashExtractionEnabled": true,
+  "description": "",
   "enableWhiteGlove": false,
-  "deviceType": "windowsPc",
   "extractHardwareHash": true,
-  "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "preprovisioningAllowed": false
+  "deviceType": "windowsPc",
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile"
 }
 ```
 

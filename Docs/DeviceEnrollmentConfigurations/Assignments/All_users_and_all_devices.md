@@ -2,7 +2,7 @@
 
 **Policy ID:** 636b62ee-ef57-4f54-a1f3-0046fafc9c11_WindowsRestore
 
-**Report Generated:** 08/01/2026 06:05:17
+**Report Generated:** 08/02/2026 06:08:55
 
 ---
 
@@ -14,14 +14,14 @@
 
 ```json
 {
+  "sourceId": null,
+  "source": "direct",
   "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultLimit",
-  "sourceId": null,
   "target": {
     "deviceAndAppManagementAssignmentFilterType": "none",
     "deviceAndAppManagementAssignmentFilterId": null,
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
-  },
-  "source": "direct"
+  }
 }
 ```
 
@@ -31,14 +31,14 @@
 
 ```json
 {
+  "sourceId": null,
+  "source": "direct",
   "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultPlatformRestrictions",
-  "sourceId": null,
   "target": {
     "deviceAndAppManagementAssignmentFilterType": "none",
     "deviceAndAppManagementAssignmentFilterId": null,
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
-  },
-  "source": "direct"
+  }
 }
 ```
 
@@ -48,14 +48,14 @@
 
 ```json
 {
+  "sourceId": null,
+  "source": "direct",
   "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultWindowsHelloForBusiness",
-  "sourceId": null,
   "target": {
     "deviceAndAppManagementAssignmentFilterType": "none",
     "deviceAndAppManagementAssignmentFilterId": null,
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
-  },
-  "source": "direct"
+  }
 }
 ```
 
@@ -65,14 +65,14 @@
 
 ```json
 {
+  "sourceId": null,
+  "source": "direct",
   "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_DefaultWindows10EnrollmentCompletionPageConfiguration",
-  "sourceId": null,
   "target": {
     "deviceAndAppManagementAssignmentFilterType": "none",
     "deviceAndAppManagementAssignmentFilterId": null,
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
-  },
-  "source": "direct"
+  }
 }
 ```
 
@@ -82,14 +82,14 @@
 
 ```json
 {
-  "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_WindowsRestore",
   "sourceId": null,
+  "source": "direct",
+  "id": "636b62ee-ef57-4f54-a1f3-0046fafc9c11_WindowsRestore",
   "target": {
     "deviceAndAppManagementAssignmentFilterType": "none",
     "deviceAndAppManagementAssignmentFilterId": null,
     "@odata.type": "#microsoft.graph.allDevicesAssignmentTarget"
-  },
-  "source": "direct"
+  }
 }
 ```
 

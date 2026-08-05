@@ -10,48 +10,48 @@
 
 [**Assignments**](./Assignments/JoeLoveless_Autopilot_UserDriven.md)
 
-**Report Generated:** 08/04/2026 05:54:42
+**Report Generated:** 08/05/2026 05:51:57
 
 ---
 
 ```json
 {
   "lastModifiedDateTime": "2026-01-23T16:04:50.2192925Z",
-  "enrollmentStatusScreenSettings": null,
-  "locale": "os-default",
-  "extractHardwareHash": true,
-  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
   "outOfBoxExperienceSetting": {
-    "escapeLinkHidden": true,
     "userType": "standard",
     "keyboardSelectionPageSkipped": true,
     "eulaHidden": true,
     "privacySettingsHidden": true,
+    "escapeLinkHidden": true,
     "deviceUsageType": "singleUser"
   },
-  "deviceNameTemplate": "JL-%SERIAL%",
+  "enrollmentStatusScreenSettings": null,
   "outOfBoxExperienceSettings": {
     "userType": "standard",
-    "skipKeyboardSelectionPage": true,
-    "hideEscapeLink": true,
     "hidePrivacySettings": true,
     "deviceUsageType": "singleUser",
-    "hideEULA": true
+    "skipKeyboardSelectionPage": true,
+    "hideEULA": true,
+    "hideEscapeLink": true
   },
-  "language": "os-default",
+  "preprovisioningAllowed": false,
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "deviceNameTemplate": "JL-%SERIAL%",
   "managementServiceAppId": null,
-  "displayName": "JoeLoveless_Autopilot_UserDriven",
-  "deviceType": "windowsPc",
-  "hardwareHashExtractionEnabled": true,
+  "description": "",
   "enableWhiteGlove": false,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
   "roleScopeTagIds": [
     "0"
   ],
+  "id": "54c48954-766f-4238-86da-ed2d872e793e",
+  "hardwareHashExtractionEnabled": true,
+  "displayName": "JoeLoveless_Autopilot_UserDriven",
+  "deviceType": "windowsPc",
+  "language": "os-default",
+  "extractHardwareHash": true,
   "createdDateTime": "2026-01-23T16:04:50.2192925Z",
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
-  "preprovisioningAllowed": false,
-  "description": "",
-  "id": "54c48954-766f-4238-86da-ed2d872e793e"
+  "locale": "os-default"
 }
 ```
 
